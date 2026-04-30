@@ -1,0 +1,87 @@
+# =============================================================
+# PARIA — .gitignore
+# =============================================================
+
+# ----- RAW DATA (never committed — too large, may be sensitive) -----
+data/raw/
+
+# ----- SIMULATION OUTPUTS (ephemeral — pipeline regenerates them) -----
+# Commit output only when it represents a verified milestone result.
+# Routine runs should not pollute history.
+output/tables/
+output/figures/
+output/logs/
+
+# ----- PROCESSED DATA (regenerable — commit the scripts, not the artifacts) -----
+data/processed/
+
+# ----- PYTHON -----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+*.whl
+.pytest_cache/
+.mypy_cache/
+
+# ----- VIRTUAL ENVIRONMENTS -----
+.venv/
+venv/
+env/
+ENV/
+.conda/
+
+# ----- JUPYTER -----
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ----- IDE / EDITOR -----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ----- PYMC / ARVIZ TRACES (large, regenerable) -----
+*.nc
+*.zarr/
+
+# ----- MESA SIMULATION CHECKPOINTS -----
+*.pkl
+*.pickle
+
+# ----- OS -----
+desktop.ini
+$RECYCLE.BIN/
+
+# ----- CLAUDE CODE SESSION DATA -----
+.claude/
+
+# ----- SECRETS -----
+.env
+*.key
+secrets.*
+
+# =============================================================
+# What IS committed:
+#   code/          — all scripts (01_intake.py through run_all.py)
+#   docs/          — CLAUDE.md, variables.json, novelty_assessment.md, pre_analysis_plan.md
+#   CLAUDE.md      — project constitution
+#   meta.md        — living decisions log
+#   README.md      — project overview
+#   .gitignore     — this file
+#   Theory/        — source working paper PDF
+#   tests/         — verification scripts
+#
+# What is NOT committed:
+#   data/raw/      — raw calibration data (document provenance in README instead)
+#   data/processed/— regenerable from pipeline
+#   output/        — regenerable from pipeline (commit milestone snapshots manually)
+# =============================================================
