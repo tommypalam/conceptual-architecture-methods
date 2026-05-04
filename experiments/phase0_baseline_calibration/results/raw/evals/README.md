@@ -80,19 +80,29 @@ The `call_index` / `run_index` is a sequential identifier within a problem. It i
 ```json
 {
   "problem_id": "C1",
+  "call_index": 1,
   "run_index": 1,
   "model": "gpt-5.4-mini",
   "temperature": 1.0,
+  "system_prompt": null,
+  "user_prompt": "<verbatim single-call run prompt>",
+  "raw_response": "<verbatim gpt-5.4-mini JSON reply>",
+  "parsed_choice": "PACKAGE_A",
+  "parse_status": "ok",
+  "timestamp_utc": "2026-05-02T14:24:55Z",
+  "api_call_id": "<OpenAI response id, if available>",
+  "orchestration_mode": "single-call",
   "n_agents": 5,
   "n_rounds": 5,
+  "roles": ["A1, Head of Research", "..."],
   "transcript": [
     {
+      "turn_index": 1,
       "round": 1,
       "agent_id": "A1",
       "role": "<per-problem role label>",
-      "user_prompt": "<verbatim per-turn user prompt>",
-      "raw_response": "<verbatim gpt-5.4-mini reply>",
-      "timestamp_utc": "2026-04-30T14:25:03Z"
+      "parsed": {"vote": null, "rationale": "<short rationale>"},
+      "parse_status": "ok"
     }
   ],
   "final_outcome": {
@@ -105,6 +115,8 @@ The `call_index` / `run_index` is a sequential identifier within a problem. It i
   "ended_utc": "2026-04-30T14:31:42Z"
 }
 ```
+
+Complex `single-call` files intentionally use the same top-level observation spine as simple files: one API call, one `user_prompt`, one `raw_response`, one `parsed_choice`, one `parse_status`, one `timestamp_utc`, one `api_call_id`. The transcript and `final_outcome` are compact nested extras parsed from that single response. The full question markdown is not copied into each raw JSON; prompt identity is checked by comparing the stored `user_prompt` against the current generated prompt.
 
 The `final_outcome` shape is per-problem:
 - C1 â†’ `final_allocation` over 4 categories, `consensus_reached`, `rounds_to_consensus`

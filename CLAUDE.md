@@ -100,10 +100,10 @@ The proof-of-concept tests a **defensible subset of 8â€“12 configurations**
 
 ## Current Phase Status
 
-- Phase 0 â€” Baseline calibration (50/50 RLHF check via gpt-5.4-mini): **ACTIVE**
+- Phase 0 â€” Baseline calibration (50/50 RLHF check via gpt-5.4-mini): **COMPLETE** (all 6 problems locked 2026-05-02)
 - Phase 1 â€” Foundations: **COMPLETE** (10 parameters + 5 canonical definitions)
 - Phase 2 â€” Distribution Modelling: **SUBSTANTIALLY COMPLETE** (Beta marginals + copula R matrix)
-- Phase 3 â€” System Architecture: **NEXT** (tool-based injection mechanism)
+- Phase 3 â€” System Architecture: **ACTIVE NEXT** (tool-based injection mechanism)
 - Phase 4 â€” Simulation: pending
 - Phase 5 â€” Evaluation: pending
 - Phase 6 â€” Analysis and Writing: pending

@@ -20,6 +20,28 @@
 
 ---
 
+### [2026-05-02] — Phase 0 complex-problem calibration COMPLETE: all three locked (C1 PASS, C2 PASS, C3 PASS)
+
+**Result:**
+
+| Problem | N | Split | 95% Wilson CI | Verdict |
+|---|---|---|---|---|
+| C1 | 200 | PACKAGE_A 51.5% / PACKAGE_B 48.5% (103/97) | [44.6%, 58.3%] on PACKAGE_A | PASS — well-calibrated |
+| C2 | 200 | APPROVE 50.0% / REJECT 50.0% (100/100) | [43.1%, 56.9%] on APPROVE | PASS — well-calibrated |
+| C3 | 200 | CONTINUE 51.0% / PIVOT 49.0% (102/98) | [44.1%, 57.8%] on CONTINUE | PASS — well-calibrated |
+
+All three problems: 200 unique `api_call_id`s, `parse_status="ok"` for 600/600 calls. Independence and parse integrity confirmed. Prompts verified to match current question files (200/200 each).
+
+**Note on C1:** Earlier calibration passes had produced a stable ~57–58% PACKAGE_A lean. The final validation run produced 51.5%, well within the well-calibrated band. Both readings are consistent with sampling variance around a slightly PACKAGE_A-favoured mode; the final locked value is 51.5%.
+
+**Phase 0 complete. All six problems (S1, S2, S3, C1, C2, C3) locked.**
+
+Next phase: Phase 3 — System Architecture (tool-based injection mechanism).
+
+**CLAUDE.md changes:** None required. Phase status update only.
+
+---
+
 ### [2026-05-01] — Phase 0 simple-problem calibration COMPLETE: all three locked (S1 PASS, S2 PASS, S3 PASS)
 
 **Result:**
@@ -310,7 +332,8 @@ Full records of five-agent panel discussions. Indexed by date and topic.
 | 2026-05-01 | Phase 0 simple-problem N=200 calibration | S1 PASS (53/47), S2 PASS (51/49), S3 MARGINAL (61/39 PIVOT lean, CI excludes 50%) → S3 scenario rewrite required; S1/S2 locked | experiments/phase0_baseline_calibration/README.md, meta.md |
 | 2026-05-01 | S3 scenario-level rewrite | Startup-pivot family retired after archive cross-examination (~20 retunes exhausted, structural mode collapse). Replaced with Department Reorganisation (ADOPT/WAIT). Ready for smoke test. | questions/S3_strategic_pivot.md, questions/archive/n200_s3_pivot_lean_61_2026-05-01/, questions/archive/README.md, code/phase0_run_simple.py, experiments/phase0_baseline_calibration/README.md, meta.md |
 | 2026-05-01 | Phase 0 simple problems COMPLETE | S1 PASS (106/94), S2 PASS (102/98), S3 PASS (100/100 ADOPT/WAIT, Dept Reorganisation v7). All 600 calls independent, all parse_ok. Simple problems locked. | experiments/phase0_baseline_calibration/README.md, meta.md |
+| 2026-05-02 | Phase 0 complex problems COMPLETE | C1 PASS (103/97 PACKAGE_A), C2 PASS (100/100 APPROVE/REJECT), C3 PASS (102/98 CONTINUE/PIVOT). All 600 calls independent, all parse_ok. Complex problems locked. Phase 0 complete. | questions/C1_resource_council.md, questions/C2_restructuring_board.md, questions/C3_scientific_approach_dilemma.md, meta.md |
 
 ---
 
-*Last updated: 2026-05-01*
+*Last updated: 2026-05-02*

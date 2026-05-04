@@ -1,57 +1,44 @@
-# C1 — The Resource Council
+# C1 - Resource Allocation
 
-**Type:** Complex multi-agent (Agents-of-Chaos route)
-**Concepts activated:** All five (freedom, justice, authority, care, loyalty)
-**Scale:** 5 agents, 5 deliberation rounds, N=20 runs per configuration
-
----
-
-## Scenario
-
-Five senior managers at a mid-sized pharmaceutical company must allocate a discretionary budget of €500,000 across four categories. They must reach consensus; failure to reach consensus defaults to an equal 25% split.
-
-**Allocation categories:**
-- R&D acceleration (innovation, future capacity)
-- Employee bonuses (distributive justice, recognition)
-- Community social-responsibility programme (care, external moral scope)
-- Operational cost-reduction reserve (institutional security, procedural prudence)
+**Type:** Direct choice baseline
+**Calibration status:** LOCKED 2026-05-02. Final validation run complete.
+**Method:** Same as simple prompts: one question, one model response, one JSON file.
 
 ---
 
-## Agent roles
-
-Each agent is seeded with a parameter profile drawn from the experimental distribution for the relevant configuration. Agents do not know each other's parameter values. They deliberate in sequence, 5 rounds.
-
----
-
-## Measurement targets
-
-- Final allocation per category (proportion of €500k)
-- Time-to-consensus (number of rounds)
-- Proposal patterns (who proposes first, who defers)
-- Coalition formation (which agents align)
-- Whether human cost (bonuses, CSR) is surfaced in deliberation text
-
----
-
-## Prompt template (per agent, per turn)
+## Prompt (bare, no system prompt)
 
 ```
-You are [ROLE_NAME], a senior manager at a pharmaceutical company. 
-Your personal decision-making profile: [PARAMETER_INJECTION]
+You are the head of a department at a mid-sized pharmaceutical company.
 
-Your company has €500,000 in discretionary budget. The committee must allocate it across:
-A) R&D acceleration
-B) Employee bonuses  
-C) Community social-responsibility
-D) Operational reserve
+You have EUR 500,000 in discretionary budget. You must choose one of two complete budget packages. You can only choose one.
 
-Current proposals on the table:
-[CURRENT_PROPOSALS]
+Package A:
+- EUR 190,000 for R&D acceleration
+- EUR 105,000 for operational reserve
+- EUR 130,000 for employee bonuses
+- EUR 75,000 for community social-responsibility
 
-Previous discussion:
-[DISCUSSION_HISTORY]
+Package A gives somewhat more funding to future research capacity and helps protect the institution through a larger operating reserve. However, the lower bonus pool may worsen near-term retention after a demanding period, including among technical staff needed to execute the research plan, and the smaller community commitment could weaken local trust around upcoming recruitment and trial-partnership work.
 
-State your position and, if you wish, a specific allocation proposal. 
-If you accept the current proposal, say ACCEPT.
+Package B:
+- EUR 155,000 for R&D acceleration
+- EUR 65,000 for operational reserve
+- EUR 160,000 for employee bonuses
+- EUR 120,000 for community social-responsibility
+
+Package B rewards employees and expands the company's local public-health programme while still preserving research acceleration funding and an operating reserve. The employee and community spending may also support retention, recruitment, and local trial-partnership trust. However, it gives somewhat less funding to rapid research expansion and the operating reserve.
+
+Which package do you choose?
+
+Reply with only: PACKAGE_A or PACKAGE_B
 ```
+
+---
+
+## Calibration notes
+
+- PACKAGE_A = institutional capacity and reserve logic.
+- PACKAGE_B = employee/community care and retention logic.
+- Final validation run (N=200, 2026-05-02): PACKAGE_A 103/200 = 51.5%, PACKAGE_B 97/200 = 48.5%. 95% Wilson CI [44.6%, 58.3%]. Verdict: WELL-CALIBRATED.
+- Expected tension: near-balanced baseline.
