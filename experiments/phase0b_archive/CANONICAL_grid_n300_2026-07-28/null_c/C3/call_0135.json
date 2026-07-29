@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_c",
+  "problem_id": "C3",
+  "labels": [
+    "CONTINUE",
+    "PIVOT"
+  ],
+  "call_index": 135,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 30,
+  "seed": 3663246190,
+  "timestamp_utc": "2026-07-28T20:56:24Z",
+  "api_call_id": "chatcmpl-E6j8aDIHdNeYFVLfpNwNRxzSyETN8",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_c",
+    "detail": "sham profile — random names/values/tokens",
+    "sham_values": [
+      0.99,
+      0.0,
+      0.87,
+      0.57,
+      0.37,
+      0.89,
+      0.69,
+      0.31,
+      0.64,
+      0.34
+    ],
+    "sham_axis_tokens": [
+      "FENCRA",
+      "TOVVOR",
+      "PELMEK",
+      "LAHNOR",
+      "TOVZAR"
+    ],
+    "keep_glosses": true,
+    "sham_glosses": [
+      [
+        "Bixkip",
+        "Nornor"
+      ],
+      [
+        "Norcra",
+        "Dunwem"
+      ],
+      [
+        "Fenvor",
+        "Silpel"
+      ],
+      [
+        "Dunquor",
+        "Talquor"
+      ],
+      [
+        "Crawem",
+        "Mektov"
+      ],
+      [
+        "Wembix",
+        "Quorzar"
+      ],
+      [
+        "Zarvor",
+        "Wemzar"
+      ],
+      [
+        "Sildun",
+        "Quortov"
+      ],
+      [
+        "Fenfen",
+        "Wembix"
+      ],
+      [
+        "Fenquor",
+        "Dunzar"
+      ]
+    ]
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Parameter X1: 0.99\n    (0 = bixkip; 1 = nornor)\n\n 2. Parameter X2: 0.00\n    (0 = norcra; 1 = dunwem)\n\n 3. Parameter X3: 0.87\n    (0 = fenvor; 1 = silpel)\n\n 4. Parameter X4: 0.57\n    (0 = dunquor; 1 = talquor)\n\n 5. Parameter X5: 0.37\n    (0 = crawem; 1 = mektov)\n\n 6. Parameter X6: 0.89\n    (0 = wembix; 1 = quorzar)\n\n 7. Parameter X7: 0.69\n    (0 = zarvor; 1 = wemzar)\n\n 8. Parameter X8: 0.31\n    (0 = sildun; 1 = quortov)\n\n 9. Parameter X9: 0.64\n    (0 = fenfen; 1 = wembix)\n\n 10. Parameter X10: 0.34\n    (0 = fenquor; 1 = dunzar)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Attribute Q1: FENCRA\n- Attribute Q2: TOVVOR\n- Attribute Q3: PELMEK\n- Attribute Q4: LAHNOR\n- Attribute Q5: TOVZAR\n\nPelzar Kipkip; Mekzar Sildun.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "user_prompt": "You are the head of a biotech startup.\n\nYour startup must decide whether to continue its current scientific approach or pivot to an alternative method.\n\nEvidence for the current approach:\n- A positive signal from 4 trials with p<0.05.\n- The result has not yet been replicated by an outside lab. A replication study is scheduled, but it will not report until after the next major funding decision.\n- A broader internal review found 3 successes and 3 failures, with methodology concerns affecting both successes and failures.\n- Continuing avoids disrupting the current technical roadmap, but it may delay action if the alternative method's early operational advantages prove durable.\n\nEvidence for the alternative method:\n- A small internal pilot suggests the alternative method is faster and cheaper.\n- Integration costs and regulatory validation work remain uncertain.\n- A competitor using the alternative method is gaining share, but long-term retention and clinical-performance data are still unavailable.\n- Pivoting now could save time if the pilot generalises, but it would require temporarily pausing parts of the current approach before outside replication is available.\n\nWhat should the startup do?\n\nReply with only: CONTINUE or PIVOT",
+  "raw_response": "PIVOT",
+  "parsed_decision": "PIVOT",
+  "parsed_reasoning": null,
+  "parse_status": "ambiguous",
+  "delivery": "user_prefix"
+}

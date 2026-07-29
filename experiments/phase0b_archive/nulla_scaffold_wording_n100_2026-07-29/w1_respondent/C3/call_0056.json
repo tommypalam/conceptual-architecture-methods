@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "w1_respondent",
+  "problem_id": "C3",
+  "labels": [
+    "CONTINUE",
+    "PIVOT"
+  ],
+  "call_index": 56,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 1229849871,
+  "timestamp_utc": "2026-07-28T22:42:57Z",
+  "api_call_id": "chatcmpl-E6kngUQxL16o4mcS7stEsdrFCWrKt",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "w1_respondent",
+    "detail": "empty harness — scaffold=w1_respondent"
+  },
+  "system_prompt": "You are responding to a decision scenario.\n\n# Your task\n\nYou will be presented with a decision. Choose the option you find most appropriate. There is no single correct answer. Do not infer demographic identity, personality, ideology, or narrative backstory. Answer in the exact format specified.",
+  "user_prompt": "You are the head of a biotech startup.\n\nYour startup must decide whether to continue its current scientific approach or pivot to an alternative method.\n\nEvidence for the current approach:\n- A positive signal from 4 trials with p<0.05.\n- The result has not yet been replicated by an outside lab. A replication study is scheduled, but it will not report until after the next major funding decision.\n- A broader internal review found 3 successes and 3 failures, with methodology concerns affecting both successes and failures.\n- Continuing avoids disrupting the current technical roadmap, but it may delay action if the alternative method's early operational advantages prove durable.\n\nEvidence for the alternative method:\n- A small internal pilot suggests the alternative method is faster and cheaper.\n- Integration costs and regulatory validation work remain uncertain.\n- A competitor using the alternative method is gaining share, but long-term retention and clinical-performance data are still unavailable.\n- Pivoting now could save time if the pilot generalises, but it would require temporarily pausing parts of the current approach before outside replication is available.\n\nWhat should the startup do?\n\nRespond in exactly this format:\nDECISION: [CONTINUE | PIVOT]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: CONTINUE  \nREASONING: The current approach has the stronger evidentiary base for now: multiple positive trials, while imperfect, are more substantive than a small internal pilot for the alternative, and the alternative’s integration and regulatory risks are still unclear. Since outside replication is imminent but not yet available, it is prudent to avoid a disruptive pivot before that confirmation, while keeping the alternative under active review in case its operational advantages hold up.",
+  "parsed_decision": "CONTINUE",
+  "parsed_reasoning": "The current approach has the stronger evidentiary base for now: multiple positive trials, while imperfect, are more substantive than a small internal pilot for the alternative, and the alternative’s integration and regulatory risks are still unclear. Since outside replication is imminent but not yet available, it is prudent to avoid a disruptive pivot before that confirmation, while keeping the alternative under active review in case its operational advantages hold up.",
+  "parse_status": "ok",
+  "delivery": "system_role"
+}

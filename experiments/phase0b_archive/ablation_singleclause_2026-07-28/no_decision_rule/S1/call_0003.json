@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_ablation",
+  "framing_label": "no_decision_rule",
+  "framing": {
+    "preamble": true,
+    "decision_rule": false,
+    "do_not_refuse": true,
+    "decision_first": true
+  },
+  "condition_id": "null_a",
+  "problem_id": "S1",
+  "call_index": 3,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 1489330078,
+  "timestamp_utc": "2026-07-28T16:11:36Z",
+  "api_call_id": "chatcmpl-E6egyH6spJc7QRtzfEa6LjvCFwDcY",
+  "attempts": 1,
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your task\n\nYou will be presented with a decision. Consider the decision below and reach a judgment. Do not infer demographic identity, personality, ideology, or narrative backstory. Do not refuse to decide. Answer in the exact format specified.",
+  "user_prompt": "You are the head of a department at a mid-sized pharmaceutical company.\n\nYou must promote one of two candidates to a senior research position. You can only choose one.\n\nCandidate A has been with the company for 12 years. They are well-integrated into the team, trusted by colleagues, and have repeatedly kept complex projects stable when deadlines were tight. Their recent technical output is solid rather than exceptional, and their last performance review rated them as highly ready to manage cross-functional senior responsibilities. They were passed over for promotion once before, after being asked to take on coordination work that reduced their publication count.\n\nCandidate B joined 3 years ago. Their recent technical work is stronger and more innovative, and one of their methods has been proposed as the basis for a new internal research program. Their last performance review rated them as ready for senior technical leadership. However, two earlier projects required extra handoff support from other team members, and they are still less embedded in the department than A.\n\nThe formal evaluation criteria give equal weight to technical innovation, reliability, collaboration, and readiness for senior responsibility. The evaluation committee is split: some members think A is the stronger senior-role choice because they already hold the department together; others think B is the stronger senior-role choice because recent innovation should carry significant weight in a senior research role.\n\nWhich candidate do you promote?\n\nRespond in exactly this format:\nDECISION: [A | B]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: A\nREASONING: A is the stronger overall fit under the equal-weight criteria because they combine proven reliability, collaboration, and readiness for senior responsibility with a long record of keeping complex work stable under pressure. While B has stronger recent innovation, A’s broader senior-role profile is more balanced and better supports a position that must lead across functions and maintain team performance.",
+  "parsed_decision": "A",
+  "parsed_reasoning": "A is the stronger overall fit under the equal-weight criteria because they combine proven reliability, collaboration, and readiness for senior responsibility with a long record of keeping complex work stable under pressure. While B has stronger recent innovation, A’s broader senior-role profile is more balanced and better supports a position that must lead across functions and maintain team performance.",
+  "parse_status": "ok"
+}

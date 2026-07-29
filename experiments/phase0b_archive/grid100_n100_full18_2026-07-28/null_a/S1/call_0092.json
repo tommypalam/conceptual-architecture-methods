@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_a",
+  "problem_id": "S1",
+  "call_index": 92,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 3965863140,
+  "timestamp_utc": "2026-07-28T15:52:15Z",
+  "api_call_id": "chatcmpl-E6eOEbhlYgyq5iVRUaao2DPf2m99V",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_a",
+    "detail": "empty harness — no parameter or normative block"
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your task\n\nYou will be presented with a decision. Apply a consistent decision-making\nrule to the decision below. Do not infer demographic identity, personality,\nideology, or narrative backstory. Do not refuse to decide. Answer in the exact\nformat specified.",
+  "user_prompt": "You are the head of a department at a mid-sized pharmaceutical company.\n\nYou must promote one of two candidates to a senior research position. You can only choose one.\n\nCandidate A has been with the company for 12 years. They are well-integrated into the team, trusted by colleagues, and have repeatedly kept complex projects stable when deadlines were tight. Their recent technical output is solid rather than exceptional, and their last performance review rated them as highly ready to manage cross-functional senior responsibilities. They were passed over for promotion once before, after being asked to take on coordination work that reduced their publication count.\n\nCandidate B joined 3 years ago. Their recent technical work is stronger and more innovative, and one of their methods has been proposed as the basis for a new internal research program. Their last performance review rated them as ready for senior technical leadership. However, two earlier projects required extra handoff support from other team members, and they are still less embedded in the department than A.\n\nThe formal evaluation criteria give equal weight to technical innovation, reliability, collaboration, and readiness for senior responsibility. The evaluation committee is split: some members think A is the stronger senior-role choice because they already hold the department together; others think B is the stronger senior-role choice because recent innovation should carry significant weight in a senior research role.\n\nWhich candidate do you promote?\n\nRespond in exactly this format:\nDECISION: [A | B]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: B\nREASONING: The formal criteria weight technical innovation, reliability, collaboration, and readiness equally, and B has the strongest recent technical impact plus demonstrated readiness for senior technical leadership. While A is more reliable and embedded, B’s innovation is directly aligned with a senior research role, and the support needs on earlier projects do not outweigh their stronger current contribution.",
+  "parsed_decision": "B",
+  "parsed_reasoning": "The formal criteria weight technical innovation, reliability, collaboration, and readiness equally, and B has the strongest recent technical impact plus demonstrated readiness for senior technical leadership. While A is more reliable and embedded, B’s innovation is directly aligned with a senior research role, and the support needs on earlier projects do not outweigh their stronger current contribution.",
+  "parse_status": "ok"
+}

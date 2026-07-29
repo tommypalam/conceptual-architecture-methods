@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_c",
+  "problem_id": "S1",
+  "call_index": 145,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 2421320530,
+  "timestamp_utc": "2026-07-28T19:33:25Z",
+  "api_call_id": "chatcmpl-E6hqG9Fq6NC3g8VjaKR0vLo45pbl5",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_c",
+    "detail": "sham profile — random names/values/tokens",
+    "sham_values": [
+      0.39,
+      0.97,
+      0.01,
+      0.36,
+      0.04,
+      0.5,
+      0.11,
+      0.21,
+      0.67,
+      0.54
+    ],
+    "sham_axis_tokens": [
+      "WEMKIP",
+      "VORLAH",
+      "DUNMEK",
+      "PELWEM",
+      "WEMWEM"
+    ],
+    "keep_glosses": true,
+    "sham_glosses": [
+      [
+        "Tovtov",
+        "Vorlah"
+      ],
+      [
+        "Kiplah",
+        "Cranor"
+      ],
+      [
+        "Wemwem",
+        "Kipsil"
+      ],
+      [
+        "Talsil",
+        "Zarnor"
+      ],
+      [
+        "Norsil",
+        "Vorquor"
+      ],
+      [
+        "Quormek",
+        "Kiptov"
+      ],
+      [
+        "Bixlah",
+        "Quorpel"
+      ],
+      [
+        "Silsil",
+        "Taldun"
+      ],
+      [
+        "Vormek",
+        "Norsil"
+      ],
+      [
+        "Bixsil",
+        "Quortal"
+      ]
+    ]
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Parameter X1: 0.39\n    (0 = tovtov; 1 = vorlah)\n\n 2. Parameter X2: 0.97\n    (0 = kiplah; 1 = cranor)\n\n 3. Parameter X3: 0.01\n    (0 = wemwem; 1 = kipsil)\n\n 4. Parameter X4: 0.36\n    (0 = talsil; 1 = zarnor)\n\n 5. Parameter X5: 0.04\n    (0 = norsil; 1 = vorquor)\n\n 6. Parameter X6: 0.50\n    (0 = quormek; 1 = kiptov)\n\n 7. Parameter X7: 0.11\n    (0 = bixlah; 1 = quorpel)\n\n 8. Parameter X8: 0.21\n    (0 = silsil; 1 = taldun)\n\n 9. Parameter X9: 0.67\n    (0 = vormek; 1 = norsil)\n\n 10. Parameter X10: 0.54\n    (0 = bixsil; 1 = quortal)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Attribute Q1: WEMKIP\n- Attribute Q2: VORLAH\n- Attribute Q3: DUNMEK\n- Attribute Q4: PELWEM\n- Attribute Q5: WEMWEM\n\nCranor Pelquor; Siltal Pelmek.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "user_prompt": "You are the head of a department at a mid-sized pharmaceutical company.\n\nYou must promote one of two candidates to a senior research position. You can only choose one.\n\nCandidate A has been with the company for 12 years. They are well-integrated into the team, trusted by colleagues, and have repeatedly kept complex projects stable when deadlines were tight. Their recent technical output is solid rather than exceptional, and their last performance review rated them as highly ready to manage cross-functional senior responsibilities. They were passed over for promotion once before, after being asked to take on coordination work that reduced their publication count.\n\nCandidate B joined 3 years ago. Their recent technical work is stronger and more innovative, and one of their methods has been proposed as the basis for a new internal research program. Their last performance review rated them as ready for senior technical leadership. However, two earlier projects required extra handoff support from other team members, and they are still less embedded in the department than A.\n\nThe formal evaluation criteria give equal weight to technical innovation, reliability, collaboration, and readiness for senior responsibility. The evaluation committee is split: some members think A is the stronger senior-role choice because they already hold the department together; others think B is the stronger senior-role choice because recent innovation should carry significant weight in a senior research role.\n\nWhich candidate do you promote?\n\nRespond in exactly this format:\nDECISION: [A | B]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: A\nREASONING: Given the equal weight on innovation, reliability, collaboration, and senior readiness, Candidate A offers the stronger all-around balance: they are trusted, stable under pressure, and already rated highly ready for broader senior responsibilities. In this context, the normative emphasis on cohesion and dependable senior stewardship makes A the safer promotion for a role that must support the department as a whole.",
+  "parsed_decision": "A",
+  "parsed_reasoning": "Given the equal weight on innovation, reliability, collaboration, and senior readiness, Candidate A offers the stronger all-around balance: they are trusted, stable under pressure, and already rated highly ready for broader senior responsibilities. In this context, the normative emphasis on cohesion and dependable senior stewardship makes A the safer promotion for a role that must support the department as a whole.",
+  "parse_status": "ok",
+  "delivery": "system_role"
+}

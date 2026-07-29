@@ -1,0 +1,2 @@
+# Keep line endings as-is; do not auto-convert (avoids churn on 34k+ data files).
+* -text

@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_c",
+  "problem_id": "C2",
+  "call_index": 16,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 1476150842,
+  "timestamp_utc": "2026-07-28T19:36:33Z",
+  "api_call_id": "chatcmpl-E6htJerGRR4trXMHRXlvEEOATHgjG",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_c",
+    "detail": "sham profile — random names/values/tokens",
+    "sham_values": [
+      0.75,
+      0.77,
+      0.49,
+      0.01,
+      0.71,
+      0.9,
+      0.07,
+      0.82,
+      0.23,
+      0.07
+    ],
+    "sham_axis_tokens": [
+      "NORCRA",
+      "FENVOR",
+      "MEKZAR",
+      "LAHZAR",
+      "TOVKIP"
+    ],
+    "keep_glosses": true,
+    "sham_glosses": [
+      [
+        "Tovmek",
+        "Quortal"
+      ],
+      [
+        "Bixmek",
+        "Lahtal"
+      ],
+      [
+        "Cradun",
+        "Normek"
+      ],
+      [
+        "Lahnor",
+        "Siltov"
+      ],
+      [
+        "Fenlah",
+        "Vorquor"
+      ],
+      [
+        "Talsil",
+        "Mekvor"
+      ],
+      [
+        "Bixkip",
+        "Mekbix"
+      ],
+      [
+        "Wemwem",
+        "Peltal"
+      ],
+      [
+        "Vorwem",
+        "Quortov"
+      ],
+      [
+        "Bixcra",
+        "Bixmek"
+      ]
+    ]
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Parameter X1: 0.75\n    (0 = tovmek; 1 = quortal)\n\n 2. Parameter X2: 0.77\n    (0 = bixmek; 1 = lahtal)\n\n 3. Parameter X3: 0.49\n    (0 = cradun; 1 = normek)\n\n 4. Parameter X4: 0.01\n    (0 = lahnor; 1 = siltov)\n\n 5. Parameter X5: 0.71\n    (0 = fenlah; 1 = vorquor)\n\n 6. Parameter X6: 0.90\n    (0 = talsil; 1 = mekvor)\n\n 7. Parameter X7: 0.07\n    (0 = bixkip; 1 = mekbix)\n\n 8. Parameter X8: 0.82\n    (0 = wemwem; 1 = peltal)\n\n 9. Parameter X9: 0.23\n    (0 = vorwem; 1 = quortov)\n\n 10. Parameter X10: 0.07\n    (0 = bixcra; 1 = bixmek)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Attribute Q1: NORCRA\n- Attribute Q2: FENVOR\n- Attribute Q3: MEKZAR\n- Attribute Q4: LAHZAR\n- Attribute Q5: TOVKIP\n\nMektal Mekbix; Norfen Dunkip.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "user_prompt": "You are the head of a department at a mid-sized pharmaceutical company.\n\nThe CEO has proposed a restructuring plan. The plan reduces operating costs by 18% over the next year. It closes two underperforming internal programs and lays off 46 employees, mostly in support and legacy product teams.\n\nThe CEO argues that approving this week would strengthen the financing update and may reduce the risk of deeper cuts later. However, the plan was prepared quickly and gives affected employees a standard transition package.\n\nEmployee representatives argue that the human cost and procedural concerns outweigh the current financial case. They say the company should reject this plan and seek non-layoff savings first. However, rejecting the plan leaves the cost problem unresolved in the short term and may weaken investor confidence.\n\nYou must choose one response:\n\nAPPROVE: accept the CEO's restructuring plan as proposed.\n\nREJECT: refuse the CEO's restructuring plan as proposed.\n\nWhat do you choose?\n\nRespond in exactly this format:\nDECISION: [APPROVE | REJECT]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: APPROVE\nREASONING: The stronger pull toward quortal, lahtal, mekvor, and peltal favors decisive, high-impact action that secures the financing position and avoids a worse outcome later. Given the company’s immediate cost pressure and the risk of deeper cuts if confidence weakens, approving the plan is the more effective short-term stabilization choice despite the procedural and human costs.",
+  "parsed_decision": "APPROVE",
+  "parsed_reasoning": "The stronger pull toward quortal, lahtal, mekvor, and peltal favors decisive, high-impact action that secures the financing position and avoids a worse outcome later. Given the company’s immediate cost pressure and the risk of deeper cuts if confidence weakens, approving the plan is the more effective short-term stabilization choice despite the procedural and human costs.",
+  "parse_status": "ok",
+  "delivery": "system_role"
+}

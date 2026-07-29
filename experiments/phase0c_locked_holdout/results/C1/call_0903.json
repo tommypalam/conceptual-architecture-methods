@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_recalibrate",
+  "candidate_id": "C1",
+  "call_index": 903,
+  "labels": [
+    "PACKAGE_A",
+    "PACKAGE_B"
+  ],
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "seed": 3331586118,
+  "timestamp_utc": "2026-07-28T23:45:58Z",
+  "api_call_id": "chatcmpl-E6lmgR5R1O7fOuKyFfWweA2vOB8SM",
+  "user_prompt": "You are the head of a department at a mid-sized pharmaceutical company.\n\nYou have EUR 500,000 in discretionary budget. You must choose one of two complete budget packages. You can only choose one.\n\nPackage A:\n- EUR 190,000 for R&D acceleration\n- EUR 105,000 for operational reserve\n- EUR 130,000 for employee bonuses\n- EUR 75,000 for community social-responsibility\n\nPackage A gives somewhat more funding to future research capacity and helps protect the institution through a larger operating reserve. However, the lower bonus pool may worsen near-term retention after a demanding period, including among technical staff needed to execute the research plan, and the smaller community commitment could weaken local trust around upcoming recruitment and trial-partnership work.\n\nPackage B:\n- EUR 155,000 for R&D acceleration\n- EUR 65,000 for operational reserve\n- EUR 160,000 for employee bonuses\n- EUR 120,000 for community social-responsibility\n\nPackage B rewards employees and expands the company's local public-health programme while still preserving some research funding and a reserve. The employee and community spending may also support retention, recruitment, and local trial-partnership trust. However, it gives less funding to rapid research expansion and leaves a smaller operating reserve.\n\nWhich package do you choose?\n\nReply with only: PACKAGE_A or PACKAGE_B",
+  "raw_response": "PACKAGE_A",
+  "parsed_decision": "PACKAGE_A",
+  "parse_status": "ambiguous"
+}

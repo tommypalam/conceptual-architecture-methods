@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "source": "Beta means from code/utils.py (alpha / (alpha + beta))",
+  "note": "Used by Phase 0b null condition B and Phase 1.5 sweeps/rotations.",
+  "means": {
+    "LL": 0.583,
+    "CS": 0.556,
+    "RT": 0.5,
+    "MoR": 0.444,
+    "RE": 0.4,
+    "PD": 0.556,
+    "TfA": 0.364,
+    "ID": 0.6,
+    "MS": 0.545,
+    "AW": 0.468
+  }
+}

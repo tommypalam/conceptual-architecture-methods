@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "source": "spec v0.1 §1.4 — deterministic phase-name -> integer-seed map",
+  "note": "Stochastic operations within a phase consume a derived sequence from the phase root seed. Do not change a seed once a phase has run.",
+  "seeds": {
+    "phase0b_harness_neutral": 20260601,
+    "phase0c_locked_holdout": 20260602,
+    "phase1_pilot": 20260603,
+    "phase1_5_encoding_validity": 20260604,
+    "phase2_simple": 20260605,
+    "phase2_complex": 20260606,
+    "phase3_benchmarks": 20260607
+  }
+}

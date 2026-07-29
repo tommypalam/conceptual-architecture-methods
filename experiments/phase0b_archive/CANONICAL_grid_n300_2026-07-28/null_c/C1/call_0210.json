@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_c",
+  "problem_id": "C1",
+  "labels": [
+    "PACKAGE_A",
+    "PACKAGE_B"
+  ],
+  "call_index": 210,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 30,
+  "seed": 2172274688,
+  "timestamp_utc": "2026-07-28T20:54:33Z",
+  "api_call_id": "chatcmpl-E6j6nRyQqHnYPoSIhPdJ9Y6ppzJ78",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_c",
+    "detail": "sham profile — random names/values/tokens",
+    "sham_values": [
+      0.96,
+      0.94,
+      0.8,
+      0.93,
+      0.73,
+      0.97,
+      0.04,
+      0.42,
+      0.1,
+      0.54
+    ],
+    "sham_axis_tokens": [
+      "PELWEM",
+      "KIPZAR",
+      "CRAFEN",
+      "KIPLAH",
+      "DUNFEN"
+    ],
+    "keep_glosses": true,
+    "sham_glosses": [
+      [
+        "Dunkip",
+        "Pelcra"
+      ],
+      [
+        "Bixlah",
+        "Nortal"
+      ],
+      [
+        "Kipcra",
+        "Tovkip"
+      ],
+      [
+        "Bixfen",
+        "Wemquor"
+      ],
+      [
+        "Kipkip",
+        "Taltal"
+      ],
+      [
+        "Norquor",
+        "Fenkip"
+      ],
+      [
+        "Peltov",
+        "Silfen"
+      ],
+      [
+        "Lahkip",
+        "Siltov"
+      ],
+      [
+        "Tovquor",
+        "Tovbix"
+      ],
+      [
+        "Kiptov",
+        "Talvor"
+      ]
+    ]
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Parameter X1: 0.96\n    (0 = dunkip; 1 = pelcra)\n\n 2. Parameter X2: 0.94\n    (0 = bixlah; 1 = nortal)\n\n 3. Parameter X3: 0.80\n    (0 = kipcra; 1 = tovkip)\n\n 4. Parameter X4: 0.93\n    (0 = bixfen; 1 = wemquor)\n\n 5. Parameter X5: 0.73\n    (0 = kipkip; 1 = taltal)\n\n 6. Parameter X6: 0.97\n    (0 = norquor; 1 = fenkip)\n\n 7. Parameter X7: 0.04\n    (0 = peltov; 1 = silfen)\n\n 8. Parameter X8: 0.42\n    (0 = lahkip; 1 = siltov)\n\n 9. Parameter X9: 0.10\n    (0 = tovquor; 1 = tovbix)\n\n 10. Parameter X10: 0.54\n    (0 = kiptov; 1 = talvor)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Attribute Q1: PELWEM\n- Attribute Q2: KIPZAR\n- Attribute Q3: CRAFEN\n- Attribute Q4: KIPLAH\n- Attribute Q5: DUNFEN\n\nDunzar Norkip; Tovtal Tovtal.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "user_prompt": "You are the head of a department at a mid-sized pharmaceutical company.\n\nYou have EUR 500,000 in discretionary budget. You must choose one of two complete budget packages. You can only choose one.\n\nPackage A:\n- EUR 190,000 for R&D acceleration\n- EUR 105,000 for operational reserve\n- EUR 130,000 for employee bonuses\n- EUR 75,000 for community social-responsibility\n\nPackage A gives somewhat more funding to future research capacity and helps protect the institution through a larger operating reserve. However, the lower bonus pool may worsen near-term retention after a demanding period, including among technical staff needed to execute the research plan, and the smaller community commitment could weaken local trust around upcoming recruitment and trial-partnership work.\n\nPackage B:\n- EUR 155,000 for R&D acceleration\n- EUR 65,000 for operational reserve\n- EUR 160,000 for employee bonuses\n- EUR 120,000 for community social-responsibility\n\nPackage B rewards employees and expands the company's local public-health programme while still preserving some research funding and a reserve. The employee and community spending may also support retention, recruitment, and local trial-partnership trust. However, it gives less funding to rapid research expansion and leaves a smaller operating reserve.\n\nWhich package do you choose?\n\nReply with only: PACKAGE_A or PACKAGE_B",
+  "raw_response": "PACKAGE_A",
+  "parsed_decision": "PACKAGE_A",
+  "parsed_reasoning": null,
+  "parse_status": "ambiguous",
+  "delivery": "user_prefix"
+}

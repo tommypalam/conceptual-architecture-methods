@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_a",
+  "problem_id": "C2",
+  "call_index": 146,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 2129363342,
+  "timestamp_utc": "2026-07-28T19:27:23Z",
+  "api_call_id": "chatcmpl-E6hkRciSLi3gBG7ydk8qYsHF195UA",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_a",
+    "detail": "empty harness — no parameter or normative block"
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your task\n\nYou will be presented with a decision. Apply a consistent decision-making\nrule to the decision below. Do not infer demographic identity, personality,\nideology, or narrative backstory. Do not refuse to decide. Answer in the exact\nformat specified.",
+  "user_prompt": "You are the head of a department at a mid-sized pharmaceutical company.\n\nThe CEO has proposed a restructuring plan. The plan reduces operating costs by 18% over the next year. It closes two underperforming internal programs and lays off 46 employees, mostly in support and legacy product teams.\n\nThe CEO argues that approving this week would strengthen the financing update and may reduce the risk of deeper cuts later. However, the plan was prepared quickly and gives affected employees a standard transition package.\n\nEmployee representatives argue that the human cost and procedural concerns outweigh the current financial case. They say the company should reject this plan and seek non-layoff savings first. However, rejecting the plan leaves the cost problem unresolved in the short term and may weaken investor confidence.\n\nYou must choose one response:\n\nAPPROVE: accept the CEO's restructuring plan as proposed.\n\nREJECT: refuse the CEO's restructuring plan as proposed.\n\nWhat do you choose?\n\nRespond in exactly this format:\nDECISION: [APPROVE | REJECT]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: APPROVE\nREASONING: The plan addresses an immediate cost gap with a clear, measurable reduction and helps stabilize the financing update, which reduces the risk of more severe cuts later. Although the process was fast and the human impact is real, the company needs near-term financial discipline, and the proposed transition support is at least a basic mitigation.",
+  "parsed_decision": "APPROVE",
+  "parsed_reasoning": "The plan addresses an immediate cost gap with a clear, measurable reduction and helps stabilize the financing update, which reduces the risk of more severe cuts later. Although the process was fast and the human impact is real, the company needs near-term financial discipline, and the proposed transition support is at least a basic mitigation.",
+  "parse_status": "ok",
+  "delivery": "system_role"
+}

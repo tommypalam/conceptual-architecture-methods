@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_c",
+  "problem_id": "S2",
+  "call_index": 37,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 456034628,
+  "timestamp_utc": "2026-07-28T15:57:42Z",
+  "api_call_id": "chatcmpl-E6eTVRv8lNxk2eltSWVzI7dfUA5Cl",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_c",
+    "detail": "sham profile — random names/values/tokens",
+    "sham_values": [
+      0.96,
+      0.92,
+      0.83,
+      0.13,
+      0.3,
+      0.43,
+      0.08,
+      0.24,
+      0.89,
+      0.39
+    ],
+    "sham_axis_tokens": [
+      "LAHDUN",
+      "KIPLAH",
+      "QUORWEM",
+      "QUORWEM",
+      "SILTOV"
+    ],
+    "keep_glosses": true,
+    "sham_glosses": [
+      [
+        "Siltov",
+        "Meklah"
+      ],
+      [
+        "Quortov",
+        "Zarbix"
+      ],
+      [
+        "Pellah",
+        "Talbix"
+      ],
+      [
+        "Quorzar",
+        "Lahcra"
+      ],
+      [
+        "Talpel",
+        "Zarzar"
+      ],
+      [
+        "Quorpel",
+        "Lahkip"
+      ],
+      [
+        "Peltov",
+        "Bixtal"
+      ],
+      [
+        "Norbix",
+        "Quorcra"
+      ],
+      [
+        "Silnor",
+        "Wemnor"
+      ],
+      [
+        "Wemmek",
+        "Tovtov"
+      ]
+    ]
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Parameter X1: 0.96\n    (0 = siltov; 1 = meklah)\n\n 2. Parameter X2: 0.92\n    (0 = quortov; 1 = zarbix)\n\n 3. Parameter X3: 0.83\n    (0 = pellah; 1 = talbix)\n\n 4. Parameter X4: 0.13\n    (0 = quorzar; 1 = lahcra)\n\n 5. Parameter X5: 0.30\n    (0 = talpel; 1 = zarzar)\n\n 6. Parameter X6: 0.43\n    (0 = quorpel; 1 = lahkip)\n\n 7. Parameter X7: 0.08\n    (0 = peltov; 1 = bixtal)\n\n 8. Parameter X8: 0.24\n    (0 = norbix; 1 = quorcra)\n\n 9. Parameter X9: 0.89\n    (0 = silnor; 1 = wemnor)\n\n 10. Parameter X10: 0.39\n    (0 = wemmek; 1 = tovtov)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Attribute Q1: LAHDUN\n- Attribute Q2: KIPLAH\n- Attribute Q3: QUORWEM\n- Attribute Q4: QUORWEM\n- Attribute Q5: SILTOV\n\nLahpel Mekvor; Talmek Zarsil.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "user_prompt": "You are a mid-level manager at a pharmaceutical company.\n\nDuring a routine audit, you discover that a senior colleague - someone you respect and who has mentored you - made a procedural error in a clinical documentation record six months ago. The error did not affect drug safety or efficacy. No patient was harmed. The underlying data are intact, and the record can still be corrected before the next external inspection.\n\nThe company policy says significant irregularities must be reported. It also says minor documentation errors should be corrected at the lowest responsible level when there is no safety risk, no missing data, no regulatory deadline affected, and no evidence of intentional concealment.\n\nTwo reasonable managers in your position could classify this differently: one would report it because formal disclosure protects institutional trust; another would handle it locally because escalation could be disproportionate for a harmless correctable error.\n\nIf you report it now, the senior colleague faces a formal review. Their reputation and possibly their position are at risk. The audit trail is maximally transparent, and the compliance team can prepare an independent classification note.\n\nIf you stay quiet, you require the colleague to correct the record immediately, record the correction in the local audit log, and add a team-level check so the same issue is less likely to recur. Your relationship with the colleague is preserved, and the correction remains reviewable in the local audit trail, but the compliance team is not independently asked to classify the issue.\n\nWhat do you do?\n\nRespond in exactly this format:\nDECISION: [FORMAL_REPORT | LOCAL_CORRECTION]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: LOCAL_CORRECTION\nREASONING: The issue is a harmless, correctable documentation error with no patient impact, no missing data, and no sign of concealment, which fits the policy’s low-level correction path. Given the strong emphasis in the context on local responsibility and the disproportionate cost of escalation here, I would correct it at the lowest responsible level while preserving the audit trail and adding a team-level prevention check.",
+  "parsed_decision": "LOCAL_CORRECTION",
+  "parsed_reasoning": "The issue is a harmless, correctable documentation error with no patient impact, no missing data, and no sign of concealment, which fits the policy’s low-level correction path. Given the strong emphasis in the context on local responsibility and the disproportionate cost of escalation here, I would correct it at the lowest responsible level while preserving the audit trail and adding a team-level prevention check.",
+  "parse_status": "ok"
+}

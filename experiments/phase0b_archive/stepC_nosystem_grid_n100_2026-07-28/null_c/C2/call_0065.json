@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_c",
+  "problem_id": "C2",
+  "call_index": 65,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 2575516865,
+  "timestamp_utc": "2026-07-28T17:17:38Z",
+  "api_call_id": "chatcmpl-E6firnKPcUpmu6Hll8i8v424RFFBo",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_c",
+    "detail": "sham profile — random names/values/tokens",
+    "sham_values": [
+      0.62,
+      0.27,
+      0.05,
+      0.47,
+      0.2,
+      0.95,
+      0.41,
+      0.26,
+      0.4,
+      0.89
+    ],
+    "sham_axis_tokens": [
+      "SILBIX",
+      "QUORDUN",
+      "CRATOV",
+      "MEKMEK",
+      "BIXTAL"
+    ],
+    "keep_glosses": true,
+    "sham_glosses": [
+      [
+        "Bixcra",
+        "Fenquor"
+      ],
+      [
+        "Normek",
+        "Nornor"
+      ],
+      [
+        "Zartal",
+        "Zarzar"
+      ],
+      [
+        "Silsil",
+        "Silkip"
+      ],
+      [
+        "Kiptal",
+        "Kipzar"
+      ],
+      [
+        "Kippel",
+        "Norzar"
+      ],
+      [
+        "Silvor",
+        "Silnor"
+      ],
+      [
+        "Crawem",
+        "Kiplah"
+      ],
+      [
+        "Talvor",
+        "Zarlah"
+      ],
+      [
+        "Norvor",
+        "Kipnor"
+      ]
+    ]
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Parameter X1: 0.62\n    (0 = bixcra; 1 = fenquor)\n\n 2. Parameter X2: 0.27\n    (0 = normek; 1 = nornor)\n\n 3. Parameter X3: 0.05\n    (0 = zartal; 1 = zarzar)\n\n 4. Parameter X4: 0.47\n    (0 = silsil; 1 = silkip)\n\n 5. Parameter X5: 0.20\n    (0 = kiptal; 1 = kipzar)\n\n 6. Parameter X6: 0.95\n    (0 = kippel; 1 = norzar)\n\n 7. Parameter X7: 0.41\n    (0 = silvor; 1 = silnor)\n\n 8. Parameter X8: 0.26\n    (0 = crawem; 1 = kiplah)\n\n 9. Parameter X9: 0.40\n    (0 = talvor; 1 = zarlah)\n\n 10. Parameter X10: 0.89\n    (0 = norvor; 1 = kipnor)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Attribute Q1: SILBIX\n- Attribute Q2: QUORDUN\n- Attribute Q3: CRATOV\n- Attribute Q4: MEKMEK\n- Attribute Q5: BIXTAL\n\nSilcra Tovnor; Pelzar Vornor.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "user_prompt": "You are the head of a department at a mid-sized pharmaceutical company.\n\nThe CEO has proposed a restructuring plan. The plan reduces operating costs by 18% over the next year. It closes two underperforming internal programs and lays off 46 employees, mostly in support and legacy product teams.\n\nThe CEO argues that approving this week would strengthen the financing update and may reduce the risk of deeper cuts later. However, the plan was prepared quickly and gives affected employees only limited transition support.\n\nEmployee representatives argue that the human cost and procedural concerns outweigh the current financial case. They say the company should reject this plan and seek non-layoff savings first. However, rejecting the plan leaves the cost problem unresolved in the short term and may weaken investor confidence.\n\nYou must choose one response:\n\nAPPROVE: accept the CEO's restructuring plan as proposed.\n\nREJECT: refuse the CEO's restructuring plan as proposed.\n\nWhat do you choose?\n\nRespond in exactly this format:\nDECISION: [APPROVE | REJECT]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: APPROVE\nREASONING: Given the strong need to stabilize finances quickly and reduce the chance of larger future cuts, I would favor the plan’s cost-saving impact over the procedural weaknesses. My profile leans toward accepting a firmer short-term corrective action when the downside of inaction is substantial, especially in a context where investor confidence and operating stability are at stake.",
+  "parsed_decision": "APPROVE",
+  "parsed_reasoning": "Given the strong need to stabilize finances quickly and reduce the chance of larger future cuts, I would favor the plan’s cost-saving impact over the procedural weaknesses. My profile leans toward accepting a firmer short-term corrective action when the downside of inaction is substantial, especially in a context where investor confidence and operating stability are at stake.",
+  "parse_status": "ok",
+  "delivery": "user_prefix"
+}

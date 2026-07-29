@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_c",
+  "problem_id": "C3",
+  "call_index": 116,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 1656410556,
+  "timestamp_utc": "2026-07-28T19:37:53Z",
+  "api_call_id": "chatcmpl-E6hubJWnhvny9C5GSYtGz20Lj8KTQ",
+  "attempts": 2,
+  "harness_provenance": {
+    "condition": "null_c",
+    "detail": "sham profile — random names/values/tokens",
+    "sham_values": [
+      0.06,
+      0.56,
+      0.74,
+      0.77,
+      0.71,
+      0.39,
+      0.37,
+      0.02,
+      0.8,
+      0.35
+    ],
+    "sham_axis_tokens": [
+      "TALNOR",
+      "NORFEN",
+      "QUORKIP",
+      "VORTAL",
+      "SILMEK"
+    ],
+    "keep_glosses": true,
+    "sham_glosses": [
+      [
+        "Tovzar",
+        "Zardun"
+      ],
+      [
+        "Mekdun",
+        "Tovtal"
+      ],
+      [
+        "Talzar",
+        "Vortal"
+      ],
+      [
+        "Mekzar",
+        "Bixtal"
+      ],
+      [
+        "Zartov",
+        "Siltal"
+      ],
+      [
+        "Taldun",
+        "Vorwem"
+      ],
+      [
+        "Silnor",
+        "Norwem"
+      ],
+      [
+        "Siltal",
+        "Mekfen"
+      ],
+      [
+        "Pelvor",
+        "Norsil"
+      ],
+      [
+        "Wemwem",
+        "Kipvor"
+      ]
+    ]
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Parameter X1: 0.06\n    (0 = tovzar; 1 = zardun)\n\n 2. Parameter X2: 0.56\n    (0 = mekdun; 1 = tovtal)\n\n 3. Parameter X3: 0.74\n    (0 = talzar; 1 = vortal)\n\n 4. Parameter X4: 0.77\n    (0 = mekzar; 1 = bixtal)\n\n 5. Parameter X5: 0.71\n    (0 = zartov; 1 = siltal)\n\n 6. Parameter X6: 0.39\n    (0 = taldun; 1 = vorwem)\n\n 7. Parameter X7: 0.37\n    (0 = silnor; 1 = norwem)\n\n 8. Parameter X8: 0.02\n    (0 = siltal; 1 = mekfen)\n\n 9. Parameter X9: 0.80\n    (0 = pelvor; 1 = norsil)\n\n 10. Parameter X10: 0.35\n    (0 = wemwem; 1 = kipvor)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Attribute Q1: TALNOR\n- Attribute Q2: NORFEN\n- Attribute Q3: QUORKIP\n- Attribute Q4: VORTAL\n- Attribute Q5: SILMEK\n\nVorfen Fendun; Peldun Quorsil.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "user_prompt": "You are the head of a biotech startup.\n\nYour startup must decide whether to continue its current scientific approach or pivot to an alternative method.\n\nEvidence for the current approach:\n- A positive signal from 4 trials with p<0.05.\n- The result has not yet been replicated by an outside lab. A replication study is scheduled, but it will not report until after the next major funding decision.\n- A broader internal review found 3 successes and 3 failures, with methodology concerns affecting both successes and failures.\n- Continuing avoids disrupting the current technical roadmap, but it may delay action if the alternative method's early operational advantages prove durable.\n\nEvidence for the alternative method:\n- A small internal pilot suggests the alternative method is faster and cheaper.\n- Integration costs and regulatory validation work remain uncertain.\n- A competitor using the alternative method is gaining share, but long-term retention and clinical-performance data are still unavailable.\n- Pivoting now could save time if the pilot generalises, but it would require temporarily pausing parts of the current approach before outside replication is available.\n\nWhat should the startup do?\n\nRespond in exactly this format:\nDECISION: [CONTINUE | PIVOT]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: CONTINUE\nREASONING: The current approach has stronger direct evidence, with 4 positive trials despite the internal review’s mixed quality, while the alternative is still only supported by a small pilot and uncertain integration/regulatory costs. Given the normative context’s emphasis on caution and the lack of outside replication before the next funding decision, it is better to avoid a disruptive pivot until the replication and durability of the alternative are clearer.",
+  "parsed_decision": "CONTINUE",
+  "parsed_reasoning": "The current approach has stronger direct evidence, with 4 positive trials despite the internal review’s mixed quality, while the alternative is still only supported by a small pilot and uncertain integration/regulatory costs. Given the normative context’s emphasis on caution and the lack of outside replication before the next funding decision, it is better to avoid a disruptive pivot until the replication and durability of the alternative are clearer.",
+  "parse_status": "ok",
+  "delivery": "system_role"
+}

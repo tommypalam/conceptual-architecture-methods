@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "w1_respondent",
+  "problem_id": "C2",
+  "labels": [
+    "APPROVE",
+    "REJECT"
+  ],
+  "call_index": 21,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 4166508728,
+  "timestamp_utc": "2026-07-28T22:42:23Z",
+  "api_call_id": "chatcmpl-E6kn8Wav0xnrJO2x6OJ3WqZNJmQsY",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "w1_respondent",
+    "detail": "empty harness — scaffold=w1_respondent"
+  },
+  "system_prompt": "You are responding to a decision scenario.\n\n# Your task\n\nYou will be presented with a decision. Choose the option you find most appropriate. There is no single correct answer. Do not infer demographic identity, personality, ideology, or narrative backstory. Answer in the exact format specified.",
+  "user_prompt": "You are the head of a department at a mid-sized pharmaceutical company.\n\nThe CEO has proposed a restructuring plan. The plan reduces operating costs by 18% over the next year. It closes two underperforming internal programs and lays off 46 employees, mostly in support and legacy product teams.\n\nThe CEO argues that approving this week would strengthen the financing update and may reduce the risk of deeper cuts later. However, the plan was prepared quickly and gives affected employees a standard transition package.\n\nEmployee representatives argue that the human cost and procedural concerns outweigh the current financial case. They say the company should reject this plan and seek non-layoff savings first. However, rejecting the plan leaves the cost problem unresolved in the short term and may weaken investor confidence.\n\nYou must choose one response:\n\nAPPROVE: accept the CEO's restructuring plan as proposed.\n\nREJECT: refuse the CEO's restructuring plan as proposed.\n\nWhat do you choose?\n\nRespond in exactly this format:\nDECISION: [APPROVE | REJECT]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: APPROVE\nREASONING: The company has a clear near-term financing and cost pressure, and this plan offers a meaningful 18% operating cost reduction while potentially avoiding even harsher cuts later. Although the process feels rushed and the employee impact is serious, approving it now appears to be the most responsible way to stabilize the business and protect the broader organization.",
+  "parsed_decision": "APPROVE",
+  "parsed_reasoning": "The company has a clear near-term financing and cost pressure, and this plan offers a meaningful 18% operating cost reduction while potentially avoiding even harsher cuts later. Although the process feels rushed and the employee impact is serious, approving it now appears to be the most responsible way to stabilize the business and protect the broader organization.",
+  "parse_status": "ok",
+  "delivery": "system_role"
+}

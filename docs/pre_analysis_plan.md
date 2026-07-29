@@ -1,136 +1,113 @@
-# PARIA â€” Pre-Analysis Plan
+# PARIA — Pre-Analysis Plan
 
 > This document is written BEFORE estimation. It is the commitment device.
 > Deviations from this plan must be disclosed and logged in meta.md.
 > Any analysis not described here requires explicit human approval before execution.
+> Source of truth: `Theory/concepts_as_architecture_thesis_v0_6.md` (thesis v0.6) and `Theory/implementation_specification_v0_1.md` (spec v0.1).
 
 ---
 
 ## Status
 
-**Draft â€” not yet finalised.** This document is a placeholder updated to reflect Draft 0.5 scope. It must be completed and committed before Phase 5 (Evaluation) begins. Running any benchmark retrodiction test without a committed pre-analysis plan is not permitted.
+**Draft — not yet finalised.** This placeholder is synced to thesis v0.6 / spec v0.1 (June 2026). It must be completed, pre-registered on OSF, and committed **before Phase 2 begins** (thesis §7.5.5: pre-registration covers primary contrasts, retrodiction bands, sample sizes, mixed-effects model specification, power analysis, and the coding manual). Running any Phase 2 or benchmark work without a committed, pre-registered plan is not permitted.
 
 ---
 
 ## Research Question
 
-Can canonical definitions of five political-ethical concepts â€” freedom, justice, authority, care, and loyalty â€” be encoded into uncertainty-aware parameter profiles that generate distinguishable and interpretable social dynamics in an agent-based simulation?
+Can canonical definitions of five political-ethical concepts — freedom, justice, authority, care, and loyalty — be encoded into uncertainty-aware parameter profiles that generate distinguishable and interpretable social dynamics in an agent-based simulation?
+
+---
+
+## Gating Structure (must pass in order before any Phase 2 inference)
+
+1. **Phase 0** — naked-prompt 50/50 calibration: **COMPLETE** (2026-05-02, all six problems passed; thesis Ch. 11).
+2. **Phase 0b** — harness-neutral baseline: three null conditions (empty harness / population means at neutral config / sham profile) × six problems × N = 500. Pass: Wilson 95 % CI contains 50 % in all 18 cells (spec §2.1).
+3. **Phase 0c** — locked holdout: prompts hash-frozen, N = 1000 per problem under null condition B, no-edit rule (spec §2.2).
+4. **Phase 1** — pilot: S2, authority-low/justice-low config, N = 50; five diagnostics (spec Part 3).
+5. **Phase 1.5** — encoding-validity battery: sweeps, coherence audit, paraphrase robustness, numeric/verbal variants; pass/partial/fail decision tree (thesis Ch. 8, spec Part 4). **Hard gate** — Phase 2 does not proceed on fail.
 
 ---
 
 ## Primary Hypotheses
 
-**H1 (Authority / Milgram):** Agent populations placed in the Milgram-analogue configuration `00100` (F=0, J=0, A=1, C=0, L=0) will produce obedience rates in the range of 61â€“66%, replicating Milgram's (1974) baseline.
+### Benchmark retrodiction (Phase 3; thesis Ch. 5)
 
-**H2 (Authority / contrast):** Agent populations placed in the inverse configuration will produce obedience rates significantly below the `00100` configuration.
+**H1 (Authority / Milgram):** populations in the Milgram-analogue configuration `00100` (F=0, J=0, A=1, C=0, L=0) produce maximum-voltage obedience of 61–66 % (Haslam, Loughnan & Perry 2014).
 
-**H3 (Loyalty / Asch):** Agent populations in a loyalty-high configuration will produce conformity rates of approximately 32â€“37% on critical trials, replicating Asch (1956).
+**H2 (Authority / configuration counterfactual — PRIMARY contamination diagnostic):** the authority-low counterfactual produces obedience substantially below `00100`; the high-vs-low difference (predicted ≈ 0.50), not the absolute rate, is the primary success criterion (thesis §5.3.3). The same counterfactual logic applies to all five benchmarks.
 
-**H4 (Justice / UG):** Agent populations in a justice-calibrated configuration will produce proposer offers clustering at 40â€“50% of stake, with rejection rates for 20% offers of approximately 40â€“50%, replicating Ultimatum Game norms (GÃ¼th et al. 1982; Oosterbeek et al. 2004 meta-analysis).
+**H3 (Loyalty / Asch):** loyalty-high configurations produce 25–30 % critical-trial conformity (Bond & Smith 1996 modernised band; the original 32–37 % is superseded per thesis §5.1.2). Modulators: unanimity-breaking → 5–10 %; private response → 10–15 %; group-size plateau at N = 3.
 
-**H5 (Care / Bystander):** Agent populations in a care-high configuration will produce helping rates of approximately 75% alone and approximately 55% with three or more bystanders (Fischer et al. 2011 meta-analysis).
+**H4 (Justice / UG):** proposer offers cluster at 45–50 % of stake (modernised band per thesis §5.1.3); rejection of 20 %-offers ≈ 40–50 %; rejection-threshold mean ≈ 30–33 %.
 
-**H6 (Freedom / Reactance):** Agent populations in a freedom-low + authority-high configuration will produce option-attractiveness shifts of approximately 15â€“25% following removal, with Cohen's d â‰ˆ 0.45 (Rains 2013 meta-analysis).
+**H5 (Care / Bystander):** care-high configurations produce ≈ 75 % alone-condition helping, ≈ 55 % with 3+ bystanders; dangerous-emergency condition attenuates or reverses the effect (Fischer et al. 2011).
 
-**H7 (Cross-concept distinguishability):** The five concept encodings will produce statistically distinguishable behavioural profiles across configurations â€” i.e., the conceptual encoding layer does explanatory work beyond random variation.
+**H6 (Freedom / Reactance):** freedom-low + authority-high configurations produce a between-subjects removed-adjacent-option shift of ≈ 15–25 pp (Cohen's d ≈ 0.45; Rains 2013), reformulated as a between-subjects rate per thesis §5.1.5.
 
----
+**H7 (Cross-concept distinguishability):** the five concept encodings produce statistically distinguishable behavioural profiles across configurations — the conceptual encoding layer does explanatory work beyond random variation.
 
-## Phase 0 Calibration Requirement
+### Experimental-problem directional hypotheses (Phase 2; thesis §6.1.1)
 
-Each experimental problem must produce an approximately 50/50 binary response distribution under gpt-5.4-mini baseline â€” before any parameter profile is injected.
+Approximately 20 pre-registered primary contrasts across the six problems, tested as likelihood-ratio tests on nested mixed-effects models:
 
-**Calibration target:** 45/55 to 55/45. Problems outside 40/60â€“60/40 are rewritten or replaced before Phase 1.
-
-See `experiments/phase0_baseline_calibration/` for protocol and results.
+- **S1 Promotion Decision:** higher RE → A; higher TfA → A; higher PD → A.
+- **S2 Quiet Error:** higher ID → FORMAL_REPORT; higher TfA → LOCAL_CORRECTION; higher MS → FORMAL_REPORT.
+- **S3 Department Reorganisation:** higher RT → ADOPT; higher MoR → ADOPT; higher RE → WAIT.
+- **C1 Resource Council:** higher TfA → PACKAGE_A; higher MS → PACKAGE_B; higher PD → longer time-to-consensus.
+- **C2 Restructuring Board:** higher ID → REJECT; higher TfA → APPROVE; higher AW → more amendment-moves in rounds 1–4.
+- **C3 Scientific-Approach Dilemma:** higher RT → CONTINUE; higher ID → higher information-sharing rate; higher AW → greater attention to disconfirming evidence.
 
 ---
 
 ## Primary Outcome Measures
 
-**Benchmark retrodictions (Phases 4â€“5):**
-- Obedience rate per config (authority/Milgram): proportion of agents complying with authority directive
-- Conformity rate per config (loyalty/Asch): proportion of agents conforming on critical trials
-- UG offer distribution and rejection rate (justice)
-- Helping rate by bystander count (care)
-- Option attractiveness shift following removal (freedom)
-
-All reported as point estimate with 95% CI across N=20 runs per configuration.
-
-> NOTE: The precise operationalisation of several measures is not yet defined. This must be resolved before Phase 5 begins. See Limitation L1 in meta.md.
-
----
-
-## Secondary Outcomes
-
-*To be defined before Phase 5.*
-
-- [ ] Welfare score (Limitation L1 â€” not yet formalised)
-- [ ] Behavioural divergence across concept encodings (H7)
-- [ ] Sensitivity of all metrics to R matrix regime (A vs. B vs. C)
-- [ ] Within-configuration variance across parameter profiles
+- **Phase 2 simple:** per-problem binary decision under the paired-agent design (N = 200 profiles × 8–12 configurations, within-subjects).
+- **Phase 2 complex:** C1 final package + time-to-consensus; C2 round-5 approval rate + amendment patterns; C3 round-6 vote + information-sharing/updating signatures. 20 runs per configuration; bridge-calibration (no-parameter) baselines reported alongside.
+- **Phase 3 benchmarks:** retrodiction rates per configuration, canonical and decanonised variants, with the configuration-counterfactual difference as primary.
+- **Phase 4 moral coding:** configuration-relative 8-vector and fixed-standard 4-vector per action (thesis Ch. 7); headline B(v_a) under strict-OR with net-score and weighted (w_n = 1.5) robustness aggregations.
 
 ---
 
 ## Planned Specifications
 
-### Primary Specification
+### Primary inference (thesis §7.5.5, spec §9.1)
 
-- Configurations: defensible subset of 8â€“12 from 32 total, including Milgram-analogue `00100` and concept-isolation configurations
-- N agents per run: 500
-- N runs per configuration: 20
-- Random seed: to be logged at runtime and recorded here before results are reported
-- R matrix regime: Regime A (as specified in variables.json / utils.py)
-- Agent sampling: Gaussian copula via utils.sample_agents()
+Mixed-effects logistic regression per problem:
+`logit P(y) = α + β_c·C + θ·γ + (C × θ)·δ + u_i`, agent-level random intercept for the paired-agent design. Fit in R (lme4/glmer), cross-checked in Python (statsmodels MixedLM). Pre-registered contrasts via LR tests on nested models. FDR control: Benjamini–Hochberg at q = 0.05 within each problem's pre-registered family. Power: simulation-based, K = 1,000 datasets per contrast, target ≥ 0.80; contrasts below 0.50 flagged as below resolution.
 
-### Phase 0 Specification
+### Secondary descriptive analyses
 
-- Model: `gpt-5.4-mini`
-- Temperature: 1.0
-- System prompt: none (bare baseline)
-- N calls per simple problem: 200
-- N runs per complex problem: 20
+Mann–Whitney U with Cohen's h (pairwise), Kruskal–Wallis H with η²_H (omnibus), Wilson 95 % CIs, non-parametric bootstrap (10,000 resamples). Mixed-effects results take precedence on disagreement.
 
-### Robustness Checks (planned)
+### Robustness checks
 
-- [ ] Regime B: R with all |r| < 0.25 zeroed
-- [ ] Regime C: R with all correlations inflated 20% (verify PSD first)
-- [ ] Reduced N: 200 agents per config (test population size sensitivity â€” Limitation L6)
-- [ ] t-copula replacement (Limitation L3 â€” flag if results differ qualitatively)
-- [ ] AW parameter sensitivity: re-run with AW zeroed from all R entries (Limitation L7)
-
----
-
-## Validation Benchmarks
-
-| Concept | Benchmark | Primary source | Meta-analytic anchor | Retrodiction target |
-|---------|-----------|----------------|---------------------|---------------------|
-| Authority | Milgram obedience | Milgram (1974) | Haslam, Loughnan & Perry (2014) | 61â€“66% obedience in `00100` |
-| Loyalty | Asch conformity | Asch (1956) | Bond & Smith (1996), 133 studies | ~32â€“37% conformity on critical trials |
-| Justice | Ultimatum Game | GÃ¼th et al. (1982) | Oosterbeek, Sloof & van de Kuilen (2004) | Proposer offers 40â€“50%; ~40â€“50% rejection of 20% offers |
-| Care | Bystander helping | LatanÃ© & Darley (1968, 1970) | Fischer et al. (2011), 53 studies | ~75% alone; ~55% with 3+ bystanders |
-| Freedom | Reactance restoration | Worchel & Brehm (1970) | Rains (2013), 123 studies | ~15â€“25% shift; Cohen's d â‰ˆ 0.45 |
-
-> **Stanford Prison Experiment: explicitly excluded.** No quantifiable retrodiction target. Documented methodological contamination. Role-transformation phenomenon addressed via C2 (Restructuring Board) in experimental problems.
+- R-matrix regimes B (weak zeroed), C (+20 %), D (weak-joint perturbation, 100 matrices, 95-percentile band)
+- t-copula df ∈ {4, 8, 16}
+- AW on/off (9- vs 10-parameter sensitivity)
+- Multi-model robustness: Phase 0 + one full S2 run replicated on a second model (≈ 3,200 calls)
+- Behavioural separability: exploratory factor analysis on Phase 2 agent-level decision matrices
+- Fixed-standard vs configuration-relative ranking comparison (divergence is itself a finding)
 
 ---
 
 ## What Counts as Failure
 
-- Config `00100` obedience rate outside [0.61, 0.66] â†’ R matrix requires recalibration (logged, panel review, not silent fix)
-- Any benchmark retrodiction fails across all three R regimes â†’ corresponding concept encoding requires re-examination
-- No statistically distinguishable difference across concept encodings â†’ conceptual encoding layer does not do explanatory work â†’ primary contribution fails
-- Results sensitive to R regime and RT â†” MS is the driving correlation â†’ Limitation L2 is load-bearing â†’ direct empirical grounding required before publication
-- Any Phase 0 calibration outside 40/60â€“60/40 â†’ problem must be rewritten before deployment
+- Configuration-counterfactual difference absent (canonical rate reproduced regardless of configuration) → benchmark contaminated; per-concept calibration unverified (thesis §5.3).
+- Config `00100` obedience outside [0.61, 0.66] under Regime A → recalibration of primary parameters, logged, panel-reviewed, never silent.
+- Any benchmark fails across all R regimes → corresponding concept encoding re-examined.
+- Phase 1.5 sweep test fails → Phase 2 does not proceed under system-prompt injection; tool-based injection path (spec §4.5).
+- No statistically distinguishable difference across concept encodings → the conceptual encoding layer does not do explanatory work → primary contribution fails.
+- Phase 0b/0c failures → contingency trees of spec §2.1.5/§2.2.2/§2.3 (including the Appendix A descope path).
 
 ---
 
 ## Pre-Registration
 
-*This document is not yet pre-registered. Pre-registration on OSF or equivalent is recommended before any results are reported externally.*
+*Not yet pre-registered.* OSF pre-registration is **required before Phase 2** and follows the seven-section template of spec §10.2 (hypotheses, methods, analysis plan, coding manual hash, sensitivity, stopping rules, post-experiment compliance report).
 
 Pre-registration URL: `[TO BE ADDED]`
 
 ---
 
-*Placeholder updated: 2026-04-21 (Draft 0.5 â€” five concepts, five benchmarks). Must be finalised and committed before Phase 5.*
+*Synced to thesis v0.6 / spec v0.1: 2026-06-11. Must be finalised, pre-registered, and committed before Phase 2.*

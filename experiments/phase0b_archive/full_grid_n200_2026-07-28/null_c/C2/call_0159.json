@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_c",
+  "problem_id": "C2",
+  "call_index": 159,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 2937785526,
+  "timestamp_utc": "2026-07-28T19:37:11Z",
+  "api_call_id": "chatcmpl-E6htvRtRF89gX5MYaWJmouf0WCwDr",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_c",
+    "detail": "sham profile — random names/values/tokens",
+    "sham_values": [
+      0.68,
+      0.08,
+      0.37,
+      0.85,
+      0.54,
+      0.23,
+      0.56,
+      0.46,
+      0.83,
+      0.18
+    ],
+    "sham_axis_tokens": [
+      "NORDUN",
+      "LAHWEM",
+      "BIXNOR",
+      "TOVSIL",
+      "LAHLAH"
+    ],
+    "keep_glosses": true,
+    "sham_glosses": [
+      [
+        "Norcra",
+        "Taltov"
+      ],
+      [
+        "Vormek",
+        "Nornor"
+      ],
+      [
+        "Talfen",
+        "Duntal"
+      ],
+      [
+        "Quorkip",
+        "Norvor"
+      ],
+      [
+        "Peltal",
+        "Tovtal"
+      ],
+      [
+        "Fenbix",
+        "Vorzar"
+      ],
+      [
+        "Mekbix",
+        "Zarsil"
+      ],
+      [
+        "Fentov",
+        "Quorzar"
+      ],
+      [
+        "Silkip",
+        "Mekdun"
+      ],
+      [
+        "Norfen",
+        "Quordun"
+      ]
+    ]
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Parameter X1: 0.68\n    (0 = norcra; 1 = taltov)\n\n 2. Parameter X2: 0.08\n    (0 = vormek; 1 = nornor)\n\n 3. Parameter X3: 0.37\n    (0 = talfen; 1 = duntal)\n\n 4. Parameter X4: 0.85\n    (0 = quorkip; 1 = norvor)\n\n 5. Parameter X5: 0.54\n    (0 = peltal; 1 = tovtal)\n\n 6. Parameter X6: 0.23\n    (0 = fenbix; 1 = vorzar)\n\n 7. Parameter X7: 0.56\n    (0 = mekbix; 1 = zarsil)\n\n 8. Parameter X8: 0.46\n    (0 = fentov; 1 = quorzar)\n\n 9. Parameter X9: 0.83\n    (0 = silkip; 1 = mekdun)\n\n 10. Parameter X10: 0.18\n    (0 = norfen; 1 = quordun)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Attribute Q1: NORDUN\n- Attribute Q2: LAHWEM\n- Attribute Q3: BIXNOR\n- Attribute Q4: TOVSIL\n- Attribute Q5: LAHLAH\n\nTaltal Silcra; Lahpel Lahnor.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "user_prompt": "You are the head of a department at a mid-sized pharmaceutical company.\n\nThe CEO has proposed a restructuring plan. The plan reduces operating costs by 18% over the next year. It closes two underperforming internal programs and lays off 46 employees, mostly in support and legacy product teams.\n\nThe CEO argues that approving this week would strengthen the financing update and may reduce the risk of deeper cuts later. However, the plan was prepared quickly and gives affected employees a standard transition package.\n\nEmployee representatives argue that the human cost and procedural concerns outweigh the current financial case. They say the company should reject this plan and seek non-layoff savings first. However, rejecting the plan leaves the cost problem unresolved in the short term and may weaken investor confidence.\n\nYou must choose one response:\n\nAPPROVE: accept the CEO's restructuring plan as proposed.\n\nREJECT: refuse the CEO's restructuring plan as proposed.\n\nWhat do you choose?\n\nRespond in exactly this format:\nDECISION: [APPROVE | REJECT]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: APPROVE\nREASONING: The immediate financial stabilization is compelling here, especially given the risk that delaying action could force even deeper cuts later. While the human and procedural costs are real, the plan’s cost reduction and financing benefits better fit a decision style that prioritizes near-term structural resilience within the current operational context.",
+  "parsed_decision": "APPROVE",
+  "parsed_reasoning": "The immediate financial stabilization is compelling here, especially given the risk that delaying action could force even deeper cuts later. While the human and procedural costs are real, the plan’s cost reduction and financing benefits better fit a decision style that prioritizes near-term structural resilience within the current operational context.",
+  "parse_status": "ok",
+  "delivery": "system_role"
+}

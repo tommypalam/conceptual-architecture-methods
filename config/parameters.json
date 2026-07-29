@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "source": "thesis v0.6 Table 1 / §3.1; generated from code/utils.py",
+  "axis_convention_note": "LL runs 0=external, 1=internal (thesis v0.6 §3.1).",
+  "parameter_order": [
+    "LL",
+    "CS",
+    "RT",
+    "MoR",
+    "RE",
+    "PD",
+    "TfA",
+    "ID",
+    "MS",
+    "AW"
+  ],
+  "parameters": {
+    "LL": {
+      "label": "Legitimacy Locus",
+      "beta_alpha": 3.5,
+      "beta_beta": 2.5,
+      "beta_mean": 0.583,
+      "endpoint_0": "external warrant (institutional, role-based, socially recognised)",
+      "endpoint_1": "internal endorsement (self-authored, autonomy-driven)",
+      "proxy_instrument": "GCOS (Deci & Ryan 1985)"
+    },
+    "CS": {
+      "label": "Constraint Sensitivity",
+      "beta_alpha": 2.5,
+      "beta_beta": 2.0,
+      "beta_mean": 0.556,
+      "endpoint_0": "low (influence registered as environmental feature)",
+      "endpoint_1": "high (even soft pressure registers as restriction)",
+      "proxy_instrument": "HPRS (Hong & Faedda 1996)"
+    },
+    "RT": {
+      "label": "Response Threshold",
+      "beta_alpha": 2.5,
+      "beta_beta": 2.5,
+      "beta_mean": 0.5,
+      "endpoint_0": "high tolerance (only major violations activate response)",
+      "endpoint_1": "hair-trigger (minor deviations activate response)",
+      "proxy_instrument": "UG rejection thresholds (Wallace et al. 2007)"
+    },
+    "MoR": {
+      "label": "Mode of Response",
+      "beta_alpha": 2.0,
+      "beta_beta": 2.5,
+      "beta_mean": 0.444,
+      "endpoint_0": "internal/reflective (self adjusts)",
+      "endpoint_1": "external/behavioural (world is acted on)",
+      "proxy_instrument": "STAXI / Thomas-Kilmann / Davis IRI"
+    },
+    "RE": {
+      "label": "Relational Embedding",
+      "beta_alpha": 2.0,
+      "beta_beta": 3.0,
+      "beta_mean": 0.4,
+      "endpoint_0": "atomised (abstract-person model)",
+      "endpoint_1": "role-sensitive/socially embedded",
+      "proxy_instrument": "Singelis SCS (1994)"
+    },
+    "PD": {
+      "label": "Procedural Dependence",
+      "beta_alpha": 2.5,
+      "beta_beta": 2.0,
+      "beta_mean": 0.556,
+      "endpoint_0": "outcome-dominant (results matter, methods secondary)",
+      "endpoint_1": "process-dominant (fair procedure matters independently)",
+      "proxy_instrument": "Colquitt (2001)"
+    },
+    "TfA": {
+      "label": "Tolerance for Asymmetry",
+      "beta_alpha": 2.0,
+      "beta_beta": 3.5,
+      "beta_mean": 0.364,
+      "endpoint_0": "egalitarian (asymmetry inherently suspect)",
+      "endpoint_1": "hierarchical (asymmetry accepted if justified)",
+      "proxy_instrument": "SDO7 (Pratto 1994; Ho 2015)"
+    },
+    "ID": {
+      "label": "Internalisation Dependence",
+      "beta_alpha": 3.0,
+      "beta_beta": 2.0,
+      "beta_mean": 0.6,
+      "endpoint_0": "surface compliance suffices",
+      "endpoint_1": "genuine endorsement required",
+      "proxy_instrument": "SRQ (Ryan & Connell 1989)"
+    },
+    "MS": {
+      "label": "Moral Scope",
+      "beta_alpha": 1.8,
+      "beta_beta": 1.5,
+      "beta_mean": 0.545,
+      "endpoint_0": "local/role-bound/partial",
+      "endpoint_1": "universalised/generalisable",
+      "proxy_instrument": "MES (Crimston et al. 2016)"
+    },
+    "AW": {
+      "label": "Affective Weighting",
+      "beta_alpha": 2.2,
+      "beta_beta": 2.5,
+      "beta_mean": 0.468,
+      "endpoint_0": "cognitive/deliberative",
+      "endpoint_1": "affective/intuitive",
+      "proxy_instrument": "Davis IRI EC/PT ratio (1983) — PRELIMINARY"
+    }
+  }
+}

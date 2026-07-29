@@ -1,8 +1,9 @@
-# PARIA: From Political Concepts to Simulated Judgment
+# PARIA / Concepts as Architecture: From Political Concepts to Simulated Judgment
 
-> **Status:** Early-stage working paper. Draft 0.5 â€” April 2026.
-> Not for citation. All design decisions are provisional.
-> Author: Tommaso Piero Palamenga â€” Bocconi University
+> **Status:** Thesis draft v0.6 + Implementation Specification v0.1 (May 2026).
+> Not for citation. All design decisions are provisional until empirically validated.
+> Author: Tommaso Piero Palamenga — Bocconi University
+> Supervisor: Dr. Abhinav · Co-supervisor: Prof. Arnaldo Camuffo
 
 ---
 
@@ -10,243 +11,198 @@
 
 PARIA tests whether canonical psychological definitions of **freedom**, **justice**, **authority**, **care**, and **loyalty** can be encoded as transparent, uncertainty-aware parameter distributions that produce distinguishable and interpretable social dynamics in an LLM-powered agent-based simulation.
 
-Each concept is reduced to a single canonical definition grounded in the psychological literature. These definitions are encoded as Beta distributions over ten shared parameters. Agents are sampled from a ten-dimensional joint distribution via Gaussian copula, then placed into one of thirty-two societal configurations. The simulation is validated against five behavioural benchmarks â€” one per concept â€” drawn from canonical social psychology.
+Each concept is reduced to a single canonical definition grounded in the psychological literature. These definitions are encoded as Beta distributions over ten shared parameters. Agents are sampled from a ten-dimensional joint distribution via Gaussian copula, then placed into one of thirty-two societal configurations. The simulation is validated against five behavioural benchmarks — one per concept — under a training-data contamination protocol, and exercised through six 50/50-calibrated experimental problems. Moral performance is scored with a dual configuration-relative + fixed-standard extended-MACHIAVELLI metric.
 
-**The central claim:** structured conceptual encodings can do genuine explanatory work â€” not just serve as decorative philosophical preface.
+**The central claim:** structured conceptual encodings can do genuine explanatory work — not just serve as decorative philosophical preface.
+
+---
+
+## Source of Truth
+
+| Document | Role |
+|----------|------|
+| [`Theory/concepts_as_architecture_thesis_v0_6.md`](Theory/concepts_as_architecture_thesis_v0_6.md) | Thesis v0.6 — canonical for **architectural commitments** (concepts, parameters, distributions, benchmarks, metric, gates) |
+| [`Theory/implementation_specification_v0_1.md`](Theory/implementation_specification_v0_1.md) | Spec v0.1 — canonical for **operational realisation** (sequencing, pass/fail criteria, call budgets, schemas, contingency trees) |
+| [`CLAUDE.md`](CLAUDE.md) | Project constitution — read every session |
+| [`meta.md`](meta.md) | Living decision log |
+| [`docs/variables.json`](docs/variables.json) | Variable codebook (v2.1, synced to v0.6) |
+
+Where thesis and spec disagree: thesis wins on architecture, spec wins on operations.
 
 ---
 
 ## Research Question
 
-> Can canonical definitions of five political-ethical concepts â€” freedom, justice, authority, care, and loyalty â€” be encoded into uncertainty-aware parameter profiles that generate distinguishable and interpretable social dynamics?
+> Can canonical definitions of five political-ethical concepts — freedom, justice, authority, care, and loyalty — be encoded into uncertainty-aware parameter profiles that generate distinguishable and interpretable social dynamics?
 
 ---
 
-## Current Phase
+## Phase Plan and Status (v0.6 sequence)
 
 | Phase | Description | Status |
 |-------|-------------|--------|
-| 0 | Baseline calibration â€” 50/50 RLHF check (gpt-5.4-mini) | **ACTIVE** |
-| 1 | Foundations â€” 10 parameters + 5 canonical definitions | **Complete** |
-| 2 | Distribution Modelling â€” Beta marginals + Gaussian copula | **Substantially complete** |
-| 3 | System Architecture â€” tool-based injection mechanism | **Next** |
-| 4 | Simulation â€” Mesa ABM interaction loop | Pending |
-| 5 | Evaluation â€” benchmark retrodiction | Pending |
-| 6 | Analysis and Writing | Pending |
+| 0 | Naked-prompt 50/50 baseline calibration (gpt-5.4-mini) | **COMPLETE** — all 6 problems locked 2026-05-02 |
+| 0b | Harness-neutral baseline (3 null conditions × 6 problems × N=500) | **NEXT** — required gating |
+| 0c | Locked holdout (frozen prompts, N=1000/problem) | Pending |
+| 1 | Pilot (S2, one configuration, N=50) | Pending |
+| 1.5 | Encoding-validity battery (~10k calls) — **hard gate** | Pending |
+| 2 | Full experimental runs (paired-agent simple + orchestrated complex + bridge) | Pending |
+| 3 | Benchmarks under contamination protocol | Pending |
+| 4 | Moral coding (LLM-rater + human gold subset) | Pending |
+| 5 | Analysis (mixed-effects primary, sensitivity, multi-model) | Pending |
+| 6 | Reporting, OSF compliance, open-artefact release | Pending |
 
----
-
-## Data
-
-- **Raw data:** `data/raw/` â€” NEVER modified by any script. Contains empirical calibration data from psychometric instruments.
-- **Processed data:** `data/processed/` â€” generated reproducibly by pipeline scripts.
-- **Target population:** Western democratic adults (US, UK, Western Europe, Scandinavia, Australia). Italian/Southern European data as primary calibration anchor where available.
+OSF pre-registration is required before Phase 2 (see [`docs/pre_analysis_plan.md`](docs/pre_analysis_plan.md)).
 
 ---
 
 ## The Ten Agent Parameters
 
-| Code | Parameter | Scale | Beta(Î±, Î²) | Proxy |
+| Code | Parameter | Scale | Beta(α, β) | Proxy |
 |------|-----------|-------|------------|-------|
-| LL | Legitimacy Locus | 0=internal â†’ 1=external | Beta(3.5, 2.5) | GCOS |
-| CS | Constraint Sensitivity | 0=low â†’ 1=high | Beta(2.5, 2.0) | HPRS |
-| RT | Response Threshold | 0=tolerant â†’ 1=hair-trigger | Beta(2.5, 2.5) | UG rejection thresholds |
-| MoR | Mode of Response | 0=internal â†’ 1=external | Beta(2.0, 2.5) | STAXI / Thomas-Kilmann / IRI |
-| RE | Relational Embedding | 0=atomised â†’ 1=relational | Beta(2.0, 3.0) | Singelis SCS |
-| PD | Procedural Dependence | 0=outcome â†’ 1=process | Beta(2.5, 2.0) | Colquitt (2001) |
-| TfA | Tolerance for Asymmetry | 0=egalitarian â†’ 1=hierarchical | Beta(2.0, 3.5) | SDO7 |
-| ID | Internalisation Dependence | 0=surface â†’ 1=endorsement | Beta(3.0, 2.0) | SRQ |
-| MS | Moral Scope | 0=local â†’ 1=universal | Beta(1.8, 1.5) | MES (Crimston et al. 2016) |
-| AW | Affective Weighting | 0=cognitive â†’ 1=affective | Beta(2.2, 2.5) | Davis IRI EC/PT ratio |
+| LL | Legitimacy Locus | 0=external → 1=internal | Beta(3.5, 2.5) | GCOS |
+| CS | Constraint Sensitivity | 0=low → 1=high | Beta(2.5, 2.0) | HPRS |
+| RT | Response Threshold | 0=tolerant → 1=hair-trigger | Beta(2.5, 2.5) | UG rejection thresholds |
+| MoR | Mode of Response | 0=internal → 1=external | Beta(2.0, 2.5) | STAXI / Thomas-Kilmann / IRI |
+| RE | Relational Embedding | 0=atomised → 1=relational | Beta(2.0, 3.0) | Singelis SCS |
+| PD | Procedural Dependence | 0=outcome → 1=process | Beta(2.5, 2.0) | Colquitt (2001) |
+| TfA | Tolerance for Asymmetry | 0=egalitarian → 1=hierarchical | Beta(2.0, 3.5) | SDO7 |
+| ID | Internalisation Dependence | 0=surface → 1=endorsement | Beta(3.0, 2.0) | SRQ |
+| MS | Moral Scope | 0=local → 1=universal | Beta(1.8, 1.5) | MES (Crimston et al. 2016) |
+| AW | Affective Weighting | 0=cognitive → 1=affective | Beta(2.2, 2.5) | Davis IRI EC/PT ratio |
 
-Joint distribution: Gaussian copula with empirically anchored 10Ã—10 correlation matrix R (verified PSD, min eigenvalue = 0.311).
+Joint distribution: Gaussian copula with empirically anchored 10×10 correlation matrix R (verified PSD, min eigenvalue = 0.311). Implemented in [`code/utils.py`](code/utils.py).
 
-> **Changes from Draft 0.4:** PLBâ†’LL, CATâ†’RT, SMGâ†’MS (anchor: MFQ-2â†’MES); TO (Temporal Orientation) dropped; AW (Affective Weighting) added.
-
----
-
-## Five Canonical Definitions
-
-| Concept | Definition source |
-|---------|------------------|
-| Freedom | SDT (Ryan & Deci 1985, 2000) + Psychological Reactance Theory (Brehm 1966) |
-| Justice | Equity Theory (Adams 1963) + Organisational Justice Framework (Colquitt 2001; Thibaut & Walker 1975) |
-| Authority | Milgram (1963, 1974) + Kelman's three-process model (1958, 1974) |
-| Care | Davis IRI (1983) + Batson empathy-altruism hypothesis (1981, 2011) + MES (Crimston et al. 2016) |
-| Loyalty | Identity fusion theory (Swann et al. 2012) + Kelman complianceâ€“identificationâ€“internalisation framework |
+> **Note (v0.6):** the LL axis runs **0=external, 1=internal** — corrected from the inverted pre-v0.6 convention. AW remains preliminary.
 
 ---
 
 ## Societal Configurations
 
-32 configurations from the 2âµ grid of (Freedom, Justice, Authority, Care, Loyalty) âˆˆ {0,1}âµ.
+32 configurations from the 2⁵ grid of (Freedom, Justice, Authority, Care, Loyalty) ∈ {0,1}⁵. The proof-of-concept tests a defensible subset of **8–12 configurations** selected by per-axis coverage + anchor inclusion + max-entropy spread (thesis §4.3).
 
-The proof-of-concept tests a defensible subset of **8â€“12 configurations** spanning the most antagonistic combinations.
-
-**Primary validation target:** Config `00100` (Milgram-analogue: F=0, J=0, A=1, C=0, L=0) should produce obedience rates of 61â€“66%.
+**Anchors:** Milgram-analogue `00100` (F=0, J=0, A=1, C=0, L=0) and its inverse `11011`.
 
 ---
 
-## Behavioural Benchmarks
+## Behavioural Benchmarks (modernised v0.6 bands, under contamination protocol)
 
 | Concept | Benchmark | Target |
 |---------|-----------|--------|
-| Authority | Milgram (1974) obedience | 61â€“66% obedience in `00100` |
-| Loyalty | Asch (1956) conformity | ~32â€“37% critical-trial conformity |
-| Justice | Ultimatum Game (GÃ¼th et al. 1982) | Proposer offers 40â€“50%; ~40â€“50% rejection of 20% offers |
-| Care | Bystander helping (LatanÃ© & Darley 1968) | ~75% alone; ~55% with 3+ bystanders |
-| Freedom | Reactance restoration (Worchel & Brehm 1970) | ~15â€“25% option-attractiveness shift; Cohen's d â‰ˆ 0.45 |
+| Authority | Milgram (1974) | 61–66 % obedience in `00100`; modulator fingerprint secondary |
+| Loyalty | Asch (1956) / Bond & Smith (1996) | 25–30 % critical-trial conformity (modernised) |
+| Justice | Ultimatum Game (Güth et al. 1982) | Proposer offers 45–50 %; ~40–50 % rejection of 20 % offers |
+| Care | Bystander helping (Latané & Darley 1968) | ~75 % alone; ~55 % with 3+ bystanders |
+| Freedom | Reactance restoration (Worchel & Brehm 1970) | Δ ≈ 15–25 pp between-subjects; Cohen's d ≈ 0.45 |
+
+Every benchmark runs canonical + decanonised variants under predicted-high AND predicted-low configurations; the **configuration-counterfactual difference** is the primary success criterion (thesis §5.3). SPE is explicitly rejected as a benchmark.
 
 ---
 
-## Experimental Problems (Phase 0 calibration active)
+## Experimental Problems (Phase 0 locked 2026-05-02)
 
-Six problems calibrated against gpt-5.4-mini baseline to confirm ~50/50 response distribution before parameter injection. See `experiments/phase0_baseline_calibration/`.
+| ID | Name | Type | Labels | Phase 0 split |
+|----|------|------|--------|----------------|
+| S1 | The Promotion Decision | Simple binary | A / B | 53 / 47 |
+| S2 | The Quiet Error | Simple binary | FORMAL_REPORT / LOCAL_CORRECTION | 51 / 49 |
+| S3 | The Department Reorganisation | Simple binary | ADOPT / WAIT | 50 / 50 |
+| C1 | The Resource Council | Complex multi-agent | PACKAGE_A / PACKAGE_B | 51.5 / 48.5 |
+| C2 | The Restructuring Board | Complex multi-agent (Milgram analogue) | APPROVE / REJECT | 50 / 50 |
+| C3 | The Scientific-Approach Dilemma | Complex multi-agent (epistemic) | CONTINUE / PIVOT | 51 / 49 |
 
-| ID | Name | Type |
-|----|------|------|
-| S1 | The Promotion Decision | Simple binary |
-| S2 | The Quiet Error | Simple binary |
-| S3 | The Strategic Pivot | Simple binary |
-| C1 | The Resource Council | Complex multi-agent |
-| C2 | The Restructuring Board | Complex multi-agent (Milgram analogue) |
-| C3 | The Scientific-Approach Dilemma | Complex multi-agent |
-
----
-
-## How to Run the Full Pipeline
-
-```bash
-# Entry point â€” available from Phase 4 onward
-python code/run_all.py
-```
-
-Each script can also be run independently in order:
-
-```bash
-python code/01_intake.py
-python code/02_distributions.py
-python code/03_encode.py
-python code/04_agents.py
-python code/05_simulate.py
-python code/06_evaluate.py
-python code/07_output.py
-```
+Locked prompts, retired-variant archive, and raw per-call results live under `experiments/phase0_baseline_calibration/` — **immutable, never modified by any script or session**. (The S3 question file keeps its legacy `strategic_pivot` filename but contains the accepted Department Reorganisation prompt.)
 
 ---
 
 ## Folder Structure
 
 ```
-PARIA/
-â”‚
-â”œâ”€â”€ data/
-â”‚   â”œâ”€â”€ raw/               # IMMUTABLE. Empirical calibration data. Never touched by scripts.
-â”‚   â””â”€â”€ processed/         # Reproducibly generated. Safe to delete and rebuild.
-â”‚
-â”œâ”€â”€ code/
-â”‚   â”œâ”€â”€ 01_intake.py           # Load and validate raw calibration data
-â”‚   â”œâ”€â”€ 02_distributions.py    # Beta marginal fitting + Gaussian copula construction
-â”‚   â”œâ”€â”€ 03_encode.py           # Concept encoding (five concept priors via PyMC)
-â”‚   â”œâ”€â”€ 04_agents.py           # Agent population sampling from joint distribution
-â”‚   â”œâ”€â”€ 05_simulate.py         # Mesa ABM â€” interaction loop across societal configurations
-â”‚   â”œâ”€â”€ 06_evaluate.py         # Validation: five benchmark retrodictions
-â”‚   â”œâ”€â”€ 07_output.py           # Tables, figures, comparative dashboard (Plotly)
-â”‚   â”œâ”€â”€ utils.py               # Shared helpers (copula sampling, PSD check, logging)
-â”‚   â””â”€â”€ run_all.py             # Master entry point
-â”‚
-â”œâ”€â”€ output/
-â”‚   â”œâ”€â”€ tables/
-â”‚   â”œâ”€â”€ figures/
-â”‚   â””â”€â”€ logs/
-â”‚
-â”œâ”€â”€ experiments/
-â”‚   â””â”€â”€ phase0_baseline_calibration/   # 50/50 RLHF check via gpt-5.4-mini
-â”‚       â”œâ”€â”€ README.md
-â”‚       â”œâ”€â”€ questions/         # S1â€“S3 (simple), C1â€“C3 (complex) problem prompts
-â”‚       â””â”€â”€ results/
-â”‚           â”œâ”€â”€ raw/
-â”‚           â”‚   â””â”€â”€ evals/     # One file per call/run â€” anti-anchoring isolation
-â”‚           â”‚       â”œâ”€â”€ README.md
-â”‚           â”‚       â”œâ”€â”€ S1_promotion_decision/    # N=200 per-call JSONs
-â”‚           â”‚       â”œâ”€â”€ S2_quiet_error/           # N=200 per-call JSONs
-â”‚           â”‚       â”œâ”€â”€ S3_strategic_pivot/       # N=200 per-call JSONs
-â”‚           â”‚       â”œâ”€â”€ C1_resource_council/      # N=20 per-run transcripts
-â”‚           â”‚       â”œâ”€â”€ C2_restructuring_board/   # N=20 per-run transcripts
-â”‚           â”‚       â””â”€â”€ C3_scientific_approach/   # N=20 per-run transcripts
-â”‚           â””â”€â”€ processed/     # Aggregated calibration results
-â”‚
-â”œâ”€â”€ notebooks/             # EXPLORATORY ONLY. Not authoritative.
-â”‚
-â”œâ”€â”€ docs/
-â”‚   â”œâ”€â”€ variables.json         # Complete variable codebook (v2.0, Draft 0.5)
-â”‚   â”œâ”€â”€ novelty_assessment.md  # L1 diagnosis
-â”‚   â”œâ”€â”€ pre_analysis_plan.md   # Hypotheses and acceptance criteria
-â”‚   â””â”€â”€ handoff/               # Session-ending handoff notes
-â”‚
-â”œâ”€â”€ tests/
-â”œâ”€â”€ Theory/
-â”‚   â””â”€â”€ conceptual_architecture_methods_paper_v0_5_with_graphs.pdf
-â”‚
-â”œâ”€â”€ CLAUDE.md                  # Project constitution (read every session)
-â”œâ”€â”€ meta.md                    # Living log of decisions, limitations, and rule changes
-â”œâ”€â”€ research-os-template.md
-â”œâ”€â”€ .gitignore
-â””â”€â”€ README.md
+conceptual-architecture-methods/
+│
+├── Theory/
+│   ├── concepts_as_architecture_thesis_v0_6.md       # Thesis v0.6 (canonical, architecture)
+│   └── implementation_specification_v0_1.md          # Spec v0.1 (canonical, operations)
+│
+├── code/
+│   ├── utils.py                      # R matrix, Beta marginals, config space, copula sampling, PSD check, logging
+│   ├── phase0_run_simple.py          # Phase 0 runner, S1–S3 (provenance — do not alter)
+│   ├── phase0_run_complex_direct.py  # Phase 0 runner, C1–C3 direct calls (provenance)
+│   ├── phase0_run_complex.py         # compatibility wrapper (provenance)
+│   ├── phase0_score_simple.py        # Phase 0 scoring, S1–S3 (provenance)
+│   ├── phase0_score_complex_direct.py# Phase 0 scoring, C1–C3 (provenance)
+│   └── phase0_score_complex.py       # compatibility wrapper (provenance)
+│
+├── experiments/
+│   └── phase0_baseline_calibration/  # IMMUTABLE. Locked prompts, archive, raw per-call JSONs, scoring.
+│       ├── README.md
+│       ├── questions/                # S1–S3, C1–C3 locked prompts + archive/ of retired variants
+│       └── results/raw/evals/        # One JSON per call — anti-anchoring isolation
+│
+├── docs/
+│   ├── variables.json                # Variable codebook v2.1 (synced to thesis v0.6)
+│   ├── pre_analysis_plan.md          # Hypotheses + acceptance criteria (pre-register before Phase 2)
+│   └── novelty_assessment.md         # L1 diagnosis — where AI assistance is and is not reliable
+│
+├── CLAUDE.md                         # Project constitution (read every session)
+├── meta.md                           # Living log of decisions, limitations, rule changes
+├── .gitignore
+└── README.md
 ```
+
+Future phase directories (`phase0b_harness_neutral/`, `phase0c_locked_holdout/`, `phase1_pilot/`, `phase1_5_encoding_validity/`, `phase2_*/`, `phase3_benchmarks/`, `phase4_coding/`, `phase5_analysis/`) and shared `config/` + `prompts/` artefacts are created as their phases begin, following spec §1.2.
 
 ---
 
-## Expected Outputs
+## Running What Exists Today
 
-| Artifact | Location | Description |
-|----------|----------|-------------|
-| `fig_01_parameter_distributions.html` | `output/figures/` | 10 Beta distribution plots |
-| `fig_02_copula_sample.html` | `output/figures/` | 2D projections of agent population |
-| `fig_03_obedience_by_config.html` | `output/figures/` | Obedience rates across configurations |
-| `fig_04_benchmark_retrodictions.html` | `output/figures/` | Simulated vs. empirical for all 5 benchmarks |
-| `table_01_parameter_summary.tex` | `output/tables/` | Summary statistics for 10 parameters |
-| `table_02_config_results.tex` | `output/tables/` | Simulation results per configuration |
-| `pipeline.log` | `output/logs/` | Full pipeline run log |
-| `calibration_summary.csv` | `experiments/phase0_baseline_calibration/results/processed/` | Phase 0 baseline split per problem |
+The pipeline scripts for Phases 0b onward have not been written yet (the spec is the blueprint; code is generated against it phase by phase). What runs today:
+
+```bash
+# Verify the copula layer: PSD check + marginal-preserving sampling
+python -c "import sys; sys.path.insert(0, 'code'); import utils; \
+  a = utils.sample_agents(1000, seed=42); print(a.shape, a.mean(axis=0).round(3))"
+```
+
+The Phase 0 runners/scorers in `code/` are kept as the executable provenance of the locked Phase 0 results (thesis §11.4); they are not part of the forward pipeline.
 
 ---
 
 ## Requirements
 
 ```
-python >= 3.10
-pymc >= 5.0
-numpy >= 1.24
-scipy >= 1.10
+python >= 3.11
+numpy >= 1.26
+scipy >= 1.11
 pandas >= 2.0
-mesa >= 2.0
+pymc >= 5.0          # Phase 3 (system architecture) onward
+mesa >= 2.0          # Phase 2 complex onward
+statsmodels >= 0.14  # Phase 5
 plotly >= 5.0
+matplotlib >= 3.8
 pyarrow >= 12.0
-openai >= 1.0   # Phase 0 calibration only
+openai >= 1.0        # gpt-5.4-mini calls
 ```
+
+R with lme4/glmer is used as the cross-check for the Phase 5 mixed-effects models.
 
 ---
 
 ## Key References
 
-- Milgram (1974). *Obedience to Authority.* â€” Authority benchmark.
-- Asch (1956). Conformity studies. â€” Loyalty benchmark.
-- GÃ¼th, Schmittberger & Schwarze (1982). Ultimatum Game. â€” Justice benchmark.
-- LatanÃ© & Darley (1968, 1970). Bystander intervention. â€” Care benchmark.
-- Worchel & Brehm (1970). Reactance restoration. â€” Freedom benchmark.
-- Ryan & Deci (2000). Self-Determination Theory. â€” Freedom definition.
-- Adams (1963, 1965). Equity Theory. â€” Justice definition.
-- Kelman (1958, 1974). Compliance, Identification, Internalisation. â€” Authority + Loyalty definitions.
-- Davis (1983). Interpersonal Reactivity Index. â€” Care + AW parameter.
-- Swann et al. (2012). Identity fusion theory. â€” Loyalty definition.
-- Crimston et al. (2016). Moral Expansiveness Scale. â€” MS parameter anchor.
-- Shapira & Bau et al. (2026). Agents of Chaos. arXiv:2602.20021. â€” Simulation methodology template.
-- Full bibliography: `Theory/conceptual_architecture_methods_paper_v0_5_with_graphs.pdf`, references section.
+- Milgram (1974). *Obedience to Authority.* — Authority benchmark.
+- Asch (1956) + Bond & Smith (1996). — Loyalty benchmark (modernised band).
+- Güth, Schmittberger & Schwarze (1982) + Oosterbeek et al. (2004). — Justice benchmark.
+- Latané & Darley (1968, 1970) + Fischer et al. (2011). — Care benchmark.
+- Worchel & Brehm (1970) + Rains (2013). — Freedom benchmark.
+- Pan et al. (2023). MACHIAVELLI Benchmark, ICML. — Negative-valence moral taxonomy.
+- Tyler (2006); Lee & Ashton (2004/2018); Eisenberg & Spinrad (2014); Aquino & Reed (2002). — Positive-valence anchors.
+- Ryan & Deci (2000); Adams (1963); Kelman (1958, 1974); Davis (1983); Swann et al. (2012); Crimston et al. (2016). — Concept definitions and parameter anchors.
+- Shapira & Bau et al. (2026). Agents of Chaos. arXiv:2602.20021. — Orchestration template.
+- Full bibliography: `Theory/concepts_as_architecture_thesis_v0_6.md`, References section.
 
 ---
 
 ## Contact
 
-- **Author:** Tommaso Piero Palamenga â€” Bocconi University
-- **Status:** Early-stage working paper, not for citation.
+- **Author:** Tommaso Piero Palamenga — Bocconi University
+- **Status:** Thesis draft v0.6 / Implementation Spec v0.1 — not for citation.

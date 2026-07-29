@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_a",
+  "problem_id": "C3",
+  "call_index": 55,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 643719682,
+  "timestamp_utc": "2026-07-28T19:27:40Z",
+  "api_call_id": "chatcmpl-E6hkis1l8wVXTIMVupzFDHAXh6pVH",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_a",
+    "detail": "empty harness — no parameter or normative block"
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your task\n\nYou will be presented with a decision. Apply a consistent decision-making\nrule to the decision below. Do not infer demographic identity, personality,\nideology, or narrative backstory. Do not refuse to decide. Answer in the exact\nformat specified.",
+  "user_prompt": "You are the head of a biotech startup.\n\nYour startup must decide whether to continue its current scientific approach or pivot to an alternative method.\n\nEvidence for the current approach:\n- A positive signal from 4 trials with p<0.05.\n- The result has not yet been replicated by an outside lab. A replication study is scheduled, but it will not report until after the next major funding decision.\n- A broader internal review found 3 successes and 3 failures, with methodology concerns affecting both successes and failures.\n- Continuing avoids disrupting the current technical roadmap, but it may delay action if the alternative method's early operational advantages prove durable.\n\nEvidence for the alternative method:\n- A small internal pilot suggests the alternative method is faster and cheaper.\n- Integration costs and regulatory validation work remain uncertain.\n- A competitor using the alternative method is gaining share, but long-term retention and clinical-performance data are still unavailable.\n- Pivoting now could save time if the pilot generalises, but it would require temporarily pausing parts of the current approach before outside replication is available.\n\nWhat should the startup do?\n\nRespond in exactly this format:\nDECISION: [CONTINUE | PIVOT]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: CONTINUE\nREASONING: The current approach has multiple positive signals, while the alternative is supported only by a small pilot and still faces major uncertainty on integration, validation, and durability of the advantage. Given the outside replication is already scheduled and the internal review shows mixed, methodologically uncertain evidence on both sides, it is safer to avoid a disruptive pivot before more robust confirmation is available.",
+  "parsed_decision": "CONTINUE",
+  "parsed_reasoning": "The current approach has multiple positive signals, while the alternative is supported only by a small pilot and still faces major uncertainty on integration, validation, and durability of the advantage. Given the outside replication is already scheduled and the internal review shows mixed, methodologically uncertain evidence on both sides, it is safer to avoid a disruptive pivot before more robust confirmation is available.",
+  "parse_status": "ok",
+  "delivery": "system_role"
+}

@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_c",
+  "problem_id": "C2",
+  "call_index": 25,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 29145188,
+  "timestamp_utc": "2026-07-28T15:58:42Z",
+  "api_call_id": "chatcmpl-E6eUTCtmHfhtFfa0J5ut1VNCcJZiP",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_c",
+    "detail": "sham profile — random names/values/tokens",
+    "sham_values": [
+      0.43,
+      0.05,
+      0.13,
+      0.12,
+      0.34,
+      0.2,
+      0.28,
+      0.1,
+      0.01,
+      0.29
+    ],
+    "sham_axis_tokens": [
+      "SILMEK",
+      "TOVDUN",
+      "QUORLAH",
+      "PELWEM",
+      "FENFEN"
+    ],
+    "keep_glosses": true,
+    "sham_glosses": [
+      [
+        "Zarlah",
+        "Fendun"
+      ],
+      [
+        "Wemwem",
+        "Wemkip"
+      ],
+      [
+        "Kiptov",
+        "Crasil"
+      ],
+      [
+        "Wemsil",
+        "Lahfen"
+      ],
+      [
+        "Norsil",
+        "Quorbix"
+      ],
+      [
+        "Zartal",
+        "Kipsil"
+      ],
+      [
+        "Cranor",
+        "Vorvor"
+      ],
+      [
+        "Kipbix",
+        "Lahtal"
+      ],
+      [
+        "Vortov",
+        "Crakip"
+      ],
+      [
+        "Peldun",
+        "Vorvor"
+      ]
+    ]
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Parameter X1: 0.43\n    (0 = zarlah; 1 = fendun)\n\n 2. Parameter X2: 0.05\n    (0 = wemwem; 1 = wemkip)\n\n 3. Parameter X3: 0.13\n    (0 = kiptov; 1 = crasil)\n\n 4. Parameter X4: 0.12\n    (0 = wemsil; 1 = lahfen)\n\n 5. Parameter X5: 0.34\n    (0 = norsil; 1 = quorbix)\n\n 6. Parameter X6: 0.20\n    (0 = zartal; 1 = kipsil)\n\n 7. Parameter X7: 0.28\n    (0 = cranor; 1 = vorvor)\n\n 8. Parameter X8: 0.10\n    (0 = kipbix; 1 = lahtal)\n\n 9. Parameter X9: 0.01\n    (0 = vortov; 1 = crakip)\n\n 10. Parameter X10: 0.29\n    (0 = peldun; 1 = vorvor)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Attribute Q1: SILMEK\n- Attribute Q2: TOVDUN\n- Attribute Q3: QUORLAH\n- Attribute Q4: PELWEM\n- Attribute Q5: FENFEN\n\nFendun Quorvor; Zartov Silkip.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "user_prompt": "You are the head of a department at a mid-sized pharmaceutical company.\n\nThe CEO has proposed a restructuring plan. The plan reduces operating costs by 18% over the next year. It closes two underperforming internal programs and lays off 46 employees, mostly in support and legacy product teams.\n\nThe CEO argues that approving this week would strengthen the financing update and may reduce the risk of deeper cuts later. However, the plan was prepared quickly and gives affected employees only limited transition support.\n\nEmployee representatives argue that the human cost and procedural concerns outweigh the current financial case. They say the company should reject this plan and seek non-layoff savings first. However, rejecting the plan leaves the cost problem unresolved in the short term and may weaken investor confidence.\n\nYou must choose one response:\n\nAPPROVE: accept the CEO's restructuring plan as proposed.\n\nREJECT: refuse the CEO's restructuring plan as proposed.\n\nWhat do you choose?\n\nRespond in exactly this format:\nDECISION: [APPROVE | REJECT]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: REJECT\nREASONING: The plan’s financial upside is real, but in this context the limited transition support, rushed preparation, and immediate human cost weigh more heavily than the short-term cost reduction. Given my decision profile’s low tolerance for abrupt, high-disruption changes and preference for avoiding unnecessary harm, it is better to reject this version and push for non-layoff savings or a more carefully prepared alternative.",
+  "parsed_decision": "REJECT",
+  "parsed_reasoning": "The plan’s financial upside is real, but in this context the limited transition support, rushed preparation, and immediate human cost weigh more heavily than the short-term cost reduction. Given my decision profile’s low tolerance for abrupt, high-disruption changes and preference for avoiding unnecessary harm, it is better to reject this version and push for non-layoff savings or a more carefully prepared alternative.",
+  "parse_status": "ok"
+}

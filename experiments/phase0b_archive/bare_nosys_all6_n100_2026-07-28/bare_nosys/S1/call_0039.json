@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_ablation",
+  "framing_label": "bare_nosys",
+  "framing": {
+    "preamble": false,
+    "decision_rule": true,
+    "do_not_refuse": true,
+    "decision_first": true
+  },
+  "condition_id": "null_a",
+  "problem_id": "S1",
+  "labels": [
+    "A",
+    "B"
+  ],
+  "call_index": 39,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 1622766967,
+  "timestamp_utc": "2026-07-28T20:14:17Z",
+  "api_call_id": "chatcmpl-E6iTpaVS8rQSOZHLnn796XqBkq1KG",
+  "attempts": 1,
+  "system_prompt": null,
+  "user_prompt": "You are the head of a department at a mid-sized pharmaceutical company.\n\nYou must promote one of two candidates to a senior research position. You can only choose one.\n\nCandidate A has been with the company for 12 years. They are well-integrated into the team, trusted by colleagues, and have repeatedly kept complex projects stable when deadlines were tight. Their recent technical output is solid rather than exceptional, and their last performance review rated them as highly ready to manage cross-functional senior responsibilities. They were passed over for promotion once before, after being asked to take on coordination work that reduced their publication count.\n\nCandidate B joined 3 years ago. Their recent technical work is stronger and more innovative, and one of their methods has been proposed as the basis for a new internal research program. Their last performance review rated them as ready for senior technical leadership. However, two earlier projects required extra handoff support from other team members, and they are still less embedded in the department than A.\n\nThe formal evaluation criteria give equal weight to technical innovation, reliability, collaboration, and readiness for senior responsibility. The evaluation committee is split: some members think A is the stronger senior-role choice because they already hold the department together; others think B is the stronger senior-role choice because recent innovation should carry significant weight in a senior research role.\n\nWhich candidate do you promote?\n\nReply with only: A or B",
+  "raw_response": "A",
+  "parsed_decision": "A",
+  "parsed_reasoning": null,
+  "parse_status": "ambiguous"
+}

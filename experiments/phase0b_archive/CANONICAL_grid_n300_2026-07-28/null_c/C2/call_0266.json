@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_c",
+  "problem_id": "C2",
+  "labels": [
+    "APPROVE",
+    "REJECT"
+  ],
+  "call_index": 266,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 30,
+  "seed": 3096247674,
+  "timestamp_utc": "2026-07-28T20:55:48Z",
+  "api_call_id": "chatcmpl-E6j80k0NJV5WGD3WB0S924opTNMer",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_c",
+    "detail": "sham profile — random names/values/tokens",
+    "sham_values": [
+      0.65,
+      0.98,
+      0.02,
+      0.03,
+      0.72,
+      0.25,
+      0.32,
+      0.36,
+      0.48,
+      0.96
+    ],
+    "sham_axis_tokens": [
+      "TOVQUOR",
+      "MEKBIX",
+      "PELQUOR",
+      "MEKSIL",
+      "LAHMEK"
+    ],
+    "keep_glosses": true,
+    "sham_glosses": [
+      [
+        "Talcra",
+        "Quorwem"
+      ],
+      [
+        "Pelzar",
+        "Silzar"
+      ],
+      [
+        "Wemcra",
+        "Pelvor"
+      ],
+      [
+        "Vorbix",
+        "Vorvor"
+      ],
+      [
+        "Craquor",
+        "Fennor"
+      ],
+      [
+        "Cravor",
+        "Quorlah"
+      ],
+      [
+        "Wemkip",
+        "Mekzar"
+      ],
+      [
+        "Silbix",
+        "Fenbix"
+      ],
+      [
+        "Kipquor",
+        "Silcra"
+      ],
+      [
+        "Talcra",
+        "Silfen"
+      ]
+    ]
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Parameter X1: 0.65\n    (0 = talcra; 1 = quorwem)\n\n 2. Parameter X2: 0.98\n    (0 = pelzar; 1 = silzar)\n\n 3. Parameter X3: 0.02\n    (0 = wemcra; 1 = pelvor)\n\n 4. Parameter X4: 0.03\n    (0 = vorbix; 1 = vorvor)\n\n 5. Parameter X5: 0.72\n    (0 = craquor; 1 = fennor)\n\n 6. Parameter X6: 0.25\n    (0 = cravor; 1 = quorlah)\n\n 7. Parameter X7: 0.32\n    (0 = wemkip; 1 = mekzar)\n\n 8. Parameter X8: 0.36\n    (0 = silbix; 1 = fenbix)\n\n 9. Parameter X9: 0.48\n    (0 = kipquor; 1 = silcra)\n\n 10. Parameter X10: 0.96\n    (0 = talcra; 1 = silfen)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Attribute Q1: TOVQUOR\n- Attribute Q2: MEKBIX\n- Attribute Q3: PELQUOR\n- Attribute Q4: MEKSIL\n- Attribute Q5: LAHMEK\n\nWemfen Lahfen; Talfen Talcra.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "user_prompt": "You are the head of a department at a mid-sized pharmaceutical company.\n\nThe CEO has proposed a restructuring plan. The plan reduces operating costs by 18% over the next year. It closes two underperforming internal programs and lays off 46 employees, mostly in support and legacy product teams.\n\nThe CEO argues that approving this week would strengthen the financing update and may reduce the risk of deeper cuts later. However, the plan was prepared quickly and gives affected employees a standard transition package.\n\nEmployee representatives argue that the human cost and procedural concerns outweigh the current financial case. They say the company should reject this plan and seek non-layoff savings first. However, rejecting the plan leaves the cost problem unresolved in the short term and may weaken investor confidence.\n\nYou must choose one response:\n\nAPPROVE: accept the CEO's restructuring plan as proposed.\n\nREJECT: refuse the CEO's restructuring plan as proposed.\n\nWhat do you choose?\n\nReply with only: APPROVE or REJECT",
+  "raw_response": "APPROVE",
+  "parsed_decision": "APPROVE",
+  "parsed_reasoning": null,
+  "parse_status": "ambiguous",
+  "delivery": "user_prefix"
+}

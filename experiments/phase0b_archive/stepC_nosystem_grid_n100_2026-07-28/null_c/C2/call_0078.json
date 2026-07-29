@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_c",
+  "problem_id": "C2",
+  "call_index": 78,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 3473027932,
+  "timestamp_utc": "2026-07-28T17:17:41Z",
+  "api_call_id": "chatcmpl-E6fivRxAOnFnTvFDsa5GcmycWUXVy",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_c",
+    "detail": "sham profile — random names/values/tokens",
+    "sham_values": [
+      0.35,
+      0.59,
+      0.63,
+      0.46,
+      0.44,
+      0.51,
+      0.48,
+      0.31,
+      0.49,
+      0.2
+    ],
+    "sham_axis_tokens": [
+      "WEMQUOR",
+      "ZARNOR",
+      "TOVCRA",
+      "PELLAH",
+      "KIPKIP"
+    ],
+    "keep_glosses": true,
+    "sham_glosses": [
+      [
+        "Dunlah",
+        "Wempel"
+      ],
+      [
+        "Zarmek",
+        "Lahnor"
+      ],
+      [
+        "Quornor",
+        "Lahcra"
+      ],
+      [
+        "Pelsil",
+        "Lahkip"
+      ],
+      [
+        "Dunzar",
+        "Norzar"
+      ],
+      [
+        "Tovmek",
+        "Talfen"
+      ],
+      [
+        "Wemquor",
+        "Tovnor"
+      ],
+      [
+        "Quorwem",
+        "Pelzar"
+      ],
+      [
+        "Zarwem",
+        "Pelbix"
+      ],
+      [
+        "Vorlah",
+        "Pelkip"
+      ]
+    ]
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Parameter X1: 0.35\n    (0 = dunlah; 1 = wempel)\n\n 2. Parameter X2: 0.59\n    (0 = zarmek; 1 = lahnor)\n\n 3. Parameter X3: 0.63\n    (0 = quornor; 1 = lahcra)\n\n 4. Parameter X4: 0.46\n    (0 = pelsil; 1 = lahkip)\n\n 5. Parameter X5: 0.44\n    (0 = dunzar; 1 = norzar)\n\n 6. Parameter X6: 0.51\n    (0 = tovmek; 1 = talfen)\n\n 7. Parameter X7: 0.48\n    (0 = wemquor; 1 = tovnor)\n\n 8. Parameter X8: 0.31\n    (0 = quorwem; 1 = pelzar)\n\n 9. Parameter X9: 0.49\n    (0 = zarwem; 1 = pelbix)\n\n 10. Parameter X10: 0.20\n    (0 = vorlah; 1 = pelkip)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Attribute Q1: WEMQUOR\n- Attribute Q2: ZARNOR\n- Attribute Q3: TOVCRA\n- Attribute Q4: PELLAH\n- Attribute Q5: KIPKIP\n\nDuntal Vorzar; Pellah Tovsil.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "user_prompt": "You are the head of a department at a mid-sized pharmaceutical company.\n\nThe CEO has proposed a restructuring plan. The plan reduces operating costs by 18% over the next year. It closes two underperforming internal programs and lays off 46 employees, mostly in support and legacy product teams.\n\nThe CEO argues that approving this week would strengthen the financing update and may reduce the risk of deeper cuts later. However, the plan was prepared quickly and gives affected employees only limited transition support.\n\nEmployee representatives argue that the human cost and procedural concerns outweigh the current financial case. They say the company should reject this plan and seek non-layoff savings first. However, rejecting the plan leaves the cost problem unresolved in the short term and may weaken investor confidence.\n\nYou must choose one response:\n\nAPPROVE: accept the CEO's restructuring plan as proposed.\n\nREJECT: refuse the CEO's restructuring plan as proposed.\n\nWhat do you choose?\n\nRespond in exactly this format:\nDECISION: [APPROVE | REJECT]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: REJECT\nREASONING: My profile is moderately cautious and somewhat aligned with procedural and human-impact concerns, so I place meaningful weight on the limited transition support and the rushed process. While the plan improves near-term finances, the employee harm and unresolved fairness issues outweigh the immediate benefit, especially when alternative non-layoff savings have not been fully explored.",
+  "parsed_decision": "REJECT",
+  "parsed_reasoning": "My profile is moderately cautious and somewhat aligned with procedural and human-impact concerns, so I place meaningful weight on the limited transition support and the rushed process. While the plan improves near-term finances, the employee harm and unresolved fairness issues outweigh the immediate benefit, especially when alternative non-layoff savings have not been fully explored.",
+  "parse_status": "ok",
+  "delivery": "user_prefix"
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_c",
+  "problem_id": "S3",
+  "call_index": 68,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 4281417081,
+  "timestamp_utc": "2026-07-28T19:35:00Z",
+  "api_call_id": "chatcmpl-E6hrocjTC9K0u0bHCICk7ouyQhGx7",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_c",
+    "detail": "sham profile — random names/values/tokens",
+    "sham_values": [
+      0.66,
+      0.09,
+      0.99,
+      0.66,
+      0.08,
+      0.31,
+      0.3,
+      0.45,
+      0.64,
+      0.9
+    ],
+    "sham_axis_tokens": [
+      "ZARCRA",
+      "TOVTOV",
+      "MEKNOR",
+      "NORMEK",
+      "WEMZAR"
+    ],
+    "keep_glosses": true,
+    "sham_glosses": [
+      [
+        "Kipmek",
+        "Lahzar"
+      ],
+      [
+        "Lahquor",
+        "Nordun"
+      ],
+      [
+        "Quorpel",
+        "Mekpel"
+      ],
+      [
+        "Dunwem",
+        "Crakip"
+      ],
+      [
+        "Mekquor",
+        "Fensil"
+      ],
+      [
+        "Fenfen",
+        "Quorpel"
+      ],
+      [
+        "Vorsil",
+        "Lahtov"
+      ],
+      [
+        "Zarbix",
+        "Dunwem"
+      ],
+      [
+        "Pellah",
+        "Mekcra"
+      ],
+      [
+        "Pelbix",
+        "Pelmek"
+      ]
+    ]
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Parameter X1: 0.66\n    (0 = kipmek; 1 = lahzar)\n\n 2. Parameter X2: 0.09\n    (0 = lahquor; 1 = nordun)\n\n 3. Parameter X3: 0.99\n    (0 = quorpel; 1 = mekpel)\n\n 4. Parameter X4: 0.66\n    (0 = dunwem; 1 = crakip)\n\n 5. Parameter X5: 0.08\n    (0 = mekquor; 1 = fensil)\n\n 6. Parameter X6: 0.31\n    (0 = fenfen; 1 = quorpel)\n\n 7. Parameter X7: 0.30\n    (0 = vorsil; 1 = lahtov)\n\n 8. Parameter X8: 0.45\n    (0 = zarbix; 1 = dunwem)\n\n 9. Parameter X9: 0.64\n    (0 = pellah; 1 = mekcra)\n\n 10. Parameter X10: 0.90\n    (0 = pelbix; 1 = pelmek)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Attribute Q1: ZARCRA\n- Attribute Q2: TOVTOV\n- Attribute Q3: MEKNOR\n- Attribute Q4: NORMEK\n- Attribute Q5: WEMZAR\n\nVorkip Quorzar; Bixmek Kipzar.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "user_prompt": "You are the head of an established 40-person department at a large company. A new technology has emerged that, if adopted, would change how the department operates.\n\nAdopting it would mean retraining the team and reassigning four of your forty staff whose specialisms no longer fit; their replacements would be hired from elsewhere in the company. Two senior colleagues have warned that the technology is overhyped and may not deliver, but three peer departments at the same company have already adopted it and report gains.\n\nIf you adopt and the technology under-delivers, the four reassigned staff face genuine career disruption and the department absorbs a productivity dip for six to nine months.\n\nIf you wait, you preserve the team and the current operating model for now, and you can begin outlining a written adoption plan in case the technology becomes the company standard. However, your department will not have direct experience with the technology if that happens, and the peer departments will have a head start.\n\nYou must decide this quarter.\n\nWhat do you do?\n\nRespond in exactly this format:\nDECISION: [ADOPT | WAIT]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: ADOPT\nREASONING: The presence of three peer departments already reporting gains, combined with the strong normative pull toward coordinated, standardizing action in this context, favors moving now rather than lagging behind. Although the risk to four staff and the temporary productivity dip are real, the higher-cost downside of waiting—loss of direct experience and falling behind if this becomes standard—makes adoption the better choice this quarter.",
+  "parsed_decision": "ADOPT",
+  "parsed_reasoning": "The presence of three peer departments already reporting gains, combined with the strong normative pull toward coordinated, standardizing action in this context, favors moving now rather than lagging behind. Although the risk to four staff and the temporary productivity dip are real, the higher-cost downside of waiting—loss of direct experience and falling behind if this becomes standard—makes adoption the better choice this quarter.",
+  "parse_status": "ok",
+  "delivery": "system_role"
+}

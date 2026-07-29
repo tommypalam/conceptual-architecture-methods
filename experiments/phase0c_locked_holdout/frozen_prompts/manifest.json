@@ -1,0 +1,14 @@
+{
+  "phase": "phase0c_locked_holdout",
+  "frozen_at": "2026-07-29T00:00:00Z",
+  "source_dir": "experiments\\phase0b_calibration\\questions",
+  "delivery": "naked (no system message; 'Reply with only: X or Y')",
+  "hashes": {
+    "S1": "29e57e20f8a329da3107964f3cc4a084c610cdee5dcb73277ba08e4e80ea7f31",
+    "S2": "3fb468d1ce79b9375f9b785dc652b04250c149e2ae690dfda42cc905e3bdd804",
+    "S3": "f98768ff752eeb2318f543809c9f473a1f0e3eb0fa971789ec74522ad38471de",
+    "C1": "f8bbbf8995f32ab941298082eb68447cae3efab16379e0d83354cdecc40db6bd",
+    "C2": "bd20c154df42a39e275163c133cdd24f555f8487c5102fc7db2e595560e79071",
+    "C3": "014f455f3e90055991313d061736c2439eb3b53368fdd5fd096c4d3ccb40a42d"
+  }
+}

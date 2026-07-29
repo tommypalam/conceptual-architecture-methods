@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_c",
+  "problem_id": "C2",
+  "call_index": 45,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 1981228106,
+  "timestamp_utc": "2026-07-28T19:06:03Z",
+  "api_call_id": "chatcmpl-E6hPmVo3ouUZXI9D7NIEYG8VSzOXW",
+  "attempts": 2,
+  "harness_provenance": {
+    "condition": "null_c",
+    "detail": "sham profile — random names/values/tokens",
+    "sham_values": [
+      0.62,
+      0.2,
+      0.03,
+      0.2,
+      0.7,
+      0.1,
+      0.35,
+      0.2,
+      0.4,
+      0.8
+    ],
+    "sham_axis_tokens": [
+      "TALNOR",
+      "SILDUN",
+      "NORDUN",
+      "TALFEN",
+      "NORCRA"
+    ],
+    "keep_glosses": true,
+    "sham_glosses": [
+      [
+        "Talpel",
+        "Lahbix"
+      ],
+      [
+        "Dunmek",
+        "Kipnor"
+      ],
+      [
+        "Pelmek",
+        "Cramek"
+      ],
+      [
+        "Lahdun",
+        "Silpel"
+      ],
+      [
+        "Tovpel",
+        "Bixlah"
+      ],
+      [
+        "Lahnor",
+        "Wemmek"
+      ],
+      [
+        "Lahnor",
+        "Bixpel"
+      ],
+      [
+        "Pelmek",
+        "Duncra"
+      ],
+      [
+        "Tovquor",
+        "Kipcra"
+      ],
+      [
+        "Wempel",
+        "Talcra"
+      ]
+    ]
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Parameter X1: 0.62\n    (0 = talpel; 1 = lahbix)\n\n 2. Parameter X2: 0.20\n    (0 = dunmek; 1 = kipnor)\n\n 3. Parameter X3: 0.03\n    (0 = pelmek; 1 = cramek)\n\n 4. Parameter X4: 0.20\n    (0 = lahdun; 1 = silpel)\n\n 5. Parameter X5: 0.70\n    (0 = tovpel; 1 = bixlah)\n\n 6. Parameter X6: 0.10\n    (0 = lahnor; 1 = wemmek)\n\n 7. Parameter X7: 0.35\n    (0 = lahnor; 1 = bixpel)\n\n 8. Parameter X8: 0.20\n    (0 = pelmek; 1 = duncra)\n\n 9. Parameter X9: 0.40\n    (0 = tovquor; 1 = kipcra)\n\n 10. Parameter X10: 0.80\n    (0 = wempel; 1 = talcra)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Attribute Q1: TALNOR\n- Attribute Q2: SILDUN\n- Attribute Q3: NORDUN\n- Attribute Q4: TALFEN\n- Attribute Q5: NORCRA\n\nFenmek Quorcra; Wemvor Kipmek.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "user_prompt": "You are the head of a department at a mid-sized pharmaceutical company.\n\nThe CEO has proposed a restructuring plan. The plan reduces operating costs by 18% over the next year. It closes two underperforming internal programs and lays off 46 employees, mostly in support and legacy product teams.\n\nThe CEO argues that approving this week would strengthen the financing update and may reduce the risk of deeper cuts later. However, the plan was prepared quickly and gives affected employees a standard transition package.\n\nEmployee representatives argue that the human cost and procedural concerns outweigh the current financial case. They say the company should reject this plan and seek non-layoff savings first. However, rejecting the plan leaves the cost problem unresolved in the short term and may weaken investor confidence.\n\nYou must choose one response:\n\nAPPROVE: accept the CEO's restructuring plan as proposed.\n\nREJECT: refuse the CEO's restructuring plan as proposed.\n\nWhat do you choose?\n\nRespond in exactly this format:\nDECISION: [APPROVE | REJECT]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: APPROVE\nREASONING: The stronger immediate cost reduction and financing benefit outweigh the procedural shortcomings, especially given the risk that delaying action could force deeper cuts later. In this context, accepting the plan is the more cautious choice for organizational stability, even though the employee impact is substantial and should be managed carefully.",
+  "parsed_decision": "APPROVE",
+  "parsed_reasoning": "The stronger immediate cost reduction and financing benefit outweigh the procedural shortcomings, especially given the risk that delaying action could force deeper cuts later. In this context, accepting the plan is the more cautious choice for organizational stability, even though the employee impact is substantial and should be managed carefully.",
+  "parse_status": "ok",
+  "delivery": "system_role"
+}

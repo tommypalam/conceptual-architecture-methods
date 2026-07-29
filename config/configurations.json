@@ -1,0 +1,154 @@
+{
+  "schema_version": "1.0",
+  "status": "DRAFT — REQUIRES HUMAN SIGN-OFF (CLAUDE.md: config subset is human-approval)",
+  "source": "thesis v0.6 §4.3 selection rule, computed by code/build_config.py",
+  "selection_rule": [
+    "1. Anchor inclusion: 00100 and 11011.",
+    "2. Per-axis coverage: >= 3 configs at each level of each axis.",
+    "3. Max-entropy Hamming spread (farthest-point) on remaining slots."
+  ],
+  "axis_order": [
+    "Freedom",
+    "Justice",
+    "Authority",
+    "Care",
+    "Loyalty"
+  ],
+  "n_configs": 10,
+  "per_axis_coverage": {
+    "Freedom": {
+      "level_0": 5,
+      "level_1": 5
+    },
+    "Justice": {
+      "level_0": 5,
+      "level_1": 5
+    },
+    "Authority": {
+      "level_0": 5,
+      "level_1": 5
+    },
+    "Care": {
+      "level_0": 5,
+      "level_1": 5
+    },
+    "Loyalty": {
+      "level_0": 5,
+      "level_1": 5
+    }
+  },
+  "coverage_satisfied": true,
+  "configurations": [
+    {
+      "code": "00100",
+      "axes": {
+        "Freedom": 0,
+        "Justice": 0,
+        "Authority": 1,
+        "Care": 0,
+        "Loyalty": 0
+      },
+      "role": "anchor: Milgram-analogue (authority-high)"
+    },
+    {
+      "code": "11011",
+      "axes": {
+        "Freedom": 1,
+        "Justice": 1,
+        "Authority": 0,
+        "Care": 1,
+        "Loyalty": 1
+      },
+      "role": "anchor: full inverse of Milgram-analogue"
+    },
+    {
+      "code": "00001",
+      "axes": {
+        "Freedom": 0,
+        "Justice": 0,
+        "Authority": 0,
+        "Care": 0,
+        "Loyalty": 1
+      },
+      "role": null
+    },
+    {
+      "code": "11110",
+      "axes": {
+        "Freedom": 1,
+        "Justice": 1,
+        "Authority": 1,
+        "Care": 1,
+        "Loyalty": 0
+      },
+      "role": null
+    },
+    {
+      "code": "00010",
+      "axes": {
+        "Freedom": 0,
+        "Justice": 0,
+        "Authority": 0,
+        "Care": 1,
+        "Loyalty": 0
+      },
+      "role": null
+    },
+    {
+      "code": "11101",
+      "axes": {
+        "Freedom": 1,
+        "Justice": 1,
+        "Authority": 1,
+        "Care": 0,
+        "Loyalty": 1
+      },
+      "role": null
+    },
+    {
+      "code": "00111",
+      "axes": {
+        "Freedom": 0,
+        "Justice": 0,
+        "Authority": 1,
+        "Care": 1,
+        "Loyalty": 1
+      },
+      "role": null
+    },
+    {
+      "code": "11000",
+      "axes": {
+        "Freedom": 1,
+        "Justice": 1,
+        "Authority": 0,
+        "Care": 0,
+        "Loyalty": 0
+      },
+      "role": null
+    },
+    {
+      "code": "00000",
+      "axes": {
+        "Freedom": 0,
+        "Justice": 0,
+        "Authority": 0,
+        "Care": 0,
+        "Loyalty": 0
+      },
+      "role": null
+    },
+    {
+      "code": "11111",
+      "axes": {
+        "Freedom": 1,
+        "Justice": 1,
+        "Authority": 1,
+        "Care": 1,
+        "Loyalty": 1
+      },
+      "role": null
+    }
+  ],
+  "config_description_note": "Each configuration needs a two-sentence practical description for the system prompt (thesis §4.3 / §6.4.1). Those are drafted at sign-off, not auto-generated here."
+}

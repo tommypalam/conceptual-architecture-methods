@@ -1,0 +1,530 @@
+{
+  "phase": "phase0b_harness_neutral",
+  "cells": {
+    "null_a": {
+      "C1": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "PACKAGE_B": 89,
+          "PACKAGE_A": 11
+        },
+        "rate_label": "PACKAGE_A",
+        "rate": 0.11,
+        "wilson_95": [
+          0.0625,
+          0.1863
+        ],
+        "contains_50pct": false,
+        "lean": "toward PACKAGE_B",
+        "verdict": "FAIL"
+      },
+      "C2": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "APPROVE": 100
+        },
+        "rate_label": "APPROVE",
+        "rate": 1.0,
+        "wilson_95": [
+          0.963,
+          1.0
+        ],
+        "contains_50pct": false,
+        "lean": "toward APPROVE",
+        "verdict": "FAIL"
+      },
+      "C3": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "CONTINUE": 100
+        },
+        "rate_label": "CONTINUE",
+        "rate": 1.0,
+        "wilson_95": [
+          0.963,
+          1.0
+        ],
+        "contains_50pct": false,
+        "lean": "toward CONTINUE",
+        "verdict": "FAIL"
+      },
+      "S1": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "A": 59,
+          "B": 41
+        },
+        "rate_label": "A",
+        "rate": 0.59,
+        "wilson_95": [
+          0.492,
+          0.6813
+        ],
+        "contains_50pct": true,
+        "lean": "balanced",
+        "verdict": "PASS"
+      },
+      "S2": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "LOCAL_CORRECTION": 100
+        },
+        "rate_label": "LOCAL_CORRECTION",
+        "rate": 1.0,
+        "wilson_95": [
+          0.963,
+          1.0
+        ],
+        "contains_50pct": false,
+        "lean": "toward LOCAL_CORRECTION",
+        "verdict": "FAIL"
+      },
+      "S3": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "WAIT": 77,
+          "ADOPT": 23
+        },
+        "rate_label": "ADOPT",
+        "rate": 0.23,
+        "wilson_95": [
+          0.1584,
+          0.3215
+        ],
+        "contains_50pct": false,
+        "lean": "toward WAIT",
+        "verdict": "FAIL"
+      }
+    },
+    "null_b": {
+      "C1": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "PACKAGE_B": 59,
+          "PACKAGE_A": 41
+        },
+        "rate_label": "PACKAGE_A",
+        "rate": 0.41,
+        "wilson_95": [
+          0.3187,
+          0.508
+        ],
+        "contains_50pct": true,
+        "lean": "balanced",
+        "verdict": "PASS"
+      },
+      "C2": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "REJECT": 100
+        },
+        "rate_label": "REJECT",
+        "rate": 1.0,
+        "wilson_95": [
+          0.963,
+          1.0
+        ],
+        "contains_50pct": false,
+        "lean": "toward REJECT",
+        "verdict": "FAIL"
+      },
+      "C3": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "CONTINUE": 100
+        },
+        "rate_label": "CONTINUE",
+        "rate": 1.0,
+        "wilson_95": [
+          0.963,
+          1.0
+        ],
+        "contains_50pct": false,
+        "lean": "toward CONTINUE",
+        "verdict": "FAIL"
+      },
+      "S1": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "A": 100
+        },
+        "rate_label": "A",
+        "rate": 1.0,
+        "wilson_95": [
+          0.963,
+          1.0
+        ],
+        "contains_50pct": false,
+        "lean": "toward A",
+        "verdict": "FAIL"
+      },
+      "S2": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "LOCAL_CORRECTION": 100
+        },
+        "rate_label": "LOCAL_CORRECTION",
+        "rate": 1.0,
+        "wilson_95": [
+          0.963,
+          1.0
+        ],
+        "contains_50pct": false,
+        "lean": "toward LOCAL_CORRECTION",
+        "verdict": "FAIL"
+      },
+      "S3": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "WAIT": 96,
+          "ADOPT": 4
+        },
+        "rate_label": "ADOPT",
+        "rate": 0.04,
+        "wilson_95": [
+          0.0157,
+          0.0984
+        ],
+        "contains_50pct": false,
+        "lean": "toward WAIT",
+        "verdict": "FAIL"
+      }
+    },
+    "null_c": {
+      "C1": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "PACKAGE_B": 69,
+          "PACKAGE_A": 31
+        },
+        "rate_label": "PACKAGE_A",
+        "rate": 0.31,
+        "wilson_95": [
+          0.2278,
+          0.4063
+        ],
+        "contains_50pct": false,
+        "lean": "toward PACKAGE_B",
+        "verdict": "FAIL"
+      },
+      "C2": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "APPROVE": 91,
+          "REJECT": 9
+        },
+        "rate_label": "APPROVE",
+        "rate": 0.91,
+        "wilson_95": [
+          0.8377,
+          0.9519
+        ],
+        "contains_50pct": false,
+        "lean": "toward APPROVE",
+        "verdict": "FAIL"
+      },
+      "C3": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "CONTINUE": 82,
+          "PIVOT": 18
+        },
+        "rate_label": "CONTINUE",
+        "rate": 0.82,
+        "wilson_95": [
+          0.7333,
+          0.883
+        ],
+        "contains_50pct": false,
+        "lean": "toward CONTINUE",
+        "verdict": "FAIL"
+      },
+      "S1": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "A": 90,
+          "B": 10
+        },
+        "rate_label": "A",
+        "rate": 0.9,
+        "wilson_95": [
+          0.8256,
+          0.9448
+        ],
+        "contains_50pct": false,
+        "lean": "toward A",
+        "verdict": "FAIL"
+      },
+      "S2": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "LOCAL_CORRECTION": 99,
+          "FORMAL_REPORT": 1
+        },
+        "rate_label": "FORMAL_REPORT",
+        "rate": 0.01,
+        "wilson_95": [
+          0.0018,
+          0.0545
+        ],
+        "contains_50pct": false,
+        "lean": "toward LOCAL_CORRECTION",
+        "verdict": "FAIL"
+      },
+      "S3": {
+        "n_records": 100,
+        "n_ok": 100,
+        "parse_fail": 0,
+        "refusal": 0,
+        "failed_api": 0,
+        "counts": {
+          "WAIT": 29,
+          "ADOPT": 71
+        },
+        "rate_label": "ADOPT",
+        "rate": 0.71,
+        "wilson_95": [
+          0.6146,
+          0.7899
+        ],
+        "contains_50pct": false,
+        "lean": "toward ADOPT",
+        "verdict": "FAIL"
+      }
+    }
+  },
+  "n_cells": 18,
+  "n_pass": 2,
+  "failures": [
+    {
+      "condition": "null_a",
+      "problem": "C1",
+      "rate": 0.11,
+      "wilson_95": [
+        0.0625,
+        0.1863
+      ],
+      "lean": "toward PACKAGE_B"
+    },
+    {
+      "condition": "null_a",
+      "problem": "C2",
+      "rate": 1.0,
+      "wilson_95": [
+        0.963,
+        1.0
+      ],
+      "lean": "toward APPROVE"
+    },
+    {
+      "condition": "null_a",
+      "problem": "C3",
+      "rate": 1.0,
+      "wilson_95": [
+        0.963,
+        1.0
+      ],
+      "lean": "toward CONTINUE"
+    },
+    {
+      "condition": "null_a",
+      "problem": "S2",
+      "rate": 1.0,
+      "wilson_95": [
+        0.963,
+        1.0
+      ],
+      "lean": "toward LOCAL_CORRECTION"
+    },
+    {
+      "condition": "null_a",
+      "problem": "S3",
+      "rate": 0.23,
+      "wilson_95": [
+        0.1584,
+        0.3215
+      ],
+      "lean": "toward WAIT"
+    },
+    {
+      "condition": "null_b",
+      "problem": "C2",
+      "rate": 1.0,
+      "wilson_95": [
+        0.963,
+        1.0
+      ],
+      "lean": "toward REJECT"
+    },
+    {
+      "condition": "null_b",
+      "problem": "C3",
+      "rate": 1.0,
+      "wilson_95": [
+        0.963,
+        1.0
+      ],
+      "lean": "toward CONTINUE"
+    },
+    {
+      "condition": "null_b",
+      "problem": "S1",
+      "rate": 1.0,
+      "wilson_95": [
+        0.963,
+        1.0
+      ],
+      "lean": "toward A"
+    },
+    {
+      "condition": "null_b",
+      "problem": "S2",
+      "rate": 1.0,
+      "wilson_95": [
+        0.963,
+        1.0
+      ],
+      "lean": "toward LOCAL_CORRECTION"
+    },
+    {
+      "condition": "null_b",
+      "problem": "S3",
+      "rate": 0.04,
+      "wilson_95": [
+        0.0157,
+        0.0984
+      ],
+      "lean": "toward WAIT"
+    },
+    {
+      "condition": "null_c",
+      "problem": "C1",
+      "rate": 0.31,
+      "wilson_95": [
+        0.2278,
+        0.4063
+      ],
+      "lean": "toward PACKAGE_B"
+    },
+    {
+      "condition": "null_c",
+      "problem": "C2",
+      "rate": 0.91,
+      "wilson_95": [
+        0.8377,
+        0.9519
+      ],
+      "lean": "toward APPROVE"
+    },
+    {
+      "condition": "null_c",
+      "problem": "C3",
+      "rate": 0.82,
+      "wilson_95": [
+        0.7333,
+        0.883
+      ],
+      "lean": "toward CONTINUE"
+    },
+    {
+      "condition": "null_c",
+      "problem": "S1",
+      "rate": 0.9,
+      "wilson_95": [
+        0.8256,
+        0.9448
+      ],
+      "lean": "toward A"
+    },
+    {
+      "condition": "null_c",
+      "problem": "S2",
+      "rate": 0.01,
+      "wilson_95": [
+        0.0018,
+        0.0545
+      ],
+      "lean": "toward LOCAL_CORRECTION"
+    },
+    {
+      "condition": "null_c",
+      "problem": "S3",
+      "rate": 0.71,
+      "wilson_95": [
+        0.6146,
+        0.7899
+      ],
+      "lean": "toward ADOPT"
+    }
+  ],
+  "full_grid": true,
+  "overall": "FAIL (2/18 cells balanced)"
+}

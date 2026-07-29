@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_a",
+  "problem_id": "S3",
+  "call_index": 86,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 1643813259,
+  "timestamp_utc": "2026-07-28T19:26:13Z",
+  "api_call_id": "chatcmpl-E6hjIYTNfLEan3LMPcQqxVDg2Zdic",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_a",
+    "detail": "empty harness — no parameter or normative block"
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your task\n\nYou will be presented with a decision. Apply a consistent decision-making\nrule to the decision below. Do not infer demographic identity, personality,\nideology, or narrative backstory. Do not refuse to decide. Answer in the exact\nformat specified.",
+  "user_prompt": "You are the head of an established 40-person department at a large company. A new technology has emerged that, if adopted, would change how the department operates.\n\nAdopting it would mean retraining the team and reassigning four of your forty staff whose specialisms no longer fit; their replacements would be hired from elsewhere in the company. Two senior colleagues have warned that the technology is overhyped and may not deliver, but three peer departments at the same company have already adopted it and report gains.\n\nIf you adopt and the technology under-delivers, the four reassigned staff face genuine career disruption and the department absorbs a productivity dip for six to nine months.\n\nIf you wait, you preserve the team and the current operating model for now, and you can begin outlining a written adoption plan in case the technology becomes the company standard. However, your department will not have direct experience with the technology if that happens, and the peer departments will have a head start.\n\nYou must decide this quarter.\n\nWhat do you do?\n\nRespond in exactly this format:\nDECISION: [ADOPT | WAIT]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: WAIT  \nREASONING: The evidence is promising but still mixed: three peer departments report gains, yet two senior colleagues are warning that the technology may be overhyped, and the downside of a premature adoption is material. Waiting this quarter lets me preserve team stability, prepare a concrete adoption plan, and avoid forcing four staff through avoidable disruption until the company’s direction and the technology’s real value are clearer.",
+  "parsed_decision": "WAIT",
+  "parsed_reasoning": "The evidence is promising but still mixed: three peer departments report gains, yet two senior colleagues are warning that the technology may be overhyped, and the downside of a premature adoption is material. Waiting this quarter lets me preserve team stability, prepare a concrete adoption plan, and avoid forcing four staff through avoidable disruption until the company’s direction and the technology’s real value are clearer.",
+  "parse_status": "ok",
+  "delivery": "system_role"
+}

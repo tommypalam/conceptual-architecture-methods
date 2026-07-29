@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_c",
+  "problem_id": "S3",
+  "labels": [
+    "ADOPT",
+    "WAIT"
+  ],
+  "call_index": 127,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 30,
+  "seed": 1799852472,
+  "timestamp_utc": "2026-07-28T20:53:10Z",
+  "api_call_id": "chatcmpl-E6j5S6GLMOwtmmnFebsMH9jso9Q0t",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_c",
+    "detail": "sham profile — random names/values/tokens",
+    "sham_values": [
+      0.4,
+      0.29,
+      0.68,
+      0.41,
+      0.94,
+      0.66,
+      0.94,
+      0.4,
+      0.21,
+      0.86
+    ],
+    "sham_axis_tokens": [
+      "TALTOV",
+      "CRATOV",
+      "QUORSIL",
+      "DUNWEM",
+      "FENQUOR"
+    ],
+    "keep_glosses": true,
+    "sham_glosses": [
+      [
+        "Dunwem",
+        "Bixkip"
+      ],
+      [
+        "Pellah",
+        "Norcra"
+      ],
+      [
+        "Silmek",
+        "Kipmek"
+      ],
+      [
+        "Tallah",
+        "Quorwem"
+      ],
+      [
+        "Lahnor",
+        "Mekwem"
+      ],
+      [
+        "Wemzar",
+        "Lahpel"
+      ],
+      [
+        "Vortov",
+        "Bixsil"
+      ],
+      [
+        "Mekquor",
+        "Quorwem"
+      ],
+      [
+        "Bixtov",
+        "Silzar"
+      ],
+      [
+        "Meklah",
+        "Mekkip"
+      ]
+    ]
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Parameter X1: 0.40\n    (0 = dunwem; 1 = bixkip)\n\n 2. Parameter X2: 0.29\n    (0 = pellah; 1 = norcra)\n\n 3. Parameter X3: 0.68\n    (0 = silmek; 1 = kipmek)\n\n 4. Parameter X4: 0.41\n    (0 = tallah; 1 = quorwem)\n\n 5. Parameter X5: 0.94\n    (0 = lahnor; 1 = mekwem)\n\n 6. Parameter X6: 0.66\n    (0 = wemzar; 1 = lahpel)\n\n 7. Parameter X7: 0.94\n    (0 = vortov; 1 = bixsil)\n\n 8. Parameter X8: 0.40\n    (0 = mekquor; 1 = quorwem)\n\n 9. Parameter X9: 0.21\n    (0 = bixtov; 1 = silzar)\n\n 10. Parameter X10: 0.86\n    (0 = meklah; 1 = mekkip)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Attribute Q1: TALTOV\n- Attribute Q2: CRATOV\n- Attribute Q3: QUORSIL\n- Attribute Q4: DUNWEM\n- Attribute Q5: FENQUOR\n\nBixlah Silsil; Dunsil Fenfen.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "user_prompt": "You are the head of an established 40-person department at a large company. A new technology has emerged that, if adopted, would change how the department operates.\n\nAdopting it would mean retraining the team and reassigning four of your forty staff whose specialisms no longer fit; their replacements would be hired from elsewhere in the company. Two senior colleagues have warned that the technology is overhyped and may not deliver, but three peer departments at the same company have already adopted it and report gains.\n\nIf you adopt and the technology under-delivers, the four reassigned staff face genuine career disruption and the department absorbs a productivity dip for six to nine months.\n\nIf you wait, you preserve the team and the current operating model for now, and you can begin outlining a written adoption plan in case the technology becomes the company standard. However, your department will not have direct experience with the technology if that happens, and the peer departments will have a head start.\n\nYou must decide this quarter.\n\nWhat do you do?\n\nReply with only: ADOPT or WAIT",
+  "raw_response": "ADOPT",
+  "parsed_decision": "ADOPT",
+  "parsed_reasoning": null,
+  "parse_status": "ambiguous",
+  "delivery": "user_prefix"
+}

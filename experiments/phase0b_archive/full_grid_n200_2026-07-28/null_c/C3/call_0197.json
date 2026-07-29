@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "phase": "phase0b_harness_neutral",
+  "condition_id": "null_c",
+  "problem_id": "C3",
+  "call_index": 197,
+  "model_name": "gpt-5.4-mini",
+  "model_version": "gpt-5.4-mini-2026-03-17",
+  "provider": "openai",
+  "temperature": 1.0,
+  "max_tokens": 600,
+  "seed": 2163222588,
+  "timestamp_utc": "2026-07-28T19:38:12Z",
+  "api_call_id": "chatcmpl-E6huuVG8jc8JfA3HzV4GNo8qGCZm2",
+  "attempts": 1,
+  "harness_provenance": {
+    "condition": "null_c",
+    "detail": "sham profile — random names/values/tokens",
+    "sham_values": [
+      0.11,
+      0.14,
+      0.25,
+      0.52,
+      0.15,
+      0.57,
+      0.89,
+      0.17,
+      0.95,
+      0.46
+    ],
+    "sham_axis_tokens": [
+      "BIXQUOR",
+      "DUNMEK",
+      "WEMKIP",
+      "TOVMEK",
+      "KIPFEN"
+    ],
+    "keep_glosses": true,
+    "sham_glosses": [
+      [
+        "Crawem",
+        "Vorfen"
+      ],
+      [
+        "Cradun",
+        "Kipvor"
+      ],
+      [
+        "Zarvor",
+        "Fenwem"
+      ],
+      [
+        "Fental",
+        "Fenbix"
+      ],
+      [
+        "Tovwem",
+        "Nordun"
+      ],
+      [
+        "Vordun",
+        "Crakip"
+      ],
+      [
+        "Crafen",
+        "Kiplah"
+      ],
+      [
+        "Quornor",
+        "Fenbix"
+      ],
+      [
+        "Bixvor",
+        "Quorsil"
+      ],
+      [
+        "Cranor",
+        "Fendun"
+      ]
+    ]
+  },
+  "system_prompt": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Parameter X1: 0.11\n    (0 = crawem; 1 = vorfen)\n\n 2. Parameter X2: 0.14\n    (0 = cradun; 1 = kipvor)\n\n 3. Parameter X3: 0.25\n    (0 = zarvor; 1 = fenwem)\n\n 4. Parameter X4: 0.52\n    (0 = fental; 1 = fenbix)\n\n 5. Parameter X5: 0.15\n    (0 = tovwem; 1 = nordun)\n\n 6. Parameter X6: 0.57\n    (0 = vordun; 1 = crakip)\n\n 7. Parameter X7: 0.89\n    (0 = crafen; 1 = kiplah)\n\n 8. Parameter X8: 0.17\n    (0 = quornor; 1 = fenbix)\n\n 9. Parameter X9: 0.95\n    (0 = bixvor; 1 = quorsil)\n\n 10. Parameter X10: 0.46\n    (0 = cranor; 1 = fendun)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Attribute Q1: BIXQUOR\n- Attribute Q2: DUNMEK\n- Attribute Q3: WEMKIP\n- Attribute Q4: TOVMEK\n- Attribute Q5: KIPFEN\n\nQuortal Bixlah; Cranor Zarnor.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "user_prompt": "You are the head of a biotech startup.\n\nYour startup must decide whether to continue its current scientific approach or pivot to an alternative method.\n\nEvidence for the current approach:\n- A positive signal from 4 trials with p<0.05.\n- The result has not yet been replicated by an outside lab. A replication study is scheduled, but it will not report until after the next major funding decision.\n- A broader internal review found 3 successes and 3 failures, with methodology concerns affecting both successes and failures.\n- Continuing avoids disrupting the current technical roadmap, but it may delay action if the alternative method's early operational advantages prove durable.\n\nEvidence for the alternative method:\n- A small internal pilot suggests the alternative method is faster and cheaper.\n- Integration costs and regulatory validation work remain uncertain.\n- A competitor using the alternative method is gaining share, but long-term retention and clinical-performance data are still unavailable.\n- Pivoting now could save time if the pilot generalises, but it would require temporarily pausing parts of the current approach before outside replication is available.\n\nWhat should the startup do?\n\nRespond in exactly this format:\nDECISION: [CONTINUE | PIVOT]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]",
+  "raw_response": "DECISION: CONTINUE\nREASONING: The current approach has multiple positive trials and avoids disrupting a functioning roadmap, while the alternative still has uncertain integration and regulatory costs. Given the lack of outside replication and mixed internal review quality, it is safer to keep the current path until the scheduled replication clarifies whether the signal is durable.",
+  "parsed_decision": "CONTINUE",
+  "parsed_reasoning": "The current approach has multiple positive trials and avoids disrupting a functioning roadmap, while the alternative still has uncertain integration and regulatory costs. Given the lack of outside replication and mixed internal review quality, it is safer to keep the current path until the scheduled replication clarifies whether the signal is durable.",
+  "parse_status": "ok",
+  "delivery": "system_role"
+}

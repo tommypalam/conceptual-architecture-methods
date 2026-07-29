@@ -20,6 +20,36 @@
 
 ---
 
+### [2026-06-11] — Repository synced to thesis v0.6 + Implementation Spec v0.1; outdated artefacts removed
+
+**Trigger:** Thesis v0.6 (May 2026) and Implementation Specification v0.1 (May 2026) superseded the Draft 0.5 materials the repo was built around. Full cleanup performed; `experiments/phase0_baseline_calibration/` untouched by hard constraint (prompts, archive, and raw results are immutable provenance).
+
+**Added:**
+- `Theory/concepts_as_architecture_thesis_v0_6.md` — full markdown conversion of the thesis v0.6 PDF (14 chapters, references, appendices A–D).
+- `Theory/implementation_specification_v0_1.md` — full markdown conversion of the Implementation Spec v0.1 PDF (Parts 1–10, appendices A–C).
+
+**Removed (outdated):**
+- `Theory/conceptual_architecture_methods_paper_v0_5_with_graphs.pdf` (superseded by v0.6 markdown)
+- `docs/experimental_problems_protocol.pdf` + `code/generate_protocol_pdf.py` (Draft 0.2 protocol doc and its generator; superseded by thesis Appendix C + spec; locked prompts live in the immutable questions/ folder)
+- `code/01_intake.py` … `code/07_output.py`, `code/run_all.py` (unimplemented NotImplementedError stubs carrying v0.4-era misinformation: PLB/CAT/SMG/TO codes, 2^3 config space, SPE benchmark, retired phase numbering)
+- `research-os-template.md` (generic scaffolding, no longer referenced)
+
+**Rewritten / updated:**
+- `code/utils.py` — was two generations stale (v0.4 codes incl. dropped TO; 8-config registry; old R with min eigenvalue 0.4141). Now: v0.6 codes [LL, CS, RT, MoR, RE, PD, TfA, ID, MS, AW], thesis Appendix D R matrix (PSD verified at import, min eigenvalue 0.3114), Table 1 Beta marginals, POPULATION_MEANS, 2^5 config space with anchors `00100`/`11011`, working `sample_agents()` (corr-override hook for sensitivity regimes) and implemented logging helpers. Smoke-tested: marginals preserved within sampling error at N=5000, all values in [0,1].
+- `docs/variables.json` → v2.1 — **Legitimacy Locus endpoints corrected to 0=external, 1=internal** (thesis v0.6 §3.1; the v0.5 codebook had the axis inverted, which would have silently flipped every LL hypothesis). `welfare_score` placeholder replaced by the two thesis-Ch.7 moral vectors (configuration-relative 8-vector + fixed-standard 4-vector). Sensitivity regimes D and t-copula added. Theory source repointed to the new markdowns.
+- `CLAUDE.md` — full v0.6 sync: LL convention warning, S3 = Department Reorganisation, Asch 25–30 % / UG 45–50 % modernised bands, v0.6 phase plan (0b/0c → pilot → 1.5 hard gate → 2–6), moral metric marked CLOSED (manual drafting still requires sign-off), contamination protocol and paired-agent design added to rules, open-problems list refreshed to thesis §14.1.
+- `README.md` — same sync; folder structure and run instructions reflect the cleaned repo; pipeline section replaced (01–07 scripts no longer exist; spec §1.2 layout is the forward blueprint).
+- `docs/pre_analysis_plan.md` — modernised benchmark bands, gating ladder (0b/0c/1/1.5), ~20 pre-registered directional contrasts from thesis §6.1.1, mixed-effects primary inference, failure criteria incl. configuration counterfactual.
+- `docs/novelty_assessment.md` — light sync (metric closed, 2^5 configs, Phase 1.5/contamination rows, template reference removed).
+
+**Verified untouched:** every file under `experiments/phase0_baseline_calibration/` (questions, archive, results) and the six `code/phase0_*.py` provenance scripts (referenced in thesis §11.4).
+
+**Note:** the locked S3 question file keeps its legacy filename `S3_strategic_pivot.md` but contains the accepted Department Reorganisation (ADOPT/WAIT) prompt, frozen 2026-05-01 — verified by inspection. Filename is not corrected because the folder is immutable.
+
+**CLAUDE.md changes:** wholesale rewrite (above). Source-of-truth pointer now targets the two Theory/ markdowns.
+
+---
+
 ### [2026-05-02] — Phase 0 complex-problem calibration COMPLETE: all three locked (C1 PASS, C2 PASS, C3 PASS)
 
 **Result:**
