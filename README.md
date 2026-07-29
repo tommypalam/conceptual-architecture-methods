@@ -1,9 +1,22 @@
 # PARIA / Concepts as Architecture: From Political Concepts to Simulated Judgment
 
-> **Status:** Thesis draft v0.6 + Implementation Specification v0.1 (May 2026).
-> Not for citation. All design decisions are provisional until empirically validated.
+> **Status (2026-07-29):** Phase 0 CLOSED (0a/0b/0c); Phase 1 pilot PASSED;
+> Phase 1.5 (encoding-validity) in progress. Thesis v0.6 + Implementation Spec
+> v0.1. Not for citation; design decisions provisional until validated.
 > Author: Tommaso Piero Palamenga — Bocconi University
 > Supervisor: Dr. Abhinav · Co-supervisor: Prof. Arnaldo Camuffo
+>
+> **Headline empirical results so far:**
+> - The six dilemmas calibrate ~50/50 **naked** (Phase 0a, locked; recalibrated
+>   for model drift and re-locked, see `experiments/phase0b_calibration/`).
+> - The Phase-2 **agent-framing harness is NOT behaviourally neutral** on
+>   gpt-5.4-mini-2026-03-17: any scaffold text collapses S2/C2/C3 toward a pole.
+>   Diagnosed to the "decision-making simulation" preamble; not fixable by
+>   template revision (Phase 0b — a substantive methodological finding).
+> - Phase 0c locked holdout (N=1000) confirmed baselines; problems are used at
+>   their **0c-measured baselines**, tiered PRIMARY (S1/S3) / SECONDARY
+>   (C1/C2/C3) / LOW-POWER (S2), not assumed 50/50.
+> - See `experiments/PHASE0_CLOSURE_2026-07-29.md` for the full closure verdict.
 
 ---
 
@@ -41,11 +54,11 @@ Where thesis and spec disagree: thesis wins on architecture, spec wins on operat
 
 | Phase | Description | Status |
 |-------|-------------|--------|
-| 0 | Naked-prompt 50/50 baseline calibration (gpt-5.4-mini) | **COMPLETE** — all 6 problems locked 2026-05-02 |
-| 0b | Harness-neutral baseline (3 null conditions × 6 problems × N=500) | **NEXT** — required gating |
-| 0c | Locked holdout (frozen prompts, N=1000/problem) | Pending |
-| 1 | Pilot (S2, one configuration, N=50) | Pending |
-| 1.5 | Encoding-validity battery (~10k calls) — **hard gate** | Pending |
+| 0a | Naked-prompt 50/50 baseline calibration (gpt-5.4-mini) | **COMPLETE** — locked 2026-05-02; recalibrated for drift + re-locked 2026-07-28 |
+| 0b | Harness-neutral baseline (3 null conditions × 6 problems) | **COMPLETE 2026-07-29** — harness found non-neutral; documented, not forced to pass (see closure) |
+| 0c | Locked holdout (frozen prompts, N=1000/problem, naked delivery) | **COMPLETE 2026-07-29** — hash-locked; baselines measured + tiered |
+| 1 | Pilot (S3 + S2, config 10011, N=50) | **PASS 2026-07-29** — pipeline verified end-to-end |
+| 1.5 | Encoding-validity battery (~10k+ calls) — **hard gate** | **IN PROGRESS** — pilot sweep done (mechanism partially alive); full sweep = Option C (see NEXT_STEPS) |
 | 2 | Full experimental runs (paired-agent simple + orchestrated complex + bridge) | Pending |
 | 3 | Benchmarks under contamination protocol | Pending |
 | 4 | Moral coding (LLM-rater + human gold subset) | Pending |
@@ -53,6 +66,7 @@ Where thesis and spec disagree: thesis wins on architecture, spec wins on operat
 | 6 | Reporting, OSF compliance, open-artefact release | Pending |
 
 OSF pre-registration is required before Phase 2 (see [`docs/pre_analysis_plan.md`](docs/pre_analysis_plan.md)).
+Current working state and the next concrete step: [`NEXT_STEPS.md`](NEXT_STEPS.md).
 
 ---
 
@@ -99,18 +113,25 @@ Every benchmark runs canonical + decanonised variants under predicted-high AND p
 
 ---
 
-## Experimental Problems (Phase 0 locked 2026-05-02)
+## Experimental Problems — calibration timeline
 
-| ID | Name | Type | Labels | Phase 0 split |
-|----|------|------|--------|----------------|
-| S1 | The Promotion Decision | Simple binary | A / B | 53 / 47 |
-| S2 | The Quiet Error | Simple binary | FORMAL_REPORT / LOCAL_CORRECTION | 51 / 49 |
-| S3 | The Department Reorganisation | Simple binary | ADOPT / WAIT | 50 / 50 |
-| C1 | The Resource Council | Complex multi-agent | PACKAGE_A / PACKAGE_B | 51.5 / 48.5 |
-| C2 | The Restructuring Board | Complex multi-agent (Milgram analogue) | APPROVE / REJECT | 50 / 50 |
-| C3 | The Scientific-Approach Dilemma | Complex multi-agent (epistemic) | CONTINUE / PIVOT | 51 / 49 |
+| ID | Name | Labels | 0a split (May 2026) | 0c naked N=1000 (2026-07-29) | tier |
+|----|------|--------|--------------------|------------------------------|------|
+| S1 | The Promotion Decision | A / B | 53 / 47 | 41 / 59 | PRIMARY |
+| S2 | The Quiet Error | FORMAL_REPORT / LOCAL_CORRECTION | 51 / 49 | 19 / 81 | LOW-POWER |
+| S3 | The Department Reorganisation | ADOPT / WAIT | 50 / 50 | 54 / 46 | PRIMARY |
+| C1 | The Resource Council | PACKAGE_A / PACKAGE_B | 51.5 / 48.5 | 72 / 28 | SECONDARY |
+| C2 | The Restructuring Board (Milgram analogue) | APPROVE / REJECT | 50 / 50 | 73 / 27 | SECONDARY |
+| C3 | The Scientific-Approach Dilemma | CONTINUE / PIVOT | 51 / 49 | 70 / 30 | SECONDARY |
 
-Locked prompts, retired-variant archive, and raw per-call results live under `experiments/phase0_baseline_calibration/` — **immutable, never modified by any script or session**. (The S3 question file keeps its legacy `strategic_pivot` filename but contains the accepted Department Reorganisation prompt.)
+The **0a** column is the original May-2026 naked calibration (locked, immutable in
+`experiments/phase0_baseline_calibration/`). Four problems (S2/S3/C1/C2) drifted
+on the current model and were **recalibrated to bistable naked** and re-locked in
+`experiments/phase0b_calibration/questions/` (0a stays frozen). The **0c** column
+is the fresh hash-locked holdout at N=1000 — it revealed that small-N recalibration
+splits were partly sampling luck, so problems are used at these **0c-measured
+baselines** (Phase 2 effects interpreted relative to them), tiered by headroom.
+Full reasoning: `experiments/PHASE0_CLOSURE_2026-07-29.md`.
 
 ---
 
@@ -119,51 +140,68 @@ Locked prompts, retired-variant archive, and raw per-call results live under `ex
 ```
 conceptual-architecture-methods/
 │
-├── Theory/
-│   ├── concepts_as_architecture_thesis_v0_6.md       # Thesis v0.6 (canonical, architecture)
-│   └── implementation_specification_v0_1.md          # Spec v0.1 (canonical, operations)
+├── Theory/                           # Thesis v0.6 + Implementation Spec v0.1 (canonical)
 │
 ├── code/
-│   ├── utils.py                      # R matrix, Beta marginals, config space, copula sampling, PSD check, logging
-│   ├── phase0_run_simple.py          # Phase 0 runner, S1–S3 (provenance — do not alter)
-│   ├── phase0_run_complex_direct.py  # Phase 0 runner, C1–C3 direct calls (provenance)
-│   ├── phase0_run_complex.py         # compatibility wrapper (provenance)
-│   ├── phase0_score_simple.py        # Phase 0 scoring, S1–S3 (provenance)
-│   ├── phase0_score_complex_direct.py# Phase 0 scoring, C1–C3 (provenance)
-│   └── phase0_score_complex.py       # compatibility wrapper (provenance)
+│   ├── utils.py                      # R matrix, Beta marginals, config space, copula sampling, PSD check
+│   ├── engine/                       # SOLID-decomposed LLM simulation engine (protocols + DI)
+│   │   ├── llm_client.py             #   provider-agnostic async call layer (SupportsComplete)
+│   │   ├── record_sink.py            #   write-once record storage (RecordSink protocol)
+│   │   ├── questions.py              #   read locked dilemma bodies (0a frozen | 0b recalibrated)
+│   │   ├── prompt_assembly.py        #   full-harness system-prompt population
+│   │   ├── population.py             #   Gaussian-copula paired-agent draw
+│   │   ├── delivery.py / framing.py  #   swappable message-shape + task-framing seams
+│   │   ├── phase0b.py                #   null-condition + sweep assemblers (one Protocol)
+│   │   ├── simple_runner.py          #   agent × config × problem grid runner
+│   │   ├── recalibrate.py            #   naked-prompt recalibration rig
+│   │   ├── scoring.py / parsing.py / seeding.py
+│   │   └── selftest.py               #   29 offline invariance checks
+│   ├── run_phase0b.py                # composition roots (CLIs) — one per phase step
+│   ├── run_phase0c.py  run_phase1_pilot.py  run_phase1_5_sweep.py
+│   ├── run_recalibrate.py  run_ablation.py  run_nulla_tasksweep.py
+│   └── phase0_*.py                   # frozen provenance of the May-2026 0a runs (do not alter)
 │
 ├── experiments/
-│   └── phase0_baseline_calibration/  # IMMUTABLE. Locked prompts, archive, raw per-call JSONs, scoring.
-│       ├── README.md
-│       ├── questions/                # S1–S3, C1–C3 locked prompts + archive/ of retired variants
-│       └── results/raw/evals/        # One JSON per call — anti-anchoring isolation
+│   ├── phase0_baseline_calibration/  # IMMUTABLE — May-2026 0a locked prompts + raw evals
+│   ├── phase0b_calibration/questions/# RECALIBRATED locked set (used by 0b/0c/1+)
+│   ├── phase0b_archive/              # dated harness-investigation runs + FINDINGS/RESULT md
+│   ├── phase0c_locked_holdout/       # hash-locked holdout: frozen_prompts/manifest.json + results/
+│   ├── phase1_pilot/                 # Phase 1 pilot runs + result
+│   ├── phase1_5_encoding_validity/   # sweep pilot + (in progress) full battery
+│   └── PHASE0_CLOSURE_2026-07-29.md  # the Phase 0 closure verdict
 │
-├── docs/
-│   ├── variables.json                # Variable codebook v2.1 (synced to thesis v0.6)
-│   ├── pre_analysis_plan.md          # Hypotheses + acceptance criteria (pre-register before Phase 2)
-│   └── novelty_assessment.md         # L1 diagnosis — where AI assistance is and is not reliable
-│
-├── CLAUDE.md                         # Project constitution (read every session)
-├── meta.md                           # Living log of decisions, limitations, rule changes
-├── .gitignore
-└── README.md
+├── prompts/                          # system_prompt_template.md + recalibration candidate drafts
+├── config/                           # seeds.json, configurations.json
+├── docs/                             # variables.json, pre_analysis_plan.md, novelty_assessment.md
+├── CLAUDE.md   meta.md   NEXT_STEPS.md   .gitignore   .gitattributes   README.md
 ```
-
-Future phase directories (`phase0b_harness_neutral/`, `phase0c_locked_holdout/`, `phase1_pilot/`, `phase1_5_encoding_validity/`, `phase2_*/`, `phase3_benchmarks/`, `phase4_coding/`, `phase5_analysis/`) and shared `config/` + `prompts/` artefacts are created as their phases begin, following spec §1.2.
 
 ---
 
 ## Running What Exists Today
 
-The pipeline scripts for Phases 0b onward have not been written yet (the spec is the blueprint; code is generated against it phase by phase). What runs today:
+The LLM engine and per-phase CLIs are implemented. All calls default to a mock
+provider (offline); real runs use `--provider openai` and print a cost estimate +
+confirmation. Records are write-once JSON, one file per call (anti-anchoring).
 
 ```bash
+# Offline engine self-test (29 invariance checks)
+python code/engine/selftest.py
+
 # Verify the copula layer: PSD check + marginal-preserving sampling
-python -c "import sys; sys.path.insert(0, 'code'); import utils; \
+python -c "import sys; sys.path.insert(0,'code'); import utils; \
   a = utils.sample_agents(1000, seed=42); print(a.shape, a.mean(axis=0).round(3))"
+
+# Re-score an existing archived run (no API calls)
+python code/run_phase0c.py --score-only
+
+# Dry-run a harness assembly (prints prompts, no API, nothing written)
+python code/run_phase0b.py --questions-set phase0b --problems C2 --conditions null_a --dry-run
 ```
 
-The Phase 0 runners/scorers in `code/` are kept as the executable provenance of the locked Phase 0 results (thesis §11.4); they are not part of the forward pipeline.
+The `code/phase0_*.py` runners/scorers are kept as executable provenance of the
+locked May-2026 0a results (thesis §11.4); the forward pipeline is `code/engine/`
++ the `code/run_*.py` composition roots.
 
 ---
 
