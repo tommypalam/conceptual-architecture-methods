@@ -1,4 +1,28 @@
-# NEXT STEPS — working state for future sessions (as of 2026-07-29)
+# NEXT STEPS — working state for future sessions (updated 2026-09-06)
+
+## Current execution update (2026-09-06)
+
+User authorised continuing validity work before the supervisor's implementation
+review. Branch: `phase1-5-validity`. The new Option-C runner is
+`code/run_validity_sweep.py`; see `docs/phase1_5_execution.md` for the frozen design,
+commands, statistical criteria, and remaining battery work. The original
+`run_phase1_5_sweep.py` and its July pilot records are preserved.
+
+The delivery comparison is implemented and tested offline. **No new real API
+responses have been collected.** OPENAI_API_KEY was unavailable in process,
+Windows user, and machine environments, including outside the sandbox, and no
+project `.env` or `.env.local` was found. User believes an existing environment
+key is configured; its project-specific location or launcher remains needed.
+Never ask for the key in chat or store it in source.
+
+The alternative arm retains scaffold text. Its headroom is an experimental
+outcome, not an assumption. The next step is the 10-call operational checkpoint
+under the full frozen 15,000-call design, then resume the remaining fixed-N calls
+if transport and model identity are correct. The remaining coherence,
+paraphrase, and numeric/verbal tests are not implemented or passed; operational
+ambiguities are listed in the execution document.
+
+## Previous working state and approved decision (2026-07-29)
 
 Read this first in a new chat. It says exactly where the project is and what the
 next concrete action is. Authoritative background: `CLAUDE.md`, `meta.md`, and

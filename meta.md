@@ -20,6 +20,50 @@
 
 ---
 
+### [2026-09-06] — Option-C execution prepared; validity gate remains open
+
+**User direction:** Continue the validity phases, with the supervisor expected
+to participate in the implementation-heavy work. The July Option-C comparison
+is the immediate authorised experiment.
+
+**Implementation:** Added separate frozen-design sweep, offline analysis, CLI,
+and regression tests. Preserved the July pilot runner and all completed results.
+The design retains all ten parameters, existing means, neutral context, five
+sweep values, three problems, N=50, and both specified deliveries. Model snapshot
+is pinned to the previously recorded version; no substitute is selected silently.
+
+**Review of the implementation decision (synthetic perspectives, not external
+review or human approval):**
+- Linden (conceptual interpretation): Alternative delivery retains the scaffold;
+  do not label it neutral or treat numeric-only results as proof of understanding.
+- Osei (experimental design): Spread both deliveries across run time; keep the
+  fixed sample target and distinguish transport checks from outcome-based tuning.
+- Tanaka (statistics): Explicitly flag separation, missing data, and absent
+  predicted directions; do not award a gate pass from point estimates alone.
+- Renna (downstream implications): Bare-label responses cannot supply the planned
+  reasoning audit; record this dependency before claiming battery coverage.
+- Okafor (implementation): Keep the old engine and empirical archives intact;
+  hash the new protocol and records, test resume, and stop on transport failures.
+
+**Resolution:** Implement the approved comparison without claiming it is a clean
+factorial decomposition of delivery effects. Record nine existing directional
+simple-problem contrasts only. LL/CS/AW are descriptive pending pre-specified
+simple-problem predictions. Carry forward the pilot's 98% parse quality tolerance
+as an operational condition on affirmative sweep labels. No architecture,
+population distribution, or prior closure decision changes.
+
+**Remaining protocol work:** Coherence class-prevalence/null baseline, reviewed
+paraphrases and .8 canonical calls, and multi-value numeric/verbal comparisons
+must be concretely defined before those tests run. See
+`docs/phase1_5_execution.md`. No battery pass is claimed.
+
+**Execution blocker:** No OPENAI_API_KEY found in the process or Windows
+user/machine environment, including a check outside the sandbox; project-local
+environment files absent. Only existence checks were printed. No real calls or
+API charges initiated by this session.
+
+---
+
 ### [2026-06-11] — Repository synced to thesis v0.6 + Implementation Spec v0.1; outdated artefacts removed
 
 **Trigger:** Thesis v0.6 (May 2026) and Implementation Specification v0.1 (May 2026) superseded the Draft 0.5 materials the repo was built around. Full cleanup performed; `experiments/phase0_baseline_calibration/` untouched by hard constraint (prompts, archive, and raw results are immutable provenance).

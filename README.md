@@ -1,5 +1,12 @@
 # PARIA / Concepts as Architecture: From Political Concepts to Simulated Judgment
 
+> **Execution update (2026-09-06):** Phase 1.5 Option-C runner implemented and
+> tested offline; full 15,000-call protocol frozen, real execution awaiting access
+> to the configured API credential. No new empirical validity result is claimed.
+> See [`docs/phase1_5_execution.md`](docs/phase1_5_execution.md) for commands,
+> safeguards, analysis, and remaining battery work. July status below is retained
+> as the last empirical milestone.
+
 > **Status (2026-07-29):** Phase 0 CLOSED (0a/0b/0c); Phase 1 pilot PASSED;
 > Phase 1.5 (encoding-validity) in progress. Thesis v0.6 + Implementation Spec
 > v0.1. Not for citation; design decisions provisional until validated.

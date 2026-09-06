@@ -1,5 +1,13 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
+> **Execution update (2026-09-06):** The older phase-status table below is
+> historical. Phase 0 is CLOSED and Phase 1 PASSED per their July closure records.
+> Phase 1.5 remains open. The Option-C comparison now has a separate tested runner
+> and frozen 15,000-call design; no new real responses collected this session.
+> Read `NEXT_STEPS.md` and `docs/phase1_5_execution.md` for current execution,
+> credential availability, and remaining battery work. Original pilot code and
+> records are preserved. Source decision: meta.md 2026-09-06.
+
 > Read this at the start of every session. Every line constrains behavior.
 > Source of truth: `Theory/concepts_as_architecture_thesis_v0_6.md` (thesis v0.6, May 2026 — canonical for architectural commitments) and `Theory/implementation_specification_v0_1.md` (spec v0.1, May 2026 — canonical for operational realisation).
 > Where the two disagree: thesis wins on architecture, spec wins on operations.
