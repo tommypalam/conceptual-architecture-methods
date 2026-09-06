@@ -8,6 +8,11 @@
 > Read `NEXT_STEPS.md` and `docs/phase1_5_execution.md` for current execution,
 > credential availability, and remaining battery work. Original pilot code and
 > records are preserved. Source decision: meta.md 2026-09-06.
+>
+> **Follow-up implementation:** `docs/phase1_5_followup.md` records the new
+> robustness/audit CLIs and pre-collection decisions. Claude is the user's chosen
+> independent provider; no Claude results yet. Offline code verification does not
+> close Phase 1.5. Frozen live sweep modules remain unchanged.
 
 > Read this at the start of every session. Every line constrains behavior.
 > Source of truth: `Theory/concepts_as_architecture_thesis_v0_6.md` (thesis v0.6, May 2026 — canonical for architectural commitments) and `Theory/implementation_specification_v0_1.md` (spec v0.1, May 2026 — canonical for operational realisation).

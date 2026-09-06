@@ -71,6 +71,13 @@ $RECYCLE.BIN/
 .env
 *.key
 secrets.*
+/output/
+
+# New validity raw-call artifacts stay local; manifests/summaries remain reviewable.
+experiments/phase1_5_encoding_validity/claude_*/records/
+experiments/phase1_5_encoding_validity/rotations_*/records/
+experiments/phase1_5_encoding_validity/gradients_*/records/
+experiments/phase1_5_encoding_validity/paraphrases_*/records/
 
 # =============================================================
 # What IS committed:

@@ -18,6 +18,43 @@
 
 ## Decision Log
 
+### [2026-09-06] Remaining validity tools and independent Claude route
+
+**User direction:** Implement more of the validity plan so the supervisor can
+focus on code. User selected a Claude API key for independent coding/generation.
+At the last environment check, ANTHROPIC_API_KEY was not present in Windows User
+scope. No Claude calls or new behaviour follow-up calls have been made.
+
+**Decision reviewed (synthetic perspectives, not external or human review):**
+Implement the remaining tests separately from the live frozen Option-C source.
+
+- **Linden:** Preserve endpoint meaning; lexical distance cannot certify semantic
+  equivalence, and numeric performance cannot by itself demonstrate understanding.
+- **Osei:** Fixed means make aggregate quartile guessing an inflated baseline.
+  Report active-parameter recovery and retain numerical self-reports with flags.
+- **Tanaka:** Use all six TOST pairs and report insufficient precision honestly.
+  The single .8 rotation cannot estimate a gradient; add a separately budgeted
+  multi-value extension if pursued, without inventing directional hypotheses.
+- **Renna:** Separate six verbal bins from four audit quartiles and freeze the
+  mapping before collection. Keep exact-model source provenance across reuse.
+- **Okafor:** Provide mock runs, immutable records, fail-stop behaviour, and CLI
+  entry points; do not change the running sweep's hashed source or dependencies.
+
+**Tension:** The literal aggregate audit criteria are implementable but cannot
+resolve fixed-mean guessing; N=50 can also be underpowered for equivalence near
+balanced rates. Resolution: report literal criteria alongside prevalence-aware
+diagnostics and require scientific review, without retrospective sample increases
+or automatic gate closure. The spec's six verbal labels use six equal-width bins;
+actual coding quartiles remain four bins. All decisions and exact workflows are
+in `docs/phase1_5_followup.md`.
+
+**Implementation:** Four engine modules plus two CLIs, independent request export,
+and nine offline regression tests. Claude generation outputs require recorded
+human semantic review of exact hashes before use. The active 15,000-call run
+continues with its original source hashes and settings. No phase verdict yet.
+
+**CLAUDE.md change:** Added pointer to follow-up tools and pre-collection decisions.
+
 ---
 
 ### [2026-09-06] — Credential corrected; exact-model checkpoint passed; Option C started

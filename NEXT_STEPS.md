@@ -29,8 +29,14 @@ store it in source. No full sweep or battery verdict exists yet.
 The alternative arm retains scaffold text. Its headroom is an experimental
 outcome, not an assumption. The next step is to monitor the fixed-N run, then
 analyse its full saved output without changing the protocol. The remaining coherence,
-paraphrase, and numeric/verbal tests are not implemented or passed; operational
-ambiguities are listed in the execution document.
+paraphrase, and numeric/verbal tools are now implemented and offline-tested
+(nine new tests), but have no empirical pass. See `docs/phase1_5_followup.md` for
+the two CLI entry points, fixed analysis decisions, and supervisor code handoff.
+The user chose Claude for independent generation/coding; ANTHROPIC_API_KEY was
+absent from Windows User scope at the latest check. Configure/verify it without
+displaying it, verify an explicit available Claude model ID, and install the
+optional Anthropic SDK before real Claude calls. Generated paraphrases still
+require actual human semantic review of their exact hashes.
 
 ## Previous working state and approved decision (2026-07-29)
 

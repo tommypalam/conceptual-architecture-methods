@@ -94,8 +94,10 @@ The runner does not declare Phase 1.5 passed, even if some sweeps meet criteria.
 
 ## Remaining battery: pending real sweep results and protocol finalisation
 
-The next three tests remain required. Their implementations and experimental
-records are not yet complete. The original spec is a plan, not evidence they ran.
+The next three tests remain required. Their new implementation, offline checks,
+and pre-collection decisions are described in [phase1_5_followup.md](phase1_5_followup.md).
+Their empirical records are not yet complete. The original spec is a plan, not
+evidence they ran. The table below preserves the issues these tools address.
 
 | Test | Required work | Issue to resolve before collection |
 |---|---|---|
