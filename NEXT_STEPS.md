@@ -1,114 +1,79 @@
-# NEXT STEPS — working state for future sessions (updated 2026-09-06)
+# Current state and next steps
 
-## Current execution update (2026-09-06)
+Updated 2026-09-06. Working branch: `phase1-5-validity`.
+This file is the current operational status; historical records are evidence,
+not competing task lists.
 
-**Latest execution update:** The corrected Windows User OPENAI_API_KEY passed
-a model-metadata request (HTTP 200) for `gpt-5.4-mini-2026-03-17`. The user
-authorised execution. Fresh run `option_c_20260906_r2` passed its first 10 calls:
-10/10 parsed, exact model in all responses, 5 observations per delivery, and
-reasoning present in all 5 full-harness responses. Its design hash is identical
-to the original manifest. The remaining 14,990 calls have been launched at
-concurrency 5. Check current process/record status before starting another runner.
+## Phase ledger
 
-Preserve `option_c_20260906`: the earlier invalid-credential attempt contains
-five API failures and no model outputs. The `_r2` designation changes credentials
-and storage only, not the frozen scientific design, model, or seed. Raw records
-remain local artefacts; do not commit them or the secret key.
+| Phase | Verified status | Evidence / next dependency |
+|---|---|---|
+| 0a–0c | Closed, with documented baseline and delivery deviations | [Phase 0 closure](experiments/PHASE0_CLOSURE_2026-07-29.md) |
+| 1 | Operational pilot passed, S3 + S2, 100 calls | [Pilot result](experiments/phase1_pilot/PHASE1_PILOT_RESULT_2026-07-29.md) |
+| 1.5 | Open; September sweep interrupted; follow-up tools offline-tested | [Execution protocol](docs/phase1_5_execution.md), [follow-up implementation](docs/phase1_5_followup.md) |
+| 2 | Pending; encoding-validity gate and preregistration required | Paired-agent individual and collective experiments |
+| 3 | Pending | Five behavioural benchmark families and contamination diagnostics |
+| 4 | Pending | Reviewed moral-coding manual and human validation |
+| 5 | Pending | Main inference, dependency/distribution sensitivity, model robustness |
+| 6 | Pending | Final reporting, compliance record, open-artifact release |
 
-User authorised continuing validity work before the supervisor's implementation
-review. Branch: `phase1-5-validity`. The new Option-C runner is
-`code/run_validity_sweep.py`; see `docs/phase1_5_execution.md` for the frozen design,
-commands, statistical criteria, and remaining battery work. The original
-`run_phase1_5_sweep.py` and its July pilot records are preserved.
+## Interrupted Option-C experiment
 
-The delivery comparison is implemented and running with real API calls after
-offline verification (10 new tests plus 29 existing engine checks). Load the key
-from the Windows User environment into the process; never ask for it in chat or
-store it in source. No full sweep or battery verdict exists yet.
+- Run: `experiments/phase1_5_encoding_validity/option_c_20260906_r2`.
+- Exact model: `gpt-5.4-mini-2026-03-17`; temperature 1; output cap 600;
+  seed 20260604; concurrency 5.
+- Target: ten parameters × five values × three simple problems × N=50 ×
+  two deliveries = **15,000 calls**.
+- Preserved total: **8,640 records**, including one terminal API failure;
+  **6,360 planned observations were not dispatched**.
+- Stop reason: HTTP 429, `insufficient_quota` / `credit_balance_exhausted`.
+  The process exited; it is not running in the background.
+- Final partial report: [8,640-record summary](experiments/phase1_5_encoding_validity/option_c_20260906_r2/analysis/summary_562653cd58340299.md).
+  Its partial estimates are not a completed sweep verdict.
+- Earlier designation `option_c_20260906` contains five invalid-credential
+  failures and no model output. Both designations retain the same design hash.
 
-The alternative arm retains scaffold text. Its headroom is an experimental
-outcome, not an assumption. The next step is to monitor the fixed-N run, then
-analyse its full saved output without changing the protocol. The remaining coherence,
-paraphrase, and numeric/verbal tools are now implemented and offline-tested
-(nine new tests), but have no empirical pass. See `docs/phase1_5_followup.md` for
-the two CLI entry points, fixed analysis decisions, and supervisor code handoff.
-The user chose Claude for independent generation/coding; ANTHROPIC_API_KEY was
-absent from Windows User scope at the latest check. Configure/verify it without
-displaying it, verify an explicit available Claude model ID, and install the
-optional Anthropic SDK before real Claude calls. Generated paraphrases still
-require actual human semantic review of their exact hashes.
+The two arms jointly vary message role and requested output format. The
+alternative retains scaffold text; it is not an established neutral treatment.
+The stored failures must not be deleted or replaced to make the run resumable.
 
-## Previous working state and approved decision (2026-07-29)
+## Next actions
 
-Read this first in a new chat. It says exactly where the project is and what the
-next concrete action is. Authoritative background: `CLAUDE.md`, `meta.md`, and
-`experiments/PHASE0_CLOSURE_2026-07-29.md`.
+1. Restore API credit availability outside the repository. Before further calls,
+   record a continuation/restart designation and how the interrupted sample will
+   be handled. The existing runner intentionally refuses to resume across a
+   terminal failure. A credit top-up alone does not resolve that provenance step.
+   Preserve the snapshot, prompts, sample target, and all prior records.
+2. Configure and verify `ANTHROPIC_API_KEY` outside chat/source. The user selected
+   Claude for independent coding and paraphrase generation. At the last check the
+   Windows User key was absent. Verify an explicit available Claude model ID;
+   install its optional SDK in the project environment before real calls.
+3. Generate three paraphrases, then obtain actual human semantic review of the
+   exact template hashes. No generated paraphrase or human approval exists yet.
+4. After the source sweep is complete under a documented protocol, prepare the
+   blind 200-item reasoning audit and run the robustness comparisons. The
+   six-level verbal mapping, equivalence tests, audit sampling, and prevalence
+   caveats are fixed in the follow-up document.
+5. Review the entire validity battery before authorising Phase 2. A single .8
+   rotation does not estimate a gradient; the optional five-value extension adds
+   15,000 calls and needs a deliberate execution/budget decision.
 
-## Where we are
+## Supervisor handoff
 
-- **Phase 0 CLOSED.** 0a locked (May 2026, frozen). 4 drifted dilemmas
-  recalibrated to bistable naked and re-locked in
-  `experiments/phase0b_calibration/questions/`. 0b established the agent-framing
-  harness is NOT behaviourally neutral on gpt-5.4-mini-2026-03-17 (any scaffold
-  text collapses S2/C2/C3; localised to the "decision-making simulation"
-  preamble; not fixable by template revision). 0c hash-locked holdout N=1000
-  gave the working baselines. Verdict: keep all 6 on 0c-measured baselines,
-  tiered PRIMARY (S1/S3) / SECONDARY (C1/C2/C3) / LOW-POWER (S2).
-- **Phase 1 pilot PASSED** (S3 clean + config-responsive reasoning; S2 expected
-  harness skew). `experiments/phase1_pilot/PHASE1_PILOT_RESULT_2026-07-29.md`.
-- **Phase 1.5 pilot sweep done:** encoding mechanism PARTIALLY ALIVE — S3 shows
-  real gradients (RT correct direction, RE wrong direction, both Cohen's h>0.2);
-  S1 pinned 125/125 under the full harness (headroom, not mechanism).
-  `experiments/phase1_5_encoding_validity/SWEEP_PILOT_FINDING_2026-07-29.md`.
+The supervisor can review `code/engine/` and the validity CLI entry points now.
+There is no requirement to delay code review until the empirical battery closes.
+The latest implementation verification comprises ten sweep tests and nine
+follow-up tests, plus the earlier 29 engine checks. Offline verification is
+evidence about code, not a scientific phase pass.
 
-## THE DECIDED NEXT STEP — full Phase 1.5 sweep, "Option C" (dual delivery)
+Keep the documented RE-on-S3 pilot direction reversal as an open hypothesis
+check, not a reason to retune a frozen prompt. LL, CS, and AW lack prespecified
+simple-problem directional contrasts; do not manufacture pass/fail directions.
 
-**Decision (user-approved 2026-07-29): run the full §4.1 single-parameter sweep
-under BOTH deliveries and treat the contrast as the result.**
+## Retained decisions
 
-Why: the full Phase-2 harness PINS low-headroom problems (S1 pinned in the
-pilot), so a spec-literal sweep would false-negative the framework's primary
-gate for harness reasons, not encoding reasons. Option C measures encoding where
-it is observable AND quantifies how much the harness suppresses it — which also
-answers whether Phase 2 can use the full harness at all (a live question from 0b).
-
-Concretely:
-1. **Full harness delivery** (spec-faithful §4.1: system message + DECISION/
-   REASONING, neutral config) — shows pinning / suppression.
-2. **Headroom-preserving delivery** (the Phase-0b naked/near-neutral envelope:
-   `--delivery user_prefix --bare-label`) — shows the parameters' true gradients.
-
-Run all 10 parameters × {0.1,0.3,0.5,0.7,0.9} × S1/S2/S3 × N=50 under EACH
-delivery (spec's 7,500-call sweep tier, ×2 for the contrast). Consider staging:
-start with the PRIMARY problems (S1, S3) and the parameters with directional
-hypotheses (§6.1.1), expand if the contrast is clean. Analysis per §4.1.2/3
-(logistic slope, Cohen's h, monotonicity), reported per delivery.
-
-Rig already built: `code/run_phase1_5_sweep.py` (pilot scale) + `SweepProfile`
-in `engine/phase0b.py`. It currently runs the FULL-harness delivery; add the
-headroom delivery path (it reuses the same `delivery`/`bare_label` seams already
-in `phase0b_runner.run_phase0b`).
-
-## Open item to fold in
-
-- **RE-on-S3 wrong-direction** result (§6.1.1 predicted higher RE → WAIT; pilot
-  showed ADOPT rising with RE). Investigate per §4.1.3 during the full sweep:
-  read RE=0.1 vs 0.9 reasoning traces — inverted encoding? hypothesis wrong?
-  noise at N=25? The full N=50 sweep + traces should resolve it.
-
-## Standing rules (unchanged)
-
-- Phase 0a prompts FROZEN; recalibrated set is the working locked set.
-- Diagnostic runs → `experiments/phase0b_archive/` (dated); pass `--runs-root`
-  or `--sample-tag` so nothing lands in the real results tree.
-- SOLID throughout (protocols + DI; composition roots are the only wiring point).
-- Supervisor only after Phase 0 + 1 fully complete.
-- Concurrency ≤ 5 on real runs (200k TPM cap → 429s above that).
-- Mock is the default provider; real runs need `--provider openai` + key in env.
-
-## Documented spec deviations (flag to supervisor after Phase 0/1)
-
-Recalibrated set used for 0b/0c; 0c delivery naked (not null_b); measured-baseline
-interpretation extended to substantial-shift problems; Phase 1 pilot on S3+S2 (not
-S2 alone); Option-C dual-delivery sweep. All recorded in the phase result docs +
-spec §2.1.6 amendment.
+The original Phase 0a archive stays immutable. The recalibrated July question set
+is the locked working set. The naked holdout replaces the originally planned
+null-B holdout, and effects are interpreted against measured baselines with
+problem-specific headroom caveats. Phase 1 used S3 plus S2. These are documented
+decisions, not unfinished corrections. See the closure records and [decision log](meta.md).

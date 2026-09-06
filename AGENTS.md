@@ -1,4 +1,4 @@
-# CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
+# AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
 Updated 2026-09-06. This file and its companion contain the same working rules;
 edit both together. Current execution status belongs in NEXT_STEPS.md, and

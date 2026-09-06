@@ -1,10 +1,13 @@
 # Phase 1.5 execution and handoff
 
-Status: 2026-09-06. Option-C runner verified offline; the real `_r2` run passed
-its 10-call checkpoint and the full fixed-N comparison has started. The first
-designation contains only five invalid-credential API failures and is preserved.
-Both manifests have identical design hashes. Phases 0 and 1 retain their recorded
-closure decisions; the July sweep pilot remains unchanged. No full gate verdict yet.
+Status: 2026-09-06. The real `_r2` run passed its 10-call operational checkpoint
+but subsequently stopped at **8,640/15,000 records** after one terminal HTTP 429
+`credit_balance_exhausted` error. It is incomplete and no longer running.
+The 8,639 other records and failed call remain preserved, with partial analysis;
+no complete sweep or battery verdict is claimed. See [current status](../NEXT_STEPS.md).
+The earlier designation contains five invalid-credential failures only.
+Both manifests have identical design hashes. Completed phases and pilot archives
+retain their existing decisions.
 
 ## First experiment: the approved Option-C comparison
 
@@ -33,6 +36,11 @@ job. Both arms use the same requested seed, without claiming paired random draws
 or deterministic API reproduction. Concurrent calls are capped at five.
 
 ### Freezing, execution, and resumption
+
+The commands below document preparation and normal checkpoint resumption.
+**Do not run the resume command against the failed `_r2` designation:** terminal
+failures intentionally block resumption. Record an explicit continuation/restart
+protocol after restoring credits; never remove the failed record.
 
 Run commands from the repository root. Supply the API key through the process
 environment; do not put it in source files or CLI arguments.

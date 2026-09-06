@@ -1,0 +1,4362 @@
+{
+  "schema_version": "1.0",
+  "n_records": 10,
+  "n_expected": 15000,
+  "sweeps": [
+    {
+      "arm": "full_harness",
+      "parameter": "LL",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "LL",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "LL",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 1,
+          "n_valid": 1,
+          "n_missing": 49,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "CS",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "CS",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "CS",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "RT",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "RT",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "RT",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "MoR",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "MoR",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 1,
+          "n_valid": 1,
+          "n_missing": 49,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "MoR",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "RE",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "RE",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "RE",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": -1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "PD",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "PD",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "PD",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "TfA",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "TfA",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 1,
+          "n_valid": 1,
+          "n_missing": 49,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": -1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "TfA",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "ID",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "ID",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "ID",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "MS",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 1,
+          "n_valid": 1,
+          "n_missing": 49,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 1.0,
+          "ci95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "MS",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "MS",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "AW",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "AW",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "AW",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 1,
+          "n_valid": 1,
+          "n_missing": 49,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 1.0,
+          "ci95": [
+            0.20654931437723745,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "LL",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "LL",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "LL",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 1,
+          "n_valid": 1,
+          "n_missing": 49,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "CS",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "CS",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "CS",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "RT",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "RT",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "RT",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "MoR",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "MoR",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 1,
+          "n_valid": 1,
+          "n_missing": 49,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "MoR",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "RE",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "RE",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "RE",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": -1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "PD",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "PD",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "PD",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "TfA",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "TfA",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 1,
+          "n_valid": 1,
+          "n_missing": 49,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.7934506856227626
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": -1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "TfA",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "ID",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "ID",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "ID",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "MS",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 1,
+          "n_valid": 1,
+          "n_missing": 49,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 1.0,
+          "ci95": [
+            0.20654931437723745,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "MS",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "MS",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "AW",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "AW",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "AW",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 0,
+          "n_valid": 0,
+          "n_missing": 50,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": null,
+          "ci95": null
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 1,
+          "n_valid": 1,
+          "n_missing": 49,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            0.0,
+            0.7934506856227626
+          ]
+        }
+      ],
+      "fit": {
+        "status": "insufficient_data"
+      },
+      "complete": false,
+      "parse_quality_98pct": false,
+      "cohens_h_extremes": null,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    }
+  ],
+  "delivery_contrasts": [],
+  "battery_status": "NOT CLOSED: coherence, paraphrase and numeric/verbal tests also required",
+  "inference_note": "Unadjusted p<0.05 follows spec 4.1; no new directional hypotheses inferred.",
+  "provider": "openai",
+  "design_hash": "10df2b8246ca5dde38e0eef7e256b31bcdf8d61fb307ad4bbda771488d5418ad"
+}

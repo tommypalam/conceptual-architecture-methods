@@ -1,0 +1,29 @@
+{
+  "design_hash": "10df2b8246ca5dde38e0eef7e256b31bcdf8d61fb307ad4bbda771488d5418ad",
+  "n_records": 5,
+  "n_invalid": 5,
+  "n_api_failures": 5,
+  "models_returned": [],
+  "index": [
+    {
+      "record_key": "full_harness/AW/S3/0.9/call_0036",
+      "record_hash": "dc6cd5a7b11298f0e7630b12b17efefcce9b5bb830a3949347d73de1fa9c3ac2"
+    },
+    {
+      "record_key": "full_harness/LL/S3/0.5/call_0021",
+      "record_hash": "882ae9be7cc0741a282112085c029d48aa686397fcced821f768bb0e68c095f4"
+    },
+    {
+      "record_key": "full_harness/TfA/S2/0.1/call_0048",
+      "record_hash": "ed617d5af80073bf029e95baf2c26e42341bf6d50e4401d459ea77acbd01ac38"
+    },
+    {
+      "record_key": "user_prefix_bare/LL/S3/0.5/call_0021",
+      "record_hash": "c2d6c8aa54d14bb50d2b3d7422153c59cd3a7f7bca5b8b2ea4519f0ec6d4a093"
+    },
+    {
+      "record_key": "user_prefix_bare/TfA/S2/0.1/call_0048",
+      "record_hash": "9d98c7c8077722e22f307c617a5d4a6aaf07f9e0e11ef0dc2cec8f46c4ebe6bf"
+    }
+  ]
+}

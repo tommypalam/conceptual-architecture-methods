@@ -21,11 +21,17 @@ Can canonical definitions of five political-ethical concepts — freedom, justic
 
 ## Gating Structure (must pass in order before any Phase 2 inference)
 
-1. **Phase 0** — naked-prompt 50/50 calibration: **COMPLETE** (2026-05-02, all six problems passed; thesis Ch. 11).
-2. **Phase 0b** — harness-neutral baseline: three null conditions (empty harness / population means at neutral config / sham profile) × six problems × N = 500. Pass: Wilson 95 % CI contains 50 % in all 18 cells (spec §2.1).
-3. **Phase 0c** — locked holdout: prompts hash-frozen, N = 1000 per problem under null condition B, no-edit rule (spec §2.2).
-4. **Phase 1** — pilot: S2, authority-low/justice-low config, N = 50; five diagnostics (spec Part 3).
-5. **Phase 1.5** — encoding-validity battery: sweeps, coherence audit, paraphrase robustness, numeric/verbal variants; pass/partial/fail decision tree (thesis Ch. 8, spec Part 4). **Hard gate** — Phase 2 does not proceed on fail.
+1. **Phase 0a–0c:** closed under the documented [July closure](../experiments/PHASE0_CLOSURE_2026-07-29.md).
+   The tested harness was non-neutral; the holdout used naked delivery and
+   established measured baselines with inference tiers. The original all-cells
+   50/50 and null-B holdout specifications were not attained as written.
+2. **Phase 1:** operational pilot passed on S3 and S2, N=50 each. This does not
+   establish encoding validity.
+3. **Phase 1.5:** hard gate remains open. The September source sweep is incomplete;
+   follow-up tools are implemented but empirical validation is pending. See
+   [current status](../NEXT_STEPS.md) and the phase-specific protocols.
+4. **Before Phase 2:** finalise and preregister this plan and the coding manual;
+   resolve the validity gate and record all accepted deviations.
 
 ---
 
@@ -49,7 +55,7 @@ Can canonical definitions of five political-ethical concepts — freedom, justic
 
 ### Experimental-problem directional hypotheses (Phase 2; thesis §6.1.1)
 
-Approximately 20 pre-registered primary contrasts across the six problems, tested as likelihood-ratio tests on nested mixed-effects models:
+Approximately 20 candidate primary contrasts to be finalised and preregistered across the six problems, tested as likelihood-ratio tests on nested mixed-effects models:
 
 - **S1 Promotion Decision:** higher RE → A; higher TfA → A; higher PD → A.
 - **S2 Quiet Error:** higher ID → FORMAL_REPORT; higher TfA → LOCAL_CORRECTION; higher MS → FORMAL_REPORT.
@@ -74,7 +80,11 @@ Approximately 20 pre-registered primary contrasts across the six problems, teste
 ### Primary inference (thesis §7.5.5, spec §9.1)
 
 Mixed-effects logistic regression per problem:
-`logit P(y) = α + β_c·C + θ·γ + (C × θ)·δ + u_i`, agent-level random intercept for the paired-agent design. Fit in R (lme4/glmer), cross-checked in Python (statsmodels MixedLM). Pre-registered contrasts via LR tests on nested models. FDR control: Benjamini–Hochberg at q = 0.05 within each problem's pre-registered family. Power: simulation-based, K = 1,000 datasets per contrast, target ≥ 0.80; contrasts below 0.50 flagged as below resolution.
+`logit P(y) = α + β_c·C + θ·γ + (C × θ)·δ + u_i`, agent-level random intercept for the paired-agent design. The intended primary fit is binomial mixed-effects logistic regression in R
+(`lme4/glmer`). The Python cross-check remains to be specified: the older draft's
+[`statsmodels MixedLM`](https://www.statsmodels.org/stable/generated/statsmodels.regression.mixed_linear_model.MixedLM.html) is a linear mixed-effects model, not a binomial-logit implementation, and must not be
+treated as an equivalent estimator. Resolve and validate the cross-check before
+preregistration; no main-study fit is implemented or claimed here. Pre-registered contrasts via LR tests on nested models. FDR control: Benjamini–Hochberg at q = 0.05 within each problem's pre-registered family. Power: simulation-based, K = 1,000 datasets per contrast, target ≥ 0.80; contrasts below 0.50 flagged as below resolution.
 
 ### Secondary descriptive analyses
 
@@ -110,4 +120,4 @@ Pre-registration URL: `[TO BE ADDED]`
 
 ---
 
-*Synced to thesis v0.6 / spec v0.1: 2026-06-11. Must be finalised, pre-registered, and committed before Phase 2.*
+*Status reconciled 2026-09-06. Original hypotheses retained; no new preregistration or retrospective confirmation is claimed.*

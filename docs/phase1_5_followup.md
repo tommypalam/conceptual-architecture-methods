@@ -1,8 +1,8 @@
 # Remaining validity implementation
 
 2026-09-06. Phase 1.5 remains open. These tools implement later tests; their
-offline tests are not empirical evidence that the battery passed. The ongoing
-Option-C experiment and its source files remain frozen.
+offline tests are not empirical evidence that the battery passed. The interrupted
+Option-C experiment and its source files remain frozen; see [current status](../NEXT_STEPS.md).
 
 ## Entry points for code review
 
