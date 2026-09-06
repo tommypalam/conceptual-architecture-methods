@@ -2,23 +2,33 @@
 
 ## Current execution update (2026-09-06)
 
+**Latest execution update:** The corrected Windows User OPENAI_API_KEY passed
+a model-metadata request (HTTP 200) for `gpt-5.4-mini-2026-03-17`. The user
+authorised execution. Fresh run `option_c_20260906_r2` passed its first 10 calls:
+10/10 parsed, exact model in all responses, 5 observations per delivery, and
+reasoning present in all 5 full-harness responses. Its design hash is identical
+to the original manifest. The remaining 14,990 calls have been launched at
+concurrency 5. Check current process/record status before starting another runner.
+
+Preserve `option_c_20260906`: the earlier invalid-credential attempt contains
+five API failures and no model outputs. The `_r2` designation changes credentials
+and storage only, not the frozen scientific design, model, or seed. Raw records
+remain local artefacts; do not commit them or the secret key.
+
 User authorised continuing validity work before the supervisor's implementation
 review. Branch: `phase1-5-validity`. The new Option-C runner is
 `code/run_validity_sweep.py`; see `docs/phase1_5_execution.md` for the frozen design,
 commands, statistical criteria, and remaining battery work. The original
 `run_phase1_5_sweep.py` and its July pilot records are preserved.
 
-The delivery comparison is implemented and tested offline. **No new real API
-responses have been collected.** OPENAI_API_KEY was unavailable in process,
-Windows user, and machine environments, including outside the sandbox, and no
-project `.env` or `.env.local` was found. User believes an existing environment
-key is configured; its project-specific location or launcher remains needed.
-Never ask for the key in chat or store it in source.
+The delivery comparison is implemented and running with real API calls after
+offline verification (10 new tests plus 29 existing engine checks). Load the key
+from the Windows User environment into the process; never ask for it in chat or
+store it in source. No full sweep or battery verdict exists yet.
 
 The alternative arm retains scaffold text. Its headroom is an experimental
-outcome, not an assumption. The next step is the 10-call operational checkpoint
-under the full frozen 15,000-call design, then resume the remaining fixed-N calls
-if transport and model identity are correct. The remaining coherence,
+outcome, not an assumption. The next step is to monitor the fixed-N run, then
+analyse its full saved output without changing the protocol. The remaining coherence,
 paraphrase, and numeric/verbal tests are not implemented or passed; operational
 ambiguities are listed in the execution document.
 

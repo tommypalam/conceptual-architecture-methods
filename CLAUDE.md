@@ -3,7 +3,8 @@
 > **Execution update (2026-09-06):** The older phase-status table below is
 > historical. Phase 0 is CLOSED and Phase 1 PASSED per their July closure records.
 > Phase 1.5 remains open. The Option-C comparison now has a separate tested runner
-> and frozen 15,000-call design; no new real responses collected this session.
+> and frozen 15,000-call design; real `_r2` execution started after 10/10 valid
+> checkpoint responses from the exact pinned model. No full gate verdict yet.
 > Read `NEXT_STEPS.md` and `docs/phase1_5_execution.md` for current execution,
 > credential availability, and remaining battery work. Original pilot code and
 > records are preserved. Source decision: meta.md 2026-09-06.

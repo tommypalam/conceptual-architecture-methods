@@ -5,6 +5,9 @@
 # ----- RAW DATA (never committed — too large, may be sensitive) -----
 data/raw/
 
+# New Option-C raw records remain local artefacts; manifests/reports are reviewable.
+experiments/phase1_5_encoding_validity/option_c_*/records/
+
 # ----- SIMULATION OUTPUTS (ephemeral — pipeline regenerates them) -----
 # Commit output only when it represents a verified milestone result.
 # Routine runs should not pollute history.

@@ -1,8 +1,8 @@
 # PARIA / Concepts as Architecture: From Political Concepts to Simulated Judgment
 
 > **Execution update (2026-09-06):** Phase 1.5 Option-C runner implemented and
-> tested offline; full 15,000-call protocol frozen, real execution awaiting access
-> to the configured API credential. No new empirical validity result is claimed.
+> tested offline; full 15,000-call protocol frozen, real `_r2` run started after
+> a successful 10-call checkpoint. No full empirical validity verdict is claimed.
 > See [`docs/phase1_5_execution.md`](docs/phase1_5_execution.md) for commands,
 > safeguards, analysis, and remaining battery work. July status below is retained
 > as the last empirical milestone.

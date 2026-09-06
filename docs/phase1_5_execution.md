@@ -1,8 +1,10 @@
 # Phase 1.5 execution and handoff
 
-Status: 2026-09-06. Option-C runner implemented and tested offline. No new real
-model responses collected in this session. Phases 0 and 1 retain their recorded
-closure decisions; the July sweep pilot remains unchanged.
+Status: 2026-09-06. Option-C runner verified offline; the real `_r2` run passed
+its 10-call checkpoint and the full fixed-N comparison has started. The first
+designation contains only five invalid-credential API failures and is preserved.
+Both manifests have identical design hashes. Phases 0 and 1 retain their recorded
+closure decisions; the July sweep pilot remains unchanged. No full gate verdict yet.
 
 ## First experiment: the approved Option-C comparison
 
@@ -24,7 +26,7 @@ message role and output format; it cannot identify their separate causal effects
 
 The default requested model is the snapshot recorded in the existing experiments,
 `gpt-5.4-mini-2026-03-17`, with temperature 1.0 and a 600-token output cap in both
-arms. Availability has not been verified with a real call. There is no fallback
+arms. Access and exact model identity were verified in the real checkpoint. There is no fallback
 to a different model. Root seed 20260604 is the existing Phase 1.5 seed.
 Base jobs are deterministically shuffled, with alternating arm order within each
 job. Both arms use the same requested seed, without claiming paired random draws
@@ -37,16 +39,16 @@ environment; do not put it in source files or CLI arguments.
 
 ```powershell
 # Freeze complete prompts, design, model, and source hashes without API calls.
-python -B code/run_validity_sweep.py --provider openai --prepare-only --run-root experiments/phase1_5_encoding_validity/option_c_20260906
+python -B code/run_validity_sweep.py --provider openai --prepare-only --run-root experiments/phase1_5_encoding_validity/option_c_20260906_r2
 
 # First checkpoint: 10 observations belonging to the same fixed-N experiment.
-python -B code/run_validity_sweep.py --provider openai --yes --limit 10 --run-root experiments/phase1_5_encoding_validity/option_c_20260906
+python -B code/run_validity_sweep.py --provider openai --yes --limit 10 --run-root experiments/phase1_5_encoding_validity/option_c_20260906_r2
 
 # Resume remaining observations without replacing earlier records.
-python -B code/run_validity_sweep.py --provider openai --yes --run-root experiments/phase1_5_encoding_validity/option_c_20260906
+python -B code/run_validity_sweep.py --provider openai --yes --run-root experiments/phase1_5_encoding_validity/option_c_20260906_r2
 
 # Offline scoring, including partial runs.
-python -B code/run_validity_sweep.py --score-only --run-root experiments/phase1_5_encoding_validity/option_c_20260906
+python -B code/run_validity_sweep.py --score-only --run-root experiments/phase1_5_encoding_validity/option_c_20260906_r2
 ```
 
 The checkpoint is an operational check of credentials, model identity, and

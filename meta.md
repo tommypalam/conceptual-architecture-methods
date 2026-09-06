@@ -20,6 +20,24 @@
 
 ---
 
+### [2026-09-06] — Credential corrected; exact-model checkpoint passed; Option C started
+
+The initial `option_c_20260906` attempt stopped after its first five records,
+all API failures (HTTP 400) from an invalid stored credential. No model responses
+were returned. Records remain intact. The user corrected the Windows User key;
+a model metadata request returned HTTP 200 for `gpt-5.4-mini-2026-03-17`.
+No secret value was displayed or added to project files.
+
+On the user's instruction to proceed, started `option_c_20260906_r2` with the
+same design hash, parameters, prompts, settings, model, and root seed. The first
+10 calls passed operational validation: 10 parsed decisions, exact returned model
+on all 10, 5 responses per arm, reasoning on all 5 full-harness responses.
+The full remaining 14,990 calls were launched at concurrency 5 without inspecting
+decision trends or making outcome-based changes. No full sweep/battery outcome
+is yet claimed. The new designation is a documented credential-only restart.
+
+---
+
 ### [2026-09-06] — Option-C execution prepared; validity gate remains open
 
 **User direction:** Continue the validity phases, with the supervisor expected
