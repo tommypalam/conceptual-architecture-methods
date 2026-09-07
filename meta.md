@@ -4,6 +4,24 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-07 — Sample recovery handoff
+
+The user asked whether topping up credits permits retaining the interrupted
+sample, requested a Markdown handoff, and authorised pushing all changes including
+the abstract. The handoff distinguishes 8,639 reusable valid responses from the
+one failed attempt: completing the fixed design needs 6,361 further successful
+responses, not a fresh 15,000-call experiment. This is a proposed continuation,
+not an implemented or executed resume command.
+
+Synthetic review: Linden and Osei favour preserving the fixed design and avoiding
+outcome-selected reuse; Tanaka requires one effective response per planned slot
+with all failed attempts disclosed; Renna flags collection-time comparability;
+Okafor requires a separately tested continuation ledger and unchanged originals.
+Resolution: document a new linked designation, reuse every valid original record,
+fill only unfilled slots, and retain the failure in the source archive. No paid
+calls or frozen-code edits were made. See
+[HANDOFF_2026-09-07.md](docs/HANDOFF_2026-09-07.md).
+
 ## 2026-09-06 — Documentation consolidation and provisional abstract
 
 **User request:** clean up Markdown, update/remove redundant documents, create

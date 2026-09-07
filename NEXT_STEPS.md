@@ -1,8 +1,14 @@
 # Current state and next steps
 
-Updated 2026-09-06. Working branch: `phase1-5-validity`.
+Updated 2026-09-07. Working branch: `phase1-5-validity`.
 This file is the current operational status; historical records are evidence,
 not competing task lists.
+
+See the [7 September handoff](docs/HANDOFF_2026-09-07.md) for sample recovery:
+retain all **8,639 valid responses** and fill **6,361 remaining successful slots**.
+A full rerun is not inherently required. The continuation mechanism must first
+be implemented and tested; topping up credits alone does not bypass the saved
+terminal-failure guard.
 
 ## Phase ledger
 

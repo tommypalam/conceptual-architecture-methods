@@ -6,6 +6,7 @@
 |---|---|
 | [Repository introduction](../README.md) | Research question, scope, and navigation |
 | [Current status](../NEXT_STEPS.md) | Single detailed operational phase ledger |
+| [7 September handoff](HANDOFF_2026-09-07.md) | Interrupted-sample recovery plan and next-person briefing |
 | [AGENTS.md](../AGENTS.md) / [CLAUDE.md](../CLAUDE.md) | Matching research and engineering constitutions |
 | [Decision log](../meta.md) | Current decisions and history references |
 | [Paper abstract](abstract.md) | Provisional, evidence-bounded abstract for the whole PARIA paper |
