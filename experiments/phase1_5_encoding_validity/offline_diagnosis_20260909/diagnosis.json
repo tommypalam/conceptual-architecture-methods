@@ -1,0 +1,5442 @@
+{
+  "source_hashes": {
+    "paraphrase": "621833995ad959cd2751ac90f7141a0b7c2477752b05cfc3be8def262b09d2cb",
+    "rotation": "c8ff9e8f05e3fbcea4d2de617af970c6aeed6923808bc43e79f433e7b57f0e2a"
+  },
+  "simulation_seed": 20260909,
+  "repetitions": 10000,
+  "sizes": [
+    50,
+    100,
+    200,
+    400
+  ],
+  "source_sha256": "97d0a9f65e27a43c60d844d41af06306c15ad00958298dfdd09a6c2b2592340a",
+  "status": "EXPLORATORY_OFFLINE_ONLY",
+  "family_alpha": 0.05,
+  "rate_family_size": 120,
+  "saturation_bounds": [
+    0.05,
+    0.95
+  ],
+  "configuration": "neutral",
+  "study_seed": 20260604,
+  "formulation_cells": [
+    {
+      "variant": "paraphrase_1",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8013790331478443,
+        0.9999958329079276
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8013790331478443,
+        0.9999958329079276
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.0,
+        0.15593639338498877
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.0,
+        0.15593639338498877
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 15,
+      "rate": 0.3,
+      "ci95": [
+        0.19103553500880954,
+        0.437503504644534
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.109646841000195,
+        0.5575071887051524
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.7656394294139708,
+        0.9995848604860248
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 39,
+      "rate": 0.78,
+      "ci95": [
+        0.6475845041874634,
+        0.8724608402978559
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.5279580525722708,
+        0.9378002339890454
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 10,
+      "rate": 0.2,
+      "ci95": [
+        0.1124375001577611,
+        0.3303710593222542
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.051714315223422624,
+        0.44933784883220795
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.0,
+        0.15593639338498877
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 10,
+      "rate": 0.2,
+      "ci95": [
+        0.1124375001577611,
+        0.3303710593222542
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.051714315223422624,
+        0.44933784883220795
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 37,
+      "rate": 0.74,
+      "ci95": [
+        0.6044684273515117,
+        0.8412847250644762
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.48423307107786134,
+        0.915096309710181
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 36,
+      "rate": 0.72,
+      "ci95": [
+        0.5833487630404344,
+        0.8252582933408878
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.46313066481801535,
+        0.9029629642798636
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 22,
+      "rate": 0.44,
+      "ci95": [
+        0.3116219921125717,
+        0.5769397197834315
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.20952197925611687,
+        0.6905838654258628
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8013790331478443,
+        0.9999958329079276
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.0,
+        0.15593639338498877
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.0,
+        0.15593639338498877
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.00041513951397522937,
+        0.23436057058602933
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.3455410383512525,
+        0.8209380131202229
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 27,
+      "rate": 0.54,
+      "ci95": [
+        0.40398871399157477,
+        0.6703034780777566
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.2918896640329374,
+        0.7747078197260957
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 25,
+      "rate": 0.5,
+      "ci95": [
+        0.3664451431682858,
+        0.6335548568317142
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.25789077247401404,
+        0.742109227525986
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8013790331478443,
+        0.9999958329079276
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8013790331478443,
+        0.9999958329079276
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 18,
+      "rate": 0.36,
+      "ci95": [
+        0.24138749651846741,
+        0.49858983123887307
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.15009327327731783,
+        0.6168602689872602
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 25,
+      "rate": 0.5,
+      "ci95": [
+        0.3664451431682858,
+        0.6335548568317142
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.25789077247401404,
+        0.742109227525986
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 48,
+      "n_missing": 0,
+      "n_invalid": 2,
+      "opt0_count": 41,
+      "rate": 0.8541666666666666,
+      "ci95": [
+        0.7283282347525372,
+        0.9275175067339628
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.5739983186282233,
+        0.9755311500134505
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 47,
+      "rate": 0.94,
+      "ci95": [
+        0.8378290831116182,
+        0.979385029651026
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.7334648543994963,
+        0.9977422900389471
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 45,
+      "rate": 0.9,
+      "ci95": [
+        0.7863976856252035,
+        0.9565242350681096
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.6754544913517384,
+        0.9891934842018294
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.0,
+        0.15593639338498877
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.0,
+        0.15593639338498877
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.0,
+        0.15593639338498877
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.3455410383512525,
+        0.8209380131202229
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 33,
+      "rate": 0.66,
+      "ci95": [
+        0.521538260502326,
+        0.7756305077749992
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.40251605281244174,
+        0.8638049742578637
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 18,
+      "rate": 0.36,
+      "ci95": [
+        0.24138749651846741,
+        0.49858983123887307
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.15009327327731783,
+        0.6168602689872602
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 49,
+      "n_missing": 0,
+      "n_invalid": 1,
+      "opt0_count": 39,
+      "rate": 0.7959183673469388,
+      "ci95": [
+        0.6636299908048744,
+        0.8851815039421786
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.5279580525722708,
+        0.9482856847765774
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 33,
+      "rate": 0.66,
+      "ci95": [
+        0.521538260502326,
+        0.7756305077749992
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.40251605281244174,
+        0.8638049742578637
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 46,
+      "rate": 0.92,
+      "ci95": [
+        0.8116175308165717,
+        0.968450485911407
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.7036122596728838,
+        0.9942167184343854
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 11,
+      "rate": 0.22,
+      "ci95": [
+        0.1275391597021442,
+        0.3524154958125367
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.06219976601095459,
+        0.47204194742772915
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 32,
+      "rate": 0.64,
+      "ci95": [
+        0.501410168761127,
+        0.7586125034815325
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.38313973101273974,
+        0.8499067267226819
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.00041513951397522937,
+        0.23436057058602933
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.7656394294139708,
+        0.9995848604860248
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.002257709961052924,
+        0.2665351456005038
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.00041513951397522937,
+        0.23436057058602933
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 7,
+      "rate": 0.14,
+      "ci95": [
+        0.06950833427016294,
+        0.2618619371058554
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.024468849986549124,
+        0.3771288359341547
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 44,
+      "rate": 0.88,
+      "ci95": [
+        0.7619518261679701,
+        0.9438239984906773
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.648621101940629,
+        0.9829012786050095
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 41,
+      "rate": 0.82,
+      "ci95": [
+        0.6920394632569922,
+        0.9022980732976582
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.5739983186282233,
+        0.9581202723343658
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 40,
+      "rate": 0.8,
+      "ci95": [
+        0.6696289406777459,
+        0.887562499842239
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.5506621511677922,
+        0.9482856847765774
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.002257709961052924,
+        0.2665351456005038
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.0,
+        0.15593639338498877
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 23,
+      "rate": 0.46,
+      "ci95": [
+        0.3296965219222435,
+        0.5960112860084253
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.22529218027390432,
+        0.7081103359670624
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.3455410383512525,
+        0.8209380131202229
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 34,
+      "rate": 0.68,
+      "ci95": [
+        0.5418970269185592,
+        0.7924178373934316
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.4222947665521567,
+        0.8772931960569131
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 10,
+      "rate": 0.2,
+      "ci95": [
+        0.1124375001577611,
+        0.3303710593222542
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.051714315223422624,
+        0.44933784883220795
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.7656394294139708,
+        0.9995848604860248
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 15,
+      "rate": 0.3,
+      "ci95": [
+        0.19103553500880954,
+        0.437503504644534
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.109646841000195,
+        0.5575071887051524
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 1,
+      "rate": 0.02,
+      "ci95": [
+        0.003539259271646236,
+        0.10495443589637815
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        4.167092072382752e-06,
+        0.19862096685215566
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 21,
+      "rate": 0.42,
+      "ci95": [
+        0.2937500335471198,
+        0.5576655823142176
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.19410985900986233,
+        0.6727018314698907
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 37,
+      "rate": 0.74,
+      "ci95": [
+        0.6044684273515117,
+        0.8412847250644762
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.48423307107786134,
+        0.915096309710181
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 44,
+      "rate": 0.88,
+      "ci95": [
+        0.7619518261679701,
+        0.9438239984906773
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.648621101940629,
+        0.9829012786050095
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 32,
+      "rate": 0.64,
+      "ci95": [
+        0.501410168761127,
+        0.7586125034815325
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.38313973101273974,
+        0.8499067267226819
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8013790331478443,
+        0.9999958329079276
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 4,
+      "rate": 0.08,
+      "ci95": [
+        0.03154951408859298,
+        0.18838246918342838
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.0057832815656145495,
+        0.2963877403271162
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.0,
+        0.15593639338498877
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 9,
+      "rate": 0.18,
+      "ci95": [
+        0.09770192670234178,
+        0.30796053674300783
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.04187972766563419,
+        0.42600168137177674
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 46,
+      "rate": 0.92,
+      "ci95": [
+        0.8116175308165717,
+        0.968450485911407
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.7036122596728838,
+        0.9942167184343854
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 42,
+      "rate": 0.84,
+      "ci95": [
+        0.7148578393696501,
+        0.916625793219666
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.598037448280749,
+        0.967232261076687
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 42,
+      "rate": 0.84,
+      "ci95": [
+        0.7148578393696501,
+        0.916625793219666
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.598037448280749,
+        0.967232261076687
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 4,
+      "rate": 0.08,
+      "ci95": [
+        0.03154951408859298,
+        0.18838246918342838
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.0057832815656145495,
+        0.2963877403271162
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 34,
+      "rate": 0.68,
+      "ci95": [
+        0.5418970269185592,
+        0.7924178373934316
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.4222947665521567,
+        0.8772931960569131
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 4,
+      "rate": 0.08,
+      "ci95": [
+        0.03154951408859298,
+        0.18838246918342838
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.0057832815656145495,
+        0.2963877403271162
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.3455410383512525,
+        0.8209380131202229
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.002257709961052924,
+        0.2665351456005038
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 23,
+      "rate": 0.46,
+      "ci95": [
+        0.3296965219222435,
+        0.5960112860084253
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.22529218027390432,
+        0.7081103359670624
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.7656394294139708,
+        0.9995848604860248
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 19,
+      "rate": 0.38,
+      "ci95": [
+        0.25862789310193596,
+        0.5184955306900703
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.16438641494580636,
+        0.6358481481832939
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 38,
+      "rate": 0.76,
+      "ci95": [
+        0.6258731624205708,
+        0.8570260860300828
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.5058300154206136,
+        0.9267215168625889
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.0,
+        0.15593639338498877
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 8,
+      "rate": 0.16,
+      "ci95": [
+        0.08337420678033404,
+        0.2851421606303499
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.03276773892331294,
+        0.401962551719251
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 32,
+      "rate": 0.64,
+      "ci95": [
+        0.501410168761127,
+        0.7586125034815325
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.38313973101273974,
+        0.8499067267226819
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 7,
+      "rate": 0.14,
+      "ci95": [
+        0.06950833427016294,
+        0.2618619371058554
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.024468849986549124,
+        0.3771288359341547
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 1,
+      "rate": 0.02,
+      "ci95": [
+        0.003539259271646236,
+        0.10495443589637815
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        4.167092072382752e-06,
+        0.19862096685215566
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 37,
+      "rate": 0.74,
+      "ci95": [
+        0.6044684273515117,
+        0.8412847250644762
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.48423307107786134,
+        0.915096309710181
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 7,
+      "rate": 0.14,
+      "ci95": [
+        0.06950833427016294,
+        0.2618619371058554
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.024468849986549124,
+        0.3771288359341547
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 21,
+      "rate": 0.42,
+      "ci95": [
+        0.2937500335471198,
+        0.5576655823142176
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.19410985900986233,
+        0.6727018314698907
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 11,
+      "rate": 0.22,
+      "ci95": [
+        0.1275391597021442,
+        0.3524154958125367
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.06219976601095459,
+        0.47204194742772915
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.3455410383512525,
+        0.8209380131202229
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.8440636066150112,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 5,
+      "rate": 0.1,
+      "ci95": [
+        0.04347576493189041,
+        0.21360231437479654
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.010806515798170623,
+        0.32454550864826165
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 26,
+      "rate": 0.52,
+      "ci95": [
+        0.38511744890044614,
+        0.6520286471342196
+      ],
+      "simultaneous_bounds_unknowns_expanded": [
+        0.2747151913471681,
+        0.7585839622604837
+      ]
+    }
+  ],
+  "profile_diagnostics": [
+    {
+      "parameter": "LL",
+      "problem": "S1",
+      "observed_range": 0.020000000000000018,
+      "same_boundary_saturation_95pct": true,
+      "original_equivalent": true,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "equivalent_saturated",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "LL",
+      "problem": "S2",
+      "observed_range": 0.3,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "LL",
+      "problem": "S3",
+      "observed_range": 0.31999999999999995,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "CS",
+      "problem": "S1",
+      "observed_range": 0.0,
+      "same_boundary_saturation_95pct": true,
+      "original_equivalent": true,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "equivalent_saturated",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "CS",
+      "problem": "S2",
+      "observed_range": 0.2,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "CS",
+      "problem": "S3",
+      "observed_range": 0.3,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "RT",
+      "problem": "S1",
+      "observed_range": 0.020000000000000018,
+      "same_boundary_saturation_95pct": true,
+      "original_equivalent": true,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "equivalent_saturated",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "RT",
+      "problem": "S2",
+      "observed_range": 0.06,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "within_margin_observed_but_not_established",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "RT",
+      "problem": "S3",
+      "observed_range": 0.13999999999999996,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S1",
+      "observed_range": 0.040000000000000036,
+      "same_boundary_saturation_95pct": true,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "within_margin_observed_but_not_established",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S2",
+      "observed_range": 0.49416666666666664,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": false,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "observed_range": 0.24,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "RE",
+      "problem": "S1",
+      "observed_range": 0.0,
+      "same_boundary_saturation_95pct": true,
+      "original_equivalent": true,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "equivalent_saturated",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "RE",
+      "problem": "S2",
+      "observed_range": 0.0,
+      "same_boundary_saturation_95pct": true,
+      "original_equivalent": true,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "equivalent_saturated",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "RE",
+      "problem": "S3",
+      "observed_range": 0.5,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "PD",
+      "problem": "S1",
+      "observed_range": 0.0,
+      "same_boundary_saturation_95pct": true,
+      "original_equivalent": true,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "equivalent_saturated",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "PD",
+      "problem": "S2",
+      "observed_range": 0.28,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "PD",
+      "problem": "S3",
+      "observed_range": 0.6,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": true,
+      "diagnostic_category": "large_difference_supported",
+      "strong_pairs": 1
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S1",
+      "observed_range": 0.040000000000000036,
+      "same_boundary_saturation_95pct": true,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "within_margin_observed_but_not_established",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S2",
+      "observed_range": 0.12000000000000001,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S3",
+      "observed_range": 0.14,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "ID",
+      "problem": "S1",
+      "observed_range": 0.0,
+      "same_boundary_saturation_95pct": true,
+      "original_equivalent": true,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "equivalent_saturated",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "ID",
+      "problem": "S2",
+      "observed_range": 0.46,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "ID",
+      "problem": "S3",
+      "observed_range": 0.48000000000000004,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "MS",
+      "problem": "S1",
+      "observed_range": 0.040000000000000036,
+      "same_boundary_saturation_95pct": true,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "within_margin_observed_but_not_established",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "MS",
+      "problem": "S2",
+      "observed_range": 0.39999999999999997,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "MS",
+      "problem": "S3",
+      "observed_range": 0.28,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "AW",
+      "problem": "S1",
+      "observed_range": 0.020000000000000018,
+      "same_boundary_saturation_95pct": true,
+      "original_equivalent": true,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "equivalent_saturated",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "AW",
+      "problem": "S2",
+      "observed_range": 0.18,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    },
+    {
+      "parameter": "AW",
+      "problem": "S3",
+      "observed_range": 0.4,
+      "same_boundary_saturation_95pct": false,
+      "original_equivalent": false,
+      "original_parse_eligible": true,
+      "large_difference_supported": false,
+      "diagnostic_category": "observed_large_difference_uncertain",
+      "strong_pairs": 0
+    }
+  ],
+  "pair_diagnostics": [
+    {
+      "parameter": "LL",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.15593222629291636,
+        0.1986209668521557
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": 0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.15593222629291636,
+        0.1986209668521557
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.15593222629291636,
+        0.1986209668521557
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.15593222629291636,
+        0.1986209668521557
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S1",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.19861679976008328,
+        0.19861679976008328
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": 0.08,
+      "simultaneous_difference_bounds": [
+        -0.1501531118193742,
+        0.2963877403271162
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.08,
+      "simultaneous_difference_bounds": [
+        -0.1501531118193742,
+        0.2963877403271162
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.21999999999999997,
+      "simultaneous_difference_bounds": [
+        -0.5517239071395378,
+        0.18674089932692117
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": -0.3,
+      "simultaneous_difference_bounds": [
+        -0.5575071887051524,
+        0.046289552384793764
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S2",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": -0.3,
+      "simultaneous_difference_bounds": [
+        -0.5575071887051524,
+        0.046289552384793764
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": -0.2799999999999999,
+      "simultaneous_difference_bounds": [
+        -0.5772900939338681,
+        0.11165376664294235
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": -0.31999999999999995,
+      "simultaneous_difference_bounds": [
+        -0.5777052334478433,
+        0.03322958944190191
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.09999999999999998,
+      "simultaneous_difference_bounds": [
+        -0.5155054674368887,
+        0.34933514348464234
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": -0.040000000000000036,
+      "simultaneous_difference_bounds": [
+        -0.23436057058602922,
+        0.15552125387101357
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.17999999999999994,
+      "simultaneous_difference_bounds": [
+        -0.17216080457507466,
+        0.471626807913754
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "LL",
+      "problem": "S3",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.21999999999999997,
+      "simultaneous_difference_bounds": [
+        -0.09373662737403421,
+        0.4720419474277292
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S1",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": -0.12000000000000001,
+      "simultaneous_difference_bounds": [
+        -0.4435545672665934,
+        0.24467342510369355
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.08,
+      "simultaneous_difference_bounds": [
+        -0.1501531118193742,
+        0.2963877403271162
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.12000000000000001,
+      "simultaneous_difference_bounds": [
+        -0.4435545672665934,
+        0.24467342510369355
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.2,
+      "simultaneous_difference_bounds": [
+        -0.10422207816156615,
+        0.44933784883220795
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.39762353360878533,
+        0.39762353360878533
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S2",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": -0.2,
+      "simultaneous_difference_bounds": [
+        -0.44933784883220795,
+        0.10422207816156615
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": -0.14,
+      "simultaneous_difference_bounds": [
+        -0.5695552713589285,
+        0.3367049420423615
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": -0.12,
+      "simultaneous_difference_bounds": [
+        -0.5574219259286111,
+        0.3578073483022075
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": 0.15999999999999998,
+      "simultaneous_difference_bounds": [
+        -0.3450428270746103,
+        0.6114160338641059
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.4187298932020022,
+        0.4519656448921656
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.3,
+      "simultaneous_difference_bounds": [
+        -0.20635079434800147,
+        0.705574330454064
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "CS",
+      "problem": "S3",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.27999999999999997,
+      "simultaneous_difference_bounds": [
+        -0.22745320060784746,
+        0.6934409850237466
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": 0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.15593222629291636,
+        0.1986209668521557
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.15593222629291636,
+        0.1986209668521557
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S1",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.15593222629291636,
+        0.1986209668521557
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": 0.06,
+      "simultaneous_difference_bounds": [
+        -0.15367868342393584,
+        0.2665351456005038
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.06,
+      "simultaneous_difference_bounds": [
+        -0.15367868342393584,
+        0.2665351456005038
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": 0.019999999999999997,
+      "simultaneous_difference_bounds": [
+        -0.2321028606249764,
+        0.2661200060865286
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": -0.04,
+      "simultaneous_difference_bounds": [
+        -0.23436057058602933,
+        0.15552125387101354
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S2",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": -0.04,
+      "simultaneous_difference_bounds": [
+        -0.23436057058602933,
+        0.15552125387101354
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": -0.13999999999999996,
+      "simultaneous_difference_bounds": [
+        -0.5956458328463186,
+        0.3625692976158099
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": -0.08000000000000002,
+      "simultaneous_difference_bounds": [
+        -0.5494156394521914,
+        0.416220671934125
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.03999999999999998,
+      "simultaneous_difference_bounds": [
+        -0.5168170472520817,
+        0.45021956349304837
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.05999999999999994,
+      "simultaneous_difference_bounds": [
+        -0.4291667813748432,
+        0.5290483490872855
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.09999999999999998,
+      "simultaneous_difference_bounds": [
+        -0.39656818917473347,
+        0.5630472406462088
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RT",
+      "problem": "S3",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.040000000000000036,
+      "simultaneous_difference_bounds": [
+        -0.45021956349304854,
+        0.5168170472520817
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": -0.040000000000000036,
+      "simultaneous_difference_bounds": [
+        -0.23436057058602922,
+        0.15552125387101357
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": -0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.2343564034939568,
+        0.19820582733818048
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.2343564034939568,
+        0.19820582733818048
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.15593222629291636,
+        0.1986209668521557
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.15593222629291636,
+        0.1986209668521557
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S1",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.19861679976008328,
+        0.19861679976008328
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": 0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.45247385404145385,
+        0.48575487490597613
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": false
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": -0.12,
+      "simultaneous_difference_bounds": [
+        -0.5777228125801797,
+        0.3779573757092799
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": false
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.4741666666666666,
+      "simultaneous_difference_bounds": [
+        -0.8111447350676442,
+        0.06184982955507068
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": false
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": -0.14,
+      "simultaneous_difference_bounds": [
+        -0.5920159542486682,
+        0.35896949651324617
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": false
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": -0.49416666666666664,
+      "simultaneous_difference_bounds": [
+        -0.8254378767361327,
+        0.04286195035903695
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": false
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S2",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": -0.35416666666666663,
+      "simultaneous_difference_bounds": [
+        -0.7176403775394364,
+        0.1681109088977627
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": false
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": -0.17999999999999994,
+      "simultaneous_difference_bounds": [
+        -0.49191227461833353,
+        0.1932566624630926
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": -0.24,
+      "simultaneous_difference_bounds": [
+        -0.49416998457938643,
+        0.08265791024757763
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.14,
+      "simultaneous_difference_bounds": [
+        -0.48336346878121583,
+        0.25126702551085045
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": -0.06000000000000005,
+      "simultaneous_difference_bounds": [
+        -0.26653514560050373,
+        0.15367868342393587
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.039999999999999925,
+      "simultaneous_difference_bounds": [
+        -0.25572862980233313,
+        0.3222877986872087
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.09999999999999998,
+      "simultaneous_difference_bounds": [
+        -0.14512987758681817,
+        0.3245455086482616
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S1",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S2",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": -0.43999999999999995,
+      "simultaneous_difference_bounds": [
+        -0.7881702741969099,
+        0.0564215133679985
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": -0.5,
+      "simultaneous_difference_bounds": [
+        -0.8310372353345508,
+        -0.0005535010931907447
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.19999999999999998,
+      "simultaneous_difference_bounds": [
+        -0.5840925300639472,
+        0.2518692784419332
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": -0.06000000000000005,
+      "simultaneous_difference_bounds": [
+        -0.5182639359066112,
+        0.4184219603077811
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.24,
+      "simultaneous_difference_bounds": [
+        -0.2713192306360077,
+        0.670844739842905
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "RE",
+      "problem": "S3",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.30000000000000004,
+      "simultaneous_difference_bounds": [
+        -0.21434421617481847,
+        0.7137117009805459
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S1",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": -0.15591836734693876,
+      "simultaneous_difference_bounds": [
+        -0.5651459537638377,
+        0.32194867415041106
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": -0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.480665243245124,
+        0.4473906739102401
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.28,
+      "simultaneous_difference_bounds": [
+        -0.6110769874216457,
+        0.1462944670497981
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.13591836734693874,
+      "simultaneous_difference_bounds": [
+        -0.33584692168559294,
+        0.5457696319641356
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": -0.12408163265306127,
+      "simultaneous_difference_bounds": [
+        -0.4662586658621146,
+        0.2446734251036936
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S2",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": -0.26,
+      "simultaneous_difference_bounds": [
+        -0.5917006656219437,
+        0.16019271458497997
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": -0.07999999999999999,
+      "simultaneous_difference_bounds": [
+        -0.44757309744118,
+        0.31492906992320013
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": -0.5,
+      "simultaneous_difference_bounds": [
+        -0.8254378767361328,
+        -0.0060108950785850435
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": 0.1,
+      "simultaneous_difference_bounds": [
+        -0.2098917205994802,
+        0.3767136964201795
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": -0.42000000000000004,
+      "simultaneous_difference_bounds": [
+        -0.7877069607117273,
+        0.08890221641498941
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.18,
+      "simultaneous_difference_bounds": [
+        -0.17216080457507474,
+        0.47162680791375394
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "PD",
+      "problem": "S3",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.6,
+      "simultaneous_difference_bounds": [
+        0.1487791604267104,
+        0.8494915872087067
+      ],
+      "beyond_10pp_supported": true,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": 0.040000000000000036,
+      "simultaneous_difference_bounds": [
+        -0.15552125387101357,
+        0.23436057058602922
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": -0.040000000000000036,
+      "simultaneous_difference_bounds": [
+        -0.23436057058602922,
+        0.15552125387101357
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": -0.040000000000000036,
+      "simultaneous_difference_bounds": [
+        -0.23436057058602922,
+        0.15552125387101357
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S1",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": -0.039999999999999994,
+      "simultaneous_difference_bounds": [
+        -0.2665309785084314,
+        0.19636325689110273
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": -0.02,
+      "simultaneous_difference_bounds": [
+        -0.23435640349395695,
+        0.19820582733818043
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.12000000000000001,
+      "simultaneous_difference_bounds": [
+        -0.3771246688420823,
+        0.17415211686560653
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.019999999999999997,
+      "simultaneous_difference_bounds": [
+        -0.2321028606249764,
+        0.2661200060865286
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": -0.08000000000000002,
+      "simultaneous_difference_bounds": [
+        -0.3748711259731018,
+        0.24206629561395465
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S2",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": -0.1,
+      "simultaneous_difference_bounds": [
+        -0.3767136964201795,
+        0.2098917205994802
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": -0.14,
+      "simultaneous_difference_bounds": [
+        -0.4986682075271482,
+        0.2664752077695519
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": -0.07999999999999996,
+      "simultaneous_difference_bounds": [
+        -0.47388720125650446,
+        0.3410979910819577
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.06000000000000005,
+      "simultaneous_difference_bounds": [
+        -0.46405261369871603,
+        0.3644341585423888
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.06000000000000005,
+      "simultaneous_difference_bounds": [
+        -0.30949917039373676,
+        0.4089029599767863
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.07999999999999996,
+      "simultaneous_difference_bounds": [
+        -0.2996645828359483,
+        0.4322391274372174
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S3",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.019999999999999907,
+      "simultaneous_difference_bounds": [
+        -0.3742873661483541,
+        0.40745812116657365
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S1",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": 0.08000000000000002,
+      "simultaneous_difference_bounds": [
+        -0.24206629561395465,
+        0.3748711259731018
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.14,
+      "simultaneous_difference_bounds": [
+        -0.13146754339843963,
+        0.3771288359341547
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.32,
+      "simultaneous_difference_bounds": [
+        -0.6836414859805133,
+        0.15183665566025037
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.06,
+      "simultaneous_difference_bounds": [
+        -0.15367868342393584,
+        0.2665351456005038
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": -0.4,
+      "simultaneous_difference_bounds": [
+        -0.7058526260060095,
+        0.04124296532659946
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S2",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": -0.46,
+      "simultaneous_difference_bounds": [
+        -0.7081103359670624,
+        -0.06935578688891555
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": -0.18,
+      "simultaneous_difference_bounds": [
+        -0.6268281541103605,
+        0.3271607931186382
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": -0.26000000000000006,
+      "simultaneous_difference_bounds": [
+        -0.6831833370470508,
+        0.250407064917734
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": 0.21999999999999997,
+      "simultaneous_difference_bounds": [
+        -0.2552279898223456,
+        0.6209875162464681
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": -0.08000000000000007,
+      "simultaneous_difference_bounds": [
+        -0.5317521577056606,
+        0.39864324656806616
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.39999999999999997,
+      "simultaneous_difference_bounds": [
+        -0.10379681048095546,
+        0.7692236978968002
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "ID",
+      "problem": "S3",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.48000000000000004,
+      "simultaneous_difference_bounds": [
+        -0.027043082280051256,
+        0.8255788808334905
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": 0.040000000000000036,
+      "simultaneous_difference_bounds": [
+        -0.15552125387101357,
+        0.23436057058602922
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.040000000000000036,
+      "simultaneous_difference_bounds": [
+        -0.15552125387101357,
+        0.23436057058602922
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S1",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.040000000000000036,
+      "simultaneous_difference_bounds": [
+        -0.15552125387101357,
+        0.23436057058602922
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": -0.07999999999999999,
+      "simultaneous_difference_bounds": [
+        -0.4953074226941978,
+        0.36239510642753414
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.2,
+      "simultaneous_difference_bounds": [
+        -0.13642120084120107,
+        0.47203778033565674
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.19999999999999998,
+      "simultaneous_difference_bounds": [
+        -0.6105020654589361,
+        0.2779320884178668
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.27999999999999997,
+      "simultaneous_difference_bounds": [
+        -0.08897412585196066,
+        0.55750302161308
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": -0.12,
+      "simultaneous_difference_bounds": [
+        -0.5630549904696958,
+        0.36339732969529004
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S2",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": -0.39999999999999997,
+      "simultaneous_difference_bounds": [
+        -0.6726976643778183,
+        0.004511107842293333
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": -0.14,
+      "simultaneous_difference_bounds": [
+        -0.5695552713589285,
+        0.3367049420423615
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": -0.28,
+      "simultaneous_difference_bounds": [
+        -0.637360240253757,
+        0.1723169111795938
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.040000000000000036,
+      "simultaneous_difference_bounds": [
+        -0.5043656883714294,
+        0.4377982821074831
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": -0.14,
+      "simultaneous_difference_bounds": [
+        -0.4986682075271482,
+        0.2664752077695519
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.09999999999999998,
+      "simultaneous_difference_bounds": [
+        -0.3656736556448205,
+        0.5319565786974412
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "MS",
+      "problem": "S3",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.24,
+      "simultaneous_difference_bounds": [
+        -0.2012856247820528,
+        0.5997615475922697
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.15593222629291636,
+        0.1986209668521557
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S1",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.15593222629291636,
+        0.1986209668521557
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S1",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.15593639338498877,
+        0.15593639338498877
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S1",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": -0.020000000000000018,
+      "simultaneous_difference_bounds": [
+        -0.1986209668521557,
+        0.15593222629291636
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": 0.020000000000000004,
+      "simultaneous_difference_bounds": [
+        -0.2855812245289456,
+        0.3187622270826471
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": 0.1,
+      "simultaneous_difference_bounds": [
+        -0.14512987758681814,
+        0.32454550864826165
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S2",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.07999999999999999,
+      "simultaneous_difference_bounds": [
+        -0.41519516557360614,
+        0.28266578098262746
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.08,
+      "simultaneous_difference_bounds": [
+        -0.1501531118193742,
+        0.2963877403271162
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S2",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": -0.09999999999999999,
+      "simultaneous_difference_bounds": [
+        -0.4202183998061622,
+        0.254508012661482
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S2",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": -0.18,
+      "simultaneous_difference_bounds": [
+        -0.42600168137177674,
+        0.11405666571935458
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_1",
+      "observed_difference": -0.4,
+      "simultaneous_difference_bounds": [
+        -0.7195015270872174,
+        0.05497170258759998
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_2",
+      "observed_difference": -0.31999999999999995,
+      "simultaneous_difference_bounds": [
+        -0.6925170697295189,
+        0.16054651397973474
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S3",
+      "a": "hybrid",
+      "b": "paraphrase_3",
+      "observed_difference": -0.31999999999999995,
+      "simultaneous_difference_bounds": [
+        -0.6925170697295189,
+        0.16054651397973474
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_2",
+      "observed_difference": 0.08000000000000007,
+      "simultaneous_difference_bounds": [
+        -0.26362000140380326,
+        0.3961792701536364
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S3",
+      "a": "paraphrase_1",
+      "b": "paraphrase_3",
+      "observed_difference": 0.08000000000000007,
+      "simultaneous_difference_bounds": [
+        -0.26362000140380326,
+        0.3961792701536364
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    },
+    {
+      "parameter": "AW",
+      "problem": "S3",
+      "a": "paraphrase_2",
+      "b": "paraphrase_3",
+      "observed_difference": 0.0,
+      "simultaneous_difference_bounds": [
+        -0.369194812795938,
+        0.369194812795938
+      ],
+      "beyond_10pp_supported": false,
+      "original_cell_parse_eligible": true
+    }
+  ],
+  "precision_simulation": [
+    {
+      "n_per_formulation": 50,
+      "true_common_rate": 0.02,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.3623,
+      "monte_carlo_ci95": [
+        0.35293367893807903,
+        0.37177207421320524
+      ],
+      "one_pair_success_rate": 0.713
+    },
+    {
+      "n_per_formulation": 50,
+      "true_common_rate": 0.1,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.001,
+      "monte_carlo_ci95": [
+        0.0005432859864972464,
+        0.0018399443874379962
+      ],
+      "one_pair_success_rate": 0.0658
+    },
+    {
+      "n_per_formulation": 50,
+      "true_common_rate": 0.5,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.0,
+      "monte_carlo_ci95": [
+        0.0,
+        0.00038399837067659573
+      ],
+      "one_pair_success_rate": 0.0
+    },
+    {
+      "n_per_formulation": 50,
+      "true_common_rate": 0.9,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.0021,
+      "monte_carlo_ci95": [
+        0.0013739917049838345,
+        0.0032083938725359184
+      ],
+      "one_pair_success_rate": 0.0646
+    },
+    {
+      "n_per_formulation": 50,
+      "true_common_rate": 0.98,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.3682,
+      "monte_carlo_ci95": [
+        0.35879907003764533,
+        0.37770215193286494
+      ],
+      "one_pair_success_rate": 0.7211
+    },
+    {
+      "n_per_formulation": 100,
+      "true_common_rate": 0.02,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.9491,
+      "monte_carlo_ci95": [
+        0.9446170486207442,
+        0.9532380440427141
+      ],
+      "one_pair_success_rate": 0.9846
+    },
+    {
+      "n_per_formulation": 100,
+      "true_common_rate": 0.1,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.0967,
+      "monte_carlo_ci95": [
+        0.09106125803297895,
+        0.10264847505280879
+      ],
+      "one_pair_success_rate": 0.4763
+    },
+    {
+      "n_per_formulation": 100,
+      "true_common_rate": 0.5,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.0,
+      "monte_carlo_ci95": [
+        0.0,
+        0.00038399837067659573
+      ],
+      "one_pair_success_rate": 0.0
+    },
+    {
+      "n_per_formulation": 100,
+      "true_common_rate": 0.9,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.0964,
+      "monte_carlo_ci95": [
+        0.09076939786738088,
+        0.10234056561742925
+      ],
+      "one_pair_success_rate": 0.4852
+    },
+    {
+      "n_per_formulation": 100,
+      "true_common_rate": 0.98,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.9489,
+      "monte_carlo_ci95": [
+        0.9444091361115192,
+        0.9530461101512873
+      ],
+      "one_pair_success_rate": 0.9836
+    },
+    {
+      "n_per_formulation": 200,
+      "true_common_rate": 0.02,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.9998,
+      "monte_carlo_ci95": [
+        0.9992710041559925,
+        0.9999451510726791
+      ],
+      "one_pair_success_rate": 1.0
+    },
+    {
+      "n_per_formulation": 200,
+      "true_common_rate": 0.1,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.6431,
+      "monte_carlo_ci95": [
+        0.6336567995534377,
+        0.6524333001128746
+      ],
+      "one_pair_success_rate": 0.8981
+    },
+    {
+      "n_per_formulation": 200,
+      "true_common_rate": 0.5,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.0175,
+      "monte_carlo_ci95": [
+        0.01510909979989246,
+        0.02026145862781046
+      ],
+      "one_pair_success_rate": 0.2665
+    },
+    {
+      "n_per_formulation": 200,
+      "true_common_rate": 0.9,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.6468,
+      "monte_carlo_ci95": [
+        0.637377332369386,
+        0.6561099257089834
+      ],
+      "one_pair_success_rate": 0.8914
+    },
+    {
+      "n_per_formulation": 200,
+      "true_common_rate": 0.98,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.9999,
+      "monte_carlo_ci95": [
+        0.9994337311025987,
+        0.9999823473263989
+      ],
+      "one_pair_success_rate": 0.9999
+    },
+    {
+      "n_per_formulation": 400,
+      "true_common_rate": 0.02,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 1.0,
+      "monte_carlo_ci95": [
+        0.9996160016293234,
+        1.0
+      ],
+      "one_pair_success_rate": 1.0
+    },
+    {
+      "n_per_formulation": 400,
+      "true_common_rate": 0.1,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.9857,
+      "monte_carlo_ci95": [
+        0.9831795172461817,
+        0.9878474667365431
+      ],
+      "one_pair_success_rate": 0.9967
+    },
+    {
+      "n_per_formulation": 400,
+      "true_common_rate": 0.5,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.3506,
+      "monte_carlo_ci95": [
+        0.34130686658724585,
+        0.36000787212591223
+      ],
+      "one_pair_success_rate": 0.7489
+    },
+    {
+      "n_per_formulation": 400,
+      "true_common_rate": 0.9,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.9847,
+      "monte_carlo_ci95": [
+        0.9821014234948727,
+        0.9869263284845934
+      ],
+      "one_pair_success_rate": 0.9968
+    },
+    {
+      "n_per_formulation": 400,
+      "true_common_rate": 0.98,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 1.0,
+      "monte_carlo_ci95": [
+        0.9996160016293234,
+        1.0
+      ],
+      "one_pair_success_rate": 1.0
+    }
+  ]
+}

@@ -4,6 +4,11 @@ Assessment date: 2026-09-09. Neutral context, root seed 20260604. Behavioural
 model: `gpt-5.4-mini-2026-03-17`; independent coding/generation model:
 `claude-haiku-4-5-20251001`. No historical September 6 sample was pooled.
 
+Subsequent [offline diagnosis](../offline_diagnosis_20260909/FINDINGS_AND_NEXT_STEP.md)
+quantifies the equivalence test's severe precision limitation near balanced
+rates and identifies a PD/S3 difference that survives conservative simultaneous
+bounds. It qualifies interpretation without changing this original gate result.
+
 **The existing full ten-parameter system-prompt implementation is not cleared
 for Phase 2.** All authorised battery collection is complete. A full pass is
 ruled out by the measured results. No architectural revision, parameter removal,

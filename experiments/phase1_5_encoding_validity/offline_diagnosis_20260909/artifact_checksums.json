@@ -1,0 +1,16 @@
+{
+  "files": {
+    "diagnosis.json": "37153c2469fabed3ee4497605d5c0f626980e87d91cdad8312cb33c5cda03b68",
+    "DIAGNOSIS.md": "d6fc720feb5b316383fb7717c5959fc62fd1bd3ab4d4c49f7315af83f2a44ac9",
+    "FINDINGS_AND_NEXT_STEP.md": "c033d016e0a8fa5d641e5c953f219ba83264386067f601b6f572bcc32e336bc8",
+    "manifest.json": "675d2a984b8b394683b8b2dc216dcb8c05bbbb2d1c1e529572589765af7ad584",
+    "pair_diagnostics.csv": "b5eba7768ef1589d63607e6eedbabed24d6af134138ffe540b7b988ebc5a1f49",
+    "precision_extension.json": "8e4e88b8cbc52805eb6abc225dd90533787ceba2d55747a876f77fe8763a27f5",
+    "profile_diagnostics.csv": "42dd08eb60a446b2cd666c16a0a306bc9ed5c38bbf0e1ee557170fa6198982dd",
+    "wording_rates.png": "1e815f0157c579eff984ff97703e4b195bb4b9902444a1dac404d16a78f9a98e"
+  },
+  "numpy": "2.2.1",
+  "scipy": "1.15.1",
+  "script_sha256": "97d0a9f65e27a43c60d844d41af06306c15ad00958298dfdd09a6c2b2592340a",
+  "verification": "Counts, source hashes, probability nesting, relative links and visual plot inspection passed; three focused statistical tests passed."
+}

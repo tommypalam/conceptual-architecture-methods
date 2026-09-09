@@ -1,0 +1,22 @@
+{
+  "source_hashes": {
+    "paraphrase": "621833995ad959cd2751ac90f7141a0b7c2477752b05cfc3be8def262b09d2cb",
+    "rotation": "c8ff9e8f05e3fbcea4d2de617af970c6aeed6923808bc43e79f433e7b57f0e2a"
+  },
+  "simulation_seed": 20260909,
+  "repetitions": 10000,
+  "sizes": [
+    50,
+    100,
+    200,
+    400
+  ],
+  "source_sha256": "97d0a9f65e27a43c60d844d41af06306c15ad00958298dfdd09a6c2b2592340a",
+  "status": "EXPLORATORY_OFFLINE_ONLY",
+  "family_alpha": 0.05,
+  "rate_family_size": 120,
+  "saturation_bounds": [
+    0.05,
+    0.95
+  ]
+}

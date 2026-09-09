@@ -103,6 +103,20 @@ The stored failures must not be deleted or replaced to make the run resumable.
 
 ## Next actions
 
+The [offline diagnosis](experiments/phase1_5_encoding_validity/offline_diagnosis_20260909/FINDINGS_AND_NEXT_STEP.md)
+is complete with no API calls or theory changes. Eight equivalent profiles are
+saturated; four other profiles have observed ranges within .10 but do not establish
+equivalence; 17 have larger observed ranges with inconclusive conservative bounds;
+PD/S3 supports a difference beyond .10 under simultaneous exact uncertainty bounds.
+Simulated true-equality success for the existing all-six-pair test at p=.50 is
+0/10,000 at N=50, about 35% at N=400 and 91% at N=800. These are planning
+diagnostics, not new observations or replacement gate criteria.
+
+Recommended next discussion: a fresh exploratory two-by-two wording attribution
+experiment on PD=.8/S3, varying PD's endpoint wording separately from the other
+nine descriptions using paraphrases 2/3. Sample size, exact mixed templates and
+budget are not approved or prepared for dispatch. The theory remains unchanged.
+
 1. Source sweep, rotations, gradients, independent audit and approved paraphrases
    are collected and scored. Review the battery assessment with the researcher;
    do not rerun completed samples merely to improve their results.

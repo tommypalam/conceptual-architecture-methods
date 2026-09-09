@@ -1,0 +1,117 @@
+{
+  "purpose": "Exploratory planning extension after low all-pair power at N=400; hypothetical equal-rate scenarios, no study rerun",
+  "seed": 20260909,
+  "repetitions": 10000,
+  "rows": [
+    {
+      "n_per_formulation": 800,
+      "true_common_rate": 0.02,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 1.0,
+      "monte_carlo_ci95": [
+        0.9996160016293234,
+        1.0
+      ],
+      "one_pair_success_rate": 1.0
+    },
+    {
+      "n_per_formulation": 800,
+      "true_common_rate": 0.1,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 1.0,
+      "monte_carlo_ci95": [
+        0.9996160016293234,
+        1.0
+      ],
+      "one_pair_success_rate": 1.0
+    },
+    {
+      "n_per_formulation": 800,
+      "true_common_rate": 0.5,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.9113,
+      "monte_carlo_ci95": [
+        0.9055685150302839,
+        0.9167156079099974
+      ],
+      "one_pair_success_rate": 0.9818
+    },
+    {
+      "n_per_formulation": 800,
+      "true_common_rate": 0.9,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 1.0,
+      "monte_carlo_ci95": [
+        0.9996160016293234,
+        1.0
+      ],
+      "one_pair_success_rate": 1.0
+    },
+    {
+      "n_per_formulation": 800,
+      "true_common_rate": 0.98,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 1.0,
+      "monte_carlo_ci95": [
+        0.9996160016293234,
+        1.0
+      ],
+      "one_pair_success_rate": 1.0
+    },
+    {
+      "n_per_formulation": 1200,
+      "true_common_rate": 0.02,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 1.0,
+      "monte_carlo_ci95": [
+        0.9996160016293234,
+        1.0
+      ],
+      "one_pair_success_rate": 1.0
+    },
+    {
+      "n_per_formulation": 1200,
+      "true_common_rate": 0.1,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 1.0,
+      "monte_carlo_ci95": [
+        0.9996160016293234,
+        1.0
+      ],
+      "one_pair_success_rate": 1.0
+    },
+    {
+      "n_per_formulation": 1200,
+      "true_common_rate": 0.5,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 0.9942,
+      "monte_carlo_ci95": [
+        0.9925101325899993,
+        0.9955103234204238
+      ],
+      "one_pair_success_rate": 0.999
+    },
+    {
+      "n_per_formulation": 1200,
+      "true_common_rate": 0.9,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 1.0,
+      "monte_carlo_ci95": [
+        0.9996160016293234,
+        1.0
+      ],
+      "one_pair_success_rate": 1.0
+    },
+    {
+      "n_per_formulation": 1200,
+      "true_common_rate": 0.98,
+      "repetitions": 10000,
+      "all_six_pairs_success_rate": 1.0,
+      "monte_carlo_ci95": [
+        0.9996160016293234,
+        1.0
+      ],
+      "one_pair_success_rate": 1.0
+    }
+  ]
+}

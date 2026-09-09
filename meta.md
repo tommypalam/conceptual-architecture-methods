@@ -4,6 +4,52 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-09 — Offline diagnosis authorised, theory held fixed
+
+The user asked what could be done while leaving the theory alone, then accepted
+the proposed offline diagnosis. No API calls or theory, source prompt, model,
+criterion, or recorded observation changes were made. New diagnostic code and
+artifacts are separate from the frozen analysis.
+
+Exploratory method: simultaneous Clopper–Pearson intervals over all 120 binomial
+rates, Bonferroni alpha .05, expanded over every possible binary completion of
+invalid parses. Interval subtraction bounds all 180 rate differences. Categories
+and a .95/.05 saturation flag are explicitly post-collection diagnostics. The
+original all-pair TOST and parse floor remain unchanged. Three focused tests
+passed against independent beta-quantile bounds, unknown-outcome envelopes,
+interval symmetry, and the frozen equivalence precision behaviour.
+
+Results: 8/30 equivalent and saturated; 4/30 within-margin observed ranges but
+equivalence not established; 17/30 larger observed ranges with inconclusive
+conservative bounds; 1/30 with a difference beyond .10 supported by those bounds.
+The latter is PD=.8/S3, paraphrase 2 versus 3: 32/50 vs 2/50, observed difference
+.60, simultaneous interval [.1488,.8495]. The 17 include the parse-disqualified
+MoR/S2 cell, whose status remains explicit. Conservative inconclusiveness is not
+evidence of no effect, and saturation agreement does not establish encoding.
+
+Offline simulation, seed 20260909, 10,000 repetitions per hypothetical scenario,
+used the exact existing six-pair rule for four truly equal probabilities. At
+p=.50, all-pair success was 0/10,000 for N=50 and N=100, .0175 at N=200, .3506 at
+N=400. An explicitly labelled planning extension to N=800/1200 gave .9113/.9942.
+Monte Carlo intervals and five rate scenarios per N are saved. These values
+describe sampling precision under equality, not observed model reliability or
+a revised gate. No repeated real-data collection is licensed by the simulation.
+
+Synthetic review: Linden keeps concepts fixed and distinguishes human semantic
+consistency from model invariance. Osei requires fresh observations for any
+post-hoc-selected diagnostic profile. Tanaka requires family-wide uncertainty,
+explicit invalid-response sensitivity, and separating simulated precision from
+real-data evidence. Renna identifies whole-template manipulation as an attribution
+limitation. Okafor recommends isolating one parameter's wording from the other
+nine before more expensive battery runs. Resolution: preserve the unmet original
+gate, qualify the interpretation with the demonstrated precision limitation,
+and propose a two-by-two exploratory PD/S3 wording study for discussion only.
+No sample size, mixed-template human approval, spending or dispatch is assumed.
+
+Artifacts: experiments/phase1_5_encoding_validity/offline_diagnosis_20260909/,
+including a rate heatmap, all profiles/pair bounds, simulation data, and the
+plain-language FINDINGS_AND_NEXT_STEP.md. No theoretical departure implemented.
+
 ## 2026-09-09 — Paraphrases complete; empirical battery gate not met
 
 Completed all 4,500 approved paraphrase calls: 4,497 valid parses, three preserved
