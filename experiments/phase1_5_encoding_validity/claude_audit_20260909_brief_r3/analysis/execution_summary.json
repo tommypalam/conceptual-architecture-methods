@@ -1,0 +1,17 @@
+{
+  "n_codings": 200,
+  "n_estimates": 2000,
+  "model": "claude-haiku-4-5-20251001",
+  "blind_pack_hash": "91fcac9329faf0348ab71484f10d7d22a7ef561ac53baeebb6d1d0eaea1bf15c",
+  "source_design_hash": "10df2b8246ca5dde38e0eef7e256b31bcdf8d61fb307ad4bbda771488d5418ad",
+  "audit_seed": 20260604,
+  "configuration": "neutral",
+  "commentary_word_median": 21.0,
+  "commentary_word_max": 66,
+  "commentary_over_15_words": 186,
+  "n_parameters_above_035": 7,
+  "n_parameters_at_least_050": 6,
+  "literal_spec_thresholds_met": true,
+  "continuation_reused_records": 173,
+  "additional_preserved_failed_attempts": 1
+}

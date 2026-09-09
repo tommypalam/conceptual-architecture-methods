@@ -1,14 +1,54 @@
 # Current state and next steps
 
-Updated 2026-09-07. Working branch: `phase1-5-validity`.
+Updated 2026-09-09. Working branch: `phase1-5-validity`.
 This file is the current operational status; historical records are evidence,
 not competing task lists.
 
-See the [7 September handoff](docs/HANDOFF_2026-09-07.md) for sample recovery:
-retain all **8,639 valid responses** and fill **6,361 remaining successful slots**.
-A full rerun is not inherently required. The continuation mechanism must first
-be implemented and tested; topping up credits alone does not bypass the saved
-terminal-failure guard.
+The user authorised a fresh Phase 1.5 restart on September 9. The active source
+is `option_c_20260909_restart`: 15,000 new calls, without reusing the old sample.
+See [live restart instructions](docs/phase1_5_restart_20260909.md).
+
+### Active execution
+
+**Latest verified status (after background completion):** the source sweep has
+15,000/15,000 valid records, zero API failures. Rotations have 4,500/4,500 records,
+4,498 valid parses and two parse failures, zero API failures. Both completed runs
+have checksum inventories and local ZIP backups in `output/validity_backups`.
+Combined OpenAI token cost is approximately $17.92 before taxes. The independent
+Claude audit is now complete in `claude_audit_20260909_brief_r3`: 200 valid coding
+records, 2,000 estimates including two abstentions. The user approved optional
+concise commentary. The revised prompt requests at most 15 explanatory words;
+observed median 21, maximum 66; verbosity did not filter outcomes. All records,
+failed attempts and the continuation ledger are preserved and locally backed up.
+The audit meets literal numerical thresholds (7 above the 35% criterion, 6 at
+least 50%), but no active-parameter permutation diagnostic has p<.05 and every
+aggregate accuracy is below its empirical majority baseline. No phase pass is
+claimed. See [audit report](experiments/phase1_5_encoding_validity/claude_audit_20260909_brief_r3/analysis/AUDIT_REPORT.md).
+Audit token cost across 202 unique attempts: approximately $0.436. No process is
+currently running. Earlier strict-format and missing-confidence failures were
+preserved separately; the completed audit uses the unchanged 200-item blind pack.
+Corrected paraphrase generation and review remain pending as described below.
+Earlier progress counts below are historical checkpoints.
+
+**Historical launch notes:** the user instructed rerunning Phase 1.5 from scratch. The source
+designation is now `option_c_20260909_restart`, targeting 15,000 fresh calls under
+the unchanged scientific design. Claude Haiku 4.5, pinned to
+`claude-haiku-4-5-20251001`, is selected for paraphrases and the independent audit.
+Both model IDs were accessible. The ten-call checkpoint passed. At the latest
+integrity check, 1,795 new records were valid with no API failures, using about
+$1.60 in OpenAI tokens. The sweep continues; this count is a dated checkpoint,
+not a live total. `output/validity_restart_20260909/status.json` is updated by the
+background supervisor (PID 5336 at launch), which waits for source completion
+before running 4,500 rotations and the 200-item Claude audit.
+The prepared shard below is inactive and will not be used for this restart.
+
+Earlier, the user confirmed that the original raw records are on another computer and
+authorised collecting the remainder here for a later merge. The prepared
+`option_c_20260909_shard` reserves all 8,640 inventoried keys and schedules only
+the 6,360 never-dispatched slots. It has made no API calls. The failed original slot cannot be
+identified from the inventory alone and awaits recovery of its original record.
+That recovery path requires the original payloads; the fresh restart does not.
+See [cross-computer continuation](docs/phase1_5_continuation.md).
 
 ## Phase ledger
 
@@ -16,7 +56,7 @@ terminal-failure guard.
 |---|---|---|
 | 0a–0c | Closed, with documented baseline and delivery deviations | [Phase 0 closure](experiments/PHASE0_CLOSURE_2026-07-29.md) |
 | 1 | Operational pilot passed, S3 + S2, 100 calls | [Pilot result](experiments/phase1_pilot/PHASE1_PILOT_RESULT_2026-07-29.md) |
-| 1.5 | Open; September sweep interrupted; follow-up tools offline-tested | [Execution protocol](docs/phase1_5_execution.md), [follow-up implementation](docs/phase1_5_followup.md) |
+| 1.5 | Open; fresh September 9 sweep running; follow-ups queued | [Restart](docs/phase1_5_restart_20260909.md), [follow-up implementation](docs/phase1_5_followup.md) |
 | 2 | Pending; encoding-validity gate and preregistration required | Paired-agent individual and collective experiments |
 | 3 | Pending | Five behavioural benchmark families and contamination diagnostics |
 | 4 | Pending | Reviewed moral-coding manual and human validation |
@@ -45,21 +85,20 @@ The stored failures must not be deleted or replaced to make the run resumable.
 
 ## Next actions
 
-1. Restore API credit availability outside the repository. Before further calls,
-   record a continuation/restart designation and how the interrupted sample will
-   be handled. The existing runner intentionally refuses to resume across a
-   terminal failure. A credit top-up alone does not resolve that provenance step.
-   Preserve the snapshot, prompts, sample target, and all prior records.
-2. Configure and verify `ANTHROPIC_API_KEY` outside chat/source. The user selected
-   Claude for independent coding and paraphrase generation. At the last check the
-   Windows User key was absent. Verify an explicit available Claude model ID;
-   install its optional SDK in the project environment before real calls.
-3. Generate three paraphrases, then obtain actual human semantic review of the
-   exact template hashes. No generated paraphrase or human approval exists yet.
-4. After the source sweep is complete under a documented protocol, prepare the
-   blind 200-item reasoning audit and run the robustness comparisons. The
-   six-level verbal mapping, equivalence tests, audit sampling, and prevalence
-   caveats are fixed in the follow-up document.
+1. Source sweep, rotations and independent audit are collected and scored. Do
+   not rerun these completed samples merely to improve their results.
+2. Automatic approval review blocked the revised Claude generation request
+   because it exports thesis text to Anthropic. The exact request is prepared
+   in `claude_paraphrases_20260909_theory_r2/generation_request.json`; explicit
+   user approval for that disclosure is pending. Do not bypass the rejection.
+3. The first three Claude candidates were rejected after the user requested an
+   assistant comparison with theory/specification: see the
+   [semantic review](docs/phase1_5_paraphrase_review_20260909.md).
+   Review corrected candidates after generation; human approval against their
+   exact hashes remains required before the 4,500 paraphrase behaviour calls.
+4. Completed runs have checksum inventories and ZIP backups under
+   `output/validity_backups` (same machine, not off-device). The old supervisor
+   is stopped; do not relaunch it against the obsolete failed audit designation.
 5. Review the entire validity battery before authorising Phase 2. A single .8
    rotation does not estimate a gradient; the optional five-value extension adds
    15,000 calls and needs a deliberate execution/budget decision.

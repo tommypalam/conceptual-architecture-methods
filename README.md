@@ -23,8 +23,13 @@ hypotheses to evaluate, not established properties of human or artificial minds.
 ## Current state
 
 **Phase 0 is closed; the Phase 1 operational pilot passed; Phase 1.5 validity
-remains open.** The September delivery comparison stopped at **8,640/15,000
-records** after an API credit-balance error. It is incomplete, not running.
+remains open.** The original September delivery comparison stopped at
+**8,640/15,000 records** after an API credit-balance error. A user-authorised
+[fresh September 9 restart](docs/phase1_5_restart_20260909.md) now has all 15,000
+source calls, 4,500 representation comparisons and the 200-item independent audit
+collected and scored. The earlier sample remains separate; paraphrases and the
+combined scientific assessment are pending. Audit numerical thresholds alone do
+not establish recovery of manipulated traits.
 The remaining validity tools are implemented and offline-tested; their empirical
 tests have not passed. [NEXT_STEPS.md](NEXT_STEPS.md) owns the detailed current
 status, blockers, and next actions.

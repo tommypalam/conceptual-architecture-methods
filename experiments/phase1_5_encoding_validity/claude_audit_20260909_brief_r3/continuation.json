@@ -1,0 +1,1056 @@
+{
+  "design_hash": "5c3804bcf434078965ff233a3429c9ee85d3b6721d9271b6e93b1e6c407702ff",
+  "source_root": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2",
+  "source_manifest_sha256": "940ec08b18c34fade96344c2532e8d1fcdb8932cb27372f8e7d8cdce26926256",
+  "reused": [
+    {
+      "item_id": "00096f42e62c9a51f9c65fef",
+      "record_hash": "728207221a71d6d8071831b905eb8e12b60f118ede9808ebdbe55c9820dfe206",
+      "file_sha256": "67d956ddf8306afd808cc664df7835870426b47f70063969abd79ddd5672c831",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\00096f42e62c9a51f9c65fef.json"
+    },
+    {
+      "item_id": "001f64d807d22915116646d3",
+      "record_hash": "86a5dc8290efbf55eaa8d4c72e0e24fca2f5a5981bc7b16204387eb3b37aaa34",
+      "file_sha256": "9dc2bb4f3595aa1fa0b4b6172ccc153e64ab039a394b8ae21c537218533ec3c5",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\001f64d807d22915116646d3.json"
+    },
+    {
+      "item_id": "0148b0073235a9a25f82a4a8",
+      "record_hash": "a0cf683e48389b8ca0528ece400fc72e641d023de3b3c8de33784c97738b71a1",
+      "file_sha256": "7e0c5ae4995949edd002f87d9f70301cc77e1ee6f47ce3141b5e5c69019e05a2",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\0148b0073235a9a25f82a4a8.json"
+    },
+    {
+      "item_id": "016b30576fd3f89663f28cf8",
+      "record_hash": "b6f160d0f3a35392baebfc9dc58be7916598ee14fe1045e2af5245d3da18f6b8",
+      "file_sha256": "69880d200d2447d0a368472dffdc17f2ee2f918ea23bb5d9bb28f858517a384f",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\016b30576fd3f89663f28cf8.json"
+    },
+    {
+      "item_id": "0333e77289bfdf3ca9418c7a",
+      "record_hash": "3b98e5aee4d872914a90c2aba624b3e31963f9ffc3831078a25501c1beed170c",
+      "file_sha256": "97f87b71cdaa4f344e0955f878b62f8e6d3bde9727868fe856501183e9ed8790",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\0333e77289bfdf3ca9418c7a.json"
+    },
+    {
+      "item_id": "04ba6cd729981a89cf1ae763",
+      "record_hash": "dffacbee34a3b81cadfb382e3c570d181e17aa8834c59917aa3eed5f6db9027b",
+      "file_sha256": "6322f1f7e17bff4277cc9d639f94f831cfb0901002cd81aed2a9f4f37c0802d7",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\04ba6cd729981a89cf1ae763.json"
+    },
+    {
+      "item_id": "04bbf1bcc5300f0056b507e6",
+      "record_hash": "a2f46f10bbb6109f1557da8c504750a3c69b8877a274988ad6e7c04f9e1fa932",
+      "file_sha256": "86afc9e674d8e38dc153efedd274493fba3bb20ca96d7fe2a46936e54b82c3c5",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\04bbf1bcc5300f0056b507e6.json"
+    },
+    {
+      "item_id": "0578dffbf730f289b1185265",
+      "record_hash": "33027bc016b35c85e8ce15a7c0b9f28d95bfda3ea56b436d9355c34a53f02432",
+      "file_sha256": "aefea4e4228d87383a8b9fd81f3c0fd5dd69eb7d1126898f0340467c628f794f",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\0578dffbf730f289b1185265.json"
+    },
+    {
+      "item_id": "088de520332d1511a2ab9daf",
+      "record_hash": "d33ea52d3176cc014d23ae3596c4aa33d9e7a8d2fee871297583d08b451b7366",
+      "file_sha256": "7c6b5617a1939eb8ae50e9daa4fa4024885c10737ebc2767d97b6a130a51d77b",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\088de520332d1511a2ab9daf.json"
+    },
+    {
+      "item_id": "0a0cab04ac10b40278fc5fef",
+      "record_hash": "4f004ea6d0bd84d4e6a3c9ce572a07d343ed0a71e08d0ad120ee2a7643eb87ef",
+      "file_sha256": "eedd0731a7a8274fcb23d63cc12a86c274e67ea55f29fe13f3214c0320ae600a",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\0a0cab04ac10b40278fc5fef.json"
+    },
+    {
+      "item_id": "0af11a06a6da668e6755c841",
+      "record_hash": "7bbec5c39fda753d5d4e90c1ec170b597b27a688b9944aec7af69b870c0f32b0",
+      "file_sha256": "523582b477db4b66b054ae20d5cbd0cc43a41b742cbf37544456e1f6943d8344",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\0af11a06a6da668e6755c841.json"
+    },
+    {
+      "item_id": "0c6990766d41d9794c016c6c",
+      "record_hash": "84ef4da04259e704cb0a715654013a254578f2a1a2c8f775e8c333fdc9411cde",
+      "file_sha256": "7a96cf35c00a3c46ff2079406b59b6943d67e4a824dc805870201207848265ed",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\0c6990766d41d9794c016c6c.json"
+    },
+    {
+      "item_id": "0c7151e8489497fd9547b51f",
+      "record_hash": "f596f654fd41b23bae1ea89bc355443a6e72ac5e44dd0c20c25d48b1f376bb26",
+      "file_sha256": "720e57d0dd1c4e2d65f274a5183683f20f4f325f99f2108be53a868e7554234a",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\0c7151e8489497fd9547b51f.json"
+    },
+    {
+      "item_id": "0c83cc62c692d030f6668b24",
+      "record_hash": "e9054ea538756956407c455cd5efa9442e2dae4094e938ff3e279d1347efe0de",
+      "file_sha256": "c1e274af04e2a35e574c6cd9fbbb144bf4f2b4f36144ca5989620f2789df21a8",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\0c83cc62c692d030f6668b24.json"
+    },
+    {
+      "item_id": "0d0a526f345644443662d77a",
+      "record_hash": "289bdb9bd79d79370dac26ebfe2274b5fe828d1b4ae6d565b62640190ca6c202",
+      "file_sha256": "9a2850af638999f8ccfc2c30f8e0a846274fc4d0ad23bd0da3db3d9e5d5e0759",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\0d0a526f345644443662d77a.json"
+    },
+    {
+      "item_id": "11774690c6292f592fc817ae",
+      "record_hash": "fed1e5e08153018c608620ea2fa09e9bc8d9ff78755c18c66ba97570f70d6759",
+      "file_sha256": "b3a9ed708360bd3e3f80adff71d3e585d1174bdcd2a6f7c04e522a284553eba4",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\11774690c6292f592fc817ae.json"
+    },
+    {
+      "item_id": "11b23f6a1987ce026a543bf2",
+      "record_hash": "35af93ce285f982b9a8a92c6498ed0b3ab3d72f518eec70454555383c3bd7ee3",
+      "file_sha256": "a880892e831763b8463f53b2444929895372f193f36ede636366bceb29e39091",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\11b23f6a1987ce026a543bf2.json"
+    },
+    {
+      "item_id": "12487fc92018eeb9c8dcc7b7",
+      "record_hash": "9cafe91e53e265ff986012175e0877eb362a35eaf3585c7c732edbbad148ec54",
+      "file_sha256": "757675a32faedefc7c6e551f4a19cb8c7b3accbe30ff1869900858234feb8170",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\12487fc92018eeb9c8dcc7b7.json"
+    },
+    {
+      "item_id": "124c77f0b71b88770a467425",
+      "record_hash": "95cb2f05bd0f08fb74fba3496d21dc286119842e8f6d12f127c64a8d1d003a6d",
+      "file_sha256": "1c8a4e4eabb5a83268ed20b3ae5df22a563d3169f5b3d29dee89a29483f39aed",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\124c77f0b71b88770a467425.json"
+    },
+    {
+      "item_id": "127c5ab99122c785ac8cc6f2",
+      "record_hash": "21ef43f854b48f5f36ddca81a6c1e8865e87e6703df908c6cb7ef6a067792678",
+      "file_sha256": "5a68cadeb9d3da2413ebe4727464d39e05e2270914983949fe363d3b8f9b84ab",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\127c5ab99122c785ac8cc6f2.json"
+    },
+    {
+      "item_id": "13bd83126d27333017729767",
+      "record_hash": "f7a97492167f515caa511c3a259f74c95de16a6e0552daad9d05c8c68c11a83b",
+      "file_sha256": "a3332f0bf9a344785a7f36186f9256e1dc7c06579739f5d74c57299e61c41ef3",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\13bd83126d27333017729767.json"
+    },
+    {
+      "item_id": "16c14f6167b713b0d0688222",
+      "record_hash": "718229506d6e7e4d58c31969605e172350f130d0dc60f8021dc512e9e791f047",
+      "file_sha256": "d5ad1e275f1baf849e69ecabc2bb6beda1f22ecde826499c5d2d8389c9a8f5ff",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\16c14f6167b713b0d0688222.json"
+    },
+    {
+      "item_id": "18fefe02fa389ff22e22974d",
+      "record_hash": "03550e64303ad61f644c720829391b5d181f85c0fcedeb3699acd3923a26bdbd",
+      "file_sha256": "7be12f6c76825379de7a20cd37eac91c7b72276c9510f1319ed338ba5c1e0833",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\18fefe02fa389ff22e22974d.json"
+    },
+    {
+      "item_id": "190e105538cc907a8dc32da4",
+      "record_hash": "2343cc1e3d3539c1f2f5c8380534adb1471ddc530987a5719b629e32dfd81c27",
+      "file_sha256": "cc38febcd3f2e655b5f35ffb541129c56149d5347a8e01b55f10020d960aa02e",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\190e105538cc907a8dc32da4.json"
+    },
+    {
+      "item_id": "19e8f5c597e51d6d05947ebf",
+      "record_hash": "796c4c2aeb2a0edf3f114302ef24a7d319ccc544978a01203a72ac934f551505",
+      "file_sha256": "4688d64c9e3f9bb0f86aab7f9744ad95c572b15297c4fa4ffad39c8da8ac1640",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\19e8f5c597e51d6d05947ebf.json"
+    },
+    {
+      "item_id": "1e24e448a75c2aac5322d987",
+      "record_hash": "2daf5fa5fe45c37a70ca8de49a2df082fe3d108181db1b60db9b2a586008c4d5",
+      "file_sha256": "5daa5f62da17881c0782b05769c519622d5a090f6f866d2f1839b53d2c5a9a65",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\1e24e448a75c2aac5322d987.json"
+    },
+    {
+      "item_id": "1e2c80f30d6e84332ffbbf1c",
+      "record_hash": "99590f1cf485d8803275ca3c9171e5e1974d77684cc081fb9e1ec692e295ca1a",
+      "file_sha256": "22eb443a839c26c709bb502929846eb3c938794a024abc373c1de020b2e96a73",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\1e2c80f30d6e84332ffbbf1c.json"
+    },
+    {
+      "item_id": "2553f96a1d4789438d6eeccc",
+      "record_hash": "b56ca6adc5c7bf8c120d3129bd0342865724fb578cb54212df35a4e98c212d56",
+      "file_sha256": "9bc322eb834525c37766a632852bf410e983e9d73672a18d0ded1febe0aacf37",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\2553f96a1d4789438d6eeccc.json"
+    },
+    {
+      "item_id": "26e6aafacc01a0133ee2f425",
+      "record_hash": "8e504a36178e3864ef42dc4c8ca6a246ae21ee1a5b7875894a443ea961a78948",
+      "file_sha256": "8d67590e5c7e46276453fbe3605fc209029d0f7ced99c818e25c51b6a64df390",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\26e6aafacc01a0133ee2f425.json"
+    },
+    {
+      "item_id": "27baee21a4d882c7a98b30a3",
+      "record_hash": "e98560030a502cc19eb28ec8a0fcd75b1f8797eb8d921b31fc1f0008226f8052",
+      "file_sha256": "5bb72db317f121f3c3f6888a895b1c8c3561b38e65f9aac0a61e50671e4f2579",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\27baee21a4d882c7a98b30a3.json"
+    },
+    {
+      "item_id": "2857f9b94bac52ae272cd883",
+      "record_hash": "ee3121b797071b7d9314f4e65f698f0c45f1daa218df1862f6042aeb04f3f975",
+      "file_sha256": "11be24173f2880d762e4ceef229dcca8f71ffc65ace2ba92f689166f41015bea",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\2857f9b94bac52ae272cd883.json"
+    },
+    {
+      "item_id": "29fcae6e4c0e4641d496aac8",
+      "record_hash": "eed57a085b21599c86fd8bae4b20faebee076eb9aaeb80fd6a320a72021f260f",
+      "file_sha256": "bfd25c5d490f46b720438fdbbdd22f03cfc077e375ed17acaa4bc177293ff314",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\29fcae6e4c0e4641d496aac8.json"
+    },
+    {
+      "item_id": "2a1c14bd0510188f2477b093",
+      "record_hash": "f5241d650195f42027a684f21b68d0a8963a35e8f16035e101d21654d1ab750e",
+      "file_sha256": "79cc71af135dcdb1726eaaf816223c354ce29ebfce6960e89c417fd54414098c",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\2a1c14bd0510188f2477b093.json"
+    },
+    {
+      "item_id": "2a249e4f4063a608a6ed500a",
+      "record_hash": "bb88f753347a569a7474efcb22103d26c9e96896d865c420b1c5fdf0260b03eb",
+      "file_sha256": "9d00696049d6e378dc790eadedb36dbee9e2d5d58a29f90496eb1f828e4a6667",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\2a249e4f4063a608a6ed500a.json"
+    },
+    {
+      "item_id": "2b806065dca469d7e2357b1b",
+      "record_hash": "31c31f0cd2ba13be781cf83ac4245a4cd69e85c18aab4f5dab1d846199cefcaf",
+      "file_sha256": "6538206719861058894e4a69936ada9897f3faefedc7a020ad1083e47911eaf9",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\2b806065dca469d7e2357b1b.json"
+    },
+    {
+      "item_id": "2bedcf9cf7d2ac6e991ea6ef",
+      "record_hash": "684d2aef527a32a9274ac1e680e3abd3040bc8ed2dc90f3af34e46d33dc777ec",
+      "file_sha256": "568ecedd4a32d61388c1360166e3237ffbbd5f0a4717388b4adcd656147d5763",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\2bedcf9cf7d2ac6e991ea6ef.json"
+    },
+    {
+      "item_id": "2ecf7643f59a913c1a57fb16",
+      "record_hash": "a3f5bdab33b816dc3c6ade1323eb569edf1b61d78d6825e044bdc41d6c5ae2a6",
+      "file_sha256": "ef0485b32e393b04b92518baefbb395abc16db4f7cf3e95b0e92302d62ee9498",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\2ecf7643f59a913c1a57fb16.json"
+    },
+    {
+      "item_id": "2f1dbf04bea1002a1cf11f67",
+      "record_hash": "34fe0acbe18b93e84813b0de188709f117837c55851ae4c9061b644df780eb04",
+      "file_sha256": "25a3a3eb2f207e2ba4ff742b216224fdfcf1af8593893466229dd8c999dcd958",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\2f1dbf04bea1002a1cf11f67.json"
+    },
+    {
+      "item_id": "33d59f58e42f8ffc174945d1",
+      "record_hash": "391f223e92d6a4132dd3af146cfb0b07b4b0b934682595793322aead91174f57",
+      "file_sha256": "3fec9010ed5b87d0e817c383ccca863533a892bc7826e726baefc547acfa0f72",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\33d59f58e42f8ffc174945d1.json"
+    },
+    {
+      "item_id": "34099966b2d82dabccd08317",
+      "record_hash": "e24b9361c8a0b2d9756ff223bac63015c51400f879f2ff7c9256d8ecf39a5b87",
+      "file_sha256": "f57c8013e56e71f6310de66c8ca5b098ef7f0ec40338afe87fe89e970afd5539",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\34099966b2d82dabccd08317.json"
+    },
+    {
+      "item_id": "35709a78f7e395c9d4c748b9",
+      "record_hash": "0144495b3ebcdb3a8f903f5a09d346cbb9f3318845a3a30a14b20e3cd06ca548",
+      "file_sha256": "6dc350e2c9f078072b0d3cbbc522f52ca67c5e6768bdb54a893e3f73b6f1442d",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\35709a78f7e395c9d4c748b9.json"
+    },
+    {
+      "item_id": "35f21ef6976e83dc3222db56",
+      "record_hash": "33ff6831b2a887f1ac4dc48375cf16c9292bae42f2753e8576923e625972f9ca",
+      "file_sha256": "d7a6c9e5364fcc7e9e2a840c53a068e7643abcc7dc07af2dc136e7da2b95a38e",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\35f21ef6976e83dc3222db56.json"
+    },
+    {
+      "item_id": "363e63a802d759bc4bbb09d4",
+      "record_hash": "3e223f4f3428e68324dc5a3bf78ae40d7fdd47d935b719c65ded94dff6d3932f",
+      "file_sha256": "bc7b16d2cf22fcfea0cbe2cb9837583de421d906073222bfe456513e6950032b",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\363e63a802d759bc4bbb09d4.json"
+    },
+    {
+      "item_id": "37493b9c38d589f23c9d7cac",
+      "record_hash": "175b98684b330b84463805f80eabaa956d8c57e1247c585271c495928d99ab60",
+      "file_sha256": "c48195f74e4219dc3259707bb73920d3cff89f202445bccf6d4c7bec84428684",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\37493b9c38d589f23c9d7cac.json"
+    },
+    {
+      "item_id": "374aa0ab109b20d4764adff9",
+      "record_hash": "f9a0a6542071b47f9d8c605be11406a81c03a7bd8aba9aad8d5bc20e7214ce02",
+      "file_sha256": "5f5874b121e7470ff79bcdbec94411d0557aef9d84e6c5e1856fe30913d1c40e",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\374aa0ab109b20d4764adff9.json"
+    },
+    {
+      "item_id": "38e453f91682b45c58f268ac",
+      "record_hash": "82005c39957b6c89282b018c414df0fd15cc24b9b0b3536ff4c4351c88e8b595",
+      "file_sha256": "43735b03a230d51fcca5fcafd286fdc90dde772df6bbe69ca241bc0111eeb82c",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\38e453f91682b45c58f268ac.json"
+    },
+    {
+      "item_id": "3b6612d92e9d973370e69b78",
+      "record_hash": "eb4158cd84acbb8427661b2b0ff1a9233542a1f7017778cc1f0bbaf9787c96b5",
+      "file_sha256": "acc11cfb9fa12177909613c4203b9689a9dabff324addb2463c91b5b05a8cf89",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\3b6612d92e9d973370e69b78.json"
+    },
+    {
+      "item_id": "3ba475036ac4488ff82f98fa",
+      "record_hash": "f0f2a2ccd72583742cf6dd1569bad6d8fcca24f1c8e4d3b8c3449973b29bfbb0",
+      "file_sha256": "5c1ef5df46278f443b1f9ac7265d6e047a52668c20a305487f2a8937b1a92d01",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\3ba475036ac4488ff82f98fa.json"
+    },
+    {
+      "item_id": "3c182cb96bde2ec7f7293088",
+      "record_hash": "98720efddd47e4bc4345e8f939db9fe7e5c1ed9bbf5283842cc5c44fd64b33d8",
+      "file_sha256": "6a6208b73b60dfe578b880bdadc553f191092c2ab816f3dcc9e3799575b563fd",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\3c182cb96bde2ec7f7293088.json"
+    },
+    {
+      "item_id": "3fb8a97e06f6c9f1cc36bbce",
+      "record_hash": "a437315f7f7e76c180b6ba24b75995e6a84090098f6806ee4f0a39e2318c24cf",
+      "file_sha256": "fd546a888b4df83b4b85bd924572329dc2d520792ce47b15eb299e0f4f7964b6",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\3fb8a97e06f6c9f1cc36bbce.json"
+    },
+    {
+      "item_id": "41290eb76fc03dff4d12b520",
+      "record_hash": "177de0e8b6086bcdd36ca0194b79aa76179e72bbc75c6707c7eb410f57499e64",
+      "file_sha256": "160f8b6f5312141ec3141cfd7366d2ebbd72f83ac4184e1869950c2066567fab",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\41290eb76fc03dff4d12b520.json"
+    },
+    {
+      "item_id": "431409e5aba602ff90e1f25c",
+      "record_hash": "5d210a13cf383bc79011f1aaace37422a9b692a087604b088cb82de1fde668fa",
+      "file_sha256": "63ed0423a2bd5c8a1c51bb2cb29ff7eb1c00616157660e24c989b4964639b24d",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\431409e5aba602ff90e1f25c.json"
+    },
+    {
+      "item_id": "43d035f97b8956a63f9b5cb2",
+      "record_hash": "6ae5fada5ab69cad84d65fe67f33c9424a8f70acdbfa5414fe584644aa43ed4b",
+      "file_sha256": "841cdf6623335d8e1904b5ae0cf6175707dfbb878d0827e38f759842fa746511",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\43d035f97b8956a63f9b5cb2.json"
+    },
+    {
+      "item_id": "4561bf01a3b2eeede0b58210",
+      "record_hash": "7cbdea5b59be0f4c53ac836ae8db94c7c7ce1a1a22b8022bb40005461c04295d",
+      "file_sha256": "ac7ca61ac557f5a9fcb0b5582b07cefbce40971406e11b8ef01beddc6d1bf5e2",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\4561bf01a3b2eeede0b58210.json"
+    },
+    {
+      "item_id": "4760597d22c228186837d060",
+      "record_hash": "7e9931a70717bdf27fd2e515efb32a580d27a93d7564783c042945fd4057903f",
+      "file_sha256": "50b42496c4120a46690153440897987fe575ce822f89136981854296aaac290c",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\4760597d22c228186837d060.json"
+    },
+    {
+      "item_id": "48b9fa38f14b99ed4675d43e",
+      "record_hash": "51a660f859eac3ce02d2935c146229649592df34e9e8e6f915d7b29630bd311a",
+      "file_sha256": "1fba75a0d181bace15532c591da09aed2c3e37ea59f0521f8c55b193e0b70304",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\48b9fa38f14b99ed4675d43e.json"
+    },
+    {
+      "item_id": "49ad888c9bba362f46d9c3d7",
+      "record_hash": "fbcfcdc48afceec9c146653eebd690a46e794db29ce3b733ab9a994f90b094ea",
+      "file_sha256": "ea9c6d136e413f900f5dc841d48b73aef3a970dedb712202ee6ebbd05e6a6d43",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\49ad888c9bba362f46d9c3d7.json"
+    },
+    {
+      "item_id": "4b4b3ebd407085e6452fc606",
+      "record_hash": "2338c859b529bdd4edf7a82ff15148c7c0479bb46e2429623ebce9bfd7526c7d",
+      "file_sha256": "ad9344ae2b80747fec6a42e1fd5f3fe20e72a9d55c070fe48fb0d3c1895a3654",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\4b4b3ebd407085e6452fc606.json"
+    },
+    {
+      "item_id": "4be996ce8960243490dddd17",
+      "record_hash": "28a1e3adef62242d97f8351765f9b12d1be21fc314d4792d76bb299943fb7d1f",
+      "file_sha256": "ea6cda45091bd005abdbf95fe0ff9b09c0ef46f1095e317a755099c7fe1d2723",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\4be996ce8960243490dddd17.json"
+    },
+    {
+      "item_id": "4dbd62d566daa063f16ae8d9",
+      "record_hash": "f8afd21a40b0aced1d642b6e0b5352675542b34d8134669103d7fcc90ba62614",
+      "file_sha256": "e41a2b38a56bad1cc153fb00fb5897153213aff466b0d8e19661e846704178ff",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\4dbd62d566daa063f16ae8d9.json"
+    },
+    {
+      "item_id": "4f136bcbbd1050ab001be7a9",
+      "record_hash": "f641ad944bb37ba9452005b01e5096701c79812f6b23e9f978d2af9bfa5261dc",
+      "file_sha256": "81c0c717199c435904f51c86381f4ca54169f34b937b97521226366e61f5a3e3",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\4f136bcbbd1050ab001be7a9.json"
+    },
+    {
+      "item_id": "51980ba67436ec0f585b19b3",
+      "record_hash": "b71585babbb2d7fa116f005b66f90581eef9596c1be28490ffcc104c07d6fffb",
+      "file_sha256": "75713a04728e7842fc437d113c6c1ccf30538518bd6dc75aae1d7716e3e85556",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\51980ba67436ec0f585b19b3.json"
+    },
+    {
+      "item_id": "53df5e06272c6d04e06ec4f0",
+      "record_hash": "5cb04b1678e415156a1fce714a69d241ba0ef014c001c8979cbdac7b160242c8",
+      "file_sha256": "46a93bb7c277e00317a2c84544debda9593b2c63cdcc9fca484be577862f375f",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\53df5e06272c6d04e06ec4f0.json"
+    },
+    {
+      "item_id": "54882a5fe2e0d95f278f950b",
+      "record_hash": "ccb55dd519c89f27fe7d88648a46b69e87aee279def42ea37e263ab1bf807cc2",
+      "file_sha256": "bb339dd5f5bb84c4f77604c7380c359f52adceae75c53ff7412263947e8f9bf0",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\54882a5fe2e0d95f278f950b.json"
+    },
+    {
+      "item_id": "558ac940fb2afae5c1e62225",
+      "record_hash": "6e00ab9065e831474c76388c38c05cee99b299c87b932a6f6aa146e1464a5fbe",
+      "file_sha256": "da57eea7f941f49003a7e13f3d6d18cf22478adad3c07e15c7816cf17b8bd8fe",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\558ac940fb2afae5c1e62225.json"
+    },
+    {
+      "item_id": "579baadd64f163d843c6c661",
+      "record_hash": "d7dbf1e2baaeb2aa140c48138e80440dedbc0326e7774d59dcbeb4a018d20614",
+      "file_sha256": "520bb8f78ed89cc39d906184f2c81e2ceeb393146f75972e2976ecac7008e227",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\579baadd64f163d843c6c661.json"
+    },
+    {
+      "item_id": "582a06755a3b9577adcda112",
+      "record_hash": "eae47f28e425dfe0ed0ca803d948d4c2e7bde528f84864912890fa4e81aa17fb",
+      "file_sha256": "8cd6b204c79a8a4a63b51a0b2faa53f3508439be0ceb3eb6776f6c6701414409",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\582a06755a3b9577adcda112.json"
+    },
+    {
+      "item_id": "59730928b62ea3e3579b8ac4",
+      "record_hash": "9c5415779899b94a9ef02c050df9849f03f9e224331ee4576f2c86318dc13e2e",
+      "file_sha256": "b08345c8aeef01a2262eca6093e56c4d7b320f372ce9ce57541b7850f7f4e00d",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\59730928b62ea3e3579b8ac4.json"
+    },
+    {
+      "item_id": "5a41771319a0cbdf764f6167",
+      "record_hash": "a56b98bf5a351e9bdc4bd0ddf90780b474e9f2b565b78a3bd4d8b0c29babaa0d",
+      "file_sha256": "a71dee82f490ca89c8b73dc382df4a4e1c6e27e15f9b1d268924a1cf32253b1e",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\5a41771319a0cbdf764f6167.json"
+    },
+    {
+      "item_id": "5a74df15e7a0b52c4b999003",
+      "record_hash": "9da8d68ff786fc482e05219408c43ebaf9240e4157a7b4fda83a0ea0d0af2c7c",
+      "file_sha256": "a3a399404050e0ad6206015db0a59c0f1a585a2972b179ad8285e1d71b2ae48e",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\5a74df15e7a0b52c4b999003.json"
+    },
+    {
+      "item_id": "5aa89177b15f6618a682b3b6",
+      "record_hash": "5c740233e97c19fe91b409499a1ea38c05abd6ec0f34a082acb4bf328575041f",
+      "file_sha256": "0be68b61df8f2dd0852f52baeef63be6ecd587d3f1d6941656678429d8ba7055",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\5aa89177b15f6618a682b3b6.json"
+    },
+    {
+      "item_id": "5be4b0423d2f2e625f1bc592",
+      "record_hash": "14693c0f2e4abba55be3b65329725980edd31afe348088725edf4cdddd6e1f88",
+      "file_sha256": "17ae1ac0befbc16f5527f5ff96ba372f514821adb78d52f13702e2bf46b75b9d",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\5be4b0423d2f2e625f1bc592.json"
+    },
+    {
+      "item_id": "5cd3fdf7f063ad906909c5e5",
+      "record_hash": "07ec63d66914e9106ead87ea49d305dd8b13cc6e367843220a6732934c2e1c7d",
+      "file_sha256": "83ce7a48472dd9ced85683aea7add22d6e15292166df55ed2f8c3e9f48b4d151",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\5cd3fdf7f063ad906909c5e5.json"
+    },
+    {
+      "item_id": "5f21fcc2ccd473dea6d733e7",
+      "record_hash": "fa57c4e0c905b39b67181aa42601edd51930043f274e0bbc60c3e969948e38a0",
+      "file_sha256": "899620d939078249177a1682a18b3d653085cc133fbc8bb59e89789325e40909",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\5f21fcc2ccd473dea6d733e7.json"
+    },
+    {
+      "item_id": "6026bca4b887261f14255891",
+      "record_hash": "fcc179f6fe82768c12a4ff56451fd9d05dc58da111fdd7fb73ff790cb9717d9d",
+      "file_sha256": "5f51c769b1962ea77906732a2faa827ff222556dc294be7d28c012cf8de848cf",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\6026bca4b887261f14255891.json"
+    },
+    {
+      "item_id": "61cb6388f9c686fa9b75a412",
+      "record_hash": "3ad8fa7e4cba41daec5eb9c2184c39ca4459a2782e95bac1e0f5127c6d1fd5e5",
+      "file_sha256": "35a84c8f522b4634ed365c1e6006d8ba966cd4acd33c19a99c3aadafc0ad4af8",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\61cb6388f9c686fa9b75a412.json"
+    },
+    {
+      "item_id": "650b337000ac2b07f00aa00f",
+      "record_hash": "2e05cbf6bd76e236a96939e480f3218bb523eac179e6eeaa6cc0273f9daef7bc",
+      "file_sha256": "443fe5c52431ff1bf0996e435be1c5b453c30b6b224fc639bbdb6f48054d5d4a",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\650b337000ac2b07f00aa00f.json"
+    },
+    {
+      "item_id": "66172d0735c4fe4fa490a31d",
+      "record_hash": "a8ee28e9a6f80ef4d50e857d1a65f8413902d49b3f5169944961fe3722ff249d",
+      "file_sha256": "db1302a27c5968359008ae8c90475fc49e2b1a4602bd1e5a230afd909f5f8462",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\66172d0735c4fe4fa490a31d.json"
+    },
+    {
+      "item_id": "695d5980db0ca7794b377630",
+      "record_hash": "5de016df7e97af1a848285bec645ab7dfee6a32bfe53f8ef9499413385be112a",
+      "file_sha256": "1d1ff9ab440aba4957f014169c274aba965cddde541d2e3a5c3c75a5c0fcdf5f",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\695d5980db0ca7794b377630.json"
+    },
+    {
+      "item_id": "6a8895b1a380f264eb555174",
+      "record_hash": "91889a1e5aa5f3d41d64cec68c412e307e2060549ebf7eea9fb523958c09d050",
+      "file_sha256": "193b3a953f7a435fa13659cf1604f36b884ac83829f7d3774aa6b91f2ac90c99",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\6a8895b1a380f264eb555174.json"
+    },
+    {
+      "item_id": "6f273d8a87ab631760250450",
+      "record_hash": "9959ce7da3936ea1e1333d2fff5de3216439269169f71e1583fcef20782488a5",
+      "file_sha256": "96c270d8721edb33ffc0ab59043f7ed543812f28bf753a992a8f5a6454fd4d4e",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\6f273d8a87ab631760250450.json"
+    },
+    {
+      "item_id": "6fee97f075109b784e0ffea5",
+      "record_hash": "3f1de06af61003cdcd394c68580bd9ea94f273dd08e4fb7942c80df01a78cc48",
+      "file_sha256": "7f07a524975c9d1f8b5fc505de9474f63db5cd3cbc9ed9ba347715a2ca01e872",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\6fee97f075109b784e0ffea5.json"
+    },
+    {
+      "item_id": "7095181c19d0cb5d5e0f2ba3",
+      "record_hash": "df2c7174c696f622a3d11173ce24643e755a5f0e97bcce6e92950a89696f2640",
+      "file_sha256": "d17c2bfccc356d10e06529519db584cfe2c48f372c79ae80fa2ce375319c6703",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\7095181c19d0cb5d5e0f2ba3.json"
+    },
+    {
+      "item_id": "72acd4b0c4fd8302960f8083",
+      "record_hash": "f60a3f377e84af32f9c2875ce620bb7f58191f89c93f6d9010d494078d0fa47d",
+      "file_sha256": "df3397e15fe830681f787775fb39fd65cf3ffca26f0380c0ee2147f3d80e5fb7",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\72acd4b0c4fd8302960f8083.json"
+    },
+    {
+      "item_id": "75174101db175a2c986e6e74",
+      "record_hash": "1d63a7a1a2289b049e7958533e2ed037f622c81126fdfbed2763817e24dec27c",
+      "file_sha256": "752ebb7388d1a9301a516e852f2073b3c69cf4653f38e590e942569c2e30d056",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\75174101db175a2c986e6e74.json"
+    },
+    {
+      "item_id": "77455348cc6be046bfc1c4bf",
+      "record_hash": "266fd8f6b16e7c66264a3803263dba1651fd16f41ee79abc061c6198bcfec125",
+      "file_sha256": "9ec85bdaa01cf9c38c49bfbdd9657c849ec548e4fa850a4471d4fcc55fd92d32",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\77455348cc6be046bfc1c4bf.json"
+    },
+    {
+      "item_id": "789dc3d27f6be5227bde9dbf",
+      "record_hash": "2b006a0b83260af73836bee725b07c4145442e83555cecd943749c6daaa1dd18",
+      "file_sha256": "432227a61980fd259db993a825813045d0d52f513532be8086d8293c695deec2",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\789dc3d27f6be5227bde9dbf.json"
+    },
+    {
+      "item_id": "7a67a1cb4ecd58ad004ff86c",
+      "record_hash": "de357aa03f294485e1ab3d7b751c91f2f2593839481fe3a1c5baaacfbe8c5a05",
+      "file_sha256": "293588bfe17c2ed37615e70869d1e0005365d0b571cd4836ebbf51d707823492",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\7a67a1cb4ecd58ad004ff86c.json"
+    },
+    {
+      "item_id": "7d41e99ccc06113f8fa5434e",
+      "record_hash": "222728b50cc21b09a7cfce7b1ede5421fa434cbac9d2f819a458518f51667938",
+      "file_sha256": "8f553d3dda65c916e6d13b831b9dc6e602e09af2782cf32f2178b075db28e9a2",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\7d41e99ccc06113f8fa5434e.json"
+    },
+    {
+      "item_id": "7d509a9ac28d02a8013c4667",
+      "record_hash": "098e4da69f97dfc2c9bf90314b407b460bfd5e5b67dc9d9c03bb6b11fedfb40a",
+      "file_sha256": "181dd3f87f4d37bb48f49c95cc04702a0954918cc74e9be69272beb006b1d71f",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\7d509a9ac28d02a8013c4667.json"
+    },
+    {
+      "item_id": "7dc0be91f3430ae1f9e9ca39",
+      "record_hash": "a31a334183942eba972edae8f00a622742b01b40f09fd21f79adefd6acc912e6",
+      "file_sha256": "8c441f839ec31114454008f793ec6ad190b216e06828c739046996561d25de38",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\7dc0be91f3430ae1f9e9ca39.json"
+    },
+    {
+      "item_id": "81a4e7803959b941735a901d",
+      "record_hash": "3b4c535281f27ecd8ba7740a3d76f54f17b1500062761c34d56d299af2117fb1",
+      "file_sha256": "065570a3473beddc0a133c86516c3943660d425bfdc35d8030268ad725c436b5",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\81a4e7803959b941735a901d.json"
+    },
+    {
+      "item_id": "840095edfe93f04551aebf1a",
+      "record_hash": "faf83272daebbb26de875834a5d9e6c38d988c1c50b3b2843ecb4cf5d9041b19",
+      "file_sha256": "2c3fc09ce9415788d39435913aa90a582e7f967eb355068f8bc4308e876276f8",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\840095edfe93f04551aebf1a.json"
+    },
+    {
+      "item_id": "850023d0af24bae96f5542bd",
+      "record_hash": "c86d9228bb7110af63762808b64042bfd420f5dca500c9fdd56883b99c573579",
+      "file_sha256": "46a623ba69e2716f65bfb7463f5b9394aaf68459e9a09dd7569e827e5936e4a1",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\850023d0af24bae96f5542bd.json"
+    },
+    {
+      "item_id": "85b220c670a26887c779706f",
+      "record_hash": "f89111b3c1f77f35f97ab39ba554e3c3521a371a6e68e91d72563de4e2d006f6",
+      "file_sha256": "3830182b0c0f603424bef5fe5344ef6828ed69039970dfbf485936c41adedb33",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\85b220c670a26887c779706f.json"
+    },
+    {
+      "item_id": "8623435652b20ce52319f77a",
+      "record_hash": "6894528839c07eea9ab1ef72613311cac440b1b063f499e2f345667193baeeef",
+      "file_sha256": "de77759f1e4a9b222bf59c7fd38d6d0a2bd937ba3b316fedae54c1f8c0500185",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\8623435652b20ce52319f77a.json"
+    },
+    {
+      "item_id": "87ab1599682ef8ac82b8abec",
+      "record_hash": "efe91a3a9664b71b083e5eb111388c351cc51ee2a88be572f312c5eaadc4a083",
+      "file_sha256": "247a649579f763d070a6bf6547974ff05ba51ebe0844e2ea64601420f4e45c67",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\87ab1599682ef8ac82b8abec.json"
+    },
+    {
+      "item_id": "896de6869610dc1a35c91042",
+      "record_hash": "baaf555375b9da0c06e705846c21e2bafad95f6915bf97d12a1ea890f8cf74e2",
+      "file_sha256": "7f376f5999e3823c649b8dd2366ff7643ffbddf488e5db2621e8a4a001a61abf",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\896de6869610dc1a35c91042.json"
+    },
+    {
+      "item_id": "8b8830b909862b6705d48c32",
+      "record_hash": "9f5ea39b2763dcfbc29db085ad405267470590d6e49903419ee3df52f55b514a",
+      "file_sha256": "0ea97767ec544cb9fc6515f7f1dede72e952b6596679ca70e6ae84241fec6657",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\8b8830b909862b6705d48c32.json"
+    },
+    {
+      "item_id": "8cea90acc788b1c8ed65e7b0",
+      "record_hash": "ef6da9e8ffa3e4fefe2725caa5b7c2612c1a0a94d22d67e1321004d3ab171acd",
+      "file_sha256": "a069e37ba6af8a92c23e3644e2e00005a08795a6c26d53d3189cedbf0b074ef3",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\8cea90acc788b1c8ed65e7b0.json"
+    },
+    {
+      "item_id": "8eb9953f3b64da7b75c18d07",
+      "record_hash": "0183770c16b318bb9a64fc73ba1106825169b0fdffd3fe2c31ec34ce86309531",
+      "file_sha256": "60e2825594cc42afefae0ba4aa7731fb5a0d28651b68ac01c56cc8192fc28209",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\8eb9953f3b64da7b75c18d07.json"
+    },
+    {
+      "item_id": "9074f369ae0f8d1411684cb9",
+      "record_hash": "19bc6988d89d9eb06899b1fff7133915517ee5b8df0d74268e67ee26990c7416",
+      "file_sha256": "af0aa25b827f6d49a4698fdbe46de9175f27e9f86e5dd14e05e473ef53243543",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\9074f369ae0f8d1411684cb9.json"
+    },
+    {
+      "item_id": "90a85ecd858a2aa61483402a",
+      "record_hash": "2100bc13ff6e01e5137474781e0e597edf7e8eb5f972ae63728ac9d59283d671",
+      "file_sha256": "22a42fcf0bce16fed1c7adeb942af5362b86d8d1ee2773c9ae5b41f667ceffde",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\90a85ecd858a2aa61483402a.json"
+    },
+    {
+      "item_id": "97900a53fd049a6710a80648",
+      "record_hash": "0400f3007361f466c128e5f1ed3e78762785c2d754f7c718520cf3817e25a0e3",
+      "file_sha256": "6643d40b5d395374a94f18892abe22bd15c4875f40c12f990cb3fa56e245ad10",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\97900a53fd049a6710a80648.json"
+    },
+    {
+      "item_id": "97ae34aebe860341f7fd1545",
+      "record_hash": "469c68001918bd7814c3a1064e1158dd356463bdb3505c73b1afdffc89267154",
+      "file_sha256": "b833c93de7293b2d312cc949c50b44a2bae2e7cac71e4df9f6e99872110133a8",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\97ae34aebe860341f7fd1545.json"
+    },
+    {
+      "item_id": "97be17f042203d21cdeb9d89",
+      "record_hash": "7a1f7859583859b706c90ac3cf36401b9eb6b54cb1887a8547f2f38d598e1c4a",
+      "file_sha256": "852978578974eb78949e2cc0bd6f68fad4badfe4db09a31e83a7d64a1ff936d5",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\97be17f042203d21cdeb9d89.json"
+    },
+    {
+      "item_id": "9abc94b238faa7de41289620",
+      "record_hash": "800d1e7252d7fdc3ec82c258ef649193f61434bca74d5c28742ad64c396133de",
+      "file_sha256": "5ab297a6ff35b5e67a458dc62ace9456be3fcf637778abcfa4128a772b21f921",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\9abc94b238faa7de41289620.json"
+    },
+    {
+      "item_id": "9b8f05318e43a44def2aa87f",
+      "record_hash": "95f47346937835041a5d42447d18521c03193a99e7825fe6c2856cf0a99a3235",
+      "file_sha256": "f1388a97dcd3a259df29330cd8e9fa064ceb7738922f10ca28a372f4a480a618",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\9b8f05318e43a44def2aa87f.json"
+    },
+    {
+      "item_id": "9bb4032d88bb7bc2673bc5e4",
+      "record_hash": "114ffdf9c24116aaf03b28ef59d9f172df7a869e8d2c7bc2ad994c6e877ad0ec",
+      "file_sha256": "fe9adc141f3497464e65472ffcb1816db23898bb1962615a20f11bbf27b26436",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\9bb4032d88bb7bc2673bc5e4.json"
+    },
+    {
+      "item_id": "9dadf5fc06a15706f8d53479",
+      "record_hash": "36c26e98f9208f98a007bd9649612aeea342d56ba37168a474e6eb9bcb4e03c2",
+      "file_sha256": "5a92908e080dcdd67d5255941c0ee496d5d481c08c116802a4279b58d2ce3b1a",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\9dadf5fc06a15706f8d53479.json"
+    },
+    {
+      "item_id": "9ffe5b1c33adf5844da299cd",
+      "record_hash": "5424e14eae9b32b9bddae02bb09a509c64de8c2a69cacbda54f6b1c5724998a8",
+      "file_sha256": "db2624011302cd90359dfbe1a4ff175bc5eb9c8a5a8b0dd6860a59b2ace680f5",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\9ffe5b1c33adf5844da299cd.json"
+    },
+    {
+      "item_id": "a0abaccc0bac281a75cddac4",
+      "record_hash": "6b71af930abd764e73d0fa1227aad718bee317b178a9036e22871389949acfe1",
+      "file_sha256": "2e60026896ace9bb2e90ae1504671fb854d5dd72f908387df487a7f2f7b51f9b",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\a0abaccc0bac281a75cddac4.json"
+    },
+    {
+      "item_id": "a18e69b5280ad26ce732e10a",
+      "record_hash": "ce6363ea20b52b2a62eaf9408f0a4dc10795b7bab062c6336d88001341e9384e",
+      "file_sha256": "489a83877d48ff757335b954e62ff9372c8577a95815badd188b62374d9590b6",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\a18e69b5280ad26ce732e10a.json"
+    },
+    {
+      "item_id": "a30330dbb5f215c7eb4657a4",
+      "record_hash": "86d8533d3349ab575e66fb0d6f43382d153384c4af66b529b48ebd78cfe0b722",
+      "file_sha256": "022fec8c414516862d6422130963c3dbe1b9df8993158a1459a0caef7e30e22e",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\a30330dbb5f215c7eb4657a4.json"
+    },
+    {
+      "item_id": "a3a2079994ecb78b83b2870b",
+      "record_hash": "2d1172d3d76d45921290e2c0df1a52e20e90e87bb065814f0a1e4782de9a1063",
+      "file_sha256": "c4d4c5c9a823f7525cf3ad70ad2b3a0f2d401fbb82bbda4ad8ebc70493a41e0d",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\a3a2079994ecb78b83b2870b.json"
+    },
+    {
+      "item_id": "a4e7dbf1f14a5c6be7f05ac4",
+      "record_hash": "33285818b4499470a1cf67e4dadb024510c78d65e5c5b3d53f56a62641f3e3ea",
+      "file_sha256": "18b64b681d2ce3c1f5e1437debea421e6a08f30fba33156c62d18ed6da66b6d7",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\a4e7dbf1f14a5c6be7f05ac4.json"
+    },
+    {
+      "item_id": "a565601c2fd584164d516a6a",
+      "record_hash": "acc42b7605a3ee686cf993d394217bea371d827346f25246075f46e582f8b7d1",
+      "file_sha256": "0c9b3ae3513f59dff78a917236936f01eda759f07bf2e0cf65098e1a5abd062e",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\a565601c2fd584164d516a6a.json"
+    },
+    {
+      "item_id": "a58b91aeca5987b9ebf26b94",
+      "record_hash": "2cf0221b0f35cdcdb4771c0501389522db0597522d0efcb529e89caed94906b4",
+      "file_sha256": "94410c15073c216c617fdf1a89848fd303c71c3ebef50668dae4563a07cf88bc",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\a58b91aeca5987b9ebf26b94.json"
+    },
+    {
+      "item_id": "a7ad9349b7886cc82f2dff12",
+      "record_hash": "bcfd9e109d3beec220cc99bfac2178b5a38b67fb3b2bd5b5d6a042136aeaa3c9",
+      "file_sha256": "7b4810757420b45047246742d5704006122db4dc66d71efd59eabf0647db20d4",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\a7ad9349b7886cc82f2dff12.json"
+    },
+    {
+      "item_id": "a916295cba78a16fab395fbb",
+      "record_hash": "bd46d7a0a3d52cfbf9d63ff05da5007d82f7357317e8963725cb5995bb5e47c1",
+      "file_sha256": "1b23508eb273e6dd482df39559f677c4bc18381caa4478473cfcea4bcfb0ac47",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\a916295cba78a16fab395fbb.json"
+    },
+    {
+      "item_id": "aa4877be01727b18d13e03de",
+      "record_hash": "2bced277f63763380ae506d92d181db594790309646aeb89b5745033df6b44b5",
+      "file_sha256": "6e11e48bdecf967b403ae87acc2d2bf104b1484cf607cc604fdba026c8d1139c",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\aa4877be01727b18d13e03de.json"
+    },
+    {
+      "item_id": "acfafe8c33d1cb2c31e3d8e9",
+      "record_hash": "3e320a7e3273ebaacba59b82536ab797c5b0507bc624ad3fe1e831a76eee9bff",
+      "file_sha256": "68fb3a78b9916639dd3493d45788772177e506e61383e070be16377527b6597c",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\acfafe8c33d1cb2c31e3d8e9.json"
+    },
+    {
+      "item_id": "af9e41079a7d426d31860536",
+      "record_hash": "49d5ff932e97d155c33b141dde85c9cbdee5f73aa5d908adf250016120a44df7",
+      "file_sha256": "3c89121eb6f7e77221082fc47ea88a5429785ebab10c146ac187c21a149d6b3a",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\af9e41079a7d426d31860536.json"
+    },
+    {
+      "item_id": "b33b5c1950f9fb9c44a92894",
+      "record_hash": "34e4e8e7dcb765bcb54e52b95733ba6427dcfe5a761b1030ea7ebd615f5ae093",
+      "file_sha256": "b6d26d71bfad92c1cf6e74c7f62e3eb1004ef1a3cdc08a96b44269b0a7629353",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\b33b5c1950f9fb9c44a92894.json"
+    },
+    {
+      "item_id": "b4182bfa778f396cdccafac7",
+      "record_hash": "05c1adad77c8807fbd59060a3e28be833bfbe723c2ad7d3f1e9375f435397f7e",
+      "file_sha256": "2b923e8d074a4a6576f4fba7658c8eff370a2e937a1b54d1be5fc887cbf2823e",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\b4182bfa778f396cdccafac7.json"
+    },
+    {
+      "item_id": "b498ae7b0e3ab6056b6c065c",
+      "record_hash": "e49673f53fb910563e6e759a7e7f08297fcd0e8b32331f82d5a3ae2c9dde34e3",
+      "file_sha256": "da5a10095b6e69b498ba163342bca8898585282d216c482d1ccc5bd48dd1d21a",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\b498ae7b0e3ab6056b6c065c.json"
+    },
+    {
+      "item_id": "b6533c12878c9d873f751c5b",
+      "record_hash": "ae603137903c91b9db431e146f1d4fab29b55f90f357954f0a356942b3fc6c3f",
+      "file_sha256": "752565f21444817c11c8b03709cffe54f89fa4eff179080d68acb368b61495bf",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\b6533c12878c9d873f751c5b.json"
+    },
+    {
+      "item_id": "b6a5eb61f087b216b57e25ba",
+      "record_hash": "7dd01fc0656529773512ebd81f590e0127c5d89771b91eb8d0c5822755171d4f",
+      "file_sha256": "4c0a3c170d352750f353d3ff415ec96f639b440ad3d38fe4bb5251cc8fbe4e82",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\b6a5eb61f087b216b57e25ba.json"
+    },
+    {
+      "item_id": "b74a405908c6e74a0ac0ef80",
+      "record_hash": "f6106fc5be695a4c87e9d28a120f7ddad58853073339b469a83208d469a15809",
+      "file_sha256": "274ed6760c04c83ad245f21de5ddaace0c3c4ccbb502748c839ccc952cb4ef85",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\b74a405908c6e74a0ac0ef80.json"
+    },
+    {
+      "item_id": "bc48beedddf5b1d469d931b2",
+      "record_hash": "5053b482130b3abe7f838d7f790200666493516c7a0acee0a7ffbeafae8af571",
+      "file_sha256": "591ca27cfd115f5ea24b10a1d8231601a483b224ce8f05d948a0c3727f4fbacd",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\bc48beedddf5b1d469d931b2.json"
+    },
+    {
+      "item_id": "bca5c985473e68a7daabcdb1",
+      "record_hash": "c470515b311089b99db93d627d1778214822267bc0072e5af037af978c7cb542",
+      "file_sha256": "6707736414d44a438bd833afe3ee576d9c61e82ede18e50b323e54d68c57855b",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\bca5c985473e68a7daabcdb1.json"
+    },
+    {
+      "item_id": "bd5ce257a068d2106f3440b5",
+      "record_hash": "62e90c263dc03fa033a50fac00772995cc388693412c4718f63c5900bf95259a",
+      "file_sha256": "25f426cdc91c7b53d090d54ea8b007a54e2556fb243a413a929121c24612d8c2",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\bd5ce257a068d2106f3440b5.json"
+    },
+    {
+      "item_id": "bf653898776b4f717dbe75b5",
+      "record_hash": "60c6884cd6316887154fc8243b35bf7ab60a504eec847cdb4a45439df4a0063c",
+      "file_sha256": "3e28d9380f047629108ef31d034e7f282f454de846e7a7db96a18995ac4fb0b2",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\bf653898776b4f717dbe75b5.json"
+    },
+    {
+      "item_id": "bff62452cbeebb5159e77cc4",
+      "record_hash": "c9ad8d8d3f29145d88bb571d97d30f345cc0290b7c1dc9146d0fb2e837ba8ef8",
+      "file_sha256": "3bb54f3050e325059da6deb01e77772a03a97889d6598ee44adf49a422eed2cb",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\bff62452cbeebb5159e77cc4.json"
+    },
+    {
+      "item_id": "c150ec167298c92de0370bb1",
+      "record_hash": "021f0a5cd6bf4e9da4e2fdd73c591c9ddf1176f27e6c05f33ed767c06894745d",
+      "file_sha256": "496f155a81af73474449e4e272cfe9a957f2d31c048933ecaec020e458d7d150",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\c150ec167298c92de0370bb1.json"
+    },
+    {
+      "item_id": "c30b4270f65662e38df5aa8e",
+      "record_hash": "36e02dc43a68057f7a7d406c217fb283ac8a91257400f1dc5838dba130a73daa",
+      "file_sha256": "080bfd9027db6b933841eca973cec832669290c092d36828f961c9e5059482ba",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\c30b4270f65662e38df5aa8e.json"
+    },
+    {
+      "item_id": "c6208f0ee0d8b9d8dca05189",
+      "record_hash": "e1d75cb23e46121f70b1eedd4947d20236d8f55a6dc0ce9fcc81d8245c03c1ce",
+      "file_sha256": "996d4b787e79d0e487b8795a01c85f26865c5417039570f37bd9614069a02945",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\c6208f0ee0d8b9d8dca05189.json"
+    },
+    {
+      "item_id": "c65e674f943e40aef7dbbbd4",
+      "record_hash": "073ede7bd81df98d47af6b9b488f9ee40062331301c066bd9a149e413e40625e",
+      "file_sha256": "e3b898a5d378c52a1bc31b887cae8193d11f8702c0a6826637bd2624b2d88e07",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\c65e674f943e40aef7dbbbd4.json"
+    },
+    {
+      "item_id": "c70a804d586418c703584baf",
+      "record_hash": "56d75b4f7e1a6324ee7d83cf764f0f76caf328374b286d640936383a1a083b92",
+      "file_sha256": "ecea7465b3bff554f76dbf7fd88cfc9631b53800386b05dbdec8700359b7d016",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\c70a804d586418c703584baf.json"
+    },
+    {
+      "item_id": "c81503151c0dc10d5fe6a0b5",
+      "record_hash": "4a862b0b555765aa5df4c8622afe62020668af614555137829fb71b93056c7e3",
+      "file_sha256": "24a5aef631bf455f036d79020ad06f363660dda7ed9804ea4a01513ff2a59e4c",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\c81503151c0dc10d5fe6a0b5.json"
+    },
+    {
+      "item_id": "c83e770e1eeb91aabbbe4f02",
+      "record_hash": "87c530bdbd8537ff97502bdee08a8552ddad49c6fc0cae93f35212c8e97be336",
+      "file_sha256": "a5e9dfc3f272a6f0328a192f3961460707b2e79eaaad3de36f1d0594d60f61c2",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\c83e770e1eeb91aabbbe4f02.json"
+    },
+    {
+      "item_id": "ca847a0761698a8f1cee2678",
+      "record_hash": "2c9b193761b9b5770dfe2bb498fcff84ebc55eb0fae9cd14e406428b3c1607dc",
+      "file_sha256": "3764415bf1e3b3bb1ae18cf4f9578fe2e45a9f17c308735bf6ec4e43cde3923f",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\ca847a0761698a8f1cee2678.json"
+    },
+    {
+      "item_id": "cacf4367304532a2a9e9921b",
+      "record_hash": "7dbddbfb4683fb200736dea87b0c54f3840d6ae052b9308fd0388112ec9c7d24",
+      "file_sha256": "ec5ba3e760602cca0449c319a8299ed62434c832f1a471f60172799c3202c681",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\cacf4367304532a2a9e9921b.json"
+    },
+    {
+      "item_id": "cb7a968616012f60a63efafe",
+      "record_hash": "accec5117b3bb4c920572dcfcf857c68916fa8dbefa25272f822caf77ac9f231",
+      "file_sha256": "94e1327d96b70c420ff55df5c65ce923995f740adae28b8cca7eba0ea952fa01",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\cb7a968616012f60a63efafe.json"
+    },
+    {
+      "item_id": "cc211be2a55cfda5141336a9",
+      "record_hash": "c4515c6225e62a8ff88015e3ebac393958a72ca0a2cc509467c95564aa06ea01",
+      "file_sha256": "7bfaf3b44f3b076ad50e6936db854d178c94b1b83cac1632f4f637dad426fcc4",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\cc211be2a55cfda5141336a9.json"
+    },
+    {
+      "item_id": "cc2684b87a5cc8f032043f11",
+      "record_hash": "a9bc483332f7f01c6c8ac68374b41e186200aaafad1d00ff73d55456196307f9",
+      "file_sha256": "c35c697d307629cf57453be244ef3ac65d53609445a44b69a1103613f01e7883",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\cc2684b87a5cc8f032043f11.json"
+    },
+    {
+      "item_id": "cc767c8cd42964d655e0d43c",
+      "record_hash": "d6e7c92b07f02a0c29f4465b7d97adf98f1a6f4d40270990c5f166e288d8ac4e",
+      "file_sha256": "d3b89db8225aa28a0a85052fe845b3e549aaa43e1c0de1b2be6947eba651f938",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\cc767c8cd42964d655e0d43c.json"
+    },
+    {
+      "item_id": "cd1277c541c24e4d5bf20777",
+      "record_hash": "c2c09909a118173e9dedcb87fc17c61c54a9ca4806d9a26e35feb437d95fe954",
+      "file_sha256": "af3cd3748cdd914e15a1cf5cd243b86c6e7c71e3f77e41cb95117552e72516e0",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\cd1277c541c24e4d5bf20777.json"
+    },
+    {
+      "item_id": "d21a9916fc5f2c48928322d6",
+      "record_hash": "5fa7b25a4d4fa8fe0716056d61fb6dab6ff0e854878fd8da602a409235f90578",
+      "file_sha256": "92e9ed251c896fc98a0dcdd8551d0cce05345ae057f5de4f021493a8fe0d08f5",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\d21a9916fc5f2c48928322d6.json"
+    },
+    {
+      "item_id": "d44aa21d2e212cb8528a4fd3",
+      "record_hash": "47759337686c30ec05b211b3015c8baaf63398b25304bb4225fd72147d86e3c1",
+      "file_sha256": "fd8e70fcef3656fc2aa5babba267b9a100859ccf83e1840e5eced081d4ae5e32",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\d44aa21d2e212cb8528a4fd3.json"
+    },
+    {
+      "item_id": "d7866f2daee9640316907a35",
+      "record_hash": "65079b33c62aa6fb8e6fef6d113922fe3c37d2979f694f2d200cf212c3cbaa4f",
+      "file_sha256": "600b9697ab9fabe1a76474156767e1895f82054e48caebf59a0c9e3e66467e45",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\d7866f2daee9640316907a35.json"
+    },
+    {
+      "item_id": "da5751062e145983255d243f",
+      "record_hash": "3b18a8852b9ef49b9758ecb48eb8e3e352c3d6714c9bb24495b99e7661e955c2",
+      "file_sha256": "b1704dbd767d885c6781b7475f01cc631b2cc2012270c18b93ea72210661b199",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\da5751062e145983255d243f.json"
+    },
+    {
+      "item_id": "dab6fc494dc35637ad1b3b9d",
+      "record_hash": "020f6bafde4f968421df47e306d2ea52b8832ddf55be0cc19db36c1799b9edfc",
+      "file_sha256": "e1c4d3140fbb287d62dc04b9f43d9da2eeccc5d348a6caf9a96f3dc5282ff9d3",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\dab6fc494dc35637ad1b3b9d.json"
+    },
+    {
+      "item_id": "dd727d13aea07018109c3ee7",
+      "record_hash": "e6bd7d02992e664d14dba571ebef1c048147ca241d5f18e4d36bbf0fb743aac5",
+      "file_sha256": "8b499bf1d66bbf8cff8cf0dbb44846eb49dd224f401082bd12701c36ba914c98",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\dd727d13aea07018109c3ee7.json"
+    },
+    {
+      "item_id": "df4ebe2bed3c930144b368ba",
+      "record_hash": "fa173f3fe17a034c929a1cd30b398d6417c8e5900b65dc583a29d2165fbd55f1",
+      "file_sha256": "069fc03e189e0b5870ae16e7c1a62976a3bf4a6010cd765b8348261b087a2da3",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\df4ebe2bed3c930144b368ba.json"
+    },
+    {
+      "item_id": "e4a22fb0da36b1deac40cceb",
+      "record_hash": "3cc789805dc61989af2988433bff93b4c251a88700f0c5c79da5ef2e70161a48",
+      "file_sha256": "a5843cd29a863a88152bc4c56044148308baab80ed93a9cb200db7cf68533236",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\e4a22fb0da36b1deac40cceb.json"
+    },
+    {
+      "item_id": "e5cfbc64d4b385e77f93a8b8",
+      "record_hash": "8466093124549942e3684d4436d70d99b004dedb873893857ae4adbf0a4b3e96",
+      "file_sha256": "24ab94b40aadee8547cb620c6f9b503c764ea5979443a9eb4dbaea61b457bda5",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\e5cfbc64d4b385e77f93a8b8.json"
+    },
+    {
+      "item_id": "e7ac3bbff2d9b409ceaf12e9",
+      "record_hash": "ede84ddcd4b4d898fa67e63831d29374779caa120eda950d70723cda5fef6664",
+      "file_sha256": "a7a053539121b33866775fda2c4e67150bbf1ea2ff5f1757d18aceb141b509d5",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\e7ac3bbff2d9b409ceaf12e9.json"
+    },
+    {
+      "item_id": "e7ee923684ed914f2887349e",
+      "record_hash": "a89ae4449c285827e2bedc4770ff6a8d7816a5d09e3c69e5b15659cd5e15c09a",
+      "file_sha256": "186c622d978ac725747a00839691ad5f19078e5c7809ba4f9c4fcfb8adfc2f7e",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\e7ee923684ed914f2887349e.json"
+    },
+    {
+      "item_id": "e86b2e097436d9ec9e674109",
+      "record_hash": "26dcd97c173b939f5e11398fa374a16f5366b2ca06b673fd61f44e10e60ca5da",
+      "file_sha256": "9f0f49e0d4ff21df7866f0e0da2b742c2ac2abc9deab01ccbab104489267ae82",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\e86b2e097436d9ec9e674109.json"
+    },
+    {
+      "item_id": "e909b0b9445c774b02c37c8c",
+      "record_hash": "d977290d3df356a9a091d8d6b784f35e6417059ae0b2be86b12f4b32cc807c5a",
+      "file_sha256": "3daa0e6936f54b57b80afb1ff15901256abe4bac329ab551a893cf06f88fdfcb",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\e909b0b9445c774b02c37c8c.json"
+    },
+    {
+      "item_id": "ea3b31bdd307d9f0a5a3401f",
+      "record_hash": "e0f8671ccf96be54d968aa0d3608d7f78871f6f15de4273fe95548c004704062",
+      "file_sha256": "8335b52ba3ddd7587e9ad7b5bfb513f59e83ad6bdbac3332ff6c5f18f3a9d675",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\ea3b31bdd307d9f0a5a3401f.json"
+    },
+    {
+      "item_id": "ec1dd674f1162c8fa0f3eb96",
+      "record_hash": "b67040e13ad267924ca163c184ef2a815c90eabfe259c34edc8a2307fe1e93db",
+      "file_sha256": "9d369f2bdf3d751ecac2ac6354281ff25b0b9bf70b6818aedf489af15fe5a7a8",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\ec1dd674f1162c8fa0f3eb96.json"
+    },
+    {
+      "item_id": "ecdc983cc43308ce292cd231",
+      "record_hash": "a4b4d3ddc510b8284f1459cef50672bafc0dd9d4e84e5764cccf9f30ef332d8b",
+      "file_sha256": "4a42d5025eab3f95f16844738b2a1dc34621b8928eedc6f584800301a73e5512",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\ecdc983cc43308ce292cd231.json"
+    },
+    {
+      "item_id": "ef978fa6ea1b7df6921abe15",
+      "record_hash": "372beed4ae6731c2fd8f4a410421a264c40d91216e4fa4403543944c69409eee",
+      "file_sha256": "d12641786f0b236f5bf5c724c569e6954204d041e5a5750b7d3e718989dd0ffc",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\ef978fa6ea1b7df6921abe15.json"
+    },
+    {
+      "item_id": "f208fa9547f41f444ed0a3e4",
+      "record_hash": "ada7fe1e43c9c878d823a3ae69a640fb3b2ff9de087d96bbd2087327d3eeaa92",
+      "file_sha256": "98e930cc02f811966f2ff60fe5477bf4367f451600062fa104646b6075b4fd5d",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\f208fa9547f41f444ed0a3e4.json"
+    },
+    {
+      "item_id": "f300222708cee465861bc415",
+      "record_hash": "5abe02a5846409988e416028619b193696ae21e14d24b3f99104a6d9a820d2f5",
+      "file_sha256": "17b06638e60c0847f30abb885f8ebe1e62e2c6cba24d0d2df1bd6838062f9283",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\f300222708cee465861bc415.json"
+    },
+    {
+      "item_id": "f4731cc1ba6edc41cf37d5ef",
+      "record_hash": "e232756a133aa9dc444ff178bbb5ec42ba2f68080b2492aa5e17087ab25bafa7",
+      "file_sha256": "0ea76f20555517294b884425e29df3ed2f27d36d22cc20f9070e4beadad84125",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\f4731cc1ba6edc41cf37d5ef.json"
+    },
+    {
+      "item_id": "f7049d3cf9d9dce562fb2ce2",
+      "record_hash": "d083de1c7699bb6a292864ef8cf3d038a50e73b01ff12373b3ac9d1588aa5ee1",
+      "file_sha256": "bee87ee6b5f33c177e27f5586da13dc060895b7bcc0538532411b6bd479fac12",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\f7049d3cf9d9dce562fb2ce2.json"
+    },
+    {
+      "item_id": "f72eb44d8172f15c58b14c09",
+      "record_hash": "819307d4eefe7c31ac50ea96bd7b43cb9a100d6738a6efb7ba9a3f4121481535",
+      "file_sha256": "96b8ba469aa8de8319caa13c4a99157cf6bb154a7aae34bda41b69b86d2de232",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\f72eb44d8172f15c58b14c09.json"
+    },
+    {
+      "item_id": "f79af7df692d634e79f23e41",
+      "record_hash": "fa0112dc9f82a60f141044cb051a12bb9c76f93ac48a64943a80dc58bbce0270",
+      "file_sha256": "1baf759df97ab084f426a0dc381de186f2943281325cb3da750b52baaf8a5ee0",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\f79af7df692d634e79f23e41.json"
+    },
+    {
+      "item_id": "fb9e928c48478f20aac95a9e",
+      "record_hash": "5e4f280bbe5792415431a406db859126bdde50d1d45248cb17d1603181ba8e55",
+      "file_sha256": "e008ac9ce50d9af0e8c6d1c88dc696596a39aee996d979a7193de61bc0c7d795",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\fb9e928c48478f20aac95a9e.json"
+    },
+    {
+      "item_id": "fcbafcfe5215d9b894b103fd",
+      "record_hash": "2a19a32c7bd45334cb844c03070450df2202a3cf795edfd85dc1b03837aae7e5",
+      "file_sha256": "4d77130333dc8f296f58f9c638bb84489d2b6e05ae0083084c196be52b61b955",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\fcbafcfe5215d9b894b103fd.json"
+    }
+  ],
+  "preserved_failed_attempts": [
+    {
+      "item_id": "ca1ed9f33eb8d0c5365c857d",
+      "record_hash": "ab16022f08d7adc091b601134c7a085dbf108581af3f3a3a5de7d6befe56c943",
+      "file_sha256": "b429d9ba471262d85d76d41b280dcaeac9181855695bf44937037bfee6660489",
+      "source_path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r2\\records\\ca1ed9f33eb8d0c5365c857d.json",
+      "validation_error": "Invalid confidence"
+    }
+  ],
+  "remaining": 27,
+  "rule": "Reuse every valid response without outcome-based selection. Preserve failed source responses separately and link new attempts; unchanged prompt/model/sample/scoring."
+}

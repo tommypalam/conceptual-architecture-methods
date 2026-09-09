@@ -1,0 +1,1541 @@
+{
+  "design_hash": "9b865506af7aa05252ca49e4ebf98b05f1345e0eb4023e40b65d2255479db797",
+  "experiment": "rotations",
+  "provider": "openai",
+  "n_expected": 4500,
+  "n_records": 4500,
+  "cells": [
+    {
+      "variant": "hybrid",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 4,
+      "rate": 0.08,
+      "ci95": [
+        0.03154951408859298,
+        0.18838246918342838
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 16,
+      "rate": 0.32,
+      "ci95": [
+        0.20758216260656845,
+        0.45810297308144077
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 45,
+      "rate": 0.9,
+      "ci95": [
+        0.7863976856252035,
+        0.9565242350681096
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 34,
+      "rate": 0.68,
+      "ci95": [
+        0.5418970269185592,
+        0.7924178373934316
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 39,
+      "rate": 0.78,
+      "ci95": [
+        0.6475845041874634,
+        0.8724608402978559
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 9,
+      "rate": 0.18,
+      "ci95": [
+        0.09770192670234178,
+        0.30796053674300783
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 4,
+      "rate": 0.08,
+      "ci95": [
+        0.03154951408859298,
+        0.18838246918342838
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 48,
+      "n_missing": 0,
+      "n_invalid": 2,
+      "opt0_count": 21,
+      "rate": 0.4375,
+      "ci95": [
+        0.30701269040654244,
+        0.5772498258017222
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 36,
+      "rate": 0.72,
+      "ci95": [
+        0.5833487630404344,
+        0.8252582933408878
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 16,
+      "rate": 0.32,
+      "ci95": [
+        0.20758216260656845,
+        0.45810297308144077
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 18,
+      "rate": 0.36,
+      "ci95": [
+        0.24138749651846741,
+        0.49858983123887307
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 23,
+      "rate": 0.46,
+      "ci95": [
+        0.3296965219222435,
+        0.5960112860084253
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 5,
+      "rate": 0.1,
+      "ci95": [
+        0.04347576493189041,
+        0.21360231437479654
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 6,
+      "rate": 0.12,
+      "ci95": [
+        0.05617600150932274,
+        0.23804817383202992
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 19,
+      "rate": 0.38,
+      "ci95": [
+        0.25862789310193596,
+        0.5184955306900703
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 47,
+      "rate": 0.94,
+      "ci95": [
+        0.8378290831116182,
+        0.979385029651026
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 38,
+      "rate": 0.76,
+      "ci95": [
+        0.6258731624205708,
+        0.8570260860300828
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 33,
+      "rate": 0.66,
+      "ci95": [
+        0.521538260502326,
+        0.7756305077749992
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 16,
+      "rate": 0.32,
+      "ci95": [
+        0.20758216260656845,
+        0.45810297308144077
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 1,
+      "rate": 0.02,
+      "ci95": [
+        0.003539259271646236,
+        0.10495443589637815
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 23,
+      "rate": 0.46,
+      "ci95": [
+        0.3296965219222435,
+        0.5960112860084253
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 8,
+      "rate": 0.16,
+      "ci95": [
+        0.08337420678033404,
+        0.2851421606303499
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 33,
+      "rate": 0.66,
+      "ci95": [
+        0.521538260502326,
+        0.7756305077749992
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 9,
+      "rate": 0.18,
+      "ci95": [
+        0.09770192670234178,
+        0.30796053674300783
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 32,
+      "rate": 0.64,
+      "ci95": [
+        0.501410168761127,
+        0.7586125034815325
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 7,
+      "rate": 0.14,
+      "ci95": [
+        0.06950833427016294,
+        0.2618619371058554
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 42,
+      "rate": 0.84,
+      "ci95": [
+        0.7148578393696501,
+        0.916625793219666
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 7,
+      "rate": 0.14,
+      "ci95": [
+        0.06950833427016294,
+        0.2618619371058554
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 22,
+      "rate": 0.44,
+      "ci95": [
+        0.3116219921125717,
+        0.5769397197834315
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 8,
+      "rate": 0.16,
+      "ci95": [
+        0.08337420678033404,
+        0.2851421606303499
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 1,
+      "rate": 0.02,
+      "ci95": [
+        0.003539259271646236,
+        0.10495443589637815
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 41,
+      "rate": 0.82,
+      "ci95": [
+        0.6920394632569922,
+        0.9022980732976582
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 37,
+      "rate": 0.74,
+      "ci95": [
+        0.6044684273515117,
+        0.8412847250644762
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 28,
+      "rate": 0.56,
+      "ci95": [
+        0.4230602802165686,
+        0.6883780078874284
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 13,
+      "rate": 0.26,
+      "ci95": [
+        0.15871527493552393,
+        0.39553157264848837
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 7,
+      "rate": 0.14,
+      "ci95": [
+        0.06950833427016294,
+        0.2618619371058554
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 6,
+      "rate": 0.12,
+      "ci95": [
+        0.05617600150932274,
+        0.23804817383202992
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 39,
+      "rate": 0.78,
+      "ci95": [
+        0.6475845041874634,
+        0.8724608402978559
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 21,
+      "rate": 0.42,
+      "ci95": [
+        0.2937500335471198,
+        0.5576655823142176
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 29,
+      "rate": 0.58,
+      "ci95": [
+        0.4423344176857823,
+        0.7062499664528802
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 11,
+      "rate": 0.22,
+      "ci95": [
+        0.1275391597021442,
+        0.3524154958125367
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 11,
+      "rate": 0.22,
+      "ci95": [
+        0.1275391597021442,
+        0.3524154958125367
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 10,
+      "rate": 0.2,
+      "ci95": [
+        0.1124375001577611,
+        0.3303710593222542
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 43,
+      "rate": 0.86,
+      "ci95": [
+        0.7381380628941446,
+        0.9304916657298371
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 5,
+      "rate": 0.1,
+      "ci95": [
+        0.04347576493189041,
+        0.21360231437479654
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 5,
+      "rate": 0.1,
+      "ci95": [
+        0.04347576493189041,
+        0.21360231437479654
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 40,
+      "rate": 0.8,
+      "ci95": [
+        0.6696289406777459,
+        0.887562499842239
+      ]
+    },
+    {
+      "variant": "hybrid",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 26,
+      "rate": 0.52,
+      "ci95": [
+        0.38511744890044614,
+        0.6520286471342196
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 33,
+      "rate": 0.66,
+      "ci95": [
+        0.521538260502326,
+        0.7756305077749992
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 6,
+      "rate": 0.12,
+      "ci95": [
+        0.05617600150932274,
+        0.23804817383202992
+      ]
+    }
+  ],
+  "status": "Descriptive comparison; full battery verdict requires all subtests",
+  "battery_status": "OPEN: all subtests and scientific review still required"
+}

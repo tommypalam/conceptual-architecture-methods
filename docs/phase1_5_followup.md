@@ -6,6 +6,17 @@ Option-C experiment and its source files remain frozen; see [current status](../
 
 ## Entry points for code review
 
+September 9 authorised format revision: `code/run_validity_audit_brief.py` runs
+the same blind audit with compact estimates JSON and optional commentary. The
+prompt requests one explanatory sentence of at most 15 words. Trailing prose
+is accepted and preserved; word counts are reported, not used for outcome
+filtering. Invalid estimates or ambiguous multiple JSON objects still fail.
+The original strict audit runner and scoring module remain unchanged. The new
+`claude_audit_20260909_brief_r2` designation repeats all 200 items with the revised
+prompt, and does not pool the earlier failed-format response. The user explicitly
+approved this operational change before collection. `code/report_validity_audit.py`
+scores the complete audit and creates its report, checksum inventory and backup.
+
 - `code/run_validity_followup.py`: numeric/verbal/hybrid rotations, optional
   multi-value gradients, and reviewed paraphrase comparisons. Mock by default.
 - `code/run_validity_claude.py`: independent Claude generation, blind audit

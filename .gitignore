@@ -75,6 +75,7 @@ secrets.*
 
 # New validity raw-call artifacts stay local; manifests/summaries remain reviewable.
 experiments/phase1_5_encoding_validity/claude_*/records/
+experiments/phase1_5_encoding_validity/claude_*/preserved_attempts/
 experiments/phase1_5_encoding_validity/rotations_*/records/
 experiments/phase1_5_encoding_validity/gradients_*/records/
 experiments/phase1_5_encoding_validity/paraphrases_*/records/

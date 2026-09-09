@@ -1,0 +1,5989 @@
+{
+  "schema_version": "1.0",
+  "n_records": 15000,
+  "n_expected": 15000,
+  "sweeps": [
+    {
+      "arm": "full_harness",
+      "parameter": "LL",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "LL",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 22,
+          "rate": 0.44,
+          "ci95": [
+            0.3116219921125717,
+            0.5769397197834315
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 2,
+          "rate": 0.04,
+          "ci95": [
+            0.011038884327619805,
+            0.1346009068750702
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 7,
+          "rate": 0.14,
+          "ci95": [
+            0.06950833427016294,
+            0.2618619371058554
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -2.8098562878481084,
+        "se": 0.773375182096892,
+        "ci95": [
+          -4.325643791295081,
+          -1.2940687844011356
+        ],
+        "p_value": 8.498677227282749e-05,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 15.443990020589439
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.6835124365382419,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "LL",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 20,
+          "rate": 0.4,
+          "ci95": [
+            0.27608389730256544,
+            0.5381856225241064
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 34,
+          "rate": 0.68,
+          "ci95": [
+            0.5418970269185592,
+            0.7924178373934316
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 21,
+          "rate": 0.42,
+          "ci95": [
+            0.2937500335471198,
+            0.5576655823142176
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 29,
+          "rate": 0.58,
+          "ci95": [
+            0.4423344176857823,
+            0.7062499664528802
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 46,
+          "rate": 0.92,
+          "ci95": [
+            0.8116175308165717,
+            0.968450485911407
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 2.052151507853665,
+        "se": 0.4897717816359364,
+        "ci95": [
+          1.0922164552032405,
+          3.01208656050409
+        ],
+        "p_value": 1.4230367238024234e-05,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 18.83799834330631
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 1.1986411431621307,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "CS",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "CS",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 2,
+          "rate": 0.04,
+          "ci95": [
+            0.011038884327619805,
+            0.1346009068750702
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 2,
+          "rate": 0.04,
+          "ci95": [
+            0.011038884327619805,
+            0.1346009068750702
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 4,
+          "rate": 0.08,
+          "ci95": [
+            0.03154951408859298,
+            0.18838246918342838
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 2.5413718660919775,
+        "se": 1.3907840549315578,
+        "ci95": [
+          -0.18451479184637698,
+          5.267258524030332
+        ],
+        "p_value": 0.04923328198061293,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 3.867381302391564
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.5735131044230968,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "CS",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 45,
+          "rate": 0.9,
+          "ci95": [
+            0.7863976856252035,
+            0.9565242350681096
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 30,
+          "rate": 0.6,
+          "ci95": [
+            0.4618143774758936,
+            0.7239161026974346
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 35,
+          "rate": 0.7,
+          "ci95": [
+            0.562496495355466,
+            0.8089644649911906
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 22,
+          "rate": 0.44,
+          "ci95": [
+            0.3116219921125717,
+            0.5769397197834315
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 29,
+          "rate": 0.58,
+          "ci95": [
+            0.4423344176857823,
+            0.7062499664528802
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -1.8114984912387522,
+        "se": 0.4941575963907764,
+        "ci95": [
+          -2.7800295828515273,
+          -0.8429673996259769
+        ],
+        "p_value": 0.00016268485087801203,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 14.219397591688676
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.7666045650497018,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "RT",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 49,
+          "rate": 0.98,
+          "ci95": [
+            0.8950455641036219,
+            0.9964607407283539
+          ]
+        }
+      ],
+      "fit": {
+        "status": "separation",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.28379410920832715,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "RT",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 5,
+          "rate": 0.1,
+          "ci95": [
+            0.04347576493189041,
+            0.21360231437479654
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 6,
+          "rate": 0.12,
+          "ci95": [
+            0.05617600150932274,
+            0.23804817383202992
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 3,
+          "rate": 0.06,
+          "ci95": [
+            0.02061497034897397,
+            0.16217091688838173
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 4,
+          "rate": 0.08,
+          "ci95": [
+            0.03154951408859298,
+            0.18838246918342838
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -1.2253352138735594,
+        "se": 0.8956462908743468,
+        "ci95": [
+          -2.9807696868741163,
+          0.5300992591269973
+        ],
+        "p_value": 0.16390266085518834,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 1.9378454683006083
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0699880043701876,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "RT",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 36,
+          "rate": 0.72,
+          "ci95": [
+            0.5833487630404344,
+            0.8252582933408878
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 20,
+          "rate": 0.4,
+          "ci95": [
+            0.27608389730256544,
+            0.5381856225241064
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 18,
+          "rate": 0.36,
+          "ci95": [
+            0.24138749651846741,
+            0.49858983123887307
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 22,
+          "rate": 0.44,
+          "ci95": [
+            0.3116219921125717,
+            0.5769397197834315
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 22,
+          "rate": 0.44,
+          "ci95": [
+            0.3116219921125717,
+            0.5769397197834315
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -1.0564312250515822,
+        "se": 0.45642868141210935,
+        "ci95": [
+          -1.9510150021303982,
+          -0.16184744797276607
+        ],
+        "p_value": 0.019467877414634044,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 5.4589917106742405
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.5758885557906113,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": false,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "MoR",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 49,
+          "rate": 0.98,
+          "ci95": [
+            0.8950455641036219,
+            0.9964607407283539
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 49,
+          "rate": 0.98,
+          "ci95": [
+            0.8950455641036219,
+            0.9964607407283539
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -1.2959727682227598,
+        "se": 2.6183120079966358,
+        "ci95": [
+          -6.427770004184775,
+          3.835824467739255
+        ],
+        "p_value": 0.613193383037913,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 0.25555086169488916
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.28379410920832715,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "MoR",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 9,
+          "rate": 0.18,
+          "ci95": [
+            0.09770192670234178,
+            0.30796053674300783
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 2,
+          "rate": 0.04,
+          "ci95": [
+            0.011038884327619805,
+            0.1346009068750702
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 16,
+          "rate": 0.32,
+          "ci95": [
+            0.20758216260656845,
+            0.45810297308144077
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 21,
+          "rate": 0.42,
+          "ci95": [
+            0.2937500335471198,
+            0.5576655823142176
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 3.4302486027966714,
+        "se": 0.6957745433281421,
+        "ci95": [
+          2.0665555565137472,
+          4.793941649079596
+        ],
+        "p_value": 4.354402727943205e-08,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 29.98482698165236
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 1.126311564634658,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "MoR",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 5,
+          "rate": 0.1,
+          "ci95": [
+            0.04347576493189041,
+            0.21360231437479654
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 13,
+          "rate": 0.26,
+          "ci95": [
+            0.15871527493552393,
+            0.39553157264848837
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 21,
+          "rate": 0.42,
+          "ci95": [
+            0.2937500335471198,
+            0.5576655823142176
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 38,
+          "rate": 0.76,
+          "ci95": [
+            0.6258731624205708,
+            0.8570260860300828
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 42,
+          "rate": 0.84,
+          "ci95": [
+            0.7148578393696501,
+            0.916625793219666
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 4.998595107704951,
+        "se": 0.6375440123640544,
+        "ci95": [
+          3.7490318049122795,
+          6.248158410497622
+        ],
+        "p_value": 8.475927946204383e-21,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 87.48877942145623
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 1.6750578526615327,
+      "monotonic": true,
+      "predicted_direction": 1,
+      "direction_matches": true,
+      "criterion_met": true
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "RE",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 48,
+          "rate": 0.96,
+          "ci95": [
+            0.8653990931249297,
+            0.9889611156723802
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "separation",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.40271584158066176,
+      "monotonic": true,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "RE",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 4,
+          "rate": 0.08,
+          "ci95": [
+            0.03154951408859298,
+            0.18838246918342838
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 2,
+          "rate": 0.04,
+          "ci95": [
+            0.011038884327619805,
+            0.1346009068750702
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -1.6892079906797706,
+        "se": 1.3604377997300299,
+        "ci95": [
+          -4.355617081357471,
+          0.9772010999979293
+        ],
+        "p_value": 0.19885506198214636,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 1.650763386309123
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.2837941092083278,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "RE",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 37,
+          "rate": 0.74,
+          "ci95": [
+            0.6044684273515117,
+            0.8412847250644762
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 24,
+          "rate": 0.48,
+          "ci95": [
+            0.34797135286578046,
+            0.6148825510995539
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 15,
+          "rate": 0.3,
+          "ci95": [
+            0.19103553500880954,
+            0.437503504644534
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 34,
+          "rate": 0.68,
+          "ci95": [
+            0.5418970269185592,
+            0.7924178373934316
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 14,
+          "rate": 0.28,
+          "ci95": [
+            0.17474170665911232,
+            0.4166512369595657
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -1.475315132042323,
+        "se": 0.463776391603716,
+        "ci95": [
+          -2.3843001564655255,
+          -0.5663301076191204
+        ],
+        "p_value": 0.0011977710274611946,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 10.493779583885726
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.9562533858004114,
+      "monotonic": false,
+      "predicted_direction": -1,
+      "direction_matches": true,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "PD",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 47,
+          "rate": 0.94,
+          "ci95": [
+            0.8378290831116182,
+            0.979385029651026
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 49,
+          "rate": 0.98,
+          "ci95": [
+            0.8950455641036219,
+            0.9964607407283539
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 8.208422791195217,
+        "se": 4.579807541068712,
+        "ci95": [
+          -0.7678350454241567,
+          17.18468062781459
+        ],
+        "p_value": 0.004608459273145839,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 8.027020266995109
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.49493412634089573,
+      "monotonic": true,
+      "predicted_direction": 1,
+      "direction_matches": true,
+      "criterion_met": true
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "PD",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 32,
+          "rate": 0.64,
+          "ci95": [
+            0.501410168761127,
+            0.7586125034815325
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 43,
+          "rate": 0.86,
+          "ci95": [
+            0.7381380628941446,
+            0.9304916657298371
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 13.348043278810147,
+        "se": 1.8719073719808184,
+        "ci95": [
+          9.679172247332822,
+          17.016914310287472
+        ],
+        "p_value": 4.259004639990286e-42,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 184.83734021197475
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 2.3745986457279264,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "PD",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 43,
+          "rate": 0.86,
+          "ci95": [
+            0.7381380628941446,
+            0.9304916657298371
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 35,
+          "rate": 0.7,
+          "ci95": [
+            0.562496495355466,
+            0.8089644649911906
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 33,
+          "rate": 0.66,
+          "ci95": [
+            0.521538260502326,
+            0.7756305077749992
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 11,
+          "rate": 0.22,
+          "ci95": [
+            0.1275391597021442,
+            0.3524154958125367
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 4,
+          "rate": 0.08,
+          "ci95": [
+            0.03154951408859298,
+            0.18838246918342838
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -5.228446307949404,
+        "se": 0.6544000751471315,
+        "ci95": [
+          -6.511046886718051,
+          -3.945845729180756
+        ],
+        "p_value": 4.376292763043366e-22,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 93.35249621592291
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 1.8010855413048297,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "TfA",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 49,
+          "rate": 0.98,
+          "ci95": [
+            0.8950455641036219,
+            0.9964607407283539
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 49,
+          "rate": 0.98,
+          "ci95": [
+            0.8950455641036219,
+            0.9964607407283539
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -1.2959727682227595,
+        "se": 2.6183120079966358,
+        "ci95": [
+          -6.427770004184774,
+          3.8358244677392555
+        ],
+        "p_value": 0.6131933830379526,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 0.2555508616948323
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": false,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "TfA",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 9,
+          "rate": 0.18,
+          "ci95": [
+            0.09770192670234178,
+            0.30796053674300783
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 2,
+          "rate": 0.04,
+          "ci95": [
+            0.011038884327619805,
+            0.1346009068750702
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 3,
+          "rate": 0.06,
+          "ci95": [
+            0.02061497034897397,
+            0.16217091688838173
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -2.3551824499175815,
+        "se": 1.0335795846257354,
+        "ci95": [
+          -4.3809612109398355,
+          -0.3294036888953271
+        ],
+        "p_value": 0.015380003258154373,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 5.872407647996397
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.38136393482744513,
+      "monotonic": false,
+      "predicted_direction": -1,
+      "direction_matches": true,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "TfA",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 20,
+          "rate": 0.4,
+          "ci95": [
+            0.27608389730256544,
+            0.5381856225241064
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 11,
+          "rate": 0.22,
+          "ci95": [
+            0.1275391597021442,
+            0.3524154958125367
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 25,
+          "rate": 0.5,
+          "ci95": [
+            0.3664451431682858,
+            0.6335548568317142
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 30,
+          "rate": 0.6,
+          "ci95": [
+            0.4618143774758936,
+            0.7239161026974346
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 36,
+          "rate": 0.72,
+          "ci95": [
+            0.5833487630404344,
+            0.8252582933408878
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 2.1458420119608,
+        "se": 0.4823671143703346,
+        "ci95": [
+          1.2004198404684572,
+          3.0912641834531427
+        ],
+        "p_value": 3.848039989431405e-06,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 21.339092020099883
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.6569565941861539,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "ID",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "ID",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 4,
+          "rate": 0.08,
+          "ci95": [
+            0.03154951408859298,
+            0.18838246918342838
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 4,
+          "rate": 0.08,
+          "ci95": [
+            0.03154951408859298,
+            0.18838246918342838
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 3,
+          "rate": 0.06,
+          "ci95": [
+            0.02061497034897397,
+            0.16217091688838173
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 0.8864635767542691,
+        "se": 1.0660364922510712,
+        "ci95": [
+          -1.2029295542631853,
+          2.9758567077717237
+        ],
+        "p_value": 0.4012104523938347,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 0.7046954085341355
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.2111400171325677,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": true,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "ID",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 20,
+          "rate": 0.4,
+          "ci95": [
+            0.27608389730256544,
+            0.5381856225241064
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 11,
+          "rate": 0.22,
+          "ci95": [
+            0.1275391597021442,
+            0.3524154958125367
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 20,
+          "rate": 0.4,
+          "ci95": [
+            0.27608389730256544,
+            0.5381856225241064
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 8,
+          "rate": 0.16,
+          "ci95": [
+            0.08337420678033404,
+            0.2851421606303499
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 31,
+          "rate": 0.62,
+          "ci95": [
+            0.4815044693099298,
+            0.7413721068980641
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 0.8313603705066236,
+        "se": 0.4715467678986729,
+        "ci95": [
+          -0.09285431160101798,
+          1.7555750526142653
+        ],
+        "p_value": 0.07609612581723864,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 3.1463688480969267
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.4437237718292941,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "MS",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "MS",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 3,
+          "rate": 0.06,
+          "ci95": [
+            0.02061497034897397,
+            0.16217091688838173
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 7,
+          "rate": 0.14,
+          "ci95": [
+            0.06950833427016294,
+            0.2618619371058554
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 30,
+          "rate": 0.6,
+          "ci95": [
+            0.4618143774758936,
+            0.7239161026974346
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 8.337844367933375,
+        "se": 1.3706669561591494,
+        "ci95": [
+          5.651386499062375,
+          11.024302236804374
+        ],
+        "p_value": 2.929277151631657e-19,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 80.4849482333137
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 1.7721542475852274,
+      "monotonic": true,
+      "predicted_direction": 1,
+      "direction_matches": true,
+      "criterion_met": true
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "MS",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 13,
+          "rate": 0.26,
+          "ci95": [
+            0.15871527493552393,
+            0.39553157264848837
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 14,
+          "rate": 0.28,
+          "ci95": [
+            0.17474170665911232,
+            0.4166512369595657
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 19,
+          "rate": 0.38,
+          "ci95": [
+            0.25862789310193596,
+            0.5184955306900703
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 16,
+          "rate": 0.32,
+          "ci95": [
+            0.20758216260656845,
+            0.45810297308144077
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 29,
+          "rate": 0.58,
+          "ci95": [
+            0.4423344176857823,
+            0.7062499664528802
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 1.507588241277587,
+        "se": 0.4833790497456592,
+        "ci95": [
+          0.5601827128949258,
+          2.454993769660248
+        ],
+        "p_value": 0.0014687998462238018,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 10.117350611441793
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.6613453653564987,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "AW",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 49,
+          "rate": 0.98,
+          "ci95": [
+            0.8950455641036219,
+            0.9964607407283539
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -2.8427855438928984,
+        "se": 4.277432742899561,
+        "ci95": [
+          -11.226399666268183,
+          5.540828578482387
+        ],
+        "p_value": 0.4653290333850054,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 0.5330460768114271
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "AW",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 9,
+          "rate": 0.18,
+          "ci95": [
+            0.09770192670234178,
+            0.30796053674300783
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 5,
+          "rate": 0.1,
+          "ci95": [
+            0.04347576493189041,
+            0.21360231437479654
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 4,
+          "rate": 0.08,
+          "ci95": [
+            0.03154951408859298,
+            0.18838246918342838
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 4,
+          "rate": 0.08,
+          "ci95": [
+            0.03154951408859298,
+            0.18838246918342838
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 4,
+          "rate": 0.08,
+          "ci95": [
+            0.03154951408859298,
+            0.18838246918342838
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -1.206162030346288,
+        "se": 0.7565981244033382,
+        "ci95": [
+          -2.6890671049473456,
+          0.27674304425476937
+        ],
+        "p_value": 0.10519515561089536,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 2.624960006776604
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.30278495674524386,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "full_harness",
+      "parameter": "AW",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 10,
+          "rate": 0.2,
+          "ci95": [
+            0.1124375001577611,
+            0.3303710593222542
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 30,
+          "rate": 0.6,
+          "ci95": [
+            0.4618143774758936,
+            0.7239161026974346
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 11,
+          "rate": 0.22,
+          "ci95": [
+            0.1275391597021442,
+            0.3524154958125367
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 18,
+          "rate": 0.36,
+          "ci95": [
+            0.24138749651846741,
+            0.49858983123887307
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 36,
+          "rate": 0.72,
+          "ci95": [
+            0.5833487630404344,
+            0.8252582933408878
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 1.695641643372763,
+        "se": 0.47548517210771996,
+        "ci95": [
+          0.7637078308588285,
+          2.6275754558866975
+        ],
+        "p_value": 0.00025884516584498825,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 13.346936219564157
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 1.0990997821891075,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "LL",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "LL",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 19,
+          "rate": 0.38,
+          "ci95": [
+            0.25862789310193596,
+            0.5184955306900703
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 2,
+          "rate": 0.04,
+          "ci95": [
+            0.011038884327619805,
+            0.1346009068750702
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -14.14673085714839,
+        "se": 3.608801890735583,
+        "ci95": [
+          -21.21985259032999,
+          -7.07360912396679
+        ],
+        "p_value": 6.470083509113582e-15,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 60.753109610541614
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 1.3284304757559333,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "LL",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 2,
+          "rate": 0.04,
+          "ci95": [
+            0.011038884327619805,
+            0.1346009068750702
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 7,
+          "rate": 0.14,
+          "ci95": [
+            0.06950833427016294,
+            0.2618619371058554
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 6,
+          "rate": 0.12,
+          "ci95": [
+            0.05617600150932274,
+            0.23804817383202992
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 19,
+          "rate": 0.38,
+          "ci95": [
+            0.25862789310193596,
+            0.5184955306900703
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 6,
+          "rate": 0.12,
+          "ci95": [
+            0.05617600150932274,
+            0.23804817383202992
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 1.5370383023532916,
+        "se": 0.6403358612962186,
+        "ci95": [
+          0.28200307620330234,
+          2.792073528503281
+        ],
+        "p_value": 0.013917451961894638,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 6.048584201479599
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.30476737019868133,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "CS",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "CS",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 6,
+          "rate": 0.12,
+          "ci95": [
+            0.05617600150932274,
+            0.23804817383202992
+          ]
+        }
+      ],
+      "fit": {
+        "status": "separation",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.7074832117793429,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "CS",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 8,
+          "rate": 0.16,
+          "ci95": [
+            0.08337420678033404,
+            0.2851421606303499
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 5,
+          "rate": 0.1,
+          "ci95": [
+            0.04347576493189041,
+            0.21360231437479654
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 4,
+          "rate": 0.08,
+          "ci95": [
+            0.03154951408859298,
+            0.18838246918342838
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 10,
+          "rate": 0.2,
+          "ci95": [
+            0.1124375001577611,
+            0.3303710593222542
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -1.1649249257162588,
+        "se": 0.7424175445606902,
+        "ci95": [
+          -2.620036574545832,
+          0.2901867231133146
+        ],
+        "p_value": 0.11119412150901797,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 2.537167200831931
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.8230336921349761,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "RT",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "RT",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 2,
+          "rate": 0.04,
+          "ci95": [
+            0.011038884327619805,
+            0.1346009068750702
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 3,
+          "rate": 0.06,
+          "ci95": [
+            0.02061497034897397,
+            0.16217091688838173
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 1.5259770710577854,
+        "se": 1.4342007274173962,
+        "ci95": [
+          -1.285004701281381,
+          4.3369588433969515
+        ],
+        "p_value": 0.2737567301255231,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 1.1978254709448635
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.2837941092083278,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "RT",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 7,
+          "rate": 0.14,
+          "ci95": [
+            0.06950833427016294,
+            0.2618619371058554
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 7,
+          "rate": 0.14,
+          "ci95": [
+            0.06950833427016294,
+            0.2618619371058554
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 5,
+          "rate": 0.1,
+          "ci95": [
+            0.04347576493189041,
+            0.21360231437479654
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 8,
+          "rate": 0.16,
+          "ci95": [
+            0.08337420678033404,
+            0.2851421606303499
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 5,
+          "rate": 0.1,
+          "ci95": [
+            0.04347576493189041,
+            0.21360231437479654
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -0.26906368907078865,
+        "se": 0.6703664752993549,
+        "ci95": [
+          -1.582957837100548,
+          1.0448304589589705
+        ],
+        "p_value": 0.687914194335535,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 0.16135266286690353
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.1234928990685823,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": false,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "MoR",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "MoR",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 3,
+          "rate": 0.06,
+          "ci95": [
+            0.02061497034897397,
+            0.16217091688838173
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 43,
+          "rate": 0.86,
+          "ci95": [
+            0.7381380628941446,
+            0.9304916657298371
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 44,
+          "rate": 0.88,
+          "ci95": [
+            0.7619518261679701,
+            0.9438239984906773
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 13.530335836641656,
+        "se": 1.7951659268167561,
+        "ci95": [
+          10.011875273807444,
+          17.04879639947587
+        ],
+        "p_value": 6.143817816189992e-47,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 207.01816977623693
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 2.4341094418104507,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "MoR",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 2,
+          "rate": 0.04,
+          "ci95": [
+            0.011038884327619805,
+            0.1346009068750702
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 10,
+          "rate": 0.2,
+          "ci95": [
+            0.1124375001577611,
+            0.3303710593222542
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 27,
+          "rate": 0.54,
+          "ci95": [
+            0.40398871399157477,
+            0.6703034780777566
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 37,
+          "rate": 0.74,
+          "ci95": [
+            0.6044684273515117,
+            0.8412847250644762
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 6.453021412568402,
+        "se": 0.8388647030219821,
+        "ci95": [
+          4.808876806743474,
+          8.097166018393331
+        ],
+        "p_value": 6.647916546120023e-24,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 101.64321131879296
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 1.6687351976188232,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": true,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "RE",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": true,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "RE",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        }
+      ],
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "RE",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 3,
+          "rate": 0.06,
+          "ci95": [
+            0.02061497034897397,
+            0.16217091688838173
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 8,
+          "rate": 0.16,
+          "ci95": [
+            0.08337420678033404,
+            0.2851421606303499
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 4,
+          "rate": 0.08,
+          "ci95": [
+            0.03154951408859298,
+            0.18838246918342838
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 14,
+          "rate": 0.28,
+          "ci95": [
+            0.17474170665911232,
+            0.4166512369595657
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 9,
+          "rate": 0.18,
+          "ci95": [
+            0.09770192670234178,
+            0.30796053674300783
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 1.437062305471303,
+        "se": 0.6502223021635156,
+        "ci95": [
+          0.16265001128612688,
+          2.711474599656479
+        ],
+        "p_value": 0.023936131016410844,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 5.09925434064246
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.38136393482744513,
+      "monotonic": false,
+      "predicted_direction": -1,
+      "direction_matches": false,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "PD",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": true,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "PD",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 20,
+          "rate": 0.4,
+          "ci95": [
+            0.27608389730256544,
+            0.5381856225241064
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "separation",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 3.141592653589793,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "PD",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 36,
+          "rate": 0.72,
+          "ci95": [
+            0.5833487630404344,
+            0.8252582933408878
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 18,
+          "rate": 0.36,
+          "ci95": [
+            0.24138749651846741,
+            0.49858983123887307
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 23,
+          "rate": 0.46,
+          "ci95": [
+            0.3296965219222435,
+            0.5960112860084253
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -5.495773615108762,
+        "se": 0.7416034569781034,
+        "ci95": [
+          -6.949289681596204,
+          -4.04225754862132
+        ],
+        "p_value": 4.911831378049805e-20,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 84.01440357006226
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 2.02639500019072,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "TfA",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": true,
+      "predicted_direction": 1,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "TfA",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -2.85521161890635,
+        "se": 3.032176510268989,
+        "ci95": [
+          -8.79816837380175,
+          3.08774513598905
+        ],
+        "p_value": 0.30081829569608276,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 1.0705630725473085
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.2837941092083278,
+      "monotonic": false,
+      "predicted_direction": -1,
+      "direction_matches": true,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "TfA",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 4,
+          "rate": 0.08,
+          "ci95": [
+            0.03154951408859298,
+            0.18838246918342838
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 3,
+          "rate": 0.06,
+          "ci95": [
+            0.02061497034897397,
+            0.16217091688838173
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 15,
+          "rate": 0.3,
+          "ci95": [
+            0.19103553500880954,
+            0.437503504644534
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 16,
+          "rate": 0.32,
+          "ci95": [
+            0.20758216260656845,
+            0.45810297308144077
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 29,
+          "rate": 0.58,
+          "ci95": [
+            0.4423344176857823,
+            0.7062499664528802
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 3.7441118187865916,
+        "se": 0.6368355859625974,
+        "ci95": [
+          2.495937006226473,
+          4.99228663134671
+        ],
+        "p_value": 4.141369696012561e-11,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 43.545871520991284
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 1.1579738753237103,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "ID",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "ID",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 2.855211651054293,
+        "se": 3.03217653480135,
+        "ci95": [
+          -3.0877451519236514,
+          8.798168454032236
+        ],
+        "p_value": 0.30081829569608276,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 1.0705630725473085
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.2837941092083278,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": true,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "ID",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 10,
+          "rate": 0.2,
+          "ci95": [
+            0.1124375001577611,
+            0.3303710593222542
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 9,
+          "rate": 0.18,
+          "ci95": [
+            0.09770192670234178,
+            0.30796053674300783
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 6,
+          "rate": 0.12,
+          "ci95": [
+            0.05617600150932274,
+            0.23804817383202992
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 5,
+          "rate": 0.1,
+          "ci95": [
+            0.04347576493189041,
+            0.21360231437479654
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 3,
+          "rate": 0.06,
+          "ci95": [
+            0.02061497034897397,
+            0.16217091688838173
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": -1.6310270850872355,
+        "se": 0.6989038846578918,
+        "ci95": [
+          -3.0008535276718016,
+          -0.2612006425026694
+        ],
+        "p_value": 0.01638095294258615,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 5.761513781604435
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.4323610916607167,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "MS",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "MS",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 4,
+          "rate": 0.08,
+          "ci95": [
+            0.03154951408859298,
+            0.18838246918342838
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 10,
+          "rate": 0.2,
+          "ci95": [
+            0.1124375001577611,
+            0.3303710593222542
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 8.145667679152327,
+        "se": 2.3655020244778817,
+        "ci95": [
+          3.509368905819221,
+          12.781966452485433
+        ],
+        "p_value": 1.2901866238458387e-07,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 27.880876244104044
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.9272952180016122,
+      "monotonic": true,
+      "predicted_direction": 1,
+      "direction_matches": true,
+      "criterion_met": true
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "MS",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 7,
+          "rate": 0.14,
+          "ci95": [
+            0.06950833427016294,
+            0.2618619371058554
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 6,
+          "rate": 0.12,
+          "ci95": [
+            0.05617600150932274,
+            0.23804817383202992
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 9,
+          "rate": 0.18,
+          "ci95": [
+            0.09770192670234178,
+            0.30796053674300783
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 11,
+          "rate": 0.22,
+          "ci95": [
+            0.1275391597021442,
+            0.3524154958125367
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 12,
+          "rate": 0.24,
+          "ci95": [
+            0.1429739139699173,
+            0.3741268375794292
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 1.0310725946263497,
+        "se": 0.5948082156581249,
+        "ci95": [
+          -0.13473008577207657,
+          2.1968752750247758
+        ],
+        "p_value": 0.07970885932111772,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 3.070828093694388
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.25695136823708586,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "AW",
+      "problem": "S1",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 50,
+          "rate": 1.0,
+          "ci95": [
+            0.9286524008666414,
+            1.0
+          ]
+        }
+      ],
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": true,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "AW",
+      "problem": "S2",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 2,
+          "rate": 0.04,
+          "ci95": [
+            0.011038884327619805,
+            0.1346009068750702
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 0,
+          "rate": 0.0,
+          "ci95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 2.8552116510542915,
+        "se": 3.032176534801347,
+        "ci95": [
+          -3.0877451519236465,
+          8.79816845403223
+        ],
+        "p_value": 0.30081829569608276,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 1.0705630725473085
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.0,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    },
+    {
+      "arm": "user_prefix_bare",
+      "parameter": "AW",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 1,
+          "rate": 0.02,
+          "ci95": [
+            0.003539259271646236,
+            0.10495443589637815
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 2,
+          "rate": 0.04,
+          "ci95": [
+            0.011038884327619805,
+            0.1346009068750702
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 7,
+          "rate": 0.14,
+          "ci95": [
+            0.06950833427016294,
+            0.2618619371058554
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 4,
+          "rate": 0.08,
+          "ci95": [
+            0.03154951408859298,
+            0.18838246918342838
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 50,
+          "n_recorded": 50,
+          "n_valid": 50,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 15,
+          "rate": 0.3,
+          "ci95": [
+            0.19103553500880954,
+            0.437503504644534
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 3.396058690297454,
+        "se": 0.8747896373224275,
+        "ci95": [
+          1.6815025070966871,
+          5.11061487349822
+        ],
+        "p_value": 1.4113094790595646e-05,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 18.85378267234435
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.8754853715190807,
+      "monotonic": false,
+      "predicted_direction": null,
+      "direction_matches": null,
+      "criterion_met": false
+    }
+  ],
+  "delivery_contrasts": [
+    {
+      "parameter": "LL",
+      "problem": "S1",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.0,
+      "ci95_conservative": [
+        -0.1930439228563382,
+        0.1930439228563381
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "LL",
+      "problem": "S2",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": -0.08000000000000002,
+      "ci95_conservative": [
+        -0.6023641378752126,
+        0.4598011620756598
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "LL",
+      "problem": "S3",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": -0.44000000000000006,
+      "ci95_conservative": [
+        -0.8867230694118987,
+        0.08778137698132973
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "CS",
+      "problem": "S1",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.0,
+      "ci95_conservative": [
+        -0.1930439228563382,
+        0.1930439228563381
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "CS",
+      "problem": "S2",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.039999999999999994,
+      "ci95_conservative": [
+        -0.289106455460715,
+        0.36052746144637315
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "CS",
+      "problem": "S3",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.16000000000000006,
+      "ci95_conservative": [
+        -0.3309021551422245,
+        0.6219513073236851
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "RT",
+      "problem": "S1",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.020000000000000018,
+      "ci95_conservative": [
+        -0.1929185384573472,
+        0.23150266256152896
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "RT",
+      "problem": "S2",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.04000000000000001,
+      "ci95_conservative": [
+        -0.29892448697134444,
+        0.3731395011579105
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "RT",
+      "problem": "S3",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.23999999999999996,
+      "ci95_conservative": [
+        -0.36741903224430994,
+        0.8037833908776266
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S1",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.020000000000000018,
+      "ci95_conservative": [
+        -0.1929185384573472,
+        0.23150266256152896
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S2",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.48000000000000004,
+      "ci95_conservative": [
+        0.02009962824037237,
+        0.8516346181607403
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": -0.040000000000000036,
+      "ci95_conservative": [
+        -0.530176759222142,
+        0.45564018130073275
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "RE",
+      "problem": "S1",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": -0.040000000000000036,
+      "ci95_conservative": [
+        -0.26432299744116217,
+        0.19069914059062798
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "RE",
+      "problem": "S2",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.02,
+      "ci95_conservative": [
+        -0.19291853845734724,
+        0.23150266256152913
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "RE",
+      "problem": "S3",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.58,
+      "ci95_conservative": [
+        -0.03454061220963167,
+        1.0838096151820433
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "PD",
+      "problem": "S1",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": -0.06000000000000005,
+      "ci95_conservative": [
+        -0.2943165968288496,
+        0.1855906701683968
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "PD",
+      "problem": "S2",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.14,
+      "ci95_conservative": [
+        -0.14876885921309346,
+        0.40022446000946
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "PD",
+      "problem": "S3",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.06000000000000005,
+      "ci95_conservative": [
+        -0.3920758504069739,
+        0.5008303307863833
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S1",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.0,
+      "ci95_conservative": [
+        -0.1930439228563382,
+        0.1930439228563381
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S2",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.09999999999999999,
+      "ci95_conservative": [
+        -0.2644932083156542,
+        0.44068060896648537
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S3",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.18,
+      "ci95_conservative": [
+        -0.4601819543227064,
+        0.7840940788680857
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "ID",
+      "problem": "S1",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.0,
+      "ci95_conservative": [
+        -0.1930439228563382,
+        0.1930439228563381
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "ID",
+      "problem": "S2",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": -0.019999999999999993,
+      "ci95_conservative": [
+        -0.29406582803086784,
+        0.26250814957877866
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "ID",
+      "problem": "S3",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": -0.36,
+      "ci95_conservative": [
+        -0.9181124105373849,
+        0.26790285862425317
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "MS",
+      "problem": "S1",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.0,
+      "ci95_conservative": [
+        -0.1930439228563382,
+        0.1930439228563381
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "MS",
+      "problem": "S2",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": -0.39999999999999997,
+      "ci95_conservative": [
+        -0.78230946977828,
+        0.05691059345508104
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "MS",
+      "problem": "S3",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": -0.21999999999999997,
+      "ci95_conservative": [
+        -0.82232539695935,
+        0.4222043602371062
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "AW",
+      "problem": "S1",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.0,
+      "ci95_conservative": [
+        -0.1930439228563382,
+        0.1930439228563381
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "AW",
+      "problem": "S2",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": 0.09999999999999999,
+      "ci95_conservative": [
+        -0.254212601628201,
+        0.43357980969637416
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    },
+    {
+      "parameter": "AW",
+      "problem": "S3",
+      "contrast": "user_prefix_bare endpoint change minus full_harness endpoint change",
+      "estimate": -0.24000000000000005,
+      "ci95_conservative": [
+        -0.7634880958034925,
+        0.32246880891029267
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    }
+  ],
+  "battery_status": "NOT CLOSED: coherence, paraphrase and numeric/verbal tests also required",
+  "inference_note": "Unadjusted p<0.05 follows spec 4.1; no new directional hypotheses inferred.",
+  "provider": "openai",
+  "design_hash": "10df2b8246ca5dde38e0eef7e256b31bcdf8d61fb307ad4bbda771488d5418ad"
+}

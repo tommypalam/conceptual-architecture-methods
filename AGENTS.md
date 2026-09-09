@@ -1,6 +1,6 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
-Updated 2026-09-06. This file and its companion contain the same working rules;
+Updated 2026-09-09. This file and its companion contain the same working rules;
 edit both together. Current execution status belongs in NEXT_STEPS.md, and
 decisions belong in meta.md.
 
@@ -8,6 +8,15 @@ The thesis v0.6 governs architectural commitments; implementation specification
 v0.1 governs the original operational plan. Documented amendments and accepted
 closure decisions explain departures from those plans. Neither a paper nor a
 historical task list overrides the user's current instruction.
+
+User clarification (2026-09-09): established, documented departures needed for
+binding constraints remain part of the accepted operational design. Consult the
+theory together with those decisions; do not undo them merely to match the
+original text. A new departure is acceptable only to work around a concrete
+physical or technical limitation, and must be discussed with the user before
+implementation. State the limitation, evidence, smallest necessary departure,
+and methodological consequences. Convenience, lexical targets, or a model's
+unfaithful paraphrase do not by themselves justify changing theoretical meaning.
 
 ---
 
@@ -99,8 +108,13 @@ The coding manual itself is still to be drafted and pre-registered before Phase 
 ## Phase Plan and Current Status
 
 Read [NEXT_STEPS.md](NEXT_STEPS.md) for the current phase ledger. Phase 0 is
-closed and Phase 1 passed operationally. Phase 1.5 is open: its September sweep
-stopped at 8,640/15,000 records after API credits were exhausted. Phases 2–6
+closed and Phase 1 passed operationally. Phase 1.5 is open: its original September
+sweep stopped at 8,640/15,000 records after API credits were exhausted. A fresh
+15,000-call September 9 restart is collected and scored; no old
+responses are pooled. Claude Haiku 4.5 is pinned for independent coding and
+paraphrase generation. The 4,500 rotations and 200-item audit are also collected;
+literal audit thresholds do not establish active-trait recoverability. See
+NEXT_STEPS.md for pending paraphrases and scientific review. Phases 2–6
 are planned, not completed. Follow-up code being tested does not close a gate.
 
 ## Experimental Problems
