@@ -1,5 +1,11 @@
 # Assistant review of the final Claude paraphrases
 
+Subsequent status: Tommy approved all three exact templates; the 4,500-call
+experiment is complete. See the [approval](../experiments/phase1_5_encoding_validity/claude_paraphrases_20260909_theory_r5/paraphrases_approved.json)
+and [results](../experiments/phase1_5_encoding_validity/paraphrases_20260909_final/analysis/PARAPHRASE_REPORT.md).
+The preparation-stage review below is retained chronologically. Its semantic
+recommendation did not predict the observed behavioural invariance failure.
+
 The user explicitly approved disclosure of thesis section 3.1 and the canonical
 template to Anthropic after discussing API ownership, confidentiality, training
 and retention. This approval covers that disclosure, not human approval of

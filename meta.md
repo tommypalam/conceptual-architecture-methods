@@ -4,6 +4,64 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-09 — Paraphrases complete; empirical battery gate not met
+
+Completed all 4,500 approved paraphrase calls: 4,497 valid parses, three preserved
+parsing failures, no API failures or model mismatches. MoR/S2/paraphrase_3 has
+48/50 valid and misses the 98% parse floor; PD/S2/paraphrase_1 has 49/50 and
+remains eligible. Eight of 30 cells establish all-pair TOST equivalence, versus
+24 required: seven S1 cells and RE/S2. No S3 cell establishes equivalence.
+The protocol, approved templates and fixed N were not changed after results.
+Estimated token cost $5.055; checksums, local ZIP and combined evidence saved.
+
+Descriptive pooled first-option rates on S3 are 50.8%, 72.0%, 77.8%, 55.0%
+for canonical and paraphrases 1–3. The fixed PD=.8/S3 profile ranges from 4%
+to 64% across formulations. These are observed profile-level differences, not
+causal attribution to any individual endpoint wording. Low equivalence power at
+N=50 near .5 and S1 ceiling effects remain explicit limitations. Semantic human
+approval does not ensure the model's behavioural invariance.
+
+All authorised empirical battery collection is complete: 39,000 unique fresh
+behavioural responses, 38,993 valid, plus the independent audit and generation
+records. Full pass is ruled out. The existing ten-parameter system-prompt
+implementation is not cleared for Phase 2; the final research decision between
+diagnostic follow-up and a revised architecture remains for consultation.
+No automatic partial-pass descope, new theoretical departure, or model switch.
+
+The five synthetic perspectives and resolution are recorded in
+experiments/phase1_5_encoding_validity/phase_review_20260909/BATTERY_ASSESSMENT.md:
+conceptual coherence is not operational validity; task saturation and audit
+prevalence limit inference; failed equivalence is not automatically proven
+difference; representation dependence needs investigation; all provenance is
+preserved. The current gate is not met, while the underlying theory is not
+declared false. All backups remain on this computer; nothing is pushed remotely.
+
+## 2026-09-09 — Human paraphrase approval and behavioural run
+
+With HUMAN_REVIEW.md open, the user approved all three variants and requested
+another assistant assessment. Reviewer recorded as Tommy (project owner), based
+on this conversation and established project identity. The verbatim approval and
+all three exact hashes are preserved in a separate paraphrases_approved.json;
+the original unapproved bundle and raw generation records remain unchanged.
+
+Final assistant assessment agrees these are suitable for testing: endpoint
+directions, secondary procedure value, genuine endorsement, broad moral scope
+and the accepted canonical scaffold are preserved. Stylistic differences may
+still change emphasis; semantic approval is not proof of behavioural equivalence.
+No revisions were made after approval. The earlier synthetic review applies.
+
+Launched paraphrases_20260909_final: neutral configuration, seed 20260604,
+ten parameters at .8 with remaining parameters at their fixed means, three
+problems, three approved paraphrases, 50 calls per cell, 4,500 total. Model
+gpt-5.4-mini-2026-03-17, temperature 1, cap 600, concurrency five. The canonical
+baseline is 1,500 valid hybrid observations from the completed rotations run.
+Source/design hashes and baseline compatibility passed before dispatch.
+
+Hidden supervisor PID 20056 updates output/validity_paraphrases_20260909/status.json,
+then verifies expected record keys, uses unchanged all-pair TOST scoring, creates
+a local backup, and updates the combined evidence matrix. Fixed N and fail-stop
+rules remain unchanged; Phase 1.5 still needs final scientific review.
+
 ## 2026-09-09 — Thesis disclosure approved; final paraphrases prepared
 
 After the explicit disclosure question and explanation of Anthropic API data

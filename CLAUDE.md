@@ -112,9 +112,12 @@ closed and Phase 1 passed operationally. Phase 1.5 is open: its original Septemb
 sweep stopped at 8,640/15,000 records after API credits were exhausted. A fresh
 15,000-call September 9 restart is collected and scored; no old
 responses are pooled. Claude Haiku 4.5 is pinned for independent coding and
-paraphrase generation. The 4,500 rotations and 200-item audit are also collected;
-literal audit thresholds do not establish active-trait recoverability. See
-NEXT_STEPS.md for pending paraphrases and scientific review. Phases 2–6
+paraphrase generation. The 4,500 rotations, 200-item audit, 15,000 gradients and
+4,500 human-approved paraphrases are also collected. The empirical battery is
+complete; the current gate is not met. Only 8/30 paraphrase cells establish
+equivalence (24 required); literal audit thresholds do not establish active-trait
+recoverability. Phase 2 remains on hold pending the researcher's next decision.
+See NEXT_STEPS.md and the battery assessment for evidence and limitations. Phases 2–6
 are planned, not completed. Follow-up code being tested does not close a gate.
 
 ## Experimental Problems

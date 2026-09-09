@@ -1,0 +1,4051 @@
+{
+  "design_hash": "ad7b7cb78e5ebb5c5b51c89acd4e5782f21689820394809286c26a93a948ee1d",
+  "experiment": "paraphrases",
+  "provider": "openai",
+  "n_expected": 4500,
+  "n_records": 4500,
+  "cells": [
+    {
+      "variant": "paraphrase_1",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 15,
+      "rate": 0.3,
+      "ci95": [
+        0.19103553500880954,
+        0.437503504644534
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 39,
+      "rate": 0.78,
+      "ci95": [
+        0.6475845041874634,
+        0.8724608402978559
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 10,
+      "rate": 0.2,
+      "ci95": [
+        0.1124375001577611,
+        0.3303710593222542
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 10,
+      "rate": 0.2,
+      "ci95": [
+        0.1124375001577611,
+        0.3303710593222542
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 37,
+      "rate": 0.74,
+      "ci95": [
+        0.6044684273515117,
+        0.8412847250644762
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 36,
+      "rate": 0.72,
+      "ci95": [
+        0.5833487630404344,
+        0.8252582933408878
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 22,
+      "rate": 0.44,
+      "ci95": [
+        0.3116219921125717,
+        0.5769397197834315
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 27,
+      "rate": 0.54,
+      "ci95": [
+        0.40398871399157477,
+        0.6703034780777566
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 25,
+      "rate": 0.5,
+      "ci95": [
+        0.3664451431682858,
+        0.6335548568317142
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 18,
+      "rate": 0.36,
+      "ci95": [
+        0.24138749651846741,
+        0.49858983123887307
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 25,
+      "rate": 0.5,
+      "ci95": [
+        0.3664451431682858,
+        0.6335548568317142
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 48,
+      "n_missing": 0,
+      "n_invalid": 2,
+      "opt0_count": 41,
+      "rate": 0.8541666666666666,
+      "ci95": [
+        0.7283282347525372,
+        0.9275175067339628
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 47,
+      "rate": 0.94,
+      "ci95": [
+        0.8378290831116182,
+        0.979385029651026
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 45,
+      "rate": 0.9,
+      "ci95": [
+        0.7863976856252035,
+        0.9565242350681096
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 33,
+      "rate": 0.66,
+      "ci95": [
+        0.521538260502326,
+        0.7756305077749992
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 18,
+      "rate": 0.36,
+      "ci95": [
+        0.24138749651846741,
+        0.49858983123887307
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 49,
+      "n_missing": 0,
+      "n_invalid": 1,
+      "opt0_count": 39,
+      "rate": 0.7959183673469388,
+      "ci95": [
+        0.6636299908048744,
+        0.8851815039421786
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 33,
+      "rate": 0.66,
+      "ci95": [
+        0.521538260502326,
+        0.7756305077749992
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 46,
+      "rate": 0.92,
+      "ci95": [
+        0.8116175308165717,
+        0.968450485911407
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 11,
+      "rate": 0.22,
+      "ci95": [
+        0.1275391597021442,
+        0.3524154958125367
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 32,
+      "rate": 0.64,
+      "ci95": [
+        0.501410168761127,
+        0.7586125034815325
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 7,
+      "rate": 0.14,
+      "ci95": [
+        0.06950833427016294,
+        0.2618619371058554
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 44,
+      "rate": 0.88,
+      "ci95": [
+        0.7619518261679701,
+        0.9438239984906773
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 41,
+      "rate": 0.82,
+      "ci95": [
+        0.6920394632569922,
+        0.9022980732976582
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 40,
+      "rate": 0.8,
+      "ci95": [
+        0.6696289406777459,
+        0.887562499842239
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 23,
+      "rate": 0.46,
+      "ci95": [
+        0.3296965219222435,
+        0.5960112860084253
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 34,
+      "rate": 0.68,
+      "ci95": [
+        0.5418970269185592,
+        0.7924178373934316
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 10,
+      "rate": 0.2,
+      "ci95": [
+        0.1124375001577611,
+        0.3303710593222542
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 15,
+      "rate": 0.3,
+      "ci95": [
+        0.19103553500880954,
+        0.437503504644534
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 1,
+      "rate": 0.02,
+      "ci95": [
+        0.003539259271646236,
+        0.10495443589637815
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 21,
+      "rate": 0.42,
+      "ci95": [
+        0.2937500335471198,
+        0.5576655823142176
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 37,
+      "rate": 0.74,
+      "ci95": [
+        0.6044684273515117,
+        0.8412847250644762
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 44,
+      "rate": 0.88,
+      "ci95": [
+        0.7619518261679701,
+        0.9438239984906773
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 32,
+      "rate": 0.64,
+      "ci95": [
+        0.501410168761127,
+        0.7586125034815325
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 4,
+      "rate": 0.08,
+      "ci95": [
+        0.03154951408859298,
+        0.18838246918342838
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 9,
+      "rate": 0.18,
+      "ci95": [
+        0.09770192670234178,
+        0.30796053674300783
+      ]
+    },
+    {
+      "variant": "paraphrase_1",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 46,
+      "rate": 0.92,
+      "ci95": [
+        0.8116175308165717,
+        0.968450485911407
+      ]
+    },
+    {
+      "variant": "paraphrase_2",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 42,
+      "rate": 0.84,
+      "ci95": [
+        0.7148578393696501,
+        0.916625793219666
+      ]
+    },
+    {
+      "variant": "paraphrase_3",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 42,
+      "rate": 0.84,
+      "ci95": [
+        0.7148578393696501,
+        0.916625793219666
+      ]
+    }
+  ],
+  "status": "Descriptive comparison; full battery verdict requires all subtests",
+  "battery_status": "OPEN: all subtests and scientific review still required",
+  "paraphrase_equivalence": {
+    "cells": [
+      {
+        "parameter": "LL",
+        "problem": "S1",
+        "complete": true,
+        "all_pairs_equivalent": true,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.004901983109516869,
+            "p_upper": 0.03031622373531018,
+            "p_value": 0.03031622373531018,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": 0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.004901983109516869,
+            "p_upper": 0.03031622373531018,
+            "p_value": 0.03031622373531018,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.004901983109516869,
+            "p_upper": 0.03031622373531018,
+            "p_value": 0.03031622373531018,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.004901983109516869,
+            "p_upper": 0.03031622373531018,
+            "p_value": 0.03031622373531018,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.01639022659796013,
+            "p_upper": 0.016390226598062402,
+            "p_value": 0.016390226598062402,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          }
+        ]
+      },
+      {
+        "parameter": "LL",
+        "problem": "S2",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": 0.08,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.0006529672453827295,
+            "p_upper": 0.3195199591857374,
+            "p_value": 0.3195199591857374,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.08,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.0006529672453827295,
+            "p_upper": 0.3195199591857374,
+            "p_value": 0.3195199591857374,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": -0.21999999999999997,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9429347068430293,
+            "p_upper": 4.9998684821061666e-05,
+            "p_value": 0.9429347068430293,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.009508236836150263,
+            "p_upper": 0.009508236836150263,
+            "p_value": 0.009508236836150263,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": -0.3,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9994076811555003,
+            "p_upper": 1.6396980946715696e-07,
+            "p_value": 0.9994076811555003,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": -0.3,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9994076811555003,
+            "p_upper": 1.6396980946715696e-07,
+            "p_value": 0.9994076811555003,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "LL",
+        "problem": "S3",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": -0.2799999999999999,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9936381665879126,
+            "p_upper": 1.6433549952987628e-06,
+            "p_value": 0.9936381665879126,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": -0.31999999999999995,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.999687184048618,
+            "p_upper": 7.010283161491298e-08,
+            "p_value": 0.999687184048618,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": -0.09999999999999998,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.4999999999999999,
+            "p_upper": 0.012957460022194873,
+            "p_value": 0.4999999999999999,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": -0.040000000000000036,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.07969520338701702,
+            "p_upper": 0.0025194833660184554,
+            "p_value": 0.07969520338701702,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.17999999999999994,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 7.538699935946966e-05,
+            "p_upper": 0.8972729549682961,
+            "p_value": 0.8972729549682961,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.21999999999999997,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 4.1077000311873504e-06,
+            "p_upper": 0.9929910904464557,
+            "p_value": 0.9929910904464557,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "CS",
+        "problem": "S1",
+        "complete": true,
+        "all_pairs_equivalent": true,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          }
+        ]
+      },
+      {
+        "parameter": "CS",
+        "problem": "S2",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": -0.12000000000000001,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.6150886261556398,
+            "p_upper": 0.0015266962508175784,
+            "p_value": 0.6150886261556398,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.08,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.0006529672453827295,
+            "p_upper": 0.3195199591857374,
+            "p_value": 0.3195199591857374,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": -0.12000000000000001,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.6150886261556398,
+            "p_upper": 0.0015266962508175784,
+            "p_value": 0.6150886261556398,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.2,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 8.822650851365202e-06,
+            "p_upper": 0.9871518387915125,
+            "p_value": 0.9871518387915125,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.10877807276466611,
+            "p_upper": 0.10877807531673783,
+            "p_value": 0.10877807531673783,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": -0.2,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9871518386074518,
+            "p_upper": 8.82265064251229e-06,
+            "p_value": 0.9871518386074518,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "CS",
+        "problem": "S3",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": -0.14,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.664998800210379,
+            "p_upper": 0.005590608381620054,
+            "p_value": 0.664998800210379,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": -0.12,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.5836861530360291,
+            "p_upper": 0.01040826667516891,
+            "p_value": 0.5836861530360291,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": 0.15999999999999998,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00463546642464687,
+            "p_upper": 0.7259126226909495,
+            "p_value": 0.7259126226909495,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.08967530033048426,
+            "p_upper": 0.18475116612924125,
+            "p_value": 0.18475116612924125,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.3,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 2.4854784240731382e-05,
+            "p_upper": 0.9791566699345291,
+            "p_value": 0.9791566699345291,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.27999999999999997,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 6.078064517451161e-05,
+            "p_upper": 0.9660488719093286,
+            "p_value": 0.9660488719093286,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "RT",
+        "problem": "S1",
+        "complete": true,
+        "all_pairs_equivalent": true,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": 0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.004901983109516869,
+            "p_upper": 0.03031622373531018,
+            "p_value": 0.03031622373531018,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.004901983109516869,
+            "p_upper": 0.03031622373531018,
+            "p_value": 0.03031622373531018,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.004901983109516869,
+            "p_upper": 0.03031622373531018,
+            "p_value": 0.03031622373531018,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          }
+        ]
+      },
+      {
+        "parameter": "RT",
+        "problem": "S2",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": 0.06,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.0012875512133737413,
+            "p_upper": 0.17410083970656298,
+            "p_value": 0.17410083970656298,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.06,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.0012875512133737413,
+            "p_upper": 0.17410083970656298,
+            "p_value": 0.17410083970656298,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": 0.019999999999999997,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.014189684304467938,
+            "p_upper": 0.06226221484368578,
+            "p_value": 0.06226221484368578,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.009508236836150263,
+            "p_upper": 0.009508236836150263,
+            "p_value": 0.009508236836150263,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": -0.04,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.07969520338701697,
+            "p_upper": 0.002519483366016539,
+            "p_value": 0.07969520338701697,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": -0.04,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.07969520338701697,
+            "p_upper": 0.002519483366016539,
+            "p_value": 0.07969520338701697,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "RT",
+        "problem": "S3",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": -0.13999999999999996,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.6556946888825897,
+            "p_upper": 0.008108873658971099,
+            "p_value": 0.6556946888825897,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": -0.08000000000000002,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.420740290560897,
+            "p_upper": 0.03593031911292576,
+            "p_value": 0.420740290560897,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": -0.03999999999999998,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.27409524247897754,
+            "p_upper": 0.0805964103216219,
+            "p_value": 0.27409524247897754,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.05999999999999994,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.05314946533757166,
+            "p_upper": 0.34312365407166245,
+            "p_value": 0.34312365407166245,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.09999999999999998,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.022247862728078004,
+            "p_upper": 0.4999999999999999,
+            "p_value": 0.4999999999999999,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.040000000000000036,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.08059641032160064,
+            "p_upper": 0.27409524259045315,
+            "p_value": 0.27409524259045315,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S1",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": -0.040000000000000036,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.07969520338701702,
+            "p_upper": 0.0025194833660184554,
+            "p_value": 0.07969520338701702,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": -0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.04537564071584112,
+            "p_upper": 0.008794970025621828,
+            "p_value": 0.04537564071584112,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": -0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.04537564071584112,
+            "p_upper": 0.008794970025621828,
+            "p_value": 0.04537564071584112,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.004901983109516869,
+            "p_upper": 0.03031622373531018,
+            "p_value": 0.03031622373531018,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.004901983109516869,
+            "p_upper": 0.03031622373531018,
+            "p_value": 0.03031622373531018,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.01639022659796013,
+            "p_upper": 0.016390226598062402,
+            "p_value": 0.016390226598062402,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          }
+        ]
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S2",
+        "complete": false,
+        "all_pairs_equivalent": false,
+        "pairs": []
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S3",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": -0.17999999999999994,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.878604697192767,
+            "p_upper": 0.00013051934906450454,
+            "p_value": 0.878604697192767,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": -0.24,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9961856339721236,
+            "p_upper": 1.8829402019941088e-06,
+            "p_value": 0.9961856339721236,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": -0.14,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.7057414043965106,
+            "p_upper": 0.0011649670383845994,
+            "p_value": 0.7057414043965106,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": -0.06000000000000005,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.17410083970656326,
+            "p_upper": 0.0012875513605855832,
+            "p_value": 0.17410083970656326,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.039999999999999925,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.01176295410632664,
+            "p_upper": 0.15032460211026405,
+            "p_value": 0.15032460211026405,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.09999999999999998,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.0003281255639708511,
+            "p_upper": 0.4999999999999997,
+            "p_value": 0.4999999999999997,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "RE",
+        "problem": "S1",
+        "complete": true,
+        "all_pairs_equivalent": true,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          }
+        ]
+      },
+      {
+        "parameter": "RE",
+        "problem": "S2",
+        "complete": true,
+        "all_pairs_equivalent": true,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.009508236836150263,
+            "p_upper": 0.009508236836150263,
+            "p_value": 0.009508236836150263,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.009508236836150263,
+            "p_upper": 0.009508236836150263,
+            "p_value": 0.009508236836150263,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.009508236836150263,
+            "p_upper": 0.009508236836150263,
+            "p_value": 0.009508236836150263,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.009508236836150263,
+            "p_upper": 0.009508236836150263,
+            "p_value": 0.009508236836150263,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.009508236836150263,
+            "p_upper": 0.009508236836150263,
+            "p_value": 0.009508236836150263,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.009508236836150263,
+            "p_upper": 0.009508236836150263,
+            "p_value": 0.009508236836150263,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          }
+        ]
+      },
+      {
+        "parameter": "RE",
+        "problem": "S3",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": -0.43999999999999995,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9997854309883074,
+            "p_upper": 1.591085405366926e-08,
+            "p_value": 0.9997854309883074,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": -0.5,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9999775193799354,
+            "p_upper": 6.03937671623842e-10,
+            "p_value": 0.9999775193799354,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": -0.19999999999999998,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.8752190954180277,
+            "p_upper": 0.00039491105293831965,
+            "p_value": 0.8752190954180277,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": -0.06000000000000005,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.33938621843870853,
+            "p_upper": 0.04910228817510055,
+            "p_value": 0.33938621843870853,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.24,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.0003339744804245945,
+            "p_upper": 0.9194228310087351,
+            "p_value": 0.9194228310087351,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.30000000000000004,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 3.157877185788854e-05,
+            "p_upper": 0.9772735565283639,
+            "p_value": 0.9772735565283639,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "PD",
+        "problem": "S1",
+        "complete": true,
+        "all_pairs_equivalent": true,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          }
+        ]
+      },
+      {
+        "parameter": "PD",
+        "problem": "S2",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": -0.15591836734693876,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.7327519466943846,
+            "p_upper": 0.002633816483688142,
+            "p_value": 0.7327519466943846,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": -0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.20112688233719506,
+            "p_upper": 0.10467186586230198,
+            "p_value": 0.20112688233719506,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": -0.28,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9875405585027011,
+            "p_upper": 4.993214141479945e-06,
+            "p_value": 0.9875405585027011,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.13591836734693874,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.0046715486159198075,
+            "p_upper": 0.656597440095972,
+            "p_value": 0.656597440095972,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": -0.12408163265306127,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.6362738508584563,
+            "p_upper": 0.0013646808805687926,
+            "p_value": 0.6362738508584563,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": -0.26,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9787635622295894,
+            "p_upper": 1.1003380755646807e-05,
+            "p_value": 0.9787635622295894,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "PD",
+        "problem": "S3",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": -0.07999999999999999,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.397443599149524,
+            "p_upper": 0.01168069861375687,
+            "p_value": 0.397443599149524,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": -0.5,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9999812524860318,
+            "p_upper": 4.704681555248373e-10,
+            "p_value": 0.9999812524860318,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": 0.1,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.001171766346306321,
+            "p_upper": 0.5,
+            "p_value": 0.5,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": -0.42000000000000004,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9993959348815799,
+            "p_upper": 7.919132956182852e-08,
+            "p_value": 0.9993959348815799,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.18,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 7.538699935938581e-05,
+            "p_upper": 0.8972729524343612,
+            "p_value": 0.8972729524343612,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.6,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 1.5597790023486886e-13,
+            "p_upper": 0.9999999602493226,
+            "p_value": 0.9999999602493226,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S1",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": 0.040000000000000036,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.002519483366018608,
+            "p_upper": 0.07969520338701702,
+            "p_value": 0.07969520338701702,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": -0.040000000000000036,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.07969520338701702,
+            "p_upper": 0.0025194833660184554,
+            "p_value": 0.07969520338701702,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": -0.040000000000000036,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.07969520338701702,
+            "p_upper": 0.0025194833660184554,
+            "p_value": 0.07969520338701702,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          }
+        ]
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S2",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": -0.039999999999999994,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.10489769507772156,
+            "p_upper": 0.004675092258268828,
+            "p_value": 0.10489769507772156,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": -0.02,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.04537564314990241,
+            "p_upper": 0.008794972356219297,
+            "p_value": 0.04537564314990241,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": -0.12000000000000001,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.6511728639843275,
+            "p_upper": 0.00033228683764662486,
+            "p_value": 0.6511728639843275,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.019999999999999997,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.014189684304467938,
+            "p_upper": 0.06226221484368578,
+            "p_value": 0.06226221484368578,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": -0.08000000000000002,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.3707354395681466,
+            "p_upper": 0.003552261298409255,
+            "p_value": 0.3707354395681466,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": -0.1,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.5,
+            "p_upper": 0.0011717663006498727,
+            "p_value": 0.5,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S3",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": -0.14,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.6970522496701497,
+            "p_upper": 0.0015999620240755399,
+            "p_value": 0.6970522496701497,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": -0.07999999999999996,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.40465750010165724,
+            "p_upper": 0.016528998569224924,
+            "p_value": 0.40465750010165724,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": -0.06000000000000005,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.3177370709069931,
+            "p_upper": 0.030549456157078846,
+            "p_value": 0.3177370709069931,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.06000000000000005,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.01608359281772276,
+            "p_upper": 0.28956446440654315,
+            "p_value": 0.28956446440654315,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.07999999999999996,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.009347884547836175,
+            "p_upper": 0.3927321669609117,
+            "p_value": 0.3927321669609117,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.019999999999999907,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.06674039498421758,
+            "p_upper": 0.1569173044545651,
+            "p_value": 0.1569173044545651,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "ID",
+        "problem": "S1",
+        "complete": true,
+        "all_pairs_equivalent": true,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          }
+        ]
+      },
+      {
+        "parameter": "ID",
+        "problem": "S2",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": 0.08000000000000002,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.003552261412861301,
+            "p_upper": 0.3707354399814212,
+            "p_value": 0.3707354399814212,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.14,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 8.023065076325331e-05,
+            "p_upper": 0.825899160293437,
+            "p_value": 0.825899160293437,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": -0.32,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9924612649774007,
+            "p_upper": 3.1896602358716786e-06,
+            "p_value": 0.9924612649774007,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.06,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.0012875512133737413,
+            "p_upper": 0.17410083970656298,
+            "p_value": 0.17410083970656298,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": -0.4,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9997913390640748,
+            "p_upper": 1.5472925326248965e-08,
+            "p_value": 0.9997913390640748,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": -0.46,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9999974831146309,
+            "p_upper": 1.0190410647693534e-10,
+            "p_value": 0.9999974831146309,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "ID",
+        "problem": "S3",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": -0.18,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.7881929836138575,
+            "p_upper": 0.0025511214030361213,
+            "p_value": 0.7881929836138575,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": -0.26000000000000006,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.946159735114617,
+            "p_upper": 0.0001496612438883083,
+            "p_value": 0.946159735114617,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": 0.21999999999999997,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.0003087800831579691,
+            "p_upper": 0.9040735583276753,
+            "p_value": 0.9040735583276753,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": -0.08000000000000007,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.4174798517686378,
+            "p_upper": 0.030751767303875303,
+            "p_value": 0.4174798517686378,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.39999999999999997,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 1.8389004774529722e-07,
+            "p_upper": 0.9989353973014681,
+            "p_value": 0.9989353973014681,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.48000000000000004,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 2.7055248551748815e-09,
+            "p_upper": 0.9999366898218527,
+            "p_value": 0.9999366898218527,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "MS",
+        "problem": "S1",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": 0.040000000000000036,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.002519483366018608,
+            "p_upper": 0.07969520338701702,
+            "p_value": 0.07969520338701702,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.040000000000000036,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.002519483366018608,
+            "p_upper": 0.07969520338701702,
+            "p_value": 0.07969520338701702,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.040000000000000036,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.002519483366018608,
+            "p_upper": 0.07969520338701702,
+            "p_value": 0.07969520338701702,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "MS",
+        "problem": "S2",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": -0.07999999999999999,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.4098363290939682,
+            "p_upper": 0.021252486623474887,
+            "p_value": 0.4098363290939682,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.2,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 1.8920328663388678e-05,
+            "p_upper": 0.956665453733743,
+            "p_value": 0.956665453733743,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": -0.19999999999999998,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.8591739309062949,
+            "p_upper": 0.0007153796855813796,
+            "p_value": 0.8591739309062949,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.27999999999999997,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 8.284579956878056e-07,
+            "p_upper": 0.996470320658029,
+            "p_value": 0.996470320658029,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": -0.12,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.5825815594073686,
+            "p_upper": 0.011188833805132331,
+            "p_value": 0.5825815594073686,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": -0.39999999999999997,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9999392253255446,
+            "p_upper": 4.221025403115473e-09,
+            "p_value": 0.9999392253255446,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "MS",
+        "problem": "S3",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": -0.14,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.664998800210379,
+            "p_upper": 0.005590608381620054,
+            "p_value": 0.664998800210379,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": -0.28,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9816308424349826,
+            "p_upper": 1.154451058983383e-05,
+            "p_value": 0.9816308424349826,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": -0.040000000000000036,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.26836210014673206,
+            "p_upper": 0.07492658017024754,
+            "p_value": 0.26836210014673206,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": -0.14,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.6970522496701497,
+            "p_upper": 0.0015999620240755399,
+            "p_value": 0.6970522496701497,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.09999999999999998,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.015851902783488348,
+            "p_upper": 0.4999999999999999,
+            "p_value": 0.4999999999999999,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.24,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 5.326850067293335e-05,
+            "p_upper": 0.9524554131698854,
+            "p_value": 0.9524554131698854,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "AW",
+        "problem": "S1",
+        "complete": true,
+        "all_pairs_equivalent": true,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.004901983109516869,
+            "p_upper": 0.03031622373531018,
+            "p_value": 0.03031622373531018,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.004901983109516869,
+            "p_upper": 0.03031622373531018,
+            "p_value": 0.03031622373531018,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.00950823683615026,
+            "p_upper": 0.00950823683615026,
+            "p_value": 0.00950823683615026,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": -0.020000000000000018,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.03031622373531018,
+            "p_upper": 0.004901983109516869,
+            "p_value": 0.03031622373531018,
+            "equivalent": true,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalent"
+          }
+        ]
+      },
+      {
+        "parameter": "AW",
+        "problem": "S2",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": 0.020000000000000004,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.02838570917066673,
+            "p_upper": 0.09591028069905838,
+            "p_value": 0.09591028069905838,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": 0.1,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.0003281254340003262,
+            "p_upper": 0.5,
+            "p_value": 0.5,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": -0.07999999999999999,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.3869838115234918,
+            "p_upper": 0.007167316748107564,
+            "p_value": 0.3869838115234918,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.08,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.0006529672453827295,
+            "p_upper": 0.3195199591857374,
+            "p_value": 0.3195199591857374,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": -0.09999999999999999,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.49999999999999994,
+            "p_upper": 0.0028487877636528196,
+            "p_value": 0.49999999999999994,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": -0.18,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9696837762646898,
+            "p_upper": 1.8670824232928927e-05,
+            "p_value": 0.9696837762646898,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      },
+      {
+        "parameter": "AW",
+        "problem": "S3",
+        "complete": true,
+        "all_pairs_equivalent": false,
+        "pairs": [
+          {
+            "a": "hybrid",
+            "b": "paraphrase_1",
+            "difference": -0.4,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9996866022463275,
+            "p_upper": 2.6275322235921882e-08,
+            "p_value": 0.9996866022463275,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_2",
+            "difference": -0.31999999999999995,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9913479562715373,
+            "p_upper": 4.297115469728745e-06,
+            "p_value": 0.9913479562715373,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "hybrid",
+            "b": "paraphrase_3",
+            "difference": -0.31999999999999995,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.9913479562715373,
+            "p_upper": 4.297115469728745e-06,
+            "p_value": 0.9913479562715373,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_2",
+            "difference": 0.08000000000000007,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.005212734835721517,
+            "p_upper": 0.37983707062787814,
+            "p_value": 0.37983707062787814,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_1",
+            "b": "paraphrase_3",
+            "difference": 0.08000000000000007,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.005212734835721517,
+            "p_upper": 0.37983707062787814,
+            "p_value": 0.37983707062787814,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          },
+          {
+            "a": "paraphrase_2",
+            "b": "paraphrase_3",
+            "difference": 0.0,
+            "margin": 0.1,
+            "alpha": 0.05,
+            "p_lower": 0.09162666590447482,
+            "p_upper": 0.09162666590447083,
+            "p_value": 0.09162666590447482,
+            "equivalent": false,
+            "method": "constrained-binomial score TOST with Miettinen-Nurminen variance correction",
+            "interpretation": "equivalence_not_established"
+          }
+        ]
+      }
+    ],
+    "n_equivalent": 8,
+    "n_expected": 30,
+    "criterion_met": false,
+    "note": "Failure to establish equivalence is not proof of a meaningful difference."
+  },
+  "baseline_design_hash": "9b865506af7aa05252ca49e4ebf98b05f1345e0eb4023e40b65d2255479db797"
+}

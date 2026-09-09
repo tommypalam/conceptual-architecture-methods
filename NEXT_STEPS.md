@@ -14,7 +14,7 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 15,000/15,000 valid records, zero API failures. Rotations have 4,500/4,500 records,
 4,498 valid parses and two parse failures, zero API failures. Both completed runs
 have checksum inventories and local ZIP backups in `output/validity_backups`.
-Combined OpenAI token cost is approximately $17.92 before taxes. The independent
+Source-plus-rotations OpenAI token cost is approximately $17.92 before taxes. The independent
 Claude audit is now complete in `claude_audit_20260909_brief_r3`: 200 valid coding
 records, 2,000 estimates including two abstentions. The user approved optional
 concise commentary. The revised prompt requests at most 15 explanatory words;
@@ -36,9 +36,16 @@ See the [gradient report](experiments/phase1_5_encoding_validity/gradients_20260
 Terminal job status: `output/validity_gradients_20260909/status.json`.
 Earlier audit failures were
 preserved separately; the completed audit uses the unchanged 200-item blind pack.
-Corrected paraphrases are generated and assistant-reviewed in
-`claude_paraphrases_20260909_theory_r5`; exact-template human approval and
-the 4,500-call equivalence experiment remain pending as described below.
+Corrected paraphrases in `claude_paraphrases_20260909_theory_r5` are now
+human-approved by Tommy (project owner), with unchanged exact template hashes.
+The 4,500-call equivalence experiment is complete in `paraphrases_20260909_final`:
+4,497 valid parses, three preserved parsing failures, zero API failures, estimated
+token cost $5.06. Only 8/30 cells establish all-pair equivalence (24 required);
+one cell also misses the parse floor. Checksums and the local ZIP are verified.
+All authorised empirical battery collection is complete. The current architecture
+does not meet the gate; Phase 2 remains on hold. See the
+[battery assessment](experiments/phase1_5_encoding_validity/phase_review_20260909/BATTERY_ASSESSMENT.md).
+Terminal status: `output/validity_paraphrases_20260909/status.json`.
 Earlier progress counts below are historical checkpoints.
 
 **Historical launch notes:** the user instructed rerunning Phase 1.5 from scratch. The source
@@ -67,7 +74,7 @@ See [cross-computer continuation](docs/phase1_5_continuation.md).
 |---|---|---|
 | 0a–0c | Closed, with documented baseline and delivery deviations | [Phase 0 closure](experiments/PHASE0_CLOSURE_2026-07-29.md) |
 | 1 | Operational pilot passed, S3 + S2, 100 calls | [Pilot result](experiments/phase1_pilot/PHASE1_PILOT_RESULT_2026-07-29.md) |
-| 1.5 | Open; source, rotations, audit and gradients complete; paraphrases pending | [Gradient results](experiments/phase1_5_encoding_validity/gradients_20260909_final/analysis/GRADIENT_REPORT.md), [follow-up implementation](docs/phase1_5_followup.md) |
+| 1.5 | Empirical battery complete; current gate not met; next research decision pending | [Battery assessment](experiments/phase1_5_encoding_validity/phase_review_20260909/BATTERY_ASSESSMENT.md) |
 | 2 | Pending; encoding-validity gate and preregistration required | Paired-agent individual and collective experiments |
 | 3 | Pending | Five behavioural benchmark families and contamination diagnostics |
 | 4 | Pending | Reviewed moral-coding manual and human validation |
@@ -96,28 +103,31 @@ The stored failures must not be deleted or replaced to make the run resumable.
 
 ## Next actions
 
-1. Source sweep, rotations and independent audit are collected and scored. Do
-   not rerun these completed samples merely to improve their results.
+1. Source sweep, rotations, gradients, independent audit and approved paraphrases
+   are collected and scored. Review the battery assessment with the researcher;
+   do not rerun completed samples merely to improve their results.
 2. The user explicitly approved the previously blocked thesis disclosure to
    Anthropic. Four preserved Haiku generation/correction calls (r2–r5) produced
    final candidates with no changes to the canonical theory or scaffold.
 3. The final three candidates pass structural/lexical checks and assistant
    semantic review. Review the [exact templates](experiments/phase1_5_encoding_validity/claude_paraphrases_20260909_theory_r5/HUMAN_REVIEW.md)
    and [review findings](docs/phase1_5_paraphrase_final_review_20260909.md).
-   Human approval against their exact hashes remains required before the
-   4,500 paraphrase behaviour calls. All approval fields remain false.
+   Tommy approved all three exact templates. `paraphrases_approved.json` records
+   that approval separately from the preserved unapproved preparation bundle.
+   The 4,500-call run is complete; the equivalence criterion was not met.
 4. Completed runs have checksum inventories and ZIP backups under
    `output/validity_backups` (same machine, not off-device). The old supervisor
    is stopped; do not relaunch it against the obsolete failed audit designation.
-5. Review the entire validity battery before authorising Phase 2. A single .8
-   rotation does not estimate a gradient; the now-authorised five-value extension
-   collected 15,000 calls and is complete. Do not rerun it to improve results.
+5. Hold Phase 2. Discuss a concrete next-study proposal and any demonstrated
+   implementation limitations with the researcher before changing architecture,
+   scope, hypotheses, or locked prompts. No revised partial-pass path is assumed.
 
 The final gradient design is frozen in `gradients_20260909_final/manifest.json`.
 The user approved its 15,000 calls (estimated $20–$55; actual token estimate
 $14.54) and subsequently approved the thesis-containing paraphrase disclosure.
-Human semantic approval of the final wording remains pending. The current
-[evidence matrix](experiments/phase1_5_encoding_validity/phase_review_20260909/evidence_7c6e7611aaf4b8b2.md)
+Human semantic approval of the final wording and the completed paraphrase
+results are recorded. The current
+[evidence matrix](experiments/phase1_5_encoding_validity/phase_review_20260909/evidence_a8076369a0ab8aa4.md)
 keeps completed evidence and unresolved criteria distinct; it is not a gate verdict.
 
 ## Supervisor handoff
