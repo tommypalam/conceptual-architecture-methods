@@ -4,6 +4,30 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-09 — Thesis disclosure approved; final paraphrases prepared
+
+After the explicit disclosure question and explanation of Anthropic API data
+terms, the user replied "approval given". Retried the previously rejected exact
+request through approval review; execution was allowed. This resolves the prior
+disclosure block. It does not supply prospective human approval of new wording.
+
+Four preserved Haiku calls (theory_r2–r5) generated and refined the endpoints.
+The first two rounds still changed conceptual meanings; targeted semantic
+feedback corrected those defects without supplying replacement text or any
+behavioural outcomes. The r4 guard stopped on three unrequested edits, all
+subsequently inspected and disclosed. Two remaining CS defects were corrected
+in r5. Its response used corrected_variants rather than variants; offline
+extraction verified that only the two requested endpoints changed and preserved
+all generated text. No frozen generator or scientific source was edited.
+
+All three final templates pass structure and per-parameter lexical targets.
+Assistant semantic review recommends them for human review against the thesis
+and accepted implementation. See docs/phase1_5_paraphrase_final_review_20260909.md
+for the parameter-by-parameter and synthetic five-perspective assessment.
+The final exact templates and hashes are in theory_r5/HUMAN_REVIEW.md.
+All human approval fields remain false and no paraphrase behavioural calls
+have started. No theoretical departure, model swap, or phase pass is claimed.
+
 ## 2026-09-09 — Gradient extension completed and reviewed
 
 Completed the authorised 15,000-call extension, neutral configuration, N=50 per

@@ -1,0 +1,14 @@
+[
+  {
+    "variant": 2,
+    "parameter": "CS",
+    "endpoint": "1",
+    "issue": "Describe even mild pressure being experienced as meaningful restriction, without specifying opposition to autonomous action. Use a simple synonym for constraint/restriction; avoid autonomous, pull, and action."
+  },
+  {
+    "variant": 3,
+    "parameter": "CS",
+    "endpoint": "0",
+    "issue": "Describe influence being regarded as part of the environment. Remove the added magnitude qualifier completely. Do NOT replace moderate with any other magnitude or intensity adjective. The canonical low endpoint specifies no magnitude range."
+  }
+]

@@ -1,0 +1,288 @@
+{
+  "task": "Rewrite ONLY the flagged endpoints using your own words to resolve each issue. Preserve every unlisted endpoint verbatim. Return the full corrected three-variant JSON and nothing else. Each parameter pair must keep word-set Jaccard below 0.4 versus canonical; preserve meaning first.",
+  "canonical_template": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Legitimacy Locus: [LL_VALUE]\n    (0 = validity comes from institutional warrant and shared norms;\n     1 = validity comes from personal judgment and self-authored endorsement)\n\n 2. Constraint Sensitivity: [CS_VALUE]\n    (0 = influence registers as environmental feature;\n     1 = even soft pressure registers as meaningful restriction)\n\n 3. Response Threshold: [RT_VALUE]\n    (0 = high tolerance; only major violations activate response;\n     1 = hair-trigger; minor deviations activate response)\n\n 4. Mode of Response: [MOR_VALUE]\n    (0 = internal, reflective, self-adjusting;\n     1 = external, behavioural, confrontational)\n\n 5. Relational Embedding: [RE_VALUE]\n    (0 = atomised, agent-centred, abstract-person model;\n     1 = role-sensitive, relational, socially embedded)\n\n 6. Procedural Dependence: [PD_VALUE]\n    (0 = outcome-dominant; results matter, methods are secondary;\n     1 = process-dominant; fair procedure matters independently)\n\n 7. Tolerance for Asymmetry: [TFA_VALUE]\n    (0 = asymmetry is inherently suspect, default is symmetry;\n     1 = asymmetry is accepted if intelligible, hierarchy is fine)\n\n 8. Internalization Dependence: [ID_VALUE]\n    (0 = surface compliance is sufficient;\n     1 = genuine endorsement and value-congruence required)\n\n 9. Moral Scope: [MS_VALUE]\n    (0 = local, role-bound, partial, context-limited;\n     1 = universalised, generalisable, broadly applied)\n\n 10. Affective Weighting: [AW_VALUE]\n    (0 = cognitive, deliberative, reasoned processing;\n     1 = affective, intuitive, felt processing)\n\n# Your normative context\n\nYou operate in a society with the following structural properties:\n- Freedom:   [FREEDOM]\n- Justice:   [JUSTICE]\n- Authority: [AUTHORITY]\n- Care:      [CARE]\n- Loyalty:   [LOYALTY]\n\n[CONFIG_DESCRIPTION]\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified.",
+  "theory_section_3_1": "**1. Legitimacy Locus**\n*Endpoints.* 0 = external warrant (institutional, role-based, socially recognised), 1 = internal endorsement (self-authored, autonomy-driven). *Primary anchor:* Deci & Ryan GCOS autonomy-orientation (1985).\nOn what grounds is a norm, action, outcome, directive, care-claim, or loyalty-claim treated as valid? Maps across concepts: freedom asks whether agency is validated by recognised conditions or by self-authored endorsement; justice asks whether fairness judgments are norm-anchored or personal-intuitive; authority asks whether obedience is earned by office and rank or by shared internalised norm; care asks whether compassion extends on institutional deservingness or on personal grounds; loyalty asks whether group bonds are sustained by external markers or by internal commitment. **Note on convention: the axis runs 0 = external, 1 = internal**, so that the calibrated marginal Beta(3.5, 2.5) — mean 0.583 — matches the autonomy-leaning population profile documented in Self-Determination Theory's GCOS data.\n\n**2. Constraint Sensitivity**\n*Endpoints.* 0 = low (influence registered as environmental feature), 1 = high (even soft pressure registers as restriction). *Primary anchor:* Hong Psychological Reactance Scale (Hong & Faedda 1996).\nHow readily does the agent interpret influence, asymmetry, or outcome-shaping as meaningful restriction? Central to freedom but determining how readily injustice is detected, whether authority is experienced as coercive, whether help is received as paternalism, and whether in-group expectations feel like identity-coercion.\n\n**3. Response Threshold**\n*Endpoints.* 0 = high tolerance (only major violations activate response), 1 = hair-trigger. *Primary anchor:* Ultimatum Game rejection thresholds (Wallace et al. 2007).\nHow much deviation, imbalance, or illegitimacy is tolerated before the agent is moved to respond? Determines when constraint triggers resistance (freedom), when inequity triggers correction (justice), when illegitimate command triggers refusal (authority), when suffering activates helping (care), and when group-threat activates protective action (loyalty).\n\n**4. Mode of Response**\n*Endpoints.* 0 = internal/reflective (self adjusts), 1 = external/behavioural (world is acted on). *Primary anchor:* STAXI anger-in/anger-out (Spielberger 1988); Davis IRI EC/PD distinction (1983); Hirschman exit/voice/loyalty (1970).\nWhen the concept is activated, what form does response take? Bridges the parameter layer to observable behaviour across all five concepts: the same Response Threshold combined with different Mode of Response produces qualitatively different behavioural signatures.\n\n**5. Relational Embedding**\n*Endpoints.* 0 = atomised (abstract-person model), 1 = role-sensitive/socially embedded. *Primary anchor:* Singelis Self-Construal Scale (1994).\nTo what extent is the concept interpreted through social roles, proximity, and interpersonal bonds rather than abstract standalone agents? Foundational for loyalty (atomised agents cannot hold loyalty) and load-bearing for care through the universalist-versus-partialist distinction (Bloom 2016; Greene 2013).\n\n**6. Procedural Dependence**\n*Endpoints.* 0 = outcome-dominant (results matter, methods secondary), 1 = process-dominant. *Primary anchor:* Colquitt Organisational Justice Scale (2001); Tyler & Blader group engagement model (2003).\nHow much does the concept depend on how something is done rather than only what outcome occurs? Empirically separable from distributive judgment; authority legitimacy depends heavily on mandate, due process, and consent; loyalty can be enacted through ritual form (Whitehouse 2018) or substantive support.\n\n**7. Tolerance for Asymmetry**\n*Endpoints.* 0 = asymmetry inherently suspect (default symmetry), 1 = asymmetry accepted if justified. *Primary anchor:* Social Dominance Orientation (Pratto et al. 1994; Ho et al. 2015 SDO7).\nHow much unequal influence, rank, entitlement, or differential standing is acceptable? The best-empirically-anchored parameter. Duckitt & Sibley's dual-process model (2009, 2010) extends this through the RWA-SDO structure.\n\n**8. Internalisation Dependence**\n*Endpoints.* 0 = surface compliance suffices, 1 = genuine endorsement required. *Primary anchor:* Self-Regulation Questionnaire (Ryan & Connell 1989).\nHow much does realisation of the concept depend on inward endorsement rather than external enforcement alone? Directly operationalises Kelman's compliance–identification–internalisation ladder and connects all five concept definitions at the deepest level.\n\n**9. Moral Scope**\n*Endpoints.* 0 = local/role-bound/partial, 1 = universalised/generalisable. *Primary anchor:* Moral Expansiveness Scale (Crimston et al. 2016; MESx 2018).\nHow broadly is the concept extended across persons and cases? Replaces earlier MFQ-only anchoring; MES is the direct instrument for expanding-circle operationalisation. Load-bearing for care (who is cared for) and loyalty (how wide the loyalty target), and in productive tension with Tolerance for Asymmetry.\n\n**10. Affective Weighting**\n*Endpoints.* 0 = cognitive/deliberative, 1 = affective/intuitive. *Primary anchor:* Davis IRI EC vs PT subscale ratio (1983); Greene et al. (2001); Haidt (2001) social intuitionist model.\nThe extent to which the concept is processed through emotional engagement versus cognitive deliberation. Cuts across all five concepts in a distinct way — felt autonomy vs reasoned autonomy, moral outrage vs equity calculation, charismatic vs rational-legal authority, empathic concern vs reasoned beneficence, identity fusion vs deliberated commitment.\n\nThe parameter set is theory-driven and developed from close reading of the canonical definitions. It is not treated as an oracle that automatically discovers the ontology of political concepts. Exploratory dimensional reduction may later test whether any parameters are empirically redundant despite conceptual distinctness; the mapping matrix in Appendix A provides the concept-by-parameter cross-section that would be used for that analysis.\n",
+  "previous_candidates": {
+    "variants": [
+      {
+        "endpoints": {
+          "LL": {
+            "0": "validity emerges from institutional structures and socially sanctioned benchmarks",
+            "1": "validity emerges from individual reflection and self-determined endorsement"
+          },
+          "CS": {
+            "0": "external forces present as contextual givens rather than restrictions",
+            "1": "gentle forms of pressure register as meaningful limitations on choice"
+          },
+          "RT": {
+            "0": "action is triggered only when norm violations reach a pronounced level",
+            "1": "action is triggered by slight or emerging norm departures"
+          },
+          "MoR": {
+            "0": "response manifests through inner reconsideration and personal reorientation",
+            "1": "response manifests through overt action and direct world-alteration"
+          },
+          "RE": {
+            "0": "persons are treated as generic units without contextual positioning",
+            "1": "persons are understood through their situational roles and interpersonal embeddedness"
+          },
+          "PD": {
+            "0": "distributional outcomes carry primary weight; process serves instrumental ends",
+            "1": "procedural equity carries independent moral standing regardless of outcome"
+          },
+          "TfA": {
+            "0": "differential standing invites scrutiny unless clearly warranted",
+            "1": "differential standing is admissible when grounded in coherent reasoning"
+          },
+          "ID": {
+            "0": "external adherence and behavioral compliance constitute sufficiency",
+            "1": "sincere conviction and integration with one's own value-framework are required"
+          },
+          "MS": {
+            "0": "prescriptions remain bounded to particular domains and circumscribed populations",
+            "1": "prescriptions extend across diverse contexts and apply to all persons uniformly"
+          },
+          "AW": {
+            "0": "judgment operates via systematic analysis and explicit cognitive work",
+            "1": "judgment operates via felt apprehension and direct emotional sensing"
+          }
+        }
+      },
+      {
+        "endpoints": {
+          "LL": {
+            "0": "warranting grounds lie in formal institutions and collectively ratified conventions",
+            "1": "warranting grounds lie in personal reasoning and self-authored commitment"
+          },
+          "CS": {
+            "0": "influence appears as a structural feature of the ambient environment",
+            "1": "even attenuated influence manifests as a pull against autonomous action"
+          },
+          "RT": {
+            "0": "response requires significant breaches or egregious failures to activate",
+            "1": "response activates upon minor aberrations or incipient deviations"
+          },
+          "MoR": {
+            "0": "response takes inward form: private reassessment and self-modification",
+            "1": "response takes outward form: tangible intervention and public expression"
+          },
+          "RE": {
+            "0": "agents are modeled as independent units absent social connection",
+            "1": "agents are modeled through social positions, bonds, and relational ties"
+          },
+          "PD": {
+            "0": "outcomes predominate; methods retain merely instrumental standing",
+            "1": "rightful process possesses independent normative standing"
+          },
+          "TfA": {
+            "0": "asymmetry is presumptively suspect absent explicit defensible grounds",
+            "1": "asymmetry is permissible when sustained by intelligible rationale"
+          },
+          "ID": {
+            "0": "surface conformity to external standards suffices",
+            "1": "genuine acceptance and value-consonance with personal principles are necessary"
+          },
+          "MS": {
+            "0": "norms remain localized to designated roles, communities, and bounded sets",
+            "1": "norms travel across situations and generalize to encompass all persons"
+          },
+          "AW": {
+            "0": "deliberation relies on discursive reasoning and calculated judgment",
+            "1": "deliberation relies on affective resonance and intuitive grasp"
+          }
+        }
+      },
+      {
+        "endpoints": {
+          "LL": {
+            "0": "standing derives from recognized organizational frames and shared normative anchors",
+            "1": "standing derives from individual judgment and personally chosen commitments"
+          },
+          "CS": {
+            "0": "pressures of any magnitude register as features of circumstance",
+            "1": "even subdued pressure registers as a form of meaningful constraint"
+          },
+          "RT": {
+            "0": "tolerance remains high until violations attain material severity",
+            "1": "tolerance remains low; modest deviations suffice to prompt action"
+          },
+          "MoR": {
+            "0": "response channels through internal reflection and adaptive recalibration",
+            "1": "response channels through external engagement and contestatory behavior"
+          },
+          "RE": {
+            "0": "persons are treated as abstract entities abstracted from context",
+            "1": "persons are treated as embedded within role-systems and relational webs"
+          },
+          "PD": {
+            "0": "results dominate; procedural considerations serve instrumental functions",
+            "1": "adherence to fair procedure carries worth independent of realized outcome"
+          },
+          "TfA": {
+            "0": "inequality stands as prima facie problematic until justified",
+            "1": "inequality stands as acceptable where grounded in recognizable principle"
+          },
+          "ID": {
+            "0": "outward compliance to prescribed standards is adequate",
+            "1": "authentic ownership and alignment with personal values are indispensable"
+          },
+          "MS": {
+            "0": "principles apply within delimited contexts and to particular collectives",
+            "1": "principles apply broadly across situations and to all persons indifferently"
+          },
+          "AW": {
+            "0": "judgment employs deliberative reasoning and analytical processes",
+            "1": "judgment employs affective sensitivity and immediate intuitive response"
+          }
+        }
+      }
+    ]
+  },
+  "corrections": [
+    {
+      "variant": 1,
+      "parameter": "LL",
+      "endpoint": "1",
+      "issue": "Personal endorsement/judgment need not involve reflection or reasoning. Remove that cognitive restriction."
+    },
+    {
+      "variant": 1,
+      "parameter": "MoR",
+      "endpoint": "1",
+      "issue": "Must explicitly convey confrontation or challenging circumstances, not just neutral action or public expression."
+    },
+    {
+      "variant": 2,
+      "parameter": "LL",
+      "endpoint": "1",
+      "issue": "Personal endorsement/judgment need not involve reflection or reasoning. Remove that cognitive restriction."
+    },
+    {
+      "variant": 2,
+      "parameter": "MoR",
+      "endpoint": "1",
+      "issue": "Must explicitly convey confrontation or challenging circumstances, not just neutral action or public expression."
+    },
+    {
+      "variant": 1,
+      "parameter": "PD",
+      "endpoint": "0",
+      "issue": "CRITICAL: results take priority while procedures STILL MATTER but less. Explicitly retain this lesser value. Do not use instrumental, merely, only, means-to-ends, or distributional. Do not narrow results to distribution."
+    },
+    {
+      "variant": 1,
+      "parameter": "TfA",
+      "endpoint": "0",
+      "issue": "Explicitly convey equal standing as the default AND suspicion of unequal standing; not only scrutiny. This concerns rank/influence generally, not only allocation."
+    },
+    {
+      "variant": 2,
+      "parameter": "PD",
+      "endpoint": "0",
+      "issue": "CRITICAL: results take priority while procedures STILL MATTER but less. Explicitly retain this lesser value. Do not use instrumental, merely, only, means-to-ends, or distributional. Do not narrow results to distribution."
+    },
+    {
+      "variant": 2,
+      "parameter": "TfA",
+      "endpoint": "0",
+      "issue": "Explicitly convey equal standing as the default AND suspicion of unequal standing; not only scrutiny. This concerns rank/influence generally, not only allocation."
+    },
+    {
+      "variant": 3,
+      "parameter": "PD",
+      "endpoint": "0",
+      "issue": "CRITICAL: results take priority while procedures STILL MATTER but less. Explicitly retain this lesser value. Do not use instrumental, merely, only, means-to-ends, or distributional. Do not narrow results to distribution."
+    },
+    {
+      "variant": 3,
+      "parameter": "TfA",
+      "endpoint": "0",
+      "issue": "Explicitly convey equal standing as the default AND suspicion of unequal standing; not only scrutiny. This concerns rank/influence generally, not only allocation."
+    },
+    {
+      "variant": 1,
+      "parameter": "MS",
+      "endpoint": "1",
+      "issue": "Broad generalisability across people AND cases, without requiring equal or identical treatment. Do not use uniformly, indiscriminately, indifferently, or identical."
+    },
+    {
+      "variant": 1,
+      "parameter": "MS",
+      "endpoint": "0",
+      "issue": "Retain role-linked partiality as well as local/context/group limits; current wording omits roles."
+    },
+    {
+      "variant": 3,
+      "parameter": "MS",
+      "endpoint": "1",
+      "issue": "Broad generalisability across people AND cases, without requiring equal or identical treatment. Do not use uniformly, indiscriminately, indifferently, or identical."
+    },
+    {
+      "variant": 3,
+      "parameter": "MS",
+      "endpoint": "0",
+      "issue": "Retain role-linked partiality as well as local/context/group limits; current wording omits roles."
+    },
+    {
+      "variant": 1,
+      "parameter": "RT",
+      "endpoint": "0",
+      "issue": "Only major deviations/violations activate a RESPONSE, possibly internal, not necessarily action. Do not restrict deviations to norms."
+    },
+    {
+      "variant": 1,
+      "parameter": "RT",
+      "endpoint": "1",
+      "issue": "Small deviations suffice to activate a RESPONSE, possibly internal, not necessarily action. Do not restrict deviations to norms."
+    },
+    {
+      "variant": 1,
+      "parameter": "AW",
+      "endpoint": "1",
+      "issue": "Explicit feelings/emotion AND intuition. Do not suggest sensory perception or speed."
+    },
+    {
+      "variant": 3,
+      "parameter": "AW",
+      "endpoint": "1",
+      "issue": "Feelings/emotion AND intuition without a claim about speed. Remove immediate."
+    },
+    {
+      "variant": 3,
+      "parameter": "LL",
+      "endpoint": "0",
+      "issue": "Validity/warrantedness across concepts, not social standing or only organizations. Institutional/shared social grounds."
+    },
+    {
+      "variant": 3,
+      "parameter": "LL",
+      "endpoint": "1",
+      "issue": "Validity/warrantedness rather than social standing; inward personal judgment and chosen endorsement."
+    },
+    {
+      "variant": 3,
+      "parameter": "CS",
+      "endpoint": "0",
+      "issue": "Low sensitivity construes influence as environmental, not necessarily all pressures of ANY magnitude. Remove absolute any-magnitude claim."
+    },
+    {
+      "variant": 3,
+      "parameter": "ID",
+      "endpoint": "1",
+      "issue": "Sincere inner acceptance/endorsement and congruence with personal values; ownership could imply possession, so avoid it."
+    },
+    {
+      "variant": 2,
+      "parameter": "CS",
+      "endpoint": "1",
+      "issue": "Even mild pressure perceived as meaningful restriction. Avoid narrowing to opposition to autonomous action."
+    },
+    {
+      "variant": 2,
+      "parameter": "PD",
+      "endpoint": "1",
+      "issue": "Explicitly FAIR procedure has independent value; rightful is ambiguous legal legitimacy."
+    }
+  ],
+  "provenance": "Claude-generated wording revised from assistant semantic feedback; no behavioural outcomes supplied. Human semantic approval remains pending."
+}

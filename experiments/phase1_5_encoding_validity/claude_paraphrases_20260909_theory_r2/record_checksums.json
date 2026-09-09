@@ -1,0 +1,15 @@
+{
+  "design_hash": "ed6cc452440d60da72ef4dcb8b30173ce940714f008b9c66abf2b328e388c0d2",
+  "n_records": 1,
+  "n_invalid": 0,
+  "n_api_failures": 0,
+  "models_returned": [
+    "claude-haiku-4-5-20251001"
+  ],
+  "index": [
+    {
+      "record_key": "generation",
+      "record_hash": "67f66a41127707d9267155f51dfed61ee5a8011b94df598deca996869b3502ed"
+    }
+  ]
+}

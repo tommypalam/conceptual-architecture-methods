@@ -1,0 +1,146 @@
+[
+  {
+    "variant": 1,
+    "parameter": "LL",
+    "endpoint": "1",
+    "issue": "Personal endorsement/judgment need not involve reflection or reasoning. Remove that cognitive restriction."
+  },
+  {
+    "variant": 1,
+    "parameter": "MoR",
+    "endpoint": "1",
+    "issue": "Must explicitly convey confrontation or challenging circumstances, not just neutral action or public expression."
+  },
+  {
+    "variant": 2,
+    "parameter": "LL",
+    "endpoint": "1",
+    "issue": "Personal endorsement/judgment need not involve reflection or reasoning. Remove that cognitive restriction."
+  },
+  {
+    "variant": 2,
+    "parameter": "MoR",
+    "endpoint": "1",
+    "issue": "Must explicitly convey confrontation or challenging circumstances, not just neutral action or public expression."
+  },
+  {
+    "variant": 1,
+    "parameter": "PD",
+    "endpoint": "0",
+    "issue": "CRITICAL: results take priority while procedures STILL MATTER but less. Explicitly retain this lesser value. Do not use instrumental, merely, only, means-to-ends, or distributional. Do not narrow results to distribution."
+  },
+  {
+    "variant": 1,
+    "parameter": "TfA",
+    "endpoint": "0",
+    "issue": "Explicitly convey equal standing as the default AND suspicion of unequal standing; not only scrutiny. This concerns rank/influence generally, not only allocation."
+  },
+  {
+    "variant": 2,
+    "parameter": "PD",
+    "endpoint": "0",
+    "issue": "CRITICAL: results take priority while procedures STILL MATTER but less. Explicitly retain this lesser value. Do not use instrumental, merely, only, means-to-ends, or distributional. Do not narrow results to distribution."
+  },
+  {
+    "variant": 2,
+    "parameter": "TfA",
+    "endpoint": "0",
+    "issue": "Explicitly convey equal standing as the default AND suspicion of unequal standing; not only scrutiny. This concerns rank/influence generally, not only allocation."
+  },
+  {
+    "variant": 3,
+    "parameter": "PD",
+    "endpoint": "0",
+    "issue": "CRITICAL: results take priority while procedures STILL MATTER but less. Explicitly retain this lesser value. Do not use instrumental, merely, only, means-to-ends, or distributional. Do not narrow results to distribution."
+  },
+  {
+    "variant": 3,
+    "parameter": "TfA",
+    "endpoint": "0",
+    "issue": "Explicitly convey equal standing as the default AND suspicion of unequal standing; not only scrutiny. This concerns rank/influence generally, not only allocation."
+  },
+  {
+    "variant": 1,
+    "parameter": "MS",
+    "endpoint": "1",
+    "issue": "Broad generalisability across people AND cases, without requiring equal or identical treatment. Do not use uniformly, indiscriminately, indifferently, or identical."
+  },
+  {
+    "variant": 1,
+    "parameter": "MS",
+    "endpoint": "0",
+    "issue": "Retain role-linked partiality as well as local/context/group limits; current wording omits roles."
+  },
+  {
+    "variant": 3,
+    "parameter": "MS",
+    "endpoint": "1",
+    "issue": "Broad generalisability across people AND cases, without requiring equal or identical treatment. Do not use uniformly, indiscriminately, indifferently, or identical."
+  },
+  {
+    "variant": 3,
+    "parameter": "MS",
+    "endpoint": "0",
+    "issue": "Retain role-linked partiality as well as local/context/group limits; current wording omits roles."
+  },
+  {
+    "variant": 1,
+    "parameter": "RT",
+    "endpoint": "0",
+    "issue": "Only major deviations/violations activate a RESPONSE, possibly internal, not necessarily action. Do not restrict deviations to norms."
+  },
+  {
+    "variant": 1,
+    "parameter": "RT",
+    "endpoint": "1",
+    "issue": "Small deviations suffice to activate a RESPONSE, possibly internal, not necessarily action. Do not restrict deviations to norms."
+  },
+  {
+    "variant": 1,
+    "parameter": "AW",
+    "endpoint": "1",
+    "issue": "Explicit feelings/emotion AND intuition. Do not suggest sensory perception or speed."
+  },
+  {
+    "variant": 3,
+    "parameter": "AW",
+    "endpoint": "1",
+    "issue": "Feelings/emotion AND intuition without a claim about speed. Remove immediate."
+  },
+  {
+    "variant": 3,
+    "parameter": "LL",
+    "endpoint": "0",
+    "issue": "Validity/warrantedness across concepts, not social standing or only organizations. Institutional/shared social grounds."
+  },
+  {
+    "variant": 3,
+    "parameter": "LL",
+    "endpoint": "1",
+    "issue": "Validity/warrantedness rather than social standing; inward personal judgment and chosen endorsement."
+  },
+  {
+    "variant": 3,
+    "parameter": "CS",
+    "endpoint": "0",
+    "issue": "Low sensitivity construes influence as environmental, not necessarily all pressures of ANY magnitude. Remove absolute any-magnitude claim."
+  },
+  {
+    "variant": 3,
+    "parameter": "ID",
+    "endpoint": "1",
+    "issue": "Sincere inner acceptance/endorsement and congruence with personal values; ownership could imply possession, so avoid it."
+  },
+  {
+    "variant": 2,
+    "parameter": "CS",
+    "endpoint": "1",
+    "issue": "Even mild pressure perceived as meaningful restriction. Avoid narrowing to opposition to autonomous action."
+  },
+  {
+    "variant": 2,
+    "parameter": "PD",
+    "endpoint": "1",
+    "issue": "Explicitly FAIR procedure has independent value; rightful is ambiguous legal legitimacy."
+  }
+]

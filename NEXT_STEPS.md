@@ -36,7 +36,9 @@ See the [gradient report](experiments/phase1_5_encoding_validity/gradients_20260
 Terminal job status: `output/validity_gradients_20260909/status.json`.
 Earlier audit failures were
 preserved separately; the completed audit uses the unchanged 200-item blind pack.
-Corrected paraphrase generation and review remain pending as described below.
+Corrected paraphrases are generated and assistant-reviewed in
+`claude_paraphrases_20260909_theory_r5`; exact-template human approval and
+the 4,500-call equivalence experiment remain pending as described below.
 Earlier progress counts below are historical checkpoints.
 
 **Historical launch notes:** the user instructed rerunning Phase 1.5 from scratch. The source
@@ -96,27 +98,26 @@ The stored failures must not be deleted or replaced to make the run resumable.
 
 1. Source sweep, rotations and independent audit are collected and scored. Do
    not rerun these completed samples merely to improve their results.
-2. Automatic approval review blocked the revised Claude generation request
-   because it exports thesis text to Anthropic. The exact request is prepared
-   in `claude_paraphrases_20260909_theory_r2/generation_request.json`; explicit
-   user approval for that disclosure is pending. Do not bypass the rejection.
-3. The first three Claude candidates were rejected after the user requested an
-   assistant comparison with theory/specification: see the
-   [semantic review](docs/phase1_5_paraphrase_review_20260909.md).
-   Review corrected candidates after generation; human approval against their
-   exact hashes remains required before the 4,500 paraphrase behaviour calls.
+2. The user explicitly approved the previously blocked thesis disclosure to
+   Anthropic. Four preserved Haiku generation/correction calls (r2–r5) produced
+   final candidates with no changes to the canonical theory or scaffold.
+3. The final three candidates pass structural/lexical checks and assistant
+   semantic review. Review the [exact templates](experiments/phase1_5_encoding_validity/claude_paraphrases_20260909_theory_r5/HUMAN_REVIEW.md)
+   and [review findings](docs/phase1_5_paraphrase_final_review_20260909.md).
+   Human approval against their exact hashes remains required before the
+   4,500 paraphrase behaviour calls. All approval fields remain false.
 4. Completed runs have checksum inventories and ZIP backups under
    `output/validity_backups` (same machine, not off-device). The old supervisor
    is stopped; do not relaunch it against the obsolete failed audit designation.
 5. Review the entire validity battery before authorising Phase 2. A single .8
    rotation does not estimate a gradient; the now-authorised five-value extension
-   adds 15,000 calls and is running. Do not launch a duplicate process.
+   collected 15,000 calls and is complete. Do not rerun it to improve results.
 
 The final gradient design is frozen in `gradients_20260909_final/manifest.json`.
-The user approved its 15,000 calls (estimated $20–$55). Permission to send the
-separate prepared thesis-containing paraphrase request to Anthropic remains
-pending. The current
-[evidence matrix](experiments/phase1_5_encoding_validity/phase_review_20260909/evidence_3b0e65ccff8ad5a5.md)
+The user approved its 15,000 calls (estimated $20–$55; actual token estimate
+$14.54) and subsequently approved the thesis-containing paraphrase disclosure.
+Human semantic approval of the final wording remains pending. The current
+[evidence matrix](experiments/phase1_5_encoding_validity/phase_review_20260909/evidence_7c6e7611aaf4b8b2.md)
 keeps completed evidence and unresolved criteria distinct; it is not a gate verdict.
 
 ## Supervisor handoff
