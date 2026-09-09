@@ -1,0 +1,189 @@
+{
+  "phase": "1.5",
+  "configuration": "neutral",
+  "seed": 20260604,
+  "status": "INCOMPLETE_BATTERY",
+  "audit_literal_thresholds_met": true,
+  "source_reports": {
+    "sweep_report": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\option_c_20260909_restart\\analysis\\summary_8d2d0ab58fff59f9.json",
+    "audit_report": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\claude_audit_20260909_brief_r3\\analysis\\audit_cc085a29d6576c92.json",
+    "gradient_report": null,
+    "paraphrase_report": null
+  },
+  "source_report_hashes": {
+    "sweep": "8d2d0ab58fff59f9c36cd0afb8abb4551aea7fb0cdbc11b2adf4d50d78ee8e9e",
+    "audit": "cc085a29d6576c92761e93dea3f4c94d877e1f90d2db8d38cb4145d77c6d2500",
+    "gradient": null,
+    "paraphrase": null
+  },
+  "parameters": [
+    {
+      "parameter": "LL",
+      "full_harness_qualifying_problems": [],
+      "bare_qualifying_problems": [],
+      "full_harness_sweep_status": "not_assessable_no_prespecified_direction",
+      "audit_accuracy": 0.075,
+      "audit_accuracy_ci95": [
+        0.04597491718438201,
+        0.12004361023629456
+      ],
+      "audit_majority_baseline": 0.94,
+      "audit_active_balanced_accuracy": 0.28125,
+      "audit_active_permutation_p": 0.5005,
+      "gradients": null,
+      "paraphrases": null
+    },
+    {
+      "parameter": "CS",
+      "full_harness_qualifying_problems": [],
+      "bare_qualifying_problems": [],
+      "full_harness_sweep_status": "not_assessable_no_prespecified_direction",
+      "audit_accuracy": 0.38,
+      "audit_accuracy_ci95": [
+        0.31559005848673627,
+        0.44893281984380773
+      ],
+      "audit_majority_baseline": 0.94,
+      "audit_active_balanced_accuracy": 0.28125,
+      "audit_active_permutation_p": 0.3045,
+      "gradients": null,
+      "paraphrases": null
+    },
+    {
+      "parameter": "RT",
+      "full_harness_qualifying_problems": [],
+      "bare_qualifying_problems": [],
+      "full_harness_sweep_status": "criterion_not_met",
+      "audit_accuracy": 0.15,
+      "audit_accuracy_ci95": [
+        0.10713593562241995,
+        0.20605579284166659
+      ],
+      "audit_majority_baseline": 0.94,
+      "audit_active_balanced_accuracy": 0.25,
+      "audit_active_permutation_p": 0.484,
+      "gradients": null,
+      "paraphrases": null
+    },
+    {
+      "parameter": "MoR",
+      "full_harness_qualifying_problems": [
+        "S3"
+      ],
+      "bare_qualifying_problems": [],
+      "full_harness_sweep_status": "criterion_met",
+      "audit_accuracy": 0.75,
+      "audit_accuracy_ci95": [
+        0.6856590168795417,
+        0.8049183199318249
+      ],
+      "audit_majority_baseline": 0.92,
+      "audit_active_balanced_accuracy": 0.25,
+      "audit_active_permutation_p": 0.7235,
+      "gradients": null,
+      "paraphrases": null
+    },
+    {
+      "parameter": "RE",
+      "full_harness_qualifying_problems": [],
+      "bare_qualifying_problems": [],
+      "full_harness_sweep_status": "criterion_not_met",
+      "audit_accuracy": 0.065,
+      "audit_accuracy_ci95": [
+        0.03837635464915299,
+        0.10801907929906895
+      ],
+      "audit_majority_baseline": 0.92,
+      "audit_active_balanced_accuracy": 0.3125,
+      "audit_active_permutation_p": 0.284,
+      "gradients": null,
+      "paraphrases": null
+    },
+    {
+      "parameter": "PD",
+      "full_harness_qualifying_problems": [
+        "S1"
+      ],
+      "bare_qualifying_problems": [],
+      "full_harness_sweep_status": "criterion_met",
+      "audit_accuracy": 0.5,
+      "audit_accuracy_ci95": [
+        0.43136085960389187,
+        0.5686391403961082
+      ],
+      "audit_majority_baseline": 0.94,
+      "audit_active_balanced_accuracy": 0.375,
+      "audit_active_permutation_p": 0.1045,
+      "gradients": null,
+      "paraphrases": null
+    },
+    {
+      "parameter": "TfA",
+      "full_harness_qualifying_problems": [],
+      "bare_qualifying_problems": [],
+      "full_harness_sweep_status": "criterion_not_met",
+      "audit_accuracy": 0.76,
+      "audit_accuracy_ci95": [
+        0.6962665902079583,
+        0.8139338400758631
+      ],
+      "audit_majority_baseline": 0.92,
+      "audit_active_balanced_accuracy": 0.34375,
+      "audit_active_permutation_p": 0.136,
+      "gradients": null,
+      "paraphrases": null
+    },
+    {
+      "parameter": "ID",
+      "full_harness_qualifying_problems": [],
+      "bare_qualifying_problems": [],
+      "full_harness_sweep_status": "criterion_not_met",
+      "audit_accuracy": 0.785,
+      "audit_accuracy_ci95": [
+        0.7229769265100339,
+        0.8362812374549242
+      ],
+      "audit_majority_baseline": 0.94,
+      "audit_active_balanced_accuracy": 0.28125,
+      "audit_active_permutation_p": 0.236,
+      "gradients": null,
+      "paraphrases": null
+    },
+    {
+      "parameter": "MS",
+      "full_harness_qualifying_problems": [
+        "S2"
+      ],
+      "bare_qualifying_problems": [
+        "S2"
+      ],
+      "full_harness_sweep_status": "criterion_met",
+      "audit_accuracy": 0.52,
+      "audit_accuracy_ci95": [
+        0.4510378507281424,
+        0.588208336216767
+      ],
+      "audit_majority_baseline": 0.94,
+      "audit_active_balanced_accuracy": 0.3125,
+      "audit_active_permutation_p": 0.222,
+      "gradients": null,
+      "paraphrases": null
+    },
+    {
+      "parameter": "AW",
+      "full_harness_qualifying_problems": [],
+      "bare_qualifying_problems": [],
+      "full_harness_sweep_status": "not_assessable_no_prespecified_direction",
+      "audit_accuracy": 0.865,
+      "audit_accuracy_ci95": [
+        0.8107086162924745,
+        0.9055342954521209
+      ],
+      "audit_majority_baseline": 0.92,
+      "audit_active_balanced_accuracy": 0.3125,
+      "audit_active_permutation_p": 0.162,
+      "gradients": null,
+      "paraphrases": null
+    }
+  ]
+}

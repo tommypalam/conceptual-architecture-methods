@@ -1,0 +1,6415 @@
+{
+  "design_hash": "c0ee8cc7e9091238811a4552801066d6ccc9cd6db802ed586336427a6d23dafa",
+  "experiment": "gradients",
+  "provider": "openai",
+  "n_expected": 15000,
+  "n_records": 15000,
+  "cells": [
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 16,
+      "rate": 0.32,
+      "ci95": [
+        0.20758216260656845,
+        0.45810297308144077
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 18,
+      "rate": 0.36,
+      "ci95": [
+        0.24138749651846741,
+        0.49858983123887307
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 9,
+      "rate": 0.18,
+      "ci95": [
+        0.09770192670234178,
+        0.30796053674300783
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 1,
+      "rate": 0.02,
+      "ci95": [
+        0.003539259271646236,
+        0.10495443589637815
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 22,
+      "rate": 0.44,
+      "ci95": [
+        0.3116219921125717,
+        0.5769397197834315
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 10,
+      "rate": 0.2,
+      "ci95": [
+        0.1124375001577611,
+        0.3303710593222542
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 14,
+      "rate": 0.28,
+      "ci95": [
+        0.17474170665911232,
+        0.4166512369595657
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 36,
+      "rate": 0.72,
+      "ci95": [
+        0.5833487630404344,
+        0.8252582933408878
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 31,
+      "rate": 0.62,
+      "ci95": [
+        0.4815044693099298,
+        0.7413721068980641
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 8,
+      "rate": 0.16,
+      "ci95": [
+        0.08337420678033404,
+        0.2851421606303499
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 13,
+      "rate": 0.26,
+      "ci95": [
+        0.15871527493552393,
+        0.39553157264848837
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 49,
+      "n_missing": 0,
+      "n_invalid": 1,
+      "opt0_count": 45,
+      "rate": 0.9183673469387755,
+      "ci95": [
+        0.808108724034287,
+        0.9677971823322362
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 34,
+      "rate": 0.68,
+      "ci95": [
+        0.5418970269185592,
+        0.7924178373934316
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 16,
+      "rate": 0.32,
+      "ci95": [
+        0.20758216260656845,
+        0.45810297308144077
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 24,
+      "rate": 0.48,
+      "ci95": [
+        0.34797135286578046,
+        0.6148825510995539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 33,
+      "rate": 0.66,
+      "ci95": [
+        0.521538260502326,
+        0.7756305077749992
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 32,
+      "rate": 0.64,
+      "ci95": [
+        0.501410168761127,
+        0.7586125034815325
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 9,
+      "rate": 0.18,
+      "ci95": [
+        0.09770192670234178,
+        0.30796053674300783
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 17,
+      "rate": 0.34,
+      "ci95": [
+        0.2243694922250009,
+        0.478461739497674
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 39,
+      "rate": 0.78,
+      "ci95": [
+        0.6475845041874634,
+        0.8724608402978559
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 17,
+      "rate": 0.34,
+      "ci95": [
+        0.2243694922250009,
+        0.478461739497674
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 5,
+      "rate": 0.1,
+      "ci95": [
+        0.04347576493189041,
+        0.21360231437479654
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 29,
+      "rate": 0.58,
+      "ci95": [
+        0.4423344176857823,
+        0.7062499664528802
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 40,
+      "rate": 0.8,
+      "ci95": [
+        0.6696289406777459,
+        0.887562499842239
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 18,
+      "rate": 0.36,
+      "ci95": [
+        0.24138749651846741,
+        0.49858983123887307
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 1,
+      "rate": 0.02,
+      "ci95": [
+        0.003539259271646236,
+        0.10495443589637815
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 24,
+      "rate": 0.48,
+      "ci95": [
+        0.34797135286578046,
+        0.6148825510995539
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 21,
+      "rate": 0.42,
+      "ci95": [
+        0.2937500335471198,
+        0.5576655823142176
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 5,
+      "rate": 0.1,
+      "ci95": [
+        0.04347576493189041,
+        0.21360231437479654
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 34,
+      "rate": 0.68,
+      "ci95": [
+        0.5418970269185592,
+        0.7924178373934316
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 21,
+      "rate": 0.42,
+      "ci95": [
+        0.2937500335471198,
+        0.5576655823142176
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 21,
+      "rate": 0.42,
+      "ci95": [
+        0.2937500335471198,
+        0.5576655823142176
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 14,
+      "rate": 0.28,
+      "ci95": [
+        0.17474170665911232,
+        0.4166512369595657
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 31,
+      "rate": 0.62,
+      "ci95": [
+        0.4815044693099298,
+        0.7413721068980641
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 43,
+      "rate": 0.86,
+      "ci95": [
+        0.7381380628941446,
+        0.9304916657298371
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 15,
+      "rate": 0.3,
+      "ci95": [
+        0.19103553500880954,
+        0.437503504644534
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 38,
+      "rate": 0.76,
+      "ci95": [
+        0.6258731624205708,
+        0.8570260860300828
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 33,
+      "rate": 0.66,
+      "ci95": [
+        0.521538260502326,
+        0.7756305077749992
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 12,
+      "rate": 0.24,
+      "ci95": [
+        0.1429739139699173,
+        0.3741268375794292
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 23,
+      "rate": 0.46,
+      "ci95": [
+        0.3296965219222435,
+        0.5960112860084253
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 28,
+      "rate": 0.56,
+      "ci95": [
+        0.4230602802165686,
+        0.6883780078874284
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 4,
+      "rate": 0.08,
+      "ci95": [
+        0.03154951408859298,
+        0.18838246918342838
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 20,
+      "rate": 0.4,
+      "ci95": [
+        0.27608389730256544,
+        0.5381856225241064
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 12,
+      "rate": 0.24,
+      "ci95": [
+        0.1429739139699173,
+        0.3741268375794292
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 9,
+      "rate": 0.18,
+      "ci95": [
+        0.09770192670234178,
+        0.30796053674300783
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 19,
+      "rate": 0.38,
+      "ci95": [
+        0.25862789310193596,
+        0.5184955306900703
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 6,
+      "rate": 0.12,
+      "ci95": [
+        0.05617600150932274,
+        0.23804817383202992
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 23,
+      "rate": 0.46,
+      "ci95": [
+        0.3296965219222435,
+        0.5960112860084253
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 22,
+      "rate": 0.44,
+      "ci95": [
+        0.3116219921125717,
+        0.5769397197834315
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 4,
+      "rate": 0.08,
+      "ci95": [
+        0.03154951408859298,
+        0.18838246918342838
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 4,
+      "rate": 0.08,
+      "ci95": [
+        0.03154951408859298,
+        0.18838246918342838
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 34,
+      "rate": 0.68,
+      "ci95": [
+        0.5418970269185592,
+        0.7924178373934316
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 18,
+      "rate": 0.36,
+      "ci95": [
+        0.24138749651846741,
+        0.49858983123887307
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 1,
+      "rate": 0.02,
+      "ci95": [
+        0.003539259271646236,
+        0.10495443589637815
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 1,
+      "rate": 0.02,
+      "ci95": [
+        0.003539259271646236,
+        0.10495443589637815
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 40,
+      "rate": 0.8,
+      "ci95": [
+        0.6696289406777459,
+        0.887562499842239
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 24,
+      "rate": 0.48,
+      "ci95": [
+        0.34797135286578046,
+        0.6148825510995539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 20,
+      "rate": 0.4,
+      "ci95": [
+        0.27608389730256544,
+        0.5381856225241064
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 44,
+      "rate": 0.88,
+      "ci95": [
+        0.7619518261679701,
+        0.9438239984906773
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 35,
+      "rate": 0.7,
+      "ci95": [
+        0.562496495355466,
+        0.8089644649911906
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 10,
+      "rate": 0.2,
+      "ci95": [
+        0.1124375001577611,
+        0.3303710593222542
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 13,
+      "rate": 0.26,
+      "ci95": [
+        0.15871527493552393,
+        0.39553157264848837
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 42,
+      "rate": 0.84,
+      "ci95": [
+        0.7148578393696501,
+        0.916625793219666
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 40,
+      "rate": 0.8,
+      "ci95": [
+        0.6696289406777459,
+        0.887562499842239
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 22,
+      "rate": 0.44,
+      "ci95": [
+        0.3116219921125717,
+        0.5769397197834315
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 1,
+      "rate": 0.02,
+      "ci95": [
+        0.003539259271646236,
+        0.10495443589637815
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 34,
+      "rate": 0.68,
+      "ci95": [
+        0.5418970269185592,
+        0.7924178373934316
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 8,
+      "rate": 0.16,
+      "ci95": [
+        0.08337420678033404,
+        0.2851421606303499
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 43,
+      "rate": 0.86,
+      "ci95": [
+        0.7381380628941446,
+        0.9304916657298371
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 23,
+      "rate": 0.46,
+      "ci95": [
+        0.3296965219222435,
+        0.5960112860084253
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 10,
+      "rate": 0.2,
+      "ci95": [
+        0.1124375001577611,
+        0.3303710593222542
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 25,
+      "rate": 0.5,
+      "ci95": [
+        0.3664451431682858,
+        0.6335548568317142
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 19,
+      "rate": 0.38,
+      "ci95": [
+        0.25862789310193596,
+        0.5184955306900703
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 24,
+      "rate": 0.48,
+      "ci95": [
+        0.34797135286578046,
+        0.6148825510995539
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 27,
+      "rate": 0.54,
+      "ci95": [
+        0.40398871399157477,
+        0.6703034780777566
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 16,
+      "rate": 0.32,
+      "ci95": [
+        0.20758216260656845,
+        0.45810297308144077
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 16,
+      "rate": 0.32,
+      "ci95": [
+        0.20758216260656845,
+        0.45810297308144077
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 26,
+      "rate": 0.52,
+      "ci95": [
+        0.38511744890044614,
+        0.6520286471342196
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 1,
+      "rate": 0.02,
+      "ci95": [
+        0.003539259271646236,
+        0.10495443589637815
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 6,
+      "rate": 0.12,
+      "ci95": [
+        0.05617600150932274,
+        0.23804817383202992
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 29,
+      "rate": 0.58,
+      "ci95": [
+        0.4423344176857823,
+        0.7062499664528802
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 29,
+      "rate": 0.58,
+      "ci95": [
+        0.4423344176857823,
+        0.7062499664528802
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 1,
+      "rate": 0.02,
+      "ci95": [
+        0.003539259271646236,
+        0.10495443589637815
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 7,
+      "rate": 0.14,
+      "ci95": [
+        0.06950833427016294,
+        0.2618619371058554
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 35,
+      "rate": 0.7,
+      "ci95": [
+        0.562496495355466,
+        0.8089644649911906
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 19,
+      "rate": 0.38,
+      "ci95": [
+        0.25862789310193596,
+        0.5184955306900703
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 27,
+      "rate": 0.54,
+      "ci95": [
+        0.40398871399157477,
+        0.6703034780777566
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 25,
+      "rate": 0.5,
+      "ci95": [
+        0.3664451431682858,
+        0.6335548568317142
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 12,
+      "rate": 0.24,
+      "ci95": [
+        0.1429739139699173,
+        0.3741268375794292
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 42,
+      "rate": 0.84,
+      "ci95": [
+        0.7148578393696501,
+        0.916625793219666
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 17,
+      "rate": 0.34,
+      "ci95": [
+        0.2243694922250009,
+        0.478461739497674
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 49,
+      "n_missing": 0,
+      "n_invalid": 1,
+      "opt0_count": 24,
+      "rate": 0.4897959183673469,
+      "ci95": [
+        0.3557511031030578,
+        0.6253243625953194
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 39,
+      "rate": 0.78,
+      "ci95": [
+        0.6475845041874634,
+        0.8724608402978559
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 16,
+      "rate": 0.32,
+      "ci95": [
+        0.20758216260656845,
+        0.45810297308144077
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 38,
+      "rate": 0.76,
+      "ci95": [
+        0.6258731624205708,
+        0.8570260860300828
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 26,
+      "rate": 0.52,
+      "ci95": [
+        0.38511744890044614,
+        0.6520286471342196
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 47,
+      "rate": 0.94,
+      "ci95": [
+        0.8378290831116182,
+        0.979385029651026
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 7,
+      "rate": 0.14,
+      "ci95": [
+        0.06950833427016294,
+        0.2618619371058554
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 38,
+      "rate": 0.76,
+      "ci95": [
+        0.6258731624205708,
+        0.8570260860300828
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 21,
+      "rate": 0.42,
+      "ci95": [
+        0.2937500335471198,
+        0.5576655823142176
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 4,
+      "rate": 0.08,
+      "ci95": [
+        0.03154951408859298,
+        0.18838246918342838
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 6,
+      "rate": 0.12,
+      "ci95": [
+        0.05617600150932274,
+        0.23804817383202992
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 31,
+      "rate": 0.62,
+      "ci95": [
+        0.4815044693099298,
+        0.7413721068980641
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 35,
+      "rate": 0.7,
+      "ci95": [
+        0.562496495355466,
+        0.8089644649911906
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 15,
+      "rate": 0.3,
+      "ci95": [
+        0.19103553500880954,
+        0.437503504644534
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 43,
+      "rate": 0.86,
+      "ci95": [
+        0.7381380628941446,
+        0.9304916657298371
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 28,
+      "rate": 0.56,
+      "ci95": [
+        0.4230602802165686,
+        0.6883780078874284
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 16,
+      "rate": 0.32,
+      "ci95": [
+        0.20758216260656845,
+        0.45810297308144077
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 3,
+      "rate": 0.06,
+      "ci95": [
+        0.02061497034897397,
+        0.16217091688838173
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 36,
+      "rate": 0.72,
+      "ci95": [
+        0.5833487630404344,
+        0.8252582933408878
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 24,
+      "rate": 0.48,
+      "ci95": [
+        0.34797135286578046,
+        0.6148825510995539
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 4,
+      "rate": 0.08,
+      "ci95": [
+        0.03154951408859298,
+        0.18838246918342838
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 33,
+      "rate": 0.66,
+      "ci95": [
+        0.521538260502326,
+        0.7756305077749992
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 21,
+      "rate": 0.42,
+      "ci95": [
+        0.2937500335471198,
+        0.5576655823142176
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 12,
+      "rate": 0.24,
+      "ci95": [
+        0.1429739139699173,
+        0.3741268375794292
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 6,
+      "rate": 0.12,
+      "ci95": [
+        0.05617600150932274,
+        0.23804817383202992
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 37,
+      "rate": 0.74,
+      "ci95": [
+        0.6044684273515117,
+        0.8412847250644762
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 20,
+      "rate": 0.4,
+      "ci95": [
+        0.27608389730256544,
+        0.5381856225241064
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 10,
+      "rate": 0.2,
+      "ci95": [
+        0.1124375001577611,
+        0.3303710593222542
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 29,
+      "rate": 0.58,
+      "ci95": [
+        0.4423344176857823,
+        0.7062499664528802
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 23,
+      "rate": 0.46,
+      "ci95": [
+        0.3296965219222435,
+        0.5960112860084253
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 7,
+      "rate": 0.14,
+      "ci95": [
+        0.06950833427016294,
+        0.2618619371058554
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 31,
+      "rate": 0.62,
+      "ci95": [
+        0.4815044693099298,
+        0.7413721068980641
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 29,
+      "rate": 0.58,
+      "ci95": [
+        0.4423344176857823,
+        0.7062499664528802
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 10,
+      "rate": 0.2,
+      "ci95": [
+        0.1124375001577611,
+        0.3303710593222542
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 8,
+      "rate": 0.16,
+      "ci95": [
+        0.08337420678033404,
+        0.2851421606303499
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 29,
+      "rate": 0.58,
+      "ci95": [
+        0.4423344176857823,
+        0.7062499664528802
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 29,
+      "rate": 0.58,
+      "ci95": [
+        0.4423344176857823,
+        0.7062499664528802
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 10,
+      "rate": 0.2,
+      "ci95": [
+        0.1124375001577611,
+        0.3303710593222542
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 4,
+      "rate": 0.08,
+      "ci95": [
+        0.03154951408859298,
+        0.18838246918342838
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 11,
+      "rate": 0.22,
+      "ci95": [
+        0.1275391597021442,
+        0.3524154958125367
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 1,
+      "rate": 0.02,
+      "ci95": [
+        0.003539259271646236,
+        0.10495443589637815
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 37,
+      "rate": 0.74,
+      "ci95": [
+        0.6044684273515117,
+        0.8412847250644762
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 24,
+      "rate": 0.48,
+      "ci95": [
+        0.34797135286578046,
+        0.6148825510995539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 29,
+      "rate": 0.58,
+      "ci95": [
+        0.4423344176857823,
+        0.7062499664528802
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 27,
+      "rate": 0.54,
+      "ci95": [
+        0.40398871399157477,
+        0.6703034780777566
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 5,
+      "rate": 0.1,
+      "ci95": [
+        0.04347576493189041,
+        0.21360231437479654
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 10,
+      "rate": 0.2,
+      "ci95": [
+        0.1124375001577611,
+        0.3303710593222542
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 36,
+      "rate": 0.72,
+      "ci95": [
+        0.5833487630404344,
+        0.8252582933408878
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 9,
+      "rate": 0.18,
+      "ci95": [
+        0.09770192670234178,
+        0.30796053674300783
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 49,
+      "rate": 0.98,
+      "ci95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 9,
+      "rate": 0.18,
+      "ci95": [
+        0.09770192670234178,
+        0.30796053674300783
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 32,
+      "rate": 0.64,
+      "ci95": [
+        0.501410168761127,
+        0.7586125034815325
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 36,
+      "rate": 0.72,
+      "ci95": [
+        0.5833487630404344,
+        0.8252582933408878
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 12,
+      "rate": 0.24,
+      "ci95": [
+        0.1429739139699173,
+        0.3741268375794292
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 5,
+      "rate": 0.1,
+      "ci95": [
+        0.04347576493189041,
+        0.21360231437479654
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 27,
+      "rate": 0.54,
+      "ci95": [
+        0.40398871399157477,
+        0.6703034780777566
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 26,
+      "rate": 0.52,
+      "ci95": [
+        0.38511744890044614,
+        0.6520286471342196
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 12,
+      "rate": 0.24,
+      "ci95": [
+        0.1429739139699173,
+        0.3741268375794292
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 47,
+      "rate": 0.94,
+      "ci95": [
+        0.8378290831116182,
+        0.979385029651026
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 1,
+      "rate": 0.02,
+      "ci95": [
+        0.003539259271646236,
+        0.10495443589637815
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 48,
+      "rate": 0.96,
+      "ci95": [
+        0.8653990931249297,
+        0.9889611156723802
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 13,
+      "rate": 0.26,
+      "ci95": [
+        0.15871527493552393,
+        0.39553157264848837
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 2,
+      "rate": 0.04,
+      "ci95": [
+        0.011038884327619805,
+        0.1346009068750702
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 33,
+      "rate": 0.66,
+      "ci95": [
+        0.521538260502326,
+        0.7756305077749992
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 30,
+      "rate": 0.6,
+      "ci95": [
+        0.4618143774758936,
+        0.7239161026974346
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 39,
+      "rate": 0.78,
+      "ci95": [
+        0.6475845041874634,
+        0.8724608402978559
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 32,
+      "rate": 0.64,
+      "ci95": [
+        0.501410168761127,
+        0.7586125034815325
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 8,
+      "rate": 0.16,
+      "ci95": [
+        0.08337420678033404,
+        0.2851421606303499
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 50,
+      "rate": 1.0,
+      "ci95": [
+        0.9286524008666414,
+        1.0
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 5,
+      "rate": 0.1,
+      "ci95": [
+        0.04347576493189041,
+        0.21360231437479654
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 26,
+      "rate": 0.52,
+      "ci95": [
+        0.38511744890044614,
+        0.6520286471342196
+      ]
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 32,
+      "rate": 0.64,
+      "ci95": [
+        0.501410168761127,
+        0.7586125034815325
+      ]
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 50,
+      "n_valid": 50,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 21,
+      "rate": 0.42,
+      "ci95": [
+        0.2937500335471198,
+        0.5576655823142176
+      ]
+    }
+  ],
+  "status": "Descriptive comparison; full battery verdict requires all subtests",
+  "battery_status": "OPEN: all subtests and scientific review still required",
+  "gradients": [
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 2.8552116189063805,
+        "se": 3.032176510269003,
+        "ci95": [
+          -3.087745135989047,
+          8.798168373801808
+        ],
+        "p_value": 0.30081829569609,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 1.0705630725472766
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 5.898094295806474,
+        "se": 1.0311287175715202,
+        "ci95": [
+          3.8771191459413767,
+          7.919069445671571
+        ],
+        "p_value": 1.453427276555315e-13,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 54.63209188033298
+      },
+      "absolute_logit_slope_ratio": 2.0990732947141053,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 2.617283585295356,
+        "se": 0.5141235542784566,
+        "ci95": [
+          1.6096199353058855,
+          3.624947235284827
+        ],
+        "p_value": 7.16013951912743e-08,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 29.02090605048153
+      },
+      "absolute_logit_slope_ratio": 0.9314652840483058,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "LL",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 2.191087233753624,
+        "se": 0.4837094162189862,
+        "ci95": [
+          1.2430341989815425,
+          3.1391402685257055
+        ],
+        "p_value": 2.465580987264117e-06,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 22.19310152753178
+      },
+      "absolute_logit_slope_ratio": 1.0677024700019693,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "LL",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 0.11507896357749116,
+        "se": 0.5364678036345433,
+        "ci95": [
+          -0.9363786104114906,
+          1.166536537566473
+        ],
+        "p_value": 0.8301256817385994,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 0.0460275743831744
+      },
+      "absolute_logit_slope_ratio": 0.05607722584666844,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "separation",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 5.033545213064548,
+        "se": 1.0583589673081892,
+        "ci95": [
+          2.95919975442555,
+          7.107890671703547
+        ],
+        "p_value": 4.156725814439545e-09,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 34.54891779535299
+      },
+      "absolute_logit_slope_ratio": 1.9806409601932589,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 1.2691327272676676,
+        "se": 0.46068782928258,
+        "ci95": [
+          0.36620117375789873,
+          2.1720642807774366
+        ],
+        "p_value": 0.005231434429541937,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 7.797645994141874
+      },
+      "absolute_logit_slope_ratio": 0.49938883175695586,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "CS",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -3.0638337559324773,
+        "se": 0.5204340668969951,
+        "ci95": [
+          -4.083865783378268,
+          -2.043801728486686
+        ],
+        "p_value": 2.291678831373418e-10,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 40.200684940845804
+      },
+      "absolute_logit_slope_ratio": 1.691325590802642,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "CS",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -3.2589554513503076,
+        "se": 0.7013791146757342,
+        "ci95": [
+          -4.633633255623297,
+          -1.884277647077318
+        ],
+        "p_value": 3.0583439472383776e-07,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 26.212512780318434
+      },
+      "absolute_logit_slope_ratio": 1.7990384574495255,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -5.390970842909085,
+        "se": 4.323815042606664,
+        "ci95": [
+          -13.865492602230432,
+          3.0835509164122614
+        ],
+        "p_value": 0.10289103495149378,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 2.6601499398011192
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -0.7192011434258634,
+        "se": 1.1040598020856607,
+        "ci95": [
+          -2.883118592292119,
+          1.444716305440392
+        ],
+        "p_value": 0.5121303382645563,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 0.4297119206023723
+      },
+      "absolute_logit_slope_ratio": 0.5869423609824346,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -1.74111943864607,
+        "se": 0.47083023339834024,
+        "ci95": [
+          -2.663929738939379,
+          -0.8183091383527609
+        ],
+        "p_value": 0.00014933501381733191,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 14.380573618589438
+      },
+      "absolute_logit_slope_ratio": 1.4209331609282663,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RT",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -4.67188623383394,
+        "se": 0.6130080723110981,
+        "ci95": [
+          -5.873359977795985,
+          -3.470412489871896
+        ],
+        "p_value": 4.660864848796706e-19,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 79.56725493825508
+      },
+      "absolute_logit_slope_ratio": 4.422328801958526,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RT",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -1.9989842811696177,
+        "se": 0.6416814533369744,
+        "ci95": [
+          -3.256656819257372,
+          -0.7413117430818632
+        ],
+        "p_value": 0.0011884356825750584,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 10.508237299039848
+      },
+      "absolute_logit_slope_ratio": 1.8922048437862236,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -1.3067039010339465,
+        "se": 1.8593505453522372,
+        "ci95": [
+          -4.95096400455914,
+          2.337556202491246
+        ],
+        "p_value": 0.47285563760281624,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 0.5152949851073316
+      },
+      "absolute_logit_slope_ratio": 1.008280369058914,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 2.7745887481388,
+        "se": 0.9282250654144036,
+        "ci95": [
+          0.9553010503792831,
+          4.593876445898316
+        ],
+        "p_value": 0.0011931122982288824,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 10.500980283033755
+      },
+      "absolute_logit_slope_ratio": 0.8088593770949096,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 2.657752562624902,
+        "se": 0.5719118502670071,
+        "ci95": [
+          1.536825933769935,
+          3.778679191479869
+        ],
+        "p_value": 7.598614337672902e-07,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 24.457019884860642
+      },
+      "absolute_logit_slope_ratio": 0.7747988179218394,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MoR",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": true,
+      "fit": {
+        "status": "ok",
+        "slope": 2.270684790297137,
+        "se": 0.4897354159467373,
+        "ci95": [
+          1.3108210130878155,
+          3.230548567506459
+        ],
+        "p_value": 1.3204656941931516e-06,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 23.393169612221925
+      },
+      "absolute_logit_slope_ratio": 0.45426459662577007,
+      "direction_matches": true,
+      "criterion_met": false,
+      "assessment": "eligible"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MoR",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": true,
+      "fit": {
+        "status": "ok",
+        "slope": 2.8111296263963927,
+        "se": 0.6150040956479371,
+        "ci95": [
+          1.6057437485818427,
+          4.016515504210943
+        ],
+        "p_value": 9.16034532663988e-07,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 24.096988261020897
+      },
+      "absolute_logit_slope_ratio": 0.5623839430529695,
+      "direction_matches": true,
+      "criterion_met": true,
+      "assessment": "eligible"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -2.6358300068009117,
+        "se": 1.2741940486495313,
+        "ci95": [
+          -5.133204451469202,
+          -0.13845556213262178
+        ],
+        "p_value": 0.025363811047579007,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 4.998874235551924
+      },
+      "absolute_logit_slope_ratio": 1.5603939960881914,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -2.3840115585957977,
+        "se": 0.49541689626470203,
+        "ci95": [
+          -3.355010832607203,
+          -1.4130122845843924
+        ],
+        "p_value": 4.6265640660043426e-07,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 25.413552539099385
+      },
+      "absolute_logit_slope_ratio": 1.4113191340258961,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "RE",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -0.16004643144908207,
+        "se": 0.4474083358815758,
+        "ci95": [
+          -1.0369506561599462,
+          0.716857793261782
+        ],
+        "p_value": 0.7204953600017514,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 0.12801857446373788
+      },
+      "absolute_logit_slope_ratio": 0.1084828779784323,
+      "direction_matches": true,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "RE",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 0.5001367041943221,
+        "se": 0.6479153189576592,
+        "ci95": [
+          -0.7697539859944367,
+          1.7700273943830809
+        ],
+        "p_value": 0.43892801086521926,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 0.5990832782451605
+      },
+      "absolute_logit_slope_ratio": 0.33900330399374934,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": true,
+      "fit": {
+        "status": "ok",
+        "slope": 6.987876309508095,
+        "se": 4.46467055813454,
+        "ci95": [
+          -1.7627171872717051,
+          15.738469806287895
+        ],
+        "p_value": 0.0221133200295163,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 5.23684674478929
+      },
+      "absolute_logit_slope_ratio": 0.8513056024603967,
+      "direction_matches": true,
+      "criterion_met": true,
+      "assessment": "eligible"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": true,
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "eligible"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 6.842774526731147,
+        "se": 1.1877696358554892,
+        "ci95": [
+          4.514788818524197,
+          9.170760234938097
+        ],
+        "p_value": 3.72805139601081e-15,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 61.83854333598501
+      },
+      "absolute_logit_slope_ratio": 0.5126425187423513,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 5.152531333883639,
+        "se": 0.6488398983127421,
+        "ci95": [
+          3.880828501458068,
+          6.424234166309209
+        ],
+        "p_value": 1.1761858680218583e-21,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 91.39592230992267
+      },
+      "absolute_logit_slope_ratio": 0.3860139816944719,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "PD",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -1.82677515197559,
+        "se": 0.47272710740838325,
+        "ci95": [
+          -2.7533032570117935,
+          -0.9002470469393865
+        ],
+        "p_value": 7.113436530065098e-05,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 15.780433629605852
+      },
+      "absolute_logit_slope_ratio": 0.34939158678901133,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "PD",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -6.698987855807338,
+        "se": 1.0014644581738192,
+        "ci95": [
+          -8.661822125624889,
+          -4.736153585989786
+        ],
+        "p_value": 2.8716273237877946e-19,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 80.52422538770355
+      },
+      "absolute_logit_slope_ratio": 1.2812578462596245,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -0.4282239585361423,
+        "se": 1.4677530135097527,
+        "ci95": [
+          -3.3049670032153102,
+          2.4485190861430253
+        ],
+        "p_value": 0.7699603162953227,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 0.08551343607931727
+      },
+      "absolute_logit_slope_ratio": 0.330426664075195,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -0.6541178649873517,
+        "se": 0.8141242371660774,
+        "ci95": [
+          -2.249772048773965,
+          0.9415363187992615
+        ],
+        "p_value": 0.4194117280146873,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 0.6519630026786558
+      },
+      "absolute_logit_slope_ratio": 0.2777355380727477,
+      "direction_matches": true,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -0.5476769149355698,
+        "se": 0.5008109681902767,
+        "ci95": [
+          -1.52924837565112,
+          0.4338945457799802
+        ],
+        "p_value": 0.2727949620303495,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 1.2026385109009539
+      },
+      "absolute_logit_slope_ratio": 0.2325411837858827,
+      "direction_matches": true,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "TfA",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 1.1275354487864588,
+        "se": 0.4636109806840801,
+        "ci95": [
+          0.2188746238083923,
+          2.036196273764525
+        ],
+        "p_value": 0.013948166915754172,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 6.044691891142975
+      },
+      "absolute_logit_slope_ratio": 0.5254512878868254,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "TfA",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 3.2745891034859023,
+        "se": 0.6235391463718489,
+        "ci95": [
+          2.052474833646263,
+          4.496703373325541
+        ],
+        "p_value": 8.380683399779041e-09,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 33.18471237656021
+      },
+      "absolute_logit_slope_ratio": 1.5260159346464144,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -6.987876136933993,
+        "se": 4.464670422895346,
+        "ci95": [
+          -15.738469368649843,
+          1.7627170947818573
+        ],
+        "p_value": 0.02211332002951552,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 5.2368467447893465
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 0.5003244030713224,
+        "se": 0.793872405912405,
+        "ci95": [
+          -1.0556369208371112,
+          2.0562857269797563
+        ],
+        "p_value": 0.5273526416351362,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 0.3994902283329793
+      },
+      "absolute_logit_slope_ratio": 0.5644049188159866,
+      "direction_matches": true,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -0.6073642936887584,
+        "se": 0.4677635804804153,
+        "ci95": [
+          -1.5241640647098502,
+          0.30943547733233334
+        ],
+        "p_value": 0.19268877580883953,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 1.6969390027346662
+      },
+      "absolute_logit_slope_ratio": 0.6851542574513718,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "ID",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 1.0121501082377917,
+        "se": 0.4551355689583448,
+        "ci95": [
+          0.12010078499631427,
+          1.9041994314792692
+        ],
+        "p_value": 0.02488842124505146,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 5.0316329884516335
+      },
+      "absolute_logit_slope_ratio": 1.2174625398862788,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "ID",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -0.2540548144866315,
+        "se": 0.5640249451985819,
+        "ci95": [
+          -1.3595233934579993,
+          0.8514137644847364
+        ],
+        "p_value": 0.652186155038466,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 0.2031550350251905
+      },
+      "absolute_logit_slope_ratio": 0.30558927692429305,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "separation",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": true,
+      "fit": {
+        "status": "ok",
+        "slope": 2.1814191010005044,
+        "se": 0.8109292956819718,
+        "ci95": [
+          0.5920268874554511,
+          3.7708113145455577
+        ],
+        "p_value": 0.004654446996435531,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 8.009037496350174
+      },
+      "absolute_logit_slope_ratio": 0.26162866620418734,
+      "direction_matches": true,
+      "criterion_met": false,
+      "assessment": "eligible"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": true,
+      "fit": {
+        "status": "ok",
+        "slope": 2.4208144464379746,
+        "se": 0.5102126842514575,
+        "ci95": [
+          1.4208159608496391,
+          3.42081293202631
+        ],
+        "p_value": 6.275073816172382e-07,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 24.825836153530076
+      },
+      "absolute_logit_slope_ratio": 0.2903405652123007,
+      "direction_matches": true,
+      "criterion_met": false,
+      "assessment": "eligible"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "MS",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 1.0229649605947249,
+        "se": 0.46725186138820457,
+        "ci95": [
+          0.10716814056456758,
+          1.938761780624882
+        ],
+        "p_value": 0.02715962443937769,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 4.880635085828203
+      },
+      "absolute_logit_slope_ratio": 0.6785440033200484,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "MS",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 3.7115917025960634,
+        "se": 0.9233449741960597,
+        "ci95": [
+          1.9018688078657708,
+          5.521314597326356
+        ],
+        "p_value": 4.595475834624777e-06,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 20.99889815801177
+      },
+      "absolute_logit_slope_ratio": 2.461939938885913,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 2.867762175826274,
+        "se": 2.482013534577139,
+        "ci95": [
+          -1.996894961085744,
+          7.732419312738292
+        ],
+        "p_value": 0.20412511335790295,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 1.6126113612785105
+      },
+      "absolute_logit_slope_ratio": 1.0087859712059646,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S1",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "pinned",
+        "slope": null,
+        "p_value": null,
+        "ci95": null
+      },
+      "absolute_logit_slope_ratio": null,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -0.20299117054182844,
+        "se": 1.0081204955955247,
+        "ci95": [
+          -2.178871033985673,
+          1.772888692902016
+        ],
+        "p_value": 0.8403416148285918,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 0.04058473439047816
+      },
+      "absolute_logit_slope_ratio": 0.16829510914346213,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S2",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": -0.517790911694476,
+        "se": 0.4867264732190394,
+        "ci95": [
+          -1.4717572695259662,
+          0.4361754461370141
+        ],
+        "p_value": 0.28622794642102456,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 1.1372793640343275
+      },
+      "absolute_logit_slope_ratio": 0.42928802156524415,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "numeric_only",
+      "parameter": "AW",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 0.5856455326558473,
+        "se": 0.45915296363700625,
+        "ci95": [
+          -0.31427773946748927,
+          1.485568804779184
+        ],
+        "p_value": 0.20079763456874117,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 1.636563411656823
+      },
+      "absolute_logit_slope_ratio": 0.34538284368326366,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    },
+    {
+      "variant": "verbal_only",
+      "parameter": "AW",
+      "problem": "S3",
+      "complete": true,
+      "source_sweep_criterion_met": false,
+      "fit": {
+        "status": "ok",
+        "slope": 0.5850735384214993,
+        "se": 0.4763146304369732,
+        "ci95": [
+          -0.3484859825444483,
+          1.5186330593874469
+        ],
+        "p_value": 0.21790982352517974,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 1.5180829974335666
+      },
+      "absolute_logit_slope_ratio": 0.3450455116552473,
+      "direction_matches": false,
+      "criterion_met": false,
+      "assessment": "not_assessable"
+    }
+  ]
+}

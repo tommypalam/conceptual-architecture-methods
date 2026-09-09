@@ -4,6 +4,98 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-09 — Gradient extension completed and reviewed
+
+Completed the authorised 15,000-call extension, neutral configuration, N=50 per
+cell, seed 20260604, exact gpt-5.4-mini-2026-03-17 snapshot and unchanged frozen
+settings. There are 14,998 valid parses, two preserved parsing failures, zero
+API failures, and no missing or duplicate records. All cells meet the 98% parse
+floor. Scoring, record checksums and the integrity-tested local ZIP completed.
+Recorded token cost is approximately $14.54 at the previously checked rates.
+The backup is on this computer only. The evidence matrix now includes gradients.
+
+Decision: retain the measured mixed result and keep the Phase 1.5 gate open.
+Two of six eligible comparisons meet the existing slope-retention rule:
+verbal MoR/S3 (ratio .562) and numeric PD/S1 (.851). Numeric MoR/S3 (.454),
+numeric MS/S2 (.262), and verbal MS/S2 (.290) retain the predicted direction
+but fall below .50. Verbal PD/S1 is pinned at 250/250 A decisions. No eligible
+pair meets the criterion in both representations; 54 other comparisons remain
+not assessable because their source sweep did not qualify.
+
+Synthetic review: Linden rejects treating partial sensitivity as validation of
+all conceptual distinctions. Osei flags S1 saturation: numeric PD/S1 has only
+three B choices in 250 observations. Tanaka retains the point-estimate rule
+while reporting PD's wide Wald interval and its different likelihood-ratio
+diagnostic; a ratio below .50 does not prove no effect. Renna sees representation
+dependence as a measured limitation that must accompany downstream claims.
+Okafor confirms completed operational collection and local provenance, while
+requiring the outstanding paraphrases and scientific review before closure.
+Resolution: report every eligible result and non-assessable comparison without
+retuning the design. No new theory departure or Phase 2 authorisation is inferred.
+The separate private-thesis disclosure to Anthropic remains unapproved.
+
+## 2026-09-09 — Gradient extension authorised
+
+The user explicitly instructed running the gradient extension. The prepared
+`gradients_20260909_final` design is authorised for its full 15,000 calls:
+ten parameters, five values, three problems, N=50, numeric-only and verbal-only;
+neutral configuration, seed 20260604, exact gpt-5.4-mini-2026-03-17 snapshot,
+temperature 1, 600-token cap, concurrency five. Frozen code hashes match, and
+the run has no existing records at launch. The completed hybrid source is reused
+only as its exact-protocol baseline. This approval does not authorise sending
+the separate thesis-containing paraphrase request to Anthropic. An operational
+checkpoint precedes sustained dispatch; failures remain preserved.
+
+The checkpoint returned ten valid responses with the exact snapshot and no API
+failures. Launched a hidden background job, PID 23588, for the remaining 14,990
+calls. The separate operational wrapper leaves frozen scientific files unchanged,
+uses an OS-held lock against duplicate jobs, updates status every 20 seconds,
+and will score, verify, archive and refresh the phase evidence matrix on completion.
+Status/logs are under `output/validity_gradients_20260909`. No gradient outcome
+or phase pass is claimed at launch. The paraphrase disclosure remains unapproved.
+
+## 2026-09-09 — Remaining phase work prepared
+
+The user asked to finish Phase 1.5 strongly. Prepared the existing five-value
+numeric/verbal gradient design in `gradients_20260909_final` (15,000 calls;
+same source snapshot, profiles, settings, seed and existing analysis). No calls
+were made because this extension had been explicitly excluded from the earlier
+restart. Requested the concrete budget/execution decision and, separately,
+explicit approval for sending the already-prepared private theory excerpt to
+Anthropic after its automatic approval-review rejection. Replies are pending.
+
+Created a versioned parameter-by-test evidence matrix from the completed source
+and audit reports, retaining confidence intervals, majority baselines and active
+diagnostics. It records remaining tests as pending and is not a scientific closure
+verdict. No completed observation, criterion or theory commitment was changed.
+
+## 2026-09-09 — Project-health assessment requested by user
+
+Provisional assessment, not a phase-gate verdict or permission to redesign:
+execution and provenance now support a serious validation study, while the full
+ten-parameter interpretability/reliability claim remains unsupported. In the
+full-harness sweep, MoR/S3, PD/S1 and MS/S2 meet the complete prespecified cell
+criterion; in the bare delivery only MS/S2 does. Other statistically detectable
+effects must not be confused with complete criterion success, nor strict
+monotonicity failures with proof of no effect. LL/CS/AW lack prespecified signs.
+S1 saturation leaves little room to distinguish most profiles. Representation
+comparisons show substantial differences on S2/S3; the one-value rotations do
+not establish within-parameter gradients. The audit's literal threshold pass
+does not overcome its majority-baseline and active-stratum limitations.
+
+Synthetic review: Linden requires distinct, interpretable conceptual effects;
+Osei recognises real parameter sensitivity but flags saturation and harness
+dependence; Tanaka distinguishes inconclusive small active strata from proof of
+no recoverability; Renna treats model/coder/measurement limitations as competing
+explanations; Okafor finds the operational records useful but notes that local
+ZIP files are not independent backups. Resolution: continue evaluating the
+frozen design, finish the reviewed paraphrase test, discuss the outstanding
+gradient criterion before additional collection, and withhold Phase 2 readiness.
+No parameter, prompt, benchmark, scope, or accepted historical amendment changes.
+Any new departure requires the user's stipulated constraint evidence and prior
+consultation. An informative mixed or negative thesis result remains possible;
+no publication outcome or successful full architecture is promised.
+
 ## 2026-09-09 — Completed independent audit and interpretation
 
 The effective r3 audit has 200 valid records and 2,000 estimates (two legitimate

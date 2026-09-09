@@ -24,8 +24,17 @@ The audit meets literal numerical thresholds (7 above the 35% criterion, 6 at
 least 50%), but no active-parameter permutation diagnostic has p<.05 and every
 aggregate accuracy is below its empirical majority baseline. No phase pass is
 claimed. See [audit report](experiments/phase1_5_encoding_validity/claude_audit_20260909_brief_r3/analysis/AUDIT_REPORT.md).
-Audit token cost across 202 unique attempts: approximately $0.436. No process is
-currently running. Earlier strict-format and missing-confidence failures were
+Audit token cost across 202 unique attempts: approximately $0.436. The authorised
+gradient extension is complete in `gradients_20260909_final`: 15,000 records,
+14,998 valid parses, two preserved parsing failures and zero API failures.
+Checksums, a verified local ZIP and the updated evidence matrix are saved.
+Estimated gradient token cost: $14.54. Two of six eligible comparisons meet
+the existing retention criterion (verbal MoR/S3 and numeric PD/S1); no eligible
+pair meets it in both representations. PD/S1 remains severely ceiling-limited.
+The other 54 comparisons are not assessable under the prespecified source gate.
+See the [gradient report](experiments/phase1_5_encoding_validity/gradients_20260909_final/analysis/GRADIENT_REPORT.md).
+Terminal job status: `output/validity_gradients_20260909/status.json`.
+Earlier audit failures were
 preserved separately; the completed audit uses the unchanged 200-item blind pack.
 Corrected paraphrase generation and review remain pending as described below.
 Earlier progress counts below are historical checkpoints.
@@ -56,7 +65,7 @@ See [cross-computer continuation](docs/phase1_5_continuation.md).
 |---|---|---|
 | 0a–0c | Closed, with documented baseline and delivery deviations | [Phase 0 closure](experiments/PHASE0_CLOSURE_2026-07-29.md) |
 | 1 | Operational pilot passed, S3 + S2, 100 calls | [Pilot result](experiments/phase1_pilot/PHASE1_PILOT_RESULT_2026-07-29.md) |
-| 1.5 | Open; fresh September 9 sweep running; follow-ups queued | [Restart](docs/phase1_5_restart_20260909.md), [follow-up implementation](docs/phase1_5_followup.md) |
+| 1.5 | Open; source, rotations, audit and gradients complete; paraphrases pending | [Gradient results](experiments/phase1_5_encoding_validity/gradients_20260909_final/analysis/GRADIENT_REPORT.md), [follow-up implementation](docs/phase1_5_followup.md) |
 | 2 | Pending; encoding-validity gate and preregistration required | Paired-agent individual and collective experiments |
 | 3 | Pending | Five behavioural benchmark families and contamination diagnostics |
 | 4 | Pending | Reviewed moral-coding manual and human validation |
@@ -100,8 +109,15 @@ The stored failures must not be deleted or replaced to make the run resumable.
    `output/validity_backups` (same machine, not off-device). The old supervisor
    is stopped; do not relaunch it against the obsolete failed audit designation.
 5. Review the entire validity battery before authorising Phase 2. A single .8
-   rotation does not estimate a gradient; the optional five-value extension adds
-   15,000 calls and needs a deliberate execution/budget decision.
+   rotation does not estimate a gradient; the now-authorised five-value extension
+   adds 15,000 calls and is running. Do not launch a duplicate process.
+
+The final gradient design is frozen in `gradients_20260909_final/manifest.json`.
+The user approved its 15,000 calls (estimated $20–$55). Permission to send the
+separate prepared thesis-containing paraphrase request to Anthropic remains
+pending. The current
+[evidence matrix](experiments/phase1_5_encoding_validity/phase_review_20260909/evidence_3b0e65ccff8ad5a5.md)
+keeps completed evidence and unresolved criteria distinct; it is not a gate verdict.
 
 ## Supervisor handoff
 
