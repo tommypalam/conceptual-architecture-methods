@@ -1,0 +1,123 @@
+{
+  "design_hash": "e667ab0a274bb4c94540c0d349e92fe4086f250f861d6632a617a17e09e977e9",
+  "configuration": "neutral",
+  "seed": 20260912,
+  "cells": [
+    {
+      "variant": "A",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 300,
+      "n_recorded": 300,
+      "n_valid": 300,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 266,
+      "rate": 0.8866666666666667,
+      "ci95": [
+        0.8458006041283088,
+        0.9177554981247089
+      ]
+    },
+    {
+      "variant": "B",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 300,
+      "n_recorded": 300,
+      "n_valid": 300,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 151,
+      "rate": 0.5033333333333333,
+      "ci95": [
+        0.44707193979203275,
+        0.5595104403998036
+      ]
+    },
+    {
+      "variant": "C",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 300,
+      "n_recorded": 300,
+      "n_valid": 300,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 119,
+      "rate": 0.39666666666666667,
+      "ci95": [
+        0.34295083194304077,
+        0.452995382110032
+      ]
+    },
+    {
+      "variant": "D",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 300,
+      "n_recorded": 300,
+      "n_valid": 300,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 15,
+      "rate": 0.05,
+      "ci95": [
+        0.03053164062934728,
+        0.08084703347274415
+      ]
+    }
+  ],
+  "contrast_analysis": {
+    "condition_bounds": [
+      [
+        0.8333564529180151,
+        0.9279288718922356
+      ],
+      [
+        0.42997221369229194,
+        0.5765922403262648
+      ],
+      [
+        0.3264780876056513,
+        0.4700258427028846
+      ],
+      [
+        0.02385270507420118,
+        0.09042662710488752
+      ]
+    ],
+    "contrasts": {
+      "low_endpoint_P2_minus_P3": {
+        "estimate_valid_only": 0.365,
+        "simultaneous_ci95_unknowns_expanded": [
+          0.24640783654625706,
+          0.4720648979143135
+        ],
+        "excludes_zero": true
+      },
+      "high_endpoint_P2_minus_P3": {
+        "estimate_valid_only": 0.4716666666666667,
+        "simultaneous_ci95_unknowns_expanded": [
+          0.3514380984012674,
+          0.5770951597693239
+        ],
+        "excludes_zero": true
+      },
+      "endpoint_interaction_difference_in_differences": {
+        "estimate_valid_only": 0.03666666666666675,
+        "simultaneous_ci95_unknowns_expanded": [
+          -0.18940892503693313,
+          0.2619051976991799
+        ],
+        "excludes_zero": false
+      }
+    }
+  },
+  "status": "EXPLORATORY_DIAGNOSTIC_COMPLETE",
+  "phase_gate": "Unchanged; this local diagnostic cannot close the original battery"
+}

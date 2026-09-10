@@ -1,0 +1,21 @@
+{
+  "approved": true,
+  "reviewer": "Tommy (project owner; explicit approval in conversation)",
+  "design_hash": "e667ab0a274bb4c94540c0d349e92fe4086f250f861d6632a617a17e09e977e9",
+  "condition_template_hashes": {
+    "A": "34b7dfe5be4f0df2794ef9d7a07b6031b43379384e4d20aeb0aec40dcafaad6e",
+    "B": "796f635457fa1bfb947934d31993e6f0682220002f263a0f3aa7bf7c3389162e",
+    "C": "03eea27bd5b6bc44fc2c5408aeb16b62ef50b53b4e7596c8afc4b9adbcd574d0",
+    "D": "8e8c2877e49de094333456928571558895c226ca56ad65fb108df674ffdfd46a"
+  },
+  "condition_messages_hashes": {
+    "A": "1e406090c9a5e4245dd818ba9bcb2d469938c35c9eefdc48f7fbbc7b232c0f45",
+    "B": "133bcf722b5ea911b53da40bce7b46359ba33e4596794ea8df334a1aa866d60f",
+    "C": "32218647195757cec4c42bb3383b9c0697e6afbf10ec232578ef68ceaaa694b3",
+    "D": "a0733c9354d9f5a00fb4bd6316ad5bb40d83eaa4be76bd9f97e507a083f67115"
+  },
+  "scope": "Exact new B/C low/high combinations approved; unchanged A/D controls retain earlier approval",
+  "approved_at": "2026-09-10T01:43:00Z",
+  "approval_evidence": "User, with this exact HUMAN_REVIEW.md open: approved, do you also approve",
+  "assistant_assessment": "Both mixed pairs retain the accepted endpoint meanings and directions; suitable for testing, with behavioural robustness unresolved."
+}

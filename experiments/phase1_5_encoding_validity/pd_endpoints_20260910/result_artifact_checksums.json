@@ -1,0 +1,21 @@
+{
+  "design_hash": "e667ab0a274bb4c94540c0d349e92fe4086f250f861d6632a617a17e09e977e9",
+  "sha256": {
+    "analysis/ENDPOINT_REPORT.md": "fa827ae1220c3bf85f73478b0b5c9f2c71f5ff4e1ed051842dbd4eaecb34608d",
+    "analysis/endpoints_b2ad447503a870bd.json": "d2a016d76e1adb893512f1afbfa2e75c8382d4e2570a128e6725204ff9180e1c",
+    "budget_reservation.json": "c01bfb5a3441b839a3e243b3be2215a77f7a82ee6dab2fa1dacca61e680567fa",
+    "budget_settlement.json": "47697f2a7c481b93fc15e45d10c861c92a274841eecebcff09c2d445f5fa2db6",
+    "completion_verification.json": "3b3db3ed127b2e7eeab747298a7bad830b2a1d611650cb0cbfed077989ea687d",
+    "HUMAN_REVIEW.md": "d83151d78cfbcfcc832491c4de9f04ab69c3a06417c76f73a3c87b38584f2645",
+    "local_backup.json": "2ca1f7070d288a43a65ef63a85e169a4e8adeeedc96b27e896db77f59d80b102",
+    "manifest.json": "b8f45ad3112e795cc01588a8121abd6291f68798f04dded4276970eeb395b936",
+    "power_plan.json": "7abf2c154f8ee56a6c047f4a10e386b1905e6a34fcafadf7a6238f34dc5ae927",
+    "preparation_checksums.json": "657c9832124f650c8f9d9f309bcee619b4664d4cebd44dbed084ad97562e0185",
+    "PROTOCOL.md": "959cb385a35775f4d20d6f4d55b3dd04b816fbc07c7053536a8653a56c59c0ba",
+    "record_checksums.json": "a6642cb997216d7a04c2a58fc6c8a730e88dae352dfda3cb6e5bd7b5b88ccdd5",
+    "review_approved.json": "7d4e41a2384072d23fd1480287d9995ad6c4e4dda5639e06f566e3532ae00826",
+    "review_pending.json": "264e66b8970143ee524a1f3a14d9646a618662ffa47f84ae4b30ce6c1c5fd03e",
+    "token_usage.json": "27d9ac83563f90669bf21fec69c47c18d8ea5afe9a3637fb4c5831540c9951e6"
+  },
+  "note": "Completion verification, report and budget settlement were added after creation of the raw-record ZIP."
+}

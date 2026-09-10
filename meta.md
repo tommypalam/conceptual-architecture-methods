@@ -6,6 +6,43 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 ## 2026-09-10 - Return to endpoint diagnosis within Phase 1.5
 
+**Completed endpoint result:** all 1,200 responses are valid (300 per condition),
+with no terminal API or model errors. ADOPT counts A/B/C/D are 266/151/119/15;
+rates .8867/.5033/.3967/.0500. Prespecified simultaneous contrasts: low endpoint
++.3650 [.2464,.4721], high endpoint +.4717 [.3514,.5771], interaction +.0367
+[-.1894,.2619]. Both main-effect intervals exceed the .20 planning target.
+The interaction is unresolved; no additivity/equivalence claim is made. The
+higher high-end estimate is not a tested claim of a larger effect than low-end.
+
+Interpretation review (synthetic): Linden separates accepted intended meanings
+from demonstrated model stability. Osei restricts inference to the selected
+PD=.8/S3 and P2 background, and retains differing fresh control rates as a
+cross-session limitation. Tanaka retains the frozen contrasts, simultaneous
+bounds and small-interaction power caveat. Renna identifies both endpoints as
+targets for a reviewed encoding revision rather than preferred-answer tuning.
+Okafor verifies exact requests/profiles/model, unique keys/API IDs/seeds, all
+hashes, analysis counts and byte-identical ZIP payloads. Resolution: report the
+two large endpoint effects; keep the theory, original gate and Phase 2 hold;
+no additional experiment or encoding revision has been launched.
+
+First/last saved responses: 01:43:43/02:12:53 UTC, September 10. Root seed
+20260912; neutral context; completion status 02:13:13 UTC. Four requests needed
+two attempts, with all ultimately successful. Usage: 1,086,600 input and 110,977
+output tokens, no cache; estimated cost $1.3143465 before taxes/unreported retry
+charges. Estimated additional-budget remainder $48.6856535. The preparation
+reservation and pending-review artifact remain historical; exact approval,
+completion verification and the [report](experiments/phase1_5_encoding_validity/pd_endpoints_20260910/analysis/ENDPOINT_REPORT.md)
+record the final state. Same-computer ZIP verified; no remote publication.
+
+**Subsequent approval and launch:** with the exact endpoint review file open,
+the researcher said "approved, do you also approve". Recorded human approval
+against the frozen hashes and the separate assistant semantic assessment. The
+assistant finds both mixed pairs preserve the accepted meanings/directions;
+this does not establish behavioural robustness. All preparation artifact and
+source hashes were verified before the 1,200-call launch. No frozen prompts,
+model settings or analysis code changed. Collection remains within the additional
+$50 budget and fixed stopping rule; actual token usage will be recorded at completion.
+
 The researcher clarified that later simple problems should use LPMs and complex
 problems an Agents of Chaos-style build, with the validity battery completed
 first. They then explicitly instructed continuing the proposal made before the

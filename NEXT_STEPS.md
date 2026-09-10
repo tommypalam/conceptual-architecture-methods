@@ -10,15 +10,18 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
-**Current next experiment:** the researcher explicitly returned to the proposed
-PD low/high endpoint diagnostic, before the later deadline/architecture discussion.
-[`pd_endpoints_20260910`](experiments/phase1_5_encoding_validity/pd_endpoints_20260910/PROTOCOL.md)
-is prepared: four conditions, 300 fresh responses each, fixed P2 background,
-PD=.8/S3, neutral context, collection seed 20260912. Nine offline tests passed.
-Expected cost about $1.35; $5 planning reservation within the authorised additional
-$50. No calls yet; exact B/C combination review has been requested. This continues
-Phase 1.5. Later simple problems use LPMs and complex problems an Agents of
-Chaos-style build; architectural migration is not the immediate task.
+**Latest completion - PD endpoints:** all 1,200 responses are valid, 300 per
+condition, with zero terminal API/model failures. Fixed PD=.8/S3, P2 background,
+neutral context, collection seed 20260912. ADOPT rates A/B/C/D: 88.7% / 50.3% /
+39.7% / 5.0%. Low-end wording effect +36.5 points (simultaneous interval +24.6
+to +47.2); high-end +47.2 (+35.1 to +57.7); interaction +3.7 (-18.9 to +26.2).
+Both endpoints matter; interaction remains unresolved. Exact messages, hashes,
+analysis counts and byte equality of all 1,200 archived records are verified.
+See the [endpoint report](experiments/phase1_5_encoding_validity/pd_endpoints_20260910/analysis/ENDPOINT_REPORT.md).
+Estimated token cost $1.3143465; approximately $48.69 remains from the additional
+$50, before taxes or unreported retry charges. Collection is complete; status is
+under `output/pd_endpoints_20260910`. Phase 1.5 remains open. Later simple problems
+use LPMs and complex problems an Agents of Chaos-style build.
 
 **September 10 diagnostic complete:** all 1,200 PD/S3 factorial responses are
 valid (300 per condition), with zero API/model errors, seed 20260910. The user
@@ -154,9 +157,9 @@ diagnostics, not new observations or replacement gate criteria.
 
 The recommended two-by-two attribution experiment is now complete and supports
 PD wording, background wording and interaction effects; see the latest status
-above. The low/high PD endpoint diagnostic is now prepared as requested, with
-exact mixed-pair review pending. A subsequent encoding revision and independent
-validation remain unprepared. Increasing N alone cannot remove the wording
+above. The low/high PD endpoint diagnostic is also complete and supports large
+effects from both endpoint descriptions. A subsequent theory-faithful encoding
+revision and independent validation remain unprepared. Increasing N alone cannot remove the wording
 effect demonstrated here. The theory remains unchanged and Phase 2 is on hold.
 
 1. Source sweep, rotations, gradients, independent audit and approved paraphrases

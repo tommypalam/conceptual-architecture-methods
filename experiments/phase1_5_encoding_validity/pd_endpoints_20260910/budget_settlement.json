@@ -1,0 +1,11 @@
+{
+  "experiment": "pd_endpoints_20260910",
+  "additional_budget_authorized_usd": 50,
+  "estimated_token_cost_usd": 1.3143465,
+  "estimated_remaining_usd": 48.6856535,
+  "planning_reservation_usd": 5,
+  "reservation_status": "Released; replaced by usage estimate",
+  "requests_with_retry": 4,
+  "recorded_attempts_total": 1204,
+  "basis": "Returned usage at verified prices; excludes taxes and any unreported retry charges. Earlier runs predate the additional budget."
+}
