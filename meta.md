@@ -4,6 +4,77 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-10 - One numeric-axis clarification candidate prepared
+
+The researcher asked to continue after the endpoint result. Prepared one
+theory-motivated operational candidate: a shared instruction to read both
+endpoints jointly as an axis, interpret numerical positions continuously, retain
+intermediate degree and apply all ten positions jointly. All definitions,
+endpoint strings, parameter values, context, dilemma text and output schema
+remain unchanged; no desired answer, arithmetic utility/probability mapping,
+new trait hierarchy or new categorical cut-point is introduced. Its explicit
+numerical scope preserves the accepted six-bin verbal convention. This is an
+assistant-authored task instruction, not a newly independent Claude paraphrase.
+The old reviewed Claude endpoint paraphrases remain the lexical manipulations.
+
+Rationale: thesis 3.1/4.2 defines continuous axes and graded consequences; spec
+4.1.3 calls for continuous rather than bucket-collapsed encoding. The prior
+diagnostics implicate both endpoints, but do not prove that interpretation of
+numeric positions caused the failure. This is a candidate hypothesis, not an
+identified cure, and it affects all ten fixed positions although only PD is
+manipulated in the pilot. One candidate is fixed before new outcomes; no
+automatic search for wording yielding favourable ADOPT rates.
+
+Design: 6,400 fresh PD=.8/S3 observations, canonical plus three previously
+approved formulations, N=800 per formulation in baseline/revision arms. Add
+1,500 fresh canonical PD sweep observations: both arms, all three simple
+problems, five original values, N=50. Total 7,900; neutral context, same pinned
+model/temperature/cap, seed 20260913. Matched baseline/revision job pairs are
+randomised across the two components and within pairs; requested seeds differ.
+Previous observations are not pooled and familiar scenarios are not called
+held-out problems. Endpoint messages in the fresh baseline match frozen sources.
+
+N=800 uses the saved equal-rate six-pair TOST precision simulation, approximately
+91% success at true common p=.5, rather than claiming N=50 supplies adequate
+equivalence power there. The old simulation and source hash are retained, not
+rerun or mislabelled as predicted candidate success. Sweeps retain the original
+N=50 and its known PD/S1 ceiling/power limitations. All six TOST pairs are
+reported per arm; eligible invalid outcomes additionally undergo exhaustive
+binary-completion sensitivity. Separate local progression requires revised
+equivalence with that sensitivity, the original PD/S1 sweep criterion and no
+all-formulation <=5%/>=95% saturation flag. This is a local screen, not a
+replacement gate. No new PD/S2 or PD/S3 directional prediction is supplied.
+Baseline-fail/revision-pass does not by itself test between-arm improvement.
+
+Synthetic review: Linden supports clarifying the existing numeric axis without
+changing endpoints, but requires review of the exact task instruction. Osei
+requires fresh controls, forbids preferred-answer selection, and notes the
+selected-PD scope and familiar tasks. Tanaka supports better-powered local
+equivalence and unknown-outcome sensitivity; keeps the weak sweep and broader
+budget/precision limits visible. Renna requires both stability and a graded
+response, preserving the broader conceptual programme. Okafor requires frozen
+sources, distinct seeds, immutable records, resumability and a spending guard.
+Disagreement: a generic instruction may leave the underlying lexical dependence
+unchanged and a conservative local screen may be inconclusive. Resolution:
+test one candidate once, publish every outcome, and avoid automatic expansion.
+
+Five focused tests passed, including exact-only insertion, balanced cells,
+1,516 mocked calls with correct component scoring, distinct seeds and no-call
+resume, saturation/invalid sensitivity, approval refusal, a pre-dispatch budget
+stop and preserved terminal-failure refusal. Frozen plan, exact review and
+protocol are under `axis_instruction_20260910`; no paid calls. Expected cost
+about $9, $12 recorded-usage dispatch guard, approximately $48.69 available.
+Taxes/provider-only retry charges remain outside exact local accounting.
+
+Exact researcher review of the added instruction and four revised templates
+has been requested. Spec 4.5 calls for supervisor discussion before re-attempting
+the full Phase 1.5 battery after severe paraphrase failure. The protocol flags
+that future review point; no supervisor contact or endorsement is implied.
+The local pilot cannot establish all-parameter gradients, audit recoverability,
+representation robustness or 24/30 equivalence. A full revised battery still
+needs an explicit precision/budget plan; neither deadline nor budget authorises
+a silent theory departure or gate relaxation.
+
 ## 2026-09-10 - Return to endpoint diagnosis within Phase 1.5
 
 **Completed endpoint result:** all 1,200 responses are valid (300 per condition),

@@ -10,6 +10,19 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Prepared candidate revision:** `axis_instruction_20260910` adds one shared
+numeric-axis reading instruction, with all endpoint definitions and original
+control messages unchanged. Exact human review is requested in its
+[review file](experiments/phase1_5_encoding_validity/axis_instruction_20260910/HUMAN_REVIEW.md).
+The [local pilot](experiments/phase1_5_encoding_validity/axis_instruction_20260910/PROTOCOL.md)
+plans 7,900 fresh responses: 6,400 for PD=.8/S3 four-formulation equivalence
+(800 per formulation per baseline/revision arm) and 1,500 for canonical PD sweeps
+across S1/S2/S3. Five focused tests passed, including a 1,516-call mock.
+Expected cost about $9; $12 dispatch guard within the approximately $48.69
+additional budget remaining. No paid calls or theory changes. This is one
+development candidate, not a full battery rerun or a promised repair. The spec's
+supervisor-discussion point is recorded before a full revised-battery attempt.
+
 **Latest completion - PD endpoints:** all 1,200 responses are valid, 300 per
 condition, with zero terminal API/model failures. Fixed PD=.8/S3, P2 background,
 neutral context, collection seed 20260912. ADOPT rates A/B/C/D: 88.7% / 50.3% /
@@ -158,8 +171,10 @@ diagnostics, not new observations or replacement gate criteria.
 The recommended two-by-two attribution experiment is now complete and supports
 PD wording, background wording and interaction effects; see the latest status
 above. The low/high PD endpoint diagnostic is also complete and supports large
-effects from both endpoint descriptions. A subsequent theory-faithful encoding
-revision and independent validation remain unprepared. Increasing N alone cannot remove the wording
+effects from both endpoint descriptions. One operational numeric-axis revision
+and its fresh local validation pilot are now prepared for exact review, as above.
+The full revised battery is not prepared or authorised for automatic launch.
+Increasing N alone cannot remove the wording
 effect demonstrated here. The theory remains unchanged and Phase 2 is on hold.
 
 1. Source sweep, rotations, gradients, independent audit and approved paraphrases
