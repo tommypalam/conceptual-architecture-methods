@@ -4,6 +4,81 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-10 - Return to endpoint diagnosis within Phase 1.5
+
+The researcher clarified that later simple problems should use LPMs and complex
+problems an Agents of Chaos-style build, with the validity battery completed
+first. They then explicitly instructed continuing the proposal made before the
+"fire"/deadline discussion. This supersedes immediate prioritisation of the
+alternative injection architecture in the earlier clarification below. The
+objective of encoding the five concepts and following the theory is unchanged.
+
+Prepared `pd_endpoints_20260910`: PD=.8/S3, other-nine P2 descriptions fixed,
+four low/high PD combinations, N=300 each, pinned model/temperature/context,
+root seed 20260912. Original factorial A and B become new A and D controls;
+new B/C mix the low/high strings independently. All four collect fresh data.
+No original experimental artifact or frozen source was changed. The executor
+and exact-bound functions are reused; factor names and the seed are explicitly
+updated in the new scorer. Nine offline tests passed, including endpoint-only
+differences, control identity, exact-review refusal, immutable design, mocked
+execution/resume and low/high scoring orientation.
+
+The existing 20,000-repetition power plan is relabelled with its source hash:
+the probability scenarios/weights are mathematically identical. N=300 retains
+approximately 97% balanced-scenario power for 20-point main effects/40-point
+interaction, and weak power for smaller effects. No new power simulation is
+claimed. Four Bonferroni exact intervals supply simultaneous contrast bounds;
+unknown decisions are expanded over binary completions; the 98% parse floor
+and fixed stopping remain. Selection of PD/S3 and P2 background is post-hoc,
+with restricted generalisation and no new ADOPT-direction hypothesis.
+
+Synthetic review: Linden finds both mixed pairs preserve the already accepted
+endpoint meanings, subject to exact human review. Osei retains fresh controls
+and identifies post-hoc P2-background selection as a scope limitation. Tanaka
+accepts reusing the identical mathematical power scenarios, with explicit weak
+small-effect power. Renna keeps this diagnostic subordinate to the full battery
+and original conceptual objective. Okafor favours the verified immutable runner
+and distinct score labels over changing completed-run code. Resolution: proceed
+with the authorised local diagnosis; do not select future encodings by preferred
+decision rates or treat this result as a global battery pass.
+
+The additional API budget is $50. Reserve $5 for planning this experiment
+(expected approximately $1.35), with zero incurred spend at preparation. Exact
+B/C review is requested after prompts, protocol, runner and checks are ready,
+as required by `docs/phase1_5_followup.md`. Original A/D approvals are retained.
+No further theoretical change or architecture switch is requested or implemented.
+
+## 2026-09-10 - Research objective reaffirmed under deadline and budget
+
+The researcher approved up to $50 additional API spending and specified a
+submission-ready thesis in ten days, then clarified that the original purpose
+must remain: implement the theoretical encoding of ethical concepts and test
+whether it is possible. Deadline-driven conversion to a wording-only methods
+study is not authorised. A final submission date of September 20 was an assistant
+planning assumption, not a researcher-confirmed timestamp. No new calls have
+been made against this additional budget at the time of this clarification.
+
+Read thesis 4.1/8.2 and implementation specification 4.5. The theory explicitly
+positions system-prompt delivery as the baseline and tool-based injection as
+the target subsequent architecture; the decision tree names that route when
+encoding fails. The spec also calls for lexically transparent prompt revision
+and supervisor discussion after severe paraphrase failure. The next step must
+connect the measured failure to that architectural route rather than continue
+local wording investigations without a construct-encoding plan. No architecture
+change, new theoretical mapping, gate relaxation or Appendix A descope was
+implemented in this clarification. No supervisor message was sent.
+
+Synthetic review: Linden preserves all five concept definitions and accepted
+theoretical commitments. Osei requires the revised mechanism to earn behavioural
+validity rather than treating a structured tool response as evidence. Tanaka
+keeps the original gate and fresh-data distinction intact. Renna reconnects
+the diagnostic work to the planned construct-injection architecture. Okafor
+requires a concrete mapping to the existing sampler, persistent profile and
+context interfaces before paid execution. Resolution: prioritise the specified
+architecture and its falsifiable assessment; keep diagnostics subordinate to
+that aim and consult the researcher on substantive departures. Budget and time
+constraints are recorded, not used to silently narrow the research claim.
+
 ## 2026-09-10 - Four-condition wording diagnostic completed
 
 **Completed outcome:** all 1,200 calls are valid, 300 per condition, with no API

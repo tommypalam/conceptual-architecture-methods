@@ -81,6 +81,7 @@ experiments/phase1_5_encoding_validity/gradients_*/records/
 experiments/phase1_5_encoding_validity/paraphrases_*/records/
 experiments/phase1_5_encoding_validity/wording_factorial_*/records/
 experiments/phase1_5_encoding_validity/wording_factorial_*/execution.lock
+experiments/phase1_5_encoding_validity/pd_endpoints_*/records/
 
 # =============================================================
 # What IS committed:

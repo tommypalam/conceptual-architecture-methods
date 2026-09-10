@@ -1,0 +1,12 @@
+{
+  "design_hash": "e667ab0a274bb4c94540c0d349e92fe4086f250f861d6632a617a17e09e977e9",
+  "status": "Prepared; exact B/C review requested; no API calls",
+  "sha256": {
+    "budget_reservation.json": "c01bfb5a3441b839a3e243b3be2215a77f7a82ee6dab2fa1dacca61e680567fa",
+    "HUMAN_REVIEW.md": "d83151d78cfbcfcc832491c4de9f04ab69c3a06417c76f73a3c87b38584f2645",
+    "manifest.json": "b8f45ad3112e795cc01588a8121abd6291f68798f04dded4276970eeb395b936",
+    "power_plan.json": "7abf2c154f8ee56a6c047f4a10e386b1905e6a34fcafadf7a6238f34dc5ae927",
+    "PROTOCOL.md": "959cb385a35775f4d20d6f4d55b3dd04b816fbc07c7053536a8653a56c59c0ba",
+    "review_pending.json": "264e66b8970143ee524a1f3a14d9646a618662ffa47f84ae4b30ce6c1c5fd03e"
+  }
+}

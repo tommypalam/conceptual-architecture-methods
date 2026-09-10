@@ -1,0 +1,10 @@
+{
+  "additional_budget_authorized_usd": 50,
+  "authorization": "User explicitly selected Up to $50 for the remaining ten days.",
+  "experiment": "pd_endpoints_20260910",
+  "planning_reservation_usd": 5,
+  "expected_token_cost_usd": 1.35,
+  "incurred_at_preparation_usd": 0,
+  "remaining_unreserved_at_preparation_usd": 45,
+  "note": "Reservation is not incurred spend or a provider billing cap. Prior completed experiments predate this additional budget. Record actual usage in a separate completion artifact; preserve this preparation record."
+}

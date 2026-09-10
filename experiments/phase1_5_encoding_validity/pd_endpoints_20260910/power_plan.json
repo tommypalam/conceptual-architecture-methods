@@ -1,0 +1,542 @@
+{
+  "seed": 20260910,
+  "repetitions": 20000,
+  "method": "Four Bonferroni exact rate intervals; weighted contrast bounds; no missing observations simulated",
+  "targets": "At least 80% power for 20pp main effects and 40pp interaction in specified balanced scenarios; smaller effects explicitly underpowered",
+  "rows": [
+    {
+      "n_per_condition": 100,
+      "scenario": "null_balanced",
+      "probabilities": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "target_contrast": null,
+      "target_power": null,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.0,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 100,
+      "scenario": "low_endpoint_main_20pp_balanced",
+      "probabilities": [
+        0.6,
+        0.4,
+        0.6,
+        0.4
+      ],
+      "target_contrast": "low_endpoint_P2_minus_P3",
+      "target_power": 0.12405,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.12405,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.12405,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 100,
+      "scenario": "high_endpoint_main_20pp_balanced",
+      "probabilities": [
+        0.6,
+        0.6,
+        0.4,
+        0.4
+      ],
+      "target_contrast": "high_endpoint_P2_minus_P3",
+      "target_power": 0.1189,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.1189,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.1189,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 100,
+      "scenario": "interaction_40pp_balanced",
+      "probabilities": [
+        0.6,
+        0.4,
+        0.4,
+        0.6
+      ],
+      "target_contrast": "endpoint_interaction_difference_in_differences",
+      "target_power": 0.118,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.118
+      },
+      "any_detection_rate": 0.118,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 100,
+      "scenario": "low_endpoint_main_20pp_different_backgrounds",
+      "probabilities": [
+        0.4,
+        0.2,
+        0.8,
+        0.6
+      ],
+      "target_contrast": "low_endpoint_P2_minus_P3",
+      "target_power": 0.2067,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.2067,
+        "high_endpoint_P2_minus_P3": 0.99965,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.99975,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 100,
+      "scenario": "low_endpoint_main_10pp_balanced",
+      "probabilities": [
+        0.55,
+        0.45,
+        0.55,
+        0.45
+      ],
+      "target_contrast": "low_endpoint_P2_minus_P3",
+      "target_power": 0.00065,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.00065,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.00065,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 100,
+      "scenario": "interaction_20pp_balanced",
+      "probabilities": [
+        0.55,
+        0.45,
+        0.45,
+        0.55
+      ],
+      "target_contrast": "endpoint_interaction_difference_in_differences",
+      "target_power": 0.001,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.001
+      },
+      "any_detection_rate": 0.001,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 200,
+      "scenario": "null_balanced",
+      "probabilities": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "target_contrast": null,
+      "target_power": null,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.0,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 200,
+      "scenario": "low_endpoint_main_20pp_balanced",
+      "probabilities": [
+        0.6,
+        0.4,
+        0.6,
+        0.4
+      ],
+      "target_contrast": "low_endpoint_P2_minus_P3",
+      "target_power": 0.70855,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.70855,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.70855,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 200,
+      "scenario": "high_endpoint_main_20pp_balanced",
+      "probabilities": [
+        0.6,
+        0.6,
+        0.4,
+        0.4
+      ],
+      "target_contrast": "high_endpoint_P2_minus_P3",
+      "target_power": 0.70155,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.70155,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.70155,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 200,
+      "scenario": "interaction_40pp_balanced",
+      "probabilities": [
+        0.6,
+        0.4,
+        0.4,
+        0.6
+      ],
+      "target_contrast": "endpoint_interaction_difference_in_differences",
+      "target_power": 0.7087,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.7087
+      },
+      "any_detection_rate": 0.7087,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 200,
+      "scenario": "low_endpoint_main_20pp_different_backgrounds",
+      "probabilities": [
+        0.4,
+        0.2,
+        0.8,
+        0.6
+      ],
+      "target_contrast": "low_endpoint_P2_minus_P3",
+      "target_power": 0.8647,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.8647,
+        "high_endpoint_P2_minus_P3": 1.0,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 1.0,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 200,
+      "scenario": "low_endpoint_main_10pp_balanced",
+      "probabilities": [
+        0.55,
+        0.45,
+        0.55,
+        0.45
+      ],
+      "target_contrast": "low_endpoint_P2_minus_P3",
+      "target_power": 0.0101,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0101,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.0101,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 200,
+      "scenario": "interaction_20pp_balanced",
+      "probabilities": [
+        0.55,
+        0.45,
+        0.45,
+        0.55
+      ],
+      "target_contrast": "endpoint_interaction_difference_in_differences",
+      "target_power": 0.0095,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.0095
+      },
+      "any_detection_rate": 0.0095,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 300,
+      "scenario": "null_balanced",
+      "probabilities": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "target_contrast": null,
+      "target_power": null,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.0,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 300,
+      "scenario": "low_endpoint_main_20pp_balanced",
+      "probabilities": [
+        0.6,
+        0.4,
+        0.6,
+        0.4
+      ],
+      "target_contrast": "low_endpoint_P2_minus_P3",
+      "target_power": 0.9663,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.9663,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.9663,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 300,
+      "scenario": "high_endpoint_main_20pp_balanced",
+      "probabilities": [
+        0.6,
+        0.6,
+        0.4,
+        0.4
+      ],
+      "target_contrast": "high_endpoint_P2_minus_P3",
+      "target_power": 0.9674,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.9674,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.9674,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 300,
+      "scenario": "interaction_40pp_balanced",
+      "probabilities": [
+        0.6,
+        0.4,
+        0.4,
+        0.6
+      ],
+      "target_contrast": "endpoint_interaction_difference_in_differences",
+      "target_power": 0.96815,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.96815
+      },
+      "any_detection_rate": 0.96815,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 300,
+      "scenario": "low_endpoint_main_20pp_different_backgrounds",
+      "probabilities": [
+        0.4,
+        0.2,
+        0.8,
+        0.6
+      ],
+      "target_contrast": "low_endpoint_P2_minus_P3",
+      "target_power": 0.99545,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.99545,
+        "high_endpoint_P2_minus_P3": 1.0,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 1.0,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 300,
+      "scenario": "low_endpoint_main_10pp_balanced",
+      "probabilities": [
+        0.55,
+        0.45,
+        0.55,
+        0.45
+      ],
+      "target_contrast": "low_endpoint_P2_minus_P3",
+      "target_power": 0.04705,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.04705,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.04705,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 300,
+      "scenario": "interaction_20pp_balanced",
+      "probabilities": [
+        0.55,
+        0.45,
+        0.45,
+        0.55
+      ],
+      "target_contrast": "endpoint_interaction_difference_in_differences",
+      "target_power": 0.0504,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.0504
+      },
+      "any_detection_rate": 0.0504,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 400,
+      "scenario": "null_balanced",
+      "probabilities": [
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "target_contrast": null,
+      "target_power": null,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.0,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 400,
+      "scenario": "low_endpoint_main_20pp_balanced",
+      "probabilities": [
+        0.6,
+        0.4,
+        0.6,
+        0.4
+      ],
+      "target_contrast": "low_endpoint_P2_minus_P3",
+      "target_power": 0.99845,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.99845,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.99845,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 400,
+      "scenario": "high_endpoint_main_20pp_balanced",
+      "probabilities": [
+        0.6,
+        0.6,
+        0.4,
+        0.4
+      ],
+      "target_contrast": "high_endpoint_P2_minus_P3",
+      "target_power": 0.9987,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.9987,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 0.9987,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 400,
+      "scenario": "interaction_40pp_balanced",
+      "probabilities": [
+        0.6,
+        0.4,
+        0.4,
+        0.6
+      ],
+      "target_contrast": "endpoint_interaction_difference_in_differences",
+      "target_power": 0.9986,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.9986
+      },
+      "any_detection_rate": 0.9986,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 400,
+      "scenario": "low_endpoint_main_20pp_different_backgrounds",
+      "probabilities": [
+        0.4,
+        0.2,
+        0.8,
+        0.6
+      ],
+      "target_contrast": "low_endpoint_P2_minus_P3",
+      "target_power": 0.99995,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.99995,
+        "high_endpoint_P2_minus_P3": 1.0,
+        "endpoint_interaction_difference_in_differences": 0.0
+      },
+      "any_detection_rate": 1.0,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 400,
+      "scenario": "low_endpoint_main_10pp_balanced",
+      "probabilities": [
+        0.55,
+        0.45,
+        0.55,
+        0.45
+      ],
+      "target_contrast": "low_endpoint_P2_minus_P3",
+      "target_power": 0.1368,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.1368,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 5e-05
+      },
+      "any_detection_rate": 0.1368,
+      "repetitions": 20000
+    },
+    {
+      "n_per_condition": 400,
+      "scenario": "interaction_20pp_balanced",
+      "probabilities": [
+        0.55,
+        0.45,
+        0.45,
+        0.55
+      ],
+      "target_contrast": "endpoint_interaction_difference_in_differences",
+      "target_power": 0.1377,
+      "detection_rates": {
+        "low_endpoint_P2_minus_P3": 0.0,
+        "high_endpoint_P2_minus_P3": 0.0,
+        "endpoint_interaction_difference_in_differences": 0.1377
+      },
+      "any_detection_rate": 0.1377,
+      "repetitions": 20000
+    }
+  ],
+  "adaptation": "Unchanged mathematical design and simulated probabilities; factor names relabelled low/high. Planning seed retained; fresh collection seed 20260912.",
+  "source_power_plan_sha256": "12d91f0d305e1fed9e64f93ed65eed49b1063d488db131b66bcb7361b4483d24"
+}

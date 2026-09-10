@@ -10,6 +10,16 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Current next experiment:** the researcher explicitly returned to the proposed
+PD low/high endpoint diagnostic, before the later deadline/architecture discussion.
+[`pd_endpoints_20260910`](experiments/phase1_5_encoding_validity/pd_endpoints_20260910/PROTOCOL.md)
+is prepared: four conditions, 300 fresh responses each, fixed P2 background,
+PD=.8/S3, neutral context, collection seed 20260912. Nine offline tests passed.
+Expected cost about $1.35; $5 planning reservation within the authorised additional
+$50. No calls yet; exact B/C combination review has been requested. This continues
+Phase 1.5. Later simple problems use LPMs and complex problems an Agents of
+Chaos-style build; architectural migration is not the immediate task.
+
 **September 10 diagnostic complete:** all 1,200 PD/S3 factorial responses are
 valid (300 per condition), with zero API/model errors, seed 20260910. The user
 approved exact B/C combinations; A/D retain prior approval. ADOPT rates A/B/C/D
@@ -116,6 +126,23 @@ The stored failures must not be deleted or replaced to make the run resumable.
 
 ## Next actions
 
+**Researcher clarification, September 10:** the objective remains implementing
+and testing the theory's ethical-concept encoding, not replacing that objective
+with a stand-alone wording study to meet the deadline. The researcher authorised
+up to $50 additional API expenditure and wants a submission-ready thesis in ten
+days. These constraints do not authorise lowering the validity gate, removing
+concepts/parameters, invoking the descope path, or departing from theoretical
+meaning. Existing accepted binding-constraint amendments remain in force.
+
+The researcher subsequently clarified the sequence: finish Phase 1.5 using the
+previously proposed endpoint diagnosis and reviewed encoding work before moving
+to the LPM/simple and Agents of Chaos-style/complex implementations. The theory's
+alternative injection route remains documented; it is not the immediate authorised
+replacement task. No decision algorithm that hard-codes preferred answers is
+permitted without a justified theoretical mapping. Revised encoding still needs
+the original validity assessment before Phase 2, followed by configuration
+comparisons, benchmarks and validated moral scoring for those respective claims.
+
 The [offline diagnosis](experiments/phase1_5_encoding_validity/offline_diagnosis_20260909/FINDINGS_AND_NEXT_STEP.md)
 is complete with no API calls or theory changes. Eight equivalent profiles are
 saturated; four other profiles have observed ranges within .10 but do not establish
@@ -127,9 +154,9 @@ diagnostics, not new observations or replacement gate criteria.
 
 The recommended two-by-two attribution experiment is now complete and supports
 PD wording, background wording and interaction effects; see the latest status
-above. The next research decision can target the low/high PD endpoint contributions
-separately, or specify a reviewed encoding revision and independent validation.
-Neither is prepared or launched. Increasing N alone cannot remove the wording
+above. The low/high PD endpoint diagnostic is now prepared as requested, with
+exact mixed-pair review pending. A subsequent encoding revision and independent
+validation remain unprepared. Increasing N alone cannot remove the wording
 effect demonstrated here. The theory remains unchanged and Phase 2 is on hold.
 
 1. Source sweep, rotations, gradients, independent audit and approved paraphrases
