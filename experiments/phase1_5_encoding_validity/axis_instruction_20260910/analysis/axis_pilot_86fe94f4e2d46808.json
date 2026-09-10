@@ -1,0 +1,1318 @@
+{
+  "design_hash": "b5bfcaf29e053db07dc8cd81e8c53d962ae191456fe14ea4d287e38284e18a19",
+  "configuration": "neutral",
+  "seed": 20260913,
+  "cells": [
+    {
+      "stage": "equivalence",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 800,
+      "n_recorded": 288,
+      "n_valid": 288,
+      "n_invalid": 0,
+      "n_missing": 512,
+      "opt0_count": 45,
+      "rate": 0.15625,
+      "ci95": [
+        0.11887237324524057,
+        0.20267707075733282
+      ]
+    },
+    {
+      "stage": "equivalence",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 800,
+      "n_recorded": 288,
+      "n_valid": 288,
+      "n_invalid": 0,
+      "n_missing": 512,
+      "opt0_count": 47,
+      "rate": 0.16319444444444445,
+      "ci95": [
+        0.12499916927193663,
+        0.2102563465689686
+      ]
+    },
+    {
+      "stage": "equivalence",
+      "arm": "baseline",
+      "wording": "paraphrase_1",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 800,
+      "n_recorded": 315,
+      "n_valid": 315,
+      "n_invalid": 0,
+      "n_missing": 485,
+      "opt0_count": 38,
+      "rate": 0.12063492063492064,
+      "ci95": [
+        0.08916411054153231,
+        0.1612470471416795
+      ]
+    },
+    {
+      "stage": "equivalence",
+      "arm": "revision",
+      "wording": "paraphrase_1",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 800,
+      "n_recorded": 315,
+      "n_valid": 315,
+      "n_invalid": 0,
+      "n_missing": 485,
+      "opt0_count": 150,
+      "rate": 0.47619047619047616,
+      "ci95": [
+        0.42165674938608017,
+        0.5312979257823222
+      ]
+    },
+    {
+      "stage": "equivalence",
+      "arm": "baseline",
+      "wording": "paraphrase_2",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 800,
+      "n_recorded": 292,
+      "n_valid": 292,
+      "n_invalid": 0,
+      "n_missing": 508,
+      "opt0_count": 261,
+      "rate": 0.8938356164383562,
+      "ci95": [
+        0.853248762886538,
+        0.9241946722453858
+      ]
+    },
+    {
+      "stage": "equivalence",
+      "arm": "revision",
+      "wording": "paraphrase_2",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 800,
+      "n_recorded": 292,
+      "n_valid": 292,
+      "n_invalid": 0,
+      "n_missing": 508,
+      "opt0_count": 181,
+      "rate": 0.6198630136986302,
+      "ci95": [
+        0.5629705347905324,
+        0.6736426845974445
+      ]
+    },
+    {
+      "stage": "equivalence",
+      "arm": "baseline",
+      "wording": "paraphrase_3",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 800,
+      "n_recorded": 313,
+      "n_valid": 311,
+      "n_invalid": 2,
+      "n_missing": 487,
+      "opt0_count": 20,
+      "rate": 0.06430868167202572,
+      "ci95": [
+        0.04201223030533682,
+        0.09723708897082098
+      ]
+    },
+    {
+      "stage": "equivalence",
+      "arm": "revision",
+      "wording": "paraphrase_3",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 800,
+      "n_recorded": 313,
+      "n_valid": 311,
+      "n_invalid": 2,
+      "n_missing": 487,
+      "opt0_count": 32,
+      "rate": 0.10289389067524116,
+      "ci95": [
+        0.0738313635172266,
+        0.1416467983322604
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_invalid": 0,
+      "n_missing": 30,
+      "opt0_count": 19,
+      "rate": 0.95,
+      "ci95": [
+        0.763868806553258,
+        0.9911185511992047
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S1",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_invalid": 0,
+      "n_missing": 30,
+      "opt0_count": 19,
+      "rate": 0.95,
+      "ci95": [
+        0.763868806553258,
+        0.9911185511992047
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 21,
+      "n_valid": 21,
+      "n_invalid": 0,
+      "n_missing": 29,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.154639018924847
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S2",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 21,
+      "n_valid": 21,
+      "n_invalid": 0,
+      "n_missing": 29,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.154639018924847
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 22,
+      "n_valid": 22,
+      "n_invalid": 0,
+      "n_missing": 28,
+      "opt0_count": 21,
+      "rate": 0.9545454545454546,
+      "ci95": [
+        0.7820195416134267,
+        0.991930572378736
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S3",
+      "value": 0.1,
+      "n_expected": 50,
+      "n_recorded": 22,
+      "n_valid": 22,
+      "n_invalid": 0,
+      "n_missing": 28,
+      "opt0_count": 20,
+      "rate": 0.9090909090909091,
+      "ci95": [
+        0.7218505315839417,
+        0.9747045710090046
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_invalid": 0,
+      "n_missing": 30,
+      "opt0_count": 20,
+      "rate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S1",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_invalid": 0,
+      "n_missing": 30,
+      "opt0_count": 19,
+      "rate": 0.95,
+      "ci95": [
+        0.763868806553258,
+        0.9911185511992047
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 23,
+      "n_valid": 23,
+      "n_invalid": 0,
+      "n_missing": 27,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.14311661845042686
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S2",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 23,
+      "n_valid": 23,
+      "n_invalid": 0,
+      "n_missing": 27,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.14311661845042686
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 15,
+      "n_valid": 15,
+      "n_invalid": 0,
+      "n_missing": 35,
+      "opt0_count": 12,
+      "rate": 0.8,
+      "ci95": [
+        0.5481455128483065,
+        0.9295245065301844
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S3",
+      "value": 0.3,
+      "n_expected": 50,
+      "n_recorded": 15,
+      "n_valid": 15,
+      "n_invalid": 0,
+      "n_missing": 35,
+      "opt0_count": 11,
+      "rate": 0.7333333333333333,
+      "ci95": [
+        0.4804956594401943,
+        0.8910254667430761
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 16,
+      "n_valid": 16,
+      "n_invalid": 0,
+      "n_missing": 34,
+      "opt0_count": 16,
+      "rate": 1.0,
+      "ci95": [
+        0.8063923194655637,
+        1.0
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S1",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 16,
+      "n_valid": 16,
+      "n_invalid": 0,
+      "n_missing": 34,
+      "opt0_count": 16,
+      "rate": 1.0,
+      "ci95": [
+        0.8063923194655637,
+        1.0
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 17,
+      "n_valid": 17,
+      "n_invalid": 0,
+      "n_missing": 33,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.1843181350088518
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S2",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 17,
+      "n_valid": 17,
+      "n_invalid": 0,
+      "n_missing": 33,
+      "opt0_count": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.1843181350088518
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 16,
+      "n_valid": 16,
+      "n_invalid": 0,
+      "n_missing": 34,
+      "opt0_count": 8,
+      "rate": 0.5,
+      "ci95": [
+        0.27999563610326017,
+        0.7200043638967398
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S3",
+      "value": 0.5,
+      "n_expected": 50,
+      "n_recorded": 16,
+      "n_valid": 16,
+      "n_invalid": 0,
+      "n_missing": 34,
+      "opt0_count": 10,
+      "rate": 0.625,
+      "ci95": [
+        0.38641040545502714,
+        0.8151876744113636
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 24,
+      "n_valid": 24,
+      "n_invalid": 0,
+      "n_missing": 26,
+      "opt0_count": 24,
+      "rate": 1.0,
+      "ci95": [
+        0.8620237953250198,
+        1.0
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S1",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 24,
+      "n_valid": 24,
+      "n_invalid": 0,
+      "n_missing": 26,
+      "opt0_count": 24,
+      "rate": 1.0,
+      "ci95": [
+        0.8620237953250198,
+        1.0
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 22,
+      "n_valid": 22,
+      "n_invalid": 0,
+      "n_missing": 28,
+      "opt0_count": 12,
+      "rate": 0.5454545454545454,
+      "ci95": [
+        0.3465979532073494,
+        0.7307970581918668
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S2",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 22,
+      "n_valid": 22,
+      "n_invalid": 0,
+      "n_missing": 28,
+      "opt0_count": 4,
+      "rate": 0.18181818181818182,
+      "ci95": [
+        0.07306884583422052,
+        0.38516607437126543
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 25,
+      "n_valid": 25,
+      "n_invalid": 0,
+      "n_missing": 25,
+      "opt0_count": 4,
+      "rate": 0.16,
+      "ci95": [
+        0.0640345145667644,
+        0.3465362160717886
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S3",
+      "value": 0.7,
+      "n_expected": 50,
+      "n_recorded": 25,
+      "n_valid": 25,
+      "n_invalid": 0,
+      "n_missing": 25,
+      "opt0_count": 6,
+      "rate": 0.24,
+      "ci95": [
+        0.11496313693401444,
+        0.4342968335542908
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_invalid": 0,
+      "n_missing": 30,
+      "opt0_count": 20,
+      "rate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S1",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_invalid": 0,
+      "n_missing": 30,
+      "opt0_count": 20,
+      "rate": 1.0,
+      "ci95": [
+        0.8388748419471806,
+        1.0
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 18,
+      "n_valid": 18,
+      "n_invalid": 0,
+      "n_missing": 32,
+      "opt0_count": 16,
+      "rate": 0.8888888888888888,
+      "ci95": [
+        0.672002348698212,
+        0.9689804773543876
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S2",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 18,
+      "n_valid": 18,
+      "n_invalid": 0,
+      "n_missing": 32,
+      "opt0_count": 18,
+      "rate": 1.0,
+      "ci95": [
+        0.8241207763533425,
+        1.0
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "baseline",
+      "wording": "canonical",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 21,
+      "n_valid": 21,
+      "n_invalid": 0,
+      "n_missing": 29,
+      "opt0_count": 3,
+      "rate": 0.14285714285714285,
+      "ci95": [
+        0.04981012499725268,
+        0.34636060280620945
+      ]
+    },
+    {
+      "stage": "sweep",
+      "arm": "revision",
+      "wording": "canonical",
+      "problem": "S3",
+      "value": 0.9,
+      "n_expected": 50,
+      "n_recorded": 21,
+      "n_valid": 21,
+      "n_invalid": 0,
+      "n_missing": 29,
+      "opt0_count": 5,
+      "rate": 0.23809523809523808,
+      "ci95": [
+        0.10628013022636468,
+        0.4509117368295075
+      ]
+    }
+  ],
+  "equivalence": {
+    "baseline": {
+      "eligible": false,
+      "pairs": [],
+      "all_pairs_equivalent": false,
+      "all_unknown_completions_equivalent": false,
+      "saturated_all_formulations": false
+    },
+    "revision": {
+      "eligible": false,
+      "pairs": [],
+      "all_pairs_equivalent": false,
+      "all_unknown_completions_equivalent": false,
+      "saturated_all_formulations": false
+    }
+  },
+  "sweeps": {
+    "schema_version": "1.0",
+    "n_records": 600,
+    "n_expected": 1500,
+    "sweeps": [
+      {
+        "arm": "baseline",
+        "parameter": "PD",
+        "problem": "S1",
+        "cells": [
+          {
+            "value": 0.1,
+            "n_expected": 50,
+            "n_recorded": 20,
+            "n_valid": 20,
+            "n_missing": 30,
+            "n_invalid": 0,
+            "opt0_count": 19,
+            "rate": 0.95,
+            "ci95": [
+              0.763868806553258,
+              0.9911185511992047
+            ]
+          },
+          {
+            "value": 0.3,
+            "n_expected": 50,
+            "n_recorded": 20,
+            "n_valid": 20,
+            "n_missing": 30,
+            "n_invalid": 0,
+            "opt0_count": 20,
+            "rate": 1.0,
+            "ci95": [
+              0.8388748419471806,
+              1.0
+            ]
+          },
+          {
+            "value": 0.5,
+            "n_expected": 50,
+            "n_recorded": 16,
+            "n_valid": 16,
+            "n_missing": 34,
+            "n_invalid": 0,
+            "opt0_count": 16,
+            "rate": 1.0,
+            "ci95": [
+              0.8063923194655637,
+              1.0
+            ]
+          },
+          {
+            "value": 0.7,
+            "n_expected": 50,
+            "n_recorded": 24,
+            "n_valid": 24,
+            "n_missing": 26,
+            "n_invalid": 0,
+            "opt0_count": 24,
+            "rate": 1.0,
+            "ci95": [
+              0.8620237953250198,
+              1.0
+            ]
+          },
+          {
+            "value": 0.9,
+            "n_expected": 50,
+            "n_recorded": 20,
+            "n_valid": 20,
+            "n_missing": 30,
+            "n_invalid": 0,
+            "opt0_count": 20,
+            "rate": 1.0,
+            "ci95": [
+              0.8388748419471806,
+              1.0
+            ]
+          }
+        ],
+        "fit": {
+          "status": "separation",
+          "slope": null,
+          "p_value": null,
+          "ci95": null
+        },
+        "complete": false,
+        "parse_quality_98pct": false,
+        "cohens_h_extremes": 0.4510268117962628,
+        "monotonic": true,
+        "predicted_direction": 1,
+        "direction_matches": null,
+        "criterion_met": false
+      },
+      {
+        "arm": "baseline",
+        "parameter": "PD",
+        "problem": "S2",
+        "cells": [
+          {
+            "value": 0.1,
+            "n_expected": 50,
+            "n_recorded": 21,
+            "n_valid": 21,
+            "n_missing": 29,
+            "n_invalid": 0,
+            "opt0_count": 0,
+            "rate": 0.0,
+            "ci95": [
+              0.0,
+              0.154639018924847
+            ]
+          },
+          {
+            "value": 0.3,
+            "n_expected": 50,
+            "n_recorded": 23,
+            "n_valid": 23,
+            "n_missing": 27,
+            "n_invalid": 0,
+            "opt0_count": 0,
+            "rate": 0.0,
+            "ci95": [
+              0.0,
+              0.14311661845042686
+            ]
+          },
+          {
+            "value": 0.5,
+            "n_expected": 50,
+            "n_recorded": 17,
+            "n_valid": 17,
+            "n_missing": 33,
+            "n_invalid": 0,
+            "opt0_count": 0,
+            "rate": 0.0,
+            "ci95": [
+              0.0,
+              0.1843181350088518
+            ]
+          },
+          {
+            "value": 0.7,
+            "n_expected": 50,
+            "n_recorded": 22,
+            "n_valid": 22,
+            "n_missing": 28,
+            "n_invalid": 0,
+            "opt0_count": 12,
+            "rate": 0.5454545454545454,
+            "ci95": [
+              0.3465979532073494,
+              0.7307970581918668
+            ]
+          },
+          {
+            "value": 0.9,
+            "n_expected": 50,
+            "n_recorded": 18,
+            "n_valid": 18,
+            "n_missing": 32,
+            "n_invalid": 0,
+            "opt0_count": 16,
+            "rate": 0.8888888888888888,
+            "ci95": [
+              0.672002348698212,
+              0.9689804773543876
+            ]
+          }
+        ],
+        "fit": {
+          "status": "ok",
+          "slope": 14.444156446841472,
+          "se": 3.502530931767428,
+          "ci95": [
+            7.579321965839985,
+            21.30899092784296
+          ],
+          "p_value": 1.0624791450707844e-17,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 73.39289402124285
+        },
+        "complete": false,
+        "parse_quality_98pct": false,
+        "cohens_h_extremes": 2.4619188346815495,
+        "monotonic": true,
+        "predicted_direction": null,
+        "direction_matches": null,
+        "criterion_met": false
+      },
+      {
+        "arm": "baseline",
+        "parameter": "PD",
+        "problem": "S3",
+        "cells": [
+          {
+            "value": 0.1,
+            "n_expected": 50,
+            "n_recorded": 22,
+            "n_valid": 22,
+            "n_missing": 28,
+            "n_invalid": 0,
+            "opt0_count": 21,
+            "rate": 0.9545454545454546,
+            "ci95": [
+              0.7820195416134267,
+              0.991930572378736
+            ]
+          },
+          {
+            "value": 0.3,
+            "n_expected": 50,
+            "n_recorded": 15,
+            "n_valid": 15,
+            "n_missing": 35,
+            "n_invalid": 0,
+            "opt0_count": 12,
+            "rate": 0.8,
+            "ci95": [
+              0.5481455128483065,
+              0.9295245065301844
+            ]
+          },
+          {
+            "value": 0.5,
+            "n_expected": 50,
+            "n_recorded": 16,
+            "n_valid": 16,
+            "n_missing": 34,
+            "n_invalid": 0,
+            "opt0_count": 8,
+            "rate": 0.5,
+            "ci95": [
+              0.27999563610326017,
+              0.7200043638967398
+            ]
+          },
+          {
+            "value": 0.7,
+            "n_expected": 50,
+            "n_recorded": 25,
+            "n_valid": 25,
+            "n_missing": 25,
+            "n_invalid": 0,
+            "opt0_count": 4,
+            "rate": 0.16,
+            "ci95": [
+              0.0640345145667644,
+              0.3465362160717886
+            ]
+          },
+          {
+            "value": 0.9,
+            "n_expected": 50,
+            "n_recorded": 21,
+            "n_valid": 21,
+            "n_missing": 29,
+            "n_invalid": 0,
+            "opt0_count": 3,
+            "rate": 0.14285714285714285,
+            "ci95": [
+              0.04981012499725268,
+              0.34636060280620945
+            ]
+          }
+        ],
+        "fit": {
+          "status": "ok",
+          "slope": -6.3984720646795985,
+          "se": 1.1784728055927152,
+          "ci95": [
+            -8.708236320401129,
+            -4.088707808958068
+          ],
+          "p_value": 1.1322350785735501e-12,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 50.60037323008851
+        },
+        "complete": false,
+        "parse_quality_98pct": false,
+        "cohens_h_extremes": 1.936699614128008,
+        "monotonic": true,
+        "predicted_direction": null,
+        "direction_matches": null,
+        "criterion_met": false
+      },
+      {
+        "arm": "revision",
+        "parameter": "PD",
+        "problem": "S1",
+        "cells": [
+          {
+            "value": 0.1,
+            "n_expected": 50,
+            "n_recorded": 20,
+            "n_valid": 20,
+            "n_missing": 30,
+            "n_invalid": 0,
+            "opt0_count": 19,
+            "rate": 0.95,
+            "ci95": [
+              0.763868806553258,
+              0.9911185511992047
+            ]
+          },
+          {
+            "value": 0.3,
+            "n_expected": 50,
+            "n_recorded": 20,
+            "n_valid": 20,
+            "n_missing": 30,
+            "n_invalid": 0,
+            "opt0_count": 19,
+            "rate": 0.95,
+            "ci95": [
+              0.763868806553258,
+              0.9911185511992047
+            ]
+          },
+          {
+            "value": 0.5,
+            "n_expected": 50,
+            "n_recorded": 16,
+            "n_valid": 16,
+            "n_missing": 34,
+            "n_invalid": 0,
+            "opt0_count": 16,
+            "rate": 1.0,
+            "ci95": [
+              0.8063923194655637,
+              1.0
+            ]
+          },
+          {
+            "value": 0.7,
+            "n_expected": 50,
+            "n_recorded": 24,
+            "n_valid": 24,
+            "n_missing": 26,
+            "n_invalid": 0,
+            "opt0_count": 24,
+            "rate": 1.0,
+            "ci95": [
+              0.8620237953250198,
+              1.0
+            ]
+          },
+          {
+            "value": 0.9,
+            "n_expected": 50,
+            "n_recorded": 20,
+            "n_valid": 20,
+            "n_missing": 30,
+            "n_invalid": 0,
+            "opt0_count": 20,
+            "rate": 1.0,
+            "ci95": [
+              0.8388748419471806,
+              1.0
+            ]
+          }
+        ],
+        "fit": {
+          "status": "ok",
+          "slope": 5.398552374131215,
+          "se": 4.3004149745692954,
+          "ci95": [
+            -3.030106094601104,
+            13.827210842863535
+          ],
+          "p_value": 0.09793292645758116,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 2.73888747168278
+        },
+        "complete": false,
+        "parse_quality_98pct": false,
+        "cohens_h_extremes": 0.4510268117962628,
+        "monotonic": true,
+        "predicted_direction": 1,
+        "direction_matches": true,
+        "criterion_met": false
+      },
+      {
+        "arm": "revision",
+        "parameter": "PD",
+        "problem": "S2",
+        "cells": [
+          {
+            "value": 0.1,
+            "n_expected": 50,
+            "n_recorded": 21,
+            "n_valid": 21,
+            "n_missing": 29,
+            "n_invalid": 0,
+            "opt0_count": 0,
+            "rate": 0.0,
+            "ci95": [
+              0.0,
+              0.154639018924847
+            ]
+          },
+          {
+            "value": 0.3,
+            "n_expected": 50,
+            "n_recorded": 23,
+            "n_valid": 23,
+            "n_missing": 27,
+            "n_invalid": 0,
+            "opt0_count": 0,
+            "rate": 0.0,
+            "ci95": [
+              0.0,
+              0.14311661845042686
+            ]
+          },
+          {
+            "value": 0.5,
+            "n_expected": 50,
+            "n_recorded": 17,
+            "n_valid": 17,
+            "n_missing": 33,
+            "n_invalid": 0,
+            "opt0_count": 0,
+            "rate": 0.0,
+            "ci95": [
+              0.0,
+              0.1843181350088518
+            ]
+          },
+          {
+            "value": 0.7,
+            "n_expected": 50,
+            "n_recorded": 22,
+            "n_valid": 22,
+            "n_missing": 28,
+            "n_invalid": 0,
+            "opt0_count": 4,
+            "rate": 0.18181818181818182,
+            "ci95": [
+              0.07306884583422052,
+              0.38516607437126543
+            ]
+          },
+          {
+            "value": 0.9,
+            "n_expected": 50,
+            "n_recorded": 18,
+            "n_valid": 18,
+            "n_missing": 32,
+            "n_invalid": 0,
+            "opt0_count": 18,
+            "rate": 1.0,
+            "ci95": [
+              0.8241207763533425,
+              1.0
+            ]
+          }
+        ],
+        "fit": {
+          "status": "separation",
+          "slope": null,
+          "p_value": null,
+          "ci95": null
+        },
+        "complete": false,
+        "parse_quality_98pct": false,
+        "cohens_h_extremes": 3.141592653589793,
+        "monotonic": true,
+        "predicted_direction": null,
+        "direction_matches": null,
+        "criterion_met": false
+      },
+      {
+        "arm": "revision",
+        "parameter": "PD",
+        "problem": "S3",
+        "cells": [
+          {
+            "value": 0.1,
+            "n_expected": 50,
+            "n_recorded": 22,
+            "n_valid": 22,
+            "n_missing": 28,
+            "n_invalid": 0,
+            "opt0_count": 20,
+            "rate": 0.9090909090909091,
+            "ci95": [
+              0.7218505315839417,
+              0.9747045710090046
+            ]
+          },
+          {
+            "value": 0.3,
+            "n_expected": 50,
+            "n_recorded": 15,
+            "n_valid": 15,
+            "n_missing": 35,
+            "n_invalid": 0,
+            "opt0_count": 11,
+            "rate": 0.7333333333333333,
+            "ci95": [
+              0.4804956594401943,
+              0.8910254667430761
+            ]
+          },
+          {
+            "value": 0.5,
+            "n_expected": 50,
+            "n_recorded": 16,
+            "n_valid": 16,
+            "n_missing": 34,
+            "n_invalid": 0,
+            "opt0_count": 10,
+            "rate": 0.625,
+            "ci95": [
+              0.38641040545502714,
+              0.8151876744113636
+            ]
+          },
+          {
+            "value": 0.7,
+            "n_expected": 50,
+            "n_recorded": 25,
+            "n_valid": 25,
+            "n_missing": 25,
+            "n_invalid": 0,
+            "opt0_count": 6,
+            "rate": 0.24,
+            "ci95": [
+              0.11496313693401444,
+              0.4342968335542908
+            ]
+          },
+          {
+            "value": 0.9,
+            "n_expected": 50,
+            "n_recorded": 21,
+            "n_valid": 21,
+            "n_missing": 29,
+            "n_invalid": 0,
+            "opt0_count": 5,
+            "rate": 0.23809523809523808,
+            "ci95": [
+              0.10628013022636468,
+              0.4509117368295075
+            ]
+          }
+        ],
+        "fit": {
+          "status": "ok",
+          "slope": -4.593172147978747,
+          "se": 0.9509949259469113,
+          "ci95": [
+            -6.457087952314977,
+            -2.729256343642516
+          ],
+          "p_value": 1.3883363036973618e-08,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 32.203595059715866
+        },
+        "complete": false,
+        "parse_quality_98pct": false,
+        "cohens_h_extremes": 1.5095585575874408,
+        "monotonic": true,
+        "predicted_direction": null,
+        "direction_matches": null,
+        "criterion_met": false
+      }
+    ],
+    "delivery_contrasts": [
+      {
+        "parameter": "PD",
+        "problem": "S1",
+        "contrast": "revision endpoint change minus baseline endpoint change",
+        "estimate": 0.0,
+        "ci95_conservative": [
+          -0.5319897253583042,
+          0.5319897253583042
+        ],
+        "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+      },
+      {
+        "parameter": "PD",
+        "problem": "S2",
+        "contrast": "revision endpoint change minus baseline endpoint change",
+        "estimate": 0.11111111111111116,
+        "ci95_conservative": [
+          -0.45375966407440227,
+          0.6267858070915912
+        ],
+        "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+      },
+      {
+        "parameter": "PD",
+        "problem": "S3",
+        "contrast": "revision endpoint change minus baseline endpoint change",
+        "estimate": 0.14069264069264076,
+        "ci95_conservative": [
+          -0.6436495193875718,
+          0.8614090807220764
+        ],
+        "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+      }
+    ],
+    "battery_status": "NOT CLOSED: coherence, paraphrase and numeric/verbal tests also required",
+    "inference_note": "Unadjusted p<0.05 follows spec 4.1; no new directional hypotheses inferred."
+  },
+  "recorded_token_estimate_usd": 3.360071999999998,
+  "status": "LOCAL_SCREEN_NOT_MET_OR_INCOMPLETE",
+  "phase_gate": "Unchanged; this selected-PD pilot cannot close the battery"
+}

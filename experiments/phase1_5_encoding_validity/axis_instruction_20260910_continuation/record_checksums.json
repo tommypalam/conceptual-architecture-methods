@@ -1,0 +1,28 @@
+{
+  "design_hash": "56119143d0b8b5c33c70e7c2cc6c9d4116c86a7b979a5b7a5e6739086e743a62",
+  "n_records": 4,
+  "n_expected": 4884,
+  "n_missing": 4880,
+  "n_invalid": 4,
+  "n_api_failures": 4,
+  "models_returned": [],
+  "n_missing_model_identity": 4,
+  "index": [
+    {
+      "record_key": "equivalence/baseline_paraphrase_2/PD/S3/0.8/call_0432",
+      "record_hash": "98e31b0f1c045ff99bb5d8dad9967f79fdc2a578e65bf9703e4399b2f097658f"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_2/PD/S3/0.8/call_0436",
+      "record_hash": "bae5cafbf6900a079f230f8ecd3de46d12b571a2568c22145c7a609c8f859195"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_2/PD/S3/0.8/call_0432",
+      "record_hash": "b1c8cccdeda6d4058d9c9d6f8c6b1858cdc25fb346cbe399f2ac938813a60217"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_2/PD/S3/0.8/call_0436",
+      "record_hash": "2ed5c550f97f8d2faa7079f8b2976028f7e63e4394482453b5245963d0a4823f"
+    }
+  ]
+}

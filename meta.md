@@ -4,7 +4,60 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-10 - Technical continuation of the approved numeric-axis pilot
+
+**Second transport interruption:** the first continuation's initial four calls
+also returned connection errors, with no reported usage. Those P2 slots (two
+per arm) are preserved alongside the original four P3 failures. Python SDK GET,
+invalid-model POST, detached POST and four concurrent generic-text POST probes
+then reached the server. These diagnostics generate no model decisions. The
+cause remains unconfirmed; neither invalid credentials nor background execution
+has been established as the cause. Automatic approval review rejected sending
+full study prompts to a nonexistent diagnostic model; the safer probe instead
+sent only repeated generic text, with no research data.
+
+Prepared a byte-identical 3,020-record recovery snapshot and a second linked
+continuation for 4,880 never-dispatched slots, retaining all eight unknowns and
+the same combined guard. An attached process is used to keep failures visible.
+The behavioural test now additionally verifies snapshot union, reservation of
+all keys, byte equality and refusal of a tampered parent inventory. It passed.
+No endpoint, analysis, original runner or prior recovery source was changed.
+
+The original segment stopped after 3,016 records: 3,012 valid responses and
+four preserved `APIConnectionError: Connection error.` records, all in P3
+equivalence cells (two per arm). Recorded token estimate $3.360072. A read-only
+authenticated model-list request subsequently returned HTTP 200. Recovery is
+based on transport failure, not interim behavioural results.
+
+Prepared a separate continuation for exactly 4,884 never-dispatched original
+slots. Parent keys and hashes are reserved, including failures. Requests retain
+the frozen original design, model, temperature, seeds and allocation order;
+the continuation adds provenance only. Prior spending counts against the same
+$12 guard. Original records remain unchanged and have a verified ZIP snapshot.
+The user's exact pilot approval and instruction to continue cover these slots.
+
+One behavioural integration test passed: excludes completed and failed slots,
+resumes without extra calls, counts prior cost before dispatch, preserves source
+bytes and assembles a complete allocation retaining the frozen scorer's terminal
+failure flag. The storage adapter accommodates missing model identities on
+connection failures; it does not change statistical analysis or gate decisions.
+
+Synthetic review: Linden requires unchanged normative content; Osei notes the
+collection interruption and forbids outcome-selected replacements; Tanaka keeps
+the four unknown decisions and original sensitivity analysis; Renna preserves
+the encoding objective; Okafor requires disjoint allocation, immutable hashes
+and the combined guard. Resolution: resume only unsent slots under a linked
+designation, disclose the interruption, retain the conservative failure flag,
+and verify the byte-identical union before reporting.
+
 ## 2026-09-10 - One numeric-axis clarification candidate prepared
+
+**Subsequent explicit approval:** the researcher answered "Approve the exact
+revision" to the review request covering the added instruction, four exact
+templates and 7,900-call pilot. Recorded the approval against all frozen hashes
+and committed the preparation before outcomes (`6d6c81f8`). Launched the approved
+pilot with the existing model, neutral context, seed 20260913 and $12 local
+dispatch guard. No theoretical change or supervisor endorsement is inferred.
 
 The researcher asked to continue after the endpoint result. Prepared one
 theory-motivated operational candidate: a shared instruction to read both

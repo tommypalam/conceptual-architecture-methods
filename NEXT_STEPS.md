@@ -12,14 +12,25 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 **Prepared candidate revision:** `axis_instruction_20260910` adds one shared
 numeric-axis reading instruction, with all endpoint definitions and original
-control messages unchanged. Exact human review is requested in its
+control messages unchanged. Exact human review is recorded in its
 [review file](experiments/phase1_5_encoding_validity/axis_instruction_20260910/HUMAN_REVIEW.md).
-The [local pilot](experiments/phase1_5_encoding_validity/axis_instruction_20260910/PROTOCOL.md)
+The researcher approved the exact revision; approval is recorded separately
+in `review_approved.json`. The [local pilot](experiments/phase1_5_encoding_validity/axis_instruction_20260910/PROTOCOL.md)
 plans 7,900 fresh responses: 6,400 for PD=.8/S3 four-formulation equivalence
 (800 per formulation per baseline/revision arm) and 1,500 for canonical PD sweeps
 across S1/S2/S3. Five focused tests passed, including a 1,516-call mock.
 Expected cost about $9; $12 dispatch guard within the approximately $48.69
-additional budget remaining. No paid calls or theory changes. This is one
+additional budget remaining at launch. The original segment stopped on four
+connection errors after 3,016 records (3,012 valid; $3.360072 recorded usage).
+Those slots remain reserved as failures. Connectivity was verified restored;
+`axis_instruction_20260910_continuation` also stopped: its first four requests
+returned connection errors. Eight failures are now reserved across 3,020 records,
+with recorded spending unchanged. Generic concurrent endpoint diagnostics
+succeeded; an attached-process continuation is prepared for the 4,880 unsent
+slots under `axis_instruction_20260910_continuation_r2`, using a byte-identical
+combined recovery snapshot, unchanged messages/seeds and the combined $12 guard. Logs and status
+are under the corresponding `output/` directories. The incomplete original
+snapshot has checksums and a verified local ZIP. No theory changes. This is one
 development candidate, not a full battery rerun or a promised repair. The spec's
 supervisor-discussion point is recorded before a full revised-battery attempt.
 
