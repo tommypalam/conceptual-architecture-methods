@@ -1,0 +1,238 @@
+{
+  "design_hash": "8aa6e14658b7f0e350fda42a6c224ae1137431d5e2e7de845a94cba13ba493b6",
+  "n_records": 56,
+  "n_expected": 3016,
+  "n_missing": 2960,
+  "n_invalid": 1,
+  "n_api_failures": 1,
+  "models_returned": [
+    "gpt-5.4-mini-2026-03-17"
+  ],
+  "n_missing_model_identity": 1,
+  "index": [
+    {
+      "record_key": "equivalence/baseline_canonical/PD/S3/0.8/call_0002",
+      "record_hash": "70d6a4d22f4a15fd5fbf3f88cf58155b68e928dc05a980b2ea34579a92b73e7e"
+    },
+    {
+      "record_key": "equivalence/baseline_canonical/PD/S3/0.8/call_0033",
+      "record_hash": "a0e00531cf028223856fd903dfa39d6538c48ec45172cce18d006a03d738206f"
+    },
+    {
+      "record_key": "equivalence/baseline_canonical/PD/S3/0.8/call_0227",
+      "record_hash": "9f5bf536f6bd52c5417fb746a239665ad20ce60bd74d33142fc04508803f3dcc"
+    },
+    {
+      "record_key": "equivalence/baseline_canonical/PD/S3/0.8/call_0359",
+      "record_hash": "b5fe437c13ffbeb0aa6cf74208c26e84f79920f49e1dbbab9019478d2a5b752a"
+    },
+    {
+      "record_key": "equivalence/baseline_canonical/PD/S3/0.8/call_0397",
+      "record_hash": "76ed52c67f47c82f323c129dd19eb7400e7112a27ed6773e0cfef4b3c562b6f1"
+    },
+    {
+      "record_key": "equivalence/baseline_canonical/PD/S3/0.8/call_0545",
+      "record_hash": "d1f5f197495b23da8573ba74beb1e197a12c1c73af23dc345353ccab4cf8540c"
+    },
+    {
+      "record_key": "equivalence/baseline_canonical/PD/S3/0.8/call_0613",
+      "record_hash": "2a2b70cd02b5e796c29245e1e060bb626cca87e16ba3ceebd506bd2904d31ddb"
+    },
+    {
+      "record_key": "equivalence/baseline_canonical/PD/S3/0.8/call_0715",
+      "record_hash": "9c02640d0c642a90f072f1bad76453f2b3340454903811a6e3479e35d89f9c62"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_1/PD/S3/0.8/call_0127",
+      "record_hash": "2dc84914b2e0997d9f2be6970775da20bee3963292394448612f46c3f6003c91"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_1/PD/S3/0.8/call_0159",
+      "record_hash": "63c14efd1a5eeaeba7d0d6d3e37f66a94ceab2d44fbbdb551e48bf2558454a2c"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_1/PD/S3/0.8/call_0208",
+      "record_hash": "eb510c058146c86350113091c9528ef7981f50de06dff6d51f70e347c1dc0c35"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_1/PD/S3/0.8/call_0323",
+      "record_hash": "606bc7c6097ac1735a920426aa03e83686642721ccd0c8215bbdb3aa174f5792"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_1/PD/S3/0.8/call_0626",
+      "record_hash": "3fb79e91673d42ee749bb4ca72dd4d6bbe567d400d3c18214770a5581b604c5c"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_1/PD/S3/0.8/call_0659",
+      "record_hash": "5c08bb17ae3b4b258e10f7def49909fe1ff0a0fc86623d31ea3dc4293287428c"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_1/PD/S3/0.8/call_0697",
+      "record_hash": "15fa613064fecfb187f7bf8e8cd3add7fb2dcab02636028052959a95795553d9"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_2/PD/S3/0.8/call_0010",
+      "record_hash": "ec8043320dd55d3205286e75e8b5b29a871398b8b1941d7cad9df22c9e952488"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_2/PD/S3/0.8/call_0332",
+      "record_hash": "a85a7479d2c1e4001ffebf46fac514ce60930d1ff6621b15c98227b02e38d9f4"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_2/PD/S3/0.8/call_0483",
+      "record_hash": "a8e90761f1fbee91432f2c57f46448fae234de0cb5cfbf8fcf18ea1fd73a1503"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_2/PD/S3/0.8/call_0730",
+      "record_hash": "87e875ee893381c9290b35a615db137c6fe17380a4a156e276a078a0f3e9eef5"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_3/PD/S3/0.8/call_0167",
+      "record_hash": "a06d6cdef27fca982da2eb88e605cbc97b723403d504ec804946bc9332807731"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_3/PD/S3/0.8/call_0447",
+      "record_hash": "9b3ce6f84dc9f8bab0109f837e02a3449c50a360fce1ed35526944fc61ae30d8"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_3/PD/S3/0.8/call_0635",
+      "record_hash": "9dea910f3a6a9776aa75cca348f7311064343770d2bc858f1a542a86d536f44e"
+    },
+    {
+      "record_key": "equivalence/baseline_paraphrase_3/PD/S3/0.8/call_0678",
+      "record_hash": "94a0134faf10e7def451e0cf1f67baf04902ded57e393feefd409db63ab57a6e"
+    },
+    {
+      "record_key": "equivalence/revision_canonical/PD/S3/0.8/call_0002",
+      "record_hash": "9b65b9d5acad3106289ea1c21abfc616e1d23c44cafb8321114c61235289e92c"
+    },
+    {
+      "record_key": "equivalence/revision_canonical/PD/S3/0.8/call_0033",
+      "record_hash": "eaa334b287a9f4839241d65e955c4aa7ad371abf7fd01b9bf17bcefdf34aef0d"
+    },
+    {
+      "record_key": "equivalence/revision_canonical/PD/S3/0.8/call_0227",
+      "record_hash": "d09bcf2b48f85dc91287c190c2599b9d91fe3376011b39c318cf2559c2af1dad"
+    },
+    {
+      "record_key": "equivalence/revision_canonical/PD/S3/0.8/call_0359",
+      "record_hash": "8c3c955875f868bce69eeaed1e24825bc750a3e1e2a0ae5ab993e51eb2db145e"
+    },
+    {
+      "record_key": "equivalence/revision_canonical/PD/S3/0.8/call_0397",
+      "record_hash": "9f303a42def9330c90a066d8f3b4608986598cebdfd6688560f6e5a119148050"
+    },
+    {
+      "record_key": "equivalence/revision_canonical/PD/S3/0.8/call_0545",
+      "record_hash": "5862c67c3f902c085b60ba7933386e45d6c6273020cc4ce3500fb03d56bdcfac"
+    },
+    {
+      "record_key": "equivalence/revision_canonical/PD/S3/0.8/call_0613",
+      "record_hash": "80686a557296a505f0ec4530e6b9ba706797c8568e860a286cb69fec3c0490fc"
+    },
+    {
+      "record_key": "equivalence/revision_canonical/PD/S3/0.8/call_0715",
+      "record_hash": "7c9df7fadcce4d115b4a8f582876b4590b136ec0f9b9fc6722e3df59c64feae4"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_1/PD/S3/0.8/call_0127",
+      "record_hash": "299b3b1c072dd2fdd4845481fac0dbe000b870cb0d9e124489dedd6705361433"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_1/PD/S3/0.8/call_0159",
+      "record_hash": "d227bf5db3ed8bd111e1c0d14857ea8d44e6b02e69a9385a5511bc8037ffb8db"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_1/PD/S3/0.8/call_0208",
+      "record_hash": "f7205b0ad449bf8ef9085339074560d48807924ca24ae89e5c9b04916ed5edfd"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_1/PD/S3/0.8/call_0323",
+      "record_hash": "649e5ab6f42458255034e0cc2f6a315e66847cf301cc0ba1a247543a20bba71f"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_1/PD/S3/0.8/call_0626",
+      "record_hash": "bc2d48b421b6d79007e73cf0ac0292c34ba2968a04fdd1c3d798c1bfa0b3b7f2"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_1/PD/S3/0.8/call_0659",
+      "record_hash": "759f15c70a4da785c7dd90e2a3f8b0e3bb967d3ce53bfc2e93b0196e2a96669e"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_1/PD/S3/0.8/call_0697",
+      "record_hash": "3712cdbb31fd3a8c72cab5e921e7b5102544e52aefa5c42332b8ec6231a4b616"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_2/PD/S3/0.8/call_0010",
+      "record_hash": "2138490dc274e6901e3a819b96a8ad10675e989c7b519d8466d8bd3bfb250f93"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_2/PD/S3/0.8/call_0332",
+      "record_hash": "e8a2b0417f746728b047a67e85cabd712a102bcdee7ccdd8b2409d5760cc5d80"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_2/PD/S3/0.8/call_0483",
+      "record_hash": "c7020ce383d4ef85ed51dc3a65f416187f5d43b00ad152c050a6e2d01a74d545"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_2/PD/S3/0.8/call_0730",
+      "record_hash": "e3f1203a135d277500600bf8f621ba36c38790f25678039406b13246520bf146"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_3/PD/S3/0.8/call_0167",
+      "record_hash": "e487b4e2eb63ffe4413290bd39f66c4c17285e02371b739a6e34874be7154c7c"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_3/PD/S3/0.8/call_0447",
+      "record_hash": "11d9945e5c47ae79488ebbdeac6c643d8504cf2c18986d7de4d24283c9d17b00"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_3/PD/S3/0.8/call_0635",
+      "record_hash": "1c7671fe49e18c02fe7e69ba092f92118a81da036303eb303e2bed590fe3c13a"
+    },
+    {
+      "record_key": "equivalence/revision_paraphrase_3/PD/S3/0.8/call_0678",
+      "record_hash": "30d1406bd2f7047ac18f55438fa10818eb03288d6bf246685e40954ae21ce240"
+    },
+    {
+      "record_key": "sweep/baseline/PD/S2/0.7/call_0039",
+      "record_hash": "2335f18423e452e7e5de79532148b3431aeb4b5c2ceed68a55d25d8062797e73"
+    },
+    {
+      "record_key": "sweep/baseline/PD/S3/0.1/call_0004",
+      "record_hash": "e6cbecf39a39897859ac00a392a5c9ee2f5bc3821b244c699d3dffcc7ed578f9"
+    },
+    {
+      "record_key": "sweep/baseline/PD/S3/0.5/call_0015",
+      "record_hash": "f7e5f22488aaeacc11c4180d8ad7a0991bf8ca3d0a2711912678c8dd4bf6036e"
+    },
+    {
+      "record_key": "sweep/baseline/PD/S3/0.5/call_0036",
+      "record_hash": "a3ea44a179ed8611c2c184f06eac2646b4c379ac5999eae07678d423c17ef80e"
+    },
+    {
+      "record_key": "sweep/baseline/PD/S3/0.7/call_0048",
+      "record_hash": "4151a7903441d1fc208ffac27dd86807451982a5eb11189ad4c97d8ec96de224"
+    },
+    {
+      "record_key": "sweep/revision/PD/S2/0.7/call_0039",
+      "record_hash": "7d1ee0b2fbf1cb923c6054ef857cdb3a58c62281921d504c02df53e7bd1e2a49"
+    },
+    {
+      "record_key": "sweep/revision/PD/S3/0.1/call_0004",
+      "record_hash": "087609b2979710d32621ea4193e0a281fc0cb69a7db319818c20b6f2f6d8b13b"
+    },
+    {
+      "record_key": "sweep/revision/PD/S3/0.5/call_0015",
+      "record_hash": "bde096665352d591dfb7d04c632777a0a9b2330016d239bc649638cf29bbcff2"
+    },
+    {
+      "record_key": "sweep/revision/PD/S3/0.5/call_0036",
+      "record_hash": "c88802ac8ad87fd04505b1e4f390a0f734b5fa9fef070ea1b5dc20b54318249b"
+    },
+    {
+      "record_key": "sweep/revision/PD/S3/0.7/call_0048",
+      "record_hash": "8c02f10d80840aec034d40f53c3157af92b20a20a76e7e33d59bc4b0c1e40a9c"
+    }
+  ]
+}

@@ -4,6 +4,23 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Preserve the third timeout segment and finish unsent slots
+
+The previous continuation stopped on September 10 at 10:17 UTC after 56
+requests: 55 valid, one timeout in revision/PD/S3/.7/call_0048. Its finalizer
+also stopped safely. Collection remained stopped overnight. Across all unique
+slots there are now 4,940 records, 4,930 valid decisions and ten API failures;
+recorded usage totals $5.5044945. No failures are replaced or pooled with older
+studies. The collection-time gap is retained in timestamps and provenance.
+
+On September 11, the authenticated model-list check returned HTTP 200 and four
+concurrent generic-text completion-endpoint diagnostics reached the server.
+Prepared `axis_instruction_20260911_continuation_r4` for only the 2,960 unsent
+slots from a byte-identical combined snapshot. The already-tested transport
+recovery preparer and frozen executor are reused without edits; all nine source
+code hashes, exact approval, requests, requested seeds and the combined $12
+guard remain enforced. The prior synthetic recovery review still applies.
+
 ## 2026-09-10 - Technical continuation of the approved numeric-axis pilot
 
 **Attached continuation timeout:** `continuation_r2` stopped at 1,864 records

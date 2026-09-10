@@ -1,0 +1,11 @@
+{
+  "design_hash": "b5bfcaf29e053db07dc8cd81e8c53d962ae191456fe14ea4d287e38284e18a19",
+  "status": "Prepared; no API calls; exact candidate review pending",
+  "sha256": {
+    "equivalence_precision_reference.json": "47d5740577918e464efb736f2d45a9c3f069732006aebc7d5a0cd4794afd7427",
+    "HUMAN_REVIEW.md": "c0bafc342b2526bb6a447655f794290e6bb2a7be12c8b862d672ad091d13a618",
+    "manifest.json": "eb04bba66ba4460ed4f7aea956bcfba1effdd658aa8915be74a7a62b95c24aec",
+    "PROTOCOL.md": "3625ea4637072ee975687a0643c919396e7eedfd947cf28ab4421e48c45ea5af",
+    "review_pending.json": "4b5bce20dce290bd16589db6f9e1d41a77249baa300cabc75aa3f9d33683197d"
+  }
+}

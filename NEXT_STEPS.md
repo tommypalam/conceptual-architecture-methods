@@ -1,6 +1,6 @@
 # Current state and next steps
 
-Updated 2026-09-10. Working branch: `phase1-5-validity`.
+Updated 2026-09-11. Working branch: `phase1-5-validity`.
 This file is the current operational status; historical records are evidence,
 not competing task lists.
 
@@ -10,17 +10,18 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
-**Latest transport checkpoint:** the attached `continuation_r2` stopped after
-1,864 new records with one request timeout. Across segments, 4,884 slots are
-recorded: 4,875 valid responses and nine preserved API failures, costing
-$5.443323 in reported tokens. No parsing failures occurred in this continuation.
-Generic concurrent endpoint diagnostics passed. `continuation_r3` is now
-collecting the 3,016 never-dispatched slots from a verified combined snapshot;
-the original executor, request settings, analysis and combined $12 guard remain
-unchanged. Its local finalizer writes to `axis_instruction_20260910_assembled_r3`
-only after successful collection. Live status files are under the corresponding
-`output/` directories. The earlier finalizer stopped safely; the notes below
-describe earlier checkpoints, not a completed result.
+**Latest transport checkpoint, September 11:** `continuation_r3` stopped after
+56 new records with one request timeout. Across segments, 4,940 slots are
+recorded: 4,930 valid responses and ten preserved API failures, costing
+$5.5044945 in reported tokens. No parsing failures occurred in this continuation.
+Collection remained stopped overnight. Current endpoint diagnostics passed;
+`axis_instruction_20260911_continuation_r4` now collects the 2,960 unsent slots
+from a verified combined snapshot. The original executor, request settings,
+analysis and combined $12 guard remain unchanged. Its local finalizer writes to
+`axis_instruction_20260911_assembled` only after successful collection. Live
+status files are under the corresponding `output/` directories. Earlier
+finalizers stopped safely; the notes below describe historical checkpoints,
+not a completed result.
 
 **Prepared candidate revision:** `axis_instruction_20260910` adds one shared
 numeric-axis reading instruction, with all endpoint definitions and original
