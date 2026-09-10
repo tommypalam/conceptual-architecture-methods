@@ -23,6 +23,15 @@ The behavioural test now additionally verifies snapshot union, reservation of
 all keys, byte equality and refusal of a tampered parent inventory. It passed.
 No endpoint, analysis, original runner or prior recovery source was changed.
 
+The attached second continuation began returning responses successfully; at
+600 new responses no further terminal error was recorded, with $4.0306 combined
+usage. Recovery checkpoint committed locally as `2fdfdcd1`. A local postprocessor
+now waits for the continuation's successful terminal status, then archives,
+assembles, applies the frozen scorer, verifies every planned request/profile/
+seed and source/ZIP bytes, and renders the report. A failed continuation blocks
+finalization; no extra calls or favourable-outcome override is permitted.
+Results and the final milestone commit remain pending collection and review.
+
 The original segment stopped after 3,016 records: 3,012 valid responses and
 four preserved `APIConnectionError: Connection error.` records, all in P3
 equivalence cells (two per arm). Recorded token estimate $3.360072. A read-only

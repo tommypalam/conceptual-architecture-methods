@@ -26,10 +26,19 @@ Those slots remain reserved as failures. Connectivity was verified restored;
 `axis_instruction_20260910_continuation` also stopped: its first four requests
 returned connection errors. Eight failures are now reserved across 3,020 records,
 with recorded spending unchanged. Generic concurrent endpoint diagnostics
-succeeded; an attached-process continuation is prepared for the 4,880 unsent
+succeeded; an attached-process continuation is running for the 4,880 unsent
 slots under `axis_instruction_20260910_continuation_r2`, using a byte-identical
 combined recovery snapshot, unchanged messages/seeds and the combined $12 guard. Logs and status
-are under the corresponding `output/` directories. The incomplete original
+are under the corresponding `output/` directories. At the 600-new-response
+checkpoint it had no additional terminal errors and combined recorded spending
+was $4.0306. This is a checkpoint, not a live total. A local finalizer waits for
+successful collection, then archives the continuation, assembles the original
+7,900 slots, runs the frozen analysis, verifies requests/seeds/source bytes and
+ZIP payloads, and renders the report. Its status is
+`output/axis_instruction_20260910_assembled/status.json`; final artifacts will be
+under `axis_instruction_20260910_assembled/analysis`. Any further collection
+failure stops finalization. Scientific interpretation and milestone commit still
+require review after the report is ready. The incomplete original
 snapshot has checksums and a verified local ZIP. No theory changes. This is one
 development candidate, not a full battery rerun or a promised repair. The spec's
 supervisor-discussion point is recorded before a full revised-battery attempt.
