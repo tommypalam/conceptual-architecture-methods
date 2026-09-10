@@ -1,0 +1,18 @@
+{
+  "design_hash": "ffff63b4d2ad81d9f5520bd35a03a4d867485a3b372c8cda7d6fe846d29a49b3",
+  "configuration": "neutral",
+  "root_seed": 20260910,
+  "n_records": 1200,
+  "n_valid": 1200,
+  "n_unique_api_ids": 1200,
+  "n_unique_requested_seeds": 1200,
+  "exact_frozen_messages_and_profiles_verified": true,
+  "record_hashes_and_inventory_verified": true,
+  "zip_all_1200_raw_files_byte_equal": true,
+  "zip_sha256": "178bda4c47a584b2fa389b70a05ae27e452f2a9c5cb84268592cd1f185925e66",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "max_attempts": 1,
+  "token_cost_usd_before_taxes": 1.3013235,
+  "price_basis": "0.75 USD per million input tokens; 4.50 per million output tokens; zero cached tokens. Official prices checked 2026-09-10.",
+  "price_source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini"
+}

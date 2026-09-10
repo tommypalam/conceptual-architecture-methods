@@ -4,7 +4,47 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
-## 2026-09-10 - Four-condition wording diagnostic prepared
+## 2026-09-10 - Four-condition wording diagnostic completed
+
+**Completed outcome:** all 1,200 calls are valid, 300 per condition, with no API
+errors, model mismatches, missing observations or retries. ADOPT counts A/B/C/D
+are 255/45/161/25, hence rates .8500/.1500/.5367/.0833. Frozen simultaneous
+contrasts: PD main +.5767 [.4574,.6780]; other-nine main +.1900 [.0767,.2973];
+interaction +.2467 [.0223,.4635]. All intervals exclude zero. The PD effect
+exceeds the .20 planning target throughout its interval; practical sizes of
+the background and interaction effects remain less precisely resolved.
+
+Interpretation review (synthetic): Linden retains the human-approved endpoint
+meanings and treats this as a presentation sensitivity, without redefining PD.
+Osei notes the selected profile and differing fresh A/D rates limit transport
+and exact cross-session replication. Tanaka endorses the frozen simultaneous
+bounds, while noting the wide interaction interval and no attribution between
+the jointly changed low/high endpoints. Renna sees a concrete encoding target
+and keeps global validity unresolved. Okafor verifies all frozen request messages,
+profiles, model identities, unique keys/seeds/API IDs, checksums and byte-identical
+archived raw files. Resolution: report all three effects and their limits;
+retain the unmet gate and Phase 2 hold. No theory, gate or prompt revision and
+no additional paid experiment is authorised by these outcomes.
+
+Collection ran 00:47:01-00:56:44 UTC, neutral configuration, fixed PD=.8 profile,
+root seed 20260910. Usage is 1,077,000 input and 109,683 output tokens, zero
+cached tokens; estimated cost $1.3013235 before taxes. The verified ZIP is a
+same-computer backup. All 1,200 raw records remain local and excluded from Git;
+summaries, inventories, provenance and the
+[report](experiments/phase1_5_encoding_validity/wording_factorial_20260910/analysis/FACTORIAL_REPORT.md)
+are reviewable project artifacts. Historical preparation and approval below
+remain preserved in order to distinguish pre-collection choices from outcomes.
+
+**Subsequent approval and launch:** the user replied "go for it" directly to
+the exact-combination B/C review request. Recorded this explicit approval with
+the frozen template/message hashes in `review_approved.json`; retained the
+original pending artifact and preparation checksum inventory. Started the
+1,200-call experiment at 00:47 UTC with all model, prompt, design and analysis
+hashes unchanged. A thin operational launcher calls the frozen execute/score
+functions, placing the Windows byte-range process lock in ignored `output/`
+so the lock cannot obstruct reading experiment files into the final ZIP.
+Launcher source and approval hashes are recorded separately in provenance.
+No scientific protocol change, additional export or theory amendment occurred.
 
 The researcher said "go for it" following the proposed PD/S3 wording attribution
 test. Prepared the concrete design, exact prompts, executable runner, analysis,

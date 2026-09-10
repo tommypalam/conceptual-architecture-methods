@@ -1,0 +1,20 @@
+{
+  "design_hash": "ffff63b4d2ad81d9f5520bd35a03a4d867485a3b372c8cda7d6fe846d29a49b3",
+  "sha256": {
+    "analysis/factorial_a82caff690cae94b.json": "ac23617ae9e3536efa3ed61c3353e96082a107f57262a30e27685244c51806c2",
+    "analysis/FACTORIAL_REPORT.md": "d87f77d6b40dfba6546065de5f2e4f2bcef6a08fd6fa90847a73119d35c42600",
+    "artifact_checksums.json": "2f77564151a1c24d9ccb22e191588333fbcb530d9011bc4e485773ff7257e470",
+    "completion_verification.json": "5f327b0e5c121507f779f381cd9c0aa2f27514fa81df08e7a94f343d9d7b46a2",
+    "HUMAN_REVIEW.md": "70121212f78bf169d5cdec4525786ff1d32eabcc8f8dbc2d09cf9eb05ce16241",
+    "launcher_provenance.json": "2d858444a98457c2ea885bd12661a63f7686c9c298f442ef9082fe4a2d023305",
+    "local_backup.json": "606a34975e2c398b08148d49247b9da27347959f022e08de8255874c58b1453e",
+    "manifest.json": "db6bfcabdd26644b9ef27d292dac48885f3186c4f3b254a336fe54e801188560",
+    "power_plan.json": "12d91f0d305e1fed9e64f93ed65eed49b1063d488db131b66bcb7361b4483d24",
+    "PROTOCOL.md": "41615bbb6db6e6ba72f2910b09b0adc7c8727a8b121422bc3a3e7ebd6e0577a7",
+    "record_checksums.json": "4d0511f8777c121b7c70e280be3536af8458d4beeeeb1220adeb60cb0889beb2",
+    "review_approved.json": "8bf7748072b9b695ec02c8d85fe78fd74ba2c464debd4710133f9060f62359d4",
+    "review_pending.json": "35b481989a2e6eb2a245e46d988a0f2fc131514d90db89375a72a4b5e2fb47eb",
+    "token_usage.json": "f5011a7ac8d22517afa6f16b5cb2ed9d70d116d29589091f2ec1b0652e89f45c"
+  },
+  "status": "Completed; report and completion-verification added after raw-record ZIP creation."
+}

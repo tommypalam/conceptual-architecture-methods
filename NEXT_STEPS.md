@@ -10,15 +10,18 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
-**September 10 diagnostic preparation:** the researcher authorised proceeding
-with the four-condition PD/S3 wording attribution test. A frozen 1,200-call
-design (300 per condition, seed 20260910) and exact prompts are ready in
-[`wording_factorial_20260910`](experiments/phase1_5_encoding_validity/wording_factorial_20260910/PROTOCOL.md).
-Six offline tests passed. Expected token cost is about $1.30; about $4.05 at
-the output cap using historical input length, before taxes/retries. No calls
-have been made in this designation. Only exact-combination B/C human review
-remains before dispatch; original P2/P3 approvals carry over to A/D. This is
-exploratory diagnosis, with theory and the original phase gate unchanged.
+**September 10 diagnostic complete:** all 1,200 PD/S3 factorial responses are
+valid (300 per condition), with zero API/model errors, seed 20260910. The user
+approved exact B/C combinations; A/D retain prior approval. ADOPT rates A/B/C/D
+are 85.0% / 15.0% / 53.7% / 8.3%. The PD wording effect is +57.7 points
+(simultaneous interval +45.7 to +67.8); other-nine wording +19.0 (+7.7 to +29.7);
+interaction +24.7 (+2.2 to +46.4). All three exclude zero under the frozen
+analysis. This localises a large presentation sensitivity to PD wording, with
+additional background and interaction effects. Theory and the gate are unchanged.
+See the [result report](experiments/phase1_5_encoding_validity/wording_factorial_20260910/analysis/FACTORIAL_REPORT.md).
+Recorded token cost estimate: $1.3013235 before taxes. Exact messages/profiles,
+all record hashes and the byte equality of all 1,200 ZIP payloads are verified.
+Status/logs: `output/wording_factorial_20260910`. No collection is still running.
 
 **Latest verified status (after background completion):** the source sweep has
 15,000/15,000 valid records, zero API failures. Rotations have 4,500/4,500 records,
@@ -122,10 +125,12 @@ Simulated true-equality success for the existing all-six-pair test at p=.50 is
 0/10,000 at N=50, about 35% at N=400 and 91% at N=800. These are planning
 diagnostics, not new observations or replacement gate criteria.
 
-Recommended next discussion: a fresh exploratory two-by-two wording attribution
-experiment on PD=.8/S3, varying PD's endpoint wording separately from the other
-nine descriptions using paraphrases 2/3. Sample size, exact mixed templates and
-budget are not approved or prepared for dispatch. The theory remains unchanged.
+The recommended two-by-two attribution experiment is now complete and supports
+PD wording, background wording and interaction effects; see the latest status
+above. The next research decision can target the low/high PD endpoint contributions
+separately, or specify a reviewed encoding revision and independent validation.
+Neither is prepared or launched. Increasing N alone cannot remove the wording
+effect demonstrated here. The theory remains unchanged and Phase 2 is on hold.
 
 1. Source sweep, rotations, gradients, independent audit and approved paraphrases
    are collected and scored. Review the battery assessment with the researcher;

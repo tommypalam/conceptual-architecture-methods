@@ -1,0 +1,123 @@
+{
+  "design_hash": "ffff63b4d2ad81d9f5520bd35a03a4d867485a3b372c8cda7d6fe846d29a49b3",
+  "configuration": "neutral",
+  "seed": 20260910,
+  "status": "EXPLORATORY_DIAGNOSTIC_COMPLETE",
+  "cells": [
+    {
+      "variant": "A",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 300,
+      "n_recorded": 300,
+      "n_valid": 300,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 255,
+      "rate": 0.85,
+      "ci95": [
+        0.805182388854671,
+        0.8859675312881468
+      ]
+    },
+    {
+      "variant": "B",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 300,
+      "n_recorded": 300,
+      "n_valid": 300,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 45,
+      "rate": 0.15,
+      "ci95": [
+        0.11403246871185316,
+        0.194817611145329
+      ]
+    },
+    {
+      "variant": "C",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 300,
+      "n_recorded": 300,
+      "n_valid": 300,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 161,
+      "rate": 0.5366666666666666,
+      "ci95": [
+        0.4801320652390865,
+        0.5922741168711132
+      ]
+    },
+    {
+      "variant": "D",
+      "parameter": "PD",
+      "problem": "S3",
+      "value": 0.8,
+      "n_expected": 300,
+      "n_recorded": 300,
+      "n_valid": 300,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "opt0_count": 25,
+      "rate": 0.08333333333333333,
+      "ci95": [
+        0.057080874056394275,
+        0.12012160196406074
+      ]
+    }
+  ],
+  "contrast_analysis": {
+    "condition_bounds": [
+      [
+        0.7915992701088933,
+        0.8975472626412486
+      ],
+      [
+        0.10245273735875135,
+        0.2084007298911067
+      ],
+      [
+        0.46298465211967393,
+        0.6092242555925589
+      ],
+      [
+        0.04833166904451117,
+        0.131397164775967
+      ]
+    ],
+    "contrasts": {
+      "PD_wording_P2_minus_P3": {
+        "estimate_valid_only": 0.5766666666666667,
+        "simultaneous_ci95_unknowns_expanded": [
+          0.45739301378074676,
+          0.6779935559152724
+        ],
+        "excludes_zero": true
+      },
+      "other_nine_P2_minus_P3": {
+        "estimate_valid_only": 0.19000000000000003,
+        "simultaneous_ci95_unknowns_expanded": [
+          0.0767152935495594,
+          0.2973158356840852
+        ],
+        "excludes_zero": true
+      },
+      "interaction_difference_in_differences": {
+        "estimate_valid_only": 0.24666666666666665,
+        "simultaneous_ci95_unknowns_expanded": [
+          0.0223059536697389,
+          0.46350703793879033
+        ],
+        "excludes_zero": true
+      }
+    }
+  },
+  "phase_gate": "Unchanged; not met by the completed original battery"
+}

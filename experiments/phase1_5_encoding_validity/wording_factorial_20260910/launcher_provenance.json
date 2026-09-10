@@ -1,0 +1,6 @@
+{
+  "design_hash": "ffff63b4d2ad81d9f5520bd35a03a4d867485a3b372c8cda7d6fe846d29a49b3",
+  "launcher_sha256": "ffb26257299ff6951608d0bca340268be4411b512cb975010ebb95e1ea491a4b",
+  "approval_sha256": "8bf7748072b9b695ec02c8d85fe78fd74ba2c464debd4710133f9060f62359d4",
+  "note": "Frozen execute/score functions unchanged; Windows process lock stored outside ZIP tree."
+}
