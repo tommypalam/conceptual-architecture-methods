@@ -1,6 +1,6 @@
 # Current state and next steps
 
-Updated 2026-09-09. Working branch: `phase1-5-validity`.
+Updated 2026-09-10. Working branch: `phase1-5-validity`.
 This file is the current operational status; historical records are evidence,
 not competing task lists.
 
@@ -9,6 +9,16 @@ is `option_c_20260909_restart`: 15,000 new calls, without reusing the old sample
 See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
+
+**September 10 diagnostic preparation:** the researcher authorised proceeding
+with the four-condition PD/S3 wording attribution test. A frozen 1,200-call
+design (300 per condition, seed 20260910) and exact prompts are ready in
+[`wording_factorial_20260910`](experiments/phase1_5_encoding_validity/wording_factorial_20260910/PROTOCOL.md).
+Six offline tests passed. Expected token cost is about $1.30; about $4.05 at
+the output cap using historical input length, before taxes/retries. No calls
+have been made in this designation. Only exact-combination B/C human review
+remains before dispatch; original P2/P3 approvals carry over to A/D. This is
+exploratory diagnosis, with theory and the original phase gate unchanged.
 
 **Latest verified status (after background completion):** the source sweep has
 15,000/15,000 valid records, zero API failures. Rotations have 4,500/4,500 records,

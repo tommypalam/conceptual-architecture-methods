@@ -4,6 +4,58 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-10 - Four-condition wording diagnostic prepared
+
+The researcher said "go for it" following the proposed PD/S3 wording attribution
+test. Prepared the concrete design, exact prompts, executable runner, analysis,
+budget and offline power calculation. No real calls were made. The prior
+proposal explicitly requires exact-template review of the new mixtures B/C;
+those combinations are now reviewable. Earlier human approval of P2/P3 is
+retained for unchanged A/D. No theoretical departure or new export permission
+is requested. No new words were generated: only PD endpoint strings are copied
+between the already approved P2/P3 templates.
+
+Decision: 300 fresh calls per condition (1,200 total), fixed PD=.8/S3, neutral
+full harness, pinned gpt-5.4-mini-2026-03-17, temperature 1, cap 600, root seed
+20260910. Randomized four-request blocks distribute temporal drift; seeds
+include condition and block. Three prespecified probability-scale contrasts
+use simultaneous bounds derived from four Bonferroni exact rate intervals.
+Unknown decisions expand intervals over all binary completions; the 98% parse
+floor remains separate. No old outcomes are pooled and no phase gate changes.
+
+Power: 20,000 offline simulations per scenario and N=100/200/300/400. N=300 is
+the smallest grid value above 80% for both 20-point main effects and a 40-point
+interaction in the balanced scenarios (approximately 97% each). Power is only
+about 5% for the illustrated 10-point main effect and 20-point interaction.
+These limits prevent interpreting a null as absence of wording sensitivity.
+The binomial assumptions require stable independent within-condition responses;
+blocking alone does not establish independence. Profile/pair selection was
+post-hoc, so this remains exploratory and cannot establish global validity.
+
+Synthetic five-perspective review: Linden finds no endpoint-direction change
+in copying the two approved PD strings, while retaining exact-combination human
+review. Osei supports fresh A/D controls and temporal balancing, with restricted
+generalisation from the selected profile. Tanaka supports simultaneous exact
+bounds and unknown-outcome sensitivity but flags severe conservatism and low
+small-interaction power. Renna distinguishes presentation attribution from
+theory revision or repair of the original gate. Okafor requires frozen source
+hashes, write-once records, deterministic resume and terminal-failure refusal.
+Disagreement: a larger study would identify smaller effects more reliably but
+would exceed the intended small diagnostic. Resolution: retain 1,200 calls,
+publish all interval widths, explicitly leave small effects unresolved, and do
+not authorise adaptive extension based on outcomes. No constitution rule changes.
+
+Validation: six focused offline tests passed, including unchanged A/D exact
+messages, endpoint-only mixing, independent confidence-bound verification,
+contrast/unknown handling, approval hashes, eight-call mock collection and
+idempotent resume, scoring, and preserved terminal failure. Separate comparison
+confirmed all four profiles/user messages identical and only PD endpoints
+differ within A/B and D/C. Expected cost $1.30455 based on historical PD/S3 token
+lengths and official prices checked September 10; output-cap estimate $4.0536
+before taxes/retries. No new Claude calls. See the
+[frozen protocol](experiments/phase1_5_encoding_validity/wording_factorial_20260910/PROTOCOL.md)
+and its exact-template review. All original records and frozen code are intact.
+
 ## 2026-09-09 — Offline diagnosis authorised, theory held fixed
 
 The user asked what could be done while leaving the theory alone, then accepted

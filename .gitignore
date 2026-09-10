@@ -79,6 +79,8 @@ experiments/phase1_5_encoding_validity/claude_*/preserved_attempts/
 experiments/phase1_5_encoding_validity/rotations_*/records/
 experiments/phase1_5_encoding_validity/gradients_*/records/
 experiments/phase1_5_encoding_validity/paraphrases_*/records/
+experiments/phase1_5_encoding_validity/wording_factorial_*/records/
+experiments/phase1_5_encoding_validity/wording_factorial_*/execution.lock
 
 # =============================================================
 # What IS committed:

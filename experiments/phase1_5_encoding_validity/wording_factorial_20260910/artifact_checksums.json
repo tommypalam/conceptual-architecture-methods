@@ -1,0 +1,11 @@
+{
+  "design_hash": "ffff63b4d2ad81d9f5520bd35a03a4d867485a3b372c8cda7d6fe846d29a49b3",
+  "sha256": {
+    "HUMAN_REVIEW.md": "70121212f78bf169d5cdec4525786ff1d32eabcc8f8dbc2d09cf9eb05ce16241",
+    "manifest.json": "db6bfcabdd26644b9ef27d292dac48885f3186c4f3b254a336fe54e801188560",
+    "power_plan.json": "12d91f0d305e1fed9e64f93ed65eed49b1063d488db131b66bcb7361b4483d24",
+    "PROTOCOL.md": "41615bbb6db6e6ba72f2910b09b0adc7c8727a8b121422bc3a3e7ebd6e0577a7",
+    "review_pending.json": "35b481989a2e6eb2a245e46d988a0f2fc131514d90db89375a72a4b5e2fb47eb"
+  },
+  "status": "Prepared; no API calls; exact B/C review pending"
+}

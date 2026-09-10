@@ -1,0 +1,18 @@
+{
+  "design_hash": "ffff63b4d2ad81d9f5520bd35a03a4d867485a3b372c8cda7d6fe846d29a49b3",
+  "reviewer": null,
+  "approved": false,
+  "condition_template_hashes": {
+    "A": "34b7dfe5be4f0df2794ef9d7a07b6031b43379384e4d20aeb0aec40dcafaad6e",
+    "B": "8e8c2877e49de094333456928571558895c226ca56ad65fb108df674ffdfd46a",
+    "C": "cc90b7ea0ff6e60d058cd8212ef3b6aefe9b559974b7c51fd3fe0e3d7c095585",
+    "D": "347cb95025c704f0b8d1e3bac6417811140ffbff8bafb91fbbb606d22a163852"
+  },
+  "condition_messages_hashes": {
+    "A": "1e406090c9a5e4245dd818ba9bcb2d469938c35c9eefdc48f7fbbc7b232c0f45",
+    "B": "a0733c9354d9f5a00fb4bd6316ad5bb40d83eaa4be76bd9f97e507a083f67115",
+    "C": "b6f7efd87989a089fadb73faca5e4fde9bd084b6a167e43f026c2be04f3d2a53",
+    "D": "3d72d44ae03920ab5a6a642dbc4b6bce19b478edd01800c88ab93c9f7d8723b0"
+  },
+  "scope": "New mixtures B/C need human review; A/D are unchanged previously approved templates"
+}
