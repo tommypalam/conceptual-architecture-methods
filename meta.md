@@ -6,6 +6,24 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 ## 2026-09-10 - Technical continuation of the approved numeric-axis pilot
 
+**Attached continuation timeout:** `continuation_r2` stopped at 1,864 records
+(1,863 valid, one `APITimeoutError: Request timed out.`, no non-API invalids).
+Across segments: 4,884 recorded, 4,875 valid, nine API failures; recorded token
+estimate $5.443323. The failed slot is revision/P1/PD=.8/S3, call 0235. The
+automatic finalizer stopped without assembling an incomplete final result.
+Concurrent generic-text endpoint probes subsequently reached the server.
+
+Prepared a new snapshot and `continuation_r3` for 3,016 never-dispatched slots.
+The new preparer admits request timeouts as well as connection errors; the
+frozen executor, retry policy, prompts, seeds, model, N, analysis and combined
+$12 guard are unchanged. No failed request is replaced. The behavioural test
+verifies timeout reservation, unchanged allocation and executor compatibility,
+and refusal of authentication errors. Existing snapshot/guard checks also pass.
+This is transport recovery under the existing approval, not a theoretical or
+statistical amendment. Synthetic review retains all five previously recorded
+positions, with timeout-related unknown usage disclosed alongside connection
+failures; no outcome-based recovery decision or phase pass is inferred.
+
 **Second transport interruption:** the first continuation's initial four calls
 also returned connection errors, with no reported usage. Those P2 slots (two
 per arm) are preserved alongside the original four P3 failures. Python SDK GET,

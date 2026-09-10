@@ -15,6 +15,7 @@ from run_validity_sweep import mock_response
 import run_validity_axis_revision as core
 import run_validity_axis_continuation as recovery
 from prepare_validity_axis_recovery_snapshot import snapshot
+from prepare_validity_axis_transport_continuation import prepare as prepare_transport
 
 
 def test_recovery_never_repeats_failed_or_successful_slots_and_preserves_bytes(tmp_path,monkeypatch):
@@ -66,3 +67,22 @@ def test_recovery_never_repeats_failed_or_successful_slots_and_preserves_bytes(t
     (shard/'manifest.json').write_text(json.dumps(changed),encoding='utf-8')
     with pytest.raises(ValueError,match='Parent snapshot changed'):
         snapshot(source,shard,tmp_path/'tampered')
+
+    # A timeout gets the same unsent-only allocation and immutable executor.
+    timeout_source=tmp_path/'timeout_source'
+    import shutil
+    shutil.copytree(source,timeout_source)
+    failed=next(r for r in original if r['error_message'])
+    failed=deepcopy(failed);failed['error_message']='APITimeoutError: TEST ONLY'
+    failed.pop('record_hash');failed['record_hash']=digest(failed)
+    target=timeout_source/'records'/(failed['record_key']+'.json')
+    target.write_text(json.dumps(failed),encoding='utf-8')
+    tm=prepare_transport(timeout_source,tmp_path/'transport')
+    assert tm['design']['allocation']==cm['design']['allocation']
+    transport_client=MockClient(responder=mock_response)
+    asyncio.run(recovery.execute(tm,transport_client,tmp_path/'transport'))
+    assert transport_client.n_calls==2
+    failed.pop('record_hash');failed['error_message']='AuthenticationError: TEST ONLY';failed['record_hash']=digest(failed)
+    target.write_text(json.dumps(failed),encoding='utf-8')
+    with pytest.raises(ValueError,match='limited to connection'):
+        prepare_transport(timeout_source,tmp_path/'refused')

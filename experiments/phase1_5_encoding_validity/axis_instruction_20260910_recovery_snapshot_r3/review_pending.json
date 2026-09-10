@@ -1,0 +1,18 @@
+{
+  "approved": false,
+  "reviewer": null,
+  "proposal_hash": "b5bfcaf29e053db07dc8cd81e8c53d962ae191456fe14ea4d287e38284e18a19",
+  "instruction_hash": "700d97e9f3dbe7bec06963f750f078b5b5c8ebb7e998ce9f354851dfe812c58b",
+  "template_hashes": {
+    "baseline_canonical": "9c0abeeeed2626fa33dc320d403c48b6217ac590eb67791d1c0d50fc2267ba8e",
+    "revision_canonical": "4c15b1c68d720bfb4b7a4aa02c2cf08184ce7d42df46b176eac1a28ed9672d10",
+    "baseline_paraphrase_1": "95bdaa5d54bca2b9dd7e8e6c89543156f2a60fcc0e77c966d234147550961e12",
+    "revision_paraphrase_1": "caffc2eeaa16c9f361dde24a34dbf108c2d8c33228667e2d80e82184152739e0",
+    "baseline_paraphrase_2": "34b7dfe5be4f0df2794ef9d7a07b6031b43379384e4d20aeb0aec40dcafaad6e",
+    "revision_paraphrase_2": "954acf370d8e7cdcb73c1545e8058142514ead980f4343e279c1604f1d0800a3",
+    "baseline_paraphrase_3": "347cb95025c704f0b8d1e3bac6417811140ffbff8bafb91fbbb606d22a163852",
+    "revision_paraphrase_3": "ae37d8155da79166211ba063b9e9b7b492deff14386a6d862a3a30e0a7b3f23d"
+  },
+  "exact_messages_hash": "707261344f16d9fed699d0d46a4aaabc8f05ed85572a43bdb5e752ea1c1475f9",
+  "scope": "New shared axis-reading instruction; existing definitions, endpoints, values, contexts and dilemma text unchanged"
+}
