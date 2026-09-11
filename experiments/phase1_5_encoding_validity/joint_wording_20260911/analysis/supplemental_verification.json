@@ -1,0 +1,10 @@
+{
+  "design_hash": "d657fc562db78ec09c4b0c1856c7fdc94b794cf26c408eedc298a122d745c435",
+  "valid_responses": 480,
+  "unique_requested_seeds": 480,
+  "exact_user_approval_verified": true,
+  "all_three_approved_templates_checked": true,
+  "figure_visually_reviewed": true,
+  "canonical_repeat_audit_reconciled": true,
+  "older_900_call_design_unexecuted": true
+}

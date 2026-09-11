@@ -1,5 +1,18 @@
 # Phase 1.5 decision record — September 11
 
+## Latest wording and reproducibility result
+
+The480-call joint-profile wording screen completed480valid for$0.5156505.
+At PD=.9/MoR=.9, canonical8/30 versus P2 29/30 gives a+.700 rate difference,
+simultaneous95%CI[+.193,+.923]: a detected gross wording failure. The same
+canonical cell also changed23/30?8/30 across the latest two runs despite
+verified matching text/profile/settings; its cause remains unidentified.
+See the [full interpretation and audit](joint_wording_20260911/analysis/INTERPRETATION.md).
+The earlier positive findings are retained with this reproducibility limitation.
+Phase1.5 remains unvalidated; no new run or Phase2 launch is queued.
+Conservative cumulative charge$3.89954775 leaves approximately$5.10 of$9.
+
+
 ## Latest fixed-text diagnostic
 
 The300-call PD-by-MoR test is complete with300valid responses for$0.313056.

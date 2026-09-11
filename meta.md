@@ -4,6 +4,44 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Joint wording failure and canonical repeat discrepancy
+
+The approved480-call screen completed480valid, no API/model/usage failures,
+cost$0.5156505. High-PD/high-MoR counts canonical8/P1 21/P2 29/P3 25 of30.
+P2-minus-canonical difference+.700, simultaneous95%CI[+.193,+.923], meets
+the frozen gross-local-wording-failure rule. One of24 pairs exceeds the.10
+margin with its family interval; no equivalence claim for the other23 pairs.
+All wordings/profiles and secondary contrasts retained, no chosen best template.
+
+The exact canonical high/high cell also changed23/30 in the prior PD diagnostic
+to8/30 now. Post-score audit checks240 canonical endpoint records from the two
+runs: identical message bytes, profiles and declared model/settings; distinct
+API IDs/seeds, response payload text and reparsed decisions agree. Other three
+corner counts are25?26,30?30,3?2. No source/record mismatch found in these
+checks; both runs omit backend fingerprints. Seeds, schedule, time and allocation
+changed, so the cause is not identified. No provider-change or internal-mechanism
+claim, historical pooling or new calls to rescue the result.
+
+Synthetic perspectives, not external review: Linden keeps behavioural influence
+separate from interpretable ethical encoding and rejects adopting the strongest
+paraphrase. Osei treats fresh canonical reproducibility as a distinct limitation
+from same-run wording divergence. Tanaka preserves family bounds, small-N
+uncertainty and primary/secondary scope; nominal P1/P3 secondary results do not
+clear the failed primary. Renna requires the new instability to qualify the
+previous positive interaction finding. Okafor banks completed evidence and
+requires a separately frozen stability/diagnostic plan before more expenditure.
+Resolution: original gate remains unmet; earlier local positive results remain
+reported, but cannot be represented as a stable validated implementation.
+
+All16 cells plotted with marginal Wilson intervals and clear distinction from
+primary simultaneous bounds; visual QA passed. The audit used previous300?120
+and current480?120 records, with other540 retained in original analyses. Its
+initial logging label misstated the remainder as600; corrected to computed540,
+with the initial derived audit draft preserved under output/diagnostic_drafts.
+No raw data or frozen runner changed. Three screen tests passed before dispatch.
+Known cumulative cost$3.8945805; conservative charge$3.89954775 including old
+unknown timeout usage, leaving$5.10045225. No new experiment or Phase2 queued.
+
 ## 2026-09-11 - Freeze local joint-profile wording stress screen
 
 The researcher asked to continue after the PD interaction finding. The next

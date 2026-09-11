@@ -10,15 +10,18 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
-**Joint-profile wording screen running:** [480-call protocol](experiments/phase1_5_encoding_validity/joint_wording_20260911/PROTOCOL.md).
-All three approved r5 paraphrases plus canonical at four PD/MoR endpoint profiles,
-N30 each, fresh controls, seed20260923, cap$3.50, full reserve$2.9547.
-Primary screens24 wording pairs with simultaneous intervals; a demonstrated
->10pp difference is a local failure. No detected difference is inconclusive,
-not equivalence or a phase pass. Three offline tests pass. Automatic review
-initially required exact approval; researcher approved480 calls/$3.50. The
-unchanged launch passed review and real responses are being saved.
-No new wording, theory, locked dilemma or parameter-set change.
+**Joint-wording screen complete:480/480 valid, cost$0.5156505.**
+[Interpretation, figure and repeat audit](experiments/phase1_5_encoding_validity/joint_wording_20260911/analysis/INTERPRETATION.md).
+Gross local wording failure: at PD=.9/MoR=.9, canonical8/30 versus P2 29/30;
+difference+.700, simultaneous95%CI[+.193,+.923] across the prespecified family.
+One of24 pairs establishes a>10pp difference; others are not equivalence passes.
+The same canonical profile changed23/30?8/30 between runs. Post-score audit
+verified identical messages/profiles/settings and raw-response parses for240
+matching endpoint records; cause remains unknown, no backend fingerprint supplied.
+Do not assume the previous canonical interaction magnitude is reproducible.
+No data pooled, discarded or retried. All raw ZIP bytes/provenance verified.
+Cumulative conservative charge$3.89954775 leaves$5.10045225 from the latest$9.
+Phase gate remains unmet; no new run queued,900-call confirmation still paused.
 
 **PD interaction complete:300/300 valid, cost$0.313056.**
 [Interpretation and figure](experiments/phase1_5_encoding_validity/pd_interaction_20260911/analysis/INTERPRETATION.md).

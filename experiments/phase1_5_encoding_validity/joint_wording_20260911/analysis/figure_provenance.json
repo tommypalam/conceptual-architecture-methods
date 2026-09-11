@@ -1,0 +1,17 @@
+{
+  "design_hash": "d657fc562db78ec09c4b0c1856c7fdc94b794cf26c408eedc298a122d745c435",
+  "analysis_digest": "ebec5cad3ce57d4346a6a88ab40e85a3c06e59d1930c407964f1dad827b0612c",
+  "script_sha256": "0a4054225db3abae45866352b67b93f1dcd14bc4995ea4f451bef69f58a8584a",
+  "all_sixteen_cells_retained": true,
+  "files": [
+    {
+      "path": "fig_01_joint_wording.png",
+      "sha256": "ee707fe8beb0296885671d330ee82f11ba60d441330f92f1d1f7bb289549418c"
+    },
+    {
+      "path": "fig_01_joint_wording.pdf",
+      "sha256": "0b89aafe74babc74fb5e4fcb37ad0fdc70de17e6072d2ae15bfea55a7839437f"
+    }
+  ],
+  "intervals": "Marginal Wilson95; primary uses simultaneous exact cell bounds."
+}
