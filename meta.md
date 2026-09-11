@@ -4,6 +4,53 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Freeze a same-text PD background-value contrast
+
+The researcher accepted the recommendation to identify a theory-justified
+background contrast and instructed proceeding. The proposed mean control
+would duplicate the existing full-ten arm; no such duplicate was run.
+Selected PD from AppendixA process/outcome meaning and thesis11.3 S3 activation
+cluster, additionally informed by previous PD/S3 data and unblinded rationales.
+No source predicts the interaction sign: freeze an exploratory two-sided test.
+
+300 fresh calls: PD.1/.9 x MoR.1/.3/.5/.7/.9,N30,seed20260922,cap$2.25,
+full reserve$1.76535. Prior conservative charge plus cap remains below$9.
+Retain all ten entries and exact text; at matched MoR only PD0.10 versus0.90
+changes, with equal byte lengths. Other eight values stay at source means.
+Neither means nor0.5 are neutral/absent. No distribution or theory change.
+
+Synthetic perspectives, not external review: Linden ties PD selection to the
+existing construct without inventing a PD-to-ADOPT rule. Osei supports fixed
+presentation and fresh simultaneous controls; numeric tokens still alter the
+stimulus and a value effect does not prove faithful psychological moderation.
+Tanaka specifies high-PD minus low-PD slope, two-sided Wald interval with
+explicit linear-logit assumptions; no significance-in-one-arm reasoning.
+Renna preserves alternative explanations and distinguishes a local diagnostic
+from paraphrase/whole-phase validity. Okafor requires immutable collection,
+budget caps and no automatic follow-up. Disagreement: an effect could be numeric
+cueing rather than intended trait interaction. Resolution: report the value
+contrast at its scope; do not label it a unique mechanism or phase repair.
+
+Monotonicity is descriptive for this primary interaction test. A miss remains
+visible and does not waive the original phase gate; no trial selected or extended
+because of its monotonicity result. Three offline tests pass including full300
+mock, exact edits/lengths, spending, direct contrasts and no-retry preservation.
+The900-call confirmation remains unexecuted. Actual user authority is recorded
+without inventing a separate exact-payload signature; launch review comes next.
+
+Automatic review rejected launch before process creation because it requires
+exact new private payload, OpenAI destination,300-call allocation and$2.25 cap
+approval beyond the broad go-ahead. The exact request is presented to the user.
+No API calls, indirect execution or workaround was attempted; no spending.
+Manifest, preview, scope, tests and absence of dispatch records verified.
+
+The researcher subsequently replied "Approve300 calls,$2.25 cap" (exact original
+reply stored in dispatch_approved.json). Scope/message hashes were verified; the
+unchanged launch passed execution review and began saving real responses.
+No mid-run prompt, model, temperature, allocation or hypothesis edit.
+
+
+
 ## 2026-09-11 - Background-profile diagnostic: positive slope contrast, mechanism open
 
 All300 fresh responses valid; no terminal, model or usage failures. Cost$0.2704725.

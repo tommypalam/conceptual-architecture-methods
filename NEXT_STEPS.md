@@ -10,6 +10,16 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**PD background interaction running:** [300-call protocol](experiments/phase1_5_encoding_validity/pd_interaction_20260911/PROTOCOL.md).
+PD.1 versus.9 crossed with five MoR values,N30 each, fresh concurrent controls.
+All ten entries/text retained; only the PD number differs at matched MoR, with
+equal byte lengths. Two-sided exploratory slope contrast; no theory-predicted
+interaction sign. Monotonicity reported separately, phase gate unchanged.
+Seed20260922; cap$2.25, reserve$1.76535; three offline tests pass. Automatic
+review initially blocked launch; researcher then approved the exact300-call/$2.25
+scope. The unchanged launch passed review and real responses are being saved.
+The900-call confirmation remains paused.
+
 **Profile-ablation diagnostic complete:300/300 valid, cost$0.2704725.**
 [Interpretation and figure](experiments/phase1_5_encoding_validity/profile_ablation_20260911/analysis/INTERPRETATION.md).
 Full-ten ADOPT counts10/10/11/23/23; MoR-only8/22/28/26/30, each/30.
@@ -34,12 +44,12 @@ intents exist for this designation; no calls were sent. Keep the frozen
 [protocol](experiments/phase1_5_encoding_validity/original_confirmation_20260911/PROTOCOL.md)
 as unexecuted provenance. Approval does not override the subsequent stop.
 
-Current work is methodological review only: a MoR-only versus full-profile
+Earlier stop record, superseded by the completed diagnostic above: a MoR-only versus full-profile
 comparison could test whether including the other nine parameters changes the
 MoR response. It would not alone establish a bandwidth limit, validate a smaller
 architecture, or test paraphrase robustness. Any proposed diagnostic should use
 fresh concurrent controls, exact retained text, and a separately frozen design.
-No replacement experiment or theoretical revision has been implemented.
+The subsequent ablation is complete; no theoretical revision has been implemented.
 
 **Concurrent comparison allocation complete:** 720 attempt slots, **719 valid
 and one preserved timeout**. Original/repeated cells were collected in one
