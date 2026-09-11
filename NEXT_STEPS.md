@@ -10,6 +10,14 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Expanded original-delivery replication prepared:640 calls, cap$4.50.**
+[Protocol and frozen requests](experiments/phase1_5_encoding_validity/original_expanded_20260911/PROTOCOL.md).
+MoR/S3 and MS/S2 at low/middle/high, PD/S3 at endpoints; all four approved
+wordings, N20 in32 conditions. Seed20260926, reserve$4.06452, original delivery
+and all ten parameters. Three offline tests pass. Eight directional tests use
+Holm correction; wording stress and midpoint ordering reported separately.
+Selected-case replication, no revised gate or automatic full sweep. No calls yet.
+
 **Tool-delivery screen complete:320/320 valid decisions,480/480 valid calls.**
 [Result and all-cell figure](experiments/phase1_5_encoding_validity/tool_delivery_20260911/analysis/INTERPRETATION.md).
 Cost$0.4117305. Frozen status **NO_SCALE_UP_SUPPORT**: primary squared-gap

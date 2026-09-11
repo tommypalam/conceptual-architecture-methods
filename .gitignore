@@ -127,3 +127,7 @@ experiments/phase1_5_encoding_validity/joint_wording_*/dispatches/
 experiments/phase1_5_encoding_validity/tool_delivery_20260911/records/
 experiments/phase1_5_encoding_validity/tool_delivery_20260911/dispatches/
 experiments/phase1_5_encoding_validity/tool_delivery_20260911/decisions/
+
+# Expanded original replication: immutable raw archives remain local.
+experiments/phase1_5_encoding_validity/original_expanded_20260911/records/
+experiments/phase1_5_encoding_validity/original_expanded_20260911/dispatches/

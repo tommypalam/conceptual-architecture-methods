@@ -4,6 +4,35 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Freeze expanded original-delivery replication
+
+The researcher approved the proposed640 calls with "go", then "continue" after
+the$4.50 cap was stated. Original system-role delivery, all ten parameters and
+all four approved wordings. MoR/S3 and MS/S2 at.1/.5/.9,N20; PD/S3 at.1/.9,N20.
+Thirty-two conditions, rootseed20260926,640calls; cap$4.50,reserve$4.06452.
+Prior conservative charge$4.31127825 plus cap stays below the latest$9 allowance.
+No tool delivery, source/meaning changes, old-response pooling or paused900-call
+confirmation resumption. No calls at preparation time.
+
+Synthetic perspectives, not external review: Linden keeps behavioural response
+separate from internal ethical understanding and rejects treating70/30 as a
+universal constraint on profiled decisions. Osei requires disclosure that two
+positive cases were selected and retains PD/S3 as a stress case. Tanaka freezes
+eight directional Fisher tests with Holm correction, nominal exact effect
+intervals separately labelled, and simultaneous32-cell bounds for48 wording
+contrasts. Renna keeps all original battery components and the24/30 requirement;
+a positive selected-case replication is not a phase pass. Okafor requires exact
+source/profile/label preservation, complete block allocation and immutable
+failures under a conservative dispatch guard. Resolution: collect a bounded
+replication, report every case, no new combined gate or automatic expansion.
+The primary positive MoR/S3 and MS/S2 directions are existing hypotheses, not
+new PD behavioural mappings. Three-point ordering is descriptive only.
+
+Three tests passed: full640-call mock, exact source/approved-template/profiles,
+S2-versus-S3 labels, allocation/seeds, Holm test family and gross wording
+contrasts, missing-data envelopes, zero-call budget block and no-retry failures.
+See experiments/phase1_5_encoding_validity/original_expanded_20260911/PROTOCOL.md.
+
 ## 2026-09-11 - Tool delivery does not qualify for expansion
 
 The researcher approved the exact prepared test with "go try it out" after the
