@@ -1,0 +1,11 @@
+{
+  "basis": "User authorised exploration within Phase 0 boundaries, then explicitly instructed paid exploration with a $9 total ceiling.",
+  "user_budget_quote": "lets go spend some money, I have 9 dollars though, so lets try and keep it at that",
+  "total_new_ceiling_usd": 9,
+  "assistant_screen_allocation_usd": 3,
+  "design_hash": "263f51dc506b9bd66bbb2647a188daa4285215c487e8044ddaf3e2343d9bb4c7",
+  "protocol_sha256": "64fac42e39613c7ca6c755efe37f9fe1eafab4ddef2d74d7e6a04bd4c489cba2",
+  "request_preview_sha256": "6a81c294ef82dd2bbcc407b9590277894d6f57589efcd1e67ce78d66395a3cb8",
+  "exact_message_human_signature_claimed": false,
+  "semantic_review": "Assistant review against locked S3 and theory; no new mapping or original prompt changes."
+}

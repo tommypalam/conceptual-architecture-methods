@@ -1,0 +1,12 @@
+{
+  "design_hash": "263f51dc506b9bd66bbb2647a188daa4285215c487e8044ddaf3e2343d9bb4c7",
+  "n_records": 450,
+  "n_unique_api_ids": 450,
+  "n_unique_requested_seeds": 450,
+  "exact_requests_profiles_and_approval": true,
+  "all_single_attempt_expected_model": true,
+  "all_reservations_matched": true,
+  "reserved_usd": 2.8672650000000144,
+  "all_raw_zip_bytes_verified": true,
+  "source_hashes_verified": true
+}

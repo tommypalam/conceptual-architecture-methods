@@ -84,6 +84,8 @@ experiments/phase1_5_encoding_validity/wording_factorial_*/execution.lock
 experiments/phase1_5_encoding_validity/pd_endpoints_*/records/
 experiments/phase1_5_encoding_validity/axis_instruction_*/records/
 experiments/phase1_5_encoding_validity/claude_screen_*/records/
+experiments/phase1_5_encoding_validity/evidence_screen_*/records/
+experiments/phase1_5_encoding_validity/evidence_screen_*/dispatches/
 
 # =============================================================
 # What IS committed:

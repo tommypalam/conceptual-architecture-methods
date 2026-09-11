@@ -1,0 +1,10 @@
+{
+  "total_new_authorised_usd": 9,
+  "screen_allocation_usd": 3,
+  "recorded_full_rate_token_estimate_usd": 0.5022225000000002,
+  "remaining_allowance_estimate_usd": 8.4977775,
+  "conservative_dispatched_reservations_usd": 2.867265,
+  "pending_requests": 0,
+  "provider_account_balance_verified": false,
+  "automatic_expansion": false
+}

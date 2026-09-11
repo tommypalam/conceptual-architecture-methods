@@ -19,6 +19,36 @@ and permits proposed procedures if explicitly identified as proposals. This
 instruction is a new experimental intervention requiring exact review, not a
 claim that the effective prompt has stayed unchanged.
 
+## Phase 0 boundaries for exploration
+
+The researcher authorises exploration within the purpose and accepted closure
+of Phases 0a, 0b and 0c. The governing interpretation is the
+[Phase 0 closure](../../PHASE0_CLOSURE_2026-07-29.md), including its documented
+measured-baseline and inference-tier decisions, rather than superseded demands
+to rebalance every dilemma to 50/50 or automatically descope.
+
+- **0a: preserve the calibrated problems.** Keep both the archived originals
+  and the accepted recalibrated set unchanged. No answer cues, altered stakes,
+  new factual assumptions or outcome-driven re-recalibration.
+- **0b: isolate delivery effects.** An evidence sheet or tool response is added
+  context even if the source files are unchanged. A future candidate comparison
+  must include matched no-profile controls with and without that addition, as
+  well as the parameterised comparison and repetition control. Otherwise an
+  overlay-induced default cannot be distinguished from parameter influence.
+  The neutral-valued ten-parameter profile is not a no-profile control.
+- **0c: separate exploration from validation.** Keep a record of every candidate
+  and failed screen. Freeze the selected complete condition and analysis before
+  fresh confirmatory sampling; never promote development responses to holdout
+  evidence. The existing naked-prompt holdout remains valid for its recorded
+  condition, not automatically for the new delivery. A new condition needs its
+  own measured baseline and independent validation before substantive use.
+
+Offline verification on September 11 confirmed all six working source files
+match the original Phase 0c manifest; the candidate's S3 source hash matches
+that lock too. This establishes source preservation, not harness neutrality.
+Exploration authority does not change the OpenAI spending stop, activate the
+optional tool, weaken Phase 1.5 gates or authorise a theoretical departure.
+
 ## Optional architecture
 
 Implementation: `code/research_support/evidence.py`.

@@ -1,0 +1,12 @@
+{
+  "approved": true,
+  "researcher_reply": "Approve 450 calls, $3 cap",
+  "approval_scope": "Send the frozen request_preview.json research prompts to OpenAI: original, repetition and grounding arms; four profile wordings plus no-profile control; 30 per cell; 450 total; $3 maximum within $9 total new budget.",
+  "design_hash": "263f51dc506b9bd66bbb2647a188daa4285215c487e8044ddaf3e2343d9bb4c7",
+  "exact_messages_hash": "bcbbebbd763c3e47d7fb72d347917600cfb947410d13885bfa6830c6395585b7",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "planned_calls": 450,
+  "spending_ceiling_usd": 3,
+  "recorded_at_utc": "2026-09-11T09:04:21Z",
+  "source": "Explicit asynchronous user reply after automatic approval rejection"
+}

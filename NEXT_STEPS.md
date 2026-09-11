@@ -10,20 +10,55 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Latest completion - paid screen within $9:** the researcher explicitly renewed
+OpenAI spending for bounded exploration, with a $9 total new ceiling. The
+[450-call evidence screen](experiments/phase1_5_encoding_validity/evidence_screen_20260911/PROTOCOL.md)
+allocates at most $3 (full conservative schedule reservation $2.867265).
+Same pinned GPT model; original/repetition/grounding arms with four unchanged
+profile formulations and matched no-profile controls, 30 calls per cell.
+Eleven offline tests pass, including cost guards, crash reservations, source
+preservation and failure handling. **450/450 valid, collection complete:** after the initial
+automatic-review rejection, the researcher explicitly replied "Approve 450
+calls, $3 cap". That exact approval is saved against the frozen design, and
+dispatch completed with zero API/model/usage errors and one attempt per call.
+Estimated full-rate token cost **$0.5022225**; approximately **$8.50 remains of
+the new allowance**, not a verified account balance. All request/profile/source
+hashes, 450 unique API IDs, reservations and raw backup bytes are verified.
+No automatic expansion is scheduled.
+This authority supersedes the older spending stop below for this work only;
+it does not authorise a full sweep or closing the gate on a small screen.
+
+The observed P2/P3 gap changed from +.633 original to -.033 repetition alone
+and .000 grounding. The primary grounding interval [-.274, +.274] is too wide
+for equivalence: **NO_GROSS_FAILURE_DETECTED_NOT_VALIDATED**. Repetition also
+narrows the gap, and grounding favours WAIT (canonical/P1/P2/P3 ADOPT counts
+0/5/3/3 out of 30; no-profile 1/30). No distinct grounding benefit or preserved
+parameter sensitivity is established. See the
+[verified report](experiments/phase1_5_encoding_validity/evidence_screen_20260911/analysis/SCREEN_REPORT.md)
+and [interpretation and next check](experiments/phase1_5_encoding_validity/evidence_screen_20260911/analysis/INTERPRETATION.md).
+Next: prepare a small sensitivity/headroom check before considering any full
+sweep, keeping repetition as a control and the original hypotheses intact.
+
 **Current direction - offline grounding candidate:** the researcher selected
 careful preparation of a fact-only evidence reference, with an optional tool
 scaffold kept outside the experiment. The experimental model remains
 `gpt-5.4-mini-2026-03-17`; Claude is a research helper, not its replacement.
 The [S3 exact candidate review](experiments/phase1_5_encoding_validity/evidence_candidate_20260911/HUMAN_REVIEW.md)
-is ready: all six source paragraphs are verbatim, with a separately identified
-new grounding instruction. It has not been approved for injection or tested
-on a model. Original prompts, theory, raw records and active runners are unchanged.
+preserves all six source paragraphs verbatim, with a separately identified new
+grounding instruction. The original candidate manifest records its draft status
+at preparation; the separately designated screen above now has exact dispatch
+approval. Original prompts, theory, prior raw records and existing runners are unchanged.
 The [optional read-only evidence interface](experiments/phase1_5_encoding_validity/evidence_candidate_20260911/PROTOCOL.md)
 passes four offline tests, including shared provider substitution contracts.
 It is not registered with an LLM or integrated into the validity battery.
-No paid calls were made. Phase 1.5 remains open; Phase 2 remains on hold.
+Preparation made no paid calls. Phase 1.5 remains open; Phase 2 remains on hold.
+The researcher subsequently authorised exploration within the Phase 0a/0b/0c
+closure. All six Phase 0c source hashes were verified intact. The candidate
+protocol now explicitly requires separating added-context effects from profile
+effects and fresh validation from development screens. Existing naked-prompt
+baselines cannot automatically validate an evidence overlay or tool delivery.
 
-**Current spending constraint (September 11):** the researcher reports $12 left
+**Earlier spending constraint (superseded by the $9 authority above):** the researcher reports $12 left
 in the OpenAI account and instructs us not to spend any more of it on Phase 1.5.
 No further OpenAI calls are authorised for this phase. The researcher has since
 explicitly authorised using remaining Claude API usage, with original prompts

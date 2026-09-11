@@ -4,6 +4,105 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Renewed $9 budget and fixed grounding screen
+
+The researcher explicitly instructed paid exploration with $9 available. This
+renews OpenAI authority for this task and supersedes the earlier stop, without
+changing the Phase 0 boundaries or the fixed GPT model. Allocate only $3 to a
+450-call S3 screen; the entire schedule reserves $2.867265 using conservative
+input-byte and maximum-output bounds. Remaining $6 is not allocated here.
+
+Fixed design: original/repetition/grounding x canonical/P1/P2/P3/no-profile,
+30 calls per cell, neutral original profiles at PD=.8; seed 20260915, temp 1,
+600 output cap. Freeze all exact messages before dispatch. Original system
+profiles and dilemma remain unchanged; the previously prepared overlay is an
+explicit added-context intervention. The no-profile cells remove the supplied
+system message but retain the same user schema (including its profile/context
+reference), so they are not Phase 0c naked baselines. Within-null overlay effects
+are interpretable; profile-minus-null is not a pure parameter effect.
+
+Synthetic review: Linden requires no new factual or normative answer cues;
+Osei requires repetition and no-profile controls and disclosure of the null
+schema's residual framing; Tanaka requires a single primary remaining-gap
+screen with conservative unknown-sensitive intervals, no small-N pass claim,
+and exploratory labelling of secondary contrasts; Renna retains GPT and keeps
+tool delivery inactive; Okafor requires one transport attempt, pre-dispatch
+reservations and failure-preserving storage. Resolution: this fixed development
+screen meets the authorised boundaries, with limited precision and no evidence
+yet of preserved parameter responsiveness or repaired validity. No separate
+exact-message human signature is claimed; authority is the user's instruction
+to proceed with the presented candidate within the stated budget and boundaries.
+
+Eleven tests passed offline, including 450-call mock collection/resume, zero-cap
+blocking, preserved failures, crash reservations, exact source/profile checks,
+provider substitution, and no hidden transport retries. No paid data had been
+collected when this entry and the protocol were prepared. See
+[fixed protocol](experiments/phase1_5_encoding_validity/evidence_screen_20260911/PROTOCOL.md).
+
+**Dispatch outcome:** automatic approval review rejected process creation before
+any API call. Its stated reason: the 450 calls send internal research prompts,
+including a newly drafted grounding intervention, and broad spending authority
+did not meet its exact-payload/allocation/$3-cap approval requirement. No bypass
+or alternative dispatch was attempted. A single concrete approval request was
+sent covering the frozen request preview, all 450 calls and the $3 sub-cap within
+the $9 ceiling. The implementation and protocol are ready; collection awaits
+that answer. This is an automatic-review block, not a newly inferred scientific
+or skill requirement. The preparatory authority record does not override it.
+
+**Resolved:** the researcher replied "Approve 450 calls, $3 cap" to the exact
+request. Saved dispatch_approved.json against the design and exact-message hash.
+The unchanged launch was approved on resubmission and collection began. This
+uses the explicit approval, not a workaround. Results and final spend pending.
+
+**Completed result:** 450/450 valid, zero API/model/usage errors, one attempt,
+450 unique IDs. Recorded full-rate token estimate $0.5022225, versus $3 cap;
+approximately $8.4977775 remains against the $9 allowance (not checked account
+credit). All frozen sources, messages/profiles, approval, seeds, reservations
+and raw ZIP bytes verified. Collection stopped at the planned N.
+
+Original/repetition/grounding P2-P3 gaps are +.633/-.033/.000. The primary
+grounding interval [-.274,+.274] gives NO_GROSS_FAILURE_DETECTED_NOT_VALIDATED,
+not equivalence. Grounding canonical/P1/P2/P3 ADOPT counts are 0/5/3/3 of 30;
+no-profile 1/30. Repetition alone gives 0/9/0/1 and no-profile 9/30, so the
+grounding instruction has no established distinct benefit. The strong WAIT
+lean raises a headroom concern without meeting the frozen all-formulation
+saturation rule. No parameter values varied; responsiveness remains untested.
+
+Synthetic result review: Linden rejects interpreting WAIT as ethical correctness;
+Osei retains repetition and null controls as competing explanations; Tanaka
+requires the wide intervals and secondary multiplicity limits to stay visible;
+Renna keeps the validity gate open and tool inactive; Okafor confirms bounded
+spend and preserved records. Resolution: no full sweep or automatic expansion;
+prepare a small sensitivity/headroom check before any confirmation. No revised
+theoretical mapping or new PD/S3 directional hypothesis. The
+[interpretation](experiments/phase1_5_encoding_validity/evidence_screen_20260911/analysis/INTERPRETATION.md)
+records numerical detail and uncertainty.
+
+## 2026-09-11 - Exploration bounded by Phase 0 closure
+
+The researcher authorises broad exploration provided it respects the purpose
+and confines of Phases 0a, 0b and 0c. Apply the accepted July 29 closure and its
+documented deviations: retain all six problems with measured baselines and
+inference tiers, without chasing 50/50 or invoking an unapproved descope.
+
+The evidence candidate preserves source text but adds context. Any later
+empirical protocol must isolate that context's effect using matched no-profile
+controls alongside parameterised and repetition comparisons; a neutral-valued
+profile is not absence of profile injection. Original naked holdout evidence
+does not establish neutrality or validity of the new delivery. Keep candidate
+history, freeze the selected condition and analysis, and collect independent
+confirmation before substantive use. No development sample becomes a holdout.
+
+Synthetic review: Linden requires unchanged dilemma meaning; Osei requires
+separate harness controls; Tanaka requires independent confirmation after
+selection; Renna retains the Phase 1.5 gate and optional-tool boundary; Okafor
+requires exact source verification. Resolution: document these constraints in
+the candidate protocol. No conflict requires changing the accepted closure.
+
+Verified all six source files against the Phase 0c frozen manifest and the
+candidate S3 source against its locked hash: all match. Documentation only;
+no new calls, prompt changes or tool activation. OpenAI spending remains stopped.
+
 ## 2026-09-11 - Grounding candidate and optional evidence interface
 
 **User direction:** proceed carefully with option 1 (stated-fact evidence sheet)
