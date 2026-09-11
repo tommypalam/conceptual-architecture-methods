@@ -49,6 +49,13 @@ The historical 23/30-to8/30 discrepancy remains unresolved; new wire logging
 cannot retrospectively identify its cause. No paid calls at preparation time.
 See experiments/phase1_5_encoding_validity/tool_delivery_20260911/PROTOCOL.md.
 
+Attempted launch was rejected before process creation by automatic approval
+review: broad repair authority did not cover the exact new private-research
+payload, OpenAI destination and paid allocation in its assessment. Requested
+explicit bridge/payload/480-call/$3.50 approval. Verified zero dispatches and
+records; no workaround attempted. Prepared checkpoint ed1fcaf1.
+
+
 ## 2026-09-11 - Joint wording failure and canonical repeat discrepancy
 
 The approved480-call screen completed480valid, no API/model/usage failures,

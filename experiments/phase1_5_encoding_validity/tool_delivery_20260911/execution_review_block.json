@@ -1,0 +1,8 @@
+{
+  "design_hash": "1e9cf594a1f7c98112d844f7a6ee14006c5a9e2083366b37d1039ba2601bab8f",
+  "action": "Launch frozen320-decision/up-to480-call OpenAI tool-delivery candidate under$3.50 cap",
+  "status": "Rejected before process creation; zero paid requests",
+  "source": "Automatic approval review",
+  "reason": "This would send private research prompts and a new tool-delivery payload to OpenAI in up to480 paid calls; the user authorized the repair goal but not this exact payload, destination, and spend.",
+  "next": "Exact bridge/payload/destination/count/cap approval requested. No workaround or indirect execution attempted."
+}

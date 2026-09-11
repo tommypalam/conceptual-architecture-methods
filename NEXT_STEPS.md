@@ -11,6 +11,10 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 ### Active execution
 
 **Tool-delivery repair candidate prepared; no calls dispatched yet.**
+**Launch blocked before process creation by automatic approval review.**
+It requires exact approval of the new bridge/private research payload to OpenAI,
+up to480 API calls and$3.50 cap. Approval requested; zero dispatches/records.
+
 [Exact protocol](experiments/phase1_5_encoding_validity/tool_delivery_20260911/PROTOCOL.md)
 and [new bridge](experiments/phase1_5_encoding_validity/tool_delivery_20260911/HUMAN_REVIEW.md).
 320 decisions / at most480 API calls, N10 in32 conditions, original versus
