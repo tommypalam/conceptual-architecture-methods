@@ -1,0 +1,10 @@
+{
+  "design_hash": "0de9ce90cda710af1c22cccfa38e5f39b6b00d6a8314bbfcc3b44f5610fa3a37",
+  "exact_messages_hash": "f11aec2daf4533c6091a4760f471f2ab3fa06d155f5187a7d4027959548c3cef",
+  "planned_calls": 450,
+  "spending_ceiling_usd": 3.0,
+  "user_reply": "go",
+  "context": "Reply to recommendation of a small numeric/verbal representation check with a fresh control, following renewed general spending authority.",
+  "exact_allocation_user_signature": false,
+  "destination": "OpenAI API"
+}

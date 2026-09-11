@@ -4,6 +4,49 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Prepare repetition representation diagnostic
+
+The researcher replied "go" to the recommendation of a small numeric/verbal
+representation check with a fresh control. Prepared 450 calls, three
+representations by five MoR/S3 values, N30, seed20260918, same GPT snapshot,
+temperature1 and output600. The canonical and repetition text are copied from
+the completed curve; numeric/verbal system messages come unchanged from the
+original gradient manifest. No new definitions or verbal bins are introduced.
+
+The fresh canonical curve must meet the original directional rule before
+retention is assessable. Reuse the original gradient comparison function,
+requiring positive slopes and point-estimate magnitude retention >=.50 for
+both representations. Do not use the previously favourable control if the
+new one fails. Passing this small diagnostic would not close the phase gate.
+
+Synthetic perspectives (not external reviewers): Linden keeps intended ethical
+constructs unchanged across representations. Osei flags selection of repetition
+from a favourable secondary result and supports fresh observations. Tanaka
+requires the fresh canonical eligibility rule and disclosure that the .50 test
+uses point estimates, not ratio confidence bounds. Renna notes that retention
+does not solve interpretability or paraphrase validity. Okafor keeps the tested
+transport and a $3 hard cap. Resolution: a bounded candidate test, not a full
+battery or model/architecture substitution; no theoretical departure.
+
+Full reservation $2.8990575. The previous 300 requests have responses and
+settled usage; prior cumulative actual estimate is $1.5266565. Prior reservation
+totals are preserved as history, while unused reservations on completed calls
+are no longer pending liabilities. Settled usage plus the $3 cap stays below
+the original $9 allowance; no additional top-up is assumed. This reconciliation
+changes no recorded historical cost and grants no automatic expansion.
+
+Two focused tests pass, including all 450 mock calls, exact system/user/profile
+identity, unique seeds, budget blocking, no-call resume, incomplete output,
+both sides of the .50 threshold, and an ineligible fresh control. Exact
+messages are reviewable in the prepared run directory. Dispatch is a separate
+step; this entry does not claim calls have been sent.
+
+The launch command was rejected before process creation by automatic approval
+review: the preceding "go" approved the general next test but not the newly
+specified exact payload, OpenAI destination, 450 calls and $3 cap. An explicit
+prepared-scope question is now pending. No calls, spending, alternate execution
+route or circumvention occurred. The prepared design remains unchanged.
+
 ## 2026-09-11 - MoR curve completed and verified
 
 All 300 responses are valid with unique API IDs and requested seeds, the pinned

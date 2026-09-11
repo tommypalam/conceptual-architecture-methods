@@ -10,6 +10,21 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Repetition representation check prepared:** [450-call protocol](experiments/phase1_5_encoding_validity/repetition_retention_20260911/PROTOCOL.md),
+canonical/numeric/verbal at five MoR values on S3, N30 per cell, same GPT
+snapshot and previously approved text, $3 cap ($2.8990575 full reserve).
+All observations are fresh. Retention is assessable only if the fresh canonical
+curve meets the original directional rule; both variants then need positive
+fitted slopes retaining >=.50 of its magnitude. No historical control rescue.
+Two tests pass, covering exact profiles/messages, complete mock run, no-call
+resume, spending guard, incomplete results, ratio threshold and failed-control
+handling. Prior usage is settled at $1.5266565 with no pending requests; adding
+the new cap remains within $9. **Launch blocked before process creation:**
+automatic approval review requires explicit approval of this exact private
+research payload, OpenAI destination, 450 calls and $3 cap. The prepared-scope
+question is pending; no calls or alternative dispatch route were used.
+No automatic full-battery or Phase 2 launch.
+
 **MoR curve screen complete:** **300/300 valid**, no API/model/usage failures;
 estimated cost **$0.373464**, cumulative **$1.5266565** across the latest three
 screens, approximately **$7.47 remains of the $9 allowance** (not a checked
