@@ -10,6 +10,16 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Joint-profile wording screen running:** [480-call protocol](experiments/phase1_5_encoding_validity/joint_wording_20260911/PROTOCOL.md).
+All three approved r5 paraphrases plus canonical at four PD/MoR endpoint profiles,
+N30 each, fresh controls, seed20260923, cap$3.50, full reserve$2.9547.
+Primary screens24 wording pairs with simultaneous intervals; a demonstrated
+>10pp difference is a local failure. No detected difference is inconclusive,
+not equivalence or a phase pass. Three offline tests pass. Automatic review
+initially required exact approval; researcher approved480 calls/$3.50. The
+unchanged launch passed review and real responses are being saved.
+No new wording, theory, locked dilemma or parameter-set change.
+
 **PD interaction complete:300/300 valid, cost$0.313056.**
 [Interpretation and figure](experiments/phase1_5_encoding_validity/pd_interaction_20260911/analysis/INTERPRETATION.md).
 Low-PD ADOPT counts25/25/27/27/30; high-PD3/1/2/4/23, each/30.

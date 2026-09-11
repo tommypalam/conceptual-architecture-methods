@@ -119,3 +119,6 @@ experiments/phase1_5_encoding_validity/profile_ablation_*/dispatches/
 
 experiments/phase1_5_encoding_validity/pd_interaction_*/records/
 experiments/phase1_5_encoding_validity/pd_interaction_*/dispatches/
+
+experiments/phase1_5_encoding_validity/joint_wording_*/records/
+experiments/phase1_5_encoding_validity/joint_wording_*/dispatches/

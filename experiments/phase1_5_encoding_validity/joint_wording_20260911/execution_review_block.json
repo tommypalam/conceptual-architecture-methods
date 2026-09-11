@@ -1,0 +1,7 @@
+{
+  "design_hash": "d657fc562db78ec09c4b0c1856c7fdc94b794cf26c408eedc298a122d745c435",
+  "launched": false,
+  "requests_dispatched": 0,
+  "reason": "Automatic review requires exact private payload, OpenAI destination,480-call allocation and$3.50 cap approval beyond general continuation.",
+  "exact_scope_question_presented": true
+}

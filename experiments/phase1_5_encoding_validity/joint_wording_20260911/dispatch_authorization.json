@@ -1,0 +1,10 @@
+{
+  "design_hash": "d657fc562db78ec09c4b0c1856c7fdc94b794cf26c408eedc298a122d745c435",
+  "exact_messages_hash": "465494f438c4a308292751998e0646f886c5a1b1436d54b4049353db4bd9a6d4",
+  "planned_calls": 480,
+  "spending_ceiling_usd": 3.5,
+  "destination": "OpenAI API",
+  "user_statement": "lets go then",
+  "authority_basis": "Continuation after completed fixed-text PD interaction, within previously renewed spending authority and retained phase requirements. The exact480-call local wording screen is now prepared; no separate exact-payload signature is invented.",
+  "exact_allocation_user_signature": false
+}

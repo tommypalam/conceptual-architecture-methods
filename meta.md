@@ -4,6 +4,46 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Freeze local joint-profile wording stress screen
+
+The researcher asked to continue after the PD interaction finding. The next
+unresolved dimension is wording robustness, not another selected slope test.
+Prepared480 calls: four PD/MoR endpoint profiles x canonical and all3 existing
+human-approved r5 templates,N30. Fresh controls, root seed20260923, cap$3.50,
+reserve$2.9547; conservative prior charge plus cap below the latest$9 allowance.
+No newly generated wording or semantic revision. The approved template loader
+checks review provenance; canonical rendering matches the original exact source.
+
+Synthetic perspectives, not external review: Linden retains exact reviewed
+meanings and warns that all ten endpoint texts vary together. Osei requires
+all three wordings and fresh controls rather than a selected favourable version.
+Tanaka uses16 simultaneous exact cell bounds propagated to24 wording-pair
+contrasts, distinguishing a gross difference beyond.10 from failed equivalence
+power. Renna keeps meaning, grading and broader coverage unresolved after any
+local success. Okafor favours a bounded screen over another full sweep and
+preserves immutable runs and costs. Disagreement: N30 cannot establish fine
+equivalence, especially with simultaneous inference. Resolution: a gross-failure
+screen only; no detected difference remains inconclusive, no sample inflation
+or phase waiver. Secondary endpoint effects do not test a five-value curve.
+
+Three offline tests pass: exact templates/profiles and source user messages,
+480-call mock, seeds, budgeting, no-call resume,24 contrasts, large known gaps,
+unknown-outcome envelopes and failure preservation. Actual user continuation
+is recorded without inventing a separate exact-payload signature. All five
+concepts and ten parameters remain;900-call confirmation stays paused.
+
+Automatic review rejected launch before process creation: general continuation
+and previous dispatch approvals do not cover this exact new private payload,
+OpenAI destination,480-call allocation and$3.50 cap. The exact approval request
+is presented. No calls, indirect launch or bypass. Unaffected verification of
+frozen sources, preview, scope, protocol and absence of dispatch records passed.
+
+The researcher then explicitly approved480 calls,$3.50 cap; exact reply and
+message/design hashes are recorded separately. The unchanged launch passed
+review and real responses are being saved. No within-run design changes.
+
+
+
 ## 2026-09-11 - PD value contrast complete; conditional response with sharp transition
 
 Approved300-call collection completed300valid, no API/model/usage failures,
