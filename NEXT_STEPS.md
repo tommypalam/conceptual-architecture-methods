@@ -10,7 +10,37 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
-**Latest completion - paid screen within $9:** the researcher explicitly renewed
+**Latest diagnostic complete:** the researcher instructed us to continue testing
+within the remaining $9 allowance before considering a documented practical
+limit. The [540-call sensitivity screen](experiments/phase1_5_encoding_validity/evidence_sensitivity_20260911/PROTOCOL.md)
+uses PD=.1/.9 under P2/P3 plus canonical MoR=.1/.9, each under original,
+repetition and grounding (30 per cell). Cap $4; conservative full reservation
+$3.652020. Primary is the existing positive MoR/S3 direction; PD/S3 remains
+descriptive. Two endpoints cannot establish continuous validity or a hard cap.
+Original prompts and meanings remain intact. Two focused tests passed, including
+a complete 540-call mock run, no-call resume, budget blocking and preserved
+failure. **540/540 valid, no API/model/usage failures:** after the initial automatic-review rejection,
+the researcher explicitly replied "Approve 540 calls, $4 cap". The reply is
+saved against the exact design/message hashes; the unchanged launch passed
+review and completed. All exact requests/profiles, source hashes, 540 unique
+API IDs, single attempts, reservations and raw ZIP bytes are verified.
+Cost estimate **$0.650970**, cumulative **$1.1531925** across the two new-budget
+screens; approximately **$7.85 remains of the $9 allowance**, not a checked
+account balance. No calls remain running or automatically scheduled.
+
+Primary grounding MoR/S3 response: ADOPT 3/30 at .1 versus 23/30 at .9,
+difference +.667, conservative >=95% interval [.261,.897]:
+**POSITIVE_RESPONSE_DETECTED_NOT_VALIDATED**. This is local endpoint response,
+not continuous validity or retained slope magnitude. Grounding's PD P2/P3
+gap remains +.433 at .1 (27/30 versus 14/30; nominal interval [.030,.722]),
+and -.067 at .9 (7/30 versus 9/30; interval [-.433,.317]). Secondary intervals
+are not family-adjusted. No uniformly small wording gap or hard cap is established.
+See [the verified report](experiments/phase1_5_encoding_validity/evidence_sensitivity_20260911/analysis/SENSITIVITY_REPORT.md)
+and [interpretation](experiments/phase1_5_encoding_validity/evidence_sensitivity_20260911/analysis/INTERPRETATION.md).
+Next useful diagnostic: intermediate values under the same meanings and controls,
+before selecting a candidate for any fresh confirmation. The phase gate stays open.
+
+**Previous screen - paid exploration within $9:** the researcher explicitly renewed
 OpenAI spending for bounded exploration, with a $9 total new ceiling. The
 [450-call evidence screen](experiments/phase1_5_encoding_validity/evidence_screen_20260911/PROTOCOL.md)
 allocates at most $3 (full conservative schedule reservation $2.867265).
@@ -36,8 +66,8 @@ narrows the gap, and grounding favours WAIT (canonical/P1/P2/P3 ADOPT counts
 parameter sensitivity is established. See the
 [verified report](experiments/phase1_5_encoding_validity/evidence_screen_20260911/analysis/SCREEN_REPORT.md)
 and [interpretation and next check](experiments/phase1_5_encoding_validity/evidence_screen_20260911/analysis/INTERPRETATION.md).
-Next: prepare a small sensitivity/headroom check before considering any full
-sweep, keeping repetition as a control and the original hypotheses intact.
+This motivated the completed sensitivity/headroom diagnostic above, retaining
+repetition as a control and the original hypotheses.
 
 **Current direction - offline grounding candidate:** the researcher selected
 careful preparation of a fact-only evidence reference, with an optional tool

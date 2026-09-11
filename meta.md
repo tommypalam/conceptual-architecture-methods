@@ -4,6 +4,79 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Endpoint sensitivity before claims of a practical limit
+
+The researcher said to proceed, try available defensible approaches first, and
+consider explaining a remaining gap if a limit is found. Preserve the $9 total
+ceiling, Phase 0 closure and all existing meanings/gates. A finite set of screens
+can support a bounded practical limitation, not a universal hard cap or a
+post-hoc relaxation of the equivalence margin. Cost or non-significance alone
+is not evidence that further reduction is impossible.
+
+Prepare 540 calls: original/repetition/grounding, each with PD .1/.9 in P2/P3
+and MoR .1/.9 in canonical wording, 30 repeats per cell. PD is descriptive on
+S3; canonical MoR's positive direction is already prespecified and its historical
+full-harness criterion was met. Other nine values remain their source means;
+MoR cells therefore use PD's mean rather than holding PD at .8. Copy original
+MoR requests and reuse the exact previous arm-specific overlays. No new text,
+mapping, invented PD/S3 direction, sampled population or full-sweep claim.
+
+Synthetic review: Linden requires unchanged construct and dilemma meanings;
+Osei supports an existing responsive comparison but flags single-task, endpoint
+and partial-wording scope; Tanaka requires conservative uncertainty, no equating
+non-detection with absence, and no comparison by significance labels alone;
+Renna keeps the tool inactive and Phase 1.5 open; Okafor requires the frozen
+single-attempt executor and durable reservations. Resolution: a narrow diagnostic,
+not a five-value gradient or confirmatory validity battery. A flat result leads
+to reassessment rather than automatic sample expansion.
+
+Allocate $4 maximum, full conservative reservation $3.652020. Prior full
+reservations $2.867265 plus this cap remain below the $9 ceiling, independently
+of the previous lower recorded token estimate $0.5022225. Freeze exact requests
+and analysis before dispatch; any exact approval required by automatic review
+will be separately recorded. See the
+[protocol](experiments/phase1_5_encoding_validity/evidence_sensitivity_20260911/PROTOCOL.md).
+
+Two focused offline tests passed, including full 540-call mock collection and
+no-call resume, exact parameter-only substitutions, cumulative budget bounds,
+and preserved terminal failure. Automatic approval review rejected process
+creation for the real launch, requiring explicit approval of the exact new
+payload, 540-call count and assistant-selected $4 cap. No new API calls or
+reservations were made, and no workaround was attempted. The researcher has
+been sent that concrete approval request; collection awaits the answer.
+
+The researcher subsequently replied "Approve 540 calls, $4 cap". Saved the
+exact approval with design/message hashes. The unchanged launch passed review
+on resubmission and collection began. No bypass or payload revision occurred.
+
+**Completed:** 540/540 valid, zero terminal/API/model/usage failures, 540 unique
+IDs and one attempt each. All exact requests/profiles, seeds, source hashes,
+approval, cumulative reservations and raw ZIP bytes verified. Current token
+estimate $0.650970; new-budget cumulative $1.1531925, leaving approximately
+$7.8468075 against $9 (not a verified account balance). Fixed allocation complete.
+
+Primary grounding MoR response is +.667 (3/30 -> 23/30), conservative >=95%
+interval [.261,.897]: POSITIVE_RESPONSE_DETECTED_NOT_VALIDATED. Original MoR
+is +.600 [.183,.861]; repetition +.067 [-.178,.290]. Those significance labels
+do not test differences between arms or establish slope retention. MoR uses
+PD's source mean, so no arbitrary-joint-profile claim follows.
+
+Grounding PD/P2 is 27/30 -> 7/30, and PD/P3 is 14/30 -> 9/30 across .1/.9.
+The observed P2-P3 gap is +.433 [.030,.722] at .1 and -.067 [-.433,.317] at .9;
+these are secondary nominal, not family-adjusted intervals. PD/S3 remains
+descriptive. The earlier observed agreement at .8 does not establish uniform
+robustness. No fundamental hard cap or phase pass is established.
+
+Synthetic result review: Linden separates local response from ethical correctness;
+Osei retains low-PD wording dependence and the changed background PD in the MoR
+control; Tanaka requires explicit endpoint/multiplicity limits; Renna keeps the
+candidate exploratory and the gate open; Okafor confirms complete immutable
+records and budget reconciliation. Resolution: investigate intermediate values
+with fixed conditions before confirmation; do not automatically expand this run
+or reinterpret the existing gate. See the
+[interpretation](experiments/phase1_5_encoding_validity/evidence_sensitivity_20260911/analysis/INTERPRETATION.md).
+
+
 ## 2026-09-11 - Renewed $9 budget and fixed grounding screen
 
 The researcher explicitly instructed paid exploration with $9 available. This

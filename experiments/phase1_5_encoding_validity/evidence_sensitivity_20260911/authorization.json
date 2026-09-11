@@ -1,0 +1,11 @@
+{
+  "basis": "User instructed go for it after the recommendation to check parameter sensitivity, retaining the $9 total new allowance.",
+  "user_reply": "go for it, if by the end of this we find a hard cap to how much we can brach that gap we can try and justify it instead of solving it but lets try everythignwe have first",
+  "total_new_ceiling_usd": 9,
+  "assistant_screen_allocation_usd": 4,
+  "design_hash": "ce4176c96a31d7ad9d9cf29a5e6c0cf45cc87bca9ed3c2358acffcbe9fdd4651",
+  "exact_messages_hash": "870747d873aa684790ab74e1722936f71fbdf7b1bf61a239c3220642067bde0b",
+  "protocol_sha256": "179868229fd0b2de192cbfc505ee269ed3e79b02ee3f30193173f84d86be4594",
+  "exact_payload_human_signature_claimed": false,
+  "offline_tests": "2 passed, including complete 540-call mock/resume and preserved failure"
+}

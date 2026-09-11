@@ -1,0 +1,12 @@
+{
+  "approved": true,
+  "researcher_reply": "Approve 540 calls, $4 cap",
+  "approval_scope": "Send frozen research prompts to OpenAI: PD .1/.9 in P2/P3 and canonical MoR .1/.9, original/repetition/grounding arms, 30 per condition, 540 total, cap $4 within existing $9 total allowance.",
+  "design_hash": "ce4176c96a31d7ad9d9cf29a5e6c0cf45cc87bca9ed3c2358acffcbe9fdd4651",
+  "exact_messages_hash": "870747d873aa684790ab74e1722936f71fbdf7b1bf61a239c3220642067bde0b",
+  "model": "gpt-5.4-mini-2026-03-17",
+  "planned_calls": 540,
+  "spending_ceiling_usd": 4,
+  "recorded_at_utc": "2026-09-11T09:23:10Z",
+  "source": "Explicit asynchronous user reply after automatic review rejection"
+}

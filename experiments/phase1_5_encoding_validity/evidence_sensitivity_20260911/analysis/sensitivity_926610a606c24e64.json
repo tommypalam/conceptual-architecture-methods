@@ -1,0 +1,446 @@
+{
+  "design_hash": "ce4176c96a31d7ad9d9cf29a5e6c0cf45cc87bca9ed3c2358acffcbe9fdd4651",
+  "status": "POSITIVE_RESPONSE_DETECTED_NOT_VALIDATED",
+  "cells": [
+    {
+      "arm": "original",
+      "wording": "PD_paraphrase_2_v0p1",
+      "template_wording": "paraphrase_2",
+      "parameter": "PD",
+      "value": 0.1,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 23,
+      "rate": 0.7666666666666667,
+      "ci95": [
+        0.5907167384187784,
+        0.8820761185551049
+      ]
+    },
+    {
+      "arm": "original",
+      "wording": "PD_paraphrase_2_v0p9",
+      "template_wording": "paraphrase_2",
+      "parameter": "PD",
+      "value": 0.9,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 27,
+      "rate": 0.9,
+      "ci95": [
+        0.7437891742081593,
+        0.9654001112526658
+      ]
+    },
+    {
+      "arm": "original",
+      "wording": "PD_paraphrase_3_v0p1",
+      "template_wording": "paraphrase_3",
+      "parameter": "PD",
+      "value": 0.1,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 29,
+      "rate": 0.9666666666666667,
+      "ci95": [
+        0.8332960900859082,
+        0.9940914096183874
+      ]
+    },
+    {
+      "arm": "original",
+      "wording": "PD_paraphrase_3_v0p9",
+      "template_wording": "paraphrase_3",
+      "parameter": "PD",
+      "value": 0.9,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 6,
+      "rate": 0.2,
+      "ci95": [
+        0.0950510717728987,
+        0.3730569641314825
+      ]
+    },
+    {
+      "arm": "original",
+      "wording": "MoR_canonical_v0p1",
+      "template_wording": "canonical",
+      "parameter": "MoR",
+      "value": 0.1,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 8,
+      "rate": 0.26666666666666666,
+      "ci95": [
+        0.14182663319596317,
+        0.4444796169518888
+      ]
+    },
+    {
+      "arm": "original",
+      "wording": "MoR_canonical_v0p9",
+      "template_wording": "canonical",
+      "parameter": "MoR",
+      "value": 0.9,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 26,
+      "rate": 0.8666666666666667,
+      "ci95": [
+        0.703186733179637,
+        0.9469034451594526
+      ]
+    },
+    {
+      "arm": "repetition",
+      "wording": "PD_paraphrase_2_v0p1",
+      "template_wording": "paraphrase_2",
+      "parameter": "PD",
+      "value": 0.1,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 4,
+      "rate": 0.13333333333333333,
+      "ci95": [
+        0.053096554840547455,
+        0.296813266820363
+      ]
+    },
+    {
+      "arm": "repetition",
+      "wording": "PD_paraphrase_2_v0p9",
+      "template_wording": "paraphrase_2",
+      "parameter": "PD",
+      "value": 0.9,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 7,
+      "rate": 0.23333333333333334,
+      "ci95": [
+        0.11792388144489496,
+        0.40928326158122164
+      ]
+    },
+    {
+      "arm": "repetition",
+      "wording": "PD_paraphrase_3_v0p1",
+      "template_wording": "paraphrase_3",
+      "parameter": "PD",
+      "value": 0.1,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 7,
+      "rate": 0.23333333333333334,
+      "ci95": [
+        0.11792388144489496,
+        0.40928326158122164
+      ]
+    },
+    {
+      "arm": "repetition",
+      "wording": "PD_paraphrase_3_v0p9",
+      "template_wording": "paraphrase_3",
+      "parameter": "PD",
+      "value": 0.9,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 1,
+      "rate": 0.03333333333333333,
+      "ci95": [
+        0.005908590381612455,
+        0.16670390991409173
+      ]
+    },
+    {
+      "arm": "repetition",
+      "wording": "MoR_canonical_v0p1",
+      "template_wording": "canonical",
+      "parameter": "MoR",
+      "value": 0.1,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 1,
+      "rate": 0.03333333333333333,
+      "ci95": [
+        0.005908590381612455,
+        0.16670390991409173
+      ]
+    },
+    {
+      "arm": "repetition",
+      "wording": "MoR_canonical_v0p9",
+      "template_wording": "canonical",
+      "parameter": "MoR",
+      "value": 0.9,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 3,
+      "rate": 0.1,
+      "ci95": [
+        0.03459988874733419,
+        0.25621082579184085
+      ]
+    },
+    {
+      "arm": "grounding",
+      "wording": "PD_paraphrase_2_v0p1",
+      "template_wording": "paraphrase_2",
+      "parameter": "PD",
+      "value": 0.1,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 27,
+      "rate": 0.9,
+      "ci95": [
+        0.7437891742081593,
+        0.9654001112526658
+      ]
+    },
+    {
+      "arm": "grounding",
+      "wording": "PD_paraphrase_2_v0p9",
+      "template_wording": "paraphrase_2",
+      "parameter": "PD",
+      "value": 0.9,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 7,
+      "rate": 0.23333333333333334,
+      "ci95": [
+        0.11792388144489496,
+        0.40928326158122164
+      ]
+    },
+    {
+      "arm": "grounding",
+      "wording": "PD_paraphrase_3_v0p1",
+      "template_wording": "paraphrase_3",
+      "parameter": "PD",
+      "value": 0.1,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 14,
+      "rate": 0.4666666666666667,
+      "ci95": [
+        0.30232388907699753,
+        0.638577003801267
+      ]
+    },
+    {
+      "arm": "grounding",
+      "wording": "PD_paraphrase_3_v0p9",
+      "template_wording": "paraphrase_3",
+      "parameter": "PD",
+      "value": 0.9,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 9,
+      "rate": 0.3,
+      "ci95": [
+        0.16664748268243793,
+        0.47875787458714947
+      ]
+    },
+    {
+      "arm": "grounding",
+      "wording": "MoR_canonical_v0p1",
+      "template_wording": "canonical",
+      "parameter": "MoR",
+      "value": 0.1,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 3,
+      "rate": 0.1,
+      "ci95": [
+        0.03459988874733419,
+        0.25621082579184085
+      ]
+    },
+    {
+      "arm": "grounding",
+      "wording": "MoR_canonical_v0p9",
+      "template_wording": "canonical",
+      "parameter": "MoR",
+      "value": 0.9,
+      "n_expected": 30,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 23,
+      "rate": 0.7666666666666667,
+      "ci95": [
+        0.5907167384187784,
+        0.8820761185551049
+      ]
+    }
+  ],
+  "endpoint_effects": {
+    "original/MoR/canonical": {
+      "difference": 0.6000000000000001,
+      "conservative_95_interval_unknown_envelope": [
+        0.18260159559286326,
+        0.8611025070520939
+      ]
+    },
+    "original/PD/paraphrase_2": {
+      "difference": 0.1333333333333333,
+      "conservative_95_interval_unknown_envelope": [
+        -0.20342062565912333,
+        0.43262997807712156
+      ]
+    },
+    "original/PD/paraphrase_3": {
+      "difference": -0.7666666666666666,
+      "conservative_95_interval_unknown_envelope": [
+        -0.933472737957726,
+        -0.39378959552523507
+      ]
+    },
+    "repetition/MoR/canonical": {
+      "difference": 0.06666666666666668,
+      "conservative_95_interval_unknown_envelope": [
+        -0.17836425744835932,
+        0.2895911038104238
+      ]
+    },
+    "repetition/PD/paraphrase_2": {
+      "difference": 0.1,
+      "conservative_95_interval_unknown_envelope": [
+        -0.2459753801244555,
+        0.4184153821298066
+      ]
+    },
+    "repetition/PD/paraphrase_3": {
+      "difference": -0.2,
+      "conservative_95_interval_unknown_envelope": [
+        -0.4484332365797489,
+        0.10799703779968611
+      ]
+    },
+    "grounding/MoR/canonical": {
+      "difference": 0.6666666666666667,
+      "conservative_95_interval_unknown_envelope": [
+        0.2611372499112032,
+        0.8971878536474482
+      ]
+    },
+    "grounding/PD/paraphrase_2": {
+      "difference": -0.6666666666666667,
+      "conservative_95_interval_unknown_envelope": [
+        -0.8971878536474481,
+        -0.26113724991120324
+      ]
+    },
+    "grounding/PD/paraphrase_3": {
+      "difference": -0.16666666666666669,
+      "conservative_95_interval_unknown_envelope": [
+        -0.5484182775203829,
+        0.2578480340328805
+      ]
+    }
+  },
+  "PD_wording_gaps": {
+    "original/PD/0.1": {
+      "difference": -0.19999999999999996,
+      "conservative_95_interval_unknown_envelope": [
+        -0.44843323657974876,
+        0.10799703779968606
+      ]
+    },
+    "original/PD/0.9": {
+      "difference": 0.7,
+      "conservative_95_interval_unknown_envelope": [
+        0.2983660076657978,
+        0.9176694794550988
+      ]
+    },
+    "repetition/PD/0.1": {
+      "difference": -0.1,
+      "conservative_95_interval_unknown_envelope": [
+        -0.4184153821298066,
+        0.2459753801244555
+      ]
+    },
+    "repetition/PD/0.9": {
+      "difference": 0.2,
+      "conservative_95_interval_unknown_envelope": [
+        -0.10799703779968611,
+        0.4484332365797489
+      ]
+    },
+    "grounding/PD/0.1": {
+      "difference": 0.43333333333333335,
+      "conservative_95_interval_unknown_envelope": [
+        0.03002492766682663,
+        0.721923961070921
+      ]
+    },
+    "grounding/PD/0.9": {
+      "difference": -0.06666666666666665,
+      "conservative_95_interval_unknown_envelope": [
+        -0.43311192660940756,
+        0.31730595527600625
+      ]
+    }
+  },
+  "primary": "grounding/MoR/canonical",
+  "n_records": 540,
+  "n_valid": 540,
+  "n_terminal_failures": 0,
+  "n_missing_usage": 0,
+  "recorded_token_estimate_usd": 0.6509700000000016,
+  "phase_gate": "Unchanged; no continuous gradient, retention, equivalence, or hard-cap claim"
+}
