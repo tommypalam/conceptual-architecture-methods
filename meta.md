@@ -4,6 +4,54 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Grounding candidate and optional evidence interface
+
+**User direction:** proceed carefully with option 1 (stated-fact evidence sheet)
+and prepare a SOLID-style optional tool boundary for possible future use. The
+tool must not become integral or skip the unfinished validity phase. The user
+also clarified that GPT remains the experimental model; Claude may aid research.
+
+**Decision:** prepare a complete S3 reference using all six locked loader
+paragraphs verbatim, in order. Add a short, explicitly new grounding instruction
+distinguishing unspecified details and proposed actions from stated facts.
+No action score, parameter mapping, selected list of missing procedures, or
+source-file calibration notes enter the model-facing candidate. The exact
+addition awaits review; broad preparation authority is not its semantic sign-off.
+This changes candidate context, not any existing prompt file or theory.
+
+Implement a standalone immutable EvidenceCard, narrow EvidenceProvider protocol,
+memory/JSON snapshot adapters and a read-only EvidenceTool facade. The facade
+depends on the protocol, and both adapters share output/error/snapshot semantics.
+No active engine import, runner modification, SDK registration, API client,
+sampling, or decision mechanism is added. This is a retrieval boundary, not the
+construct-sampling tool described in thesis section 4.1 and not Phase 2 work.
+
+**Five synthetic perspectives, not external review:** Linden requires that
+unknown procedures remain possible and that no normative answer is encoded.
+Osei regards the rationale inspection as hypothesis-generating only and flags
+changed salience/discretion. Tanaka requires a repetition control for any later
+causal comparison and rejects small-sample non-rejection as equivalence. Renna
+supports the optional boundary but warns against calling retrieval an implemented
+ethical encoding algorithm. Okafor requires hash-pinned snapshots, explicit
+dependency injection, common failure semantics and zero active-runner coupling.
+
+**Disagreement and resolution:** an evidence instruction might constrain useful
+planning as well as unsupported assertions; its effect is unknown. The candidate
+explicitly permits proposed procedures when identified as proposals, retains
+every original paragraph, and remains inactive pending exact-text review. Future
+empirical work, if funded, should separate repetition from grounding and keep
+tool delivery out of the first comparison. No departures from theoretical
+meaning, gate changes or new PD/S3 directional hypothesis are authorised.
+
+**Verification:** four focused offline tests pass: both provider contracts,
+immutability, full body reconstruction, unchanged source bytes, exclusion of
+calibration commentary, tampered-hash rejection and refusal to overwrite a
+different candidate. Generated artifacts pin source and content hashes.
+No paid calls, existing prompt edits or experimental claims. OpenAI spending
+remains stopped; the prior 80-call Claude scope is complete, not renewed here.
+See [candidate review](experiments/phase1_5_encoding_validity/evidence_candidate_20260911/HUMAN_REVIEW.md)
+and [architecture and future comparison](experiments/phase1_5_encoding_validity/evidence_candidate_20260911/PROTOCOL.md).
+
 ## 2026-09-11 - Authorised Claude use with original prompts preserved
 
 **Completed result:** all 80 responses are valid, with no API/model failures and

@@ -1,0 +1,20 @@
+{
+  "status": "DRAFT_NOT_APPROVED_FOR_INJECTION",
+  "scenario_id": "S3",
+  "source_path": "experiments/phase0b_calibration/questions/S3_strategic_pivot.md",
+  "source_file_sha256": "f98768ff752eeb2318f543809c9f473a1f0e3eb0fa971789ec74522ad38471de",
+  "loader_body_sha256": "1a0ee96de8711357af5f6b53d2161720c61601c3d822e5b8e701121273002d2f",
+  "n_paragraphs": 6,
+  "whole_body_reconstruction": true,
+  "artifact_sha256": {
+    "S3.evidence.json": "959762f867cb25ac664255e943597eea7d1c0b634aa2802dcbcb3ae7fe6a3301",
+    "S3_OVERLAY_DRAFT.txt": "5e7eebe5f94109103d9a8d6534223a30e84fa261a2e0b418d2fce500dda2fdcd"
+  },
+  "preparation_source_sha256": {
+    "code/prepare_validity_evidence_candidate.py": "d0e0858dfb332875b456d8caf0e800c87e284f943081e48779998f8eba66a15f",
+    "code/research_support/evidence.py": "f803b3aa34eb7f261fb9d5fa559bdcce1e92ac8ae4e067ed22614720b8e9d910",
+    "code/engine/questions.py": "4f530a8362ca3df9cd6e3ab444b82438c48b30affa68cf882e3129e392de8b9d"
+  },
+  "paid_calls": 0,
+  "runner_integration": false
+}

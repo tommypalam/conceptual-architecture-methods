@@ -10,6 +10,19 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Current direction - offline grounding candidate:** the researcher selected
+careful preparation of a fact-only evidence reference, with an optional tool
+scaffold kept outside the experiment. The experimental model remains
+`gpt-5.4-mini-2026-03-17`; Claude is a research helper, not its replacement.
+The [S3 exact candidate review](experiments/phase1_5_encoding_validity/evidence_candidate_20260911/HUMAN_REVIEW.md)
+is ready: all six source paragraphs are verbatim, with a separately identified
+new grounding instruction. It has not been approved for injection or tested
+on a model. Original prompts, theory, raw records and active runners are unchanged.
+The [optional read-only evidence interface](experiments/phase1_5_encoding_validity/evidence_candidate_20260911/PROTOCOL.md)
+passes four offline tests, including shared provider substitution contracts.
+It is not registered with an LLM or integrated into the validity battery.
+No paid calls were made. Phase 1.5 remains open; Phase 2 remains on hold.
+
 **Current spending constraint (September 11):** the researcher reports $12 left
 in the OpenAI account and instructs us not to spend any more of it on Phase 1.5.
 No further OpenAI calls are authorised for this phase. The researcher has since
