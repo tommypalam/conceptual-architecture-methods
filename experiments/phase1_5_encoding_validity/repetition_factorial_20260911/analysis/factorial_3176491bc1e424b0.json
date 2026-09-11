@@ -1,0 +1,279 @@
+{
+  "status": "INCOMPLETE",
+  "cells": [
+    {
+      "arm": "original",
+      "representation": "full_harness",
+      "value": 0.1,
+      "n_expected": 60,
+      "n_recorded": 28,
+      "n_valid": 28,
+      "n_invalid": 0,
+      "n_missing": 32,
+      "adopt": 4,
+      "rate": 0.14285714285714285,
+      "ci95": [
+        0.05699005319749392,
+        0.31489802163525293
+      ]
+    },
+    {
+      "arm": "original",
+      "representation": "full_harness",
+      "value": 0.9,
+      "n_expected": 60,
+      "n_recorded": 28,
+      "n_valid": 28,
+      "n_invalid": 0,
+      "n_missing": 32,
+      "adopt": 24,
+      "rate": 0.8571428571428571,
+      "ci95": [
+        0.685101978364747,
+        0.9430099468025059
+      ]
+    },
+    {
+      "arm": "original",
+      "representation": "numeric_only",
+      "value": 0.1,
+      "n_expected": 60,
+      "n_recorded": 28,
+      "n_valid": 28,
+      "n_invalid": 0,
+      "n_missing": 32,
+      "adopt": 15,
+      "rate": 0.5357142857142857,
+      "ci95": [
+        0.358126892344679,
+        0.7046843001720462
+      ]
+    },
+    {
+      "arm": "original",
+      "representation": "numeric_only",
+      "value": 0.9,
+      "n_expected": 60,
+      "n_recorded": 29,
+      "n_valid": 28,
+      "n_invalid": 1,
+      "n_missing": 31,
+      "adopt": 19,
+      "rate": 0.6785714285714286,
+      "ci95": [
+        0.49338843180857617,
+        0.8206675307750504
+      ]
+    },
+    {
+      "arm": "original",
+      "representation": "verbal_only",
+      "value": 0.1,
+      "n_expected": 60,
+      "n_recorded": 30,
+      "n_valid": 30,
+      "n_invalid": 0,
+      "n_missing": 30,
+      "adopt": 3,
+      "rate": 0.1,
+      "ci95": [
+        0.03459988874733419,
+        0.25621082579184085
+      ]
+    },
+    {
+      "arm": "original",
+      "representation": "verbal_only",
+      "value": 0.9,
+      "n_expected": 60,
+      "n_recorded": 28,
+      "n_valid": 28,
+      "n_invalid": 0,
+      "n_missing": 32,
+      "adopt": 15,
+      "rate": 0.5357142857142857,
+      "ci95": [
+        0.358126892344679,
+        0.7046843001720462
+      ]
+    },
+    {
+      "arm": "repetition",
+      "representation": "full_harness",
+      "value": 0.1,
+      "n_expected": 60,
+      "n_recorded": 28,
+      "n_valid": 28,
+      "n_invalid": 0,
+      "n_missing": 32,
+      "adopt": 1,
+      "rate": 0.03571428571428571,
+      "ci95": [
+        0.0063325198490377516,
+        0.1771219774335332
+      ]
+    },
+    {
+      "arm": "repetition",
+      "representation": "full_harness",
+      "value": 0.9,
+      "n_expected": 60,
+      "n_recorded": 28,
+      "n_valid": 28,
+      "n_invalid": 0,
+      "n_missing": 32,
+      "adopt": 4,
+      "rate": 0.14285714285714285,
+      "ci95": [
+        0.05699005319749392,
+        0.31489802163525293
+      ]
+    },
+    {
+      "arm": "repetition",
+      "representation": "numeric_only",
+      "value": 0.1,
+      "n_expected": 60,
+      "n_recorded": 28,
+      "n_valid": 28,
+      "n_invalid": 0,
+      "n_missing": 32,
+      "adopt": 0,
+      "rate": 0.0,
+      "ci95": [
+        1.3877787807814457e-17,
+        0.12064330476584563
+      ]
+    },
+    {
+      "arm": "repetition",
+      "representation": "numeric_only",
+      "value": 0.9,
+      "n_expected": 60,
+      "n_recorded": 28,
+      "n_valid": 28,
+      "n_invalid": 0,
+      "n_missing": 32,
+      "adopt": 1,
+      "rate": 0.03571428571428571,
+      "ci95": [
+        0.0063325198490377516,
+        0.1771219774335332
+      ]
+    },
+    {
+      "arm": "repetition",
+      "representation": "verbal_only",
+      "value": 0.1,
+      "n_expected": 60,
+      "n_recorded": 28,
+      "n_valid": 28,
+      "n_invalid": 0,
+      "n_missing": 32,
+      "adopt": 0,
+      "rate": 0.0,
+      "ci95": [
+        1.3877787807814457e-17,
+        0.12064330476584563
+      ]
+    },
+    {
+      "arm": "repetition",
+      "representation": "verbal_only",
+      "value": 0.9,
+      "n_expected": 60,
+      "n_recorded": 28,
+      "n_valid": 28,
+      "n_invalid": 0,
+      "n_missing": 32,
+      "adopt": 1,
+      "rate": 0.03571428571428571,
+      "ci95": [
+        0.0063325198490377516,
+        0.1771219774335332
+      ]
+    }
+  ],
+  "primary_verbal_average_difference": {
+    "difference": -0.3,
+    "conservative_95_interval_unknown_envelope": [
+      -0.8041703753659196,
+      0.6362781241444656
+    ]
+  },
+  "endpoint_effects": {
+    "original/full_harness": {
+      "difference": 0.7142857142857142,
+      "conservative_95_interval_unknown_envelope": [
+        -0.47954839185372056,
+        0.9701288063684201
+      ]
+    },
+    "original/numeric_only": {
+      "difference": 0.1428571428571429,
+      "conservative_95_interval_unknown_envelope": [
+        -0.7007358048069592,
+        0.8013725681030741
+      ]
+    },
+    "original/verbal_only": {
+      "difference": 0.4357142857142857,
+      "conservative_95_interval_unknown_envelope": [
+        -0.5594987981640803,
+        0.8817896031260712
+      ]
+    },
+    "repetition/full_harness": {
+      "difference": 0.10714285714285714,
+      "conservative_95_interval_unknown_envelope": [
+        -0.680131996610645,
+        0.7395645715310106
+      ]
+    },
+    "repetition/numeric_only": {
+      "difference": 0.03571428571428571,
+      "conservative_95_interval_unknown_envelope": [
+        -0.6796413621161185,
+        0.695067593426435
+      ]
+    },
+    "repetition/verbal_only": {
+      "difference": 0.03571428571428571,
+      "conservative_95_interval_unknown_envelope": [
+        -0.6796413621161185,
+        0.695067593426435
+      ]
+    }
+  },
+  "endpoint_effect_interactions": {
+    "full_harness": {
+      "difference": -0.6071428571428572,
+      "conservative_95_interval_unknown_envelope": [
+        -1.673044597353352,
+        1.2601961178566237
+      ]
+    },
+    "numeric_only": {
+      "difference": -0.1071428571428572,
+      "conservative_95_interval_unknown_envelope": [
+        -1.5126447870105237,
+        1.4312527468301812
+      ]
+    },
+    "verbal_only": {
+      "difference": -0.4,
+      "conservative_95_interval_unknown_envelope": [
+        -1.587188315233914,
+        1.2937086837868566
+      ]
+    }
+  },
+  "n_records": 339,
+  "n_valid": 338,
+  "n_terminal_failures": 1,
+  "n_missing_usage": 1,
+  "recorded_token_estimate_usd": 0.35489099999999946,
+  "historical_records_pooled": false,
+  "phase_gate": "Unchanged. Endpoint diagnostic, not full-curve or representation-validity pass.",
+  "design_hash": "db76a73861cc1320ad531f05fb6a7ac815971a83bda75c630ae09b774c702179"
+}

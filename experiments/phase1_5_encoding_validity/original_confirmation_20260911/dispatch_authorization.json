@@ -1,0 +1,10 @@
+{
+  "design_hash": "210b6318700468514752d4104599ac914e56e9837b36a20d34984169f9f0a235",
+  "exact_messages_hash": "5b3aeb62aaa248ecd9ee4988f4f632bd1e61647edc2db8b21d4fe2a24704f5ff",
+  "planned_calls": 900,
+  "spending_ceiling_usd": 5.5,
+  "destination": "OpenAI API",
+  "user_statement": "ok just do all that you said, I gove you explicit approval, just run through everything, maintaining the objective and limitations as discussed, I want to finihs this phase today",
+  "authority_basis": "Explicit proposed-programme continuation and renewed spending authority; exact allocation prepared here. Separate 720-call approval does not itself cover these 900 new calls.",
+  "exact_allocation_user_signature": false
+}

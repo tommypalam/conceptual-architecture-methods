@@ -4,6 +4,70 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Freeze a local confirmation of the original representations
+
+Decision: test original MoR/S3 five-value curves with a fresh canonical
+reference, retaining original criteria and all previous results.
+900 calls, N60 per fifteen conditions, seed20260920, cap$5.50, full reserve
+$5.03334. Prior conservative charge$2.80036875 includes the unretried timeout's
+unknown usage; charge plus cap stays below$9. All source messages and ten
+intended values match frozen source cells exactly. No new theoretical mapping.
+
+Synthetic perspectives, not external review: Linden supports a local operational
+claim only, without ethical-quality or internal-understanding inference. Osei
+requires a fresh contemporaneous reference and acknowledges selection from prior
+results. Tanaka keeps the original joint retention rule, observed monotonicity,
+and all unfavourable historical outcomes; N60 is a bounded precision choice,
+not a full-gate power guarantee. Renna keeps paraphrase and audit limitations
+visible after any local success. Okafor supports unique N60 analysis indices,
+write-once records and prospectively180-second transport after the documented
+90-second timeout. Disagreement: useful local confirmation cannot solve the
+broad paraphrase gap. Resolution: one bounded confirmation, then a factual
+whole-phase decision record; no rerun-until-pass, new gate or automatic Phase2.
+
+Three offline tests pass, including full900-call mock, exact prompts/profiles,
+budget guard, no-call resume, failed-control ineligibility and failure retention.
+The user gave broad explicit programme authority; the distinct720-call exact
+approval is not represented as exact approval of this new900-call allocation.
+
+Automatic approval review rejected launch before process creation: it requires
+explicit scope approval for the new900-call private research payload and$5.50
+cap, beyond the exact720-call approval. It also cited a failed preparation
+verification: the failed assertion was the NEXT_STEPS newline insertion, after
+manifest, preview, protocol and authorization were already written. The insertion
+was repaired and the frozen artifacts checked separately. No paid calls sent,
+no indirect execution or bypass. Exact new-scope approval remains required.
+
+## 2026-09-11 - Concurrent allocation complete; discontinue repetition candidate
+
+The approved allocation completed with 719 valid responses and one preserved,
+unretried timeout. The continuation sent only the remaining 381 requests;
+parent bytes and the complete raw ZIP were verified. Original status remains
+INVALID_SCREEN under the frozen API-failure rule. Report diagnostic contrasts
+with unknown-outcome bounds rather than converting this into a clean pass.
+
+Original canonical/numeric/verbal .1 -> .9 ADOPT counts: 18/60 -> 52/60,
+21/60 -> 47/59 valid plus one unknown, and 5/60 -> 37/60. Repeated versions:
+5/60 -> 5/60, 0/60 -> 1/60, and 0/60 -> 2/60. The primary verbal average
+rate difference is -.333 with conservative interval [-.490,-.122]; the
+timeout is outside its four cells, but the study-level invalidation remains.
+Direct secondary endpoint-effect changes are negative for canonical and
+verbal with nominal intervals excluding zero; numeric remains inconclusive.
+
+Synthetic perspectives (not external review): Linden rejects equating ADOPT
+rates with ethical quality. Osei supports abandoning repetition as a repair
+candidate given concurrent diagnostic evidence. Tanaka preserves invalid
+status, missing-outcome bounds, and primary/secondary distinctions. Renna
+requires a fresh five-value check before representation confirmation. Okafor
+retains the original reference and exact source prompts. Resolution: no
+repetition battery; prepare a scoped original MoR/S3 confirmation, without
+claiming all ten parameters or the whole phase validated.
+
+Known current cost $0.7561365; unknown timeout charge reserved at $0.00496725.
+Cumulative conservative charge $2.80036875 leaves $6.19963125 of the original
+$9 allowance. No provider balance or cached discount is assumed, no attempts
+are pending, and no theoretical departure or Phase 2 launch occurred.
+
 ## 2026-09-11 - Explicit programme continuation and concurrent comparison
 
 The researcher explicitly approved carrying out all proposed steps while
@@ -57,6 +121,23 @@ The researcher subsequently answered "Approve 720 calls, $4.50 cap" to the
 exact frozen-payload question. Saved `dispatch_approved.json` with design and
 message hashes; the unchanged command passed automatic approval review and
 collection began. All original limitations and the fixed N remain in force.
+
+The run subsequently stopped on one TimeoutError at slot339 (338 valid,
+one failed) as required by its fail-stop transport. Preserved the entire
+parent allocation and partial archive. Prepared a linked continuation for
+only 381 previously unsent requests, retaining exact messages/seeds/model and
+the same aggregate 720-attempt/$4.50 cap. No failed slot is retried. The new
+wrapper records its own hash and verifies every copied parent byte; it does
+not edit frozen code or reclassify the failure. The original screen-invalid
+rule remains, and the timeout's unknown usage remains reserved. This is an
+operational recovery after a diagnosed network timeout, not a theoretical
+departure or an extra allocation. Any further failure stops continuation.
+
+Two continuation tests passed: all 381 unsent requests collected in a mock
+with no parent seed reused, unchanged parent bytes, and the invalid-screen
+status retained; a new failure prevents another unchecked resume. The
+remaining-request launch passed execution review under the original exact
+720-call/$4.50 approval and is running without increasing that allocation.
 
 ## 2026-09-11 - Offline ordering precision and rationale diagnosis
 

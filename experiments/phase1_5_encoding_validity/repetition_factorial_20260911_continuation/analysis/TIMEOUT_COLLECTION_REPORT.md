@@ -1,0 +1,281 @@
+# Completed allocation with preserved timeout
+
+Scientific status: **INVALID_SCREEN** under the unchanged API-failure rule.
+720 attempt slots; 719 valid responses; one preserved timeout, never retried.
+Known current token estimate $0.756137; add up to $0.004967 reserved for unknown timeout usage.
+
+This is diagnostic data, not a protocol pass. Contrasts retain the unknown outcome envelope.
+The paused collection resumed only previously unsent requests in its original schedule.
+
+```json
+{
+  "cells": [
+    {
+      "arm": "original",
+      "representation": "full_harness",
+      "value": 0.1,
+      "n_expected": 60,
+      "n_recorded": 60,
+      "n_valid": 60,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 18,
+      "rate": 0.3,
+      "ci95": [
+        0.19898166138769108,
+        0.42508707946914487
+      ]
+    },
+    {
+      "arm": "original",
+      "representation": "full_harness",
+      "value": 0.9,
+      "n_expected": 60,
+      "n_recorded": 60,
+      "n_valid": 60,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 52,
+      "rate": 0.8666666666666667,
+      "ci95": [
+        0.7583484032350039,
+        0.9308589051941303
+      ]
+    },
+    {
+      "arm": "original",
+      "representation": "numeric_only",
+      "value": 0.1,
+      "n_expected": 60,
+      "n_recorded": 60,
+      "n_valid": 60,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 21,
+      "rate": 0.35,
+      "ci95": [
+        0.24167774406017556,
+        0.47637381158245135
+      ]
+    },
+    {
+      "arm": "original",
+      "representation": "numeric_only",
+      "value": 0.9,
+      "n_expected": 60,
+      "n_recorded": 60,
+      "n_valid": 59,
+      "n_invalid": 1,
+      "n_missing": 0,
+      "adopt": 47,
+      "rate": 0.7966101694915254,
+      "ci95": [
+        0.6773198772795009,
+        0.879637275797828
+      ]
+    },
+    {
+      "arm": "original",
+      "representation": "verbal_only",
+      "value": 0.1,
+      "n_expected": 60,
+      "n_recorded": 60,
+      "n_valid": 60,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 5,
+      "rate": 0.08333333333333333,
+      "ci95": [
+        0.03612045660173077,
+        0.1806894201833441
+      ]
+    },
+    {
+      "arm": "original",
+      "representation": "verbal_only",
+      "value": 0.9,
+      "n_expected": 60,
+      "n_recorded": 60,
+      "n_valid": 60,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 37,
+      "rate": 0.6166666666666667,
+      "ci95": [
+        0.49017595824099924,
+        0.7291172762591798
+      ]
+    },
+    {
+      "arm": "repetition",
+      "representation": "full_harness",
+      "value": 0.1,
+      "n_expected": 60,
+      "n_recorded": 60,
+      "n_valid": 60,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 5,
+      "rate": 0.08333333333333333,
+      "ci95": [
+        0.03612045660173077,
+        0.1806894201833441
+      ]
+    },
+    {
+      "arm": "repetition",
+      "representation": "full_harness",
+      "value": 0.9,
+      "n_expected": 60,
+      "n_recorded": 60,
+      "n_valid": 60,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 5,
+      "rate": 0.08333333333333333,
+      "ci95": [
+        0.03612045660173077,
+        0.1806894201833441
+      ]
+    },
+    {
+      "arm": "repetition",
+      "representation": "numeric_only",
+      "value": 0.1,
+      "n_expected": 60,
+      "n_recorded": 60,
+      "n_valid": 60,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.06017185214208986
+      ]
+    },
+    {
+      "arm": "repetition",
+      "representation": "numeric_only",
+      "value": 0.9,
+      "n_expected": 60,
+      "n_recorded": 60,
+      "n_valid": 60,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 1,
+      "rate": 0.016666666666666666,
+      "ci95": [
+        0.0029481597947862495,
+        0.08855129727590061
+      ]
+    },
+    {
+      "arm": "repetition",
+      "representation": "verbal_only",
+      "value": 0.1,
+      "n_expected": 60,
+      "n_recorded": 60,
+      "n_valid": 60,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.06017185214208986
+      ]
+    },
+    {
+      "arm": "repetition",
+      "representation": "verbal_only",
+      "value": 0.9,
+      "n_expected": 60,
+      "n_recorded": 60,
+      "n_valid": 60,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 2,
+      "rate": 0.03333333333333333,
+      "ci95": [
+        0.009189319256197877,
+        0.113637742743086
+      ]
+    }
+  ],
+  "primary": {
+    "difference": -0.33333333333333337,
+    "conservative_95_interval_unknown_envelope": [
+      -0.489804800910114,
+      -0.12225195760160003
+    ]
+  },
+  "endpoints": {
+    "original/full_harness": {
+      "difference": 0.5666666666666667,
+      "conservative_95_interval_unknown_envelope": [
+        0.28699854630943417,
+        0.7724043556240545
+      ]
+    },
+    "original/numeric_only": {
+      "difference": 0.44661016949152543,
+      "conservative_95_interval_unknown_envelope": [
+        0.13790747082156996,
+        0.6850732286364689
+      ]
+    },
+    "original/verbal_only": {
+      "difference": 0.5333333333333333,
+      "conservative_95_interval_unknown_envelope": [
+        0.26471934832474575,
+        0.7312770794059302
+      ]
+    },
+    "repetition/full_harness": {
+      "difference": 0.0,
+      "conservative_95_interval_unknown_envelope": [
+        -0.1762332470637792,
+        0.1762332470637792
+      ]
+    },
+    "repetition/numeric_only": {
+      "difference": 0.016666666666666666,
+      "conservative_95_interval_unknown_envelope": [
+        -0.07022094440265507,
+        0.10170278395470662
+      ]
+    },
+    "repetition/verbal_only": {
+      "difference": 0.03333333333333333,
+      "conservative_95_interval_unknown_envelope": [
+        -0.06762590473675344,
+        0.12864463317479247
+      ]
+    }
+  },
+  "interactions": {
+    "full_harness": {
+      "difference": -0.5666666666666667,
+      "conservative_95_interval_unknown_envelope": [
+        -0.9842573611654695,
+        -0.06027839199418722
+      ]
+    },
+    "numeric_only": {
+      "difference": -0.4299435028248587,
+      "conservative_95_interval_unknown_envelope": [
+        -0.7872135380391699,
+        0.008777370159603337
+      ]
+    },
+    "verbal_only": {
+      "difference": -0.5,
+      "conservative_95_interval_unknown_envelope": [
+        -0.8274065271771794,
+        -0.09230084056015134
+      ]
+    }
+  }
+}
+```

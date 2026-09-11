@@ -10,6 +10,32 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+The [current decision record](experiments/phase1_5_encoding_validity/DECISION_RECORD_20260911.md)
+consolidates completed results, remaining requirements and the bounded next step.
+
+**Fresh original confirmation prepared, dispatch blocked:** [900-call protocol](experiments/phase1_5_encoding_validity/original_confirmation_20260911/PROTOCOL.md),
+three original representations x five MoR/S3 values, N60, seed20260920,
+$5.50 cap ($5.03334 full reserve), exact original messages and original rules.
+Prior conservative charge plus cap stays below $9. Three offline tests pass.
+Automatic execution review requires exact new-scope approval; no calls sent.
+An accompanying documentation insertion initially failed on a newline assertion;
+this was corrected and the frozen manifest/protocol/preview verified separately.
+This local confirmation cannot close the full battery.
+
+**Concurrent comparison allocation complete:** 720 attempt slots, **719 valid
+and one preserved timeout**. Original/repeated cells were collected in one
+randomised schedule with a documented timeout pause; no failed slot was retried.
+The original API-failure rule leaves status **INVALID_SCREEN**, not a clean pass.
+Diagnostic original verbal ADOPT is 5/60 -> 37/60; repeated is 0/60 -> 2/60.
+Primary average difference is -.333, conservative interval [-.490,-.122].
+All three original endpoint effects are positive; repetition effects are small.
+See [interpretation](experiments/phase1_5_encoding_validity/repetition_factorial_20260911_continuation/analysis/INTERPRETATION.md).
+Known cost $0.7561365 plus at most $0.00496725 reserved for unknown timeout
+usage; cumulative conservative charge $2.80036875, approximately $6.20 remains
+of the $9 allowance. All parent/raw ZIP bytes verified; no requests pending.
+Repetition will not be scaled as a repair. Next: prepare fresh original MoR/S3
+full-curve confirmation under the existing representation rules; phase stays open.
+
 **Explicit continuation toward today's decision:** the researcher authorised
 carrying out the proposed programme while preserving objective and limitations.
 The [decision plan](experiments/phase1_5_encoding_validity/TODAY_DECISION_PLAN_20260911.md)
@@ -22,10 +48,15 @@ are separate. Two tests pass, including a full 720-call mock, exact source
 messages/profiles, balanced allocation, no-call resume, budget blocking and
 missing-data handling. Prepared scope is not collected evidence. No new gate,
 automatic full sweep, or Phase 2 launch is authorised by the deadline.
-**Comparison running:** the first launch was blocked before process creation
+**Comparison dispatch history:** the first launch was blocked before process creation
 by automatic approval review. The researcher then explicitly approved "Approve
 720 calls, $4.50 cap"; this is saved against the exact payload hashes in
-`dispatch_approved.json`. The unchanged launch passed review and is collecting.
+`dispatch_approved.json`. The unchanged launch passed review, then stopped at
+339 attempt slots: 338 valid responses and one preserved API timeout. A linked
+[continuation](experiments/phase1_5_encoding_validity/repetition_factorial_20260911_continuation/CONTINUATION.md)
+passed execution review and completed only the 381 unsent requests under the original 720-call/$4.50
+authority. No failed request is retried. The original API-failure invalidation
+rule remains: the completed allocation is diagnostic, not a clean pass.
 The [readiness record](experiments/phase1_5_encoding_validity/READINESS_20260911.md)
 maps outstanding requirements and provides a factual reporting paragraph.
 

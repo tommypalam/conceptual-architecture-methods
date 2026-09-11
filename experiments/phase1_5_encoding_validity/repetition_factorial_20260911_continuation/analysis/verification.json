@@ -1,0 +1,12 @@
+{
+  "design_hash": "db76a73861cc1320ad531f05fb6a7ac815971a83bda75c630ae09b774c702179",
+  "slots": 720,
+  "known_responses": 719,
+  "preserved_timeouts": 1,
+  "unique_known_api_ids": 719,
+  "unique_requested_seeds": 720,
+  "parent_bytes_and_raw_zip_verified": true,
+  "all_reservations_verified": true,
+  "reserved_usd": 4.332779999999986,
+  "scientific_status": "INVALID_SCREEN"
+}

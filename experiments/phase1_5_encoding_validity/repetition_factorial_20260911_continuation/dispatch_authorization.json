@@ -1,0 +1,10 @@
+{
+  "design_hash": "db76a73861cc1320ad531f05fb6a7ac815971a83bda75c630ae09b774c702179",
+  "exact_messages_hash": "4c7f64d68bf3dcd824bceab673af387a71dbca64544017d8f14c199b673b731b",
+  "planned_calls": 720,
+  "spending_ceiling_usd": 4.5,
+  "destination": "OpenAI API",
+  "user_statement": "ok just do all that you said, I gove you explicit approval, just run through everything, maintaining the objective and limitations as discussed, I want to finihs this phase today",
+  "authority_basis": "Explicit programme continuation and renewed spending instruction; exact allocation prepared under that scope.",
+  "exact_allocation_user_signature": false
+}
