@@ -1,0 +1,24 @@
+{
+  "source_design_hash": "d39974038d1f377a4cfa8299c2b7559709e1d05513dcd6172410c4f4f0cf7904",
+  "source_file_hashes": {
+    "code/review_validity_ms_wording.py": "1a30717d320bfe7a1cb6415d26195db21ab8f73744b337d4fbb0404144103671",
+    "experiments/phase1_5_encoding_validity/original_expanded_20260911/manifest.json": "8c905b857bd6c62a2e87411645e590f12a8a94f2a9c890c3291d8c6baed9acc8",
+    "Theory/concepts_as_architecture_thesis_v0_6.md": "55540ee3ba861ed1a7960c95babb246aa42181b6522c2de09d8a3273068471af",
+    "docs/variables.json": "9bbb13fb762890ce149b1f666826ae816448cb6e6be1dfd0e3a4291c5eae3b00",
+    "experiments/phase1_5_encoding_validity/claude_paraphrases_20260909_theory_r5/paraphrases_approved.json": "b27bec4b4e3257dd86bb388992bf00665e7b12630c30254f3953c37f10eaae37"
+  },
+  "source_records": 640,
+  "extracted_MS_records": 240,
+  "other_source_records_retained": 400,
+  "qualitatively_read": 104,
+  "other_MS_explanations_retained": 136,
+  "reading_rule": "All .9 MS records; call indices1-3 at .1 and.5 for each of four wordings. Selection fixed before reading these explanations, after inspecting aggregate outcomes. No outcome-label selection.",
+  "post_result_unblinded": true,
+  "formal_coding_or_recovery_test": false,
+  "all_240_explanations_equal_saved_source_fields": true,
+  "same_parameter_values_and_user_messages_across_wordings": true,
+  "all_ten_endpoint_descriptions_differ_in_each_paraphrase": true,
+  "api_calls": 0,
+  "cost_usd": 0,
+  "review_local_links_verified": true
+}

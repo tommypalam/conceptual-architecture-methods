@@ -10,6 +10,17 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Offline MS review complete; no new API calls or prompt changes.**
+[Review and smallest proposed follow-up](experiments/phase1_5_encoding_validity/ms_wording_review_20260911/REVIEW.md).
+All240 MS/S2 explanations extracted and verified;104 read under a disclosed
+post-result, unblinded selection. Broad norms can justify institutional reporting
+or proportionate local correction in the locked dilemma. That does not validate
+P2's flat response. All ten descriptions change across paraphrases, so the MS
+stanza is not causally isolated. No clear endpoint reversal or unique P2 semantic
+defect found; existing approvals/gates/results retained. A2x2 stanza/background
+crossover is suggested only, not prepared or launched. Remaining$3.97795725;
+no pending calls or new paid allocation. Phase1.5 remains open.
+
 **Expanded original replication complete:640/640 valid, cost$0.7107645.**
 [Positive results, limitations and all-condition figure](experiments/phase1_5_encoding_validity/original_expanded_20260911/analysis/INTERPRETATION.md).
 Canonical MoR/S3 rates25/50/100%; canonical MS/S2 rates0/20/70% at.1/.5/.9.

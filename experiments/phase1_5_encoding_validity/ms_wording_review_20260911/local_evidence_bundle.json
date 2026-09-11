@@ -1,0 +1,16 @@
+{
+  "path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\output\\validity_backups\\ms_wording_review_20260911_0d841bb7701223d1.zip",
+  "sha256": "f45dd60217dbac07db888c78f58059afebc46e55c2afdd372acbb15e852d8219",
+  "file_sha256": {
+    "canonical_EXPLANATIONS.md": "bebb29000774562774603736e5cb502afcaa1d07412a60e4a667fbff9a587716",
+    "manifest.json": "19354ac6e9e96658552e666ceffad1bae1d6f51fad847a7795d18009fc848f35",
+    "paraphrase_1_EXPLANATIONS.md": "494a2166535c37ea2b732da8e41376f0a7b5300a6ea2315ed77e496ce8b233d8",
+    "paraphrase_2_EXPLANATIONS.md": "fe140ee6808a1ab424b147f6fba56e22514d965f99d317cd031d5e451acbe580",
+    "paraphrase_3_EXPLANATIONS.md": "228f8efbca0eccd28794ce2b0617b174a9bd5a9a05c000e5ab5983751c110b90",
+    "provenance.json": "b4fdb72769b11b0ef66e71a4bf71be716b377f0043c0271a14cdc671fc2b8791",
+    "REVIEW.md": "082a90ac1980c76db93ff3e1627496ac80f46e50c198141ebaa44baa9e09df4a",
+    "wording_comparison.json": "94169d014effb9db6f14c96231860fa76b33212123185f2c531257cfbcc19ea6"
+  },
+  "all_files_verified_byte_for_byte": true,
+  "note": "Same-computer archive. Full extracted explanations kept out of Git; selected report excerpts and checksums committed."
+}

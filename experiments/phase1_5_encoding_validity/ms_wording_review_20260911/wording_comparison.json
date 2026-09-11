@@ -1,0 +1,74 @@
+{
+  "comparisons": [
+    {
+      "wording": "canonical",
+      "MS_low": "local, role-bound, partial, context-limited",
+      "MS_high": "universalised, generalisable, broadly applied",
+      "changed_endpoint_descriptions": [],
+      "same_all_ten_values": true,
+      "same_user_message": true,
+      "same_preamble_context_task": true
+    },
+    {
+      "wording": "paraphrase_1",
+      "MS_low": "prescriptions remain bounded to particular domains, roles, and circumscribed populations",
+      "MS_high": "prescriptions extend across diverse contexts and persons through generalizable application",
+      "changed_endpoint_descriptions": [
+        "LL",
+        "CS",
+        "RT",
+        "MoR",
+        "RE",
+        "PD",
+        "TfA",
+        "ID",
+        "MS",
+        "AW"
+      ],
+      "same_all_ten_values": true,
+      "same_user_message": true,
+      "same_preamble_context_task": true
+    },
+    {
+      "wording": "paraphrase_2",
+      "MS_low": "norms remain localized to designated roles, communities, and bounded sets",
+      "MS_high": "norms extend across situations and generalize to encompass diverse persons",
+      "changed_endpoint_descriptions": [
+        "LL",
+        "CS",
+        "RT",
+        "MoR",
+        "RE",
+        "PD",
+        "TfA",
+        "ID",
+        "MS",
+        "AW"
+      ],
+      "same_all_ten_values": true,
+      "same_user_message": true,
+      "same_preamble_context_task": true
+    },
+    {
+      "wording": "paraphrase_3",
+      "MS_low": "principles apply within delimited contexts, role-linked settings, and to particular collectives",
+      "MS_high": "principles apply broadly across situations and extend to diverse persons through generalization",
+      "changed_endpoint_descriptions": [
+        "LL",
+        "CS",
+        "RT",
+        "MoR",
+        "RE",
+        "PD",
+        "TfA",
+        "ID",
+        "MS",
+        "AW"
+      ],
+      "same_all_ten_values": true,
+      "same_user_message": true,
+      "same_preamble_context_task": true
+    }
+  ],
+  "causal_scope": "Every paraphrase changes all ten endpoint descriptions; current data do not isolate the MS stanza."
+}

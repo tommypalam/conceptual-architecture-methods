@@ -4,6 +4,55 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Offline MS wording/explanation review
+
+The researcher authorised the proposed offline comparison after the positive
+640-call replication. Extracted and source-verified all240 MS/S2 explanations
+from640 source records; other400 remain in original analyses. Read104 under a
+fixed rule chosen after aggregates but before explanation inspection: all80
+high-MS responses plus first3 low/middle calls in each wording. Other136 MS
+explanations retained in the local pack. Post-result, unblinded qualitative
+review; not a new coding manual, quantitative rater audit or recovery test.
+
+No endpoint inversion, missing MS value or clear unique P2 semantic defect was
+found. Canonical broad applicability and P1 prescriptions/P2 norms/P3 principles
+all retain local-to-general extension. Theory3.1 and AppendixA include both
+persons and principles; section6.1.1 separately predicts higher MS -> reporting.
+That empirical hypothesis remains in force and is not identical to MS's meaning.
+S2 explicitly allows contestable classification and an auditable local remedy.
+Reviewed explanations invoke broad standards both for independent institutional
+classification and for proportionate local correction. Counterexamples occur
+under both canonical and P2; some explanations overstate the policy's resolution
+of ambiguity in either direction. These are reported justifications, not evidence
+of internal causation. Naming MS cannot make P2's flat5/5/5% curve a positive
+encoding result or establish active-trait recovery.
+
+Programmatic checks confirm all ten endpoint descriptions change across each
+paraphrase, while all values, user message, preamble/context/task stay fixed.
+Current data therefore cannot attribute the response difference to MS wording
+alone versus the other nine descriptions or their interaction. RT/MoR/PD/ID
+wording and policy interpretation are hypotheses for follow-up, not diagnosed
+causes or grounds to retrospectively revoke the approved templates.
+
+Synthetic perspectives, not external review: Linden distinguishes universal
+scope from compulsory escalation and retains the probabilistic hypothesis.
+Osei requires disclosure of post-result qualitative selection and notes that
+either label can express a defensible general rule. Tanaka rejects recoding
+flat response or non-detection of a gap as validation. Renna identifies the
+whole-template confound and preserves all ten parameters and prior findings.
+Okafor requires exact source links/checksums and proposes the smallest separable
+follow-up rather than another broad sweep. Resolution: no prompt, theory,
+scoring, gate or phase-status change; bank a bounded explanatory review.
+
+The report suggests, but does not prepare or launch, a fresh2x2 crossover of
+canonical/P2 MS stanza with canonical/P2 other-nine descriptions, at.1/.9;
+N20 would mean160 calls with fresh concurrent controls. New compositions would
+need a frozen design and applicable approval. No API calls, no paid allocation
+queued, no new approval request. Original Phase1.5 remains open; tracked remaining
+allowance$3.97795725 unchanged. Full extracts are local artifacts with ZIP checksums,
+not raw-response commits. Local links, hashes and240 exact explanations verified.
+See experiments/phase1_5_encoding_validity/ms_wording_review_20260911/REVIEW.md.
+
 ## 2026-09-11 - Expanded original replication: four directional effects established
 
 Completed640/640 valid original-delivery responses for$0.7107645, rootseed20260926,

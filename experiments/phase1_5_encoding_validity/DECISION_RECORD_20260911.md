@@ -1,5 +1,16 @@
 # Phase 1.5 decision record — September 11
 
+## Latest update: offline MS interpretation review
+
+All240 MS/S2 explanations source-verified;104 read in a disclosed post-result,
+unblinded qualitative subset. Broad scope was invoked for both formal reporting
+and proportionate local correction. No unique MS-to-action interpretation or
+clear endpoint reversal was established. All ten descriptions change across
+paraphrases, so the MS stanza is not isolated. No new pass, rescoring, theory
+change, prompt revision or API call. A fresh2x2 stanza/background crossover is
+suggested only, not prepared or queued. See [review](ms_wording_review_20260911/REVIEW.md).
+
+
 ## Latest update: original-delivery selected-case replication
 
 Completed640/640 valid for$0.7107645. Canonical MoR rates25/50/100% and MS
