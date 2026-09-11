@@ -88,6 +88,8 @@ experiments/phase1_5_encoding_validity/evidence_screen_*/records/
 experiments/phase1_5_encoding_validity/evidence_screen_*/dispatches/
 experiments/phase1_5_encoding_validity/evidence_sensitivity_*/records/
 experiments/phase1_5_encoding_validity/evidence_sensitivity_*/dispatches/
+experiments/phase1_5_encoding_validity/mor_curve_*/records/
+experiments/phase1_5_encoding_validity/mor_curve_*/dispatches/
 
 # =============================================================
 # What IS committed:

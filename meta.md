@@ -4,6 +4,52 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - MoR error review and focused contemporaneous curve
+
+The researcher instructed continuation and renewed spending authority: "spend
+what you need, ill top up but now the objective is clear so im more inlcined to
+spend". Choose a bounded information-gathering run rather than infer an
+unlimited campaign. The $2.40 cap and $2.0572875 reservation fit even the
+previous $9 allowance including prior conservative reservations.
+
+All 20 active MoR audit items were inspected without outcome-based selection.
+The original quartiles remain unchanged: 19 predictions of quartile 2 and one
+of quartile 1, four exact matches. Source record hashes, blind-pack identity
+and exact reasoning text were verified. Rationales repeatedly cite fairness
+and endorsement; these are not uniquely MoR, and joint-profile reasoning can
+legitimately cite other traits. This unblinded diagnosis cannot adjudicate
+internal mechanisms or replace the blind score. The selected .9 S3 WAIT item
+is a minority outcome; do not treat it as the full 50-call cell's behaviour.
+
+Decision: prepare 300 MoR/S3 calls, two approved arms (repetition/grounding), all
+five values, N30 per cell, seed20260917. Fresh endpoints avoid pooling batches;
+the original canonical curve needs no rerun for this within-candidate question.
+The same original directional rule is the primary diagnostic for grounding;
+repetition and direct arm contrast are secondary. No demonstrated advantage
+over an original arm absent from this collection, no automatic expansion,
+no gate amendment and no Phase 2 launch. Original prompts and meanings remain.
+
+Synthetic review, not external experts: Linden distinguishes internal response
+from internal endorsement and rejects collapsing the constructs. Osei requires
+that the audit review remain unblinded diagnosis. Tanaka favours contemporaneous
+endpoints and the existing criterion with explicit N30 precision limitations.
+Renna notes that a response curve cannot repair explanation validity alone.
+Okafor supports the frozen single-attempt transport and bounded budget. The
+tension is spending on a curve while interpretation remains unresolved;
+resolution: a cheap fixed-size falsification screen, not full confirmation.
+
+Two focused tests pass: complete 300-call mock execution, exact source profiles
+and user messages, unique seeds, no-call resume, budget blocking, incomplete
+scoring and immutable terminal failures. The artifact protocol records broad
+user authority without claiming an exact-payload signature. Live dispatch and
+its eventual result must be recorded separately.
+
+Live launch was rejected before process creation by automatic approval review:
+the broad spending instruction was insufficient for the private research
+payload, OpenAI destination, exact 300-call count and $2.40 cap. No calls were
+made and no alternate route was tried. An explicit prepared-scope question is
+pending with the researcher; unchanged launch can proceed if approved.
+
 ## 2026-09-11 - Assess existing parameter evidence before more spending
 
 The researcher reaffirmed the objective of agents whose encoded ethical

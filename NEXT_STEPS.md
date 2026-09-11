@@ -10,6 +10,23 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**MoR audit review complete; focused screen prepared:** all 20 active MoR items
+are traced to the original source and blind coding. Claude assigned quartile 2
+to 19/20 items; four exact matches, with explanations often emphasising other
+traits. This leaves generator explanations and coder discrimination unresolved,
+not a demonstrated inversion of MoR. See [item review](experiments/phase1_5_encoding_validity/mor_reasoning_review_20260911/FINDINGS.md).
+The [next screen](experiments/phase1_5_encoding_validity/mor_curve_20260911/PROTOCOL.md)
+collects grounding/repetition at five MoR values, 30 per cell, 300 total, same
+GPT snapshot, $2.40 cap ($2.0572875 full reserve), fresh endpoints, no historical
+pooling. Two tests pass, including a complete mock run, no-call resume, spending
+guard and preserved failure. The researcher renewed spending authority and
+offered to top up; this run still fits the previous allowance. Prepared scope
+does not itself imply completed dispatch. **Launch blocked before any calls:**
+automatic approval review requires explicit consent to the exact payload,
+destination, 300-call count and $2.40 cap despite renewed broad spending
+authority. The prepared-scope approval question is pending. No workaround,
+paid call, full battery or Phase 2 launch was made.
+
 **Saved evidence assessed:** the [fixed-implementation assessment](experiments/phase1_5_encoding_validity/fixed_encoding_assessment_20260911/ASSESSMENT_AND_NEXT_CHECK.md)
 joins all 30 canonical parameter/problem rows with representation, paraphrase
 and active-audit evidence. MoR/S3 already has a five-value canonical response

@@ -1,0 +1,8 @@
+{
+  "design_hash": "84720923447772f5feef7c592a1449d93b4fbbc236bc063c1ff2a9f4a29317f8",
+  "exact_messages_hash": "8c7e7fbfce5d26a471ea67658f2d82f6eb588288042a39d8a905a74ef9878cde",
+  "authority_type": "broad_user_spending_instruction_applied_to_bounded_next_test",
+  "user_statement": "spend what you need, ill top up but now the objective is clear so im more inlcined to spend",
+  "prepared_scope": "300 GPT-5.4 mini MoR/S3 calls; unchanged approved grounding/repetition messages; five values; $2.40 cap",
+  "exact_payload_user_signature": false
+}
