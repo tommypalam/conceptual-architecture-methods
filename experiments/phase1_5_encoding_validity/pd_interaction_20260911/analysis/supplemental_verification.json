@@ -1,0 +1,11 @@
+{
+  "design_hash": "81fe2317574b3c7f45c96f0c8a895788ae4014c738a61e3066b017460e779fdd",
+  "valid_responses": 300,
+  "unique_seeds": 300,
+  "exact_user_approval_verified": true,
+  "only_PD_numeric_difference_between_matched_arms": true,
+  "same_matched_UTF8_lengths": true,
+  "older_900_call_design_unexecuted": true,
+  "figure_visually_reviewed": true,
+  "post_score_fit_check": "descriptive only; original inference unchanged"
+}

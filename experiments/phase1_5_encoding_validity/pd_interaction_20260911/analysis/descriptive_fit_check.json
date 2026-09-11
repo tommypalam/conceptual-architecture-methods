@@ -1,0 +1,79 @@
+{
+  "design_hash": "81fe2317574b3c7f45c96f0c8a895788ae4014c738a61e3066b017460e779fdd",
+  "analysis_digest": "fda6bb52899bc0b3fa21f63c4d29116c964a12e679b737f970ec8c7f7da4283d",
+  "script_sha256": "ad2c3d5d4677092996b22f942ef344e4d0401bdee81ca7d6a4442b7d8aac6a66",
+  "purpose": "Post-score descriptive check motivated by sharp observed high-PD jump. Not a preregistered test, alternative primary or replacement inference.",
+  "rows": [
+    {
+      "arm": "pd_low",
+      "value": 0.1,
+      "observed_rate": 0.8333333333333334,
+      "fitted_rate": 0.7987389836480472,
+      "observed_minus_fitted": 0.034594349685286185
+    },
+    {
+      "arm": "pd_low",
+      "value": 0.3,
+      "observed_rate": 0.8333333333333334,
+      "fitted_rate": 0.8616874759939999,
+      "observed_minus_fitted": -0.028354142660666493
+    },
+    {
+      "arm": "pd_low",
+      "value": 0.5,
+      "observed_rate": 0.9,
+      "fitted_rate": 0.9072341630481254,
+      "observed_minus_fitted": -0.007234163048125408
+    },
+    {
+      "arm": "pd_low",
+      "value": 0.7,
+      "observed_rate": 0.9,
+      "fitted_rate": 0.9388466466625542,
+      "observed_minus_fitted": -0.03884664666255422
+    },
+    {
+      "arm": "pd_low",
+      "value": 0.9,
+      "observed_rate": 1.0,
+      "fitted_rate": 0.9601593973139501,
+      "observed_minus_fitted": 0.03984060268604994
+    },
+    {
+      "arm": "pd_high",
+      "value": 0.1,
+      "observed_rate": 0.1,
+      "fitted_rate": 0.014586184532087747,
+      "observed_minus_fitted": 0.08541381546791225
+    },
+    {
+      "arm": "pd_high",
+      "value": 0.3,
+      "observed_rate": 0.03333333333333333,
+      "fitted_rate": 0.044627132143323485,
+      "observed_minus_fitted": -0.011293798809990152
+    },
+    {
+      "arm": "pd_high",
+      "value": 0.5,
+      "observed_rate": 0.06666666666666667,
+      "fitted_rate": 0.12847250363757173,
+      "observed_minus_fitted": -0.06180583697090507
+    },
+    {
+      "arm": "pd_high",
+      "value": 0.7,
+      "observed_rate": 0.13333333333333333,
+      "fitted_rate": 0.31749552881051957,
+      "observed_minus_fitted": -0.18416219547718624
+    },
+    {
+      "arm": "pd_high",
+      "value": 0.9,
+      "observed_rate": 0.7666666666666667,
+      "fitted_rate": 0.5948186508764972,
+      "observed_minus_fitted": 0.1718480157901695
+    }
+  ],
+  "primary_result_unchanged": true
+}

@@ -4,6 +4,39 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - PD value contrast complete; conditional response with sharp transition
+
+Approved300-call collection completed300valid, no API/model/usage failures,
+cost$0.313056. Low-PD counts25/25/27/27/30, high-PD3/1/2/4/23, eachN30.
+Primary high-minus-low MoR logistic slope difference+3.491,95%Wald interval
+[+.479,+6.503],p=.0231. Secondary endpoint-change difference+.500 has
+conservative interval[-.183,+1.027], still including zero. All requests and
+raw ZIP bytes verified; exact user approval matches frozen messages and cap.
+
+Synthetic perspectives, not external review: Linden prevents turning observed
+ADOPT labels into a theoretical or normative rule. Osei distinguishes fixed-text
+background-value dependence from proving faithful trait interaction or explaining
+the prior deletion mechanism. Tanaka retains the linear-logit assumptions and
+wide secondary uncertainty; low PD is ceiling-limited, high PD has an extreme
+jump and fails observed monotonicity. Renna keeps graded, interpretable and
+paraphrase-robust behaviour as separate unresolved requirements. Okafor banks
+the completed diagnostic and preserves budget rather than launching another
+slope test automatically. Resolution: local conditional numeric-profile evidence,
+not a capacity estimate, reduced architecture or Phase2 clearance.
+
+Because of the observed jump, added a post-score DESCRIPTIVE fit check, no new
+hypothesis test or replacement primary. At high PD/MoR.7/.9 the frozen fit gives
+31.7%/59.5%, observed13.3%/76.7%; report the approximation visibly. The primary
+is unchanged, and this check is not a formal rejection of the logit model.
+The figure uses all ten observed cells and Wilson intervals, visually reviewed;
+its initial overlapping-legend draft remains under output/figure_drafts.
+
+No records, prompts, model settings or frozen runner changed. Original gate
+and all5concepts/10parameters remain;900-call confirmation still unexecuted.
+Cumulative known charge$3.378930; including earlier unknown timeout reserve,
+conservative charge$3.38389725 leaves$5.61610275 of the latest$9 allowance.
+No pending calls or new experiment scheduled. Provider balance not verified.
+
 ## 2026-09-11 - Freeze a same-text PD background-value contrast
 
 The researcher accepted the recommendation to identify a theory-justified

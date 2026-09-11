@@ -1,0 +1,17 @@
+{
+  "design_hash": "81fe2317574b3c7f45c96f0c8a895788ae4014c738a61e3066b017460e779fdd",
+  "analysis_digest": "fda6bb52899bc0b3fa21f63c4d29116c964a12e679b737f970ec8c7f7da4283d",
+  "script_sha256": "dcd021d1fb8730f626c92fba35ad9091c9fe903a6e2c75c45c62d554510cf969",
+  "files": [
+    {
+      "path": "fig_01_pd_interaction.png",
+      "sha256": "8b7b98d3509e2c685f14c448aea1bf0840400c251e145435688133d0035e1023"
+    },
+    {
+      "path": "fig_01_pd_interaction.pdf",
+      "sha256": "1c957892a9e0d36fcb15996419e8cc560c2f6e18becbc189cf65d142dc154b1b"
+    }
+  ],
+  "all_ten_cells_retained": true,
+  "curve_interpolation": false
+}

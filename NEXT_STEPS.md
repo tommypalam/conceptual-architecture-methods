@@ -10,15 +10,19 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
-**PD background interaction running:** [300-call protocol](experiments/phase1_5_encoding_validity/pd_interaction_20260911/PROTOCOL.md).
-PD.1 versus.9 crossed with five MoR values,N30 each, fresh concurrent controls.
-All ten entries/text retained; only the PD number differs at matched MoR, with
-equal byte lengths. Two-sided exploratory slope contrast; no theory-predicted
-interaction sign. Monotonicity reported separately, phase gate unchanged.
-Seed20260922; cap$2.25, reserve$1.76535; three offline tests pass. Automatic
-review initially blocked launch; researcher then approved the exact300-call/$2.25
-scope. The unchanged launch passed review and real responses are being saved.
-The900-call confirmation remains paused.
+**PD interaction complete:300/300 valid, cost$0.313056.**
+[Interpretation and figure](experiments/phase1_5_encoding_validity/pd_interaction_20260911/analysis/INTERPRETATION.md).
+Low-PD ADOPT counts25/25/27/27/30; high-PD3/1/2/4/23, each/30.
+Primary high-minus-low MoR slope difference+3.491,95%CI[+.479,+6.503],p=.0231
+under the frozen linear-logit model. Fixed descriptions and byte lengths show
+background-value dependence, not a pure length difference. Low PD is near the
+ADOPT ceiling; high PD has an extreme-end jump and fails observed monotonicity.
+A post-score descriptive fit check flags the limits of a smooth summary.
+Secondary endpoint-change interval includes zero. No capacity/meaning/phase pass.
+Exact approval, responses, sources and raw ZIP bytes verified; no pending calls.
+Cumulative conservative charge$3.38389725 leaves$5.61610275 of the latest$9.
+Bank the conditional-response evidence; next requirements remain graded,
+interpretable and wording-robust encoding. No new run scheduled;900-call study paused.
 
 **Profile-ablation diagnostic complete:300/300 valid, cost$0.2704725.**
 [Interpretation and figure](experiments/phase1_5_encoding_validity/profile_ablation_20260911/analysis/INTERPRETATION.md).

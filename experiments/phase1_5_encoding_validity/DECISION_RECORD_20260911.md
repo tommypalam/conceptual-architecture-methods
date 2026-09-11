@@ -1,5 +1,18 @@
 # Phase 1.5 decision record — September 11
 
+## Latest fixed-text diagnostic
+
+The300-call PD-by-MoR test is complete with300valid responses for$0.313056.
+Changing PD between.1 and.9 under the same ten descriptions and byte length
+changes the fitted MoR slope: difference+3.491,95%CI[+.479,+6.503]. Raw rates
+show a low-PD ceiling and high-PD extreme jump; the latter misses monotonicity.
+This supports scoped background-value dependence, with linear-logit limitations,
+not a bandwidth mechanism or phase pass. See the
+[interpretation](pd_interaction_20260911/analysis/INTERPRETATION.md).
+Cumulative conservative charge$3.38389725; approximately$5.62 remains of$9.
+No further run is queued; the earlier900-call confirmation stays paused.
+
+
 ## Subsequent diagnostic update
 
 The900-call confirmation was stopped before launch. The researcher instead
