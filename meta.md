@@ -4,6 +4,60 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Explicit programme continuation and concurrent comparison
+
+The researcher explicitly approved carrying out all proposed steps while
+maintaining the objective and limitations, aiming to finish the phase today.
+Prepared the decision plan and next controlled diagnostic. The deadline is
+not permission to waive the original gate, change theory or enter Phase 2.
+
+New design: original/repeated text x canonical/numeric/verbal representation
+x MoR .1/.9, N60 per scientific condition, 720 calls, seed20260919. All messages
+are exact copies of frozen source cells. Two identical-message 30-call
+scheduling allocations implement each N60 condition with the unchanged
+executor. They are aggregated, not represented as independent replications.
+Full dispatch reservation $4.33278; cap $4.50; settled prior $2.039265, no
+pending calls, and settled usage plus cap remains below the original $9 limit.
+
+Primary: verbal average ADOPT rate (equal endpoint weights), repetition minus
+original, with conservative exact interval. Secondary: six endpoint effects
+and three direct changes in endpoint effects, nominal intervals. Baseline
+suppression and loss of parameter sensitivity are not the same result. No
+full-curve or retention verdict follows from these endpoints. Decisions after
+positive, negative or unresolved primary results are frozen in the protocol.
+
+Synthetic perspectives, not external review: Linden keeps behaviour shifts
+separate from ethical understanding. Osei requires concurrent original controls
+to resolve the historical batch confound. Tanaka supports N60 and direct
+contrasts while distinguishing primary/secondary uncertainty; no full-gate
+power or equivalence claim. Renna requires a candidate to address a demonstrated
+gap before confirmation. Okafor favours unchanged transport, explicit budget
+and a decision-ready record regardless of whether the gate can be cleared
+today. Resolution: execute bounded evidence-producing work, preserve all
+parameters and gates, never promise a favourable result by a deadline.
+
+Two tests pass: exact original/repetition source messages and profiles, 720
+unique seeds in balanced allocations, complete mock plus no-call resume,
+budget guard, N60 aggregation, incomplete outcomes, and a counterexample where
+average suppression occurs without changing endpoint sensitivity. No live
+dispatch is claimed by preparation; exact messages are reviewable in the
+new run directory and the authorization record states the actual user scope.
+
+Automatic approval review rejected launch before process creation despite
+explicit programme approval: it requires consent to the new exact private
+research payload, OpenAI destination, 720-call allocation and $4.50 cap. A
+prepared-scope request is pending. No paid calls or indirect launch was made.
+Completed unaffected work: a readiness record mapping remaining requirements,
+distinguishing the literal audit pass from unresolved recoverability, and
+drafting a factual report paragraph. Even a favourable endpoint diagnostic
+cannot itself close the full ten-parameter battery. No phase waiver or
+unjustified deadline-based pass is made.
+
+The researcher subsequently answered "Approve 720 calls, $4.50 cap" to the
+exact frozen-payload question. Saved `dispatch_approved.json` with design and
+message hashes; the unchanged command passed automatic approval review and
+collection began. All original limitations and the fixed N remain in force.
+
 ## 2026-09-11 - Offline ordering precision and rationale diagnosis
 
 The researcher asked to continue the proposed offline diagnosis. Exact

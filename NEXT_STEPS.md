@@ -10,6 +10,25 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Explicit continuation toward today's decision:** the researcher authorised
+carrying out the proposed programme while preserving objective and limitations.
+The [decision plan](experiments/phase1_5_encoding_validity/TODAY_DECISION_PLAN_20260911.md)
+fixes evidence-based follow-ups and keeps the original gate. First prepared
+step: [720-call concurrent original/repetition comparison](experiments/phase1_5_encoding_validity/repetition_factorial_20260911/PROTOCOL.md),
+N60 in 12 conditions (three representations, two endpoints, two texts), $4.50
+cap, $4.33278 reserve, same original prompts/model and no historical pooling.
+Primary is the verbal average rate difference; endpoint-sensitivity contrasts
+are separate. Two tests pass, including a full 720-call mock, exact source
+messages/profiles, balanced allocation, no-call resume, budget blocking and
+missing-data handling. Prepared scope is not collected evidence. No new gate,
+automatic full sweep, or Phase 2 launch is authorised by the deadline.
+**Comparison running:** the first launch was blocked before process creation
+by automatic approval review. The researcher then explicitly approved "Approve
+720 calls, $4.50 cap"; this is saved against the exact payload hashes in
+`dispatch_approved.json`. The unchanged launch passed review and is collecting.
+The [readiness record](experiments/phase1_5_encoding_validity/READINESS_20260911.md)
+maps outstanding requirements and provides a factual reporting paragraph.
+
 **Offline repetition diagnosis complete:** [findings](experiments/phase1_5_encoding_validity/repetition_diagnosis_20260911/FINDINGS.md)
 and [exact probability table](experiments/phase1_5_encoding_validity/repetition_diagnosis_20260911/PRECISION_TABLE.md).
 Conditional on its fitted positive curve being true, fresh repetition has only
