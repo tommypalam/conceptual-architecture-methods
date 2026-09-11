@@ -1,0 +1,11 @@
+{
+  "core_design_hash": "b5bfcaf29e053db07dc8cd81e8c53d962ae191456fe14ea4d287e38284e18a19",
+  "continuation_manifest_hash": "8aa6e14658b7f0e350fda42a6c224ae1137431d5e2e7de845a94cba13ba493b6",
+  "source_root": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\axis_instruction_20260910_recovery_snapshot_r3",
+  "continuation_root": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\axis_instruction_20260910_continuation_r3",
+  "source_records": 4884,
+  "continuation_records": 56,
+  "preserved_api_failures": 10,
+  "preparer_sha256": "1f30aa695624aeac91976ba4919e0b092952548ad35ebc6bc73f77c038e7ab84",
+  "note": "Incomplete byte-identical collection snapshot for a new continuation. No replacement or statistical override."
+}

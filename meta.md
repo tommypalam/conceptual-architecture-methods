@@ -4,6 +4,49 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Numeric-axis candidate collected, verified and not promoted
+
+Completed all 7,900 planned slots across the original segment and four disjoint
+continuations. There are 7,890 valid responses, ten preserved API failures, zero
+parsing failures and zero returned-model mismatches. Verified original request
+messages/profiles, all 7,900 unique requested seeds, 7,890 unique successful API
+IDs, record hashes, byte equality to source segments and every raw ZIP payload.
+The original frozen design/scorer and the ten unknown decisions remain intact.
+
+Revised canonical/P1/P2/P3 PD=.8/S3 ADOPT rates are .15125/.330413/.689223/.107769;
+baseline rates are .1075/.2125/.796992/.109023. Each arm establishes only one of
+six TOST pairs (canonical/P3), not the required all six; invalid-outcome sensitivity
+also fails all-pair equivalence. No all-formulation saturation flag. Revised
+PD/S1 slope is 4.0153 (95% interval .5460 to 7.4846), p=.007488, extreme h=.4949,
+but observed rates .94/.92/.98/1/1 fail the required monotonicity. The baseline
+is separated and ceiling-limited. PD/S2 and S3 remain descriptive. The conservative
+API-error flag is retained, but both substantive local criteria independently
+remain unmet. No between-arm improvement test or new directional claim is added.
+
+Synthetic interpretation review: Linden distinguishes failure of this candidate
+from impossibility of ethical-concept encoding; Osei retains the selected familiar
+problem, interruptions and model-specific scope; Tanaka retains all-pair TOST,
+unknown sensitivity and the prespecified monotonicity rule without claiming the
+small observed reversal proves population nonmonotonicity; Renna keeps the broad
+ethical-concept objective and Phase 2 gate; Okafor requires complete disjoint
+allocation and verified immutable records. Resolution: do not promote the
+candidate or automatically expand collection. Use the finished evidence packet
+for spec 4.5 review before further lexical re-engineering, preserving theory and
+the user's consultation requirement. No supervisor contact or descope is inferred.
+
+Recorded token cost $8.8045695; additional-budget estimate remaining $39.881084
+after the prior endpoint diagnostic. Taxes/provider-only charges remain external.
+The numeric report and figures are saved with a separate interpretation and
+recovery ledger under `axis_instruction_20260911_assembled/analysis`.
+
+Postprocessing initially stopped while plotting because floating-point Wilson
+bounds produced a tiny negative error-bar length at a boundary probability.
+Only the renderer was repaired: display lengths within 1e-12 of zero are clipped;
+larger inconsistencies still fail. Numerical intervals and the frozen scorer
+are untouched. Both figures were checked visually. Report v2 displays tiny
+p-values in scientific notation and marks non-prespecified criteria explicitly;
+the earlier derived report is retained. No extra API calls were used for reporting.
+
 ## 2026-09-11 - Preserve the third timeout segment and finish unsent slots
 
 The previous continuation stopped on September 10 at 10:17 UTC after 56

@@ -1,0 +1,26 @@
+{
+  "design_hash": "b5bfcaf29e053db07dc8cd81e8c53d962ae191456fe14ea4d287e38284e18a19",
+  "n_records": 7900,
+  "n_valid": 7890,
+  "n_api_failures": 10,
+  "api_failure_slots": [
+    "equivalence/baseline_paraphrase_2/PD/S3/0.8/call_0432",
+    "equivalence/baseline_paraphrase_2/PD/S3/0.8/call_0436",
+    "equivalence/baseline_paraphrase_3/PD/S3/0.8/call_0636",
+    "equivalence/baseline_paraphrase_3/PD/S3/0.8/call_0694",
+    "equivalence/revision_paraphrase_1/PD/S3/0.8/call_0235",
+    "equivalence/revision_paraphrase_2/PD/S3/0.8/call_0432",
+    "equivalence/revision_paraphrase_2/PD/S3/0.8/call_0436",
+    "equivalence/revision_paraphrase_3/PD/S3/0.8/call_0636",
+    "equivalence/revision_paraphrase_3/PD/S3/0.8/call_0694",
+    "sweep/revision/PD/S3/0.7/call_0048"
+  ],
+  "n_non_api_invalid": 0,
+  "n_unique_requested_seeds": 7900,
+  "n_unique_successful_api_ids": 7890,
+  "recorded_token_estimate_usd": 8.804569500000001,
+  "additional_budget_remainder_estimate_usd": 39.881084,
+  "exact_requests_profiles_source_bytes_and_zip_verified": true,
+  "verifier_sha256": "219e7b73f7518ccba8a4eadeb5e76614068064c087c5de193e8c9d9e5d766620",
+  "note": "Integrity verification only; no statistical override. Requested seeds do not guarantee provider determinism. ZIP is same-computer storage."
+}

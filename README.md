@@ -34,6 +34,11 @@ Phase 2 remains on hold. See the
 [NEXT_STEPS.md](NEXT_STEPS.md) owns the detailed current
 status, blockers, and next actions.
 
+A subsequent 7,900-slot controlled pilot tested one approved numeric-axis
+clarification. It did not resolve wording dependence or meet the local PD/S1
+criterion. All records, including ten API failures, are preserved and verified;
+see the [candidate assessment](experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/analysis/INTERPRETATION.md).
+
 Completed calibration exposed substantial prompt-harness effects on the tested
 model. The locked holdout therefore supplies measured, problem-specific naked
 baselines, rather than an assumed 50/50 reference. These findings and the

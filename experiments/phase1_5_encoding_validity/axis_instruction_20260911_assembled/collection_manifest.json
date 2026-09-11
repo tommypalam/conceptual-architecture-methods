@@ -1,0 +1,10 @@
+{
+  "core_design_hash": "b5bfcaf29e053db07dc8cd81e8c53d962ae191456fe14ea4d287e38284e18a19",
+  "continuation_manifest_hash": "435515d132a088be7324ab643088ccdbf6f788aea17e829b289ae18926538d4d",
+  "source_root": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\axis_instruction_20260911_recovery_snapshot_r4",
+  "continuation_root": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\experiments\\phase1_5_encoding_validity\\axis_instruction_20260911_continuation_r4",
+  "n_original": 4940,
+  "n_continuation": 2960,
+  "n_failures_preserved": 10,
+  "note": "Byte-identical union of original planned slots; no historical study pooling, failure replacement or statistical override. Only archive writer handles null model identities."
+}

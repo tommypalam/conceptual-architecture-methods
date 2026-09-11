@@ -1,0 +1,20 @@
+{
+  "path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\output\\validity_backups\\axis_instruction_20260911_final_report_bundle.zip",
+  "sha256": "ff27313915dfe0bbada3cfd77a99d5d1c52241bfa728c5e1a4d25acd52c93508",
+  "created_utc": "2026-09-11T00:29:22Z",
+  "report": "AXIS_PILOT_REPORT_v2.md",
+  "interpretation": "INTERPRETATION.md",
+  "artifacts": {
+    "axis_pilot_31bf832bf266c2b7.json": "900deb5b7401206e1c13404d15fcff8ec4f87833dc94f0c47ce804b8e811ffe9",
+    "AXIS_PILOT_REPORT.md": "108b74623391c06902d331a73813a296aea6ef064df232bb22eb6b228452d657",
+    "AXIS_PILOT_REPORT_v2.md": "11f9558030919c576407cb0c153044b0c7521a3f97e1027e284bb64433ad9ea9",
+    "collection_verification.json": "c9297b98db59825795b9a55bdce641cef5c9eef97bb4ce71b66daeb88a7b7a7c",
+    "INTERPRETATION.md": "8a010d06c91a9a58bc23b64dbabdbb2fce6a52b6ada9247c880b1a208a6fa707",
+    "pd_sweeps.png": "07ef93563761b43fb5532011f21dd008301295e6f8786a3388f64e06431bc160",
+    "RECOVERY_LEDGER.md": "bee91f6d8acde922d8509c17ad46ad901525d9018b6e859edc55968c52e341d0",
+    "render_provenance.json": "d7fa2addc61406594ee6a32fd5102aad6670256f293cbc43e87c45ca32d673e3",
+    "render_provenance_v2.json": "4ba1c93dad46ea9acfd405ab933a2db3828c721876ed345d9d0e8af2cda24eba",
+    "wording_rates.png": "0a9c33453870519fcac6220785dd56c45cd043e938f8f3c01fbc77976aff66b9"
+  },
+  "note": "Final derived reports, frozen numerical result, verification and renderer snapshot; original raw-record ZIP is unchanged. Same-computer backup."
+}

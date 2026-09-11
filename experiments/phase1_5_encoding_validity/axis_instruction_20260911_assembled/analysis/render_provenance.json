@@ -1,0 +1,10 @@
+{
+  "analysis_hash": "31bf832bf266c2b76740298133d7b43bd1e695176ff61b8df67a9e25e31d4e16",
+  "renderer_sha256": "1d54878e9cdeda4084faae50126c8007d2a462aa6d82cf92a398f4db7f1a19ac",
+  "artifacts": {
+    "AXIS_PILOT_REPORT.md": "108b74623391c06902d331a73813a296aea6ef064df232bb22eb6b228452d657",
+    "wording_rates.png": "0a9c33453870519fcac6220785dd56c45cd043e938f8f3c01fbc77976aff66b9",
+    "pd_sweeps.png": "07ef93563761b43fb5532011f21dd008301295e6f8786a3388f64e06431bc160"
+  },
+  "note": "Post-collection formatting of frozen analysis; no new tests or outcome filtering."
+}

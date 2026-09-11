@@ -10,51 +10,40 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
-**Latest transport checkpoint, September 11:** `continuation_r3` stopped after
-56 new records with one request timeout. Across segments, 4,940 slots are
-recorded: 4,930 valid responses and ten preserved API failures, costing
-$5.5044945 in reported tokens. No parsing failures occurred in this continuation.
-Collection remained stopped overnight. Current endpoint diagnostics passed;
-`axis_instruction_20260911_continuation_r4` now collects the 2,960 unsent slots
-from a verified combined snapshot. The original executor, request settings,
-analysis and combined $12 guard remain unchanged. Its local finalizer writes to
-`axis_instruction_20260911_assembled` only after successful collection. Live
-status files are under the corresponding `output/` directories. Earlier
-finalizers stopped safely; the notes below describe historical checkpoints,
-not a completed result.
+**Latest completion - numeric-axis pilot:** all 7,900 planned slots are recorded
+in `axis_instruction_20260911_assembled`: 7,890 valid responses, ten preserved
+API failures, no parsing failures and no returned-model mismatches. No paid
+collection remains running. Neutral context, model `gpt-5.4-mini-2026-03-17`,
+seed 20260913, temperature 1, output cap 600. Exact requests, profiles, unique
+requested seeds/API IDs, source bytes and all ZIP record payloads are verified.
 
-**Prepared candidate revision:** `axis_instruction_20260910` adds one shared
-numeric-axis reading instruction, with all endpoint definitions and original
-control messages unchanged. Exact human review is recorded in its
-[review file](experiments/phase1_5_encoding_validity/axis_instruction_20260910/HUMAN_REVIEW.md).
-The researcher approved the exact revision; approval is recorded separately
-in `review_approved.json`. The [local pilot](experiments/phase1_5_encoding_validity/axis_instruction_20260910/PROTOCOL.md)
-plans 7,900 fresh responses: 6,400 for PD=.8/S3 four-formulation equivalence
-(800 per formulation per baseline/revision arm) and 1,500 for canonical PD sweeps
-across S1/S2/S3. Five focused tests passed, including a 1,516-call mock.
-Expected cost about $9; $12 dispatch guard within the approximately $48.69
-additional budget remaining at launch. The original segment stopped on four
-connection errors after 3,016 records (3,012 valid; $3.360072 recorded usage).
-Those slots remain reserved as failures. Connectivity was verified restored;
-`axis_instruction_20260910_continuation` also stopped: its first four requests
-returned connection errors. Eight failures are now reserved across 3,020 records,
-with recorded spending unchanged. Generic concurrent endpoint diagnostics
-succeeded; an attached-process continuation is running for the 4,880 unsent
-slots under `axis_instruction_20260910_continuation_r2`, using a byte-identical
-combined recovery snapshot, unchanged messages/seeds and the combined $12 guard. Logs and status
-are under the corresponding `output/` directories. At the 600-new-response
-checkpoint it had no additional terminal errors and combined recorded spending
-was $4.0306. This is a checkpoint, not a live total. A local finalizer waits for
-successful collection, then archives the continuation, assembles the original
-7,900 slots, runs the frozen analysis, verifies requests/seeds/source bytes and
-ZIP payloads, and renders the report. Its status is
-`output/axis_instruction_20260910_assembled/status.json`; final artifacts will be
-under `axis_instruction_20260910_assembled/analysis`. Any further collection
-failure stops finalization. Scientific interpretation and milestone commit still
-require review after the report is ready. The incomplete original
-snapshot has checksums and a verified local ZIP. No theory changes. This is one
-development candidate, not a full battery rerun or a promised repair. The spec's
-supervisor-discussion point is recorded before a full revised-battery attempt.
+The approved shared instruction **did not meet the local screen**. Revised
+canonical/P1/P2/P3 ADOPT rates at PD=.8/S3 are 15.1% / 33.0% / 68.9% / 10.8%.
+Only canonical/P3 establishes equivalence: one of six pairs in each arm, where
+all six are required. Unknown-decision sensitivity does not establish all-pair
+equivalence. Neither arm has the all-formulation saturation flag. Revised PD/S1
+has a positive fitted slope (p=.00749, extreme h=.495), but its observed
+94%/92%/98%/100%/100% sequence fails the prespecified monotonicity check. The
+baseline is ceiling-limited with separation. S2/S3 remain descriptive because
+they have no prespecified PD directional hypothesis. The retained API-failure
+flag is not the sole reason the local screen is unmet.
+
+See the [interpretation and next dependency](experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/analysis/INTERPRETATION.md),
+[full report and figures](experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/analysis/AXIS_PILOT_REPORT_v2.md),
+and [recovery ledger](experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/analysis/RECOVERY_LEDGER.md).
+The original approved design is `axis_instruction_20260910`; four linked
+continuations collected only unsent slots. All failures and the overnight gap
+remain documented. No old-study responses were pooled or failures replaced.
+
+Recorded pilot token estimate: **$8.8045695**, under the shared $12 dispatch
+guard. Approximately **$39.881084 remains** from the additional $50 after this
+pilot and the endpoint diagnostic, before provider-only charges and taxes.
+Checksums and verified same-computer ZIPs are saved; off-device backup is not
+claimed. The final report's chart-roundoff formatting repair changed no numerical
+analysis. Collection is complete; the original Phase 1.5 gate remains unmet and
+Phase 2 remains on hold. The candidate is not promoted to a full revised battery.
+The completed evidence packet supports the spec 4.5 research/supervisor review
+before choosing further lexical re-engineering. Theory and scope are unchanged.
 
 **Latest completion - PD endpoints:** all 1,200 responses are valid, 300 per
 condition, with zero terminal API/model failures. Fixed PD=.8/S3, P2 background,
@@ -64,8 +53,8 @@ to +47.2); high-end +47.2 (+35.1 to +57.7); interaction +3.7 (-18.9 to +26.2).
 Both endpoints matter; interaction remains unresolved. Exact messages, hashes,
 analysis counts and byte equality of all 1,200 archived records are verified.
 See the [endpoint report](experiments/phase1_5_encoding_validity/pd_endpoints_20260910/analysis/ENDPOINT_REPORT.md).
-Estimated token cost $1.3143465; approximately $48.69 remains from the additional
-$50, before taxes or unreported retry charges. Collection is complete; status is
+Estimated token cost $1.3143465; approximately $48.69 remained from the additional
+$50 immediately after this diagnostic, before the axis pilot and provider-only charges. Collection is complete; status is
 under `output/pd_endpoints_20260910`. Phase 1.5 remains open. Later simple problems
 use LPMs and complex problems an Agents of Chaos-style build.
 
@@ -205,7 +194,9 @@ The recommended two-by-two attribution experiment is now complete and supports
 PD wording, background wording and interaction effects; see the latest status
 above. The low/high PD endpoint diagnostic is also complete and supports large
 effects from both endpoint descriptions. One operational numeric-axis revision
-and its fresh local validation pilot are now prepared for exact review, as above.
+was approved and its fresh local validation pilot is complete; it did not meet
+the local screen. The interpretation and review packet above provide the next
+research-decision evidence.
 The full revised battery is not prepared or authorised for automatic launch.
 Increasing N alone cannot remove the wording
 effect demonstrated here. The theory remains unchanged and Phase 2 is on hold.

@@ -15,7 +15,18 @@ from engine.validity_sweep import digest
 from run_validity_claude import save_new
 
 
-def render(root,analysis_path):
+def interval_errors(y,lo,hi):
+    errors=np.array([y-lo,hi-y])
+    if np.any(errors < -1e-12):
+        raise ValueError('Interval does not contain its plotted estimate')
+    # Wilson bounds at exactly 0/1 can differ by machine roundoff.
+    # Clip display lengths only; retain the original numerical intervals.
+    return np.maximum(errors,0.)
+
+
+def render(root,analysis_path,revision=1):
+    if revision<1: raise ValueError('Report revision must be positive')
+    suffix='' if revision==1 else f'_v{revision}'
     m=json.loads((root/'manifest.json').read_text(encoding='utf-8'));d=m['design']
     r=json.loads(analysis_path.read_text(encoding='utf-8'))
     if digest(d)!=m['design_hash'] or r['design_hash']!=m['design_hash'] or digest(r)[:16] not in analysis_path.name:
@@ -32,7 +43,7 @@ def render(root,analysis_path):
     for offset,arm in [(-.15,'baseline'),(.15,'revision')]:
         cells=[next(c for c in r['cells'] if c['stage']=='equivalence' and c['arm']==arm and c['wording']==name) for name in names]
         y=np.array([c['rate'] for c in cells]);lo=np.array([c['ci95'][0] for c in cells]);hi=np.array([c['ci95'][1] for c in cells])
-        ax.errorbar(np.arange(4)+offset,y,yerr=[y-lo,hi-y],fmt='o',capsize=4,color=colors[arm],label=arm.capitalize())
+        ax.errorbar(np.arange(4)+offset,y,yerr=interval_errors(y,lo,hi),fmt='o',capsize=4,color=colors[arm],label=arm.capitalize())
     ax.set(xticks=np.arange(4),xticklabels=['Canonical','P1','P2','P3'],ylim=(-.03,1.03),ylabel='ADOPT proportion',title='PD=.8 / S3: fresh baseline and numeric-axis instruction')
     ax.legend();ax.grid(axis='y',alpha=.2);fig.text(.5,.01,'Pointwise Wilson 95% intervals; equivalence decisions use the separately reported six-pair TOST.',ha='center',fontsize=8)
     fig.tight_layout(rect=(0,.04,1,1));fig.savefig(root/'analysis/wording_rates.png',dpi=180);plt.close(fig)
@@ -42,7 +53,7 @@ def render(root,analysis_path):
             curve=next(c for c in r['sweeps']['sweeps'] if c['arm']==arm and c['problem']==problem)
             cells=curve['cells'];y=np.array([c['rate'] for c in cells])
             ax.errorbar([c['value'] for c in cells],y,
-                yerr=[y-np.array([c['ci95'][0] for c in cells]),np.array([c['ci95'][1] for c in cells])-y],
+                yerr=interval_errors(y,np.array([c['ci95'][0] for c in cells]),np.array([c['ci95'][1] for c in cells])),
                 fmt='o-',capsize=3,color=colors[arm],label=arm.capitalize())
         ax.set(title=problem,xlabel='PD value',ylim=(-.03,1.03));ax.grid(alpha=.2)
     axes[0].set_ylabel('First-option proportion');axes[-1].legend()
@@ -84,7 +95,9 @@ def render(root,analysis_path):
         '| Arm | Problem | Fit | Slope | Slope p | Extreme Cohen h | Monotonic | Prespecified sign | Original criterion |',
         '|---|---|---|---:|---:|---:|---|---|---|']
     for c in r['sweeps']['sweeps']:
-        f=c['fit'];lines.append(f'| {c["arm"]} | {c["problem"]} | {f["status"]} | {number(f.get("slope"))} | {number(f.get("p_value"),6)} | {number(c["cohens_h_extremes"])} | {c["monotonic"]} | {c["predicted_direction"]} | {c["criterion_met"]} |')
+        f=c['fit'];p='NA' if f.get('p_value') is None else f'{f["p_value"]:.6g}'
+        criterion=c['criterion_met'] if c['predicted_direction'] is not None else 'Not prespecified'
+        lines.append(f'| {c["arm"]} | {c["problem"]} | {f["status"]} | {number(f.get("slope"))} | {p} | {number(c["cohens_h_extremes"])} | {c["monotonic"]} | {c["predicted_direction"]} | {criterion} |')
     lines+=['','![PD sweeps](pd_sweeps.png)','',
         'Only PD/S1 has a prespecified directional hypothesis. S2/S3 are descriptive; missing hypotheses are not failures. The original N=50 sweep retains its ceiling and precision limitations. Slope intervals, cell counts and endpoint-change contrasts are in the numerical analysis.','',
         '## Limits and next decision','',
@@ -93,10 +106,10 @@ def render(root,analysis_path):
         f'Returned-usage token estimate: **${r["recorded_token_estimate_usd"]:.6f}**, before taxes and unreported retry charges. Approximate additional-budget remainder: **${48.6856535-r["recorded_token_estimate_usd"]:.6f}**.',
         'Rates used were the September 10 verified $0.75/million input and $4.50/million output, without cache discounts. Provider billing is authoritative.',
         f'Numerical evidence: [{analysis_path.name}]({analysis_path.name}); [protocol](../PROTOCOL.md); [approval](../review_approved.json); [raw-record inventory](../record_checksums.json); [local ZIP metadata](../local_backup.json). Same-computer storage is not an off-device backup.','']
-    report=root/'analysis/AXIS_PILOT_REPORT.md';content='\n'.join(lines)
+    report=root/'analysis'/f'AXIS_PILOT_REPORT{suffix}.md';content='\n'.join(lines)
     if report.exists() and report.read_text(encoding='utf-8')!=content: raise ValueError('Existing final report differs')
     report.write_text(content,encoding='utf-8')
-    save_new(root/'analysis/render_provenance.json',{'analysis_hash':digest(r),
+    save_new(root/'analysis'/f'render_provenance{suffix}.json',{'analysis_hash':digest(r),
         'renderer_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
         'artifacts':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in [report,root/'analysis/wording_rates.png',root/'analysis/pd_sweeps.png']},
         'note':'Post-collection formatting of frozen analysis; no new tests or outcome filtering.'})
@@ -105,4 +118,5 @@ def render(root,analysis_path):
 
 if __name__=='__main__':
     p=argparse.ArgumentParser(description=__doc__);p.add_argument('--run-root',type=Path,required=True);p.add_argument('--analysis',type=Path,required=True)
-    a=p.parse_args();render(a.run_root.resolve(),a.analysis.resolve())
+    p.add_argument('--revision',type=int,default=1)
+    a=p.parse_args();render(a.run_root.resolve(),a.analysis.resolve(),a.revision)

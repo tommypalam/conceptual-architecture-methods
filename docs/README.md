@@ -29,6 +29,11 @@ abstract in a versioned source document.
 
 ## Empirical evidence
 
+- [Completed Phase 1.5 battery assessment](../experiments/phase1_5_encoding_validity/phase_review_20260909/BATTERY_ASSESSMENT.md).
+- [PD wording factorial](../experiments/phase1_5_encoding_validity/wording_factorial_20260910/analysis/FACTORIAL_REPORT.md).
+- [PD endpoint attribution](../experiments/phase1_5_encoding_validity/pd_endpoints_20260910/analysis/ENDPOINT_REPORT.md).
+- [Numeric-axis candidate assessment](../experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/analysis/INTERPRETATION.md) and [numerical report](../experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/analysis/AXIS_PILOT_REPORT_v2.md).
+
 - [Phase 0 closure](../experiments/PHASE0_CLOSURE_2026-07-29.md).
 - [Locked holdout](../experiments/phase0c_locked_holdout/PHASE0C_RESULT_2026-07-29.md).
 - [Phase 1 pilot](../experiments/phase1_pilot/PHASE1_PILOT_RESULT_2026-07-29.md).
