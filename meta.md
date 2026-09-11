@@ -4,6 +4,32 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Stop paid Phase 1.5 collection and screen candidates first
+
+The researcher reports $12 remaining in the OpenAI account, asks to avoid full
+sweeps just to screen new approaches, and says not to spend any more of that
+balance on this phase. This supersedes the prior $50 allowance for further
+Phase 1.5 OpenAI dispatch. No collection process was running when checked.
+Do not shift paid experimentation to another provider to evade the constraint.
+The previous $39.881084 remainder was an estimate against a planning allowance,
+not a verified account balance; historical cost records remain unchanged.
+
+Proceed with zero-additional-API work: examine existing failure cases, review
+theory-faithful candidate mechanisms and verify implementation with local mocks.
+Future empirical candidate screening, if explicitly funded, should use a small
+fixed allocation aimed at detecting gross failures, with its decision rule and
+cost cap fixed before dispatch. Larger equivalence samples belong to validation
+after screening. No new paid screen, automatic escalation or full sweep is
+authorised now. Existing data cannot be presented as responses to a new prompt.
+
+Synthetic review: Linden retains exact theoretical meanings; Osei distinguishes
+development screening from independent validation; Tanaka warns that small-N
+screens can reject gross failures but cannot establish tight equivalence; Renna
+retains the ethical-encoding objective and unchanged gate; Okafor prioritises
+existing records and offline checks under the spending stop. Resolution: staged
+candidate development with no new API spend, no reduced gate and no claim that
+mock behaviour demonstrates model validity.
+
 ## 2026-09-11 - Numeric-axis candidate collected, verified and not promoted
 
 Completed all 7,900 planned slots across the original segment and four disjoint

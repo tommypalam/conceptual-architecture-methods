@@ -10,6 +10,22 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Current spending constraint (September 11):** the researcher reports $12 left
+in the OpenAI account and instructs us not to spend any more of it on Phase 1.5.
+No further OpenAI calls are authorised for this phase. Do not substitute paid
+calls to another provider to work around this constraint. No collection process
+is running. Work now uses existing records, theory/specification review and
+offline implementation checks. The earlier $50 allowance does not authorise
+further spending under this newer instruction.
+
+New approaches must be screened before any full sweep: inspect known failure
+cases, check exact theoretical mappings and use local mocks for implementation
+correctness. If empirical testing is later explicitly funded, propose a small,
+fixed, targeted screening study with a stopping rule before dispatch. Screening
+can reject weak candidates; a promising small sample or an offline check does
+not establish equivalence or close the validity gate. A full battery requires
+its own justified validation plan and renewed spending authorisation.
+
 **Latest completion - numeric-axis pilot:** all 7,900 planned slots are recorded
 in `axis_instruction_20260911_assembled`: 7,890 valid responses, ten preserved
 API failures, no parsing failures and no returned-model mismatches. No paid
@@ -36,8 +52,10 @@ continuations collected only unsent slots. All failures and the overnight gap
 remain documented. No old-study responses were pooled or failures replaced.
 
 Recorded pilot token estimate: **$8.8045695**, under the shared $12 dispatch
-guard. Approximately **$39.881084 remains** from the additional $50 after this
-pilot and the endpoint diagnostic, before provider-only charges and taxes.
+guard. The earlier **$39.881084** figure was arithmetic against the proposed
+additional $50 allowance, not a checked provider-account balance. It is not
+current spending authority; the researcher's reported $12 balance and no-spend
+instruction above govern further work.
 Checksums and verified same-computer ZIPs are saved; off-device backup is not
 claimed. The final report's chart-roundoff formatting repair changed no numerical
 analysis. Collection is complete; the original Phase 1.5 gate remains unmet and
@@ -164,7 +182,7 @@ The stored failures must not be deleted or replaced to make the run resumable.
 
 ## Next actions
 
-**Researcher clarification, September 10:** the objective remains implementing
+**Researcher clarification, September 10 (budget superseded September 11):** the objective remains implementing
 and testing the theory's ethical-concept encoding, not replacing that objective
 with a stand-alone wording study to meet the deadline. The researcher authorised
 up to $50 additional API expenditure and wants a submission-ready thesis in ten
