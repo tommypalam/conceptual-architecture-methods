@@ -1,0 +1,13 @@
+{
+  "path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\output\\validity_backups\\claude_screen_20260911_reports.zip",
+  "sha256": "9b528e1ae141aa3a57179f8848365ef99f8d2b2d0699540dee9aa4ee28765235",
+  "artifacts": {
+    "analysis/QUALITATIVE_NOTES.md": "55bd57c3af864c2d3465ada9b65482d930e5c2edb2153b5ed9b34384499e9f01",
+    "analysis/screen_54e26825057964be.json": "4f743a9a9ef00395cf2d0001994fa4ca4d1d579e890a784313ca08f803c9f355",
+    "analysis/SCREEN_REPORT.md": "b94b4751cbe7580b6d1c597febb521a2afa7c3b8c78cc0ae834dc28cb7b7d1c0",
+    "analysis/verification.json": "513a5613e7eeea70fa678bae6238d054d9455c71f62b44ceef2d44496d83eedb",
+    "offline/retrospective_c0106a7dbff227b3.json": "21027c1e0c0ab5cff12c12500ef5e5b6bd7c997442c8c2017349307630eea701",
+    "offline/RETROSPECTIVE_SCREEN.md": "2926ec90f18e4345de0247cd401e74f95907ec37ad79deadd4db17d3754bfbbc"
+  },
+  "note": "Verified final reports and code snapshot; same-computer backup. Raw ZIP preserved separately."
+}

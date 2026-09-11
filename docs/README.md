@@ -33,6 +33,7 @@ abstract in a versioned source document.
 - [PD wording factorial](../experiments/phase1_5_encoding_validity/wording_factorial_20260910/analysis/FACTORIAL_REPORT.md).
 - [PD endpoint attribution](../experiments/phase1_5_encoding_validity/pd_endpoints_20260910/analysis/ENDPOINT_REPORT.md).
 - [Numeric-axis candidate assessment](../experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/analysis/INTERPRETATION.md) and [numerical report](../experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/analysis/AXIS_PILOT_REPORT_v2.md).
+- [80-call Claude screen with unchanged prompts](../experiments/phase1_5_encoding_validity/claude_screen_20260911/analysis/SCREEN_REPORT.md) and [illustrative reasoning notes](../experiments/phase1_5_encoding_validity/claude_screen_20260911/analysis/QUALITATIVE_NOTES.md).
 
 - [Phase 0 closure](../experiments/PHASE0_CLOSURE_2026-07-29.md).
 - [Locked holdout](../experiments/phase0c_locked_holdout/PHASE0C_RESULT_2026-07-29.md).

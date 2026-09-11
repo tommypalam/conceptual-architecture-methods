@@ -6,6 +6,51 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 ## 2026-09-11 - Authorised Claude use with original prompts preserved
 
+**Completed result:** all 80 responses are valid, with no API/model failures and
+one attempt per call. Canonical/P1/P2/P3 ADOPT counts are 13/14/19/6 out of 20.
+The prespecified P2-minus-P3 gap is .65, conservative exact interval
+[.1470303, .8971165], exceeding the .10 margin at the lower bound. The fixed
+gross-failure screen therefore rejects the tested provider switch as a repair
+for this selected problem. No broader model ranking or Phase 1.5 pass is claimed.
+Recorded-token cost $0.156395, within the approved $0.75 cap; no OpenAI calls.
+All 80 exact messages/profiles, unique API IDs, one-attempt records, frozen
+source hashes and ZIP payload bytes are verified. No automatic expansion.
+
+Inspected the first three call indices of each formulation (12 responses) after
+collection. Illustrative ADOPT reasons sometimes equate peer evidence with
+procedural legitimacy and add future transparent reassignment/support; WAIT
+reasons emphasise planning or consensus. This suggests an assumption-grounding
+question for offline review, not a proved internal mechanism or a claim that
+either choice is normatively correct. The original dilemma leaves some
+implementation discretion. The notes are unblinded and non-exhaustive, not
+the moral-coding manual or a new validated audit. Original prompts are unchanged.
+
+Synthetic result review: Linden separates intended ethical meaning from the
+model's reconstructed procedure; Osei flags self-report rationalisation and
+selected-task/provider scope; Tanaka retains the prespecified primary interval
+and forbids equating small-sample non-rejection with equivalence; Renna keeps
+the ethical-encoding objective while rejecting this particular shortcut;
+Okafor requires the verified immutable record/ZIP trail and no extra spending.
+Resolution: preserve the negative screen, use existing explanations to refine
+the failure hypothesis offline, and do not launch a full sweep or edit prompts.
+
+**Exact dispatch approval:** automatic approval review initially rejected launch
+because it required approval of this specific payload, 80-call allocation and
+$0.75 cap. No inference calls were sent by that rejected action. The researcher
+then answered "Approve 80 calls, $0.75 cap" to the exact protocol request.
+Recorded this approval against the frozen design and message hashes in
+`dispatch_approved.json`; launched that exact screen. Preparation and two tests
+were committed before outcomes as `05e397ef`. No additional study is authorised.
+
+While awaiting approval, performed one offline retrospective worked example:
+first 20 stored call indices per original OpenAI baseline formulation, no subset
+or sample-size search. Counts are canonical/P1/P2/P3 = 1/6/14/2 ADOPT out of 20
+each. P2 minus P3 = .60, conservative interval [.078, .889]. The small screen's
+rule does not establish a gap beyond .10 in that example, despite the large
+observed difference. This makes the precision limitation explicit; it is not
+an independent validation, general power estimate or result about Claude.
+Neither allocation nor analysis was changed after this retrospective check.
+
 The researcher explicitly asked to improve Phase 1.5 using remaining Claude
 API usage while preserving original prompts. OpenAI remains at zero new spend.
 Requested a total Claude cap; pending a specific answer, restrict the proposed

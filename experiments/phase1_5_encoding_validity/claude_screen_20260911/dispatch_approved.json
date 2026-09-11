@@ -1,0 +1,13 @@
+{
+  "approved": true,
+  "reviewer": "researcher (user)",
+  "response": "Approve 80 calls, $0.75 cap",
+  "timestamp_recorded_utc": "2026-09-11T08:29:22Z",
+  "design_hash": "dd032d1b4fe07201974c53239dc51ef0be5dcb22307f754e488a53d4ca6ca198",
+  "exact_messages_hash": "193d75ab51f4aa9ac309d75e8d77af7cb7bd5619b110f62c432c39bc974b742b",
+  "provider": "anthropic",
+  "planned_calls": 80,
+  "spending_ceiling_usd": 0.75,
+  "openai_calls": 0,
+  "scope": "Exact prepared PD/S3 four-formulation diagnostic; unchanged approved messages. No automatic expansion."
+}

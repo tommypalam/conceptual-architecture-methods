@@ -1,0 +1,11 @@
+{
+  "n_records": 80,
+  "n_valid": 80,
+  "n_unique_api_ids": 80,
+  "n_attempts": 80,
+  "input_tokens": 78420,
+  "output_tokens": 15595,
+  "recorded_token_estimate_usd": 0.15639499999999998,
+  "original_requests_profiles_hashes_and_archive_verified": true,
+  "reporter_sha256": "bb3efa218626fa3f30da9640f9ae830bc5ad4b1151f48fc39ea8cc0da059b303"
+}

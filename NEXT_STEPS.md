@@ -16,16 +16,36 @@ No further OpenAI calls are authorised for this phase. The researcher has since
 explicitly authorised using remaining Claude API usage, with original prompts
 unchanged. This is new provider-specific authority, not a workaround for the
 OpenAI spending stop. The earlier $50 allowance does not authorise new OpenAI
-spending. A total Claude cap was requested; while pending, the prepared small
-screen uses a conservative $0.75 local cap with no automatic expansion.
+spending. The researcher explicitly approved the exact 80-call Claude screen
+and $0.75 cap. This is its entire current paid scope; no automatic expansion.
 
-**Prepared next diagnostic:** `claude_screen_20260911` uses the exact four
-previously approved baseline formulations at PD=.8/S3, 20 responses each, 80
-total. It reuses the pinned Haiku snapshot, with no original prompt edits and
-no unsuccessful axis instruction. This is a model/provider screen for gross
-wording dependence, not a sweep or phase-pass test. Expected $0.15–$0.25; $0.75
-dispatch guard. Two offline tests passed and the model is accessible. See its
-[fixed protocol](experiments/phase1_5_encoding_validity/claude_screen_20260911/PROTOCOL.md).
+**Latest completed diagnostic:** `claude_screen_20260911` collected all 80 valid
+responses with the exact four approved baseline formulations at PD=.8/S3,
+20 per formulation. No original prompt was changed. Canonical/P1/P2/P3 ADOPT
+counts are 13/14/19/6 out of 20: 65% / 70% / 95% / 30%. The prespecified P2-minus-P3
+gap is 65 points, with conservative exact >=95% interval [14.7, 89.7] points.
+Its lower bound exceeds the .10 margin: **gross wording failure detected**.
+The tested Haiku/provider switch does not repair this known local problem.
+This is an early screen, not a full sweep or phase-pass test.
+
+Recorded cost **$0.156395**, within the explicitly approved $0.75 cap; zero
+OpenAI calls, zero API/model failures, one attempt per call. All requests,
+profiles, IDs, frozen sources and raw ZIP payloads are verified. No collection
+remains running and no further paid study is automatically authorised. See the
+[screen report](experiments/phase1_5_encoding_validity/claude_screen_20260911/analysis/SCREEN_REPORT.md),
+[fixed protocol](experiments/phase1_5_encoding_validity/claude_screen_20260911/PROTOCOL.md)
+and [illustrative reasoning notes](experiments/phase1_5_encoding_validity/claude_screen_20260911/analysis/QUALITATIVE_NOTES.md).
+The notes identify a tentative mechanism: answers supply different implicit
+procedural details for ADOPT versus WAIT. This is an unblinded 12-response
+inspection, not a causal finding or validated coding instrument. The next
+offline review should distinguish stated facts from added assumptions and
+their links to PD; original prompts and theory remain unchanged.
+
+An [offline worked example](experiments/phase1_5_encoding_validity/claude_screen_20260911/offline/RETROSPECTIVE_SCREEN.md)
+used only the first 20 stored call indices per original OpenAI formulation.
+Its P2/P3 gap is .60, with conservative interval [.078, .889]: too wide to
+establish a gap beyond .10 under this screen's rule. This single retrospective
+subset is not a power estimate or evidence about Claude; no subsets were searched.
 
 New approaches must be screened before any full sweep: inspect known failure
 cases, check exact theoretical mappings and use local mocks for implementation

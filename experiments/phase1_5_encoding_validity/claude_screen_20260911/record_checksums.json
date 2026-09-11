@@ -1,0 +1,326 @@
+{
+  "design_hash": "dd032d1b4fe07201974c53239dc51ef0be5dcb22307f754e488a53d4ca6ca198",
+  "n_records": 80,
+  "index": [
+    {
+      "record_key": "canonical/call_0001",
+      "record_hash": "5a5cac727db8aa0c708528e9c8f26980c182a33a170011beac64c2c440f9dd0c"
+    },
+    {
+      "record_key": "canonical/call_0002",
+      "record_hash": "a0a13f9d9abcd97c2bad0f8c8fba59c8b40d115a18d6bbcf399d0a884e6a7f36"
+    },
+    {
+      "record_key": "canonical/call_0003",
+      "record_hash": "6afdc7705d854685b8ed667c13205209ebd782226016e3f658de71e5ea597f45"
+    },
+    {
+      "record_key": "canonical/call_0004",
+      "record_hash": "42af5fac6e8e1f896ad0f2870df0e023a95aeb3192f519bdb7b5e4a14590c61a"
+    },
+    {
+      "record_key": "canonical/call_0005",
+      "record_hash": "9e887c1e5cb0e2deeb55f8fc1ef86dec55f1d7050d02c655e26d9145865726dd"
+    },
+    {
+      "record_key": "canonical/call_0006",
+      "record_hash": "5bad1b0a33a83153bffbfa42fe32c26e7a4ed6535bf698d47ea30776631b3d06"
+    },
+    {
+      "record_key": "canonical/call_0007",
+      "record_hash": "676f990affd6d70c8b7500a6a5a6b28812f5a511354f723c6df1eb85c5ea758f"
+    },
+    {
+      "record_key": "canonical/call_0008",
+      "record_hash": "8790f3e09cbd5f0cf42e2b1e4a9b0bcba01ac7e2f51ebf2b57c92f0fb3d21dc7"
+    },
+    {
+      "record_key": "canonical/call_0009",
+      "record_hash": "61c9210cd0fc76af7f84cd4ba0f9a8e34f0c587d39db1a14e55feecffc0257ab"
+    },
+    {
+      "record_key": "canonical/call_0010",
+      "record_hash": "643a741b0a772c61fa93d0df526e9979804de15904fed1fa115006d9fda71957"
+    },
+    {
+      "record_key": "canonical/call_0011",
+      "record_hash": "51d0df00c2b40517cb564670d2f0e1710a105f9f9693ae82b788147809216895"
+    },
+    {
+      "record_key": "canonical/call_0012",
+      "record_hash": "19464a6c5e596aee9157c7a8bfbaa0fced6f10613d266536882d0cafadb65446"
+    },
+    {
+      "record_key": "canonical/call_0013",
+      "record_hash": "6c312add3b09283903eb365ba06821169a090266afcdcd1aeca402d5c8be4893"
+    },
+    {
+      "record_key": "canonical/call_0014",
+      "record_hash": "e6a473c9152056916591d88b5b39738c58f6c80db9e96ed2ba8e1b37f4077ade"
+    },
+    {
+      "record_key": "canonical/call_0015",
+      "record_hash": "54aa497c503dc41804021c5fbedc100c8e8c8c5ef89011ff2fbc16bf04e3f4e0"
+    },
+    {
+      "record_key": "canonical/call_0016",
+      "record_hash": "b56c9467a814ad8305dd101e639124fe42adfa426705c1b73ab924b330a7e329"
+    },
+    {
+      "record_key": "canonical/call_0017",
+      "record_hash": "60752bd8a6771e65c68ad609d5b1434fcaecaba753ed0018926be89f264488b5"
+    },
+    {
+      "record_key": "canonical/call_0018",
+      "record_hash": "c48eac202097de2fdf949f2ba4c00097e404a50849a721916443f3c26c020acc"
+    },
+    {
+      "record_key": "canonical/call_0019",
+      "record_hash": "e9c9b00231c30a6d7b929017283b74a3bf1a534eb01c658163bd1b63fc248ff6"
+    },
+    {
+      "record_key": "canonical/call_0020",
+      "record_hash": "5ffc920eebd0de4db4f4143df74654c89198b74ef46bec9e94568b59ebb66ae8"
+    },
+    {
+      "record_key": "paraphrase_1/call_0001",
+      "record_hash": "856a3bdbcba3726a30f1d6b6fec7c4804ec6ec9dd60411ab534e19321e3b927e"
+    },
+    {
+      "record_key": "paraphrase_1/call_0002",
+      "record_hash": "63aae89bedd928f30e28b56c7fb76db3e70e64afb576e75ce8d17f7fdb55f09b"
+    },
+    {
+      "record_key": "paraphrase_1/call_0003",
+      "record_hash": "06a18d9279174d1e5b271f6938954c2fcf5630ccbbbcd8df02f65810d58cb2de"
+    },
+    {
+      "record_key": "paraphrase_1/call_0004",
+      "record_hash": "e2d0f43db5a2714be6785d04b837e60036e52ee3a019fe897dfde1abbe030077"
+    },
+    {
+      "record_key": "paraphrase_1/call_0005",
+      "record_hash": "8eaf14287ecef05ffbc6b1dc529ac68cf670efd0806ec164b925493b42259651"
+    },
+    {
+      "record_key": "paraphrase_1/call_0006",
+      "record_hash": "b6ced9d22a5a69050011e7f445d4cc48d2ff709b4597858a4714e75ca8a6fa1e"
+    },
+    {
+      "record_key": "paraphrase_1/call_0007",
+      "record_hash": "e6c81cd373f7231971f3171750aaf954d6dc02014c2f7c602019eed8c893fbdd"
+    },
+    {
+      "record_key": "paraphrase_1/call_0008",
+      "record_hash": "c34738d2169d41eceae434e9d38aced5d3c9bfdcea780d392fb9de35bbdf14c3"
+    },
+    {
+      "record_key": "paraphrase_1/call_0009",
+      "record_hash": "f26f6f24a4a13432f4cdd173450daa5ae4cf84f1e69b3ea4c73182b2012e85d0"
+    },
+    {
+      "record_key": "paraphrase_1/call_0010",
+      "record_hash": "8642d477e2044e90005e4f12faf22417367aa3ebbe8eda21e370a058f978b3d9"
+    },
+    {
+      "record_key": "paraphrase_1/call_0011",
+      "record_hash": "a65faaf2699ad1c668d82391234a144782faad15d7a052f82fc1acd327994409"
+    },
+    {
+      "record_key": "paraphrase_1/call_0012",
+      "record_hash": "d4e8ae8473b39419d43fc0f1c322688f5b1df3b2af86413d792ea95928fdb60e"
+    },
+    {
+      "record_key": "paraphrase_1/call_0013",
+      "record_hash": "5a7726b54e497b3dcafbe403a111b5b2a4f521148ea57219025f6b4891521588"
+    },
+    {
+      "record_key": "paraphrase_1/call_0014",
+      "record_hash": "1422535ebb803355c0b34a38552145f2857ff5f02b8e6965ab26fb3d9bd544db"
+    },
+    {
+      "record_key": "paraphrase_1/call_0015",
+      "record_hash": "5874e5a347b74c72bd0549ca1d485c74a3044902241496e9f184589be239dade"
+    },
+    {
+      "record_key": "paraphrase_1/call_0016",
+      "record_hash": "26fe71e180daed0aa8a3c8035e27b08eb74ec9ecb2f6ca6ad4e9228397c8da38"
+    },
+    {
+      "record_key": "paraphrase_1/call_0017",
+      "record_hash": "d5fbd981432a2cbf8174c410d183b45a8346c1aed3e3859bc4c3ecfce458aaac"
+    },
+    {
+      "record_key": "paraphrase_1/call_0018",
+      "record_hash": "36e6a270689bef5d3959049ee0865c1d7c9d6ff1ab4c9c19bd6e3b828ad186e8"
+    },
+    {
+      "record_key": "paraphrase_1/call_0019",
+      "record_hash": "8a1a26032339a9641f5c8d1e00807bf4136796309aa75177060f8f8929d85a35"
+    },
+    {
+      "record_key": "paraphrase_1/call_0020",
+      "record_hash": "c75e9577fd8bdb3ba203576fcc36d35884b0323beb47d12185f1c7ce039fe7b5"
+    },
+    {
+      "record_key": "paraphrase_2/call_0001",
+      "record_hash": "7ffcd76826c02528d6835bb64c39a254897709b195513df828fdea2cc6f792d7"
+    },
+    {
+      "record_key": "paraphrase_2/call_0002",
+      "record_hash": "068804db3a07b5d235b35488ae980ca3887b88af96f2eaae39ebe4654d895e00"
+    },
+    {
+      "record_key": "paraphrase_2/call_0003",
+      "record_hash": "708348d09c6d736458bf572f47349ef2f5f7de0e18acb44a64c265f65f5fbb53"
+    },
+    {
+      "record_key": "paraphrase_2/call_0004",
+      "record_hash": "dcd00cd134fdccb3cd1c3b8a5c22863b69e7c8e9654f03b8e3b0dd6ea5ca8fc6"
+    },
+    {
+      "record_key": "paraphrase_2/call_0005",
+      "record_hash": "e223b9feb22b779119e1d249b6cdf0250db51a236f868e4409015da0a191147f"
+    },
+    {
+      "record_key": "paraphrase_2/call_0006",
+      "record_hash": "5487623be7d4a67a3b13822d7b05c457994590358697bb4b546c991867160c7e"
+    },
+    {
+      "record_key": "paraphrase_2/call_0007",
+      "record_hash": "f1894703c4b8920549bec4f13d893d9824724d110b040ed164dcdbb87c3e5948"
+    },
+    {
+      "record_key": "paraphrase_2/call_0008",
+      "record_hash": "88385d1958f350a787d4230543915864a39fb309481891b68769671a152d6288"
+    },
+    {
+      "record_key": "paraphrase_2/call_0009",
+      "record_hash": "22aca200c47a6e858b7c9787aad0cc602bdf768b217c74d454ed3e36516b5e36"
+    },
+    {
+      "record_key": "paraphrase_2/call_0010",
+      "record_hash": "6c10606c92e2d03f90620b249e50bfcad2dc9aaa29baf8a29503d44af225b607"
+    },
+    {
+      "record_key": "paraphrase_2/call_0011",
+      "record_hash": "6b760f21b35a8a9f43a4dfc89adc7de5ff6b3c1b523fd5bbbef2a50b72fa1bf8"
+    },
+    {
+      "record_key": "paraphrase_2/call_0012",
+      "record_hash": "855784859831aa1dc17ce54556051421312edaad5666dde71dd0dc1d58c54ab4"
+    },
+    {
+      "record_key": "paraphrase_2/call_0013",
+      "record_hash": "1210715a13592f033e98e892cbaf392d285c0df50ce390c00cd51d42227000f4"
+    },
+    {
+      "record_key": "paraphrase_2/call_0014",
+      "record_hash": "fa03101676fc7c90f59bb4628d9ff74abba86a3f406b76040815d9aa4fdc521e"
+    },
+    {
+      "record_key": "paraphrase_2/call_0015",
+      "record_hash": "15e0b155f05aae4555fe85a24d036258366575f26b091044b9b93148c0e6e6e9"
+    },
+    {
+      "record_key": "paraphrase_2/call_0016",
+      "record_hash": "5168a052b767c24519f2e6ab55ba37701395d5d5078304b10c252cd07caa755e"
+    },
+    {
+      "record_key": "paraphrase_2/call_0017",
+      "record_hash": "7d43fabf63d49e7f38e9f2af73694b58e8c5a7c68c2dda6aa7b900726cffb390"
+    },
+    {
+      "record_key": "paraphrase_2/call_0018",
+      "record_hash": "e4d757768a2a9202ba0569b78efc11aec2538570141d2e9a8dcc91f935295f0c"
+    },
+    {
+      "record_key": "paraphrase_2/call_0019",
+      "record_hash": "f6ba515745241bd64f3d632e804226ae33a1c9a42ba01d7f9eb99520321fae8f"
+    },
+    {
+      "record_key": "paraphrase_2/call_0020",
+      "record_hash": "15fa752cbca919d85e628d3b2b7b2bd3d75188538e74b07ca88cbd5f928330f4"
+    },
+    {
+      "record_key": "paraphrase_3/call_0001",
+      "record_hash": "91881ef574443c96ba95636de047b476f64815c6f9e6c2670bea62be0e822380"
+    },
+    {
+      "record_key": "paraphrase_3/call_0002",
+      "record_hash": "fd84e3fbf4d4e2607fbe383334dc715141744aaddef916a063b55d77634698f6"
+    },
+    {
+      "record_key": "paraphrase_3/call_0003",
+      "record_hash": "babd0c8d8e4e1722aba8d77cb7c671cde549be891a38e4dcf0c986889da00a2e"
+    },
+    {
+      "record_key": "paraphrase_3/call_0004",
+      "record_hash": "0f1cdc5df7d96b502be1b5e4d13dfe2590cbb75b2bcfc7d54d7851497ea5ffaf"
+    },
+    {
+      "record_key": "paraphrase_3/call_0005",
+      "record_hash": "6c12a9b2c571d21f88db0335b38cf8d504df27210cd0e369c3891f59ef222f5c"
+    },
+    {
+      "record_key": "paraphrase_3/call_0006",
+      "record_hash": "1d60ba416502a91f457ee3591a639e7013c2d24f7570c4c5db01ccb63afde01f"
+    },
+    {
+      "record_key": "paraphrase_3/call_0007",
+      "record_hash": "6867003efeb9584b5d6b2e3c4c5cd1aae16b5aa1ba66b4517cfe041f411b899a"
+    },
+    {
+      "record_key": "paraphrase_3/call_0008",
+      "record_hash": "fa35383574f3c31ca414e2a7bb094010ccf4843a0c4b44ee590af3e9dae7dc21"
+    },
+    {
+      "record_key": "paraphrase_3/call_0009",
+      "record_hash": "aa87d8249c1c2fa476ce923ba736cdfc488a3884ddd0434997eb642ddb9ead14"
+    },
+    {
+      "record_key": "paraphrase_3/call_0010",
+      "record_hash": "d7a6fda8c3c3f7cf794d27493ff9ab4b7052871dd8f7bbeba85ede359825f40a"
+    },
+    {
+      "record_key": "paraphrase_3/call_0011",
+      "record_hash": "54f579fd25b7bab488ce673bfd0a53795b92373514614de534e1bc5914ae70f0"
+    },
+    {
+      "record_key": "paraphrase_3/call_0012",
+      "record_hash": "f935ee103161eccad30c55f509c2d9988eb0e64634ee55386542592637e2d281"
+    },
+    {
+      "record_key": "paraphrase_3/call_0013",
+      "record_hash": "783c0c1370a74906846e70b1ebeab12fcfb7397f2d92bc4cb600247e8c440f7e"
+    },
+    {
+      "record_key": "paraphrase_3/call_0014",
+      "record_hash": "08edc79443aee3b0f7c51386a9771f14b6b59cf42f7ce57d1fc3c30332c366f6"
+    },
+    {
+      "record_key": "paraphrase_3/call_0015",
+      "record_hash": "ea7a6f661d1de3a1af7a7a8774d1412d0f26c7ce2ec3a63dc2321b5138893986"
+    },
+    {
+      "record_key": "paraphrase_3/call_0016",
+      "record_hash": "97eb758fe11cee8a7ecd62d6e2d7daeb0d8195f83530f570f53918346986f3a1"
+    },
+    {
+      "record_key": "paraphrase_3/call_0017",
+      "record_hash": "89ada62e3f7532ac56c8375d3ed2f1189617b422f42995c43d00abc2ce55edb5"
+    },
+    {
+      "record_key": "paraphrase_3/call_0018",
+      "record_hash": "e1a63c96d36cc56a021d0a4beb128c9473ec82b6e8fa82ec08ec6f7a68bd4ee1"
+    },
+    {
+      "record_key": "paraphrase_3/call_0019",
+      "record_hash": "8e24ce4b2769adbb2e6aae4904fab3405d70c022bb9faf2cf1f54b43d205b58d"
+    },
+    {
+      "record_key": "paraphrase_3/call_0020",
+      "record_hash": "dd3e18f9318d295417b9a17276bee4b557d5c3060b3b5f3d5e7ed47a1adad1a3"
+    }
+  ]
+}

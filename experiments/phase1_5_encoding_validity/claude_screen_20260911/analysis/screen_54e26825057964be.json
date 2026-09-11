@@ -1,0 +1,77 @@
+{
+  "design_hash": "dd032d1b4fe07201974c53239dc51ef0be5dcb22307f754e488a53d4ca6ca198",
+  "status": "GROSS_WORDING_FAILURE_DETECTED",
+  "cells": [
+    {
+      "wording": "canonical",
+      "n_expected": 20,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 13,
+      "rate": 0.65,
+      "ci95": [
+        0.43285427668523624,
+        0.818808175898918
+      ]
+    },
+    {
+      "wording": "paraphrase_1",
+      "n_expected": 20,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 14,
+      "rate": 0.7,
+      "ci95": [
+        0.4810271816464765,
+        0.8545227551323956
+      ]
+    },
+    {
+      "wording": "paraphrase_2",
+      "n_expected": 20,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 19,
+      "rate": 0.95,
+      "ci95": [
+        0.763868806553258,
+        0.9911185511992047
+      ]
+    },
+    {
+      "wording": "paraphrase_3",
+      "n_expected": 20,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_invalid": 0,
+      "n_missing": 0,
+      "adopt": 6,
+      "rate": 0.3,
+      "ci95": [
+        0.1454772448676043,
+        0.5189728183535235
+      ]
+    }
+  ],
+  "primary_pair": [
+    "paraphrase_2",
+    "paraphrase_3"
+  ],
+  "primary_difference": 0.6499999999999999,
+  "primary_conservative_95_interval_unknown_envelope": [
+    0.14703025696723293,
+    0.8971164609448117
+  ],
+  "validity_floor_met": true,
+  "n_records": 80,
+  "n_valid": 80,
+  "n_api_failures": 0,
+  "recorded_token_estimate_usd": 0.15639499999999998,
+  "phase_gate": "Unchanged; no equivalence or phase pass can follow this screen"
+}
