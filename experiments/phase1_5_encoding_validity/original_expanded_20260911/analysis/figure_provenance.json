@@ -1,0 +1,16 @@
+{
+  "design_hash": "d39974038d1f377a4cfa8299c2b7559709e1d05513dcd6172410c4f4f0cf7904",
+  "analysis_digest": "9b564ca898f6a5d49251f88eb9ebb83259a0a486d526143ad8a8816af9f78d37",
+  "script_sha256": "1e5c86b82360e01c04a741a5142f8d189628bcbeffe4d6486eb266f68f90d580",
+  "all_32_conditions_retained": true,
+  "files": [
+    {
+      "path": "fig_01_original_expanded.png",
+      "sha256": "73990c7b67b661524adf849edb4e841854579f0130b722ac014d0f76423fe9ed"
+    },
+    {
+      "path": "fig_01_original_expanded.pdf",
+      "sha256": "8b8bf090f59fca11128a2f894c677f5d8392d95410a5fa152bbb82334bcd822f"
+    }
+  ]
+}

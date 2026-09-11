@@ -1,5 +1,18 @@
 # Phase 1.5 decision record — September 11
 
+## Latest update: original-delivery selected-case replication
+
+Completed640/640 valid for$0.7107645. Canonical MoR rates25/50/100% and MS
+rates0/20/70% support fresh directional response. Four of8 endpoint tests
+establish positive effects after Holm correction (MoR canonical/P2/P3; MS
+canonical). All MoR three-point curves nondecreasing; MS P2 flat at5%.
+Zero48-pair gross differences resolved is not equivalence: observed wording
+gaps remain large and simultaneous intervals wide. No new phase pass or gate
+change. All records verified and retained. Remaining conservative$3.97795725,
+no pending calls or automatic expansion;900-call study remains paused.
+See [interpretation](original_expanded_20260911/analysis/INTERPRETATION.md).
+
+
 ## Latest update: tool delivery screened, no scale-up support
 
 The approved320-decision/480-call candidate completed for$0.4117305.

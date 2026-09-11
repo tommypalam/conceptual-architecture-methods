@@ -4,6 +4,46 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Expanded original replication: four directional effects established
+
+Completed640/640 valid original-delivery responses for$0.7107645, rootseed20260926,
+neutral context. No API/model/usage/parse failures or pooling. Canonical MoR/S3
+rates25/50/100%, endpoint+.75, nominal conservative95%[+.281,+.927], Holm
+p=.0000030834. Canonical MS/S2 rates0/20/70%, endpoint+.70, interval[+.230,+.898],
+Holm p=.000010021. Four of eight primary directional tests establish a positive
+endpoint effect after Holm: MoR canonical/P2/P3 and MS canonical. All four MoR
+wordings have nondecreasing three-point rates; that is descriptive, not the
+original five-point gradient criterion. MS P2 remains5/5/5%, so its canonical
+signal cannot be presented as generally preserved across wordings.
+
+No48-pair gross wording discrepancy is resolved by the simultaneous32-cell
+intervals atN20. This is not equivalence: MS=.9 canonical70% versusP2 5%
+remains an observed65pp gap; PD=.9 canonical0% versusP2 45% remains45pp.
+PD endpoint changes are negative in all four wordings as descriptive secondary
+results, not newly prespecified tests. No conversion of4/8 or0/48 to the original
+24/30 pass count. The existing phase gate remains unmet.
+
+Synthetic perspectives, not external review: Linden accepts evidence of
+parameter-conditioned behaviour but not internal ethical understanding. Osei
+values fresh responses in two dilemmas while disclosing prior selection of
+responsive cases. Tanaka preserves Holm correction, wide conservative intervals,
+non-duality of those intervals with one-sided Fisher tests, and the distinction
+between no detected wording gap and equivalence. Renna treats partial MoR
+transport and weak MS transport as separate architectural findings, preserving
+all ten parameters and remaining battery requirements. Okafor verifies complete
+provenance, saves the positive and negative results together and schedules no
+automatic expansion. Resolution: bank a positive selected-case replication;
+no full-architecture validation, gate revision or Phase2 launch.
+
+The automatic reviewer initially timed out on the local commit (not a risk
+judgment); one permitted retry succeeded, then the approved paid launch passed
+review. All640 API IDs and requested seeds unique, settings and exact source
+messages/profiles/labels checked, raw provider text reparsed and ZIP bytes
+verified. Three tests passed before dispatch; figure QA passed. No raw records
+committed. Conservative cumulative charge$5.02204275, remaining$3.97795725;
+provider balance unverified, no pending calls. The900-call study remains paused.
+See experiments/phase1_5_encoding_validity/original_expanded_20260911/analysis/INTERPRETATION.md.
+
 ## 2026-09-11 - Freeze expanded original-delivery replication
 
 The researcher approved the proposed640 calls with "go", then "continue" after

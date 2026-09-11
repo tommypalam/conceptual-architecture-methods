@@ -10,13 +10,17 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
-**Expanded original-delivery replication prepared:640 calls, cap$4.50.**
-[Protocol and frozen requests](experiments/phase1_5_encoding_validity/original_expanded_20260911/PROTOCOL.md).
-MoR/S3 and MS/S2 at low/middle/high, PD/S3 at endpoints; all four approved
-wordings, N20 in32 conditions. Seed20260926, reserve$4.06452, original delivery
-and all ten parameters. Three offline tests pass. Eight directional tests use
-Holm correction; wording stress and midpoint ordering reported separately.
-Selected-case replication, no revised gate or automatic full sweep. No calls yet.
+**Expanded original replication complete:640/640 valid, cost$0.7107645.**
+[Positive results, limitations and all-condition figure](experiments/phase1_5_encoding_validity/original_expanded_20260911/analysis/INTERPRETATION.md).
+Canonical MoR/S3 rates25/50/100%; canonical MS/S2 rates0/20/70% at.1/.5/.9.
+Four of8 directional tests pass Holm correction: MoR canonical/P2/P3 and MS
+canonical. All four MoR curves are descriptively nondecreasing; MS P2 stays5%.
+Zero of48 gross wording gaps resolved by wide simultaneous bounds is NOT
+equivalence; observed MS=.9 canonical/P2 gap remains65pp. Selected-case
+replication supports canonical influence, not a full Phase1.5 pass. Original
+gate unchanged;900-call study paused; no automatic expansion or Phase2.
+All sources, profiles, labels, API IDs/seeds, parses and raw ZIP bytes verified.
+Remaining conservative allowance$3.97795725; no pending calls/new paid run.
 
 **Tool-delivery screen complete:320/320 valid decisions,480/480 valid calls.**
 [Result and all-cell figure](experiments/phase1_5_encoding_validity/tool_delivery_20260911/analysis/INTERPRETATION.md).

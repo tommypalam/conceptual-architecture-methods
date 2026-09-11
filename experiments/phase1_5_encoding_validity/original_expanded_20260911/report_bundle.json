@@ -1,0 +1,22 @@
+{
+  "path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\output\\validity_backups\\original_expanded_20260911_reports_f68ac34595ad6348.zip",
+  "sha256": "054e8a208e1794938fb402a610586c0eb5b7ed898ddd2ff1bd1693a4dd9f0af3",
+  "file_sha256": {
+    "budget_ledger.json": "de98644f161ef03c4255d2d135693b0f0d93e91ebc6ed0577debccf3cffb06a0",
+    "dispatch_authorization.json": "7808769b1feb1a17522c8da97328f25523e4dd6592fa4707240b6d3f4874e45b",
+    "local_backup.json": "0265212d14188d8cbcf5484c6dc603d4f2a9ede9e3493bd13e6ce0d9f7f8879e",
+    "manifest.json": "8c905b857bd6c62a2e87411645e590f12a8a94f2a9c890c3291d8c6baed9acc8",
+    "PROTOCOL.md": "4f8c76053fd551d0ac5ca753593686d18d4529f79fcfc205b74c26f348d0e341",
+    "request_preview.json": "899b092f8d99d95cdf6962a89f47f9b5085fdb7c53a04992c0658591c0354b0b",
+    "analysis/budget_01d2c974e8e93478.json": "de98644f161ef03c4255d2d135693b0f0d93e91ebc6ed0577debccf3cffb06a0",
+    "analysis/figure_provenance.json": "8525238f53682d2491a032d6dd143922eafe27b58ff839e247386c39c6ec40ff",
+    "analysis/fig_01_original_expanded.pdf": "8b8bf090f59fca11128a2f894c677f5d8392d95410a5fa152bbb82334bcd822f",
+    "analysis/fig_01_original_expanded.png": "73990c7b67b661524adf849edb4e841854579f0130b722ac014d0f76423fe9ed",
+    "analysis/INTERPRETATION.md": "82e14cef9b2c5b93d8d823ad768fc281d01c7de7dc277dae3fb47d0f2dbfc6ac",
+    "analysis/REPORT.md": "07cecbc9ebe5e01aa87b800d40fb9035fc31c809df4b9ee81bb2ee3ecb5d7793",
+    "analysis/result_9b564ca898f6a5d4.json": "2c300ad586b2259d12349b351a16b922875620111ed87e325c7330ce48dc53f3",
+    "analysis/verification.json": "0d834b260e7ca236b8d6a3251a04fcf2d28cf87ab3f7cab27421d94e1389af07",
+    "analysis/visual_qa.json": "1ebc31df8826d2a1bc2562a4e756322201da4244a4952b585fd2e35ce3c260e7"
+  },
+  "byte_verified": true
+}
