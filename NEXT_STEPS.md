@@ -10,7 +10,22 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
-**Repetition representation check prepared:** [450-call protocol](experiments/phase1_5_encoding_validity/repetition_retention_20260911/PROTOCOL.md),
+**Repetition representation check complete:** **450/450 valid**, no API/model/
+usage failures. Cost estimate **$0.5126085**, cumulative **$2.039265** across
+the four recent screens; approximately **$6.96 remains of the $9 allowance**,
+not a verified provider balance. Exact requests/profiles, source hashes,
+unique API IDs/seeds, reservations and raw ZIP bytes are verified.
+Fresh canonical ADOPT counts **0/8/4/11/8 of 30** fail observed monotonicity
+despite a positive overall slope; retention is therefore **not assessable**.
+Numeric counts **2/7/1/2/3** have no clear positive gradient; verbal counts
+**0/0/0/1/0** are almost fixed at WAIT. The verbal point ratio is not a pass.
+See [report](experiments/phase1_5_encoding_validity/repetition_retention_20260911/analysis/RETENTION_REPORT.md)
+and [interpretation](experiments/phase1_5_encoding_validity/repetition_retention_20260911/analysis/INTERPRETATION.md).
+No calls are running or scheduled. Do not scale repetition automatically.
+Next work is offline: distinguish finite-sample monotonicity from loss of
+decision variation and inspect saved variant reasoning before another intervention.
+
+**Repetition representation dispatch provenance:** [450-call protocol](experiments/phase1_5_encoding_validity/repetition_retention_20260911/PROTOCOL.md),
 canonical/numeric/verbal at five MoR values on S3, N30 per cell, same GPT
 snapshot and previously approved text, $3 cap ($2.8990575 full reserve).
 All observations are fresh. Retention is assessable only if the fresh canonical
@@ -19,10 +34,10 @@ fitted slopes retaining >=.50 of its magnitude. No historical control rescue.
 Two tests pass, covering exact profiles/messages, complete mock run, no-call
 resume, spending guard, incomplete results, ratio threshold and failed-control
 handling. Prior usage is settled at $1.5266565 with no pending requests; adding
-the new cap remains within $9. **Launch blocked before process creation:**
-automatic approval review requires explicit approval of this exact private
-research payload, OpenAI destination, 450 calls and $3 cap. The prepared-scope
-question is pending; no calls or alternative dispatch route were used.
+the new cap remains within $9. The initial launch was blocked before process
+creation by automatic approval review. The researcher's subsequent "lets
+proceed ok" approved the exact prepared scope, recorded in
+`dispatch_approved.json`; the unchanged launch passed review and completed.
 No automatic full-battery or Phase 2 launch.
 
 **MoR curve screen complete:** **300/300 valid**, no API/model/usage failures;

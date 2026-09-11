@@ -4,6 +4,47 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Repetition representation screen complete, control ineligible
+
+Completed all 450 calls: every response valid, same pinned model, one attempt,
+unique API ID/seed, complete usage, exact requests/profiles and verified raw ZIP
+payloads. Full-rate estimate $0.5126085; cumulative $2.039265 across the four
+recent screens. Approximately $6.96 remains of the original $9 allowance,
+not a verified provider balance. No outstanding calls or automatic expansion.
+
+Canonical repetition ADOPT counts are 0/8/4/11/8 of 30. Positive slope2.036
+(95% interval [.523,3.550], LR p=.00606) but failed observed monotonicity means
+the control is ineligible: both retention checks are not assessable. No use
+of the previous favourable control to rescue this result. Numeric-only counts
+2/7/1/2/3 yield slope-.558 (CI[-2.458,1.341]); verbal-only 0/0/0/1/0 is nearly
+fixed at WAIT. Its point slope ratio1.40 is not a retention pass and is driven
+by extremely sparse decision variation. The original rule and verdict stand.
+
+Synthetic perspectives (not external reviewers): Linden distinguishes local
+parameter influence from encoded ethical understanding. Osei rejects scaling
+a candidate selected from an earlier favourable secondary result when the
+fresh control fails. Tanaka distinguishes observed nonmonotonicity from a
+proven population decline and warns against the unstable sparse verbal slope.
+Renna separates sampling precision from loss of decision variation. Okafor
+prioritises offline diagnostics before more overlay experiments. Resolution:
+no automatic repetition battery, no historical pooling or threshold change;
+inspect the two distinct limitations using saved data before further spending.
+
+The [interpretation](experiments/phase1_5_encoding_validity/repetition_retention_20260911/analysis/INTERPRETATION.md)
+records the uncertainty and next work. Original prompts/theory and frozen code
+are intact. All five concepts and ten parameters remain; Phase 1.5 stays open,
+Phase 2 is on hold and the optional evidence tool remains inactive.
+
+## 2026-09-11 - Exact repetition representation dispatch approved
+
+The researcher's "lets proceed ok" followed the explicit request for the
+prepared 450-call OpenAI test capped at $3. Saved the reply with exact design
+and message hashes in `repetition_retention_20260911/dispatch_approved.json`.
+Verified frozen sources and absence of prior requests/records; the unchanged
+launch passed automatic approval review. Collection is running under the
+original prepared seed, model, messages, eligibility rules and cap. Completion
+and verification will be recorded separately.
+
 ## 2026-09-11 - Prepare repetition representation diagnostic
 
 The researcher replied "go" to the recommendation of a small numeric/verbal
