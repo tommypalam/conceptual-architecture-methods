@@ -4,6 +4,47 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - MoR curve completed and verified
+
+All 300 responses are valid with unique API IDs and requested seeds, the pinned
+GPT snapshot, one attempt each, complete usage and matching frozen requests,
+profiles and reservations. Every raw backup ZIP payload matches disk. Estimated
+token cost $0.373464, cumulative $1.5266565; approximately $7.47 remains of the
+latest $9 allowance, not a verified provider balance. No active/pending calls.
+
+Grounding's primary curve criterion is not met: ADOPT 4/9/5/11/19 of 30 at
+.1/.3/.5/.7/.9. The fitted slope is positive (2.654, 95% CI [1.286,4.021],
+LR p=.0000539), but observed rates are not monotonic. Repetition meets the
+directional criterion as a secondary result (0/1/1/5/12; slope6.189,
+95% CI [3.153,9.224], LR p=.000000118). The grounding-minus-repetition
+endpoint-change contrast is +.100, conservative 95% CI [-.605,.776]; no
+demonstrated arm advantage. Original and previous endpoint data are not pooled.
+
+Synthetic perspectives, not independent expert review: Linden rejects equating
+a graded choice response with ethical understanding. Osei notes repetition's
+different prior endpoint result and the risk of selecting a favourable secondary
+finding. Tanaka retains the observed-monotonicity rule while distinguishing its
+failure from proof of an underlying nonmonotonic function. Renna requires
+representation and interpretation evidence before integrating agents. Okafor
+recommends a bounded representation screen with a fresh control, not automatic
+full-battery expansion. Resolution: keep grounding's failed primary outcome;
+repetition is a candidate for a separately frozen test, not a validated fix.
+
+The [interpretation](experiments/phase1_5_encoding_validity/mor_curve_20260911/analysis/INTERPRETATION.md)
+records scope, uncertainty and the next recommendation. No additional paid
+test is prepared or launched, no definition or threshold changed, and Phase 2
+remains on hold. The optional evidence tool remains outside the experiment.
+
+## 2026-09-11 - Exact MoR curve dispatch approved
+
+The researcher's "go" answered the explicit prepared-scope request for 300
+OpenAI GPT-5.4 mini calls capped at $2.40. Saved the reply and exact design/message
+hashes in `mor_curve_20260911/dispatch_approved.json`, preserving the earlier
+broad-authority artifact as history. Verified no pre-existing records or
+reservations. The unchanged command passed automatic approval review and
+collection began under the frozen design. No prompt, model, threshold, budget
+cap or collection code changed. Completion and verification follow below.
+
 ## 2026-09-11 - MoR error review and focused contemporaneous curve
 
 The researcher instructed continuation and renewed spending authority: "spend

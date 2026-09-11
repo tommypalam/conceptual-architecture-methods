@@ -1,0 +1,10 @@
+{
+  "approved": true,
+  "design_hash": "84720923447772f5feef7c592a1449d93b4fbbc236bc063c1ff2a9f4a29317f8",
+  "exact_messages_hash": "8c7e7fbfce5d26a471ea67658f2d82f6eb588288042a39d8a905a74ef9878cde",
+  "user_reply": "go",
+  "context": "Reply to the explicit request to approve the prepared 300-call OpenAI GPT-5.4 mini MoR/S3 test capped at $2.40.",
+  "planned_calls": 300,
+  "spending_ceiling_usd": 2.4,
+  "destination": "OpenAI API"
+}

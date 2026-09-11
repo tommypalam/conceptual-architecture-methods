@@ -1,0 +1,11 @@
+{
+  "original_allowance_usd": 9,
+  "screen_cap_usd": 2.4,
+  "recorded_token_estimate_usd": 0.3734640000000002,
+  "cumulative_token_estimate_usd": 1.526656500000002,
+  "remaining_original_allowance_estimate_usd": 7.473343499999998,
+  "pending_requests": 0,
+  "cumulative_dispatched_reservations_usd": 8.576572500000026,
+  "provider_balance_verified": false,
+  "automatic_expansion": false
+}
