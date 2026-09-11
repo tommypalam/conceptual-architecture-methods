@@ -4,6 +4,43 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Authorised Claude use with original prompts preserved
+
+The researcher explicitly asked to improve Phase 1.5 using remaining Claude
+API usage while preserving original prompts. OpenAI remains at zero new spend.
+Requested a total Claude cap; pending a specific answer, restrict the proposed
+screen to a conservative $0.75 local guard and no automatic follow-up. This new
+Claude authority supersedes the earlier blanket instruction against substituting
+providers; the OpenAI stop and all theoretical commitments remain in force.
+
+Prepare one 80-call provider diagnostic: exact canonical/P1/P2/P3 baseline
+messages at PD=.8/S3, 20 per formulation. Same pinned Haiku model as prior work,
+temperature 1, output cap 600, neutral context, one fixed profile. Schedule seed
+20260914 shuffles four-formulation blocks; no sampling seed is sent to Anthropic.
+The unsuccessful axis instruction is absent. No original prompt file, endpoint,
+dilemma, output instruction or profile is changed. No new paraphrases are generated.
+
+Primary P2-minus-P3 contrast uses a conservative exact 95% difference interval
+from two 97.5% binomial bounds, including unknown-decision completions. A gross
+failure is detected only if the interval lies outside the original +/- .10
+margin, with the 98% per-cell validity floor. All other rates are descriptive.
+Small-N non-rejection is not equivalence or a gate pass. No automatic expansion.
+
+Synthetic review: Linden requires byte-identical approved normative content;
+Osei flags selected familiar scenarios, historical controls and the same Haiku
+model having generated the paraphrases; Tanaka fixes one primary contrast and
+retains low-power/non-equivalence limitations; Renna keeps the ethical-encoding
+objective without claiming model portability from one cell; Okafor requires a
+fixed small allocation, no hidden retries, source checks and a dispatch guard.
+Resolution: use Claude as a new behavioural subject in a local provider screen,
+not as an independent validator or an authorised full-battery substitute.
+
+Two behavioural tests passed, including all 80 mock calls, no-call resume,
+zero-budget refusal, exact interval and unknown-envelope checks, and preserved
+terminal-failure refusal. A read-only Anthropic lookup confirmed model access.
+Pricing verified from official Anthropic documentation: $1/million input and
+$5/million output. Expected cost approximately $0.15–$0.25, before taxes.
+
 ## 2026-09-11 - Stop paid Phase 1.5 collection and screen candidates first
 
 The researcher reports $12 remaining in the OpenAI account, asks to avoid full

@@ -12,11 +12,20 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 **Current spending constraint (September 11):** the researcher reports $12 left
 in the OpenAI account and instructs us not to spend any more of it on Phase 1.5.
-No further OpenAI calls are authorised for this phase. Do not substitute paid
-calls to another provider to work around this constraint. No collection process
-is running. Work now uses existing records, theory/specification review and
-offline implementation checks. The earlier $50 allowance does not authorise
-further spending under this newer instruction.
+No further OpenAI calls are authorised for this phase. The researcher has since
+explicitly authorised using remaining Claude API usage, with original prompts
+unchanged. This is new provider-specific authority, not a workaround for the
+OpenAI spending stop. The earlier $50 allowance does not authorise new OpenAI
+spending. A total Claude cap was requested; while pending, the prepared small
+screen uses a conservative $0.75 local cap with no automatic expansion.
+
+**Prepared next diagnostic:** `claude_screen_20260911` uses the exact four
+previously approved baseline formulations at PD=.8/S3, 20 responses each, 80
+total. It reuses the pinned Haiku snapshot, with no original prompt edits and
+no unsuccessful axis instruction. This is a model/provider screen for gross
+wording dependence, not a sweep or phase-pass test. Expected $0.15–$0.25; $0.75
+dispatch guard. Two offline tests passed and the model is accessible. See its
+[fixed protocol](experiments/phase1_5_encoding_validity/claude_screen_20260911/PROTOCOL.md).
 
 New approaches must be screened before any full sweep: inspect known failure
 cases, check exact theoretical mappings and use local mocks for implementation
