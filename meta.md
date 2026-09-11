@@ -4,6 +4,51 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Isolated tool-delivery repair candidate
+
+Decision: test the thesis-provided alternative delivery mechanism in an isolated
+Phase 1.5 screen, preserving all ten meanings and the exact source wording.
+The researcher requested concrete repair work rather than another full sweep
+of the unchanged implementation. Branch: phase1-5-tool-delivery-screen.
+
+Synthetic review perspectives, not external expert review or human approval:
+Linden accepts verbatim content delivery but rejects treating a function return
+as internal ethical understanding or letting a tool prescribe an answer. Osei
+requires concurrent controls, all approved wordings and a sensitivity safeguard
+so reduced wording variance cannot be bought by constant output. Tanaka accepts
+an unbiased squared-gap estimator for development screening, but warns that
+N10 boundary-cell bootstrap intervals are approximate and selection does not
+establish equivalence; a negative estimate is not negative true variance.
+Renna ties the isolated prototype to thesis4.1/8.2 and requires the same later
+battery, with no coupling to the simulation engine. Okafor requires immutable
+per-stage records, exact wire bodies, fixed profile identity, no retries and a
+pre-dispatch bound covering both tool and decision calls.
+
+Disagreement/risk: tool delivery may simply rearrange text without strengthening
+encoding; role, position, bridge and extra turn change together. There is no
+high-probability success claim. Resolution: a bounded candidate screen is
+justified by the already specified alternative route; no theoretical meaning,
+sampling distribution, behavioural rule, gate or Phase 0 source is revised.
+The prototype reads a fixed assigned profile, not a new draw per tool invocation;
+it does not implement the full distribution-sampling architecture. New bridge
+text is explicitly exposed in HUMAN_REVIEW.md, not passed off as previously
+approved. A broader sweep requires evidence under the fixed promotion rule.
+
+Prepared32 conditions x N10 =320 decisions, up to480 API calls; neutral S3,
+MoR/PD .1/.9, canonical and all3 approved r5 wordings, original/tool delivery.
+Seed20260924; cap$3.50, conservative reserve$3.28692, within remaining$5.10045225.
+Primary tool-minus-system mean squared wording gap, with 10,000 stratified
+bootstrap replicates and canonical/average MoR sensitivity safeguards. Selected
+development cases, no new PD direction or monotonicity test, no gate pass.
+Five tests pass, including complete480-request HTTP mock, exact canonical SDK
+payload equivalence, provider substitution, response-to-tool links, failure/no
+retry behaviour, credential exclusion and pre-dispatch spending guard. Initial
+test failures exposed historical basename-only source hashes; the new runner
+now hashes actual root-relative dependencies and preserves the old manifest.
+The historical 23/30-to8/30 discrepancy remains unresolved; new wire logging
+cannot retrospectively identify its cause. No paid calls at preparation time.
+See experiments/phase1_5_encoding_validity/tool_delivery_20260911/PROTOCOL.md.
+
 ## 2026-09-11 - Joint wording failure and canonical repeat discrepancy
 
 The approved480-call screen completed480valid, no API/model/usage failures,

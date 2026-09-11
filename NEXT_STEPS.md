@@ -1,6 +1,6 @@
 # Current state and next steps
 
-Updated 2026-09-11. Working branch: `phase1-5-validity`.
+Updated 2026-09-11. Working branch: `phase1-5-tool-delivery-screen`.
 This file is the current operational status; historical records are evidence,
 not competing task lists.
 
@@ -9,6 +9,18 @@ is `option_c_20260909_restart`: 15,000 new calls, without reusing the old sample
 See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
+
+**Tool-delivery repair candidate prepared; no calls dispatched yet.**
+[Exact protocol](experiments/phase1_5_encoding_validity/tool_delivery_20260911/PROTOCOL.md)
+and [new bridge](experiments/phase1_5_encoding_validity/tool_delivery_20260911/HUMAN_REVIEW.md).
+320 decisions / at most480 API calls, N10 in32 conditions, original versus
+read-only tool delivery of the exact frozen specification; all ten parameters
+and all four approved wordings retained. MoR/S3 and PD/S3 endpoints; neutral,
+seed20260924, cap$3.50, reserve$3.28692. Five offline tests pass, including full
+HTTP mock and canonical SDK-payload equivalence. New harness remains isolated.
+A fixed reduction-in-wording-gap rule plus sensitivity safeguards governs any
+broader confirmation; this screen cannot pass Phase1.5. Original24/30 gate
+unchanged; historical repeat discrepancy unresolved;900-call study stays paused.
 
 **Joint-wording screen complete:480/480 valid, cost$0.5156505.**
 [Interpretation, figure and repeat audit](experiments/phase1_5_encoding_validity/joint_wording_20260911/analysis/INTERPRETATION.md).
