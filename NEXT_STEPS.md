@@ -10,6 +10,20 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Offline repetition diagnosis complete:** [findings](experiments/phase1_5_encoding_validity/repetition_diagnosis_20260911/FINDINGS.md)
+and [exact probability table](experiments/phase1_5_encoding_validity/repetition_diagnosis_20260911/PRECISION_TABLE.md).
+Conditional on its fitted positive curve being true, fresh repetition has only
+30.4% probability of nondecreasing counts at N30; original canonical has 86.4%.
+This demonstrates sampling sensitivity under stated assumptions, not that the
+failed gate should be waived. A flat near-WAIT curve can also look ordered
+through ties, so precision cannot substitute for decision variation.
+Reviewed fixed first-two calls in all 15 cells (30 items), plus the sole verbal
+ADOPT as an explicitly outcome-selected exception. Procedure, endorsement and
+neutral-context caution recur; internal causation remains unestablished.
+Two tests pass against exhaustive probability sums and known fit parameters.
+No API spend. Next candidate is a contemporaneous original/repeated comparison
+to isolate repetition effects; no new run is prepared or scheduled.
+
 **Repetition representation check complete:** **450/450 valid**, no API/model/
 usage failures. Cost estimate **$0.5126085**, cumulative **$2.039265** across
 the four recent screens; approximately **$6.96 remains of the $9 allowance**,

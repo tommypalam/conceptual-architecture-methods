@@ -4,6 +4,47 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Offline ordering precision and rationale diagnosis
+
+The researcher asked to continue the proposed offline diagnosis. Exact
+independent-binomial dynamic programming computes nondecreasing-count
+probabilities under four fitted positive logistic curves and two illustrative
+flat counterexamples, across six hypothetical sample sizes. No simulated
+agents, random seed or new API calls. At N30, ordering probability is 30.4%
+for the fresh repetition fit, 49.2% for grounding, and 86.4% for original
+canonical. Fit uncertainty and misspecification are not integrated; these
+conditional probabilities are not evidence that noise actually caused each
+failure, nor full-gate power estimates. Historical outcomes remain unchanged.
+
+A flat p=1/150 illustration gives 46.9% ordering probability at N30 through
+low-count ties, showing why ordering alone is insufficient. The original
+unrepeated verbal and numeric gradients had more decision variation than the
+new repeated variants, but those historical batches cannot identify repetition
+as the cause. No automatic sample-size increase or criterion amendment.
+
+Inspected the first two scheduled calls in all 15 cells: 30 unblinded items,
+plus the only verbal ADOPT as a separate outcome-selected exception. Source
+hashes and exact text links are retained. Recurrent procedural/endorsement
+and neutral-context reasons motivate hypotheses about competing considerations;
+they do not reveal internal causation or prove response-mode inversion. The
+ADOPT exception also cites process, so those words do not identify an action.
+
+Synthetic review (not external experts): Linden preserves the distinction
+between response mode and endorsement. Osei distinguishes fixed-index
+qualitative diagnosis from blind or population coding. Tanaka requires the
+conditional plug-in assumptions and the distinction between ordering and full
+gate power. Renna separates sampling precision from near-constant behaviour.
+Okafor recommends concurrent original/repeated controls before more battery
+spending. Resolution: keep the failed/ineligible outcomes and original theory;
+consider a separately frozen causal comparison, not repeated sampling to pass.
+
+Artifacts: `code/diagnose_repetition_precision.py` and
+[offline findings](experiments/phase1_5_encoding_validity/repetition_diagnosis_20260911/FINDINGS.md).
+Two focused tests passed: exact enumeration cross-check including boundary
+cases, invalid input handling and reconstruction of a known logistic intercept.
+All 35 pinned source files were unchanged during generation. No new experiment
+is prepared or dispatched, and the remaining allowance is unchanged.
+
 ## 2026-09-11 - Repetition representation screen complete, control ineligible
 
 Completed all 450 calls: every response valid, same pinned model, one attempt,

@@ -1,0 +1,662 @@
+{
+  "method": "Exact independent-binomial dynamic programming for nondecreasing observed counts, including ties. No Monte Carlo or simulated agents; no random seed.",
+  "scope": "Post-hoc conditional sensitivity analysis; assumes each plug-in positive logistic curve is true. Fit uncertainty/model misspecification omitted. Does not estimate the probability that this explanation is true.",
+  "not_full_gate_power": "Nondecreasing probability is an upper bound on complete positive-direction sweep success under valid collection; significance, h and estimator conditions are not computed.",
+  "scenarios": {
+    "original_canonical": {
+      "intercept": -2.639983691216772,
+      "slope": 4.998595107704951,
+      "probabilities": [
+        0.10525769381959592,
+        0.24224598109998577,
+        0.4648863623800552,
+        0.7024585565378203,
+        0.8651514061629009
+      ],
+      "observed_counts": [
+        5,
+        13,
+        21,
+        38,
+        42
+      ],
+      "observed_n": [
+        50,
+        50,
+        50,
+        50,
+        50
+      ],
+      "expected_counts_at_source_n": [
+        5.262884690979796,
+        12.112299054999289,
+        23.24431811900276,
+        35.122927826891015,
+        43.25757030814504
+      ]
+    },
+    "previous_repetition": {
+      "intercept": -5.981022251362912,
+      "slope": 6.188855325347497,
+      "probabilities": [
+        0.004668970770771242,
+        0.015916324423409598,
+        0.05282023281450072,
+        0.1612680171207928,
+        0.3986597882038304
+      ],
+      "observed_counts": [
+        0,
+        1,
+        1,
+        5,
+        12
+      ],
+      "observed_n": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "expected_counts_at_source_n": [
+        0.14006912312313724,
+        0.47748973270228795,
+        1.5846069844350215,
+        4.838040513623784,
+        11.959793646114912
+      ]
+    },
+    "previous_grounding": {
+      "intercept": -2.179510638046247,
+      "slope": 2.6535590748751248,
+      "probabilities": [
+        0.1285148088750229,
+        0.20045662158587452,
+        0.2988602608525709,
+        0.42018371144925537,
+        0.5519845972372766
+      ],
+      "observed_counts": [
+        4,
+        9,
+        5,
+        11,
+        19
+      ],
+      "observed_n": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "expected_counts_at_source_n": [
+        3.8554442662506867,
+        6.013698647576236,
+        8.965807825577127,
+        12.60551134347766,
+        16.5595379171183
+      ]
+    },
+    "fresh_repetition": {
+      "intercept": -2.4588066157155106,
+      "slope": 2.036419028105378,
+      "probabilities": [
+        0.09490489747167304,
+        0.1361218948019253,
+        0.19145290097840795,
+        0.2624422570386835,
+        0.3484113830426437
+      ],
+      "observed_counts": [
+        0,
+        8,
+        4,
+        11,
+        8
+      ],
+      "observed_n": [
+        30,
+        30,
+        30,
+        30,
+        30
+      ],
+      "expected_counts_at_source_n": [
+        2.847146924150191,
+        4.083656844057759,
+        5.743587029352239,
+        7.873267711160505,
+        10.452341491279311
+      ]
+    },
+    "flat_half_counterexample": {
+      "probabilities": [
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "assumption": "Flat illustrative curve; not an encoding effect."
+    },
+    "flat_verbal_floor_counterexample": {
+      "probabilities": [
+        0.006666666666666667,
+        0.006666666666666667,
+        0.006666666666666667,
+        0.006666666666666667,
+        0.006666666666666667
+      ],
+      "assumption": "Illustrative flat curve at pooled observed verbal rate, not an estimated causal model or a fitted positive effect."
+    }
+  },
+  "probabilities": [
+    {
+      "scenario": "original_canonical",
+      "n_per_value": 30,
+      "nondecreasing_probability": 0.8642438847264858,
+      "all_equal_counts_probability": 8.353438701367531e-19
+    },
+    {
+      "scenario": "original_canonical",
+      "n_per_value": 50,
+      "nondecreasing_probability": 0.9493514666550968,
+      "all_equal_counts_probability": 7.934323693572829e-29
+    },
+    {
+      "scenario": "original_canonical",
+      "n_per_value": 100,
+      "nondecreasing_probability": 0.994523402095909,
+      "all_equal_counts_probability": 2.201475435691854e-53
+    },
+    {
+      "scenario": "original_canonical",
+      "n_per_value": 200,
+      "nondecreasing_probability": 0.9998943403881806,
+      "all_equal_counts_probability": 6.698643967180956e-102
+    },
+    {
+      "scenario": "original_canonical",
+      "n_per_value": 500,
+      "nondecreasing_probability": 0.9999999979434239,
+      "all_equal_counts_probability": 1.9140524471999097e-246
+    },
+    {
+      "scenario": "original_canonical",
+      "n_per_value": 1000,
+      "nondecreasing_probability": 0.9999999999999983,
+      "all_equal_counts_probability": 0.0
+    },
+    {
+      "scenario": "previous_repetition",
+      "n_per_value": 30,
+      "nondecreasing_probability": 0.7558990975975234,
+      "all_equal_counts_probability": 2.396897347258514e-09
+    },
+    {
+      "scenario": "previous_repetition",
+      "n_per_value": 50,
+      "nondecreasing_probability": 0.7909594209030288,
+      "all_equal_counts_probability": 4.783362583211259e-14
+    },
+    {
+      "scenario": "previous_repetition",
+      "n_per_value": 100,
+      "nondecreasing_probability": 0.848815225023771,
+      "all_equal_counts_probability": 2.934874476642664e-25
+    },
+    {
+      "scenario": "previous_repetition",
+      "n_per_value": 200,
+      "nondecreasing_probability": 0.9139110843982187,
+      "all_equal_counts_probability": 4.587223153919529e-47
+    },
+    {
+      "scenario": "previous_repetition",
+      "n_per_value": 500,
+      "nondecreasing_probability": 0.9775158029968553,
+      "all_equal_counts_probability": 1.8472448166725132e-111
+    },
+    {
+      "scenario": "previous_repetition",
+      "n_per_value": 1000,
+      "nondecreasing_probability": 0.9967374347441141,
+      "all_equal_counts_probability": 4.678471705306723e-218
+    },
+    {
+      "scenario": "previous_grounding",
+      "n_per_value": 30,
+      "nondecreasing_probability": 0.49201903039615236,
+      "all_equal_counts_probability": 4.808276547044546e-08
+    },
+    {
+      "scenario": "previous_grounding",
+      "n_per_value": 50,
+      "nondecreasing_probability": 0.634605503301434,
+      "all_equal_counts_probability": 5.387659952562655e-11
+    },
+    {
+      "scenario": "previous_grounding",
+      "n_per_value": 100,
+      "nondecreasing_probability": 0.8346975096907161,
+      "all_equal_counts_probability": 7.169834512418661e-18
+    },
+    {
+      "scenario": "previous_grounding",
+      "n_per_value": 200,
+      "nondecreasing_probability": 0.9609258055609617,
+      "all_equal_counts_probability": 5.029916101639778e-31
+    },
+    {
+      "scenario": "previous_grounding",
+      "n_per_value": 500,
+      "nondecreasing_probability": 0.9989630173665922,
+      "all_equal_counts_probability": 1.7645875608010113e-69
+    },
+    {
+      "scenario": "previous_grounding",
+      "n_per_value": 1000,
+      "nondecreasing_probability": 0.9999943867274691,
+      "all_equal_counts_probability": 7.557845842258026e-133
+    },
+    {
+      "scenario": "fresh_repetition",
+      "n_per_value": 30,
+      "nondecreasing_probability": 0.3040272797089581,
+      "all_equal_counts_probability": 1.0931968419809807e-05
+    },
+    {
+      "scenario": "fresh_repetition",
+      "n_per_value": 50,
+      "nondecreasing_probability": 0.39845545930124715,
+      "all_equal_counts_probability": 3.011119137000107e-07
+    },
+    {
+      "scenario": "fresh_repetition",
+      "n_per_value": 100,
+      "nondecreasing_probability": 0.5862891894240765,
+      "all_equal_counts_probability": 1.2099520783362893e-10
+    },
+    {
+      "scenario": "fresh_repetition",
+      "n_per_value": 200,
+      "nondecreasing_probability": 0.7984773914749244,
+      "all_equal_counts_probability": 7.778063368675194e-17
+    },
+    {
+      "scenario": "fresh_repetition",
+      "n_per_value": 500,
+      "nondecreasing_probability": 0.9697159000869378,
+      "all_equal_counts_probability": 2.107973460300142e-34
+    },
+    {
+      "scenario": "fresh_repetition",
+      "n_per_value": 1000,
+      "nondecreasing_probability": 0.9978784967665024,
+      "all_equal_counts_probability": 5.880188209667617e-63
+    },
+    {
+      "scenario": "flat_half_counterexample",
+      "n_per_value": 30,
+      "nondecreasing_probability": 0.020841732472664458,
+      "all_equal_counts_probability": 0.000196080040325207
+    },
+    {
+      "scenario": "flat_half_counterexample",
+      "n_per_value": 50,
+      "nondecreasing_probability": 0.017263308990797074,
+      "all_equal_counts_probability": 7.134767395008037e-05
+    },
+    {
+      "scenario": "flat_half_counterexample",
+      "n_per_value": 100,
+      "nondecreasing_probability": 0.01413761860290374,
+      "all_equal_counts_probability": 1.7980393046641282e-05
+    },
+    {
+      "scenario": "flat_half_counterexample",
+      "n_per_value": 200,
+      "nondecreasing_probability": 0.012195733274443002,
+      "all_equal_counts_probability": 4.513127926972135e-06
+    },
+    {
+      "scenario": "flat_half_counterexample",
+      "n_per_value": 500,
+      "nondecreasing_probability": 0.010646297618159592,
+      "all_equal_counts_probability": 7.238361928822029e-07
+    },
+    {
+      "scenario": "flat_half_counterexample",
+      "n_per_value": 1000,
+      "nondecreasing_probability": 0.009924070102432837,
+      "all_equal_counts_probability": 1.811038950259031e-07
+    },
+    {
+      "scenario": "flat_verbal_floor_counterexample",
+      "n_per_value": 30,
+      "nondecreasing_probability": 0.4688256971327322,
+      "all_equal_counts_probability": 0.3667710780435804
+    },
+    {
+      "scenario": "flat_verbal_floor_counterexample",
+      "n_per_value": 50,
+      "nondecreasing_probability": 0.3006349465523874,
+      "all_equal_counts_probability": 0.1886238669478597
+    },
+    {
+      "scenario": "flat_verbal_floor_counterexample",
+      "n_per_value": 100,
+      "nondecreasing_probability": 0.1304349575559632,
+      "all_equal_counts_probability": 0.04010117915894457
+    },
+    {
+      "scenario": "flat_verbal_floor_counterexample",
+      "n_per_value": 200,
+      "nondecreasing_probability": 0.06177699820399965,
+      "all_equal_counts_probability": 0.007399856910728341
+    },
+    {
+      "scenario": "flat_verbal_floor_counterexample",
+      "n_per_value": 500,
+      "nondecreasing_probability": 0.031775093088676196,
+      "all_equal_counts_probability": 0.001095819793726946
+    },
+    {
+      "scenario": "flat_verbal_floor_counterexample",
+      "n_per_value": 1000,
+      "nondecreasing_probability": 0.022226420208751214,
+      "all_equal_counts_probability": 0.00026591758281959126
+    }
+  ],
+  "floor_counterexample_p_at_most_one_adopt_in_150": 0.7357602539942776,
+  "review_selection": "First two scheduled calls in each of all 15 cells: 30. Separately inspect the sole verbal ADOPT as an explicitly outcome-selected exception. Unblinded diagnostic notes, not new gold coding.",
+  "review_inventory": [
+    {
+      "record_key": "full_harness/MoR_v0p1/call_0001",
+      "value": 0.1,
+      "arm": "full_harness",
+      "decision": "WAIT",
+      "record_hash": "6f7f29d917037b3bad8cf2c60680ce14f23a01e2910a4e68120ce2a278da488b",
+      "reasoning_sha256": "3f9a8a5ce0d58478507d8132d5b8a0291e345d272dfe3e3c0cf6131541b3a445"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p1/call_0002",
+      "value": 0.1,
+      "arm": "full_harness",
+      "decision": "WAIT",
+      "record_hash": "8e33f055b5f4789e3f6684387ec87bce82031467d680c8f56091a741218b62e7",
+      "reasoning_sha256": "95903af12ef2e2e1fead83cce662bc22fe141baf618024dd3b3ed74b69c8a29e"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p3/call_0001",
+      "value": 0.3,
+      "arm": "full_harness",
+      "decision": "WAIT",
+      "record_hash": "7622877e1da3dee5ad5fe1566116fe6c6a642d6a8fb9f994699aafe6164ad8c9",
+      "reasoning_sha256": "bcd6c346e2faec72eca8c0b77ea762df8279e9f31a4dfb886df0ac81d4ab0e7a"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p3/call_0002",
+      "value": 0.3,
+      "arm": "full_harness",
+      "decision": "WAIT",
+      "record_hash": "9e00b5a6d5754c1424c8610159ac209f7515446b70137dc1b424e06882653f8b",
+      "reasoning_sha256": "e4142d0c80639a217b5b3a8788de484b27e6b5be1948cb687e12193c7d97577b"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p5/call_0001",
+      "value": 0.5,
+      "arm": "full_harness",
+      "decision": "WAIT",
+      "record_hash": "a87ee0bf3f9962c9551d67ea90c307e6eddac39e0c12dd2d4e321962959181ad",
+      "reasoning_sha256": "262dcfa706981474276af9f88cb12df014ee619b45e4d61839dee050d698f7a9"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p5/call_0002",
+      "value": 0.5,
+      "arm": "full_harness",
+      "decision": "WAIT",
+      "record_hash": "81b6cb493f0726f6e8ed8d289ec363fc016ff585ca5d7a149d56a7a4efecb09f",
+      "reasoning_sha256": "2372bbc839e49ed723c3bd173d0bb365b5026749a8f0ef8f1c1ce038c30a89dc"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p7/call_0001",
+      "value": 0.7,
+      "arm": "full_harness",
+      "decision": "WAIT",
+      "record_hash": "19de9811885b47a2b774b4601280104f88358e3d2d59405dd2a1d7fcd6191cb7",
+      "reasoning_sha256": "bc341a99be46b0ecb1081c6b3f921656d8b5eb1d9e2581edc03fedc2d27fbe2e"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p7/call_0002",
+      "value": 0.7,
+      "arm": "full_harness",
+      "decision": "WAIT",
+      "record_hash": "16890712c271f13a21a83216a5ea4f16f2ac27b5a9afada81bd7b1b78672a690",
+      "reasoning_sha256": "afacbd0eaf0cf84e3bdd370d80940983f674c016837ce59cf3a48abdba3aae50"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p9/call_0001",
+      "value": 0.9,
+      "arm": "full_harness",
+      "decision": "ADOPT",
+      "record_hash": "dfe1234bef7bcb3a36d4ebf063bf894d76eaea68a924a1fe6f33162f8a6b28f8",
+      "reasoning_sha256": "954f05f7bd646f8059b7e5cbc0bb4cc11d8b69d5f746680f9a239c71f5668207"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p9/call_0002",
+      "value": 0.9,
+      "arm": "full_harness",
+      "decision": "ADOPT",
+      "record_hash": "847e969a5ed2cd1bdb5288612f0d3acec18c1830e2b6a2b6693b0d982d1021e6",
+      "reasoning_sha256": "1821aa46bb53990534a667cec9dc206e4601d1b5da5b3f24aa25acace4a69165"
+    },
+    {
+      "record_key": "numeric_only/MoR_v0p1/call_0001",
+      "value": 0.1,
+      "arm": "numeric_only",
+      "decision": "WAIT",
+      "record_hash": "02fc1ac5b801b042d44bd57d6820e0ae074d3f46a6e73891f4f1384dfef0e156",
+      "reasoning_sha256": "1d11e08fafaa5efd9a82610762d4cc6cf0b0c471c16d90a988efc10c548455ab"
+    },
+    {
+      "record_key": "numeric_only/MoR_v0p1/call_0002",
+      "value": 0.1,
+      "arm": "numeric_only",
+      "decision": "ADOPT",
+      "record_hash": "f63ee5fc38ed3d865ac1cd7b1209e450535e8515a121e2a7582f5f1407282bc3",
+      "reasoning_sha256": "ab3cf4fff1b761b4f73e8c71f4a0294b29c1a9f6a74c2c891df0c9e395b2ebb1"
+    },
+    {
+      "record_key": "numeric_only/MoR_v0p3/call_0001",
+      "value": 0.3,
+      "arm": "numeric_only",
+      "decision": "WAIT",
+      "record_hash": "e98ab660165f7469d97ec79a75e8efb9a9719bacabd67ef5cbd1b5c9883ab10d",
+      "reasoning_sha256": "7b4513159b30090d5cf98863ea2b40b5be85e55da596531a811a365472c6ddff"
+    },
+    {
+      "record_key": "numeric_only/MoR_v0p3/call_0002",
+      "value": 0.3,
+      "arm": "numeric_only",
+      "decision": "WAIT",
+      "record_hash": "d0dc8f54431921c1ac5c7fcad4d12e897aec615fd684a0e3a9c0b1bb82aef59a",
+      "reasoning_sha256": "84da84d2e779ffbbffa7d2ad6f8e659847a8da076a5eed38cdf1c39037023f2a"
+    },
+    {
+      "record_key": "numeric_only/MoR_v0p5/call_0001",
+      "value": 0.5,
+      "arm": "numeric_only",
+      "decision": "WAIT",
+      "record_hash": "86299889cae6b9695bd2f4fb866e77e6f975bc560fb9a4f61e8952d75e5ec677",
+      "reasoning_sha256": "115b83f233d612b16acfa981149f1e7f835088c25d713f0d42d9b380387acc73"
+    },
+    {
+      "record_key": "numeric_only/MoR_v0p5/call_0002",
+      "value": 0.5,
+      "arm": "numeric_only",
+      "decision": "WAIT",
+      "record_hash": "184e49e6c9eb100f0042f66f6a372211555f9055301b515b88d4095df8d5fb06",
+      "reasoning_sha256": "694e3a1159691d932a95100fb3cac3b57971d1ea803de3d617768d7b4e1d6d67"
+    },
+    {
+      "record_key": "numeric_only/MoR_v0p7/call_0001",
+      "value": 0.7,
+      "arm": "numeric_only",
+      "decision": "WAIT",
+      "record_hash": "1cdb2e74ffc05beec1c1ee83177c91abf1b3f42058156db409a883afd56386f1",
+      "reasoning_sha256": "840b0abbfb12b6caaad17ebf1dc9ae2edb1b9f012ad33b11028b912ef1d87d33"
+    },
+    {
+      "record_key": "numeric_only/MoR_v0p7/call_0002",
+      "value": 0.7,
+      "arm": "numeric_only",
+      "decision": "WAIT",
+      "record_hash": "3d868068c5bccdf5c89e9c32c59e9ae79849ef5710035df2efd730ff4828f33a",
+      "reasoning_sha256": "31ce2703aa7a326337a7646e38b341124ae10de4a5cc2a1c28561e8e6353797f"
+    },
+    {
+      "record_key": "numeric_only/MoR_v0p9/call_0001",
+      "value": 0.9,
+      "arm": "numeric_only",
+      "decision": "WAIT",
+      "record_hash": "5299350239e825fa4cb079a96924022770f8d16b3334b4e8d0001d8ae4592c9b",
+      "reasoning_sha256": "c4e375540f73018a8cca52e733a093c235fdda1dbb91e9331c6f7975db521643"
+    },
+    {
+      "record_key": "numeric_only/MoR_v0p9/call_0002",
+      "value": 0.9,
+      "arm": "numeric_only",
+      "decision": "WAIT",
+      "record_hash": "8cf9b9515a12b3baa1bc534c3ff17c52fb65a7bc2a0235d7c4a5682a20463152",
+      "reasoning_sha256": "37496393a10d4c7c119a9ab13f3691a79c602982115e9c5d6992aba421882a3c"
+    },
+    {
+      "record_key": "verbal_only/MoR_v0p1/call_0001",
+      "value": 0.1,
+      "arm": "verbal_only",
+      "decision": "WAIT",
+      "record_hash": "e993d519551425cf0029d72e14fd82ebebefd0ff1e50b5f93cc5e35a307d74c5",
+      "reasoning_sha256": "9c3ba689220e3efa866a49ddd2ded96bdfe5e8c8ba6257599c955f38ada08653"
+    },
+    {
+      "record_key": "verbal_only/MoR_v0p1/call_0002",
+      "value": 0.1,
+      "arm": "verbal_only",
+      "decision": "WAIT",
+      "record_hash": "b6d6878ef7fd171b4a712d78df5d79c2b6a41f2982037afac2d818535364011f",
+      "reasoning_sha256": "c82c714d13a0919f53774a54760b1396915a2617900f8a1df671d03ee5eac5da"
+    },
+    {
+      "record_key": "verbal_only/MoR_v0p3/call_0001",
+      "value": 0.3,
+      "arm": "verbal_only",
+      "decision": "WAIT",
+      "record_hash": "e180183e0ac5a20247c0a5163a96675c75f426c5e64f68e4871b5e87c67b322a",
+      "reasoning_sha256": "6b3e5ceab5d05f48b0a9ffa890acd40ed3115449d08819c637d09e97e1b8a137"
+    },
+    {
+      "record_key": "verbal_only/MoR_v0p3/call_0002",
+      "value": 0.3,
+      "arm": "verbal_only",
+      "decision": "WAIT",
+      "record_hash": "5b5a1253a98fa32b07aa20576ad50e1b7a14a6d7cf3626265c132a3637776e1e",
+      "reasoning_sha256": "924a88e06d5533bbd7b065794d89a44dd8e1ab93894cc53162148f9f4165e173"
+    },
+    {
+      "record_key": "verbal_only/MoR_v0p5/call_0001",
+      "value": 0.5,
+      "arm": "verbal_only",
+      "decision": "WAIT",
+      "record_hash": "64897fc624726f28b105335826745c7260d61f66b95f4dd1f4f981961e4760cf",
+      "reasoning_sha256": "25fdd24bc3f101ccbd37b67eeec1c946e587a1495abefb83c6ebec8ce20a1a17"
+    },
+    {
+      "record_key": "verbal_only/MoR_v0p5/call_0002",
+      "value": 0.5,
+      "arm": "verbal_only",
+      "decision": "WAIT",
+      "record_hash": "28458db3f3fb945d621cd47f9551d65893b50b14cf242ed592fe719ef6ab4fb1",
+      "reasoning_sha256": "1dfdb796de00d8ca2554f556207b25f2221bdc65052453d5cdc3d04d8a9f1ea2"
+    },
+    {
+      "record_key": "verbal_only/MoR_v0p7/call_0001",
+      "value": 0.7,
+      "arm": "verbal_only",
+      "decision": "WAIT",
+      "record_hash": "1ccd0f1521d74f0c56c94a5fa757990d3de14048910ef072c7fa2b708f0fbbe3",
+      "reasoning_sha256": "2cafa661b584a987c47282b0b4a1182c46853331912c6c097c988e909c27f24d"
+    },
+    {
+      "record_key": "verbal_only/MoR_v0p7/call_0002",
+      "value": 0.7,
+      "arm": "verbal_only",
+      "decision": "WAIT",
+      "record_hash": "cb8e0e31f4462438c88eba8acdaa13458131dbfe17b1965c87a038e56fa015d8",
+      "reasoning_sha256": "dd58cf3241bff69e308b2d3dc3ca6c39bbd473a8de5a5fca747980dfeca9e836"
+    },
+    {
+      "record_key": "verbal_only/MoR_v0p9/call_0001",
+      "value": 0.9,
+      "arm": "verbal_only",
+      "decision": "WAIT",
+      "record_hash": "fd3c058b9bcd37dd6584d2de3cb2c135bced57d318519df3ce51030f0f406f0c",
+      "reasoning_sha256": "2bf7afccb5f5bc9163b3332916a283baeb1510f4cb430d9667665c4fceedb1c8"
+    },
+    {
+      "record_key": "verbal_only/MoR_v0p9/call_0002",
+      "value": 0.9,
+      "arm": "verbal_only",
+      "decision": "WAIT",
+      "record_hash": "2eac46f4d731e9876509196394069e6a608a1819ddd0c461bb4216b18c927499",
+      "reasoning_sha256": "2d80c98ad02674a2ba2b8e12bc880faa4b021aa299d45d433e89493b8564e1cb"
+    }
+  ],
+  "outcome_selected_exceptions": [
+    {
+      "record_key": "verbal_only/MoR_v0p7/call_0029",
+      "record_hash": "1d0d0d3c0e6f89f543700c665bef6fdefb58aa8bcd4b04429ad4a12d3276ab71",
+      "reasoning_sha256": "d1f4d08638942d0c35151da8f804c85ed388d083f48e3d5239bd82719430ded6"
+    }
+  ],
+  "source_sha256": {
+    "experiments/phase1_5_encoding_validity/option_c_20260909_restart/analysis/summary_8d2d0ab58fff59f9.json": "ba20a068e99c6034bb07fa248444b9b15fccf4a0f71963dc271fb5950caf8b19",
+    "experiments/phase1_5_encoding_validity/mor_curve_20260911/analysis/curve_38db0185e4a8dc94.json": "c9fbbd0b2d769402ba07e6138685c0a3c71ccea9dc16bed19803e7b83feb4064",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/analysis/retention_ec81552b7a2c8ed7.json": "b481620ad3a72dc0cf87128486cfcc63ab245e493c6f1e9978d77121ec35dbbd",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/manifest.json": "cfa13bd0caa7faab4407aa15872075f1c6ace051922b71ad9bae8b4eec0c71b9",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/full_harness/MoR_v0p1/call_0001.json": "1c5c8435a674eea86f0ef59ac2a4cdc1f9bf9dbd50d617e7dc95e61a3b44dfe1",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/full_harness/MoR_v0p1/call_0002.json": "ff548bea2e083c666ae73ef37dad4deb23254bfb67b62dcb9fee84c03f338de3",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/full_harness/MoR_v0p3/call_0001.json": "a77c64dbd9fe622cfeb9d8aaca9f115b5d634378575026849a55d78c5a0a4e6c",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/full_harness/MoR_v0p3/call_0002.json": "620c2a9212ba0dc7745659dfbd509c1b59d061c4de82f07346f1d2a1061d2d11",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/full_harness/MoR_v0p5/call_0001.json": "cfdb23e6ab67ba58844cef38c845686b61c6c59e7daa66441c84ab06ca30e1e2",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/full_harness/MoR_v0p5/call_0002.json": "bae7416fc74f606165afa1dbe8e6749e8fbdf4cbce41947fb74ca3d11d1b717d",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/full_harness/MoR_v0p7/call_0001.json": "e538144925bf6d7b49ccfe1ec3c0ba295655a99ffca0d434ea09b7d8a8510316",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/full_harness/MoR_v0p7/call_0002.json": "09954816e0d152a2a7ceb9549ff1f1e658004730f6d28444fa6e2f1722e8f68d",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/full_harness/MoR_v0p9/call_0001.json": "0cabc15160eb433c526e5af2c5684ea547beb6e1102b916e1b1e5da5628290f1",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/full_harness/MoR_v0p9/call_0002.json": "6896fe0e00fa242dcc4bfed078e36151e85f34ee8d1ad5ab5059ab38305d5f90",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/numeric_only/MoR_v0p1/call_0001.json": "3c91160b7a71624a27c12f7ae2c9c3b2daed3ba54f506fcfb60b886d783cb17c",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/numeric_only/MoR_v0p1/call_0002.json": "f288e7b924c3476bfa533125b4a5eec11368bfef586498de9fa36eb2fe3c646d",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/numeric_only/MoR_v0p3/call_0001.json": "04531eb92206f5d93f6a50d50baa0f1086833a87a28b4cc63a5f170cb510cc67",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/numeric_only/MoR_v0p3/call_0002.json": "84e1ba3ef8af5af07a9e0017941f31f89b372aacda13cbb30c893859256a7501",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/numeric_only/MoR_v0p5/call_0001.json": "a28dae9bb2d2047ab5c3e6ee0aa641d0e147b3f8aecaee5cd3201425457b17b6",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/numeric_only/MoR_v0p5/call_0002.json": "8162888ba8c378fca6c4a1303f746b38e190a812fde4b4a008781fa5a4461cc6",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/numeric_only/MoR_v0p7/call_0001.json": "6ab817d72d27cc4b2e4979e6875726e8c4200424f87f048f1144aee3c3818ef4",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/numeric_only/MoR_v0p7/call_0002.json": "faf5fe45d096dafb40e6cb292a0f461d2b3dc40c00ae5d66153d7eb49a408f03",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/numeric_only/MoR_v0p9/call_0001.json": "3cb7bd88b54cf68438cde17c7481e7225c4f30ae4564683f319edac2cbc6331f",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/numeric_only/MoR_v0p9/call_0002.json": "9674e28f4f847ba30d22050cebcc05622628358836b8d65f2b528823cb127d9b",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/verbal_only/MoR_v0p1/call_0001.json": "7821cd9e3e44ee62d266e8271bf0e082551f976c9e66dc21a8aa612a53514cf8",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/verbal_only/MoR_v0p1/call_0002.json": "6f98fbc8e7ccc9cff15f943a0d247258fb977dee7a15ea7c6b3257764a38bea5",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/verbal_only/MoR_v0p3/call_0001.json": "b9e628562d2d00d0a741e9452bda4605cf27a97b74a7110ef4ca996a309f303b",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/verbal_only/MoR_v0p3/call_0002.json": "ad693b98202e69502cccbb738407e8b1b48c7bc6a82a1810c96e8f95af999ce8",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/verbal_only/MoR_v0p5/call_0001.json": "4b0feb5201763257452ff7186b6bdb6982748fd8e97a79829c155612860f71d4",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/verbal_only/MoR_v0p5/call_0002.json": "107b7016d20328ff42a206994a0b1950223206748a3b54a6c32339c40874da40",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/verbal_only/MoR_v0p7/call_0001.json": "177bef6b89b8d46c215fdf4a1da02437003a47bc37b71ae68871f8b33d4e639f",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/verbal_only/MoR_v0p7/call_0002.json": "02a6bf2800a264c9de1f7ec7ff9651cdc29867dd97cbbfb65e5850a076ee8bfc",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/verbal_only/MoR_v0p9/call_0001.json": "b41ed5b1412f56b1b87d1e2cddb5636c742e8d76ff3b5782c7065c60c48e1ee8",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/verbal_only/MoR_v0p9/call_0002.json": "a937794729a737520e0b45ce29a71476257c7d6c9f29cfc0af184987affef538",
+    "experiments/phase1_5_encoding_validity/repetition_retention_20260911/records/verbal_only/MoR_v0p7/call_0029.json": "281508db2d8a014b1b5ba8921687b6d1974f466910c0b48d40ad8579cc96463a"
+  },
+  "analysis_source_sha256": "3ebbe13e347ee5191886ef0b283ca6fe3f194f6589af0d2ce137ad6ce4ca655b"
+}
