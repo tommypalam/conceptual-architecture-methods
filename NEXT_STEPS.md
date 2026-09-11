@@ -10,6 +10,18 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Current methodological review:** after questioning wording dependence, the
+researcher authorised a review of what the gate is meant to establish. The
+[review](experiments/phase1_5_encoding_validity/method_review_20260911/PARAPHRASE_GATE_REVIEW.md)
+confirms that paraphrase robustness is part of the current central claim, not
+an optional check waived by Phase 0's wording freeze. The earlier suggestion
+that it could simply become a limitation was too permissive. Keep the original
+gate/outcome, distinguish within-template response from across-template
+robustness, and separate demonstrated effects from equivalence-test imprecision.
+Use existing canonical five-value evidence before further spending; do not
+optimise only for agreement or automatically launch the intermediate-value
+diagnostic. No methodological amendment, paid call or Phase 2 launch was made.
+
 **Latest diagnostic complete:** the researcher instructed us to continue testing
 within the remaining $9 allowance before considering a documented practical
 limit. The [540-call sensitivity screen](experiments/phase1_5_encoding_validity/evidence_sensitivity_20260911/PROTOCOL.md)

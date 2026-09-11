@@ -4,6 +4,53 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Review the paraphrase gate without rewriting its outcome
+
+The researcher questioned whether wording dependence is inevitable and already
+handled by Phase 0's fixed wording, then accepted the proposal to review the
+gate's purpose. This authorises methodological review, not a gate waiver or
+automatic additional API experiment.
+
+Thesis 8.1.3, 8.2 and 8.3 explicitly tie paraphrase robustness to the central
+encoding claim; specification 4.3.3 operationalises 24/30 equivalent cells and
+4.5 blocks advancement after severe failure. Phase 0 closure preserves exact
+dilemmas and measured naked baselines, while documenting harness dependence.
+It does not cancel the later test of alternative parameter descriptions.
+The assistant's preceding suggestion that fixed wording could simply relegate
+robustness to an optional limitation was too permissive for this specification.
+
+Within-template parameter response and across-template robustness are distinct
+findings. A fixed implementation can show the first without establishing the
+second. Neither alone validates the entire ten-parameter claim. Existing
+gradient and active-audit limitations also remain; removing paraphrases would
+not automatically clear the rest of the battery. Preserve both the documented
+equivalence precision limitation and the separately demonstrated large PD/S3
+effect. Neither a failed equivalence test nor lexical sensitivity proves a
+unique internal mechanism or universal hard cap.
+
+Synthetic review: Linden considers a fixed implementation a legitimate bounded
+object of study but rejects identifying any behavioural shift with ethical
+encoding. Osei values the robustness diagnostic while cautioning that a single
+semantic review does not prove behavioural substitutability. Tanaka separates
+equivalence imprecision from demonstrated divergence and rejects post-hoc margin
+relaxation. Renna emphasises that the current thesis explicitly claims the
+stronger architecture and cannot quietly switch claims. Okafor recommends
+reusing existing canonical sweeps before spending on further candidate grids.
+
+Disagreement: robustness is not a logical prerequisite for every conceivable
+fixed-prompt engineering claim, but it is an explicit prerequisite for this
+project's documented central claim. Resolution: retain the original gate and
+outcome, report the distinct evidence separately, and stop treating reduced
+wording gaps alone as an optimisation target. No theory/protocol amendment,
+descope, partial-pass label, tool activation or Phase 2 permission follows.
+Any proposed downgrade would require explicit methodological discussion and
+the user's binding-constraint rule; no such impossibility has been shown.
+
+Created a source-linked review and proposed reporting paragraph; no original
+theory, prompt, raw record or scientific code changed. No new API spending;
+approximately $7.85 remains against the new allowance, not checked account
+credit. See [review](experiments/phase1_5_encoding_validity/method_review_20260911/PARAPHRASE_GATE_REVIEW.md).
+
 ## 2026-09-11 - Endpoint sensitivity before claims of a practical limit
 
 The researcher said to proceed, try available defensible approaches first, and
