@@ -1,5 +1,20 @@
 # Phase 1.5 decision record — September 11
 
+## Subsequent diagnostic update
+
+The900-call confirmation was stopped before launch. The researcher instead
+accepted a300-call fresh MoR-only versus full-ten diagnostic, now complete:
+300valid, cost$0.2704725. The primary slope difference is+3.445 with95%CI
+[+.827,+6.064], supporting a changed fitted response following deletion.
+The reduced profile still misses observed monotonicity; content, length and
+substantive trait interaction explanations remain unresolved. Full phase status
+is unchanged. See the [current interpretation and figure](profile_ablation_20260911/analysis/INTERPRETATION.md).
+Cumulative conservative charge is now$3.07084125; approximately$5.93 remains
+of the latest$9 allowance. No new requests are pending or scheduled.
+
+The remainder preserves the decision snapshot before this diagnostic.
+
+
 **Current outcome: encoding validity is not established; Phase 2 remains on hold.**
 The empirical battery is collected and scored. The open issue is scientific
 validity, not an unfinished original collection. A fresh local confirmation is

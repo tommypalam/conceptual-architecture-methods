@@ -1,0 +1,17 @@
+{
+  "design_hash": "50e907be40794c53014083a431f538c78ac270280d0ef6d0efa859359a1cf889",
+  "analysis_digest": "52a9b1173526814de378a7c87c8d05df11b2a3ee10694374a695384e0e245954",
+  "script_sha256": "50aa004156bd02bfdb54267bf6473a7179f8a00a016555b8189ff1923f0d948d",
+  "files": [
+    {
+      "path": "fig_01_profile_ablation.png",
+      "sha256": "cbbd0fc8744f5e99a353606844a5ab3617fd7ae915ff091ac38d166dc0a2e449"
+    },
+    {
+      "path": "fig_01_profile_ablation.pdf",
+      "sha256": "78926e13387282b25f3fff0e8b362797103a2a6923436b53edac50166f3780e0"
+    }
+  ],
+  "all_ten_cells_retained": true,
+  "curve_interpolation": false
+}

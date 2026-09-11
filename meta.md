@@ -4,6 +4,39 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Background-profile diagnostic: positive slope contrast, mechanism open
+
+All300 fresh responses valid; no terminal, model or usage failures. Cost$0.2704725.
+Full-ten counts10/10/11/23/23 and MoR-only8/22/28/26/30 at the five values,N30.
+Primary logistic slope difference+3.445,95%Wald interval[+.827,+6.064],p=.0099.
+Secondary endpoint-effect difference+.300 has conservative interval[-.447,+.953].
+All observations, exact requests and ZIP bytes verified; no outcome-based changes.
+
+Synthetic perspectives, not external review: Linden rejects equating a steeper
+response with greater ethical fidelity. Osei notes that omitted background means
+are substantive dispositions; their moderation could reflect legitimate joint
+conditioning, not failed attention. Tanaka retains linear-logit assumptions,
+selection history, the wide secondary interval, and the reduced arm's failed
+observed monotonicity despite its positive slope. Renna keeps content/length/
+interaction hypotheses open and the original paraphrase/audit requirements intact.
+Okafor favours using this diagnostic to design a discriminating control rather
+than commissioning a new battery. Resolution: the surrounding profile affects
+the fitted MoR response in this selected test; no bandwidth limit or reduced
+architecture is established. The900-call confirmation remains paused.
+
+Post-score unblinded inspection used fixed indices1,2 in all ten cells,20records.
+Keys/hashes are saved, with no new quantitative coding or independent-audit claim.
+Procedure, endorsement and transition costs recur in full-profile explanations;
+peer evidence and competitive timing recur in MoR-only explanations, with overlap.
+These are model-generated explanations, not evidence identifying internal cause.
+
+The rate figure shows all ten cells with Wilson intervals and no fitted
+interpolation. Visual QA corrected layout cropping and a floating-point errorbar
+boundary; initial draft files are preserved under output/figure_drafts. No raw
+results or frozen runner changed. Three diagnostic tests passed before dispatch.
+Cumulative known cost$3.065874; including old unknown timeout reservation,
+conservative charge$3.07084125 leaves$5.92915875. No calls pending or new run queued.
+
 ## 2026-09-11 - Freeze accepted MoR background-profile diagnostic
 
 The researcher accepted the300-call MoR-only versus full-ten proposal and

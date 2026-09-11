@@ -10,14 +10,19 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
-**New diagnostic running:** [300-call MoR-only versus full-ten protocol](experiments/phase1_5_encoding_validity/profile_ablation_20260911/PROTOCOL.md),
-five values,N30 per condition, fresh concurrent controls, seed20260921,
-$2 cap ($1.6115625 full reserve). Exact retained text and all Phase0 files
-unchanged. Three offline tests pass. Primary is a direct slope difference;
-no bandwidth, paraphrase, reduced-architecture or phase-pass claim follows.
-The researcher accepted this diagnostic and instructed proceeding. Preparation
-and authorization basis are complete; execution review accepted the launch and
-real responses are being saved. No changes during collection.
+**Profile-ablation diagnostic complete:300/300 valid, cost$0.2704725.**
+[Interpretation and figure](experiments/phase1_5_encoding_validity/profile_ablation_20260911/analysis/INTERPRETATION.md).
+Full-ten ADOPT counts10/10/11/23/23; MoR-only8/22/28/26/30, each/30.
+Primary slope difference+3.445,95%CI[+.827,+6.064],p=.0099 under the frozen
+linear-logit model. Deletion changes the fitted response, but does not identify
+bandwidth versus substantive trait conditioning/content/length. Full-ten meets
+its original directional criterion; MoR-only misses observed monotonicity.
+Secondary endpoint-change contrast+.300 has a wide interval including zero.
+All raw ZIP bytes and provenance verified; no pending calls. Cumulative
+conservative charge$3.07084125 leaves$5.92915875 of the latest$9 allowance.
+Phase gate remains unmet; no paraphrase or reduced-architecture pass is claimed.
+Next methodological task: distinguish background conditioning from presentation
+without changing intended meanings. No new run is scheduled;900-call study paused.
 
 The [current decision record](experiments/phase1_5_encoding_validity/DECISION_RECORD_20260911.md)
 consolidates completed results, remaining requirements and the bounded next step.

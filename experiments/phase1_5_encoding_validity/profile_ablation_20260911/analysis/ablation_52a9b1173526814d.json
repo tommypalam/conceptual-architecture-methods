@@ -1,0 +1,238 @@
+{
+  "schema_version": "1.0",
+  "n_records": 300,
+  "n_expected": 300,
+  "sweeps": [
+    {
+      "arm": "full_harness",
+      "parameter": "MoR",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 30,
+          "n_recorded": 30,
+          "n_valid": 30,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 10,
+          "rate": 0.3333333333333333,
+          "ci95": [
+            0.19230498083676134,
+            0.5121994835545616
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 30,
+          "n_recorded": 30,
+          "n_valid": 30,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 10,
+          "rate": 0.3333333333333333,
+          "ci95": [
+            0.19230498083676134,
+            0.5121994835545616
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 30,
+          "n_recorded": 30,
+          "n_valid": 30,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 11,
+          "rate": 0.36666666666666664,
+          "ci95": [
+            0.21873920806100708,
+            0.5448643634520511
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 30,
+          "n_recorded": 30,
+          "n_valid": 30,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 23,
+          "rate": 0.7666666666666667,
+          "ci95": [
+            0.5907167384187784,
+            0.8820761185551049
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 30,
+          "n_recorded": 30,
+          "n_valid": 30,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 23,
+          "rate": 0.7666666666666667,
+          "ci95": [
+            0.5907167384187784,
+            0.8820761185551049
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 2.831164499915256,
+        "se": 0.6562589308150684,
+        "ci95": [
+          1.5449206309849945,
+          4.117408368845518
+        ],
+        "p_value": 4.253333719771914e-06,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 21.147149754575793
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 0.9023731539979774,
+      "monotonic": true,
+      "predicted_direction": 1,
+      "direction_matches": true,
+      "criterion_met": true
+    },
+    {
+      "arm": "mor_only",
+      "parameter": "MoR",
+      "problem": "S3",
+      "cells": [
+        {
+          "value": 0.1,
+          "n_expected": 30,
+          "n_recorded": 30,
+          "n_valid": 30,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 8,
+          "rate": 0.26666666666666666,
+          "ci95": [
+            0.14182663319596317,
+            0.4444796169518888
+          ]
+        },
+        {
+          "value": 0.3,
+          "n_expected": 30,
+          "n_recorded": 30,
+          "n_valid": 30,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 22,
+          "rate": 0.7333333333333333,
+          "ci95": [
+            0.555520383048111,
+            0.8581733668040368
+          ]
+        },
+        {
+          "value": 0.5,
+          "n_expected": 30,
+          "n_recorded": 30,
+          "n_valid": 30,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 28,
+          "rate": 0.9333333333333333,
+          "ci95": [
+            0.7867654163738308,
+            0.9815229762087295
+          ]
+        },
+        {
+          "value": 0.7,
+          "n_expected": 30,
+          "n_recorded": 30,
+          "n_valid": 30,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 26,
+          "rate": 0.8666666666666667,
+          "ci95": [
+            0.703186733179637,
+            0.9469034451594526
+          ]
+        },
+        {
+          "value": 0.9,
+          "n_expected": 30,
+          "n_recorded": 30,
+          "n_valid": 30,
+          "n_missing": 0,
+          "n_invalid": 0,
+          "opt0_count": 30,
+          "rate": 1.0,
+          "ci95": [
+            0.8864866068260312,
+            0.9999999999999999
+          ]
+        }
+      ],
+      "fit": {
+        "status": "ok",
+        "slope": 6.276293099928861,
+        "se": 1.1636866500859468,
+        "ci95": [
+          3.9955091764704034,
+          8.557077023387318
+        ],
+        "p_value": 1.98682328706248e-12,
+        "test": "likelihood_ratio_1df",
+        "lr_statistic": 49.49693062440862
+      },
+      "complete": true,
+      "parse_quality_98pct": true,
+      "cohens_h_extremes": 2.056314449090488,
+      "monotonic": false,
+      "predicted_direction": 1,
+      "direction_matches": true,
+      "criterion_met": false
+    }
+  ],
+  "delivery_contrasts": [
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "contrast": "mor_only endpoint change minus full_harness endpoint change",
+      "estimate": 0.3,
+      "ci95_conservative": [
+        -0.44706211481886204,
+        0.9527220868389555
+      ],
+      "inference": "Bonferroni-combined Clopper-Pearson endpoint intervals; independent binomial-call assumption"
+    }
+  ],
+  "battery_status": "NOT CLOSED: coherence, paraphrase and numeric/verbal tests also required",
+  "inference_note": "Unadjusted p<0.05 follows spec 4.1; no new directional hypotheses inferred.",
+  "status": "MORE_POSITIVE_SLOPE_UNDER_DELETION",
+  "primary_slope_difference": {
+    "status": "estimated",
+    "estimate": 3.4451286000136045,
+    "ci95": [
+      0.8266560307725941,
+      6.063601169254615
+    ],
+    "p_two_sided": 0.009916489550058027,
+    "method": "Independent-arm grouped-binomial logistic slope difference; Wald approximation, logit linearity and independent calls assumed",
+    "se": 1.3359799414148363
+  },
+  "secondary_endpoint_difference": {
+    "difference": 0.3,
+    "conservative_95_interval_unknown_envelope": [
+      -0.44706211481886204,
+      0.9527220868389555
+    ]
+  },
+  "n_terminal_failures": 0,
+  "n_missing_usage": 0,
+  "recorded_token_estimate_usd": 0.2704725000000002,
+  "historical_records_pooled": false,
+  "design_hash": "50e907be40794c53014083a431f538c78ac270280d0ef6d0efa859359a1cf889"
+}

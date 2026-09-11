@@ -1,0 +1,85 @@
+{
+  "selection": "Post-score unblinded inspection of fixed indices1 and2 in all ten cells; not outcome-selected, formal coding or independent audit.",
+  "records": [
+    {
+      "record_key": "full_harness/MoR_v0p1/call_0001",
+      "sha256": "48d987e7aa2fd418bf17fd7354c8e16ac2c6add3bb482e26ebfe9537bf73bcb7"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p1/call_0002",
+      "sha256": "89f0a19461e79c56d6c1de0d94b16e7823ec57d6d9c3248bd928e071c09dd624"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p3/call_0001",
+      "sha256": "254291706276b4920afc2ed7b8e2592c56d78288ebee58c632e23db725e9375c"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p3/call_0002",
+      "sha256": "a984b37efbbd5e63b0d588f811c6ca7f49b927eb6a9451cacc33f0c79f01748a"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p5/call_0001",
+      "sha256": "09f86d8da3fffdba76d086cc1a3d4c0a23448ccb9895cac46905cc4b0b49fc81"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p5/call_0002",
+      "sha256": "3ab8d3881d8232e4e46aa07edd9144572f67ebc1c1456ca4a6894b7fdae4fe39"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p7/call_0001",
+      "sha256": "1aa96799d632f492c06e3c60dd8fb8fdbd795abd22272699e8c8ada7e6b09921"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p7/call_0002",
+      "sha256": "1405b1800cc66dd13c1ac284c171f644252e3fe42c445c528cac7e82798e2f7a"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p9/call_0001",
+      "sha256": "9958eb032466840af4311d0d76420ff9c88f420a73b5fc4e49bbb37f6c138db4"
+    },
+    {
+      "record_key": "full_harness/MoR_v0p9/call_0002",
+      "sha256": "40281bb1d2cc994835b1d689cd0856f4090f55fd073ba31a7f109e079a1aa009"
+    },
+    {
+      "record_key": "mor_only/MoR_v0p1/call_0001",
+      "sha256": "be4f018d513a9d2478f25af73b27e7ff61414932d0a2ce0cbddfc9b900049b78"
+    },
+    {
+      "record_key": "mor_only/MoR_v0p1/call_0002",
+      "sha256": "93fc84f037a7efbad86123c4c0cedf2513ba4c60d0a83433421b60f87572331a"
+    },
+    {
+      "record_key": "mor_only/MoR_v0p3/call_0001",
+      "sha256": "20fb199821af8cd8c6eeccc5b52375a26732933151bb186e620ef959255df9ce"
+    },
+    {
+      "record_key": "mor_only/MoR_v0p3/call_0002",
+      "sha256": "41fd33a22253682182b5f677c0d6e80144c81c68e89d94d86c5c1c819ebf61e3"
+    },
+    {
+      "record_key": "mor_only/MoR_v0p5/call_0001",
+      "sha256": "06458f0e512cb212089d3231e82d40f35074f2fa63e524ee4b354f5a000efb2e"
+    },
+    {
+      "record_key": "mor_only/MoR_v0p5/call_0002",
+      "sha256": "8d7159b840c8ed46af03a4171e0c7ddf3f0292a5a6346f5f6a014e3d8cbe0e99"
+    },
+    {
+      "record_key": "mor_only/MoR_v0p7/call_0001",
+      "sha256": "047315cbdb1a00a695654b21bc95766e8b770c85f538229862b7fab7ece28966"
+    },
+    {
+      "record_key": "mor_only/MoR_v0p7/call_0002",
+      "sha256": "0ed45fe3e52f039ac193fd8cbffc646221348a92b4a1069fbfaa34e96bf930bd"
+    },
+    {
+      "record_key": "mor_only/MoR_v0p9/call_0001",
+      "sha256": "bcfee02b6c62952cd517aa8e2d32fd4bcbb5e76febc97388d96431907466a4e7"
+    },
+    {
+      "record_key": "mor_only/MoR_v0p9/call_0002",
+      "sha256": "471b4c0b0daa364c4dedc6e3012b67ab3271830013aff6710c7b7bced272f5a2"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "design_hash": "50e907be40794c53014083a431f538c78ac270280d0ef6d0efa859359a1cf889",
+  "valid_responses": 300,
+  "unique_requested_seeds": 300,
+  "exact_authorization_scope_verified": true,
+  "older_900_call_design_not_launched": true,
+  "figure_visually_reviewed": true,
+  "figure_note": "Wilson-bound floating point clamped only for nonnegative rendering lengths; scientific intervals unmodified."
+}
