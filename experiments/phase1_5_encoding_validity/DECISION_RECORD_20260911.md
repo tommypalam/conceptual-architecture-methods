@@ -1,5 +1,18 @@
 # Phase 1.5 decision record — September 11
 
+## Latest update: tool delivery screened, no scale-up support
+
+The approved320-decision/480-call candidate completed for$0.4117305.
+Primary squared-wording-gap contrast -0.050833, exploratory95%CI
+[-0.127778,+0.003340]; canonical MoR endpoint effect+.50 original versus0 tool.
+Both primary-interval and sensitivity requirements fail the frozen promotion
+rule. This32-condition development screen is not the original30-cell battery.
+No expansion, gate revision or Phase2. All raw records retained and verified.
+See [complete interpretation](tool_delivery_20260911/analysis/INTERPRETATION.md).
+Remaining conservative allowance$4.68872175, no pending calls. Historical
+snapshots below retain their original scope and are superseded where stated.
+
+
 ## Latest wording and reproducibility result
 
 The480-call joint-profile wording screen completed480valid for$0.5156505.

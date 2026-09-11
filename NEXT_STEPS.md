@@ -10,21 +10,17 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
-**Tool-delivery repair candidate prepared; no calls dispatched yet.**
-**Launch blocked before process creation by automatic approval review.**
-It requires exact approval of the new bridge/private research payload to OpenAI,
-up to480 API calls and$3.50 cap. Approval requested; zero dispatches/records.
-
-[Exact protocol](experiments/phase1_5_encoding_validity/tool_delivery_20260911/PROTOCOL.md)
-and [new bridge](experiments/phase1_5_encoding_validity/tool_delivery_20260911/HUMAN_REVIEW.md).
-320 decisions / at most480 API calls, N10 in32 conditions, original versus
-read-only tool delivery of the exact frozen specification; all ten parameters
-and all four approved wordings retained. MoR/S3 and PD/S3 endpoints; neutral,
-seed20260924, cap$3.50, reserve$3.28692. Five offline tests pass, including full
-HTTP mock and canonical SDK-payload equivalence. New harness remains isolated.
-A fixed reduction-in-wording-gap rule plus sensitivity safeguards governs any
-broader confirmation; this screen cannot pass Phase1.5. Original24/30 gate
-unchanged; historical repeat discrepancy unresolved;900-call study stays paused.
+**Tool-delivery screen complete:320/320 valid decisions,480/480 valid calls.**
+[Result and all-cell figure](experiments/phase1_5_encoding_validity/tool_delivery_20260911/analysis/INTERPRETATION.md).
+Cost$0.4117305. Frozen status **NO_SCALE_UP_SUPPORT**: primary squared-gap
+contrast -0.050833, exploratory95%CI[-0.127778,+0.003340]; observed canonical
+MoR sensitivity original+.50 versus tool0, failing preservation. All-wording
+mean tool effect+.175 also below+.20. Tool ADOPT14/160 versus original107/160
+across the balanced selected allocation (post-score descriptive totals).
+No expansion of this candidate. Original8/30 paraphrase gate remains unmet;
+Phase1.5 open, Phase2 on hold,900-call confirmation paused. All raw ZIP bytes,
+actual wire requests, sources, approval, unique IDs/seeds and parses verified.
+Remaining conservative allowance$4.68872175; no pending requests/new paid run.
 
 **Joint-wording screen complete:480/480 valid, cost$0.5156505.**
 [Interpretation, figure and repeat audit](experiments/phase1_5_encoding_validity/joint_wording_20260911/analysis/INTERPRETATION.md).

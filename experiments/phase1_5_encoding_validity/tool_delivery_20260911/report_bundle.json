@@ -1,0 +1,25 @@
+{
+  "path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\output\\validity_backups\\tool_delivery_20260911_reports_22898e892a647482.zip",
+  "sha256": "53840329411201b03154e06fe4353cc9fe8e3baf896707191f16c47c84a9120e",
+  "file_sha256": {
+    "budget_ledger.json": "4b1ac1d0764577fa572f86079044129a9d49a223f4d727e49f06bb13c22ca9cb",
+    "dispatch_approved.json": "1c54728c1e1131f8cf8e0718b17df6605e3095a17f31ab0aeec184ec94759230",
+    "dispatch_authorization.json": "4645ee6a4ede3830f252321983b0929a103120f8d892fc076331494ac1e3d971",
+    "execution_review_block.json": "99c9ed8a43be3b6f6df5747b93d874da2c765fc416d46b75b8ee7b42041f5b61",
+    "HUMAN_REVIEW.md": "ba59f269c1612f2cd7df00f2ab97fff9be1ee46e64bb12df177bf01f7783484f",
+    "local_backup.json": "a1bdd1999799f03bcf6b62595eab23efb69f3848089580cd631fb786f7347053",
+    "manifest.json": "02c15a41ca9bd066f9db95ce1cb3fb89cb96e9bb388a601c7e99af322361a0fd",
+    "PROTOCOL.md": "a55c782faa4dc073fa39fd255ff2bb525283ec4c6ba74ff05245487615cb238f",
+    "request_preview.json": "34772fdec02b7e01a5e96b3f68226bb01c45dbc2deed21a71b4e75ff4c6df841",
+    "analysis/budget_13df0fe3b94fc681.json": "4b1ac1d0764577fa572f86079044129a9d49a223f4d727e49f06bb13c22ca9cb",
+    "analysis/figure_provenance.json": "dbd150dcaa65f0f1a208017f88afdb6605eab67997c2bf559777db584af7b324",
+    "analysis/fig_01_tool_delivery.pdf": "97416bbf0d6f3c440a3f9f938652c3892a1e75d2aad4f670bf78a2b1cb123ce7",
+    "analysis/fig_01_tool_delivery.png": "536f7c930992d5963be41168d5ce07caf3c746f887017fc29f45dd962c9bc8ef",
+    "analysis/INTERPRETATION.md": "05eec780ada32c1279a8b009983071e833cc79a00b9d693572b0674c0bc7259b",
+    "analysis/REPORT.md": "d1465a5f338413fa5e8185bbac2d28c70dfef38ef3fb08b0b3ca65afaf37612f",
+    "analysis/screen_5cf36d7a9ba37e56.json": "0ce69aa52375b380ab7ba812bb8180612371e092743610b4eb477fd480dd15ec",
+    "analysis/verification.json": "38fdb9bf25d26b2d3151a18488025689c6a6bdb9a5abcddaf90dc48aa771a047",
+    "analysis/visual_qa.json": "0454427cb976e7df569af599000c18cde85c9842293b0a910a23322e202da789"
+  },
+  "byte_verified": true
+}

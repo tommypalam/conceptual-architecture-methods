@@ -1,0 +1,7 @@
+{
+  "all_32_cells_displayed": true,
+  "marginal_interval_labels_clear": true,
+  "final_no_clipped_or_overlapping_titles": true,
+  "initial_derived_draft_preserved": "output/figure_drafts/tool_delivery_v1",
+  "raw_or_frozen_runner_changes": false
+}

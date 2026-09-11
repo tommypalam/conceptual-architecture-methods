@@ -1,0 +1,10 @@
+{
+  "original_allowance_usd": 9,
+  "recorded_token_estimate_usd": 0.411730499999998,
+  "cumulative_token_estimate_usd": 4.306311000000002,
+  "unknown_usage_reserved_usd": 0.00496725,
+  "cumulative_conservative_charge_usd": 4.311278250000002,
+  "remaining_original_allowance_conservative_usd": 4.688721749999998,
+  "pending_requests": 0,
+  "provider_balance_verified": false
+}

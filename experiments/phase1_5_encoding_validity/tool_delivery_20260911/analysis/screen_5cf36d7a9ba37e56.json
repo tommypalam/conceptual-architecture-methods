@@ -1,0 +1,545 @@
+{
+  "design_hash": "1e9cf594a1f7c98112d844f7a6ee14006c5a9e2083366b37d1039ba2601bab8f",
+  "n_decisions": 320,
+  "n_api_records": 480,
+  "status": "NO_SCALE_UP_SUPPORT",
+  "cells": [
+    {
+      "id": "system/MoR_0.1/canonical",
+      "delivery": "system",
+      "parameter": "MoR",
+      "value": 0.1,
+      "wording": "canonical",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 4,
+      "rate": 0.4,
+      "wilson95": [
+        0.16818032970623614,
+        0.6873262302663417
+      ]
+    },
+    {
+      "id": "tool/MoR_0.1/canonical",
+      "delivery": "tool",
+      "parameter": "MoR",
+      "value": 0.1,
+      "wording": "canonical",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 1,
+      "rate": 0.1,
+      "wilson95": [
+        0.017876213095072896,
+        0.4041500267952385
+      ]
+    },
+    {
+      "id": "system/MoR_0.1/paraphrase_1",
+      "delivery": "system",
+      "parameter": "MoR",
+      "value": 0.1,
+      "wording": "paraphrase_1",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 7,
+      "rate": 0.7,
+      "wilson95": [
+        0.39677814746114537,
+        0.8922087325936989
+      ]
+    },
+    {
+      "id": "tool/MoR_0.1/paraphrase_1",
+      "delivery": "tool",
+      "parameter": "MoR",
+      "value": 0.1,
+      "wording": "paraphrase_1",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ]
+    },
+    {
+      "id": "system/MoR_0.1/paraphrase_2",
+      "delivery": "system",
+      "parameter": "MoR",
+      "value": 0.1,
+      "wording": "paraphrase_2",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 10,
+      "rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ]
+    },
+    {
+      "id": "tool/MoR_0.1/paraphrase_2",
+      "delivery": "tool",
+      "parameter": "MoR",
+      "value": 0.1,
+      "wording": "paraphrase_2",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ]
+    },
+    {
+      "id": "system/MoR_0.1/paraphrase_3",
+      "delivery": "system",
+      "parameter": "MoR",
+      "value": 0.1,
+      "wording": "paraphrase_3",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 3,
+      "rate": 0.3,
+      "wilson95": [
+        0.10779126740630099,
+        0.6032218525388546
+      ]
+    },
+    {
+      "id": "tool/MoR_0.1/paraphrase_3",
+      "delivery": "tool",
+      "parameter": "MoR",
+      "value": 0.1,
+      "wording": "paraphrase_3",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ]
+    },
+    {
+      "id": "system/MoR_0.9/canonical",
+      "delivery": "system",
+      "parameter": "MoR",
+      "value": 0.9,
+      "wording": "canonical",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 9,
+      "rate": 0.9,
+      "wilson95": [
+        0.5958499732047615,
+        0.9821237869049271
+      ]
+    },
+    {
+      "id": "tool/MoR_0.9/canonical",
+      "delivery": "tool",
+      "parameter": "MoR",
+      "value": 0.9,
+      "wording": "canonical",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 1,
+      "rate": 0.1,
+      "wilson95": [
+        0.017876213095072896,
+        0.4041500267952385
+      ]
+    },
+    {
+      "id": "system/MoR_0.9/paraphrase_1",
+      "delivery": "system",
+      "parameter": "MoR",
+      "value": 0.9,
+      "wording": "paraphrase_1",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 10,
+      "rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ]
+    },
+    {
+      "id": "tool/MoR_0.9/paraphrase_1",
+      "delivery": "tool",
+      "parameter": "MoR",
+      "value": 0.9,
+      "wording": "paraphrase_1",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 3,
+      "rate": 0.3,
+      "wilson95": [
+        0.10779126740630099,
+        0.6032218525388546
+      ]
+    },
+    {
+      "id": "system/MoR_0.9/paraphrase_2",
+      "delivery": "system",
+      "parameter": "MoR",
+      "value": 0.9,
+      "wording": "paraphrase_2",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 10,
+      "rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ]
+    },
+    {
+      "id": "tool/MoR_0.9/paraphrase_2",
+      "delivery": "tool",
+      "parameter": "MoR",
+      "value": 0.9,
+      "wording": "paraphrase_2",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 4,
+      "rate": 0.4,
+      "wilson95": [
+        0.16818032970623614,
+        0.6873262302663417
+      ]
+    },
+    {
+      "id": "system/MoR_0.9/paraphrase_3",
+      "delivery": "system",
+      "parameter": "MoR",
+      "value": 0.9,
+      "wording": "paraphrase_3",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 10,
+      "rate": 1.0,
+      "wilson95": [
+        0.7224672001371107,
+        0.9999999999999999
+      ]
+    },
+    {
+      "id": "tool/MoR_0.9/paraphrase_3",
+      "delivery": "tool",
+      "parameter": "MoR",
+      "value": 0.9,
+      "wording": "paraphrase_3",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ]
+    },
+    {
+      "id": "system/PD_0.1/canonical",
+      "delivery": "system",
+      "parameter": "PD",
+      "value": 0.1,
+      "wording": "canonical",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 9,
+      "rate": 0.9,
+      "wilson95": [
+        0.5958499732047615,
+        0.9821237869049271
+      ]
+    },
+    {
+      "id": "tool/PD_0.1/canonical",
+      "delivery": "tool",
+      "parameter": "PD",
+      "value": 0.1,
+      "wording": "canonical",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 1,
+      "rate": 0.1,
+      "wilson95": [
+        0.017876213095072896,
+        0.4041500267952385
+      ]
+    },
+    {
+      "id": "system/PD_0.1/paraphrase_1",
+      "delivery": "system",
+      "parameter": "PD",
+      "value": 0.1,
+      "wording": "paraphrase_1",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 9,
+      "rate": 0.9,
+      "wilson95": [
+        0.5958499732047615,
+        0.9821237869049271
+      ]
+    },
+    {
+      "id": "tool/PD_0.1/paraphrase_1",
+      "delivery": "tool",
+      "parameter": "PD",
+      "value": 0.1,
+      "wording": "paraphrase_1",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 1,
+      "rate": 0.1,
+      "wilson95": [
+        0.017876213095072896,
+        0.4041500267952385
+      ]
+    },
+    {
+      "id": "system/PD_0.1/paraphrase_2",
+      "delivery": "system",
+      "parameter": "PD",
+      "value": 0.1,
+      "wording": "paraphrase_2",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 8,
+      "rate": 0.8,
+      "wilson95": [
+        0.49016247153664183,
+        0.9433178485456247
+      ]
+    },
+    {
+      "id": "tool/PD_0.1/paraphrase_2",
+      "delivery": "tool",
+      "parameter": "PD",
+      "value": 0.1,
+      "wording": "paraphrase_2",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 1,
+      "rate": 0.1,
+      "wilson95": [
+        0.017876213095072896,
+        0.4041500267952385
+      ]
+    },
+    {
+      "id": "system/PD_0.1/paraphrase_3",
+      "delivery": "system",
+      "parameter": "PD",
+      "value": 0.1,
+      "wording": "paraphrase_3",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 9,
+      "rate": 0.9,
+      "wilson95": [
+        0.5958499732047615,
+        0.9821237869049271
+      ]
+    },
+    {
+      "id": "tool/PD_0.1/paraphrase_3",
+      "delivery": "tool",
+      "parameter": "PD",
+      "value": 0.1,
+      "wording": "paraphrase_3",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ]
+    },
+    {
+      "id": "system/PD_0.9/canonical",
+      "delivery": "system",
+      "parameter": "PD",
+      "value": 0.9,
+      "wording": "canonical",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 1,
+      "rate": 0.1,
+      "wilson95": [
+        0.017876213095072896,
+        0.4041500267952385
+      ]
+    },
+    {
+      "id": "tool/PD_0.9/canonical",
+      "delivery": "tool",
+      "parameter": "PD",
+      "value": 0.9,
+      "wording": "canonical",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ]
+    },
+    {
+      "id": "system/PD_0.9/paraphrase_1",
+      "delivery": "system",
+      "parameter": "PD",
+      "value": 0.9,
+      "wording": "paraphrase_1",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 1,
+      "rate": 0.1,
+      "wilson95": [
+        0.017876213095072896,
+        0.4041500267952385
+      ]
+    },
+    {
+      "id": "tool/PD_0.9/paraphrase_1",
+      "delivery": "tool",
+      "parameter": "PD",
+      "value": 0.9,
+      "wording": "paraphrase_1",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ]
+    },
+    {
+      "id": "system/PD_0.9/paraphrase_2",
+      "delivery": "system",
+      "parameter": "PD",
+      "value": 0.9,
+      "wording": "paraphrase_2",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 6,
+      "rate": 0.6,
+      "wilson95": [
+        0.31267376973365824,
+        0.8318196702937638
+      ]
+    },
+    {
+      "id": "tool/PD_0.9/paraphrase_2",
+      "delivery": "tool",
+      "parameter": "PD",
+      "value": 0.9,
+      "wording": "paraphrase_2",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 2,
+      "rate": 0.2,
+      "wilson95": [
+        0.05668215145437519,
+        0.5098375284633583
+      ]
+    },
+    {
+      "id": "system/PD_0.9/paraphrase_3",
+      "delivery": "system",
+      "parameter": "PD",
+      "value": 0.9,
+      "wording": "paraphrase_3",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 1,
+      "rate": 0.1,
+      "wilson95": [
+        0.017876213095072896,
+        0.4041500267952385
+      ]
+    },
+    {
+      "id": "tool/PD_0.9/paraphrase_3",
+      "delivery": "tool",
+      "parameter": "PD",
+      "value": 0.9,
+      "wording": "paraphrase_3",
+      "n_expected": 10,
+      "n_recorded": 10,
+      "n_valid": 10,
+      "adopt": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.2775327998628892
+      ]
+    }
+  ],
+  "known_cost_usd": 0.411730499999998,
+  "unknown_usage_calls": 0,
+  "unresolved_dispatches": 0,
+  "exact_requests_wire_profiles_raw_payloads_and_parses_verified": true,
+  "phase_gate": "Unchanged and unmet. This selected screen cannot validate the architecture.",
+  "primary_tool_minus_system": -0.05083333333333332,
+  "exploratory_bootstrap95": [
+    -0.1277777777777778,
+    0.0033402777777776973
+  ],
+  "mor_effects_by_delivery_and_wording": [
+    [
+      0.5,
+      0.3,
+      0.0,
+      0.7
+    ],
+    [
+      0.0,
+      0.3,
+      0.4,
+      0.0
+    ]
+  ],
+  "sensitivity_safeguard": false
+}

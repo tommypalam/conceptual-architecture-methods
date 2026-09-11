@@ -4,6 +4,44 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Tool delivery does not qualify for expansion
+
+The researcher approved the exact prepared test with "go try it out" after the
+bridge/payload/480-call/$3.50 scope was presented. Approval was saved against
+frozen hashes; unchanged launch passed automatic review. Collected320valid
+decisions and480valid API records, no failures or unknown usage, cost$0.4117305.
+Rootseed20260924; neutral S3; all32 prespecified conditions retained.
+
+Frozen primary tool-minus-system mean squared wording difference -0.050833,
+exploratory bootstrap95%[-0.127778,+0.003340]. The interval includes zero.
+Canonical MoR counts original4/10->9/10 versus tool1/10->1/10; the observed
++.50 contrast becomes0, failing sensitivity preservation. Mean MoR endpoint
+effect across wordings+.375 original versus+.175 tool, also below+.20.
+Across the balanced selected allocation, descriptive ADOPT totals107/160
+original versus14/160 tool. This is a post-score descriptive aggregation, not
+another primary test. Status NO_SCALE_UP_SUPPORT; no complete-sweep launch.
+
+Synthetic perspectives, not external review: Linden rejects treating a common
+WAIT choice as ethical understanding; no semantic or theoretical conclusion
+follows from moving text. Osei stresses the selected N10 cases and concurrent
+control, retaining the small-sample uncertainty. Tanaka keeps the frozen rule:
+a favourable primary point estimate with interval including zero does not
+qualify, and neither does the failed sensitivity safeguard. Renna limits the
+finding to this delivery prototype, not every tool mechanism, and leaves the
+original battery open. Okafor stops expansion, preserves the optional boundary
+and verifies request/response provenance rather than tuning the finished run.
+Resolution: record the failed candidate, keep the original architecture and
+gate, no new paid allocation or Phase2. The deadline does not justify a pass.
+
+All raw API/decision ZIP bytes, sources, approval, wire bodies and re-parses
+verified;480unique real API IDs/seeds. Five runner tests passed before dispatch.
+Figure QA found overlapping titles in the first derived draft; preserved it
+and the generating script under output/figure_drafts/tool_delivery_v1, then
+fixed layout without altering the frozen runner or data. Final figure QA passed.
+Known cumulative charge$4.306311; conservative$4.31127825 including the old
+unknown-timeout reservation; remaining$4.68872175. No pending requests.
+See experiments/phase1_5_encoding_validity/tool_delivery_20260911/analysis/INTERPRETATION.md.
+
 ## 2026-09-11 - Isolated tool-delivery repair candidate
 
 Decision: test the thesis-provided alternative delivery mechanism in an isolated

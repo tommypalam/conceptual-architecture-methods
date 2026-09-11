@@ -1,0 +1,16 @@
+{
+  "design_hash": "1e9cf594a1f7c98112d844f7a6ee14006c5a9e2083366b37d1039ba2601bab8f",
+  "analysis_digest": "5cf36d7a9ba37e5647bf7c18c34428cfa217a62660486187fb3e5119c8bc6b33",
+  "script_sha256": "e1abe2b033e8f4b3b5c257bb1aa0ed272597e895f24a901f5c0116d8e75808a4",
+  "all_32_cells_retained": true,
+  "files": [
+    {
+      "path": "fig_01_tool_delivery.png",
+      "sha256": "536f7c930992d5963be41168d5ce07caf3c746f887017fc29f45dd962c9bc8ef"
+    },
+    {
+      "path": "fig_01_tool_delivery.pdf",
+      "sha256": "97416bbf0d6f3c440a3f9f938652c3892a1e75d2aad4f670bf78a2b1cb123ce7"
+    }
+  ]
+}
