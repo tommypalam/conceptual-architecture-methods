@@ -7,6 +7,37 @@ No API calls, source-prompt edits or theory changes were made.
 
 ## Finding and correction
 
+### Subsequent researcher clarification: sufficient, bounded encoding
+
+The objective is to establish whether ethics can be encoded into agents to a
+defensible extent, with Phase 1.5 supplying the evidence for that eventual
+claim. It does not demand perfect robustness to all wording. The existing
+operational criterion already reflects tolerance: at least 24/30 cells must
+establish equivalence within ten percentage points across the four reviewed
+formulations. Six cells may remain outside the equivalence-established set;
+that is not a declaration that six demonstrated divergences are harmless.
+
+Interpret "encoding rather than manipulation" operationally as evidence that
+the specified ethical parameters exert interpretable behavioural control that
+survives the prespecified representation checks, rather than a preferred answer
+being produced by incidental phrasing or near-fixed default behaviour. All
+prompt-based implementations influence outputs through text; these tests do
+not prove a unique internal mechanism or confer moral correctness on decisions.
+
+Sufficient evidence must combine parameter sensitivity, the intended meaning
+and direction where prespecified, recoverability assessed against appropriate
+baselines, robustness and decision headroom. Success on one dimension is not
+automatically success on the others. Claims can describe demonstrated effects
+at their actual scope while keeping unvalidated parts of the wider framework
+explicit. A selectively chosen successful subset is developmental evidence
+until independently validated; it does not silently redefine the original gate.
+
+This clarification affirms the empirical objective and the existing tolerance.
+It is not a new margin, altered parameter set, gate waiver or approval of a
+reduced-scope Phase 2. No additional API spending follows from recording it.
+
+### Original review finding
+
 The current project makes paraphrase robustness part of its central encoding
 claim. It is not currently an optional portability check. The assistant's earlier
 suggestion that it could simply become a limitation of an otherwise validated

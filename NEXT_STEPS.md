@@ -10,6 +10,27 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Saved evidence assessed:** the [fixed-implementation assessment](experiments/phase1_5_encoding_validity/fixed_encoding_assessment_20260911/ASSESSMENT_AND_NEXT_CHECK.md)
+joins all 30 canonical parameter/problem rows with representation, paraphrase
+and active-audit evidence. MoR/S3 already has a five-value canonical response
+(ADOPT 10/26/42/76/84%); its verbal retention meets the original rule, while
+numeric retention .454 falls below .50. No eligible pair meets both retention
+checks. This supports a specific behavioural finding, not yet encoded ethical
+understanding or a battery pass. Next: offline MoR audit/rationale error review
+against the original meanings; only then prepare a targeted missing-value test
+of grounding if warranted. The canonical curve needs no exploratory rerun.
+No new calls or agent/tool integration; Phase 2 remains on hold.
+
+**Research objective clarified:** establish whether explicit ethical-concept
+parameters can exert reliable, interpretable behavioural control to a defensible
+extent. The target is sufficient robustness for that claim, not perfect wording
+invariance. The existing paraphrase rule already permits six of thirty cells
+not to establish equivalence and uses a ten-point tolerance in qualifying cells.
+Keep sensitivity, interpretation, robustness and decision headroom together;
+neither agreement alone nor a parameter effect alone establishes the full claim.
+This clarification changes no gate, parameter set or experiment. Findings and
+eventual claims must match the independently validated scope.
+
 **Current methodological review:** after questioning wording dependence, the
 researcher authorised a review of what the gate is meant to establish. The
 [review](experiments/phase1_5_encoding_validity/method_review_20260911/PARAPHRASE_GATE_REVIEW.md)

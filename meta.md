@@ -4,6 +4,72 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Assess existing parameter evidence before more spending
+
+The researcher reaffirmed the objective of agents whose encoded ethical
+dispositions inform action, rather than an external filter, and its importance
+to their longer-term AGI research ambition. Decision: assess the existing
+canonical evidence against that objective without promising proof of internal
+understanding, changing the theory, or advancing through an unmet gate.
+
+The new offline assessment joins 30 full-harness parameter/problem rows to the
+completed gradient, paraphrase and audit summaries, pins their hashes and copies
+their estimates. It distinguishes absent directional hypotheses from failed
+predictions and references the 200-item audit without multiplying its sample.
+MoR/S3 has a graded canonical response (10/26/42/76/84% ADOPT); verbal retention
+.562 meets the original rule but numeric retention .454 does not. No eligible
+pair passes both representation checks. Existing ground-assisted endpoint
+response cannot inherit this original implementation's five-point evidence.
+
+Synthetic perspectives, not external review: Linden requires distinguishing
+operational encoding from understanding and moral correctness. Osei treats
+MoR as promising responsiveness while retaining interpretation and transfer
+questions. Tanaka keeps the .50 retention threshold and original uncertainty;
+a near miss is not a pass. Renna supports pre-action dispositions as the
+architectural objective without treating prompt effects as evidence of AGI.
+Okafor prioritises existing audit-error evidence before more paid decisions.
+The substantive tension is prioritising a promising parameter without silently
+narrowing the architecture. Resolution: diagnostic prioritisation only, keeping
+all five concepts, all ten parameters, and the existing battery gate.
+
+Artifacts: `code/assess_fixed_encoding_evidence.py` and
+[assessment, next check and evidence map](experiments/phase1_5_encoding_validity/fixed_encoding_assessment_20260911/ASSESSMENT_AND_NEXT_CHECK.md).
+Next is an unblinded diagnostic review of saved MoR audit items against exact
+meanings, preserving existing labels. Any subsequent grounding intermediate
+test needs a frozen design and dispatch approval; no full sweep is scheduled.
+No paid calls, original prompt changes, tool integration or Phase 2 launch.
+Verification: five focused offline tests pass, covering complete joins, retained
+estimates and audit scope, source immutability, missing/duplicate evidence,
+unfinished audits and wrong value grids. All four source hashes, the analysis
+script hash and report links were checked.
+
+## 2026-09-11 - Sufficient robustness for a bounded encoding claim
+
+The researcher clarified the objective: test whether ethics can be encoded into
+agents to a defensible extent, with Phase 1.5 essential to supporting that claim.
+Perfect robustness is not required; enough stability is needed to distinguish
+interpretable parameter control from incidental answer steering.
+
+The recorded criterion already allows imperfect robustness: 24/30 cells must
+establish all-pair equivalence within ten percentage points. Do not mistake that
+for 100% invariance or infer that every unconfirmed cell is a proven divergence.
+Pair the robustness result with sensitivity, semantic interpretation, appropriate
+reasoning-recovery baselines and decision headroom. Neither near-fixed agreement
+nor a within-template parameter effect alone supports the full architecture.
+
+Concise synthetic review: Linden distinguishes operational evidence from moral
+correctness; Osei requires behaviour to remain responsive rather than merely
+agreeing; Tanaka retains the existing margins and uncertainty; Renna supports
+claims matched to independently validated coverage without silently dropping
+the wider architecture; Okafor keeps this as objective clarification, not a new
+paid design. Resolution: record sufficient, bounded encoding as the target;
+no disagreement requires a rule change. No unique internal mechanism, perfect
+invariance, changed gate, automatic descope or Phase 2 approval is asserted.
+
+Updated the review and current ledger. No API calls, theory edits, experiment
+changes or budget changes. This preserves the researcher's purpose while
+keeping the original validity result and evidential limits explicit.
+
 ## 2026-09-11 - Review the paraphrase gate without rewriting its outcome
 
 The researcher questioned whether wording dependence is inevitable and already
