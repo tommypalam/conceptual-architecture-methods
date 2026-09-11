@@ -4,6 +4,86 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+## 2026-09-11 - Freeze accepted MoR background-profile diagnostic
+
+The researcher accepted the300-call MoR-only versus full-ten proposal and
+instructed independent judgment without tunnel vision. Prepared a separate
+new designation, five values,N30 in each arm, root seed20260921, cap$2,
+full reserve$1.6115625; conservative prior charge plus cap below$9.
+The900-call confirmation remains stopped. All original files remain intact.
+
+The only new treatment is exact deletion of nine parameter blocks from a copy
+of the canonical system message. Retained MoR block/item number4, plural wrapper,
+context, task and user message are unchanged. Missing traits are unspecified,
+not neutral; injected metadata records only MoR. This is diagnostic ablation,
+not a revision of the architecture or a new theoretical parameter mapping.
+
+Synthetic perspectives, not external review: Linden requires unchanged retained
+meaning and prohibits treating ablation as permission to descope. Osei requires
+fresh concurrent controls and notes that removed means are substantive context.
+Tanaka specifies a direct slope difference with independent-arm Wald interval,
+explicit linear-logit assumptions and non-estimability handling; endpoint change
+is a secondary probability-scale check. Renna preserves alternative length,
+content and interaction explanations and all broader validity requirements.
+Okafor supports300 fixed calls, immutable records, a$2 cap and three passing
+offline tests. Disagreement: this intervention cannot uniquely isolate a count
+or bandwidth mechanism. Resolution: estimate this scoped intervention effect,
+then interpret full curves and uncertainty before selecting any new study.
+
+Execution review accepted the direct300-call launch under this authority.
+Real responses are being saved; no new exact-scope approval was requested.
+
+No result is assumed. Positive, negative, unresolved and non-estimable outcomes
+are prespecified. No automatic expansion, selected rerun or Phase2 launch.
+Exact deletion diff, preview and protocol are ready; broad user acceptance is
+recorded truthfully without inventing an exact-payload signature.
+
+## 2026-09-11 - Researcher stops confirmation; review parameter-ablation proposal
+
+The researcher approved the prepared900-call scope, then interrupted before any
+launch and explicitly instructed us to stop and read the pasted proposal.
+The original_confirmation directory contains only preparation artifacts, no
+records or dispatches. No API call was launched. The latest stop controls.
+
+The proposal correctly separates failure of the tested injection from rejection
+of the conceptual theory and identifies an untested candidate explanation:
+including nine background parameters may change sensitivity to the swept MoR.
+It is a potentially more informative diagnostic than another selected MoR
+representation confirmation. This is a recommendation, not a frozen new study
+or approval to remove parameters from the architecture.
+
+Corrections checked against the local thesis and evidence map: the original
+complete directional criterion is met in three of nine prespecified full-harness
+parameter/problem hypotheses, not evidence that27/30 lack signal. Twenty-one
+rows have no prespecified directional prediction. The original audit passes its
+literal thresholds but active recovery is unresolved; no-recoverability is not
+proved. Seven equivalent paraphrase cells are S1 and one is RE/S2; ceiling
+behaviour reduces discrimination without proving its cause. The+.567 endpoint
+effect is canonical in the recent diagnostic, not the exact effect in all
+representations. Multiple endpoint and altered-text studies are not four clean
+replications of the same monotone curve.
+
+A larger MoR-only slope would identify a difference caused by the tested profile
+intervention, subject to fresh randomised concurrent controls; deleting nine
+parameters simultaneously changes psychological conditioning, wording and text
+length. It would not uniquely identify information bandwidth or explain the
+whole battery. Historical ten-parameter data alone are an inadequate concurrent
+control. A reduced-parameter curve study without crossed wording conditions
+cannot test whether paraphrase sensitivity also improves. Neither a success nor
+a failure in one case establishes a capacity limit or a general persona result.
+
+Synthetic perspectives, not external review: Linden preserves all five concepts
+and the distinction between a diagnostic ablation and a reduced architecture.
+Osei favours concurrent comparison over historical control and calls out changed
+background conditioning. Tanaka requires a direct between-condition contrast,
+not significance in one condition only, and rejects a capacity claim from one
+contrast. Renna keeps reasoning and paraphrase validity load-bearing under the
+current thesis. Okafor supports pausing expenditure and designing the smallest
+informative contrast before any new collection. Resolution: hold the900 calls;
+consider a fresh300-call one-versus-ten diagnostic (five values,N30), with
+subsets/length controls or wording tests only under separately justified designs.
+No new prompt, parameter mapping, reduced architecture or phase gate is adopted.
+
 ## 2026-09-11 - Freeze a local confirmation of the original representations
 
 Decision: test original MoR/S3 five-value curves with a fresh canonical

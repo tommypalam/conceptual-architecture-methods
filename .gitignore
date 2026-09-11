@@ -113,3 +113,6 @@ experiments/phase1_5_encoding_validity/original_confirmation_*/dispatches/
 #   data/processed/— regenerable from pipeline
 #   output/        — regenerable from pipeline (commit milestone snapshots manually)
 # =============================================================
+
+experiments/phase1_5_encoding_validity/profile_ablation_*/records/
+experiments/phase1_5_encoding_validity/profile_ablation_*/dispatches/

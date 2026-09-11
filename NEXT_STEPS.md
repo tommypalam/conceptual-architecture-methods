@@ -10,17 +10,31 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**New diagnostic running:** [300-call MoR-only versus full-ten protocol](experiments/phase1_5_encoding_validity/profile_ablation_20260911/PROTOCOL.md),
+five values,N30 per condition, fresh concurrent controls, seed20260921,
+$2 cap ($1.6115625 full reserve). Exact retained text and all Phase0 files
+unchanged. Three offline tests pass. Primary is a direct slope difference;
+no bandwidth, paraphrase, reduced-architecture or phase-pass claim follows.
+The researcher accepted this diagnostic and instructed proceeding. Preparation
+and authorization basis are complete; execution review accepted the launch and
+real responses are being saved. No changes during collection.
+
 The [current decision record](experiments/phase1_5_encoding_validity/DECISION_RECORD_20260911.md)
 consolidates completed results, remaining requirements and the bounded next step.
 
-**Fresh original confirmation prepared, dispatch blocked:** [900-call protocol](experiments/phase1_5_encoding_validity/original_confirmation_20260911/PROTOCOL.md),
-three original representations x five MoR/S3 values, N60, seed20260920,
-$5.50 cap ($5.03334 full reserve), exact original messages and original rules.
-Prior conservative charge plus cap stays below $9. Three offline tests pass.
-Automatic execution review requires exact new-scope approval; no calls sent.
-An accompanying documentation insertion initially failed on a newline assertion;
-this was corrected and the frozen manifest/protocol/preview verified separately.
-This local confirmation cannot close the full battery.
+**Original confirmation paused by researcher before launch.** The researcher
+approved the prepared900-call/$5.50 scope, then explicitly said to stop before
+starting and supplied an alternative diagnostic proposal. No records or dispatch
+intents exist for this designation; no calls were sent. Keep the frozen
+[protocol](experiments/phase1_5_encoding_validity/original_confirmation_20260911/PROTOCOL.md)
+as unexecuted provenance. Approval does not override the subsequent stop.
+
+Current work is methodological review only: a MoR-only versus full-profile
+comparison could test whether including the other nine parameters changes the
+MoR response. It would not alone establish a bandwidth limit, validate a smaller
+architecture, or test paraphrase robustness. Any proposed diagnostic should use
+fresh concurrent controls, exact retained text, and a separately frozen design.
+No replacement experiment or theoretical revision has been implemented.
 
 **Concurrent comparison allocation complete:** 720 attempt slots, **719 valid
 and one preserved timeout**. Original/repeated cells were collected in one
