@@ -29,21 +29,31 @@ definitions, Beta marginals, R, original criteria and locked prompts are unchang
 
 ## Execution and handoff
 
-**Paid work is paused. No new calls have been sent.** The proposed 3,600-call
-`final_confirmation_20260912` protocol and runner are drafts: not frozen, tested
-or dispatched. Such a numeric-only sweep could strengthen a limited behavioural
-claim but cannot itself clear paraphrase, representation and recovery gates.
+The researcher has authorised proceeding with the structural objective: diagnostic
+tests followed by a full sweep across all ten parameters. This supersedes the
+spending pause. [Frozen staged protocol](experiments/phase1_5_encoding_validity/structural_encoding_20260912/PROTOCOL.md).
 
-The user authorised up to $25 including conservative reservations, then paused
-spending to assess whether the proposed study serves the objective. Do not treat
-the budget as permission to resume the draft automatically. The older $9 ledger
-retains $3.35738625 separately; provider balance is unverified.
+- Diagnostics: 480 calls, 8 fresh backgrounds, MoR/S3 and MS/S2, five values,
+  canonical plus all three approved paraphrases and numeric/verbal variants.
+- Full sweep: 3,000 calls, 20 different fresh backgrounds, all ten parameters,
+  all three locked dilemmas and all five values. Nine signs are prespecified;
+  remaining parameter/problem combinations are exploratory.
+- Then prepare the existing 200-item blind audit. Exact coder requests must fit
+  the remaining reservation before dispatch; the coder cannot alter decisions.
 
-Next task: offline assessment of what existing evidence and additional controls
-would justify the conditional normative-encoding claim. No new gate thresholds,
-architectural revision, parameter removal, coding manual or Phase 2 release is
-approved. All earlier raw records and evidence remain preserved.
+Four relevant preflight tests passed. Behavioural stages are frozen, with joint
+reservation $21.482604, leaving
+$3.517396 for coding within the new $25
+ceiling. This is a reservation, not an expected charge or provider balance.
+No hypothesis, outcome or subgroup selection between stages. Technical failures
+stop dispatch; valid negative results remain in the study.
 
-The [previous ledger](docs/archive/NEXT_STEPS_before_closure_2026-09-12.md) and
-earlier closure report are historical. [meta.md](meta.md) records this correction
-and the five-perspective review.
+The theory supports generative normative inputs at the agent-architecture level
+(sections 3.5, 4, 4.2 and 8.3); it does not require learning ethics into model
+weights (4.1/4.1.1). The structural objective is retained, not reduced to any
+arbitrary number-induced choice difference. The original gate remains unmet
+until assessed; this package is not promised to clear all original requirements.
+
+The prior `final_confirmation_20260912` nine-prediction draft is superseded and
+must not be dispatched. Historical closure is also superseded. Existing raw
+archives, locked prompts, theory, distributions and R are unchanged.

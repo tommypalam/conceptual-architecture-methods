@@ -148,3 +148,9 @@ experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/dispatches/
 
 experiments/phase1_5_encoding_validity/profile_transfer_20260912/records/
 experiments/phase1_5_encoding_validity/profile_transfer_20260912/dispatches/
+
+# Structural encoding stages: immutable raw outputs and blind material are local.
+experiments/phase1_5_encoding_validity/structural_encoding_20260912/*/records/
+experiments/phase1_5_encoding_validity/structural_encoding_20260912/*/dispatches/
+experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit/blind_pack.json
+experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit/private_answer_key.json

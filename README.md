@@ -27,7 +27,8 @@ full validity gate remains unmet. Phase 2 remains on hold.** The researcher
 rejected the earlier closure interpretation and clarified the goal: determine
 whether normative parameters systematically shape AI decisions under specified
 conditions. See the [current objective](experiments/phase1_5_encoding_validity/NORMATIVE_ENCODING_OBJECTIVE_2026-09-12.md).
-Paid testing is paused while the evidentiary scope is assessed offline.
+The researcher has authorised [structural diagnostics and an all-parameter sweep](experiments/phase1_5_encoding_validity/structural_encoding_20260912/PROTOCOL.md)
+within a $25 reservation cap. The theory remains unchanged.
 
 The original battery collected 39,000 unique behavioural responses (38,993 valid)
 and a separate 200-item audit. Only 8/30 paraphrase cells establish equivalence
@@ -38,7 +39,7 @@ complete backgrounds. MS does not show an ordered gradient, and RE remains
 unresolved. These findings do not establish internal ethical understanding or
 validate the complete ten-parameter architecture.
 
-[NEXT_STEPS.md](NEXT_STEPS.md) owns current status. No further paid run is queued;
+[NEXT_STEPS.md](NEXT_STEPS.md) owns current execution status;
 all positive, negative and inconclusive evidence is retained. The interrupted
 September 6 sample remains separate from the fresh battery.
 

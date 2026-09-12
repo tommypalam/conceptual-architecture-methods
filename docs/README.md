@@ -2,7 +2,7 @@
 
 ## Active documents
 
-[Current normative-encoding objective](../experiments/phase1_5_encoding_validity/NORMATIVE_ENCODING_OBJECTIVE_2026-09-12.md): Phase 1.5 open; paid testing paused.
+[Current structural-encoding protocol](../experiments/phase1_5_encoding_validity/structural_encoding_20260912/PROTOCOL.md): Phase 1.5 open; diagnostics and full parameter coverage authorised.
 
 | File | Role |
 |---|---|

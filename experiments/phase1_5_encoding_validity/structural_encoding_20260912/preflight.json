@@ -1,0 +1,35 @@
+{
+  "status": "PREFLIGHT_PASS",
+  "tests": "4 passed in tests/test_structural_validation.py",
+  "theory_sections": [
+    "3.5",
+    "4",
+    "4.1",
+    "4.1.1",
+    "4.2",
+    "6.1.1",
+    "8.1",
+    "8.3"
+  ],
+  "theory_edited": false,
+  "raw_decisions_replaced_by_moral_filter": false,
+  "note": "Architectural request and parser checks do not reveal a unique internal LLM mechanism.",
+  "allocation": {
+    "cap_usd": 25,
+    "behavioural_reservation_usd": 21.48260400000049,
+    "audit_reservation_available_usd": 3.5173959999995112,
+    "stages": {
+      "diagnostics": {
+        "calls": 480,
+        "reserve_usd": 2.9643539999999997
+      },
+      "sweep": {
+        "calls": 3000,
+        "reserve_usd": 18.51825000000049
+      }
+    },
+    "audit_calls": 200,
+    "audit_dispatch": "Exact blinded payloads must fit the remaining package reservation."
+  },
+  "new_live_calls_at_preparation": 0
+}

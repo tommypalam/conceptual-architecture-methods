@@ -1,0 +1,12 @@
+{
+  "design_hash": "70886b85dca8345d76de0fede448fc82f020a4a5044165e4bb77bf6dbfc0601e",
+  "request_preview_sha256": "52825731b9ae179f47461cfd8281d397a46cf6844e3c78826e25af54c4c07ef9",
+  "authorization_basis": "Researcher: follow updated structural objective, test needed evidence, then run a full sweep on all parameters; additional cap up to $25 including conservative reservations.",
+  "scope": {
+    "stage": "sweep",
+    "calls": 3000,
+    "model": "gpt-5.4-mini-2026-03-17",
+    "reserve_usd": 18.51825000000049
+  },
+  "conditions": "Stages in order; exact frozen messages; no automatic retry or additional allocation; original gate unchanged."
+}

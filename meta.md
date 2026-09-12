@@ -16,6 +16,42 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+## 2026-09-12 - Theory-aligned structural tests and full ten-parameter coverage
+
+Decision: honour the researcher's clarified structural objective, check its basis
+in theory, then execute diagnostics and a full-coverage sweep within the existing
+additional $25 reservation cap. This explicitly supersedes the spending pause and
+the unfinished nine-prediction draft. [Protocol](experiments/phase1_5_encoding_validity/structural_encoding_20260912/PROTOCOL.md).
+
+Theory: sections 3.5, 4, 4.2 and 8.3 support traceable generative normative
+representations; 4.1/4.1.1 explicitly allow prompt injection and externally
+maintained state. The interpretation is architectural, not a claim of intrinsic
+weight-level ethical understanding. No theory edit or new parameter meaning.
+
+Five synthetic perspectives (internal review, not external expert sign-off):
+Linden supports the structural research target and keeps representation meaning
+distinct from morally correct answers. Osei requires fresh unselected backgrounds,
+all parameter coverage and retention of the earlier contrary evidence. Tanaka
+flags low precision in the eight-background diagnostic panel and preserves all
+curves, cluster uncertainty and multiplicity; no non-detection becomes equivalence.
+Renna maps the tests to causal input, coherent response, representation robustness
+and recoverability without asserting an observable unique internal mechanism.
+Okafor requires immutable requests, faithful raw-decision parsing, stage ordering,
+mock-failure tests and the shared budget bound.
+
+Tension: all-parameter coverage under the cap limits replication and does not
+constitute the original full four-part battery at its former sample sizes.
+Resolution: 480 diagnostic calls, 3,000 full-coverage calls and a planned 200-item
+independent audit subject to its exact payload reservation. No new scientific
+gate or Phase 2 release. The canonical sweep is fixed before diagnostics; do not
+choose the representation that happens to win. Technical failures halt; negative
+scientific findings are retained. The initial600-call diagnostic was reduced
+before collection solely to retain at least$3 for coding. Four tests passed.
+
+Joint behavioural reservation $21.482604;
+audit availability $3.517396. The old
+$9 ledger remains separate. Raw records are local artifacts; no remote push.
+
 ## 2026-09-12 - Correct rejected closure; clarify conditional normative-encoding objective
 
 The researcher explicitly rejected the preceding assistant closure interpretation.

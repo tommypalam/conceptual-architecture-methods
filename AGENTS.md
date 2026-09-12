@@ -122,12 +122,16 @@ and RE remains unresolved. MoR primarily concerns response style; MS is more
 directly relevant to normative orientation. Do not equate either result with
 internal ethical understanding or validation of the entire architecture.
 
-Paid testing is paused. The 3,600-call confirmation protocol and runner are
-unfinished drafts, not frozen or dispatched. The additional $25 budget does not
-override the subsequent spending pause. Assess the scoped claim and evidence
-offline before proposing further collection. The former closure report remains
-historical evidence; its closure decision is superseded. No gate revision,
-theory change, parameter deletion or Appendix A descope has been approved.
+The researcher authorised structural diagnostics and a full all-parameter sweep
+on 2026-09-12, superseding the spending pause. The theory supports architecture-
+level generative normative inputs (3.5, 4, 4.2, 8.3), while permitting prompt
+injection and external state (4.1/4.1.1). No weight-level understanding is claimed.
+See the [staged protocol](experiments/phase1_5_encoding_validity/structural_encoding_20260912/PROTOCOL.md): 480 diagnostics, 3,000 calls covering all
+ten parameters/three dilemmas/five levels, then the existing 200-item blind audit
+if exact coding requests fit the remaining $25 allocation. All original signs
+are retained; absent signs remain exploratory. All backgrounds are retained.
+No theory, locked prompt, distribution, R or original gate changes. Phase 2 is
+still held. The older closure and nine-prediction draft are superseded.
 
 ## Experimental Problems
 
