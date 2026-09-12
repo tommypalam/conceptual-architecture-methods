@@ -1,7 +1,7 @@
 # PARIA — Pre-Analysis Plan
 
 > This is a draft for future main-study estimation; it is not publicly preregistered.
-> Deviations from this plan must be disclosed and logged in meta.md.
+> Deviations from this plan must be disclosed here, with a current pointer in NEXT_STEPS.md.
 > Any analysis not described here requires explicit human approval before execution.
 > Source of truth: `Theory/concepts_as_architecture_thesis_v0_6.md` (thesis v0.6) and `Theory/implementation_specification_v0_1.md` (spec v0.1).
 

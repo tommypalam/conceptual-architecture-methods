@@ -1,5 +1,15 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Human-readable navigation (2026-09-12)
+
+The researcher requested a gentle organisation pass and intentionally removed
+meta.md. Do not recreate a separate root decision log. Current work and decision
+pointers belong in NEXT_STEPS.md; substantive decisions belong with their phase
+protocol or assessment. Existing archived chronologies remain historical evidence.
+Use descriptive README links and reading order rather than renaming frozen files.
+The Phase 1.5 evidence index groups every retained study by purpose. No scientific
+meaning, record, executable source or run setting changes in this pass.
+
 ## Archive organisation (2026-09-12)
 
 The researcher authorised central archive consolidation and current-document
@@ -23,11 +33,11 @@ evidence strongest. Ethical understanding and all-ten robustness are unestablish
 Retain all ten coordinates and contrary or unresolved findings. No further paid
 Phase 1.5 calls are queued. The original full-architecture Phase 2 design is not
 released by this closure; prepare downstream scope and prerequisites offline.
-See meta.md and experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md.
+See NEXT_STEPS.md and experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md.
 
 Updated 2026-09-12. This file and its companion contain the same working rules;
 edit both together. Current execution status belongs in NEXT_STEPS.md, and
-decisions belong in meta.md.
+decisions belong in the relevant phase document, with current pointers in NEXT_STEPS.md.
 
 The thesis v0.6 governs architectural commitments; implementation specification
 v0.1 governs the original operational plan. Documented amendments and accepted
@@ -241,7 +251,7 @@ actual implementation before claiming they are operational.
 
 Before settling a non-trivial methodological or architectural decision, use the
 following five synthetic perspectives. Record the decision, positions,
-disagreements, and resolution in `meta.md`. These are structured review roles,
+disagreements, and resolution in the relevant phase document. These are structured review roles,
 not evidence of external expert review or human approval. They do not by
 themselves require spawning autonomous agents. Use the active environment's
 delegation rules. Routine documentation maintenance needs a concise review,
@@ -260,7 +270,7 @@ not a staged conversation.
 1. State the decision or judgment being evaluated in one sentence.
 2. Each panel member gives their position (1–3 sentences, in character).
 3. Identify any point of genuine disagreement — these are the load-bearing risks.
-4. Record the resolution and any rule changes in `meta.md`.
+4. Record the resolution in the relevant phase document and link it from NEXT_STEPS.md.
 5. If the panel reaches consensus that a rule in this file needs updating, update it immediately and note the date.
 
 ### Trigger conditions (when to convene)
@@ -284,7 +294,7 @@ not a staged conversation.
 - Determine the actual default branch from Git; do not assume its name. Work on a development branch.
 - Create a branch before any risky, experimental, or exploratory work.
 - Merge back to main only after the work has been verified.
-- Never commit directly to main during active development. Documentation-only changes (AGENTS.md, CLAUDE.md, meta.md, README) are the only exception.
+- Never commit directly to main during active development. Documentation-only changes (AGENTS.md, CLAUDE.md, NEXT_STEPS.md, README) are the only exception.
 
 **When to commit (PARIA-specific):**
 1. Config artefacts created or changed (parameters.json, correlation_matrix_R.json, configurations.json, seeds.json)
@@ -305,7 +315,7 @@ not a staged conversation.
 
 ## Living Document Rule
 
-This file is updated after every session where a significant decision was made, a limitation was discovered, or a mistake was corrected. Updates are sourced from `meta.md`. No decision made in session is considered settled until it appears here or in `meta.md`.
+This file is updated after every session where a significant decision was made, a limitation was discovered, or a mistake was corrected. Updates are sourced from the relevant phase documents and NEXT_STEPS.md. A significant decision is recorded with the phase it affects, with a current pointer in NEXT_STEPS.md.
 
 ---
 

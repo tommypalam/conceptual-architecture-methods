@@ -36,4 +36,4 @@ The final allocation dispatched 17,250 requests, saving 17,247 records with 17,2
 
 The [thesis results draft](../../docs/phase1_5_results.md) and [updated abstract](../../docs/abstract.md) carry this conclusion into the manuscript. [NEXT_STEPS.md](../../NEXT_STEPS.md) owns current execution status.
 
-Five synthetic review perspectives are recorded in meta.md. They are an internal structured review, not external expert endorsement or supervisor approval.
+Five synthetic review perspectives are preserved in the [archived decision history](../../archive/shared/documents/meta_through_scoped_closure_2026-09-12.md). They are an internal structured review, not external expert endorsement or supervisor approval.

@@ -1,30 +1,44 @@
-# Code entry points
+# Code guide
 
-Current work is offline thesis integration and downstream planning. No paid
-Phase 1.5 job is queued. See [current status](../NEXT_STEPS.md).
+[Back to the project](../README.md)
 
-| Area | Entry points and purpose |
+## Understand the implementation
+
+| Order | Component | Responsibility |
+|---|---|---|
+| 1 | [Population](engine/population.py) and [sampling utilities](utils.py) | Construct parameter profiles |
+| 2 | [Questions](engine/questions.py) | Load the locked dilemma text |
+| 3 | [Prompt assembly](engine/prompt_assembly.py) and [delivery](engine/delivery.py) | Assemble the model's inputs |
+| 4 | [Model clients](engine/llm_client.py) | Handle provider requests and mock responses |
+| 5 | [Parsing](engine/parsing.py) and [record sink](engine/record_sink.py) | Extract labels and preserve responses |
+| 6 | [Simple runner](engine/simple_runner.py) and [complex runner](engine/complex_runner.py) | Coordinate the corresponding task types |
+
+## Find an entry point
+
+| Task | Files |
 |---|---|
-| Reusable engine | `engine/`: profiles, question loading, delivery, providers, immutable record sinks and analysis |
-| Basic execution | `run_engine.py`, `score_engine.py`: existing simulation CLI composition |
-| Configuration | `build_config.py`, `utils.py`: configuration generation, sampling and PSD checks |
-| Current evidence reporting | `report_all_ten_final.py`, `report_structural_confirmation.py`, `report_structural_package.py`: reproduce completed assessments with their frozen inputs |
-| Phase 0 history | `phase0_*.py`, `run_phase0b.py`, `run_phase0c.py`, `run_recalibrate.py`, `run_nulla_tasksweep.py`: preserved calibration and harness tools |
-| Phase 1 history | `run_phase1_pilot.py`: operational pilot |
-| Phase 1.5 history | `run_validity_*.py`, `run_structural_*.py`, `run_all_ten_*.py` and associated preparation/report scripts: frozen study reproduction, not queued future runs |
-| Optional research assistance | `research_support/`: evidence adapters, separate from behavioural decisions |
-| Maintenance | `maintenance/archive_project.py`: explicit, checksum-verified archive migration; no API client |
+| Basic simulation CLI | [Run](run_engine.py), [score](score_engine.py) |
+| Configuration generation | [Build configuration](build_config.py) |
+| Final all-ten assessment | [Reproduce the assessment](report_all_ten_final.py) |
+| Independent PD confirmation | [Reproduce the confirmation report](report_structural_confirmation.py) |
+| Structural package summary | [Reproduce the package report](report_structural_package.py) |
+| Optional research assistance | [Research-support adapters](research_support/) |
+| Archive maintenance | [Checksum-verified relocation tool](maintenance/archive_project.py) |
 
-Historical script names stay stable when imports or frozen source hashes depend
-on them. The abandoned, never-dispatched final-confirmation runner is preserved
-under `archive/phase1_5/unexecuted_drafts/`; it is not a supported command.
+Historical calibration and validation scripts remain beside these entry points
+because imports and frozen source hashes depend on their names. Their prefixes
+identify their purpose: `run_` executes, `prepare_` prepares, `report_` reports,
+and `verify_` checks. Consult each script and its frozen protocol before use;
+a historical runner is not a queued or newly authorised experiment.
 
-Run offline verification from the repository root:
+## Verify offline
+
+Run from the repository root in the existing Python environment:
 
 ```powershell
 python -B -m pytest tests -q -p no:cacheprovider
 ```
 
-For any new empirical run, prepare a new protocol and designation. Do not reuse
-historical execute commands merely because they appear in an archived handoff.
-Existing raw records remain write-once, including failures.
+No paid Phase 1.5 job is queued. The never-dispatched final-confirmation draft is
+in the [archive](../archive/phase1_5/unexecuted_drafts/). Current research work is
+listed in [NEXT_STEPS.md](../NEXT_STEPS.md).

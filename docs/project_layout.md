@@ -7,8 +7,7 @@ Updated 12 September 2026. Current cleanup branch: `project-cleanup-20260912`.
 | Location | Purpose |
 |---|---|
 | `README.md` | Short project introduction and current scientific status |
-| `NEXT_STEPS.md` | Current work and remaining dependencies; no stale running-job narrative |
-| `meta.md` | Active decision index, with links to full archived chronologies |
+| `NEXT_STEPS.md` | Current work, remaining dependencies and links to accepted decisions |
 | `AGENTS.md`, `CLAUDE.md` | Matching project rules |
 | `docs/` | Current manuscript drafts, plan, codebook and documentation |
 | `Theory/` | Versioned theoretical sources; historical statements are interpreted through accepted amendments |
@@ -21,6 +20,21 @@ Updated 12 September 2026. Current cleanup branch: `project-cleanup-20260912`.
 | `experiments/` | Locked questions and complete evidence packages at stable reproducibility paths |
 | `archive/` | Historical archives, superseded guidance and unused drafts, grouped by phase |
 | `output/` | Ignored local runtime output, backups and verification working files |
+
+## Reading order and labels
+
+Start at the root README: abstract, results, next steps, theory, then evidence.
+Each main area has a README with descriptive links. The detailed Phase 1.5
+[evidence index](../experiments/phase1_5_encoding_validity/evidence_index.md)
+groups studies by purpose and retains the exact directory names beside them.
+
+Use plain-language titles for navigation, such as "Independent PD confirmation".
+Keep actual source filenames stable. No numbered folder prefixes, symbolic-link
+aliases or duplicate copies are needed just to control the reading order.
+
+The researcher retired the separate root decision log. Record a substantive
+decision in the phase document it affects and link it from NEXT_STEPS.md. Existing
+archived chronologies remain available; do not create a replacement parallel log.
 
 ## Naming for new work
 
