@@ -4,5 +4,10 @@
   "planned_calls": 40,
   "spending_ceiling_usd": 0.3,
   "user_instruction": "lets keep probing",
-  "scope": "Continuation of authorised validity diagnostics within existing tracked allowance; exact original MS prompt/settings and historical seeds, 40 new calls capped at $0.30. No new prompt text or theory change."
+  "scope": "Continuation of authorised validity diagnostics within existing tracked allowance; exact original MS prompt/settings and historical seeds, 40 new calls capped at $0.30. No new prompt text or theory change.",
+  "explicit_approval": {
+    "user_reply": "approved",
+    "scope": "Exact frozen40 requests to OpenAI GPT-5.4 mini, historical seeds, $0.30 cap; reply to the explicit approval question.",
+    "recorded_at_utc": "2026-09-12T08:37:23.783815+00:00"
+  }
 }

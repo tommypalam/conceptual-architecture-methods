@@ -1,0 +1,94 @@
+{
+  "design_hash": "6b492387c9c9e9f5f3a70db43b6c8978d78e214ab33d36fb807d70a88de797f9",
+  "status": "COMPLETE_SEED_REPLAY",
+  "n_records": 40,
+  "n_valid": 40,
+  "cells": [
+    {
+      "id": "MS_S2/expanded_seeds/v0.9",
+      "cohort": "expanded",
+      "n_expected": 20,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "adopt": 14,
+      "formal_report_count": 14,
+      "source_formal_report_count": 14,
+      "rate": 0.7,
+      "wilson95": [
+        0.4810271816464765,
+        0.8545227551323956
+      ],
+      "gains": 2,
+      "losses": 2,
+      "matches": 16
+    },
+    {
+      "id": "MS_S2/crossover_seeds/v0.9",
+      "cohort": "crossover",
+      "n_expected": 20,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "adopt": 9,
+      "formal_report_count": 9,
+      "source_formal_report_count": 0,
+      "rate": 0.45,
+      "wilson95": [
+        0.2581978582556243,
+        0.6579146575496577
+      ],
+      "gains": 9,
+      "losses": 0,
+      "matches": 11
+    }
+  ],
+  "primary_paired_comparisons": [
+    {
+      "cohort": "expanded",
+      "gains": 2,
+      "losses": 2,
+      "paired_change": {
+        "difference": 0.0,
+        "conservative_95_interval_unknown_envelope": [
+          -0.34010065671252554,
+          0.34010065671252554
+        ]
+      },
+      "mcnemar_exact_p": 1.0,
+      "holm_p": 1.0,
+      "paired_change_detected": false
+    },
+    {
+      "cohort": "crossover",
+      "gains": 9,
+      "losses": 0,
+      "paired_change": {
+        "difference": 0.45,
+        "conservative_95_interval_unknown_envelope": [
+          0.010160921160121156,
+          0.7119259904399626
+        ]
+      },
+      "mcnemar_exact_p": 0.00390625,
+      "holm_p": 0.0078125,
+      "paired_change_detected": true
+    }
+  ],
+  "secondary_current_cohort_comparison": {
+    "crossover_minus_expanded": {
+      "difference": -0.24999999999999994,
+      "conservative_95_interval_unknown_envelope": [
+        -0.6908246014496637,
+        0.2855732432691334
+      ]
+    },
+    "descriptive_fisher_p": 0.2002872728123007
+  },
+  "known_cost_usd": 0.0452325,
+  "unknown_usage_calls": 0,
+  "phase_gate": "Unchanged; exact-request replay is a reproducibility diagnostic, not encoding validation.",
+  "unresolved_dispatches": 0
+}

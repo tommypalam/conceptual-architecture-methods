@@ -10,6 +10,22 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**MS exact-seed replay complete:40/40 valid, cost$0.0452325.**
+[Results and all matched-request checks](experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/analysis/INTERPRETATION.md).
+Explicit40-call/$0.30 approval resolved the earlier automatic-review block.
+Expanded seeds14/20 ->14/20 (16/20 individual matches); crossover seeds0/20
+->9/20 (11/20 matches). Crossover paired change+.45, conservative nominal95
+[+.010,+.712], Holm-two p=.0078125; expanded change0, Holm p=1.
+A changed seed list alone cannot explain the earlier collapse; no backend cause
+identified. Cohorts were selected after an extreme discrepancy; inference stays
+exploratory. Only high-MS replayed, so no fresh sensitivity/gradient pass.
+All exact source/new messages, values, settings and seeds verified; IDs distinct,
+raw ZIP bytes verified. Remaining$3.74647425; no pending calls/new allocation.
+Next proposed design: short fixed-count repeated blocks with concurrent low/high
+MS and MoR controls; freeze schedule/analysis before any collection. No full
+sweep or wording changes. Phase1.5 open;Phase2 held.
+
+
 **Offline repeat audit complete:53,782 valid records,18 studies,$0.**
 [Findings and all comparisons](experiments/phase1_5_encoding_validity/repeat_stability_20260912/INTERPRETATION.md).
 83 repeated prompt/settings groups;5/139 between-run contrasts and3/188
@@ -18,11 +34,8 @@ Canonical MoR endpoint direction recurs in all six available studies; canonical
 high-MS30/50 ->14/20 ->0/20 fails repeatability. Other detected shifts concern
 PD/S3; all within-run detections are unchanged axis-pilot baseline paraphrases.
 Zero same-prompt/same-seed repeats; all fingerprints absent, recorded cache hits0.
-Next:40 exact MS high-endpoint replays including prior seeds, two whole20-seed
-cohorts interleaved, $0.30 cap. [Frozen replay protocol](experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/PROTOCOL.md);
-three tests passed. **Automatic approval review blocked launch pending explicit
-approval of these exact40 requests to OpenAI.** Approval question pending; no
-replay calls/intents/records or new spending. Original gates held.
+The follow-up exact-seed replay is now complete; see the active result above.
+Original gates held.
 
 
 **MS crossover complete: 160/160 valid, cost$0.1862505.**

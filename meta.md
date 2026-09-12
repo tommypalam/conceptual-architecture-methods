@@ -10,6 +10,34 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+
+## 2026-09-12 ? Approved40-call replay complete; changing seeds alone is insufficient
+
+Researcher replied "approved" to exact40-call OpenAI/$0.30 request; approval
+recorded against frozen preview.40/40 valid; cost$0.0452325. Expanded cohort
+14/20 ->14/20 with2 gains/2 losses (16 matches). Crossover cohort0/20 ->9/20
+with9 gains/0 losses (11 matches). Paired change+.45, nominal conservative95
+[+.010,+.712], McNemar p=.00390625 and Holm-two p=.0078125. Expanded Holm p=1.
+Fresh-cohort difference-.25, interval[-.691,+.286], descriptive Fisher p=.2003.
+All40 exact historical requested seeds and message/settings/profile matches
+verified; all40 new IDs unique/disjoint from history. All raw ZIP bytes checked;
+no retries or pending intents. Remaining allowance$3.74647425.
+
+Synthetic review: Linden separates returned high-MS reporting from ethical
+understanding. Osei notes selection of discrepant cohorts and regression to the
+mean; replaying every seed does not remove that selection. Tanaka reports the
+frozen paired tests but does not turn the fresh-cohort non-detection into
+equivalence, or an exploratory p-value into a causal server-drift claim. Renna
+retains both recovered reporting and the earlier failures, prioritising repeated
+fixed blocks with simultaneous low/high controls. Okafor confirms matched
+source hashes,40 new IDs, no replacement and explicit-approval provenance.
+Resolution: changing the seed list alone is insufficient; no specific backend
+cause identified. Only high-MS replayed, so no new sensitivity/gradient gate
+pass. Future small block study needs frozen count/spacing/analysis, not optional
+stopping at a favourable block. No additional calls allocated; original gate
+unchanged, Phase1.5 open/Phase2 held.
+[Interpretation](experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/analysis/INTERPRETATION.md).
+
 ## 2026-09-12 ? Exact MS replay dispatch blocked by automatic approval review
 
 The40-call/$0.30 launch was rejected before process execution. Stated reason:

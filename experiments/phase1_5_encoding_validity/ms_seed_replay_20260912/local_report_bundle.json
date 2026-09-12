@@ -1,0 +1,24 @@
+{
+  "path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\output\\validity_backups\\ms_seed_replay_20260912_reports_fc7fa1913b80a54e.zip",
+  "sha256": "fe1798b1146e1effa7a04b222f9f9bbd3f01d6bccf7acdbcfd14a61fb8c7955b",
+  "file_sha256": {
+    "budget_ledger.json": "68e0ebdc19719ac67c543016dd5a0a4650dfd66db36c8a3173748761aa034bfe",
+    "dispatch_authorization.json": "0f894b6ba4ca8dc25fc35bc0ed501df17fa227eae8aa3a9f92861e7c6f61dce4",
+    "DISPATCH_STATUS.md": "1913eaee3d5cef69829ce7922087ede12ea3bce8e68c2ab91c6b5aa29f1c53de",
+    "local_backup.json": "d5f4071ab7728ba6e0c0d8919efabe9f6382866f0e193b86808ab89cfb51f0ea",
+    "manifest.json": "fecef76e6d9c18bc475058cdc607ac3b53f8cb143a008588fa6e136c828b74a7",
+    "PROTOCOL.md": "f3d26dbabbd51f35d7e698a1633462b153de8bcf0deb10574a3abdd7c7f1ec47",
+    "request_preview.json": "1db97f84c807019d0d99a788d856b09ab7e0eda068fd189dd8ffc0a10adfcb71",
+    "analysis/basic_verification.json": "042879f50c28a2cb5d15b43a04bebb9feb89a498bd269a836c13bd3da42f72bc",
+    "analysis/budget_1212a7f35e2653d4.json": "68e0ebdc19719ac67c543016dd5a0a4650dfd66db36c8a3173748761aa034bfe",
+    "analysis/INTERPRETATION.md": "3a4de6bdadfe39a0a57300f567e212b70a9bc6eef67e1150c1510fe94d63fb33",
+    "analysis/replay_verification.json": "d549a990e15a04535a672282c8fc9f0be45ced52c71deac9e62dd4e1816451fb",
+    "analysis/REPORT.md": "c10edb8f2fc074edcaf37ee9e0161853df09928c3dbc00cadfc22477a32d2a4f",
+    "analysis/report_provenance.json": "7c664c25f8bc93df7e94f74a0b7bf2f205f17de060d9cf54188edb12d1e06e9d",
+    "analysis/result_4ccd0599dde96767.json": "7cdc48883f166fbdbd8c530fdcc0c1ab5e2e93fc87a98c5661ded242b962a8da",
+    "code/run_validity_ms_seed_replay.py": "5aada554c34d3d1a5d0819439c7b8da2206eee34a35e834f39ecb6ad910c9edb",
+    "code/report_validity_ms_seed_replay.py": "cc67e5b074db2d50792d44098e3224cff14f1ccabe141d69f116e66b4daf16ed",
+    "tests/test_ms_seed_replay.py": "7f21e867c9d9f5f6b24b06e7803a7fc482a9a6876adef686410c041c8600e00c"
+  },
+  "note": "Verified same-computer report/code bundle. Raw responses are separately archived in local_backup.json."
+}
