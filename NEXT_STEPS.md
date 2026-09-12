@@ -1,6 +1,6 @@
 # Current state and next steps
 
-Updated 2026-09-12. Working branch: `phase1-5-final-confirmation`.
+Updated 2026-09-12. Working branch: `phase1-5-all-ten-criteria`.
 
 **The requested structural evaluation package is complete. Phase 1.5 remains
 open; the original full validity gate is unmet and Phase 2 remains on hold.**
@@ -11,6 +11,24 @@ Read the [completed assessment](experiments/phase1_5_encoding_validity/structura
 and [theory alignment](experiments/phase1_5_encoding_validity/structural_encoding_20260912/THEORY_ALIGNMENT.md).
 The theory supports normative representations as generative inputs to the agent
 architecture; the experiment does not establish intrinsic moral understanding.
+
+## Active follow-up: all ten, all three evidence categories
+
+The researcher explicitly confirmed the next scope: all ten parameters against
+(1) causal and graded effects, (2) wording plus numeric/verbal robustness, and
+(3) explanation recovery. These retain the four original component tests and
+thresholds. No parameter is removed or selected solely for a favorable result.
+[All-ten coverage table](experiments/phase1_5_encoding_validity/all_ten_criteria_20260912/COVERAGE.md).
+
+The offline table reconciles historical and fresh evidence without pooling.
+All ten have historical four-test coverage and fresh canonical/audit coverage;
+fresh six-representation diagnostics cover only two of thirty parameter/problem
+pairs. The historical equivalence-power limitation remains material. No new
+calls dispatched. An additional spending-envelope question is pending before
+new study sizing and exact requests are frozen; the completed $25 package does
+not authorize an arbitrarily larger reservation. An18,000-call all-representation
+screen is about$112 reserved before coding (rough usage extrapolation$19.51),
+and is not itself a well-powered +/-0.10 equivalence study.
 
 ## New evidence
 

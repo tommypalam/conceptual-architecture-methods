@@ -146,6 +146,13 @@ $4.619095 plus unknown-usage bound $0.012067; conservative reservations
 $24.729379 under the $25 cap. No further calls queued. See the
 [completed assessment](experiments/phase1_5_encoding_validity/structural_encoding_20260912/FINAL_ASSESSMENT.md).
 
+On 2026-09-12 the researcher confirmed a follow-up covering all ten parameters
+under three evidence categories: causal/graded effects, wording plus numeric/
+verbal robustness, and blind recovery. All four original subtests remain; no
+new combined gate or meaning changes. The all-ten offline coverage table and
+pending additional spending-envelope question are in NEXT_STEPS.md. No new
+follow-up API calls have been dispatched.
+
 ## Experimental Problems
 
 S1 Promotion Decision; S2 Quiet Error; S3 Department Reorganisation;

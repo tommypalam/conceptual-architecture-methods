@@ -1,0 +1,554 @@
+{
+  "scope": "All ten parameters; three researcher-confirmed evidence categories retain four original tests.",
+  "new_API_calls": 0,
+  "no_new_composite_pass_rule": true,
+  "historical_and_fresh_not_pooled": true,
+  "historical_summary_join_not_new_raw_reaudit": true,
+  "source_sha256": {
+    "experiments/phase1_5_encoding_validity/fixed_encoding_assessment_20260911/evidence_matrix.json": "dcbb8ec909218347d44a21e873f5790d7be22a1182bc11d738cc796fb6221df0",
+    "experiments/phase1_5_encoding_validity/structural_encoding_20260912/sweep/analysis/result_f87bac164d8bfc5d.json": "661f5691162aae3e4197801c251982f09c2aaf1e8be1e7c623c86551a1b37718",
+    "experiments/phase1_5_encoding_validity/structural_encoding_20260912/sweep/analysis/discrete_uncertainty_sensitivity.json": "1600e2b3b10215031cb302cd28fe86243a836479588c16630c8c282e5f346314",
+    "experiments/phase1_5_encoding_validity/structural_encoding_20260912/diagnostics/analysis/result_313c5ea5a071ca14.json": "d5634fe592232986f91319a251f9d28ba3865129aacad0b4aef68e4d6f1e8dd1",
+    "experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit_schema_r3/analysis/prevalence_summary.json": "937c9394775a4df888b1e120062dcea5ae6896e39f032039ca3582fe7b197155",
+    "experiments/phase1_5_encoding_validity/structural_encoding_20260912/pd_confirmation/analysis/result_12d9e5a5cda25ae3.json": "eeecba46919b100e082e12106d895ea482ea3cce06787cf3596373836e0a0d38"
+  },
+  "rows": [
+    {
+      "parameter": "LL",
+      "fresh_sweep_problems": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_n_per_level": 20,
+      "fresh_levels": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "original_directional_problems": [],
+      "historical_full_gradient_criterion_met": [],
+      "fresh_bootstrap_predicted_endpoint_flags": [],
+      "fresh_exact_endpoint_signals": [],
+      "historical_paraphrase_equivalent_problems": [
+        "S1"
+      ],
+      "historical_retention_eligible_problems": [],
+      "historical_numeric_retention_met": [],
+      "historical_verbal_retention_met": [],
+      "fresh_six_representation_diagnostic_problems": [],
+      "fresh_representation_gaps": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_audit_active_n": 20,
+      "fresh_audit_accuracy": 0.3,
+      "fresh_audit_balanced_accuracy": 0.3125,
+      "fresh_audit_p_holm_supplement": 1.0,
+      "fresh_audit_all_accuracy": 0.305,
+      "fresh_audit_all_majority_baseline": 0.415,
+      "independent_endpoint_confirmation": [],
+      "all_three_categories_established": false
+    },
+    {
+      "parameter": "CS",
+      "fresh_sweep_problems": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_n_per_level": 20,
+      "fresh_levels": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "original_directional_problems": [],
+      "historical_full_gradient_criterion_met": [],
+      "fresh_bootstrap_predicted_endpoint_flags": [],
+      "fresh_exact_endpoint_signals": [],
+      "historical_paraphrase_equivalent_problems": [
+        "S1"
+      ],
+      "historical_retention_eligible_problems": [],
+      "historical_numeric_retention_met": [],
+      "historical_verbal_retention_met": [],
+      "fresh_six_representation_diagnostic_problems": [],
+      "fresh_representation_gaps": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_audit_active_n": 20,
+      "fresh_audit_accuracy": 0.25,
+      "fresh_audit_balanced_accuracy": 0.25,
+      "fresh_audit_p_holm_supplement": 1.0,
+      "fresh_audit_all_accuracy": 0.28,
+      "fresh_audit_all_majority_baseline": 0.485,
+      "independent_endpoint_confirmation": [],
+      "all_three_categories_established": false
+    },
+    {
+      "parameter": "RT",
+      "fresh_sweep_problems": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_n_per_level": 20,
+      "fresh_levels": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "original_directional_problems": [
+        "S3"
+      ],
+      "historical_full_gradient_criterion_met": [],
+      "fresh_bootstrap_predicted_endpoint_flags": [],
+      "fresh_exact_endpoint_signals": [],
+      "historical_paraphrase_equivalent_problems": [
+        "S1"
+      ],
+      "historical_retention_eligible_problems": [],
+      "historical_numeric_retention_met": [],
+      "historical_verbal_retention_met": [],
+      "fresh_six_representation_diagnostic_problems": [],
+      "fresh_representation_gaps": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_audit_active_n": 20,
+      "fresh_audit_accuracy": 0.2,
+      "fresh_audit_balanced_accuracy": 0.1875,
+      "fresh_audit_p_holm_supplement": 1.0,
+      "fresh_audit_all_accuracy": 0.355,
+      "fresh_audit_all_majority_baseline": 0.405,
+      "independent_endpoint_confirmation": [],
+      "all_three_categories_established": false
+    },
+    {
+      "parameter": "MoR",
+      "fresh_sweep_problems": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_n_per_level": 20,
+      "fresh_levels": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "original_directional_problems": [
+        "S3"
+      ],
+      "historical_full_gradient_criterion_met": [
+        "S3"
+      ],
+      "fresh_bootstrap_predicted_endpoint_flags": [
+        "S3"
+      ],
+      "fresh_exact_endpoint_signals": [],
+      "historical_paraphrase_equivalent_problems": [],
+      "historical_retention_eligible_problems": [
+        "S3"
+      ],
+      "historical_numeric_retention_met": [],
+      "historical_verbal_retention_met": [
+        "S3"
+      ],
+      "fresh_six_representation_diagnostic_problems": [
+        "S3"
+      ],
+      "fresh_representation_gaps": [
+        "S1",
+        "S2"
+      ],
+      "fresh_audit_active_n": 20,
+      "fresh_audit_accuracy": 0.25,
+      "fresh_audit_balanced_accuracy": 0.28125,
+      "fresh_audit_p_holm_supplement": 1.0,
+      "fresh_audit_all_accuracy": 0.395,
+      "fresh_audit_all_majority_baseline": 0.38,
+      "independent_endpoint_confirmation": [],
+      "all_three_categories_established": false
+    },
+    {
+      "parameter": "RE",
+      "fresh_sweep_problems": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_n_per_level": 20,
+      "fresh_levels": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "original_directional_problems": [
+        "S1",
+        "S3"
+      ],
+      "historical_full_gradient_criterion_met": [],
+      "fresh_bootstrap_predicted_endpoint_flags": [],
+      "fresh_exact_endpoint_signals": [],
+      "historical_paraphrase_equivalent_problems": [
+        "S1",
+        "S2"
+      ],
+      "historical_retention_eligible_problems": [],
+      "historical_numeric_retention_met": [],
+      "historical_verbal_retention_met": [],
+      "fresh_six_representation_diagnostic_problems": [],
+      "fresh_representation_gaps": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_audit_active_n": 20,
+      "fresh_audit_accuracy": 0.5,
+      "fresh_audit_balanced_accuracy": 0.375,
+      "fresh_audit_p_holm_supplement": 0.207,
+      "fresh_audit_all_accuracy": 0.29,
+      "fresh_audit_all_majority_baseline": 0.435,
+      "independent_endpoint_confirmation": [],
+      "all_three_categories_established": false
+    },
+    {
+      "parameter": "PD",
+      "fresh_sweep_problems": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_n_per_level": 20,
+      "fresh_levels": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "original_directional_problems": [
+        "S1"
+      ],
+      "historical_full_gradient_criterion_met": [
+        "S1"
+      ],
+      "fresh_bootstrap_predicted_endpoint_flags": [],
+      "fresh_exact_endpoint_signals": [
+        {
+          "problem": "S2",
+          "effect": 0.65,
+          "p_holm": 0.014404296875
+        },
+        {
+          "problem": "S3",
+          "effect": -0.7,
+          "p_holm": 0.00732421875
+        }
+      ],
+      "historical_paraphrase_equivalent_problems": [
+        "S1"
+      ],
+      "historical_retention_eligible_problems": [
+        "S1"
+      ],
+      "historical_numeric_retention_met": [
+        "S1"
+      ],
+      "historical_verbal_retention_met": [],
+      "fresh_six_representation_diagnostic_problems": [],
+      "fresh_representation_gaps": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_audit_active_n": 20,
+      "fresh_audit_accuracy": 0.55,
+      "fresh_audit_balanced_accuracy": 0.5625,
+      "fresh_audit_p_holm_supplement": 0.03,
+      "fresh_audit_all_accuracy": 0.45,
+      "fresh_audit_all_majority_baseline": 0.355,
+      "independent_endpoint_confirmation": [
+        {
+          "problem": "S2",
+          "target_label": "FORMAL_REPORT",
+          "rates": [
+            0.0,
+            0.8
+          ],
+          "n_backgrounds": 25,
+          "background_effects": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0
+          ],
+          "effect": 0.8,
+          "simultaneous95": [
+            0.35449836981085237,
+            0.9516125562605395
+          ],
+          "positive_pairs": 20,
+          "negative_pairs": 0,
+          "tied_pairs": 5,
+          "p_two_sided": 1.9073486328125e-06,
+          "p_holm": 3.814697265625e-06,
+          "supported": true
+        },
+        {
+          "problem": "S3",
+          "target_label": "WAIT",
+          "rates": [
+            0.16,
+            0.84
+          ],
+          "n_backgrounds": 25,
+          "background_effects": [
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0
+          ],
+          "effect": 0.68,
+          "simultaneous95": [
+            0.22856770099844395,
+            0.8822798878714033
+          ],
+          "positive_pairs": 17,
+          "negative_pairs": 0,
+          "tied_pairs": 8,
+          "p_two_sided": 1.52587890625e-05,
+          "p_holm": 1.52587890625e-05,
+          "supported": true
+        }
+      ],
+      "all_three_categories_established": false
+    },
+    {
+      "parameter": "TfA",
+      "fresh_sweep_problems": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_n_per_level": 20,
+      "fresh_levels": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "original_directional_problems": [
+        "S1",
+        "S2"
+      ],
+      "historical_full_gradient_criterion_met": [],
+      "fresh_bootstrap_predicted_endpoint_flags": [],
+      "fresh_exact_endpoint_signals": [],
+      "historical_paraphrase_equivalent_problems": [],
+      "historical_retention_eligible_problems": [],
+      "historical_numeric_retention_met": [],
+      "historical_verbal_retention_met": [],
+      "fresh_six_representation_diagnostic_problems": [],
+      "fresh_representation_gaps": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_audit_active_n": 20,
+      "fresh_audit_accuracy": 0.35,
+      "fresh_audit_balanced_accuracy": 0.375,
+      "fresh_audit_p_holm_supplement": 0.798,
+      "fresh_audit_all_accuracy": 0.4,
+      "fresh_audit_all_majority_baseline": 0.435,
+      "independent_endpoint_confirmation": [],
+      "all_three_categories_established": false
+    },
+    {
+      "parameter": "ID",
+      "fresh_sweep_problems": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_n_per_level": 20,
+      "fresh_levels": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "original_directional_problems": [
+        "S2"
+      ],
+      "historical_full_gradient_criterion_met": [],
+      "fresh_bootstrap_predicted_endpoint_flags": [],
+      "fresh_exact_endpoint_signals": [],
+      "historical_paraphrase_equivalent_problems": [
+        "S1"
+      ],
+      "historical_retention_eligible_problems": [],
+      "historical_numeric_retention_met": [],
+      "historical_verbal_retention_met": [],
+      "fresh_six_representation_diagnostic_problems": [],
+      "fresh_representation_gaps": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_audit_active_n": 20,
+      "fresh_audit_accuracy": 0.45,
+      "fresh_audit_balanced_accuracy": 0.40625,
+      "fresh_audit_p_holm_supplement": 0.207,
+      "fresh_audit_all_accuracy": 0.365,
+      "fresh_audit_all_majority_baseline": 0.44,
+      "independent_endpoint_confirmation": [],
+      "all_three_categories_established": false
+    },
+    {
+      "parameter": "MS",
+      "fresh_sweep_problems": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_n_per_level": 20,
+      "fresh_levels": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "original_directional_problems": [
+        "S2"
+      ],
+      "historical_full_gradient_criterion_met": [
+        "S2"
+      ],
+      "fresh_bootstrap_predicted_endpoint_flags": [],
+      "fresh_exact_endpoint_signals": [],
+      "historical_paraphrase_equivalent_problems": [],
+      "historical_retention_eligible_problems": [
+        "S2"
+      ],
+      "historical_numeric_retention_met": [],
+      "historical_verbal_retention_met": [],
+      "fresh_six_representation_diagnostic_problems": [
+        "S2"
+      ],
+      "fresh_representation_gaps": [
+        "S1",
+        "S3"
+      ],
+      "fresh_audit_active_n": 20,
+      "fresh_audit_accuracy": 0.4,
+      "fresh_audit_balanced_accuracy": 0.40625,
+      "fresh_audit_p_holm_supplement": 0.207,
+      "fresh_audit_all_accuracy": 0.46,
+      "fresh_audit_all_majority_baseline": 0.515,
+      "independent_endpoint_confirmation": [],
+      "all_three_categories_established": false
+    },
+    {
+      "parameter": "AW",
+      "fresh_sweep_problems": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_n_per_level": 20,
+      "fresh_levels": [
+        0.1,
+        0.3,
+        0.5,
+        0.7,
+        0.9
+      ],
+      "original_directional_problems": [],
+      "historical_full_gradient_criterion_met": [],
+      "fresh_bootstrap_predicted_endpoint_flags": [],
+      "fresh_exact_endpoint_signals": [],
+      "historical_paraphrase_equivalent_problems": [
+        "S1"
+      ],
+      "historical_retention_eligible_problems": [],
+      "historical_numeric_retention_met": [],
+      "historical_verbal_retention_met": [],
+      "fresh_six_representation_diagnostic_problems": [],
+      "fresh_representation_gaps": [
+        "S1",
+        "S2",
+        "S3"
+      ],
+      "fresh_audit_active_n": 20,
+      "fresh_audit_accuracy": 0.25,
+      "fresh_audit_balanced_accuracy": 0.28125,
+      "fresh_audit_p_holm_supplement": 1.0,
+      "fresh_audit_all_accuracy": 0.56,
+      "fresh_audit_all_majority_baseline": 0.56,
+      "independent_endpoint_confirmation": [],
+      "all_three_categories_established": false
+    }
+  ]
+}

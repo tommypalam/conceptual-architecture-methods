@@ -16,6 +16,40 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+## 2026-09-12 - Researcher confirms all-ten scope across three evidence categories
+
+User clarification explicitly means causal/graded decision effects, robustness
+across wording and numeric/verbal representation, and blind explanation recovery.
+All ten parameters remain in scope. The robustness category retains both original
+subtests; this is a presentation grouping, not a replacement gate or threshold.
+Branch phase1-5-all-ten-criteria. The completed package remains immutable.
+
+An offline table joins historical and fresh summaries by all ten exact codes,
+retaining source hashes and study distinctions. Verification reconciles8/30
+historical equivalence cells,2 eligible retention positives,200 fresh active
+audit assignments, and28/30 parameter/problem pairs lacking fresh representation
+coverage. No new model call or pooled estimate. LL/CS/AW lack original simple-task
+directional hypotheses; their lack of a sign must not be turned into a failure
+or repaired by inventing a theoretical mapping.
+
+Synthetic review: Linden requires preservation of construct meanings and all ten
+coordinates. Osei distinguishes old fixed-profile data from new background tests.
+Tanaka requires equivalence power planning, preserved multiplicity and missing-
+hypothesis labels. Renna supports the three-category organization only if all
+four underlying tests remain visible. Okafor requires a separately bounded new
+run and immutable existing outputs. Resolution: full all-ten coverage table now;
+no invented per-parameter pass rule, theoretical change or automatic Phase2 release.
+
+The researcher has been asked for an additional budget envelope. A full fresh
+20-background six-representation/five-level/three-dilemma screen would require
+18,000 behavioral calls; existing exact-message planning gives$111.662258 reserve
+before audit and approximate$19.512009 usage extrapolation. It is not a well-
+powered equivalence study. Existing offline power simulations demonstrate this
+limitation; no new empirical result or guaranteed pass is implied. New exact
+requests and study size await that resource constraint. No new API dispatches.
+
+[Coverage](experiments/phase1_5_encoding_validity/all_ten_criteria_20260912/COVERAGE.md).
+
 ## 2026-09-12 - Completed structural package: replicated PD, limited scope
 
 All 3,580 behavioral responses and 200 final blind codings are valid. The
