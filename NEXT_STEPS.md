@@ -3,7 +3,7 @@
 Updated 2026-09-12. Working branch: `phase1-5-all-ten-criteria`.
 
 **The previous structural package is complete; the new all-ten follow-up is
-preparing an authorized third execution segment after verified interruption. Phase 1.5 remains open, the original full validity gate is unmet, and
+collecting its authorized third execution segment after verified interruption. Phase 1.5 remains open, the original full validity gate is unmet, and
 Phase 2 remains on hold.**
 The researcher rejected the earlier closure interpretation. No automatic
 closure, threshold relaxation, theoretical revision or parameter removal is made.
@@ -46,14 +46,18 @@ with invalid slots and the interruption explicit. Phase1.5 remains open.
 
 ## Authorized continuation after the interruption
 
-The researcher instructed continue. A third segment is being verified for the
+The researcher instructed continue. The third segment is now running for the
 4,584 never-dispatched slots, keeping all prior intents excluded and all unknown
 charges reserved. Exact prompts, model, schedule and analysis are unchanged.
-A hidden background worker will record its PID and stdout/stderr. Monitor process
+The hidden background worker records its PID and stdout/stderr. Monitor process
 liveness alongside checkpoint freshness; do not infer RUNNING from a stale file.
 [Third-segment protocol](experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment3/PROTOCOL.md).
+[Current progress](experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment3/progress.json).
+Four continuation tests passed. Initial new response and pinned-model checks
+passed; the first57 additional responses were valid. Runtime PID is saved in
+run_process.json; logs are output/all_ten_segment3.stdout.log and stderr.log.
 
-## Latest monitoring interruption
+## Previous monitoring interruption
 
 The collection process is no longer present. The last progress checkpoint is
 stale. Exactly12,663 responses are saved across both segments; three segment2

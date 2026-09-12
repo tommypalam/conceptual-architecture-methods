@@ -16,6 +16,16 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+## 2026-09-12 - Third-segment launch verified
+
+Four continuation tests passed, including exclusion of unresolved intents,
+retention of their full reservations, duplicate-intent rejection, exact request
+order and seeds, and single-batch stopping on new unknown usage. The frozen plan
+verified 12,663 prior records and 12,666 intents, leaving exactly 4,584 slots.
+Code/protocol/preflight committed as b39f9a87. The hidden background worker was
+launched with logs and a saved PID; the first57 new responses were valid, and
+initial returned-model/provenance checks passed. Original phase gate unchanged.
+
 ## 2026-09-12 - Researcher authorized continuation after second interruption
 
 The researcher instructed continue after the verified 12,663-record interruption.
