@@ -10,6 +10,17 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**New test proposed for discussion: transfer across complete profiles.**
+[120-call counterfactual MoR/S3 proposal](experiments/phase1_5_encoding_validity/profile_transfer_proposal_20260912/PROPOSED_TEST.md).
+20 prospectively sampled backgrounds xMoR .1/.5/.9 x2 complete blocks.
+Hold other nine values fixed within each background; retain all ten parameters,
+canonical wording, locked S3 and pinned model. Test the prespecified average
+MoR effect across unfamiliar backgrounds, with fresh controls and profile-level
+uncertainty. Not a new theory mapping, recalibration or original-gate revision.
+Draft only: no profile draw, frozen paid allocation or launch. Probing stays
+paused while the design is discussed; remaining$3.74647425 unchanged.
+
+
 **Researcher requested backtracking and a different approach.**
 [Theory-grounded mechanism/evaluation review](experiments/phase1_5_encoding_validity/approach_review_20260912/REVIEW.md).
 Further API probes and the proposed repeated-block study are paused. Preserve

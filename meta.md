@@ -12,6 +12,34 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+
+## 2026-09-12 ? Propose counterfactual profile-transfer test
+
+Researcher asks to think through a test using accumulated evidence of parameter
+influence. Draft120-call design:20 new full-profile backgrounds from unchanged
+copula/Beta sampler, each copied at MoR.1/.5/.9, two full randomized collection
+blocks. No sampling or calls yet. Same original S3 wording/model; no new endpoint
+meaning, parameter set, marginal/R entry or directional mapping.
+
+Synthetic review: Linden limits a positive claim to parameter-responsive
+behaviour, not internal moral understanding. Osei values unfamiliar backgrounds
+and concurrent controls over more familiar-cell repairs; within-background MoR
+intervention is not an untouched joint-population draw. Tanaka makes background
+the uncertainty unit, keeps both blocks visible, and flags approximate bootstrap
+precision with20 backgrounds/two observations per level. Renna treats this as
+transfer of the strongest existing signal before any larger joint-profile
+claim; other validity gates stay required. Okafor requires all profiles retained,
+exact numeric-only intervention checks and prospectively frozen request/analysis
+and cost guards. No answer-prescribing adapter or post-decision filter.
+
+Resolution: offer this as a concrete draft, not a settled or approved experiment.
+Primary average high-minus-low effect and approximate profile-bootstrap interval;
+proposed local advance criterion lower bound>0 plus positive effects in both
+blocks. Midpoint and heterogeneity descriptive; no individual-background
+pass classification or retrospective profile replacement. Expected~$0.15,
+proposed$1 cap subject to exact preflight. No theory changes or phase closure.
+[Proposal](experiments/phase1_5_encoding_validity/profile_transfer_proposal_20260912/PROPOSED_TEST.md).
+
 ## 2026-09-12 ? Researcher changes direction; stop the local probing loop
 
 User: "wow thats weird, let sbacktrack and change approach". Pause additional
