@@ -1,6 +1,6 @@
 # Current state and next steps
 
-Updated 2026-09-11. Working branch: `phase1-5-tool-delivery-screen`.
+Updated 2026-09-12. Working branch: `phase1-5-tool-delivery-screen`.
 This file is the current operational status; historical records are evidence,
 not competing task lists.
 
@@ -9,6 +9,16 @@ is `option_c_20260909_restart`: 15,000 new calls, without reusing the old sample
 See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
+
+**MS stanza/background crossover prepared: 160 calls, $1.20 cap.**
+[Exact protocol and preview](experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/PROTOCOL.md).
+Canonical/P2 MS stanza crossed with canonical/P2 other-nine descriptions at
+MS .1/.9, N20 each. All ten verbatim descriptions and locked S2 retained.
+Four prespecified high-value comparisons, Holm correction; secondary endpoint
+contrasts. No monotonicity or phase pass claim. Fresh controls, no pooling.
+Seed20260927; full reserve$1.05024; remaining allowance before run$3.97795725.
+Researcher requested proceeding; verification and dispatch review precede calls.
+
 
 **Offline MS review complete; no new API calls or prompt changes.**
 [Review and smallest proposed follow-up](experiments/phase1_5_encoding_validity/ms_wording_review_20260911/REVIEW.md).

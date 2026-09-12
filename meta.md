@@ -4,6 +4,34 @@ Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns executi
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
+
+## 2026-09-12 ? Freeze MS stanza/background attribution test
+
+Decision: follow the researcher's repeated go instruction with the proposed
+160-call 2x2x2 crossover, capped at $1.20 inside the remaining tracked allowance.
+Exact prior template controls are concurrent; mixed compositions only exchange
+the verbatim MS stanza. Ten values and the locked S2 dilemma remain intact.
+
+Synthetic review (structured perspectives, not external review or human raters):
+- Linden: MS breadth need not dictate escalation; retain the existing action
+  hypothesis without redefining moral scope to guarantee a result.
+- Osei: collect concurrent controls because prior repeated cells shifted;
+  all nine background stanzas form a compound factor, not a specific trait.
+- Tanaka: fix four two-sided high-value comparisons and Holm family before
+  collection; N20 non-detection cannot establish equivalence. Endpoint and
+  interaction intervals are secondary; no monotonicity claim at two levels.
+- Renna: attribution can identify where presentation sensitivity enters this
+  implementation, but cannot demonstrate understanding or repair the full gate.
+- Okafor: verify exact stanza bytes, unchanged non-profile text, all ten values,
+  unique seeds, pre-dispatch budget reservations and immutable failure records.
+
+Disagreement/risk: decomposing text blocks is useful causal attribution for
+these prompts, but semantic versus lexical/length mechanisms remain entangled.
+Resolution: report conditional block effects and all cells without selecting a
+winner or upgrading the original gate. No theory, prompt-source, distribution,
+mapping, benchmark or constitution rule changed. See the frozen
+[protocol](experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/PROTOCOL.md).
+
 ## 2026-09-11 - Offline MS wording/explanation review
 
 The researcher authorised the proposed offline comparison after the positive

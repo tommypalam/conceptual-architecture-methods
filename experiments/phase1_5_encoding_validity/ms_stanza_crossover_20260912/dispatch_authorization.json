@@ -1,0 +1,11 @@
+{
+  "design_hash": "72de22bf34e3e9549697c6816f06b5debaf4a720eca0c98b79a5de14aaa9b3f7",
+  "request_preview_sha256": "41c3b88c6a01e5285c4faed12d884c6587224e7d87c4518c0bb7c13e9910371b",
+  "planned_calls": 160,
+  "spending_ceiling_usd": 1.2,
+  "user_replies": [
+    "gogo",
+    "go"
+  ],
+  "scope": "Researcher requested proceeding after the 160-call MS stanza/background crossover proposal. Prior spending authority persists; this bounded $1.20 cap stays inside the remaining $3.97795725 allowance. Mixed compositions contain only verbatim approved stanzas and exact locked S2. Exact frozen preview and protocol prepared before dispatch."
+}
