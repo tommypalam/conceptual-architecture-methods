@@ -9,14 +9,14 @@ Two modes:
                if a rewording lands in 45-55 on the current model.
 
 Naked = Phase-0a protocol: no system message, dilemma + "Reply with only: X or Y",
-bare decision. Records archived under experiments/phase0b_archive/recalibrate__{tag}/.
+bare decision. Records archived under archive/phase0b/runs/recalibrate__{tag}/.
 
 SAFETY: default --provider mock. Real runs print cost + confirm.
 
 Examples
 --------
 python code/run_recalibrate.py --provider openai --baseline --n 100 --sample-tag baseline_current
-python code/run_recalibrate.py --provider openai --candidate S2 --text prompts/candidates/S2_v1.md --n 100 --sample-tag S2_v1
+python code/run_recalibrate.py --provider openai --candidate S2 --text archive/phase0b/prompt_candidates/S2_v1.md --n 100 --sample-tag S2_v1
 """
 
 from __future__ import annotations
@@ -42,7 +42,7 @@ from engine.phase0b_runner import PROBLEMS
 from engine.record_sink import JsonFileSink
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-ARCHIVE = REPO_ROOT / "experiments" / "phase0b_archive"
+ARCHIVE = REPO_ROOT / "archive" / "phase0b" / "runs"
 COST_PER_CALL_USD = 0.001
 
 LABELS = {p.short_id: p.labels for p in PROBLEMS}

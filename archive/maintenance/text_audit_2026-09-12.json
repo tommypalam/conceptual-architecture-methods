@@ -1,0 +1,2371 @@
+{
+  "files_scanned": 384,
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "classification": "current_documentation",
+      "lines": 327,
+      "historical_status_matches": []
+    },
+    {
+      "path": "CLAUDE.md",
+      "classification": "current_documentation",
+      "lines": 327,
+      "historical_status_matches": []
+    },
+    {
+      "path": "meta.md",
+      "classification": "current_documentation",
+      "lines": 71,
+      "historical_status_matches": []
+    },
+    {
+      "path": "NEXT_STEPS.md",
+      "classification": "current_documentation",
+      "lines": 67,
+      "historical_status_matches": []
+    },
+    {
+      "path": "README.md",
+      "classification": "current_documentation",
+      "lines": 109,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/historical_references.md",
+      "classification": "current_documentation",
+      "lines": 198,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/README.md",
+      "classification": "current_documentation",
+      "lines": 33,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/README.md",
+      "classification": "current_documentation",
+      "lines": 13,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/documents/baseline_calibration_readme_original.md",
+      "classification": "archived_original",
+      "lines": 101,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/README.md",
+      "classification": "archived_original",
+      "lines": 173,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_accepted_direct_prompt_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 44,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n200_a57_direct_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n200_a64_direct_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n200_a64_direct_pre_csr_shift_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n200_a69_direct_bonus_plus1_failed_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n200_a69_direct_halfstep_failed_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n200_a70_direct_reserve_shift_failed_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n200_a71_direct_csr_plus2_failed_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n200_b61_direct_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a100_direct_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a57_v5_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a60_v3_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 10,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a60_v4_no_move_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a61_v7_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 5,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a63_v1_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a64_v2_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 13,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a70_direct_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a70_direct_v2_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a75_direct_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a75_direct_v2_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a80_direct_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a80_direct_v2_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a85_direct_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a90_direct_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_a95_direct_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_b100_direct_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_b100_direct_v2_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_b80_direct_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_b80_v6_overshoot_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 5,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_b85_direct_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_n20_b90_direct_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c1_original_continuous_allocation_spec_retired_2026-05-02/C1_resource_council.md",
+      "classification": "archived_original",
+      "lines": 15,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_accepted_binary_prompt_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 39,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_n200_approve68_binary_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 38,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_n200_approve72_deeper_cuts_wording_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_n200_approve80_binary_half_savings_failed_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 38,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_n20_amend100_binding_timing_wording_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_n20_amend100_cautious_update_wording_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_n20_amend100_direct_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_n20_amend100_nonbinding_review_wording_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_n20_amend100_partial_approval_payfreeze_wording_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_n20_amend100_reject_half_savings_wording_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_n20_amend100_same_layoffs_support_wording_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_n20_amend100_weak_hybrid_wording_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_n20_amend65_approve35_direct_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_n20_amend80_reject_part_gap_failed_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_n20_amend90_approve10_direct_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_n20_approve100_no_revised_plan_wording_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_original_three_option_amend_trap_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c2_three_option_direct_retired_2026-05-02/C2_restructuring_board.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c3_accepted_direct_prompt_2026-05-02/C3_scientific_approach_dilemma.md",
+      "classification": "archived_original",
+      "lines": 40,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c3_accepted_spec_2026-05-02/C3_scientific_approach_dilemma.md",
+      "classification": "archived_original",
+      "lines": 33,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c3_n20_continue100_direct_2026-05-02/C3_scientific_approach_dilemma.md",
+      "classification": "archived_original",
+      "lines": 39,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c3_n20_continue100_replication_after_funding_wording_2026-05-02/C3_scientific_approach_dilemma.md",
+      "classification": "archived_original",
+      "lines": 39,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c3_n20_continue100_review_3_3_wording_2026-05-02/C3_scientific_approach_dilemma.md",
+      "classification": "archived_original",
+      "lines": 39,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c3_n20_continue75_direct_2026-05-02/C3_scientific_approach_dilemma.md",
+      "classification": "archived_original",
+      "lines": 39,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c3_n20_continue_overshoot_incomplete_v2_2026-05-02/C3_scientific_approach_dilemma.md",
+      "classification": "archived_original",
+      "lines": 12,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c3_n20_pivot100_direct_2026-05-02/C3_scientific_approach_dilemma.md",
+      "classification": "archived_original",
+      "lines": 37,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c3_n20_pivot65_slowing_wording_2026-05-02/C3_scientific_approach_dilemma.md",
+      "classification": "archived_original",
+      "lines": 39,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c3_n20_pivot70_v1_2026-05-02/C3_scientific_approach_dilemma.md",
+      "classification": "archived_original",
+      "lines": 16,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/c3_n20_pivot85_limited_pilot_wording_2026-05-02/C3_scientific_approach_dilemma.md",
+      "classification": "archived_original",
+      "lines": 39,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_accepted_smoke_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_accepted_smoke_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_accepted_smoke_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v1_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v1_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v1_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v2_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v2_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v2_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v3_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v3_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v3_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v4_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v4_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v4_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v5_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v5_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v5_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v6_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v6_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v6_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v7_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n10_rebalance_v8_pre_final_tweak_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n20_accepted_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n20_accepted_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n20_accepted_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n50_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n50_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n50_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n700_large_n_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n700_large_n_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_n700_large_n_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_original_protocol_pdf_2026-04-21/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 9,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_original_protocol_pdf_2026-04-21/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 9,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_original_protocol_pdf_2026-04-21/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 9,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_pre_rebalance_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_pre_rebalance_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 17,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2s3_pre_rebalance_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 17,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_accepted_final_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_accepted_final_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 38,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_n200_accepted_final_2026-05-01/RESULTS.md",
+      "classification": "archived_original",
+      "lines": 34,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_n200_accepted_final_2026-05-01/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_n200_accepted_final_2026-05-01/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_n20_explicit_conflict_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_n20_explicit_conflict_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_n20_explicit_conflict_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_n20_overshoot_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_n20_overshoot_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_n20_overshoot_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_n20_retune_after_overshoot_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_n20_retune_after_overshoot_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_n20_retune_after_overshoot_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_n20_second_overshoot_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1s2_n20_second_overshoot_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s1_n20_a_overshoot_2026-04-30/S1_promotion_decision.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s2s3_n50_close_retune_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s2s3_n50_close_retune_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s2s3_n50_retune_overshoot_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s2s3_n50_retune_overshoot_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s2_add_note_wrong_direction_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s2_enter_note_audit_trail_wording_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s2_n200_if_needed_wording_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s2_n200_quiet139_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s2_n200_quiet143_draft_note_wording_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s2_n200_quiet163_document_wording_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s2_n200_report59_create_note_wording_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s2_n500_quiet384_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s2_n500_report307_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s2_n500_report65_classification_note_wording_2026-04-30/S2_quiet_error.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_dept_n200_accepted_v7_2026-05-01/RESULTS.md",
+      "classification": "archived_original",
+      "lines": 23,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_dept_n200_accepted_v7_2026-05-01/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_dept_n200_wait57_v5_2026-05-01/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_dept_n200_wait67_v5_repeat_2026-05-01/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_dept_n200_wait91_v6_modest_wording_failed_2026-05-01/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_dept_n50_adopt92_v3_2026-05-01/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_dept_n50_wait100_v2_2026-05-01/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 42,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_dept_n50_wait82_v4_2026-05-01/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_dept_n70_adopt71_v1_2026-05-01/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 44,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_n200_persist169_before_committing_wording_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_n200_persist169_overshoot_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_n200_pivot114_acceptable_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_n200_pivot122_final_startup_family_retired_2026-05-01/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_n200_pivot123_close_base_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_n200_pivot128_base_repeat_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_n200_pivot133_raised_concerns_wording_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_n200_pivot140_paid_pilot_wording_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_n200_pivot147_time_limited_wording_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_n200_pivot149_still_has_time_wording_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_n200_pivot156_possibly_wording_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_n200_pivot162_unproven_wording_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_n200_pivot176_fraction_cost_wording_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0/question_revisions/s3_revenue_has_been_wording_failed_2026-04-30/S3_strategic_pivot.md",
+      "classification": "archived_original",
+      "lines": 19,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/README.md",
+      "classification": "current_documentation",
+      "lines": 13,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/prompt_candidates/C1_v1.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/prompt_candidates/C1_v2.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/prompt_candidates/C1_v3.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/prompt_candidates/C1_v4.md",
+      "classification": "archived_original",
+      "lines": 21,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/prompt_candidates/C2_v1.md",
+      "classification": "archived_original",
+      "lines": 15,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/prompt_candidates/C2_v2.md",
+      "classification": "archived_original",
+      "lines": 15,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/prompt_candidates/C2_v3.md",
+      "classification": "archived_original",
+      "lines": 15,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/prompt_candidates/C2_v4.md",
+      "classification": "archived_original",
+      "lines": 15,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/prompt_candidates/README.md",
+      "classification": "archived_original",
+      "lines": 20,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/prompt_candidates/S2_v1.md",
+      "classification": "archived_original",
+      "lines": 13,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/prompt_candidates/S2_v2.md",
+      "classification": "archived_original",
+      "lines": 13,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/prompt_candidates/S2_v3.md",
+      "classification": "archived_original",
+      "lines": 13,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/prompt_candidates/S2_v4.md",
+      "classification": "archived_original",
+      "lines": 13,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/prompt_candidates/S3_v1.md",
+      "classification": "archived_original",
+      "lines": 11,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/prompt_candidates/S3_v2.md",
+      "classification": "archived_original",
+      "lines": 11,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/runs/DIAGNOSIS_2026-07-28.md",
+      "classification": "archived_original",
+      "lines": 82,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/runs/HANDOFF_2026-07-28.md",
+      "classification": "archived_original",
+      "lines": 74,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/runs/HARNESS_DELIVERY_FINDING_2026-07-28.md",
+      "classification": "archived_original",
+      "lines": 64,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/runs/PHASE0B_RESULT_2026-07-29.md",
+      "classification": "archived_original",
+      "lines": 77,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/runs/RECALIBRATION_RESULTS_2026-07-28.md",
+      "classification": "archived_original",
+      "lines": 117,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/runs/REMEDIATION_PLAN_2026-07-28.md",
+      "classification": "archived_original",
+      "lines": 125,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/runs/bare_nosys_all6_n100_2026-07-28/FINDINGS.md",
+      "classification": "archived_original",
+      "lines": 41,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/runs/format_sweep_n40_2026-07-28/FINDINGS.md",
+      "classification": "archived_original",
+      "lines": 50,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/runs/full_grid_n200_2026-07-28/FINDINGS.md",
+      "classification": "archived_original",
+      "lines": 61,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/runs/grid100_n100_full18_2026-07-28/FINDINGS.md",
+      "classification": "archived_original",
+      "lines": 108,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/runs/nakedenv_nullbc_n100_2026-07-28/FINDINGS.md",
+      "classification": "archived_original",
+      "lines": 65,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/runs/nulla_ladder_n100_2026-07-29/FINDINGS.md",
+      "classification": "archived_original",
+      "lines": 46,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/runs/nulla_struct2x2_n100_2026-07-29/FINDINGS.md",
+      "classification": "archived_original",
+      "lines": 52,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/runs/nulla_tasksweep_n100_2026-07-29/FINDINGS.md",
+      "classification": "archived_original",
+      "lines": 63,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0b/runs/recalibrate__baseline_current/BASELINE.md",
+      "classification": "archived_original",
+      "lines": 17,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase0c/README.md",
+      "classification": "current_documentation",
+      "lines": 12,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase1/README.md",
+      "classification": "current_documentation",
+      "lines": 12,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase1_5/README.md",
+      "classification": "current_documentation",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase1_5/documents/DECISION_RECORD_20260911.md",
+      "classification": "archived_original",
+      "lines": 168,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase1_5/documents/HANDOFF_2026-09-07.md",
+      "classification": "archived_original",
+      "lines": 117,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase1_5/documents/NEXT_STEPS_before_accepted_closure_2026-09-12.md",
+      "classification": "archived_original",
+      "lines": 180,
+      "historical_status_matches": [
+        90
+      ]
+    },
+    {
+      "path": "archive/phase1_5/documents/NEXT_STEPS_before_closure_2026-09-12.md",
+      "classification": "archived_original",
+      "lines": 689,
+      "historical_status_matches": [
+        98,
+        399,
+        498
+      ]
+    },
+    {
+      "path": "archive/phase1_5/documents/normative_encoding_objective_history_2026-09-12.md",
+      "classification": "archived_original",
+      "lines": 123,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase1_5/documents/PHASE1_5_CLOSURE_2026-09-12.md",
+      "classification": "archived_original",
+      "lines": 146,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase1_5/documents/phase1_5_continuation.md",
+      "classification": "archived_original",
+      "lines": 48,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase1_5/documents/phase1_5_execution.md",
+      "classification": "archived_original",
+      "lines": 134,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase1_5/documents/phase1_5_followup.md",
+      "classification": "archived_original",
+      "lines": 131,
+      "historical_status_matches": [
+        3
+      ]
+    },
+    {
+      "path": "archive/phase1_5/documents/phase1_5_paraphrase_final_review_20260909.md",
+      "classification": "archived_original",
+      "lines": 71,
+      "historical_status_matches": [
+        63
+      ]
+    },
+    {
+      "path": "archive/phase1_5/documents/phase1_5_paraphrase_review_20260909.md",
+      "classification": "archived_original",
+      "lines": 42,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase1_5/documents/phase1_5_restart_20260909.md",
+      "classification": "archived_original",
+      "lines": 80,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase1_5/documents/READINESS_20260911.md",
+      "classification": "archived_original",
+      "lines": 65,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase1_5/documents/TODAY_DECISION_PLAN_20260911.md",
+      "classification": "archived_original",
+      "lines": 70,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase1_5/paraphrase_drafts/claude_paraphrases_20260909_review/HUMAN_REVIEW.md",
+      "classification": "archived_original",
+      "lines": 445,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase1_5/planning/all_ten_criteria_20260912/COVERAGE.md",
+      "classification": "archived_original",
+      "lines": 38,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase1_5/planning/approach_review_20260912/REVIEW.md",
+      "classification": "archived_original",
+      "lines": 80,
+      "historical_status_matches": [
+        76
+      ]
+    },
+    {
+      "path": "archive/phase1_5/unexecuted_drafts/final_confirmation_20260912/PROTOCOL.md",
+      "classification": "archived_original",
+      "lines": 154,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase2/README.md",
+      "classification": "current_documentation",
+      "lines": 12,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase2/documents/pre_analysis_plan_before_cleanup_2026-09-12.md",
+      "classification": "archived_original",
+      "lines": 123,
+      "historical_status_matches": [
+        30
+      ]
+    },
+    {
+      "path": "archive/phase3/README.md",
+      "classification": "current_documentation",
+      "lines": 12,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase4/README.md",
+      "classification": "current_documentation",
+      "lines": 12,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase5/README.md",
+      "classification": "current_documentation",
+      "lines": 12,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/phase6/README.md",
+      "classification": "current_documentation",
+      "lines": 12,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/shared/README.md",
+      "classification": "current_documentation",
+      "lines": 15,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/shared/documents/meta_through_2026-09-06.md",
+      "classification": "archived_original",
+      "lines": 468,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/shared/documents/meta_through_scoped_closure_2026-09-12.md",
+      "classification": "archived_original",
+      "lines": 2954,
+      "historical_status_matches": [
+        322,
+        372,
+        452,
+        848,
+        2787
+      ]
+    },
+    {
+      "path": "archive/shared/documents/novelty_assessment_2026-06.md",
+      "classification": "archived_original",
+      "lines": 113,
+      "historical_status_matches": []
+    },
+    {
+      "path": "archive/shared/documents/research_programme_before_cleanup_2026-09-12.md",
+      "classification": "archived_original",
+      "lines": 116,
+      "historical_status_matches": [
+        66
+      ]
+    },
+    {
+      "path": "code/README.md",
+      "classification": "current_documentation",
+      "lines": 30,
+      "historical_status_matches": []
+    },
+    {
+      "path": "docs/abstract.md",
+      "classification": "current_documentation",
+      "lines": 59,
+      "historical_status_matches": []
+    },
+    {
+      "path": "docs/phase1_5_execution.md",
+      "classification": "current_documentation",
+      "lines": 5,
+      "historical_status_matches": []
+    },
+    {
+      "path": "docs/phase1_5_followup.md",
+      "classification": "current_documentation",
+      "lines": 5,
+      "historical_status_matches": []
+    },
+    {
+      "path": "docs/phase1_5_results.md",
+      "classification": "current_documentation",
+      "lines": 33,
+      "historical_status_matches": []
+    },
+    {
+      "path": "docs/pre_analysis_plan.md",
+      "classification": "current_documentation",
+      "lines": 129,
+      "historical_status_matches": []
+    },
+    {
+      "path": "docs/project_layout.md",
+      "classification": "current_documentation",
+      "lines": 60,
+      "historical_status_matches": []
+    },
+    {
+      "path": "docs/README.md",
+      "classification": "current_documentation",
+      "lines": 37,
+      "historical_status_matches": []
+    },
+    {
+      "path": "docs/research_programme.md",
+      "classification": "current_documentation",
+      "lines": 120,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/PHASE0_CLOSURE_2026-07-29.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 74,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/README.md",
+      "classification": "current_documentation",
+      "lines": 25,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase0b_calibration/questions/C1_resource_council.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 45,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase0b_calibration/questions/C2_restructuring_board.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 40,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase0b_calibration/questions/C3_scientific_approach_dilemma.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 40,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase0b_calibration/questions/S1_promotion_decision.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase0b_calibration/questions/S2_quiet_error.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 38,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase0b_calibration/questions/S3_strategic_pivot.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase0c_locked_holdout/PHASE0C_RESULT_2026-07-29.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 68,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase0_baseline_calibration/README.md",
+      "classification": "current_documentation",
+      "lines": 22,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase0_baseline_calibration/questions/C1_resource_council.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 44,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase0_baseline_calibration/questions/C2_restructuring_board.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 39,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase0_baseline_calibration/questions/C3_scientific_approach_dilemma.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 40,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase0_baseline_calibration/questions/S1_promotion_decision.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 36,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase0_baseline_calibration/questions/S2_quiet_error.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 38,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase0_baseline_calibration/questions/S3_strategic_pivot.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 42,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 39,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/NORMATIVE_ENCODING_OBJECTIVE_2026-09-12.md",
+      "classification": "current_documentation",
+      "lines": 30,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/README.md",
+      "classification": "current_documentation",
+      "lines": 85,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/SWEEP_PILOT_FINDING_2026-07-29.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 53,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/all_ten_assessment_20260912/ASSESSMENT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 70,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/all_ten_followup_20260912/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 120,
+      "historical_status_matches": [
+        68
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/all_ten_followup_20260912/STATUS.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 5,
+      "historical_status_matches": [
+        5
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/all_ten_followup_20260912/analysis/REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 33,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment2/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 42,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment2/STATUS.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 26,
+      "historical_status_matches": [
+        5
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment3/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 43,
+      "historical_status_matches": [
+        29
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment3/STATUS.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 26,
+      "historical_status_matches": [
+        5
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/axis_instruction_20260910/HUMAN_REVIEW.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 323,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/axis_instruction_20260910/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 154,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/axis_instruction_20260910_recovery_snapshot/HUMAN_REVIEW.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 323,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/axis_instruction_20260910_recovery_snapshot/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 154,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/axis_instruction_20260910_recovery_snapshot_r3/HUMAN_REVIEW.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 323,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/axis_instruction_20260910_recovery_snapshot_r3/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 154,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/HUMAN_REVIEW.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 323,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 154,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/analysis/AXIS_PILOT_REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 73,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/analysis/AXIS_PILOT_REPORT_v2.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 73,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/analysis/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 76,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/analysis/RECOVERY_LEDGER.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 54,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/axis_instruction_20260911_recovery_snapshot_r4/HUMAN_REVIEW.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 323,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/axis_instruction_20260911_recovery_snapshot_r4/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 154,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/claude_audit_20260909_brief_r3/analysis/AUDIT_REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 37,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/claude_paraphrases_20260909_theory_r5/HUMAN_REVIEW.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 289,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/claude_screen_20260911/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 78,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/claude_screen_20260911/analysis/QUALITATIVE_NOTES.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 60,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/claude_screen_20260911/analysis/SCREEN_REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 27,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/claude_screen_20260911/offline/RETROSPECTIVE_SCREEN.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 16,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/evidence_candidate_20260911/HUMAN_REVIEW.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 61,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/evidence_candidate_20260911/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 130,
+      "historical_status_matches": [
+        4
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/evidence_candidate_20260911/S3_OVERLAY_DRAFT.txt",
+      "classification": "frozen_or_versioned_source",
+      "lines": 15,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/evidence_screen_20260911/DISPATCH_STATUS.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 32,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/evidence_screen_20260911/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 111,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/evidence_screen_20260911/analysis/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 61,
+      "historical_status_matches": [
+        61
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/evidence_screen_20260911/analysis/SCREEN_REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 57,
+      "historical_status_matches": [
+        57
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/evidence_sensitivity_20260911/DISPATCH_STATUS.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 32,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/evidence_sensitivity_20260911/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 111,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/evidence_sensitivity_20260911/analysis/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 78,
+      "historical_status_matches": [
+        78
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/evidence_sensitivity_20260911/analysis/SENSITIVITY_REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 68,
+      "historical_status_matches": [
+        68
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/fixed_encoding_assessment_20260911/ASSESSMENT_AND_NEXT_CHECK.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 73,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/fixed_encoding_assessment_20260911/EVIDENCE_MAP.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 45,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/gradients_20260909_final/analysis/GRADIENT_REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 65,
+      "historical_status_matches": [
+        5
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/joint_wording_20260911/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 84,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/joint_wording_20260911/analysis/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 87,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/joint_wording_20260911/analysis/WORDING_REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 458,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/method_review_20260911/PARAPHRASE_GATE_REVIEW.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 171,
+      "historical_status_matches": [
+        133
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/mor_curve_20260911/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 55,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/mor_curve_20260911/analysis/CURVE_REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 34,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/mor_curve_20260911/analysis/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 59,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/mor_reasoning_review_20260911/FINDINGS.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 71,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/mor_reasoning_review_20260911/TRACE_INVENTORY.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 27,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/DISPATCH_STATUS.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 29,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 55,
+      "historical_status_matches": [
+        55
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/analysis/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 70,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/analysis/REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 24,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 61,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/analysis/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 67,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/analysis/REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 35,
+      "historical_status_matches": [
+        33
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ms_wording_review_20260911/canonical_EXPLANATIONS.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 363,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ms_wording_review_20260911/paraphrase_1_EXPLANATIONS.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 363,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ms_wording_review_20260911/paraphrase_2_EXPLANATIONS.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 363,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ms_wording_review_20260911/paraphrase_3_EXPLANATIONS.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 363,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ms_wording_review_20260911/REVIEW.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 149,
+      "historical_status_matches": [
+        147
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/offline_diagnosis_20260909/DIAGNOSIS.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 106,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/offline_diagnosis_20260909/FINDINGS_AND_NEXT_STEP.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 96,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/option_c_20260906/README.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 13,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/option_c_20260906/analysis/summary_bcc1a12919f59b89.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 72,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/option_c_20260906_r2/README.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 28,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/option_c_20260906_r2/analysis/summary_562653cd58340299.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 72,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/option_c_20260906_r2/analysis/summary_cfcbd4c46056d445.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 72,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/option_c_20260909_restart/analysis/summary_578e37b5e3b56db3.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 72,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/option_c_20260909_restart/analysis/summary_8d2d0ab58fff59f9.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 72,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/original_confirmation_20260911/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 73,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 100,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/analysis/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 66,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/analysis/REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 49,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/paraphrases_20260909_final/analysis/PARAPHRASE_REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 97,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/pd_endpoints_20260910/HUMAN_REVIEW.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 390,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/pd_endpoints_20260910/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 127,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/pd_endpoints_20260910/analysis/ENDPOINT_REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 107,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/pd_interaction_20260911/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 89,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/pd_interaction_20260911/analysis/INTERACTION_REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/pd_interaction_20260911/analysis/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 87,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/phase_review_20260909/BATTERY_ASSESSMENT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 74,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/phase_review_20260909/evidence_3b0e65ccff8ad5a5.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 27,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/phase_review_20260909/evidence_7c6e7611aaf4b8b2.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 27,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/phase_review_20260909/evidence_a8076369a0ab8aa4.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 27,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_ablation_20260911/EXACT_DELETION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 268,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_ablation_20260911/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 78,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_ablation_20260911/analysis/ABLATION_REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_ablation_20260911/analysis/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 81,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_transfer_20260912/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 141,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_transfer_20260912/analysis/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 83,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_transfer_20260912/analysis/REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 51,
+      "historical_status_matches": [
+        50
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_transfer_proposal_20260912/PROPOSED_TEST.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 135,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/repeat_stability_20260912/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 72,
+      "historical_status_matches": [
+        69
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/repeat_stability_20260912/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 54,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/repeat_stability_20260912/REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 85,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/repetition_diagnosis_20260911/FINDINGS.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 106,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/repetition_diagnosis_20260911/PRECISION_TABLE.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 18,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/repetition_factorial_20260911/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 75,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/repetition_factorial_20260911_continuation/CONTINUATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 30,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/repetition_factorial_20260911_continuation/analysis/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 57,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/repetition_factorial_20260911_continuation/analysis/TIMEOUT_COLLECTION_REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 281,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/repetition_retention_20260911/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 77,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/repetition_retention_20260911/analysis/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 64,
+      "historical_status_matches": [
+        64
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/repetition_retention_20260911/analysis/RETENTION_REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 25,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/structural_encoding_20260912/FINAL_ASSESSMENT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 57,
+      "historical_status_matches": [
+        3
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/structural_encoding_20260912/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 113,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/structural_encoding_20260912/THEORY_ALIGNMENT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 56,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit_schema_r2/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 34,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit_schema_r3/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 43,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit_schema_r3/analysis/REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 28,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/structural_encoding_20260912/diagnostics/analysis/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 47,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/structural_encoding_20260912/diagnostics/analysis/REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 30,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/structural_encoding_20260912/pd_confirmation/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 82,
+      "historical_status_matches": [
+        60
+      ]
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/structural_encoding_20260912/pd_confirmation/analysis/REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 23,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/structural_encoding_20260912/sweep/analysis/REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 50,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/tool_delivery_20260911/HUMAN_REVIEW.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 23,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/tool_delivery_20260911/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 115,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/tool_delivery_20260911/analysis/INTERPRETATION.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 47,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/tool_delivery_20260911/analysis/REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 49,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/wording_factorial_20260910/HUMAN_REVIEW.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 395,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/wording_factorial_20260910/PROTOCOL.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 150,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/wording_factorial_20260910/analysis/FACTORIAL_REPORT.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 102,
+      "historical_status_matches": []
+    },
+    {
+      "path": "experiments/phase1_pilot/PHASE1_PILOT_RESULT_2026-07-29.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 63,
+      "historical_status_matches": []
+    },
+    {
+      "path": "prompts/system_prompt_template.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 101,
+      "historical_status_matches": []
+    },
+    {
+      "path": "Theory/concepts_as_architecture_thesis_v0_6.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 1720,
+      "historical_status_matches": []
+    },
+    {
+      "path": "Theory/implementation_specification_v0_1.md",
+      "classification": "frozen_or_versioned_source",
+      "lines": 1178,
+      "historical_status_matches": []
+    }
+  ]
+}

@@ -92,9 +92,8 @@ Run from this repository root in the existing Python environment:
 python -B -m pytest tests/test_validity.py tests/test_validity_followup.py -q -p no:cacheprovider
 ```
 
-For exact execution commands and dependencies, see the
-[delivery protocol](docs/phase1_5_execution.md) and
-[follow-up tools](docs/phase1_5_followup.md). Real API calls require credentials
+For current entry points, see the [code guide](code/README.md). Historical
+execution commands are preserved in the [Phase 1.5 archive](archive/phase1_5/README.md). Real API calls require credentials
 in environment variables. Mock execution is the default. Never change the model,
 prompts, or sampling plan inside a frozen run.
 

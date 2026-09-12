@@ -1,0 +1,177 @@
+{
+  "date": "2026-09-12",
+  "branch": "project-cleanup-20260912",
+  "moves": [
+    {
+      "source": "experiments/phase0_baseline_calibration/questions/archive",
+      "destination": "archive/phase0/question_revisions",
+      "reason": "Researcher-requested relocation of the existing Phase 0 question archive; preserve bytes"
+    },
+    {
+      "source": "experiments/phase0b_archive",
+      "destination": "archive/phase0b/runs",
+      "reason": "Consolidate existing historical harness/calibration archive, including all records"
+    },
+    {
+      "source": "prompts/candidates",
+      "destination": "archive/phase0b/prompt_candidates",
+      "reason": "Historical July candidate revisions; the locked questions remain in experiments"
+    },
+    {
+      "source": "docs/archive/meta_through_2026-09-06.md",
+      "destination": "archive/shared/documents/meta_through_2026-09-06.md",
+      "reason": "Consolidate existing historical document archive"
+    },
+    {
+      "source": "docs/archive/NEXT_STEPS_before_accepted_closure_2026-09-12.md",
+      "destination": "archive/phase1_5/documents/NEXT_STEPS_before_accepted_closure_2026-09-12.md",
+      "reason": "Consolidate existing historical document archive"
+    },
+    {
+      "source": "docs/archive/NEXT_STEPS_before_closure_2026-09-12.md",
+      "destination": "archive/phase1_5/documents/NEXT_STEPS_before_closure_2026-09-12.md",
+      "reason": "Consolidate existing historical document archive"
+    },
+    {
+      "source": "docs/archive/novelty_assessment_2026-06.md",
+      "destination": "archive/shared/documents/novelty_assessment_2026-06.md",
+      "reason": "Consolidate existing historical document archive"
+    },
+    {
+      "source": "docs/HANDOFF_2026-09-07.md",
+      "destination": "archive/phase1_5/documents/HANDOFF_2026-09-07.md",
+      "reason": "Superseded execution or preparation guidance; retained as provenance"
+    },
+    {
+      "source": "docs/phase1_5_continuation.md",
+      "destination": "archive/phase1_5/documents/phase1_5_continuation.md",
+      "reason": "Superseded execution or preparation guidance; retained as provenance"
+    },
+    {
+      "source": "docs/phase1_5_execution.md",
+      "destination": "archive/phase1_5/documents/phase1_5_execution.md",
+      "reason": "Superseded execution or preparation guidance; retained as provenance"
+    },
+    {
+      "source": "docs/phase1_5_followup.md",
+      "destination": "archive/phase1_5/documents/phase1_5_followup.md",
+      "reason": "Superseded execution or preparation guidance; retained as provenance"
+    },
+    {
+      "source": "docs/phase1_5_paraphrase_final_review_20260909.md",
+      "destination": "archive/phase1_5/documents/phase1_5_paraphrase_final_review_20260909.md",
+      "reason": "Superseded execution or preparation guidance; retained as provenance"
+    },
+    {
+      "source": "docs/phase1_5_paraphrase_review_20260909.md",
+      "destination": "archive/phase1_5/documents/phase1_5_paraphrase_review_20260909.md",
+      "reason": "Superseded execution or preparation guidance; retained as provenance"
+    },
+    {
+      "source": "docs/phase1_5_restart_20260909.md",
+      "destination": "archive/phase1_5/documents/phase1_5_restart_20260909.md",
+      "reason": "Superseded execution or preparation guidance; retained as provenance"
+    },
+    {
+      "source": "docs/validity_paraphrase_request.json",
+      "destination": "archive/phase1_5/documents/validity_paraphrase_request.json",
+      "reason": "Superseded execution or preparation guidance; retained as provenance"
+    },
+    {
+      "source": "experiments/phase1_5_encoding_validity/DECISION_RECORD_20260911.md",
+      "destination": "archive/phase1_5/documents/DECISION_RECORD_20260911.md",
+      "reason": "Historical decision/plan superseded by accepted closure"
+    },
+    {
+      "source": "experiments/phase1_5_encoding_validity/READINESS_20260911.md",
+      "destination": "archive/phase1_5/documents/READINESS_20260911.md",
+      "reason": "Historical decision/plan superseded by accepted closure"
+    },
+    {
+      "source": "experiments/phase1_5_encoding_validity/TODAY_DECISION_PLAN_20260911.md",
+      "destination": "archive/phase1_5/documents/TODAY_DECISION_PLAN_20260911.md",
+      "reason": "Historical decision/plan superseded by accepted closure"
+    },
+    {
+      "source": "experiments/phase1_5_encoding_validity/PHASE1_5_CLOSURE_2026-09-12.md",
+      "destination": "archive/phase1_5/documents/PHASE1_5_CLOSURE_2026-09-12.md",
+      "reason": "Historical decision/plan superseded by accepted closure"
+    },
+    {
+      "source": "experiments/phase1_5_encoding_validity/all_ten_criteria_20260912",
+      "destination": "archive/phase1_5/planning/all_ten_criteria_20260912",
+      "reason": "Superseded coverage, approach or rejected closure planning"
+    },
+    {
+      "source": "experiments/phase1_5_encoding_validity/approach_review_20260912",
+      "destination": "archive/phase1_5/planning/approach_review_20260912",
+      "reason": "Superseded coverage, approach or rejected closure planning"
+    },
+    {
+      "source": "experiments/phase1_5_encoding_validity/closure_20260912",
+      "destination": "archive/phase1_5/planning/closure_20260912",
+      "reason": "Superseded coverage, approach or rejected closure planning"
+    },
+    {
+      "source": "experiments/phase1_5_encoding_validity/claude_paraphrases_20260909_restart",
+      "destination": "archive/phase1_5/paraphrase_drafts/claude_paraphrases_20260909_restart",
+      "reason": "Earlier candidate generation retained intact; approved r5 remains at its frozen source path"
+    },
+    {
+      "source": "experiments/phase1_5_encoding_validity/claude_paraphrases_20260909_review",
+      "destination": "archive/phase1_5/paraphrase_drafts/claude_paraphrases_20260909_review",
+      "reason": "Earlier candidate generation retained intact; approved r5 remains at its frozen source path"
+    },
+    {
+      "source": "experiments/phase1_5_encoding_validity/claude_paraphrases_20260909_theory_r2",
+      "destination": "archive/phase1_5/paraphrase_drafts/claude_paraphrases_20260909_theory_r2",
+      "reason": "Earlier candidate generation retained intact; approved r5 remains at its frozen source path"
+    },
+    {
+      "source": "experiments/phase1_5_encoding_validity/claude_paraphrases_20260909_theory_r3",
+      "destination": "archive/phase1_5/paraphrase_drafts/claude_paraphrases_20260909_theory_r3",
+      "reason": "Earlier candidate generation retained intact; approved r5 remains at its frozen source path"
+    },
+    {
+      "source": "experiments/phase1_5_encoding_validity/claude_paraphrases_20260909_theory_r4",
+      "destination": "archive/phase1_5/paraphrase_drafts/claude_paraphrases_20260909_theory_r4",
+      "reason": "Earlier candidate generation retained intact; approved r5 remains at its frozen source path"
+    },
+    {
+      "source": "experiments/phase1_5_encoding_validity/final_confirmation_20260912",
+      "destination": "archive/phase1_5/unexecuted_drafts/final_confirmation_20260912",
+      "reason": "Untracked, superseded nine-prediction draft; never dispatched"
+    },
+    {
+      "source": "code/run_validity_final_confirmation.py",
+      "destination": "archive/phase1_5/unexecuted_drafts/run_validity_final_confirmation.py",
+      "reason": "Untracked, superseded runner retained for history; not a supported execution entry point"
+    },
+    {
+      "source": "meta.md",
+      "destination": "archive/shared/documents/meta_through_scoped_closure_2026-09-12.md",
+      "reason": "Archive the long decision chronology; retain an active concise decision index"
+    },
+    {
+      "source": "experiments/phase1_5_encoding_validity/NORMATIVE_ENCODING_OBJECTIVE_2026-09-12.md",
+      "destination": "archive/phase1_5/documents/normative_encoding_objective_history_2026-09-12.md",
+      "reason": "Preserve layered objective history; replace active text with accepted current objective"
+    },
+    {
+      "source": "experiments/phase0_baseline_calibration/README.md",
+      "destination": "archive/phase0/documents/baseline_calibration_readme_original.md",
+      "reason": "Preserve the historical pre-closure guidance; provide a current status entry point"
+    },
+    {
+      "source": "docs/research_programme.md",
+      "destination": "archive/shared/documents/research_programme_before_cleanup_2026-09-12.md",
+      "reason": "Preserve original programme description while correcting local PARIA status"
+    },
+    {
+      "source": "docs/pre_analysis_plan.md",
+      "destination": "archive/phase2/documents/pre_analysis_plan_before_cleanup_2026-09-12.md",
+      "reason": "Preserve the previous draft before updating stale status, without changing hypotheses"
+    }
+  ],
+  "protected_source_count": 143
+}

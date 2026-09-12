@@ -9,7 +9,7 @@ rather than the delivery envelope. This runs the three EmptyHarness task variant
 (user_prefix + bare_label), on the fragile trio, so the task text is the only thing
 that varies.
 
-Archived under experiments/phase0b_archive/. SAFETY: default provider mock.
+Archived under archive/phase0b/runs/. SAFETY: default provider mock.
 
 Example:
   python code/run_nulla_tasksweep.py --provider openai --n 100 --problems S2 C2 C3 \
@@ -40,7 +40,7 @@ from engine.questions import PHASE0B_QUESTIONS
 from engine.record_sink import JsonFileSink
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-ARCHIVE = REPO_ROOT / "experiments" / "phase0b_archive"
+ARCHIVE = REPO_ROOT / "archive" / "phase0b" / "runs"
 COST_PER_CALL_USD = 0.001
 VARIANTS = ("orig", "neutral", "minimal")
 LADDER = tuple(_NULL_A_LADDER.keys())   # L0_naked .. L3_identity

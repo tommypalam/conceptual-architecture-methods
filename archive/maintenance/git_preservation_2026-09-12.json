@@ -1,0 +1,11 @@
+{
+  "previous_revision": "4a2b74723507085a8860831f29d764b4e07890d7",
+  "relocated_tracked_blobs_verified": 26456,
+  "changed_relocated_blobs": [],
+  "previously_ignored_raw_still_untracked_and_ignored": [
+    "archive/phase1_5/paraphrase_drafts/claude_paraphrases_20260909_restart/records/generation.json",
+    "archive/phase1_5/paraphrase_drafts/claude_paraphrases_20260909_theory_r2/records/generation.json",
+    "archive/phase1_5/paraphrase_drafts/claude_paraphrases_20260909_theory_r3/records/generation.json",
+    "archive/phase1_5/paraphrase_drafts/claude_paraphrases_20260909_theory_r4/records/generation.json"
+  ]
+}

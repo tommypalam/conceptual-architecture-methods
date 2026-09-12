@@ -25,7 +25,7 @@ A mind is modelled as a **plane of six competences**, in two triads, wired so th
 | # | Module | Role | Status |
 |---|--------|------|--------|
 | 1 | **Cognitive Framework Index (CFI)** | *The engine* — relational, task-relative model of whole-agent intelligence (6 macros → 36 subdomains → facets; abilities as a coupling graph; capacity as a dynamical fixed point) | **BUILT** |
-| 2 | **Concepts as Architecture** (= PARIA) | *The behavioural governor* — 10-parameter probabilistic encoding of five political-ethical concepts (freedom, justice, authority, care, loyalty) that dictates how an agent reads the normative structure of its world | **BUILT + under execution** |
+| 2 | **Concepts as Architecture** (= PARIA) | *The behavioural governor* — 10-parameter probabilistic encoding of five political-ethical concepts (freedom, justice, authority, care, loyalty) that dictates how an agent reads the normative structure of its world | **Implemented; limited empirical support** |
 | 3 | **Abductive Magnitude** | *The generative accelerator* — scores an abductive leap by the structural magnitude of the generative path (not by whether it turned out correct) | **BUILT** |
 | 4 | **Reactive Grounding** | *The boundary organ* — concepts as decaying regions in feature space; learning as collision; revision only when the world pushes back | **EMBRYO** |
 | 5 | **Cultural Evolution** | *The social field* — culture as the composition of minds; objectivity as intersubjective incompressibility | **EMBRYO** |
@@ -60,10 +60,10 @@ This is why each draft calls itself a "fetus," "embryo," or "survived its advers
 ### 4.1 The research question
 > Can canonical psychological definitions of five political-ethical concepts — **freedom, justice, authority, care, loyalty** — be encoded as uncertainty-aware parameter profiles that generate *distinguishable and interpretable* social dynamics in an LLM-agent simulation?
 
-The deeper question underneath: does a system **understand** an encoded ethical concept, or merely **follow** a label? (Operationally: do the parameters drive behaviour by their *meaning*, or by lexical surface? — a testable distinction, not a philosophical one.)
+The longer-term question is whether an agent understands an ethical concept. The present experiments test behavioural consequences and sensitivity to expression; they do not uniquely distinguish internal understanding from learned instruction-following.
 
 ### 4.2 The encoding
-Each concept is reduced to a canonical definition, encoded across **ten parameters** (e.g. Legitimacy Locus, Response Threshold, Relational Embedding, Moral Scope…) as **Beta distributions**, combined into a **10-dimensional joint distribution** via a **Gaussian copula** with a verified positive-semi-definite correlation matrix. Agents are sampled from this joint and placed in societal **configurations** (binary high/low on each of the five concepts). Six experimental dilemmas (three simple, three complex) exercise the framework, each calibrated so that a *neutral* agent is a coin-flip — so that any deviation is attributable to the encoded parameters.
+Each concept is represented through a canonical definition and mapped across **ten parameters** (e.g. Legitimacy Locus, Response Threshold, Relational Embedding, Moral Scope…) as **Beta distributions**, combined into a **10-dimensional joint distribution** via a **Gaussian copula** with a verified positive-semi-definite correlation matrix. Agents are sampled from this joint and placed in societal **configurations** (binary high/low on each of the five concepts). Six experimental dilemmas (three simple, three complex) exercise the framework, with locked, measured baselines. The tested full harness was non-neutral; deviation from 50/50 alone cannot be attributed to encoded parameters.
 
 ### 4.3 PARIA evidence and current work
 
@@ -73,10 +73,14 @@ Phase 1 operational pilot passed, establishing pipeline functionality rather
 than formal encoding validity. The July sweep pilot supplied preliminary
 parameter-response evidence, including a direction reversal requiring review.
 
-Phase 1.5 remains the hard gate. The September dual-delivery run stopped after
-8,640 of 15,000 planned records because API credits were exhausted. Independent
-Claude coding, reviewed paraphrases, and numeric/verbal comparisons are
-implemented as tools but have not established empirical validity.
+Phase 1.5 is closed for the researcher-accepted limited objective. Independent
+PD confirmation and later canonical/verbal effects support initial functional
+normative parameterization under specified conditions. The original full battery
+remains unmet; all ten outcomes and robustness limitations remain reported.
+The accepted conclusion does not establish ethical understanding or validate
+the full architecture. No new paid run is queued. See the
+[accepted closure](../experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md)
+and [results](phase1_5_results.md). The original Phase 2 design is not released.
 
 ### 4.4 Interpretation limits
 
@@ -99,7 +103,7 @@ PARIA is not a standalone demo — it is **Vertex 2 supplying a dependency the r
 | Component | Maturity | One-line honest status |
 |-----------|----------|------------------------|
 | CFI (1) | Built (drafted, adversary-tested) | Formal spec exists; not yet instantiated as a running graph |
-| Concepts / PARIA (2) | **Built + executing** | Running code, locked Phase 0, pilot passed, hard gate in progress |
+| Concepts / PARIA (2) | **Implemented; limited empirical support** | Locked Phase 0, operational pilot, accepted scoped Phase 1.5 closure; broad validity unmet |
 | Abductive Magnitude (3) | Built (drafted, adversary-tested) | Executable metric on code traces; lateral term partly placeholder |
 | Reactive Grounding (4) | Embryo | Formal object + falsifier stated; toy world specified, not yet run |
 | Cultural Evolution (5) | Embryo | Composition operator specified; inputs not yet real |

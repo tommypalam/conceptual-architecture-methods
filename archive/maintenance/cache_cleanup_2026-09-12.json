@@ -1,0 +1,26 @@
+﻿[
+    {
+        "path":  ".pytest_cache",
+        "files":  5
+    },
+    {
+        "path":  "code/__pycache__",
+        "files":  49
+    },
+    {
+        "path":  "code/engine/__pycache__",
+        "files":  16
+    },
+    {
+        "path":  "code/research_support/__pycache__",
+        "files":  3
+    },
+    {
+        "path":  "code/maintenance/__pycache__",
+        "files":  1
+    },
+    {
+        "path":  "tests/__pycache__",
+        "files":  28
+    }
+]

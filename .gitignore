@@ -99,13 +99,13 @@ experiments/phase1_5_encoding_validity/original_confirmation_*/dispatches/
 
 # =============================================================
 # What IS committed:
-#   code/          — all scripts (01_intake.py through run_all.py)
-#   docs/          — CLAUDE.md, variables.json, novelty_assessment.md, pre_analysis_plan.md
+#   code/          — engine modules, CLI scripts and maintenance tools
+#   docs/          — current manuscript drafts, variables.json and planning documents
 #   CLAUDE.md      — project constitution
 #   meta.md        — living decisions log
 #   README.md      — project overview
 #   .gitignore     — this file
-#   Theory/        — source working paper PDF
+#   Theory/        — versioned thesis and implementation specification
 #   tests/         — verification scripts
 #
 # What is NOT committed:
@@ -182,3 +182,13 @@ experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment3/record
 experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment3/dispatches/
 experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment3/progress.*
 experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment3/run_process.json
+
+# Relocated research archives: raw payloads and runtime/private artifacts stay local.
+archive/**/records/
+archive/**/dispatches/
+archive/**/preserved_attempts/
+archive/**/private_answer_key*.json
+archive/**/blind_pack.json
+
+# Previously tracked historical records keep their tracking status when relocated.
+# No newly collected raw payload should be added merely because it moved to archive/.

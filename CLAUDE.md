@@ -1,5 +1,17 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Archive organisation (2026-09-12)
+
+The researcher authorised central archive consolidation and current-document
+cleanup. The existing Phase 0 question archive is in
+`archive/phase0/question_revisions/`; historical Phase 0b records are in
+`archive/phase0b/runs/`. This administrative relocation preserves all original
+bytes. Locked questions and raw records remain immutable. The historical Phase 0
+README and long decision log are archived; concise current entry points replace
+them. Use archive/README.md, docs/project_layout.md and the migration inventory
+for locations. Frozen source packages retain their existing paths. This explicit
+cleanup authorisation is not permission to edit scientific content or rerun phases.
+
 ## Accepted Phase 1.5 closure (2026-09-12)
 
 The researcher accepted the limited normative-encoding results and instructed

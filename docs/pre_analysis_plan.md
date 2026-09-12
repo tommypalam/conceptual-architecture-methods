@@ -1,6 +1,6 @@
 # PARIA — Pre-Analysis Plan
 
-> This document is written BEFORE estimation. It is the commitment device.
+> This is a draft for future main-study estimation; it is not publicly preregistered.
 > Deviations from this plan must be disclosed and logged in meta.md.
 > Any analysis not described here requires explicit human approval before execution.
 > Source of truth: `Theory/concepts_as_architecture_thesis_v0_6.md` (thesis v0.6) and `Theory/implementation_specification_v0_1.md` (spec v0.1).
@@ -8,6 +8,11 @@
 ---
 
 ## Status
+
+Updated 2026-09-12: the hypotheses below retain the original broad-study draft.
+They are not newly authorised by scoped Phase 1.5 closure. The concrete downstream
+design remains to be settled. Only status text changed during cleanup; the
+[previous draft](../archive/phase2/documents/pre_analysis_plan_before_cleanup_2026-09-12.md) is preserved.
 
 **Draft — not yet finalised.** This placeholder is synced to thesis v0.6 / spec v0.1 (June 2026). It must be completed, pre-registered on OSF, and committed **before Phase 2 begins** (thesis §7.5.5: pre-registration covers primary contrasts, retrodiction bands, sample sizes, mixed-effects model specification, power analysis, and the coding manual). Running any Phase 2 or benchmark work without a committed, pre-registered plan is not permitted.
 
@@ -27,11 +32,12 @@ Can canonical definitions of five political-ethical concepts — freedom, justic
    50/50 and null-B holdout specifications were not attained as written.
 2. **Phase 1:** operational pilot passed on S3 and S2, N=50 each. This does not
    establish encoding validity.
-3. **Phase 1.5:** hard gate remains open. The September source sweep is incomplete;
-   follow-up tools are implemented but empirical validation is pending. See
-   [current status](../NEXT_STEPS.md) and the phase-specific protocols.
+3. **Phase 1.5:** closed for the researcher-accepted limited objective. Local
+   normative parameterization is supported; the original full battery remains
+   unmet. This does not validate the original full-architecture Phase 2 design.
+   See the [accepted closure](../experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md).
 4. **Before Phase 2:** finalise and preregister this plan and the coding manual;
-   resolve the validity gate and record all accepted deviations.
+   define a downstream scope supported by the evidence and record accepted deviations.
 
 ---
 
