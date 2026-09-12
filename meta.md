@@ -16,6 +16,45 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+## 2026-09-12 - All-ten dispatch complete; full gate remains unmet
+
+The third segment finished all 4,584 untouched slots. Across three disjoint
+segments, all 17,250 requests were dispatched: 17,247 saved, 17,234 valid, ten
+parse failures, three recorded API failures and three unresolved dispatches.
+No replacement, retry or silent filter. All raw sources and request provenance
+were checked, statistics recomputed and separate archives verified. Total
+accounted $22.66401475 / $25, including unknown bounds; no further paid run queued.
+
+The primary global bootstrap is INCOMPLETE_OR_INVALID under its frozen rule.
+The planned exact paired sensitivity retains all 180 contrasts (172 complete;
+eight incomplete assigned p=1). Eight complete contrasts survive Holm: canonical
+MoR/S3 endpoint, canonical PD/S2 and PD/S3 endpoints, verbal PD endpoints and
+interiors on both dilemmas, and numeric RT/S3 endpoint in the opposite direction
+to its original prediction. Report that counterevidence prominently.
+
+Wording equivalence is established in1/30 cells (CS/S1); 25 complete, five
+incomplete. Original independent TOST sensitivity establishes3/30. N=50 and
+conservative intervals limit equivalence precision; these fresh-profile means
+are not a direct historical mean-profile replication. Legacy representation
+retention passes0/2 eligible comparisons (both MoR/S3); ineligible cells are not
+negative empirical findings. Separate prior-cohort audit remains unchanged.
+
+The new all-ten assessment reports all categories and parameters. For readable
+effect uncertainty, supplementary pointwise conservative95% paired intervals
+were added after collection using the existing binomial-bound helper at alpha=.05.
+They are explicitly post-collection, not simultaneous, and do not replace the
+frozen primary bootstrap or select significance. Raw/frozen result files remain
+unchanged. No new calls or altered criteria were used for reporting.
+
+Five synthetic perspectives: Linden confines the claim to operational normative
+inputs; Osei preserves missingness and cohort boundaries; Tanaka retains Holm180
+and labels added intervals and repeated-background fit limitations; Renna values
+local cross-form PD effects while retaining RT counterevidence; Okafor requires
+verified provenance and no hidden reruns. The disagreement is local encoding
+promise versus broad robustness. Resolution: conditional normative parameterization
+has support, but all-ten validity and intrinsic ethical understanding do not.
+Keep Phase1.5 open and Phase2 held. No theoretical, distributional or gate revision.
+
 ## 2026-09-12 - Third-segment launch verified
 
 Four continuation tests passed, including exclusion of unresolved intents,

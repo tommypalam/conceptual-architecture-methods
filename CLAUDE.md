@@ -174,6 +174,13 @@ The researcher then explicitly instructed continue: a third segment covers only
 the 4,584 untouched requests, retaining the $25 total cap and all unknown
 reservations. All prior intents remain excluded. Monitor its saved PID plus
 checkpoint freshness; the scientific design and missing-data rules are unchanged.
+The third segment is now complete: all 17,250 slots dispatched, 17,247 saved,
+17,234 valid; three unresolved slots and thirteen invalid records preserved.
+Total accounted $22.66401475; no further paid run queued. Wording equivalence
+is 1/30 (25 complete; independent TOST sensitivity 3/30), and original-rule
+retention is 0/2 eligible comparisons. PD shows canonical and verbal paired
+effects; numeric RT/S3 reverses its original prediction. The full gate remains
+unmet. See the all-ten assessment and NEXT_STEPS.md; no automatic phase closure.
 
 ## Experimental Problems
 

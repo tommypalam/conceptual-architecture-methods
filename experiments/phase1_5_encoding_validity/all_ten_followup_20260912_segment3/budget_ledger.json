@@ -1,0 +1,14 @@
+{
+  "status": "DISPATCH_COMPLETE_WITH_MISSING_RESPONSES",
+  "n_records": 17247,
+  "n_valid": 17234,
+  "planned": 17250,
+  "n_dispatched": 17250,
+  "never_dispatched": 0,
+  "known_followup_cost_usd": 17.99533124999997,
+  "unknown_followup_reserved_usd": 0.03752175,
+  "pending_requests": 3,
+  "total_accounted_usd": 22.66401474999999,
+  "cap_usd": 25,
+  "provider_balance_verified": false
+}

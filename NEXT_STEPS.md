@@ -2,9 +2,8 @@
 
 Updated 2026-09-12. Working branch: `phase1-5-all-ten-criteria`.
 
-**The previous structural package is complete; the new all-ten follow-up is
-collecting its authorized third execution segment after verified interruption. Phase 1.5 remains open, the original full validity gate is unmet, and
-Phase 2 remains on hold.**
+**The all-ten follow-up has finished dispatch and verification. Phase 1.5 remains
+open, the original validity gate is unmet, and Phase 2 remains on hold.**
 The researcher rejected the earlier closure interpretation. No automatic
 closure, threshold relaxation, theoretical revision or parameter removal is made.
 
@@ -12,6 +11,39 @@ Read the [completed assessment](experiments/phase1_5_encoding_validity/structura
 and [theory alignment](experiments/phase1_5_encoding_validity/structural_encoding_20260912/THEORY_ALIGNMENT.md).
 The theory supports normative representations as generative inputs to the agent
 architecture; the experiment does not establish intrinsic moral understanding.
+
+## Final all-ten follow-up result
+
+Read the [complete three-category assessment](experiments/phase1_5_encoding_validity/all_ten_assessment_20260912/ASSESSMENT.md).
+All 17,250 planned requests were dispatched; 17,247 records are saved and 17,234
+are valid. Ten parsing failures, three recorded API failures and three unresolved
+dispatches remain explicit. No retries or replacements; zero untouched slots.
+The worker exited after recomputation and archive verification. No paid run is queued.
+Total accounted cost: $22.66401475 / $25, retaining unknown bounds.
+
+The frozen primary bootstrap cannot produce its complete-data assessment because
+of invalid/missing slots. The prespecified exact paired sensitivity assesses 172
+complete contrasts while retaining all 180 in Holm correction. Eight survive:
+canonical MoR/S3 endpoint; canonical PD/S2 and PD/S3 endpoints; verbal PD/S2 and
+PD/S3 endpoints and interiors; numeric RT/S3 endpoint, which opposes its original
+prediction. The RT result is counterevidence, not a successful encoding flag.
+
+Wording: 1/30 equivalent under the frozen conservative paired calculation
+(CS/S1); 25 cells complete and five incomplete. Original independent TOST
+sensitivity: 3/30. These are fresh-profile averages, not a direct repeat of the
+historical mean-profile8/30. Original-rule representation retention: 0/2 eligible
+comparisons pass, both MoR/S3. Ineligible cells are not declared failures. PD
+verbal effects are useful local evidence, but do not constitute original-rule
+retention passes. The separate prior audit remains unchanged and fails its
+aggregate threshold; PD remains its strongest active-trait signal.
+
+Conclusion: stronger local, delivery-dependent normative parameterization evidence,
+especially PD, alongside unresolved or unsuccessful broader validity criteria.
+No theory change, threshold relaxation, automatic closure or Phase 2 release.
+The assessment includes all ten parameters, exact effects and Holm p-values, and
+clearly labeled post-collection pointwise95% effect intervals for reporting.
+
+## Earlier execution history
 
 ## Active follow-up: all ten, all three evidence categories
 

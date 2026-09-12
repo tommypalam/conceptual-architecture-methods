@@ -1,0 +1,10 @@
+{
+  "sources": {
+    "code/report_all_ten_final.py": "57c9af92803c1f7c3f6c7d5e8b83ec23af814af02fd0f478689ab07f95009dbb",
+    "experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment3/analysis/result_7c6ec7de0b8ec722.json": "bbdc821013bafb70c75d42248efe444db37874d6079134e991cdb9f0bc21c1a0",
+    "experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment3/budget_ledger.json": "1141184b6c7f737dae79c4013a0d597a98fcbd3d10e76b073e47f04aec7dacbb",
+    "experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit_schema_r3/analysis/prevalence_summary.json": "937c9394775a4df888b1e120062dcea5ae6896e39f032039ca3582fe7b197155"
+  },
+  "no_api_calls": true,
+  "original_gate_changed": false
+}
