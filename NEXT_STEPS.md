@@ -2,8 +2,9 @@
 
 Updated 2026-09-12. Working branch: `phase1-5-all-ten-criteria`.
 
-**The requested structural evaluation package is complete. Phase 1.5 remains
-open; the original full validity gate is unmet and Phase 2 remains on hold.**
+**The previous structural package is complete; the new all-ten follow-up is
+running. Phase 1.5 remains open, the original full validity gate is unmet, and
+Phase 2 remains on hold.**
 The researcher rejected the earlier closure interpretation. No automatic
 closure, threshold relaxation, theoretical revision or parameter removal is made.
 
@@ -21,14 +22,22 @@ thresholds. No parameter is removed or selected solely for a favorable result.
 [All-ten coverage table](experiments/phase1_5_encoding_validity/all_ten_criteria_20260912/COVERAGE.md).
 
 The offline table reconciles historical and fresh evidence without pooling.
-All ten have historical four-test coverage and fresh canonical/audit coverage;
-fresh six-representation diagnostics cover only two of thirty parameter/problem
-pairs. The historical equivalence-power limitation remains material. No new
-calls dispatched. An additional spending-envelope question is pending before
-new study sizing and exact requests are frozen; the completed $25 package does
-not authorize an arbitrarily larger reservation. An18,000-call all-representation
-screen is about$112 reserved before coding (rough usage extrapolation$19.51),
-and is not itself a well-powered +/-0.10 equivalence study.
+The researcher then instructed go. A fixed17,250-response follow-up is being
+prepared: first25 of50 new backgrounds for all-ten three-representation gradients
+(11,250 calls), all50 for four-wording .8 rotations (6,000 calls). Prior200-item
+recovery evidence remains separate; it is not recoded or pooled.
+[Follow-up protocol](experiments/phase1_5_encoding_validity/all_ten_followup_20260912/PROTOCOL.md).
+
+The existing$25 total ceiling is retained. Prior settled/unknown accounting is
+$4.63116175; each new batch must fit alongside that amount and new settled usage.
+Unused reservations of resolved old calls are released in a new ledger; the old
+ledger stays immutable. A budget stop yields an incomplete study, never a smaller
+post hoc success. No larger spending authorization is inferred from go. Exact
+requests are frozen and six preflight tests passed. Collection is running.
+[Live progress](experiments/phase1_5_encoding_validity/all_ten_followup_20260912/progress.json)
+is refreshed every30 responses. Scoring and same-computer archiving run at
+termination; a local completion worker verifies and summarizes the results.
+Phase1.5 remains open.
 
 ## New evidence
 

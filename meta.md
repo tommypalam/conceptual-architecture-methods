@@ -16,6 +16,65 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+## 2026-09-12 - All-ten requests frozen and live collection verified
+
+Six preflight tests passed, including full synthetic17,250-row scoring, all90
+gradient curves,60 retention comparisons,180 exact contrasts and30 wording
+cells. Invalid wording data disqualifies its comparison; no records are replaced.
+All requested seeds are distinct and disjoint from the prior3,580 behavioral
+responses. Exact request and manifest SHA256 hashes are in preflight.json.
+Large exact bundles remain local, with committed checksums and deterministic
+source/seed reconstruction; raw records remain excluded from Git.
+
+Live calls are collecting under the unchanged model and rolling$25 shared cap.
+The first240 were valid; this is a progress check, not interim outcome analysis.
+The runner scores and archives automatically on completion or administrative
+stop. A separate local completion worker rechecks sources, raw provenance,
+statistics and archive equality, writes an all-ten three-category report, and
+commits only those verified artifacts if the original development branch remains
+active and the staging area is empty. Otherwise it saves results and defers the
+commit. It sends no API calls, pushes nothing, and does not change the theory or
+gate. No phase pass or methodological amendment is delegated to that worker.
+
+## 2026-09-12 - Proceed with all-ten follow-up inside the existing $25 total cap
+
+The researcher instructed go after confirming all ten / three categories. No
+larger dollar amount is inferred. Instead of treating the prior completed
+package's unused worst-case reservations as spent, reconcile its zero-pending
+ledger at$4.61909475 known usage plus$0.012067 unknown bound. Preserve the old
+ledger unchanged. A separate follow-up ledger reserves every in-flight batch
+before dispatch against the same cumulative$25 ceiling. Unknown usage keeps its
+bound and stops further calls. This is budget accounting, not new spending authority.
+
+Fixed allocation:50 new unselected backgrounds, draw seed20261020. First25 for
+all10 x S1/S2/S3 x five values x hybrid/numeric/verbal =11,250 calls. All50 for
+all10 x S1/S2/S3 x .8 rotation x canonical/three approved paraphrases =6,000.
+Total17,250, schedule seed20261021, analysis seed20261022. Existing200-item audit
+is retained as separate prior-cohort evidence, not described as a new audit.
+New canonical controls are concurrent with variants; no old controls are pooled.
+The count differs from the earlier18,000-call planning example: original .8
+wording rotations are retained and get50 backgrounds, while gradients use25
+backgrounds and the three original numeric/verbal/hybrid representations.
+
+All original meanings, margins, locked dilemmas, model, temperature and token
+limit remain. New paired profile-average wording intervals reflect the shared
+backgrounds, with the independent original TOST shown separately for comparison.
+This is not a claim of per-profile invariance or a retroactive original-gate pass.
+Small-sample power remains limited. API/model/unknown-usage failures stop; parser
+failures are logged and preserved without replacement, with affected comparisons
+ineligible for complete-data claims. Budget stopping is administrative, not outcome
+selection; an unfinished allocation stays incomplete.
+
+Five synthetic perspectives and decision are in the frozen
+[protocol](experiments/phase1_5_encoding_validity/all_ten_followup_20260912/PROTOCOL.md).
+Linden preserves meanings; Osei requires new concurrent controls and discloses
+separate audit cohort; Tanaka preserves pairing and uncertainty qualifications;
+Renna retains all four component tests within three categories; Okafor requires
+full in-flight bounds and immutable failures. Disagreement about precision versus
+breadth is resolved as bounded all-ten diagnostics, with no guaranteed pass.
+No phase closure or Phase2 release. The earlier larger-budget question no longer
+blocks this conservative implementation; no additional allowance is assumed.
+
 ## 2026-09-12 - Researcher confirms all-ten scope across three evidence categories
 
 User clarification explicitly means causal/graded decision effects, robustness

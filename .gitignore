@@ -161,3 +161,13 @@ experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit/privat
 experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit_schema_*/blind_pack.json
 experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit_schema_*/private_answer_key*.json
 experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit_schema_*/manifest.json
+
+# Immutable API artifacts for the all-ten fresh-profile follow-up.
+experiments/phase1_5_encoding_validity/all_ten_followup_20260912/records/
+experiments/phase1_5_encoding_validity/all_ten_followup_20260912/dispatches/
+experiments/phase1_5_encoding_validity/all_ten_followup_20260912/progress.json
+experiments/phase1_5_encoding_validity/all_ten_followup_20260912/progress.tmp
+
+# Large exact request bundles stay local; their SHA256 hashes are committed.
+experiments/phase1_5_encoding_validity/all_ten_followup_20260912/manifest.json
+experiments/phase1_5_encoding_validity/all_ten_followup_20260912/request_preview.json

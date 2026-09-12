@@ -153,6 +153,14 @@ new combined gate or meaning changes. The all-ten offline coverage table and
 pending additional spending-envelope question are in NEXT_STEPS.md. No new
 follow-up API calls have been dispatched.
 
+The researcher subsequently instructed go. The all-ten follow-up uses a fixed
+17,250-call allocation with fresh canonical comparators, preserving the prior
+audit as separate evidence. It retains the existing cumulative$25 cap through
+settled usage plus full in-flight batch reservations; unknown charges remain
+reserved. No increased allowance, theoretical change or Phase2 release is
+inferred. Administrative budget stopping must remain explicit and incomplete.
+See the follow-up protocol and current dispatch status in NEXT_STEPS.md.
+
 ## Experimental Problems
 
 S1 Promotion Decision; S2 Quiet Error; S3 Department Reorganisation;

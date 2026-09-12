@@ -1,0 +1,26 @@
+{
+  "planned": 17250,
+  "gradient_calls": 11250,
+  "wording_calls": 6000,
+  "all_ten_parameters": true,
+  "problems": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "backgrounds": 50,
+  "gradient_backgrounds": 25,
+  "draw_seed": 20261020,
+  "schedule_seed": 20261021,
+  "analysis_seed": 20261022,
+  "offline_tests_passed": 6,
+  "no_requested_seed_overlap_with_prior_3580": true,
+  "all_source_hashes_verified": true,
+  "manifest_sha256": "0bb559cacec1fb09575d2b517d21233bf3dfc81df7f37fc854269c909ae4f4cc",
+  "request_preview_sha256": "369ccb1c8bea44b16bb84406a53dc12f87fed118844bab3f2fecb0bef499d999",
+  "prior_accounted_usd": 4.631161750000018,
+  "available_usd": 20.368838249999982,
+  "cap_usd": 25,
+  "full_study_worst_case_is_not_reserved": true,
+  "budget_completion_not_guaranteed": true
+}
