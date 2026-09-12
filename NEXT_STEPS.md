@@ -20,7 +20,9 @@ PD/S3; all within-run detections are unchanged axis-pilot baseline paraphrases.
 Zero same-prompt/same-seed repeats; all fingerprints absent, recorded cache hits0.
 Next:40 exact MS high-endpoint replays including prior seeds, two whole20-seed
 cohorts interleaved, $0.30 cap. [Frozen replay protocol](experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/PROTOCOL.md);
-three tests passed. Dispatch review before calls. Original gates held.
+three tests passed. **Automatic approval review blocked launch pending explicit
+approval of these exact40 requests to OpenAI.** Approval question pending; no
+replay calls/intents/records or new spending. Original gates held.
 
 
 **MS crossover complete: 160/160 valid, cost$0.1862505.**

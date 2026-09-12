@@ -9,6 +9,19 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+
+## 2026-09-12 ? Exact MS replay dispatch blocked by automatic approval review
+
+The40-call/$0.30 launch was rejected before process execution. Stated reason:
+private research prompts and historical-seed-derived requests to OpenAI require
+explicit approval of this exact payload/destination; general continued-probing
+authority was deemed insufficient. No workaround attempted. Exact approval
+question sent to researcher; no records or dispatch intents exist. Prior
+allowance$3.79170675 unchanged. Prepared code/protocol/preview remain reviewable,
+three tests passed; execution waits for explicit reply. The general-authority
+basis file is historical to the rejected launch, not evidence of later approval.
+[Dispatch status](experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/DISPATCH_STATUS.md).
+
 ## 2026-09-12 ? Freeze 40-call MS request replay, $0.30 cap
 
 The researcher asked to keep probing. Under ongoing authority, prepare all20
