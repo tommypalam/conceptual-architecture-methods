@@ -2,7 +2,7 @@
 
 Updated 2026-09-12. Published branch: `main`. Create a development branch before new work.
 
-## Small Phase 2 pilot authorised (2026-09-12)
+## Small Phase 2 pilot complete (2026-09-12)
 
 The researcher chose the exploratory-first sequence after reviewing the roadmap
 and smaller budget option. Work continues on `phase2-design-20260912`.
@@ -15,13 +15,34 @@ state are repaired in separate prospective modules; historical runners remain
 unchanged. The runner is `code/run_phase2_pilot.py`. The local manifest is frozen
 and [offline verification](experiments/phase2_exploratory_20260912/VERIFICATION.md)
 passed: 21 targeted checks and a complete mock run with duplicate-free replay.
-The authorised live pilot is next; no paid pilot result exists yet.
+The pilot completed under frozen commit `642c1297`: **2,180 responses, all 600
+simple slots and 75 group runs**. 25 group responses failed the strict format;
+two final C3 outcomes are incomplete. No API failures or unresolved dispatches.
+Every request and group state replayed exactly with no new calls.
+Conservative accounting: **$4.15084065** (estimated provider token charge $3.7734915).
+Raw requests and responses are saved write-once under ignored
+`data/raw/phase2_exploratory_20260912`. No further paid run is active or queued.
+
+Read the [assessment](experiments/phase2_exploratory_20260912/ASSESSMENT.md) and
+[results](experiments/phase2_exploratory_20260912/analysis/RESULTS.md).
+S2/S3 show useful E/U contrasts; S1 is saturated. C1 differs strongly by context
+even without profiles, C2 is nearly unanimous, and all valid C3 outcomes CONTINUE.
+The pilot exposed coupled vote/evidence parsing and model claims of unadopted
+amendments. Preserve these findings and repair prospectively before scaling.
+An independent-field parser candidate now passes five offline checks and reads
+24/25 malformed votes without changing any of the 1,555 previously valid group
+votes. It remains separate from the frozen collector; integration and prospective
+group-state validation are next, not a retrospective overwrite of this pilot.
 
 The pilot evaluates behaviour and implementation, with no moral coding or human
 resemblance claims. The original moral-manual timing is explicitly deferred for
 this exploratory step; required human review remains before moral scoring.
-After the pilot: write the assessment, fix any material defects prospectively,
-then freeze an independent confirmatory question, analysis and justified sample.
+Next: fix the material group defects prospectively, then freeze an independent
+confirmatory question, analysis and justified sample. A
+[concrete confirmation proposal](experiments/phase2_exploratory_20260912/CONFIRMATION_NEXT.md)
+describes 400 fresh profiles for about $4.74 projected simple-call accounting,
+with exact power scenarios and separate group-study requirements. It is not
+frozen, preregistered or queued; the $100 cap includes the completed pilot.
 The earlier $27 design remains a proposal, not an automatically queued test.
 
 ## Earlier revised Phase 2 preparation (2026-09-12)
@@ -30,7 +51,7 @@ The researcher requested a rigorous, expedited adjustment around ethical encodin
 during generation, human behavioural resemblance and good/bad consequences, while
 retaining both the LPM population design and Agents-of-Chaos-inspired interaction.
 The new Phase 2 API budget is **as low as feasible, $100 absolute maximum**.
-Preparation is on `phase2-design-20260912`; no paid call has been made.
+This earlier preparation was on `phase2-design-20260912` before paid pilot collection.
 
 Read the [concrete revised design](experiments/phase2_design_20260912/PROTOCOL_DRAFT.md).
 It proposes 12,000 paired encoded/context-only simple calls and up to 3,950 calls

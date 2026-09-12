@@ -1,0 +1,8 @@
+{
+  "archive": "output/phase2_exploratory_20260912_raw.zip",
+  "sha256": "7f7435a50e676f0f0122843ff7e42786c7cdb902ea4fcf5eb1e4ae7f0d2fbcad",
+  "files": 4436,
+  "size_bytes": 11335305,
+  "verification": "Every archived member matches the source SHA256; CRC checks passed",
+  "off_device_backup_verified": false
+}

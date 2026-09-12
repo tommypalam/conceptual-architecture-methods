@@ -17,6 +17,8 @@
 
 | Task | Files |
 |---|---|
+| Frozen exploratory Phase 2 | [Collector](run_phase2_pilot.py), [analysis](analyze_phase2_pilot.py), [read-only audit](audit_phase2_pilot.py) |
+| Post-pilot preparation | [Diagnostics](diagnose_phase2_pilot.py), [prospective parser](phase2_group_fields_v2.py), [exact power scenarios](phase2_confirmation_power.py) |
 | Basic simulation CLI | [Run](run_engine.py), [score](score_engine.py) |
 | Configuration generation | [Build configuration](build_config.py) |
 | Final all-ten assessment | [Reproduce the assessment](report_all_ten_final.py) |

@@ -1,0 +1,22 @@
+{
+  "audited_at": "2026-09-12T21:37:04.957655+00:00",
+  "manifest_hash": "85ed2c0eb9e301471ab9524a25744ba88509410a59a83b79678d605ac78bfefa",
+  "exact_request_replay_passed": true,
+  "group_state_replay_passed": true,
+  "new_dispatches": 0,
+  "unique_api_ids": 2180,
+  "statuses": {
+    "ok": 2155,
+    "parse_failure": 25
+  },
+  "finish_reasons": {
+    "stop": 2180
+  },
+  "estimated_provider_token_cost_usd_at_global_rates": 3.7734915,
+  "provider_invoice_verified": false,
+  "conservative_accounted_usd": 4.15084065,
+  "fixed_review_simple_n": 120,
+  "fixed_review_group_responses_n": 315,
+  "fixed_review_pack_sha256": "1853ba48d0841d46d0ee6defbfa38490b373246d8cf6d04edaa54e506d81b6b9",
+  "manual_review_status": "pack prepared; interpretation must be recorded separately"
+}

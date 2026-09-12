@@ -1,0 +1,57 @@
+{
+  "method": "Exact conditioning on binomial discordance count; two-sided exact paired binomial test",
+  "alpha": 0.008333333333333333,
+  "family_size": 6,
+  "pilot_outcomes_read": false,
+  "note": "Bonferroni threshold supplies a conservative planning threshold for Holm; scenarios are assumptions, not estimated guarantees.",
+  "scenarios": [
+    {
+      "N": 200,
+      "risk_difference": 0.1,
+      "pair_disagreement": 0.1,
+      "power": 0.9995150032835464
+    },
+    {
+      "N": 200,
+      "risk_difference": 0.1,
+      "pair_disagreement": 0.3,
+      "power": 0.4364243107072819
+    },
+    {
+      "N": 200,
+      "risk_difference": 0.15,
+      "pair_disagreement": 0.3,
+      "power": 0.8931765445089407
+    },
+    {
+      "N": 200,
+      "risk_difference": 0.2,
+      "pair_disagreement": 0.4,
+      "power": 0.9713327792624695
+    },
+    {
+      "N": 400,
+      "risk_difference": 0.1,
+      "pair_disagreement": 0.1,
+      "power": 0.9999999999619897
+    },
+    {
+      "N": 400,
+      "risk_difference": 0.1,
+      "pair_disagreement": 0.3,
+      "power": 0.8342863754829998
+    },
+    {
+      "N": 400,
+      "risk_difference": 0.15,
+      "pair_disagreement": 0.3,
+      "power": 0.9985062376787321
+    },
+    {
+      "N": 400,
+      "risk_difference": 0.2,
+      "pair_disagreement": 0.4,
+      "power": 0.9999495380014242
+    }
+  ]
+}

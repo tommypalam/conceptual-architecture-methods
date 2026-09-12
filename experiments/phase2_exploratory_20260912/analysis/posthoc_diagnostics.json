@@ -1,0 +1,461 @@
+{
+  "label": "Post-hoc diagnostics; frozen outputs unchanged",
+  "failures": [
+    {
+      "slot": [
+        "complex",
+        "C3",
+        3,
+        "neutral",
+        "B",
+        6,
+        25
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        5,
+        "11011",
+        "E",
+        4,
+        22
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        1,
+        "00100",
+        "E",
+        1,
+        10
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        4,
+        "neutral",
+        "B",
+        1,
+        49
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        4,
+        "00100",
+        "U",
+        2,
+        34
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        1,
+        "00100",
+        "U",
+        2,
+        9
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        2,
+        "11011",
+        "U",
+        2,
+        13
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": null
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        1,
+        "00100",
+        "E",
+        2,
+        10
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        5,
+        "11011",
+        "U",
+        1,
+        39
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        2,
+        "11011",
+        "E",
+        2,
+        35
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C1",
+        1,
+        "00100",
+        "U",
+        1,
+        38
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "PACKAGE_B"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        4,
+        "neutral",
+        "B",
+        4,
+        34
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        1,
+        "11011",
+        "U",
+        6,
+        40
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        3,
+        "11011",
+        "E",
+        2,
+        22
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        1,
+        "00100",
+        "U",
+        3,
+        21
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        5,
+        "11011",
+        "E",
+        5,
+        42
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        2,
+        "00100",
+        "E",
+        2,
+        16
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C1",
+        4,
+        "00100",
+        "E",
+        4,
+        19
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "PACKAGE_B"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        1,
+        "11011",
+        "U",
+        3,
+        47
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        5,
+        "00100",
+        "E",
+        2,
+        39
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        1,
+        "00100",
+        "U",
+        3,
+        1
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        4,
+        "neutral",
+        "B",
+        3,
+        34
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        5,
+        "11011",
+        "E",
+        4,
+        5
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        2,
+        "11011",
+        "E",
+        1,
+        35
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        5,
+        "11011",
+        "U",
+        3,
+        47
+      ],
+      "status": "parse_failure",
+      "unique_inline_vote": "REJECT"
+    }
+  ],
+  "failure_problem_counts": {
+    "C3": 10,
+    "C2": 13,
+    "C1": 2
+  },
+  "omitted_private_evidence_from_invalid_replies": [
+    {
+      "slot": [
+        "complex",
+        "C3",
+        5,
+        "11011",
+        "E",
+        4,
+        22
+      ],
+      "direct_but_not_processed_due_invalid_vote": [
+        "E03",
+        "E09",
+        "E14"
+      ],
+      "still_not_authenticated_after_round": [
+        "E03",
+        "E14"
+      ]
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        4,
+        "00100",
+        "U",
+        2,
+        34
+      ],
+      "direct_but_not_processed_due_invalid_vote": [
+        "E02",
+        "E12",
+        "E22"
+      ],
+      "still_not_authenticated_after_round": [
+        "E02",
+        "E12"
+      ]
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        2,
+        "11011",
+        "U",
+        2,
+        13
+      ],
+      "direct_but_not_processed_due_invalid_vote": [
+        "E02",
+        "E07",
+        "E12",
+        "E22"
+      ],
+      "still_not_authenticated_after_round": []
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        4,
+        "neutral",
+        "B",
+        4,
+        34
+      ],
+      "direct_but_not_processed_due_invalid_vote": [
+        "E09"
+      ],
+      "still_not_authenticated_after_round": []
+    }
+  ],
+  "qualitative_examples": [
+    {
+      "slot": [
+        "complex",
+        "C2",
+        1,
+        "00100",
+        "U",
+        4,
+        44
+      ],
+      "short_response_excerpt": "The adopted safeguard already preserves the restructuring",
+      "explicit_state_line": [
+        "Currently adopted amendment IDs: NONE"
+      ],
+      "response_hash": "92fa6e8c9051d56b7d7a7301dae670f24cceb715d5fcab0bf79965fe8589cd3a",
+      "request_hash": "37ce0ccb6d79b8ed3958ccc542872e3842ea1f2c40db39d0722b8d9f67eda775"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        1,
+        "00100",
+        "E",
+        5,
+        14
+      ],
+      "short_response_excerpt": "four independent positive trials with p<0.05",
+      "explicit_state_line": [],
+      "response_hash": "aa796d5c81fa28fbc7725692a2af5dbac490ef98c6697cdb3b03a667e3d3a8ba",
+      "request_hash": "d852f5fe4fd7291ad10810eec8213b25d6a3b5e4f99435972624d6dfa5396a32"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        1,
+        "00100",
+        "U",
+        5,
+        44
+      ],
+      "short_response_excerpt": "The amended plan already requires a review of non-layoff savings",
+      "explicit_state_line": [
+        "Currently adopted amendment IDs: NONE"
+      ],
+      "response_hash": "02606efba7e3b08d2a4a19c8d144db010b4530490811e0255efb3afed03fb565",
+      "request_hash": "7498add46393ae4acce9f41e41605f652fcee879f21ceb9082676502718e0d0b"
+    }
+  ]
+}

@@ -13,7 +13,11 @@ confirmatory freeze and fresh sample. No original full-battery pass is implied.
 The exploratory-first instruction amends the original sequencing: moral coding
 and its required human sign-off remain pending; no moral scores or human-validity
 claims are produced by this behavioural pilot. Historical raw data and question
-bodies remain immutable. Current execution status belongs in NEXT_STEPS.md.
+bodies remain immutable. The pilot is now complete: 2,180 responses, 75 group
+runs, $4.15084065 conservative accounting. See its ASSESSMENT.md for useful
+individual contrasts, 25 group format failures and state-adherence problems.
+No confirmatory run is queued; do not scale the pilot unchanged. Preserve its
+frozen source and raw responses. Current execution status belongs in NEXT_STEPS.md.
 
 ## Desktop continuation (2026-09-12)
 

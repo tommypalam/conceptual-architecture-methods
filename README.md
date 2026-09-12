@@ -30,7 +30,12 @@ The original full validity battery remains unmet. Ethical understanding and
 validation of the complete ten-parameter architecture are not established.
 The narrower conclusion was accepted after observing the results; this is
 recorded in the [closure decision](experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md).
-No paid run is queued, and the original full-architecture Phase 2 study is not released.
+The researcher has authorised a [small exploratory Phase 2 pilot](experiments/phase2_exploratory_20260912/PROTOCOL.md)
+before a separate confirmatory study. The pilot is complete: 2,180 responses,
+75 group runs and $4.15 conservatively accounted for. Read the
+[pilot assessment](experiments/phase2_exploratory_20260912/ASSESSMENT.md): individual
+contrasts are promising, while group-state issues need repair before scaling.
+The original full-architecture Phase 2 study remains separate and unreleased.
 
 ## Find your way around
 

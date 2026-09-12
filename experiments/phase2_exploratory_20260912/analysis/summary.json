@@ -1,0 +1,1684 @@
+{
+  "root_seed": 2026091202,
+  "mock": false,
+  "responses": 2180,
+  "dispatches": 2180,
+  "unresolved_dispatches": 0,
+  "accounted_usd_including_allowance": 4.15084065,
+  "unknown_usage_records": 0,
+  "status_counts": {
+    "ok": 2155,
+    "parse_failure": 25
+  },
+  "finish_reasons": {
+    "stop": 2180
+  },
+  "duplicate_provider_ids": 0,
+  "usage": {
+    "prompt_tokens": 3763168,
+    "completion_tokens": 211359
+  },
+  "simple_cells": [
+    {
+      "problem": "S1",
+      "config": "00100",
+      "arm": "E",
+      "metric": "A",
+      "successes": 50,
+      "valid": 50,
+      "planned": 50,
+      "missing_invalid": 0,
+      "rate": 1.0,
+      "wilson_95": [
+        0.9286524008666414,
+        1
+      ],
+      "saturated": true,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "S1",
+      "config": "00100",
+      "arm": "U",
+      "metric": "A",
+      "successes": 46,
+      "valid": 50,
+      "planned": 50,
+      "missing_invalid": 0,
+      "rate": 0.92,
+      "wilson_95": [
+        0.8116175308165717,
+        0.968450485911407
+      ],
+      "saturated": false,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "S1",
+      "config": "11011",
+      "arm": "E",
+      "metric": "A",
+      "successes": 50,
+      "valid": 50,
+      "planned": 50,
+      "missing_invalid": 0,
+      "rate": 1.0,
+      "wilson_95": [
+        0.9286524008666414,
+        1
+      ],
+      "saturated": true,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "S1",
+      "config": "11011",
+      "arm": "U",
+      "metric": "A",
+      "successes": 49,
+      "valid": 50,
+      "planned": 50,
+      "missing_invalid": 0,
+      "rate": 0.98,
+      "wilson_95": [
+        0.8950455641036219,
+        0.9964607407283539
+      ],
+      "saturated": false,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "S2",
+      "config": "00100",
+      "arm": "E",
+      "metric": "FORMAL_REPORT",
+      "successes": 11,
+      "valid": 50,
+      "planned": 50,
+      "missing_invalid": 0,
+      "rate": 0.22,
+      "wilson_95": [
+        0.1275391597021442,
+        0.3524154958125367
+      ],
+      "saturated": false,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "S2",
+      "config": "00100",
+      "arm": "U",
+      "metric": "FORMAL_REPORT",
+      "successes": 0,
+      "valid": 50,
+      "planned": 50,
+      "missing_invalid": 0,
+      "rate": 0.0,
+      "wilson_95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ],
+      "saturated": true,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "S2",
+      "config": "11011",
+      "arm": "E",
+      "metric": "FORMAL_REPORT",
+      "successes": 6,
+      "valid": 50,
+      "planned": 50,
+      "missing_invalid": 0,
+      "rate": 0.12,
+      "wilson_95": [
+        0.05617600150932274,
+        0.23804817383202992
+      ],
+      "saturated": false,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "S2",
+      "config": "11011",
+      "arm": "U",
+      "metric": "FORMAL_REPORT",
+      "successes": 0,
+      "valid": 50,
+      "planned": 50,
+      "missing_invalid": 0,
+      "rate": 0.0,
+      "wilson_95": [
+        6.938893903907228e-18,
+        0.07134759913335872
+      ],
+      "saturated": true,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "S3",
+      "config": "00100",
+      "arm": "E",
+      "metric": "ADOPT",
+      "successes": 42,
+      "valid": 50,
+      "planned": 50,
+      "missing_invalid": 0,
+      "rate": 0.84,
+      "wilson_95": [
+        0.7148578393696501,
+        0.916625793219666
+      ],
+      "saturated": false,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "S3",
+      "config": "00100",
+      "arm": "U",
+      "metric": "ADOPT",
+      "successes": 50,
+      "valid": 50,
+      "planned": 50,
+      "missing_invalid": 0,
+      "rate": 1.0,
+      "wilson_95": [
+        0.9286524008666414,
+        1
+      ],
+      "saturated": true,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "S3",
+      "config": "11011",
+      "arm": "E",
+      "metric": "ADOPT",
+      "successes": 29,
+      "valid": 50,
+      "planned": 50,
+      "missing_invalid": 0,
+      "rate": 0.58,
+      "wilson_95": [
+        0.4423344176857823,
+        0.7062499664528802
+      ],
+      "saturated": false,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "S3",
+      "config": "11011",
+      "arm": "U",
+      "metric": "ADOPT",
+      "successes": 50,
+      "valid": 50,
+      "planned": 50,
+      "missing_invalid": 0,
+      "rate": 1.0,
+      "wilson_95": [
+        0.9286524008666414,
+        1
+      ],
+      "saturated": true,
+      "root_seed": 2026091202
+    }
+  ],
+  "simple_contrasts": [
+    {
+      "problem": "S1",
+      "contrast": "E-U",
+      "config": "00100",
+      "paired_n": 50,
+      "planned_n": 50,
+      "excluded_incomplete_pairs": 0,
+      "difference": 0.08,
+      "bootstrap_95": [
+        0.02,
+        0.16
+      ],
+      "bootstrap_degenerate": false,
+      "missing_outcome_bounds": [
+        0.08,
+        0.08
+      ],
+      "bootstrap_seed": 2614162466
+    },
+    {
+      "problem": "S1",
+      "contrast": "E-U",
+      "config": "11011",
+      "paired_n": 50,
+      "planned_n": 50,
+      "excluded_incomplete_pairs": 0,
+      "difference": 0.02,
+      "bootstrap_95": [
+        0.0,
+        0.06
+      ],
+      "bootstrap_degenerate": false,
+      "missing_outcome_bounds": [
+        0.02,
+        0.02
+      ],
+      "bootstrap_seed": 3646195535
+    },
+    {
+      "problem": "S1",
+      "contrast": "11011-00100",
+      "arm": "E",
+      "paired_n": 50,
+      "planned_n": 50,
+      "excluded_incomplete_pairs": 0,
+      "difference": 0.0,
+      "bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_degenerate": true,
+      "missing_outcome_bounds": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_seed": 47993425
+    },
+    {
+      "problem": "S1",
+      "contrast": "11011-00100",
+      "arm": "U",
+      "paired_n": 50,
+      "planned_n": 50,
+      "excluded_incomplete_pairs": 0,
+      "difference": 0.06,
+      "bootstrap_95": [
+        -0.02,
+        0.16
+      ],
+      "bootstrap_degenerate": false,
+      "missing_outcome_bounds": [
+        0.06,
+        0.06
+      ],
+      "bootstrap_seed": 1208248262
+    },
+    {
+      "problem": "S2",
+      "contrast": "E-U",
+      "config": "00100",
+      "paired_n": 50,
+      "planned_n": 50,
+      "excluded_incomplete_pairs": 0,
+      "difference": 0.22,
+      "bootstrap_95": [
+        0.12,
+        0.34
+      ],
+      "bootstrap_degenerate": false,
+      "missing_outcome_bounds": [
+        0.22,
+        0.22
+      ],
+      "bootstrap_seed": 3744315586
+    },
+    {
+      "problem": "S2",
+      "contrast": "E-U",
+      "config": "11011",
+      "paired_n": 50,
+      "planned_n": 50,
+      "excluded_incomplete_pairs": 0,
+      "difference": 0.12,
+      "bootstrap_95": [
+        0.04,
+        0.22
+      ],
+      "bootstrap_degenerate": false,
+      "missing_outcome_bounds": [
+        0.12,
+        0.12
+      ],
+      "bootstrap_seed": 2184439556
+    },
+    {
+      "problem": "S2",
+      "contrast": "11011-00100",
+      "arm": "E",
+      "paired_n": 50,
+      "planned_n": 50,
+      "excluded_incomplete_pairs": 0,
+      "difference": -0.1,
+      "bootstrap_95": [
+        -0.2,
+        0.0
+      ],
+      "bootstrap_degenerate": false,
+      "missing_outcome_bounds": [
+        -0.1,
+        -0.1
+      ],
+      "bootstrap_seed": 590970160
+    },
+    {
+      "problem": "S2",
+      "contrast": "11011-00100",
+      "arm": "U",
+      "paired_n": 50,
+      "planned_n": 50,
+      "excluded_incomplete_pairs": 0,
+      "difference": 0.0,
+      "bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_degenerate": true,
+      "missing_outcome_bounds": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_seed": 840147605
+    },
+    {
+      "problem": "S3",
+      "contrast": "E-U",
+      "config": "00100",
+      "paired_n": 50,
+      "planned_n": 50,
+      "excluded_incomplete_pairs": 0,
+      "difference": -0.16,
+      "bootstrap_95": [
+        -0.26,
+        -0.06
+      ],
+      "bootstrap_degenerate": false,
+      "missing_outcome_bounds": [
+        -0.16,
+        -0.16
+      ],
+      "bootstrap_seed": 2069352679
+    },
+    {
+      "problem": "S3",
+      "contrast": "E-U",
+      "config": "11011",
+      "paired_n": 50,
+      "planned_n": 50,
+      "excluded_incomplete_pairs": 0,
+      "difference": -0.42,
+      "bootstrap_95": [
+        -0.56,
+        -0.28
+      ],
+      "bootstrap_degenerate": false,
+      "missing_outcome_bounds": [
+        -0.42,
+        -0.42
+      ],
+      "bootstrap_seed": 261020114
+    },
+    {
+      "problem": "S3",
+      "contrast": "11011-00100",
+      "arm": "E",
+      "paired_n": 50,
+      "planned_n": 50,
+      "excluded_incomplete_pairs": 0,
+      "difference": -0.26,
+      "bootstrap_95": [
+        -0.4,
+        -0.12
+      ],
+      "bootstrap_degenerate": false,
+      "missing_outcome_bounds": [
+        -0.26,
+        -0.26
+      ],
+      "bootstrap_seed": 4041697805
+    },
+    {
+      "problem": "S3",
+      "contrast": "11011-00100",
+      "arm": "U",
+      "paired_n": 50,
+      "planned_n": 50,
+      "excluded_incomplete_pairs": 0,
+      "difference": 0.0,
+      "bootstrap_95": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_degenerate": true,
+      "missing_outcome_bounds": [
+        0.0,
+        0.0
+      ],
+      "bootstrap_seed": 604984403
+    }
+  ],
+  "group_cells": [
+    {
+      "problem": "C1",
+      "config": "00100",
+      "arm": "E",
+      "metric": "PACKAGE_A",
+      "successes": 4,
+      "valid": 5,
+      "planned": 5,
+      "missing_invalid": 0,
+      "rate": 0.8,
+      "wilson_95": [
+        0.37553462976252533,
+        0.9637758913675698
+      ],
+      "rounds": [
+        5,
+        5,
+        5,
+        3,
+        5
+      ],
+      "consensus_groups": 2,
+      "proposal_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "adoption_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "public_evidence_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ties": 0,
+      "pre_tie_tallies": [
+        {
+          "PACKAGE_A": 5,
+          "PACKAGE_B": 0,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 3,
+          "PACKAGE_B": 2,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 4,
+          "PACKAGE_B": 1,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 5,
+          "PACKAGE_B": 0,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 2,
+          "PACKAGE_B": 3,
+          "missing": 0
+        }
+      ],
+      "unavailable_citations": 0,
+      "transcript_only_citations": 0,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "C1",
+      "config": "00100",
+      "arm": "U",
+      "metric": "PACKAGE_A",
+      "successes": 5,
+      "valid": 5,
+      "planned": 5,
+      "missing_invalid": 0,
+      "rate": 1.0,
+      "wilson_95": [
+        0.5655175352168251,
+        1
+      ],
+      "rounds": [
+        2,
+        2,
+        1,
+        1,
+        1
+      ],
+      "consensus_groups": 5,
+      "proposal_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "adoption_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "public_evidence_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ties": 0,
+      "pre_tie_tallies": [
+        {
+          "PACKAGE_A": 5,
+          "PACKAGE_B": 0,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 5,
+          "PACKAGE_B": 0,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 5,
+          "PACKAGE_B": 0,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 5,
+          "PACKAGE_B": 0,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 5,
+          "PACKAGE_B": 0,
+          "missing": 0
+        }
+      ],
+      "unavailable_citations": 0,
+      "transcript_only_citations": 0,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "C1",
+      "config": "11011",
+      "arm": "E",
+      "metric": "PACKAGE_A",
+      "successes": 0,
+      "valid": 5,
+      "planned": 5,
+      "missing_invalid": 0,
+      "rate": 0.0,
+      "wilson_95": [
+        0,
+        0.43448246478317476
+      ],
+      "rounds": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "consensus_groups": 5,
+      "proposal_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "adoption_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "public_evidence_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ties": 0,
+      "pre_tie_tallies": [
+        {
+          "PACKAGE_A": 0,
+          "PACKAGE_B": 5,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 0,
+          "PACKAGE_B": 5,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 0,
+          "PACKAGE_B": 5,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 0,
+          "PACKAGE_B": 5,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 0,
+          "PACKAGE_B": 5,
+          "missing": 0
+        }
+      ],
+      "unavailable_citations": 0,
+      "transcript_only_citations": 0,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "C1",
+      "config": "11011",
+      "arm": "U",
+      "metric": "PACKAGE_A",
+      "successes": 0,
+      "valid": 5,
+      "planned": 5,
+      "missing_invalid": 0,
+      "rate": 0.0,
+      "wilson_95": [
+        0,
+        0.43448246478317476
+      ],
+      "rounds": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "consensus_groups": 5,
+      "proposal_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "adoption_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "public_evidence_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ties": 0,
+      "pre_tie_tallies": [
+        {
+          "PACKAGE_A": 0,
+          "PACKAGE_B": 5,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 0,
+          "PACKAGE_B": 5,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 0,
+          "PACKAGE_B": 5,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 0,
+          "PACKAGE_B": 5,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 0,
+          "PACKAGE_B": 5,
+          "missing": 0
+        }
+      ],
+      "unavailable_citations": 0,
+      "transcript_only_citations": 0,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "C1",
+      "config": "neutral",
+      "arm": "B",
+      "metric": "PACKAGE_A",
+      "successes": 0,
+      "valid": 5,
+      "planned": 5,
+      "missing_invalid": 0,
+      "rate": 0.0,
+      "wilson_95": [
+        0,
+        0.43448246478317476
+      ],
+      "rounds": [
+        1,
+        1,
+        2,
+        1,
+        1
+      ],
+      "consensus_groups": 5,
+      "proposal_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "adoption_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "public_evidence_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ties": 0,
+      "pre_tie_tallies": [
+        {
+          "PACKAGE_A": 0,
+          "PACKAGE_B": 5,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 0,
+          "PACKAGE_B": 5,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 0,
+          "PACKAGE_B": 5,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 0,
+          "PACKAGE_B": 5,
+          "missing": 0
+        },
+        {
+          "PACKAGE_A": 0,
+          "PACKAGE_B": 5,
+          "missing": 0
+        }
+      ],
+      "unavailable_citations": 0,
+      "transcript_only_citations": 0,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "C2",
+      "config": "00100",
+      "arm": "E",
+      "metric": "APPROVE",
+      "successes": 5,
+      "valid": 5,
+      "planned": 5,
+      "missing_invalid": 0,
+      "rate": 1.0,
+      "wilson_95": [
+        0.5655175352168251,
+        1
+      ],
+      "rounds": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "consensus_groups": 0,
+      "proposal_counts": [
+        2,
+        2,
+        1,
+        5,
+        1
+      ],
+      "adoption_counts": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "public_evidence_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ties": 0,
+      "pre_tie_tallies": [
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        }
+      ],
+      "unavailable_citations": 0,
+      "transcript_only_citations": 0,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "C2",
+      "config": "00100",
+      "arm": "U",
+      "metric": "APPROVE",
+      "successes": 5,
+      "valid": 5,
+      "planned": 5,
+      "missing_invalid": 0,
+      "rate": 1.0,
+      "wilson_95": [
+        0.5655175352168251,
+        1
+      ],
+      "rounds": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "consensus_groups": 0,
+      "proposal_counts": [
+        3,
+        0,
+        1,
+        2,
+        0
+      ],
+      "adoption_counts": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "public_evidence_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ties": 0,
+      "pre_tie_tallies": [
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        }
+      ],
+      "unavailable_citations": 0,
+      "transcript_only_citations": 0,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "C2",
+      "config": "11011",
+      "arm": "E",
+      "metric": "APPROVE",
+      "successes": 4,
+      "valid": 5,
+      "planned": 5,
+      "missing_invalid": 0,
+      "rate": 0.8,
+      "wilson_95": [
+        0.37553462976252533,
+        0.9637758913675698
+      ],
+      "rounds": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "consensus_groups": 0,
+      "proposal_counts": [
+        2,
+        5,
+        3,
+        3,
+        0
+      ],
+      "adoption_counts": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "public_evidence_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ties": 0,
+      "pre_tie_tallies": [
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 1,
+          "REJECT": 4,
+          "missing": 0
+        },
+        {
+          "APPROVE": 4,
+          "REJECT": 1,
+          "missing": 0
+        },
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 4,
+          "REJECT": 1,
+          "missing": 0
+        }
+      ],
+      "unavailable_citations": 0,
+      "transcript_only_citations": 0,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "C2",
+      "config": "11011",
+      "arm": "U",
+      "metric": "APPROVE",
+      "successes": 5,
+      "valid": 5,
+      "planned": 5,
+      "missing_invalid": 0,
+      "rate": 1.0,
+      "wilson_95": [
+        0.5655175352168251,
+        1
+      ],
+      "rounds": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "consensus_groups": 0,
+      "proposal_counts": [
+        3,
+        2,
+        6,
+        1,
+        4
+      ],
+      "adoption_counts": [
+        2,
+        1,
+        1,
+        1,
+        0
+      ],
+      "public_evidence_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ties": 0,
+      "pre_tie_tallies": [
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 4,
+          "REJECT": 1,
+          "missing": 0
+        }
+      ],
+      "unavailable_citations": 0,
+      "transcript_only_citations": 0,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "C2",
+      "config": "neutral",
+      "arm": "B",
+      "metric": "APPROVE",
+      "successes": 5,
+      "valid": 5,
+      "planned": 5,
+      "missing_invalid": 0,
+      "rate": 1.0,
+      "wilson_95": [
+        0.5655175352168251,
+        1
+      ],
+      "rounds": [
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "consensus_groups": 0,
+      "proposal_counts": [
+        2,
+        3,
+        2,
+        1,
+        2
+      ],
+      "adoption_counts": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "public_evidence_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "ties": 0,
+      "pre_tie_tallies": [
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 4,
+          "REJECT": 1,
+          "missing": 0
+        },
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        },
+        {
+          "APPROVE": 5,
+          "REJECT": 0,
+          "missing": 0
+        }
+      ],
+      "unavailable_citations": 0,
+      "transcript_only_citations": 0,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "C3",
+      "config": "00100",
+      "arm": "E",
+      "metric": "CONTINUE",
+      "successes": 5,
+      "valid": 5,
+      "planned": 5,
+      "missing_invalid": 0,
+      "rate": 1.0,
+      "wilson_95": [
+        0.5655175352168251,
+        1
+      ],
+      "rounds": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "consensus_groups": 0,
+      "proposal_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "adoption_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "public_evidence_counts": [
+        18,
+        20,
+        17,
+        23,
+        19
+      ],
+      "ties": 0,
+      "pre_tie_tallies": [
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        }
+      ],
+      "unavailable_citations": 0,
+      "transcript_only_citations": 0,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "C3",
+      "config": "00100",
+      "arm": "U",
+      "metric": "CONTINUE",
+      "successes": 5,
+      "valid": 5,
+      "planned": 5,
+      "missing_invalid": 0,
+      "rate": 1.0,
+      "wilson_95": [
+        0.5655175352168251,
+        1
+      ],
+      "rounds": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "consensus_groups": 0,
+      "proposal_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "adoption_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "public_evidence_counts": [
+        16,
+        19,
+        19,
+        16,
+        16
+      ],
+      "ties": 0,
+      "pre_tie_tallies": [
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        }
+      ],
+      "unavailable_citations": 0,
+      "transcript_only_citations": 0,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "C3",
+      "config": "11011",
+      "arm": "E",
+      "metric": "CONTINUE",
+      "successes": 5,
+      "valid": 5,
+      "planned": 5,
+      "missing_invalid": 0,
+      "rate": 1.0,
+      "wilson_95": [
+        0.5655175352168251,
+        1
+      ],
+      "rounds": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "consensus_groups": 0,
+      "proposal_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "adoption_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "public_evidence_counts": [
+        19,
+        15,
+        20,
+        15,
+        19
+      ],
+      "ties": 0,
+      "pre_tie_tallies": [
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        }
+      ],
+      "unavailable_citations": 0,
+      "transcript_only_citations": 0,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "C3",
+      "config": "11011",
+      "arm": "U",
+      "metric": "CONTINUE",
+      "successes": 4,
+      "valid": 4,
+      "planned": 5,
+      "missing_invalid": 1,
+      "rate": 1.0,
+      "wilson_95": [
+        0.5101091635454027,
+        1
+      ],
+      "rounds": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "consensus_groups": 0,
+      "proposal_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "adoption_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "public_evidence_counts": [
+        16,
+        16,
+        21,
+        20,
+        17
+      ],
+      "ties": 0,
+      "pre_tie_tallies": [
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 3,
+          "PIVOT": 0,
+          "missing": 1
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        }
+      ],
+      "unavailable_citations": 0,
+      "transcript_only_citations": 0,
+      "root_seed": 2026091202
+    },
+    {
+      "problem": "C3",
+      "config": "neutral",
+      "arm": "B",
+      "metric": "CONTINUE",
+      "successes": 4,
+      "valid": 4,
+      "planned": 5,
+      "missing_invalid": 1,
+      "rate": 1.0,
+      "wilson_95": [
+        0.5101091635454027,
+        1
+      ],
+      "rounds": [
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "consensus_groups": 0,
+      "proposal_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "adoption_counts": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "public_evidence_counts": [
+        17,
+        17,
+        14,
+        16,
+        15
+      ],
+      "ties": 0,
+      "pre_tie_tallies": [
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 3,
+          "PIVOT": 0,
+          "missing": 1
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        },
+        {
+          "CONTINUE": 4,
+          "PIVOT": 0,
+          "missing": 0
+        }
+      ],
+      "unavailable_citations": 0,
+      "transcript_only_citations": 0,
+      "root_seed": 2026091202
+    }
+  ],
+  "group_contrasts": [
+    {
+      "problem": "C1",
+      "config": "00100",
+      "contrast": "E-U",
+      "paired_n": 5,
+      "differences": [
+        0,
+        -1,
+        0,
+        0,
+        0
+      ],
+      "mean": -0.2,
+      "ci": null,
+      "note": "Five matched groups; descriptive only. Cell Wilson intervals reported separately."
+    },
+    {
+      "problem": "C1",
+      "config": "11011",
+      "contrast": "E-U",
+      "paired_n": 5,
+      "differences": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mean": 0.0,
+      "ci": null,
+      "note": "Five matched groups; descriptive only. Cell Wilson intervals reported separately."
+    },
+    {
+      "problem": "C2",
+      "config": "00100",
+      "contrast": "E-U",
+      "paired_n": 5,
+      "differences": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mean": 0.0,
+      "ci": null,
+      "note": "Five matched groups; descriptive only. Cell Wilson intervals reported separately."
+    },
+    {
+      "problem": "C2",
+      "config": "11011",
+      "contrast": "E-U",
+      "paired_n": 5,
+      "differences": [
+        0,
+        0,
+        0,
+        -1,
+        0
+      ],
+      "mean": -0.2,
+      "ci": null,
+      "note": "Five matched groups; descriptive only. Cell Wilson intervals reported separately."
+    },
+    {
+      "problem": "C3",
+      "config": "00100",
+      "contrast": "E-U",
+      "paired_n": 5,
+      "differences": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "mean": 0.0,
+      "ci": null,
+      "note": "Five matched groups; descriptive only. Cell Wilson intervals reported separately."
+    },
+    {
+      "problem": "C3",
+      "config": "11011",
+      "contrast": "E-U",
+      "paired_n": 4,
+      "differences": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "mean": 0.0,
+      "ci": null,
+      "note": "Five matched groups; descriptive only. Cell Wilson intervals reported separately."
+    }
+  ],
+  "completed_group_runs": 75,
+  "complete_allocation": true,
+  "simple_rows": 600
+}

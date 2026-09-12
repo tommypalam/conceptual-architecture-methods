@@ -2,7 +2,8 @@
 
 Phase 0 is closed, Phase 1 passed operationally, and Phase 1.5 is closed for the
 researcher-accepted limited normative-parameterization objective. The original
-full encoding battery remains unmet. No Phase 2 study or new paid run is released.
+full encoding battery remains unmet. The separately authorised exploratory Phase 2
+pilot is complete; the confirmatory study is not frozen or queued.
 
 | Phase | Current reference |
 |---|---|
@@ -12,7 +13,8 @@ full encoding battery remains unmet. No Phase 2 study or new paid run is release
 | 0c | [Locked holdout result](phase0c_locked_holdout/PHASE0C_RESULT_2026-07-29.md) |
 | 1 | [Operational pilot](phase1_pilot/PHASE1_PILOT_RESULT_2026-07-29.md) |
 | 1.5 | [Encoding evidence index](phase1_5_encoding_validity/README.md) |
-| 2 onward | Pending; see [next steps](../NEXT_STEPS.md) |
+| 2 exploratory | [Assessment and next experiment](phase2_exploratory_20260912/ASSESSMENT.md) |
+| 2 confirmatory and 3 onward | Pending; see [next steps](../NEXT_STEPS.md) |
 
 The [central archive](../archive/README.md) holds retired question revisions,
 historical Phase 0b records and superseded plans. Frozen experiment packages

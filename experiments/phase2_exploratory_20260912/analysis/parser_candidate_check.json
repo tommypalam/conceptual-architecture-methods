@@ -1,0 +1,335 @@
+{
+  "status": "Offline candidate only; no frozen outcome changed",
+  "group_responses_checked": 1580,
+  "prior_valid_votes_changed": [],
+  "recovered_votes": 24,
+  "prior_invalid": 25,
+  "invalid_cases": [
+    {
+      "slot": [
+        "complex",
+        "C3",
+        3,
+        "neutral",
+        "B",
+        6,
+        25
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        5,
+        "11011",
+        "E",
+        4,
+        22
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        1,
+        "00100",
+        "E",
+        1,
+        10
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        4,
+        "neutral",
+        "B",
+        1,
+        49
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        4,
+        "00100",
+        "U",
+        2,
+        34
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        1,
+        "00100",
+        "U",
+        2,
+        9
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        2,
+        "11011",
+        "U",
+        2,
+        13
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": null
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        1,
+        "00100",
+        "E",
+        2,
+        10
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        5,
+        "11011",
+        "U",
+        1,
+        39
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        2,
+        "11011",
+        "E",
+        2,
+        35
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C1",
+        1,
+        "00100",
+        "U",
+        1,
+        38
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "PACKAGE_B"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        4,
+        "neutral",
+        "B",
+        4,
+        34
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        1,
+        "11011",
+        "U",
+        6,
+        40
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        3,
+        "11011",
+        "E",
+        2,
+        22
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        1,
+        "00100",
+        "U",
+        3,
+        21
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        5,
+        "11011",
+        "E",
+        5,
+        42
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        2,
+        "00100",
+        "E",
+        2,
+        16
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C1",
+        4,
+        "00100",
+        "E",
+        4,
+        19
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "PACKAGE_B"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        1,
+        "11011",
+        "U",
+        3,
+        47
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        5,
+        "00100",
+        "E",
+        2,
+        39
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        1,
+        "00100",
+        "U",
+        3,
+        1
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C3",
+        4,
+        "neutral",
+        "B",
+        3,
+        34
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "CONTINUE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        5,
+        "11011",
+        "E",
+        4,
+        5
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        2,
+        "11011",
+        "E",
+        1,
+        35
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "APPROVE"
+    },
+    {
+      "slot": [
+        "complex",
+        "C2",
+        5,
+        "11011",
+        "U",
+        3,
+        47
+      ],
+      "old_status": "parse_failure",
+      "candidate_vote": "REJECT"
+    }
+  ],
+  "candidate_sha256": "1c2b7817497a8053a0f9ccf27813b01b078094b3dc08cb7c74054972c780e16f"
+}
