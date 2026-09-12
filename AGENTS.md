@@ -1,17 +1,17 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
-## Latest objective clarification (2026-09-12)
+## Accepted Phase 1.5 closure (2026-09-12)
 
-The researcher explicitly deprioritised passing the original gate in favour of
-a limited possibility claim: ethical parameters can begin to shape generated AI
-decisions. This current instruction governs the research priority; historical
-gate results remain recorded, not retroactively passed. Use the existing local,
-replicated PD evidence to assess functional normative parameterization. Do not
-equate upstream profile effects with demonstrated ethical understanding or an
-absence of provider-side alignment. Retain all ten parameters and contrary or
-unresolved results. See the latest entry in meta.md and the updated normative
-encoding objective. No further paid calls are queued; formal phase closure and
-any downstream design remain separate decisions.
+The researcher accepted the limited normative-encoding results and instructed
+proceed. Phase 1.5 is closed for that revised objective; the original full battery
+remains unmet and is not retrospectively passed. This post-results scope decision
+supersedes earlier OPEN status and does not claim a section 8.2 full/partial pass.
+Explicit profiles can influence decision generation, with local replicated PD
+evidence strongest. Ethical understanding and all-ten robustness are unestablished.
+Retain all ten coordinates and contrary or unresolved findings. No further paid
+Phase 1.5 calls are queued. The original full-architecture Phase 2 design is not
+released by this closure; prepare downstream scope and prerequisites offline.
+See meta.md and experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md.
 
 Updated 2026-09-12. This file and its companion contain the same working rules;
 edit both together. Current execution status belongs in NEXT_STEPS.md, and
@@ -120,80 +120,32 @@ The coding manual itself is still to be drafted and pre-registered before Phase 
 
 ## Phase Plan and Current Status
 
-Read [NEXT_STEPS.md](NEXT_STEPS.md) for the current phase ledger. Phase 0 is
-closed and Phase 1 passed operationally. **Phase 1.5 is open.** On 2026-09-12 the
-researcher rejected the assistant's closure interpretation and clarified the
-objective: establish whether explicit normative parameters can systematically
-shape AI behaviour under specified conditions. See the [objective](experiments/phase1_5_encoding_validity/NORMATIVE_ENCODING_OBJECTIVE_2026-09-12.md).
-The original validity gate is still unmet and Phase 2 remains on hold.
+Read [NEXT_STEPS.md](NEXT_STEPS.md) for the current ledger. Phase 0 is closed and
+Phase 1 passed operationally. **Phase 1.5 is closed for the researcher-accepted
+limited objective**, with evidence of functional normative parameterization.
+This is an explicit post-results scope decision. The original gate is still
+unmet; neither full nor partial passage of the original battery is claimed.
 
-The original fresh battery contains 39,000 unique behavioural responses (38,993
-valid) and a separate 200-item audit. Only 8/30 paraphrase cells establish
-equivalence (24 required). The later 360-call transfer test supports local MoR
-and MS endpoint effects across 20 new backgrounds; MS is not an ordered gradient
-and RE remains unresolved. MoR primarily concerns response style; MS is more
-directly relevant to normative orientation. Do not equate either result with
-internal ethical understanding or validation of the entire architecture.
+See the [accepted closure](experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md)
+and [all-ten assessment](experiments/phase1_5_encoding_validity/all_ten_assessment_20260912/ASSESSMENT.md).
+PD has independent confirmation and later canonical/verbal effects. All ten
+parameters remain reported, including numeric RT counterevidence and unresolved
+MS gradients. Broad wording/representation robustness and aggregate explanation
+recovery remain insufficient. No intrinsic understanding or AGI is established.
 
-The researcher authorised structural diagnostics and a full all-parameter sweep
-on 2026-09-12, superseding the spending pause. The theory supports architecture-
-level generative normative inputs (3.5, 4, 4.2, 8.3), while permitting prompt
-injection and external state (4.1/4.1.1). No weight-level understanding is claimed.
-See the [staged protocol](experiments/phase1_5_encoding_validity/structural_encoding_20260912/PROTOCOL.md): 480 diagnostics, 3,000 calls covering all
-ten parameters/three dilemmas/five levels, then the existing 200-item blind audit
-if exact coding requests fit the remaining $25 allocation. All original signs
-are retained; absent signs remain exploratory. All backgrounds are retained.
-No theory, locked prompt, distribution, R or original gate changes. Phase 2 is
-still held. The older closure and nine-prediction draft are superseded.
+The prior structural package saved 3,580 valid behavioural responses and 200 valid
+blind codings. The follow-up dispatched 17,250 requests, saved 17,247 records
+and obtained 17,234 valid responses. Missing/invalid slots, disjoint segments,
+unknown costs and unavailable complete-data primary analysis remain explicit.
+Prespecified paired sensitivity results do not silently replace the primary.
+Latest tracked cumulative accounting is $22.66401475 against $25; no further paid
+calls queued. This is not total lifetime spending. Raw archives are local with
+verified checksums; off-device backup is not established.
 
-
-The structural package is complete: 480 diagnostic, 3,000 full-sweep and
-100 independent PD-confirmation responses, all valid, plus 200 valid blind
-schema-R3 codings. Both fresh PD endpoint predictions passed exact paired tests
-and simultaneous intervals. PD also has the strongest active audit signal
-(11/20 correct; supplementary Holm p=.03), with repeated-background dependence
-and self-explanation limits disclosed. Overall literal audit thresholds fail.
-These findings support local normative parameterization; the original full gate
-remains unmet. Phase 1.5 stays open and Phase 2 held. Known estimated cost
-$4.619095 plus unknown-usage bound $0.012067; conservative reservations
-$24.729379 under the $25 cap. No further calls queued. See the
-[completed assessment](experiments/phase1_5_encoding_validity/structural_encoding_20260912/FINAL_ASSESSMENT.md).
-
-On 2026-09-12 the researcher confirmed a follow-up covering all ten parameters
-under three evidence categories: causal/graded effects, wording plus numeric/
-verbal robustness, and blind recovery. All four original subtests remain; no
-new combined gate or meaning changes. The all-ten offline coverage table and
-pending additional spending-envelope question are in NEXT_STEPS.md. No new
-follow-up API calls have been dispatched.
-
-The researcher subsequently instructed go. The all-ten follow-up uses a fixed
-17,250-call allocation with fresh canonical comparators, preserving the prior
-audit as separate evidence. It retains the existing cumulative$25 cap through
-settled usage plus full in-flight batch reservations; unknown charges remain
-reserved. No increased allowance, theoretical change or Phase2 release is
-inferred. Administrative budget stopping must remain explicit and incomplete.
-See the follow-up protocol and current dispatch status in NEXT_STEPS.md.
-The first segment stopped at1,941 attempts after three API timeouts. Its archive
-and failures are preserved. A separate administrative continuation covers only
-the15,309 unattempted slots, retaining all settings, thresholds and unknown cost
-bounds. Segment combination must remain disjoint and disclose the interruption.
-Completion of dispatch does not repair invalid slots or establish a gate pass.
-Monitoring later detected segment2 absent after12,663 total saved responses,
-with three unresolved intents and4,584 never-dispatched slots. Offline
-finalization and archive verification are complete, with 12,651 valid records
-and $17.89124275 accounted including full unknown bounds. No further paid
-segment is running. The exact interruption cause is unestablished. See NEXT_STEPS.md.
-The researcher then explicitly instructed continue: a third segment covers only
-the 4,584 untouched requests, retaining the $25 total cap and all unknown
-reservations. All prior intents remain excluded. Monitor its saved PID plus
-checkpoint freshness; the scientific design and missing-data rules are unchanged.
-The third segment is now complete: all 17,250 slots dispatched, 17,247 saved,
-17,234 valid; three unresolved slots and thirteen invalid records preserved.
-Total accounted $22.66401475; no further paid run queued. Wording equivalence
-is 1/30 (25 complete; independent TOST sensitivity 3/30), and original-rule
-retention is 0/2 eligible comparisons. PD shows canonical and verbal paired
-effects; numeric RT/S3 reverses its original prediction. The full gate remains
-unmet. See the all-ten assessment and NEXT_STEPS.md; no automatic phase closure.
+The original full-architecture Phase 2 study is not released. Next work is thesis
+integration and a concrete downstream scope with its own analysis and required
+coding review. No parameter removal, theory amendment, locked-prompt edit or new
+parameter-to-behaviour mapping follows from accepting the limited conclusion.
 
 ## Experimental Problems
 

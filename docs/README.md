@@ -2,12 +2,14 @@
 
 ## Active documents
 
-[Current structural-encoding protocol](../experiments/phase1_5_encoding_validity/structural_encoding_20260912/PROTOCOL.md): Phase 1.5 open; diagnostics and full parameter coverage authorised.
+[Accepted Phase 1.5 closure](../experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md): limited normative parameterization supported; original battery unmet; collection closed.
 
 | File | Role |
 |---|---|
 | [Repository introduction](../README.md) | Research question, scope, and navigation |
 | [Phase 1.5 closure](../experiments/phase1_5_encoding_validity/PHASE1_5_CLOSURE_2026-09-12.md) | Historical synthesis; closure decision superseded by researcher clarification |
+| [Accepted closure](../experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md) | Current researcher-accepted scope and evidence limits |
+| [Results draft](phase1_5_results.md) | Completed results and interpretation for the thesis |
 | [Current status](../NEXT_STEPS.md) | Single detailed operational phase ledger |
 | [7 September handoff](HANDOFF_2026-09-07.md) | Interrupted-sample recovery plan and next-person briefing |
 | [AGENTS.md](../AGENTS.md) / [CLAUDE.md](../CLAUDE.md) | Matching research and engineering constitutions |

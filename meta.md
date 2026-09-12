@@ -1,5 +1,35 @@
 # PARIA decision log
 
+## 2026-09-12 - Researcher accepts limited-result Phase 1.5 closure
+
+Following the explicit deprioritisation of the original gate and acceptance of
+functional normative parameterization as the limited claim, the researcher said:
+"ok then lets porceed im satisfied with these resutls". Record this as acceptance
+of closure for that revised objective and proceed to thesis integration. It does
+not retroactively pass the original gate or establish ethical understanding.
+
+Synthetic review (internal structured perspectives, not external endorsement):
+- Linden supports the limited possibility claim while reserving understanding.
+- Osei requires disclosure that scope was accepted after results and preserves
+  independent-cohort versus exploratory evidence and all ten outcomes.
+- Tanaka retains original thresholds, missingness, intervals and multiplicity;
+  no new numerical pass criterion is derived from favourable observations.
+- Renna distinguishes closing this investigation from validating the original
+  full-architecture downstream design; transfer remains an empirical question.
+- Okafor closes further collection and prepares the results, abstract and next
+  requirements using existing verified artifacts at zero additional API cost.
+
+The tension is a positive local finding versus the broader unmet gate. Resolution:
+accept closure for the researcher's revised objective, disclose the scope change,
+and retain the original gate outcome as a result. No section 8.2 full/partial
+pass is awarded. The original Phase 2 study remains unreleased; offline preparation
+is appropriate. Theory, distributions, prompts, raw data and parameter set are
+unchanged. The matching constitutions and current ledger reflect this decision.
+
+Created ACCEPTED_CLOSURE_2026-09-12.md and docs/phase1_5_results.md; updated the
+abstract and navigation. Earlier NEXT_STEPS.md was archived byte-for-byte before
+replacing its stale execution narrative. No paid call or new data analysis.
+
 ## 2026-09-12 - Researcher prioritises limited generative encoding claim
 
 Decision: assess whether ethical parameters can begin to shape generated AI

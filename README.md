@@ -22,36 +22,33 @@ hypotheses to evaluate, not established properties of human or artificial minds.
 
 ## Current state
 
-**Phase 0 is closed; Phase 1 passed operationally; Phase 1.5 is open and the
-full validity gate remains unmet. Phase 2 remains on hold.** The researcher
-rejected the earlier closure interpretation and clarified the goal: determine
-whether normative parameters systematically shape AI decisions under specified
-conditions. See the [current objective](experiments/phase1_5_encoding_validity/NORMATIVE_ENCODING_OBJECTIVE_2026-09-12.md).
-The researcher has authorised [structural diagnostics and an all-parameter sweep](experiments/phase1_5_encoding_validity/structural_encoding_20260912/PROTOCOL.md)
-within a $25 reservation cap. The theory remains unchanged.
-The package is now complete: 3,580 valid behavioral responses and 200 valid
-blind codings. Independent PD effects replicated in both tested dilemmas,
-providing local normative-parameterization evidence; the full gate remains unmet.
-[Completed assessment](experiments/phase1_5_encoding_validity/structural_encoding_20260912/FINAL_ASSESSMENT.md).
+**Phase 0 is closed; Phase 1 passed operationally; Phase 1.5 is closed for the
+researcher-accepted limited encoding objective.** The original full validity gate
+remains unmet. The broader Phase 2 design has not been released or run.
+[Accepted closure](experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md).
 
-The original battery collected 39,000 unique behavioural responses (38,993 valid)
-and a separate 200-item audit. Only 8/30 paraphrase cells establish equivalence
-(24 required); representation retention and active-trait recovery remain
-insufficient. Later targeted studies establish useful local parameter influence:
-a final 360-response test supports MoR and MS endpoint effects across 20 new
-complete backgrounds. MS does not show an ordered gradient, and RE remains
-unresolved. These findings do not establish internal ethical understanding or
-validate the complete ten-parameter architecture.
+The evidence supports initial functional normative parameterization: explicit
+profiles can systematically influence generated decisions in the tested model,
+harness and dilemmas. Procedural Dependence has independent endpoint confirmation
+and later canonical/verbal effects. Ethical understanding and complete ten-parameter
+validity remain unestablished. All ten parameters and mixed findings stay reported.
 
-[NEXT_STEPS.md](NEXT_STEPS.md) owns current execution status;
-all positive, negative and inconclusive evidence is retained. The interrupted
-September 6 sample remains separate from the fresh battery.
+The structural package contains 3,580 valid behavioural responses and 200 valid
+blind codings. Its all-ten follow-up dispatched 17,250 requests, saving 17,247
+records, 17,234 valid. Missingness and failures remain explicit. The earlier
+39,000-response battery remains separate; its 8/30 paraphrase result did not
+meet the original 24/30 criterion. No original result or threshold is revised.
+[Complete all-ten assessment](experiments/phase1_5_encoding_validity/all_ten_assessment_20260912/ASSESSMENT.md).
 
-Completed calibration exposed substantial prompt-harness effects on the tested
-model. The locked holdout therefore supplies measured, problem-specific naked
-baselines, rather than an assumed 50/50 reference. These findings and the
-operational pilot do not yet establish encoding validity, human behavioural
-validity, or moral competence.
+The researcher accepted a limited possibility claim after seeing the results.
+This is a disclosed scope decision, not a retrospective battery pass. The
+[results draft](docs/phase1_5_results.md) and [abstract](docs/abstract.md) state
+that conclusion and its limits. [NEXT_STEPS.md](NEXT_STEPS.md) owns the current
+ledger. No further paid Phase 1.5 run is queued.
+
+Locked Phase 0 calibration exposed substantial harness effects; its measured,
+problem-specific baselines remain in force. Theory, parameter meanings, Beta
+marginals, correlations and locked questions are unchanged.
 
 ## Read in this order
 

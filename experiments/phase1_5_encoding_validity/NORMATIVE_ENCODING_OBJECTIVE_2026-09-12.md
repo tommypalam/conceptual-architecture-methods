@@ -1,5 +1,15 @@
 # Research objective: evidence that normative parameterisation is possible
 
+## Accepted outcome (12 September 2026)
+
+The researcher accepted the limited positive result and instructed proceed.
+Phase 1.5 is now closed for this objective. The original battery remains unmet;
+this is a post-results scope decision, not an original full/partial pass.
+The [accepted closure](ACCEPTED_CLOSURE_2026-09-12.md) supersedes the pending-closure
+statements below. No paid calls are queued. Thesis integration and offline
+preparation of downstream scope are next; no full-architecture Phase 2 release
+is inferred.
+
 ## Latest researcher clarification: a limited possibility claim
 
 The researcher explicitly deprioritised passing the original gate and clarified
