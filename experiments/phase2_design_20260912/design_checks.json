@@ -1,0 +1,155 @@
+{
+  "kind": "offline_design_arithmetic_not_empirical_results",
+  "current": {
+    "codes": [
+      "00100",
+      "11011",
+      "00001",
+      "11110",
+      "00010",
+      "11101",
+      "00111",
+      "11000",
+      "00000",
+      "11111"
+    ],
+    "row_count": 10,
+    "columns": [
+      "intercept",
+      "Freedom",
+      "Justice",
+      "Authority",
+      "Care",
+      "Loyalty"
+    ],
+    "missing_values": 0,
+    "coverage": {
+      "Freedom": {
+        "0": 5,
+        "1": 5
+      },
+      "Justice": {
+        "0": 5,
+        "1": 5
+      },
+      "Authority": {
+        "0": 5,
+        "1": 5
+      },
+      "Care": {
+        "0": 5,
+        "1": 5
+      },
+      "Loyalty": {
+        "0": 5,
+        "1": 5
+      }
+    },
+    "anchors_present": true,
+    "coverage_pass": true,
+    "size_pass": true,
+    "additive_rank": 5,
+    "required_rank": 6,
+    "full_additive_rank": false,
+    "exact_axis_aliases": [
+      "Freedom = Justice"
+    ],
+    "hamming_histogram": {
+      "1": 6,
+      "2": 14,
+      "3": 14,
+      "4": 6,
+      "5": 5
+    },
+    "hamming_entropy_nats": 1.5079534137228887,
+    "mean_hamming_distance": 2.7777777777777777
+  },
+  "proposal": {
+    "removed": "00111",
+    "added": "01111",
+    "design": {
+      "codes": [
+        "00100",
+        "11011",
+        "00001",
+        "11110",
+        "00010",
+        "11101",
+        "01111",
+        "11000",
+        "00000",
+        "11111"
+      ],
+      "row_count": 10,
+      "columns": [
+        "intercept",
+        "Freedom",
+        "Justice",
+        "Authority",
+        "Care",
+        "Loyalty"
+      ],
+      "missing_values": 0,
+      "coverage": {
+        "Freedom": {
+          "0": 5,
+          "1": 5
+        },
+        "Justice": {
+          "0": 4,
+          "1": 6
+        },
+        "Authority": {
+          "0": 5,
+          "1": 5
+        },
+        "Care": {
+          "0": 5,
+          "1": 5
+        },
+        "Loyalty": {
+          "0": 5,
+          "1": 5
+        }
+      },
+      "anchors_present": true,
+      "coverage_pass": true,
+      "size_pass": true,
+      "additive_rank": 6,
+      "required_rank": 6,
+      "full_additive_rank": true,
+      "exact_axis_aliases": [],
+      "hamming_histogram": {
+        "1": 7,
+        "2": 13,
+        "3": 13,
+        "4": 8,
+        "5": 4
+      },
+      "hamming_entropy_nats": 1.529089953874644,
+      "mean_hamming_distance": 2.7555555555555555
+    },
+    "admissible_single_replacements": 128,
+    "status": "PROPOSAL_ONLY_REQUIRES_REVIEW",
+    "global_entropy_optimality_claimed": false
+  },
+  "provisional_call_budget": {
+    "profiles": 200,
+    "configurations": 10,
+    "problems": 3,
+    "encoded_calls": 6000,
+    "unencoded_calls": 6000,
+    "core_calls": 12000,
+    "group_calls_maximum": 3950,
+    "group_design": "10 groups per task; 2 anchors x E/U plus neutral bridge; C1/C2/C3 retained",
+    "default_total_calls_maximum": 15950,
+    "optional_anchor_postfilter_calls": 1200,
+    "core_plus_anchor_postfilter_calls": 13200,
+    "default_plus_postfilter_calls_maximum": 17150,
+    "scope": "Excludes transfer, benchmarks, coding, human data and retries; these need separate allocations",
+    "user_hard_cap_usd": 100,
+    "proposed_operational_ceiling_usd": 90,
+    "dollar_estimate": null,
+    "note": "Budget received; exact payload and transcript reservations pending"
+  }
+}

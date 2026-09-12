@@ -2,6 +2,13 @@
 
 ## Desktop continuation (2026-09-12)
 
+Phase 2 continuation: the researcher requested rigorous, expedited design work
+on generation-time ethical encoding, human resemblance and moral consequences,
+preserving LPM and Agents-of-Chaos-inspired interaction. The new package has a
+$100 absolute API cap; spend as little as feasible. See the revised proposal in
+experiments/phase2_design_20260912/PROTOCOL_DRAFT.md and NEXT_STEPS.md. Preparation
+does not itself approve a new configuration subset, coding scheme or live run.
+
 The researcher authorised publication to main with the previous published main
 preserved as backup. Use docs/desktop_handoff.md on the desktop. Recent ignored
 research data transfers separately; a Git clone alone is incomplete. No new paid

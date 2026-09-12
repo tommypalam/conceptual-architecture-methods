@@ -9,6 +9,12 @@
 
 ## Status
 
+2026-09-12 continuation: the researcher authorised expedited Phase 2 design work
+under a $100 absolute API cap. The [revised design proposal](../experiments/phase2_design_20260912/PROTOCOL_DRAFT.md)
+specifies scope, matched controls, implementation findings and outstanding review.
+The original broad-study hypotheses below remain preserved; the proposal is not
+yet the final preregistered execution plan and introduces no retrospective pass.
+
 Updated 2026-09-12: the hypotheses below retain the original broad-study draft.
 They are not newly authorised by scoped Phase 1.5 closure. The concrete downstream
 design remains to be settled. Only status text changed during cleanup; the

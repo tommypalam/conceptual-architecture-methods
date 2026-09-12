@@ -2,6 +2,29 @@
 
 Updated 2026-09-12. Published branch: `main`. Create a development branch before new work.
 
+## Revised Phase 2 preparation (2026-09-12)
+
+The researcher requested a rigorous, expedited adjustment around ethical encoding
+during generation, human behavioural resemblance and good/bad consequences, while
+retaining both the LPM population design and Agents-of-Chaos-inspired interaction.
+The new Phase 2 API budget is **as low as feasible, $100 absolute maximum**.
+Preparation is on `phase2-design-20260912`; no paid call has been made.
+
+Read the [concrete revised design](experiments/phase2_design_20260912/PROTOCOL_DRAFT.md).
+It proposes 12,000 paired encoded/context-only simple calls and up to 3,950 calls
+for all three group tasks in a smaller anchor comparison. A postfilter comparator
+is optional, not queued. The default illustrative generation estimate is about
+$27 before uplift, not a full reservation or a validated sample-size calculation.
+
+The [offline check](experiments/phase2_design_20260912/design_checks.json) confirms
+Freedom and Justice are identical in the existing configuration columns (rank
+5/6) and provides an outcome-free single-row repair proposal. The original config
+file is unchanged. Group readiness findings include an all-low “neutral” bridge,
+placeholder C3 evidence and incomplete per-call provenance. Configuration/control
+review, power and estimator validation, moral-manual review, exact budget bounds
+and preregistration remain required before collection. These preparations do not
+reopen Phase 1.5 or claim that Phase 2 has begun.
+
 **Phase 1.5 is closed for the researcher-accepted, limited normative-encoding objective.**
 The researcher accepted the results and instructed the project to proceed.
 The original full battery remains unmet; it is not retrospectively passed.

@@ -19,6 +19,7 @@ limited normative parameterization, not demonstrated ethical understanding.
 | Document | Use it for |
 |---|---|
 | [Next steps](../NEXT_STEPS.md) | Current work and remaining dependencies |
+| [Revised Phase 2 proposal](../experiments/phase2_design_20260912/PROTOCOL_DRAFT.md) | Encoding/control comparisons, population and group designs, $100 cap and required preparation |
 | [Pre-analysis plan](pre_analysis_plan.md) | The original broad-study draft; downstream scope remains to be settled |
 | [Variable codebook](variables.json) | Exact parameter codes, definitions and distributions |
 | [Research programme](research_programme.md) | Researcher-supplied context beyond this thesis |
