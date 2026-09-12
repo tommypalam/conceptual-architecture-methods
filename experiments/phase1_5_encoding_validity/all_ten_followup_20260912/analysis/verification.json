@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "recorded": 1941,
+  "all_planned_recorded": false,
+  "unique_provider_ids": 1938,
+  "raw_requests_and_hashes_verified": true,
+  "terminal_results_recomputed": true,
+  "archive_bytes_verified": true,
+  "result_sha256": "5d90c276a4e86f02c98dfe46a56af1ac5a529d55c34d3a7dfcc380ceb315161e",
+  "off_device_backup_verified": false
+}
