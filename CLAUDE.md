@@ -160,6 +160,11 @@ settled usage plus full in-flight batch reservations; unknown charges remain
 reserved. No increased allowance, theoretical change or Phase2 release is
 inferred. Administrative budget stopping must remain explicit and incomplete.
 See the follow-up protocol and current dispatch status in NEXT_STEPS.md.
+The first segment stopped at1,941 attempts after three API timeouts. Its archive
+and failures are preserved. A separate administrative continuation covers only
+the15,309 unattempted slots, retaining all settings, thresholds and unknown cost
+bounds. Segment combination must remain disjoint and disclose the interruption.
+Completion of dispatch does not repair invalid slots or establish a gate pass.
 
 ## Experimental Problems
 

@@ -171,3 +171,8 @@ experiments/phase1_5_encoding_validity/all_ten_followup_20260912/progress.tmp
 # Large exact request bundles stay local; their SHA256 hashes are committed.
 experiments/phase1_5_encoding_validity/all_ten_followup_20260912/manifest.json
 experiments/phase1_5_encoding_validity/all_ten_followup_20260912/request_preview.json
+
+# Separate continuation: immutable raw payloads remain local.
+experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment2/records/
+experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment2/dispatches/
+experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment2/progress.*

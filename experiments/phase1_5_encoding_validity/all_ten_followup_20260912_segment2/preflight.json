@@ -1,0 +1,9 @@
+{
+  "continuation_tests_passed": 4,
+  "original_followup_tests_passed": 6,
+  "parent_record_count": 1941,
+  "remaining_exact_schedule_suffix": 15309,
+  "failed_slots_excluded": true,
+  "unknown_reservations_carried": true,
+  "plan_sha256": "356d22b88c8314880c2511d9c92b5c580118604cee17a06004592ce5626b8405"
+}

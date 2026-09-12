@@ -16,6 +16,26 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+## 2026-09-12 - Preserve timeout stop and continue only untouched slots
+
+Observed three TimeoutError records after1,941 attempted requests (1,937 valid,
+one parsing failure, three API failures). Original terminal analysis, raw hashes
+and archive were verified and committed as3d502ab3. No quota error was recorded;
+actual provider-side cause and timed-out usage remain unknown. Total accounted
+cost is$6.66183325, retaining$0.019947 new unknown bounds within the existing$25.
+
+Continue the15,309 unattempted requests under a separately frozen execution
+protocol. Exact parent schedule, messages, model, seeds, timeout, concurrency and
+analysis remain. Failures are never retried or replaced. Combine disjoint raw
+inventories only to assess the original fixed allocation; disclose the time
+segment and incomplete valid data. This is an administrative continuation of
+authorized work, not a scientific design amendment or new spending allowance.
+Synthetic perspectives: Linden retains meaning; Osei discloses the interruption;
+Tanaka retains missing slots and unknown bounds; Renna keeps audit provenance
+separate; Okafor requires disjoint intents and tested fail-stop safeguards.
+Resolution: preserve the original stopped segment and proceed only with never-
+dispatched slots. No criterion change, favorable-cell selection or gate release.
+
 ## 2026-09-12 - All-ten requests frozen and live collection verified
 
 Six preflight tests passed, including full synthetic17,250-row scoring, all90

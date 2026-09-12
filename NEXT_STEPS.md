@@ -3,7 +3,7 @@
 Updated 2026-09-12. Working branch: `phase1-5-all-ten-criteria`.
 
 **The previous structural package is complete; the new all-ten follow-up is
-running. Phase 1.5 remains open, the original full validity gate is unmet, and
+being continued after a technical stop. Phase 1.5 remains open, the original full validity gate is unmet, and
 Phase 2 remains on hold.**
 The researcher rejected the earlier closure interpretation. No automatic
 closure, threshold relaxation, theoretical revision or parameter removal is made.
@@ -21,23 +21,24 @@ The researcher explicitly confirmed the next scope: all ten parameters against
 thresholds. No parameter is removed or selected solely for a favorable result.
 [All-ten coverage table](experiments/phase1_5_encoding_validity/all_ten_criteria_20260912/COVERAGE.md).
 
-The offline table reconciles historical and fresh evidence without pooling.
-The researcher then instructed go. A fixed17,250-response follow-up is being
-prepared: first25 of50 new backgrounds for all-ten three-representation gradients
-(11,250 calls), all50 for four-wording .8 rotations (6,000 calls). Prior200-item
-recovery evidence remains separate; it is not recoded or pooled.
-[Follow-up protocol](experiments/phase1_5_encoding_validity/all_ten_followup_20260912/PROTOCOL.md).
+The fixed17,250-response follow-up stopped at1,941 records:1,937 valid,
+one parsing failure and three simultaneous API timeouts. Scoring, provenance
+verification and same-computer archiving completed (commit3d502ab3). The partial
+study is not a new validity result. Original files and failures remain unchanged.
+[Verified segment1](experiments/phase1_5_encoding_validity/all_ten_followup_20260912/STATUS.md).
 
-The existing$25 total ceiling is retained. Prior settled/unknown accounting is
-$4.63116175; each new batch must fit alongside that amount and new settled usage.
-Unused reservations of resolved old calls are released in a new ledger; the old
-ledger stays immutable. A budget stop yields an incomplete study, never a smaller
-post hoc success. No larger spending authorization is inferred from go. Exact
-requests are frozen and six preflight tests passed. Collection is running.
-[Live progress](experiments/phase1_5_encoding_validity/all_ten_followup_20260912/progress.json)
-is refreshed every30 responses. Scoring and same-computer archiving run at
-termination; a local completion worker verifies and summarizes the results.
-Phase1.5 remains open.
+An administrative continuation is being verified for exactly15,309 unattempted
+requests in the original schedule. No failed request is replaced. Prompts, model,
+seed per request, timeout, concurrency, analyses and thresholds remain frozen.
+Prior known/unknown accounting is$6.66183325 of the existing$25 ceiling, including
+$0.019947 for the three timeouts. The continuation retains that full bound and
+reserves each new batch. The provider balance is not verified.
+[Continuation protocol](experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment2/PROTOCOL.md).
+
+All-ten scope remains11,250 gradient calls (25 backgrounds, three representations)
+and6,000 wording calls (50 backgrounds, four wordings), with the completed prior
+200-item audit separate. Analyze disjoint segments together as one frozen design,
+with invalid slots and the interruption explicit. Phase1.5 remains open.
 
 ## New evidence
 
