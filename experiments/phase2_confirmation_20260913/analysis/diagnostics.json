@@ -1,0 +1,46 @@
+{
+  "at": "2026-09-12T23:41:17.246335+00:00",
+  "manifest_hash": "2290a0e2e4d11770ebc0c879bc63951b6ae51ecdbbf31e15b96e32dc9fa3ba5a",
+  "statuses_by_task": {
+    "C3:ok": 2397,
+    "S2:ok": 1600,
+    "S1:ok": 1600,
+    "S3:ok": 1600,
+    "C2:ok": 3000,
+    "C1:ok": 805,
+    "C3:missing_or_ambiguous": 3
+  },
+  "missing_field_diagnostics": {
+    "C2:missing_ADOPT": 2
+  },
+  "parser_comparison_on_fresh_responses": {
+    "confirmation_vote_ok": 6202,
+    "strict_pilot_vote_ok": 6154,
+    "recovered_by_prospective_parser": 51,
+    "previously_valid_label_changed": 3
+  },
+  "group_audit_event_counts": {
+    "C2:duplicate_proposal_text_ids": 25,
+    "C3:duplicate_proposal_text_ids": 0,
+    "C3:invalid_adoptions": 0,
+    "C3:malformed_adoption_field": 0,
+    "C3:reference_only_proposal": 0,
+    "C3:field_errors": 0,
+    "C3:unavailable_citations": 0,
+    "C3:transcript_only_citations": 0,
+    "C1:duplicate_proposal_text_ids": 0,
+    "C3:disclosure_retained_despite_bad_vote": 2,
+    "C2:invalid_adoptions": 0,
+    "C2:malformed_adoption_field": 0,
+    "C2:reference_only_proposal": 5,
+    "C2:field_errors": 0,
+    "C2:unavailable_citations": 0,
+    "C2:transcript_only_citations": 0
+  },
+  "parser_failure_count": 3,
+  "c2_word_screen_candidates": 1818,
+  "candidates_hash": "a171d5a7a615e41a64437e6bcff1e0742458d7f46246f5b8b9c0c32aab991a49",
+  "c2_proposal_text_without_amend_action": 26,
+  "moral_scores_assigned": false,
+  "human_gold_review": false
+}

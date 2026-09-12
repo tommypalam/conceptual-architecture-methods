@@ -2,7 +2,25 @@
 
 Prepared 12 September 2026 for Tommaso Piero Palamenga.
 
-## Message for the next Codex chat
+## Current continuation: 13 September 2026
+
+The amended Phase 2 behavioural study is complete on the local development
+branch `phase2-design-20260912`; do not assume GitHub main contains these new
+results until they are published. Read NEXT_STEPS.md and
+experiments/phase2_confirmation_20260913/ASSESSMENT.md. Confirmation saved 11,005
+responses and 300 group runs; six primary individual contrasts and one secondary
+group contrast passed their respective corrections. Pilot plus confirmation
+conservatively accounts for $22.906073025 of the $100 new-package cap.
+No paid run is active or queued. Next phases are human benchmarking and reviewed
+moral coding, not another automatic Phase 2 collection. Preserve the frozen
+collector (commit 14349800), all raw records, and both Phase 2 archives.
+The new local archive is output/phase2_confirmation_20260913_raw.zip, SHA-256
+791b8635f9d3458c9713f9d06f858e40eb8eedf613d813ca4366175790b2a112.
+Every one of its 22,312 files was verified against the source. Off-device backup
+is not established, and Git does not include ignored raw data.
+
+## Earlier desktop migration instructions: 12 September
+
 
 Continue work on `tommypalam/conceptual-architecture-methods` from the current
 GitHub `main` branch. Read this handoff, `README.md`, `NEXT_STEPS.md`, `AGENTS.md`

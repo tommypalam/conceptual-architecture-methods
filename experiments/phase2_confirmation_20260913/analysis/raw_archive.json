@@ -1,0 +1,13 @@
+{
+  "verified_at": "2026-09-12T23:43:16.962084+00:00",
+  "manifest_hash": "2290a0e2e4d11770ebc0c879bc63951b6ae51ecdbbf31e15b96e32dc9fa3ba5a",
+  "archive": "output\\phase2_confirmation_20260913_raw.zip",
+  "sha256": "791b8635f9d3458c9713f9d06f858e40eb8eedf613d813ca4366175790b2a112",
+  "archive_bytes": 53581434,
+  "file_count": 22312,
+  "uncompressed_bytes": 124713092,
+  "inventory": "output\\phase2_confirmation_20260913_raw_inventory.json",
+  "inventory_sha256": "ffa12a2e7f8ee1ca46616c1d7f8774af81290dcd8723ad82fcc352c9599bfa3c",
+  "every_member_crc_and_source_sha256_verified": true,
+  "off_device_backup_verified": false
+}

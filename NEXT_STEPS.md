@@ -1,110 +1,73 @@
 # Current state and next steps
 
-## Fresh Phase 2 confirmation authorised (2026-09-13)
+Updated 2026-09-13. Current local development branch: `phase2-design-20260912`.
+The new Phase 2 results are committed locally; publication to main is separate.
 
-The researcher instructed: "lets go ahead and complete phase 2 run it". Execute
-experiments/phase2_confirmation_20260913/PROTOCOL.md on the development branch:
-400 fresh profiles, two existing anchors, E/U individual controls, twenty matched
-groups per task and condition plus neutral bridges. Freeze before paid calls.
-New-run ceiling $30; completed pilot $4.15084065; absolute combined API cap $100.
-This supersedes earlier no-confirmation-queued status. The pilot remains immutable.
-The revised behavioural study defers human benchmarking and validated moral
-scoring to Phases 3 and 4; no original ten-environment completion is claimed.
-Independent-field parsing and explicit C2 adopted state address observed pilot
-failures prospectively. All ten parameters, distributions and locked tasks stay
-unchanged. See the protocol for synthetic review and inference limits.
+## Phase 2 behavioural study complete (2026-09-13)
 
-Updated 2026-09-12. Published branch: `main`. Create a development branch before new work.
+The researcher-authorised exploratory-first sequence is complete for the amended
+two-anchor behavioural study. See
+experiments/phase2_confirmation_20260913/ASSESSMENT.md. Fresh confirmation used
+400 profiles, 4,800 individual responses and 300 matched-condition group runs;
+11,005 API responses in total. All six primary individual contrasts and one of
+seven secondary group contrasts passed their respective Holm corrections.
+All final outcomes are complete; three intermediate C3 duplicate-marker votes
+remain invalid. Full request/state replay passed with zero new API calls.
 
-## Small Phase 2 pilot complete (2026-09-12)
+Follow-up conservative accounting is $18.755232375; pilot plus follow-up totals
+$22.906073025 against the absolute $100 new-package cap. No paid run is active
+or queued. Preserve the frozen source, raw records and local verified archives.
+The original ten-environment Phase 2 design is not claimed complete. Human
+benchmarking is Phase 3 and human-validated moral scoring is Phase 4; the coding
+manual still needs the required human review. Ethical understanding, human
+resemblance and moral quality are not established. C2 interface limitations and
+C3 outcome saturation remain documented; any repair must be prospective.
 
-The researcher chose the exploratory-first sequence after reviewing the roadmap
-and smaller budget option. Work continues on `phase2-design-20260912`.
-The [pilot protocol](experiments/phase2_exploratory_20260912/PROTOCOL.md) fixes
-50 new profiles, both existing anchors, E/U controls and five matched groups per
-task plus neutral bridges: 600 simple calls and up to 1,975 group calls.
-The pilot has a $10 operational cap inside the $100 absolute new-package API cap.
-Transport, matching, neutral context, voting, amendments and private-evidence
-state are repaired in separate prospective modules; historical runners remain
-unchanged. The runner is `code/run_phase2_pilot.py`. The local manifest is frozen
-and [offline verification](experiments/phase2_exploratory_20260912/VERIFICATION.md)
-passed: 21 targeted checks and a complete mock run with duplicate-free replay.
-The pilot completed under frozen commit `642c1297`: **2,180 responses, all 600
-simple slots and 75 group runs**. 25 group responses failed the strict format;
-two final C3 outcomes are incomplete. No API failures or unresolved dispatches.
-Every request and group state replayed exactly with no new calls.
-Conservative accounting: **$4.15084065** (estimated provider token charge $3.7734915).
-Raw requests and responses are saved write-once under ignored
-`data/raw/phase2_exploratory_20260912`. No further paid run is active or queued.
+Read the [completed assessment](experiments/phase2_confirmation_20260913/ASSESSMENT.md),
+[full results](experiments/phase2_confirmation_20260913/analysis/RESULTS.md),
+[qualitative review](experiments/phase2_confirmation_20260913/QUALITATIVE_REVIEW.md),
+and [integrity audit](experiments/phase2_confirmation_20260913/analysis/integrity_audit.json).
+The prospective freeze is commit `14349800`, root seed 2026091302. All ten LPM
+coordinates, distributions and locked dilemmas remain unchanged. The group
+engine preserves Agents-of-Chaos-inspired interaction without claiming direct
+integration of the external framework.
 
-Read the [assessment](experiments/phase2_exploratory_20260912/ASSESSMENT.md) and
-[results](experiments/phase2_exploratory_20260912/analysis/RESULTS.md).
-S2/S3 show useful E/U contrasts; S1 is saturated. C1 differs strongly by context
-even without profiles, C2 is nearly unanimous, and all valid C3 outcomes CONTINUE.
-The pilot exposed coupled vote/evidence parsing and model claims of unadopted
-amendments. Preserve these findings and repair prospectively before scaling.
-An independent-field parser candidate now passes five offline checks and reads
-24/25 malformed votes without changing any of the 1,555 previously valid group
-votes. It remains separate from the frozen collector; integration and prospective
-group-state validation are next, not a retrospective overwrite of this pilot.
-
-The pilot evaluates behaviour and implementation, with no moral coding or human
-resemblance claims. The original moral-manual timing is explicitly deferred for
-this exploratory step; required human review remains before moral scoring.
-Next: fix the material group defects prospectively, then freeze an independent
-confirmatory question, analysis and justified sample. A
-[concrete confirmation proposal](experiments/phase2_exploratory_20260912/CONFIRMATION_NEXT.md)
-describes 400 fresh profiles for about $4.74 projected simple-call accounting,
-with exact power scenarios and separate group-study requirements. It is not
-frozen, preregistered or queued; the $100 cap includes the completed pilot.
-The earlier $27 design remains a proposal, not an automatically queued test.
-
-## Earlier revised Phase 2 preparation (2026-09-12)
-
-The researcher requested a rigorous, expedited adjustment around ethical encoding
-during generation, human behavioural resemblance and good/bad consequences, while
-retaining both the LPM population design and Agents-of-Chaos-inspired interaction.
-The new Phase 2 API budget is **as low as feasible, $100 absolute maximum**.
-This earlier preparation was on `phase2-design-20260912` before paid pilot collection.
-
-Read the [concrete revised design](experiments/phase2_design_20260912/PROTOCOL_DRAFT.md).
-It proposes 12,000 paired encoded/context-only simple calls and up to 3,950 calls
-for all three group tasks in a smaller anchor comparison. A postfilter comparator
-is optional, not queued. The default illustrative generation estimate is about
-$27 before uplift, not a full reservation or a validated sample-size calculation.
-
-The [offline check](experiments/phase2_design_20260912/design_checks.json) confirms
-Freedom and Justice are identical in the existing configuration columns (rank
-5/6) and provides an outcome-free single-row repair proposal. The original config
-file is unchanged. Group readiness findings include an all-low “neutral” bridge,
-placeholder C3 evidence and incomplete per-call provenance. Configuration/control
-review, power and estimator validation, moral-manual review, exact budget bounds
-and preregistration remain required before collection. These preparations do not
-reopen Phase 1.5 or claim that Phase 2 has begun.
-
-**Phase 1.5 is closed for the researcher-accepted, limited normative-encoding objective.**
-The researcher accepted the results and instructed the project to proceed.
-The original full battery remains unmet; it is not retrospectively passed.
-No further Phase 1.5 calls are queued. Phase 0 remains closed and Phase 1 passed
-operationally. The full-architecture Phase 2 study has not been released or run.
+The [exploratory pilot](experiments/phase2_exploratory_20260912/ASSESSMENT.md)
+remains immutable: 2,180 responses, 75 group runs, $4.15084065 accounted.
+Fresh confirmation cost $18.755232375 conservatively (estimated provider token
+charge $17.05021125). These are usage-based estimates, not invoice or balance
+verification. The $100 cap is not a spending target or downstream authorisation.
 
 ## Next work
 
-1. Integrate the prepared results and abstract into the thesis, preserving the
-   distinction between independent confirmation, exploratory findings and the
-   post-results scope decision. Keep all ten parameter outcomes in the account.
-2. Prepare any downstream study scope offline against the limited validated
-   behaviour. Specify which hypotheses the available evidence can support,
-   outcomes, controls, sample size and cost before collection. No assumption
-   that the original full-architecture Phase 2 design is now validated.
-3. Complete the planned analysis protocol and moral-coding manual with the
-   required review before any study using those scores. Public preregistration
-   has not occurred. No coding rule, new parameter mapping or theoretical
-   departure is approved merely by this closure.
-4. Verify an off-device copy of immutable research records before final delivery.
-   Local archives alone are not a backup on another device.
+1. Phase 3: prepare the human-benchmark comparison, canonical/decanonised forms,
+   predicted high/low contexts, modulator and recognition/contamination checks.
+   Freeze concrete sampling, analysis and budget before any new paid collection.
+2. Phase 4: draft and review the dual moral-coding manual and human gold/reliability
+   plan. Obtain the required human review before moral scores are assigned.
+   Dissent is not automatically bad; proposed safeguards are not realised welfare.
+3. Carry the C2 action/amendment mismatch and C3 saturation into later sensitivity
+   design. Do not alter or rerun completed Phase 2 records. Null group tests do
+   not establish equivalence; isolated parameter meaning and peer-exposure effects
+   were not identified by this package.
+4. Continue thesis integration, broader sensitivity/analysis in Phase 5 and
+   reporting in Phase 6. Keep the original full-battery shortfalls explicit.
+5. Verify an off-device copy of the new raw archive before final research delivery.
+   The local confirmation archive has 22,312 files, every member CRC and source
+   SHA-256 checked; see [archive verification](experiments/phase2_confirmation_20260913/analysis/raw_archive.json).
+   Git alone excludes the raw data. No new paid study is queued.
 
-## Accepted result
+## Earlier Phase 2 design decisions
+
+The [earlier broad proposal](experiments/phase2_design_20260912/PROTOCOL_DRAFT.md)
+was superseded for this run by the exploratory-first two-anchor follow-up.
+Its ten-context subset, optional postfilter comparator and proposed configuration
+repair were not silently implemented. The two current anchors identify combined
+context packages rather than separate societal-axis effects. Group prompts were
+repaired prospectively after the pilot; pilot and confirmation groups are not
+pooled. Public preregistration has not been performed.
+
+## Earlier accepted Phase 1.5 result
 
 Explicit normative profiles can systematically influence generated decisions in
 the tested model, harness and dilemmas. Replicated Procedural Dependence effects
@@ -121,7 +84,7 @@ This is a disclosed change in the conclusion's scope after observing results.
 It is not an original section 8.2 pass or a new numerical gate. All ten parameters,
 negative findings, frozen criteria, raw responses and original theory are retained.
 
-## Completed execution and cost
+## Earlier Phase 1.5 execution and cost
 
 The prior structural package saved 3,580 valid behavioural responses and 200 valid
 blind codings. The follow-up dispatched all 17,250 requests: 17,247 saved records,

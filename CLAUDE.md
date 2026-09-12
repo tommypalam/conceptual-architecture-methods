@@ -1,18 +1,24 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
-## Fresh Phase 2 confirmation authorised (2026-09-13)
+## Phase 2 behavioural study complete (2026-09-13)
 
-The researcher instructed: "lets go ahead and complete phase 2 run it". Execute
-experiments/phase2_confirmation_20260913/PROTOCOL.md on the development branch:
-400 fresh profiles, two existing anchors, E/U individual controls, twenty matched
-groups per task and condition plus neutral bridges. Freeze before paid calls.
-New-run ceiling $30; completed pilot $4.15084065; absolute combined API cap $100.
-This supersedes earlier no-confirmation-queued status. The pilot remains immutable.
-The revised behavioural study defers human benchmarking and validated moral
-scoring to Phases 3 and 4; no original ten-environment completion is claimed.
-Independent-field parsing and explicit C2 adopted state address observed pilot
-failures prospectively. All ten parameters, distributions and locked tasks stay
-unchanged. See the protocol for synthetic review and inference limits.
+The researcher-authorised exploratory-first sequence is complete for the amended
+two-anchor behavioural study. See
+experiments/phase2_confirmation_20260913/ASSESSMENT.md. Fresh confirmation used
+400 profiles, 4,800 individual responses and 300 matched-condition group runs;
+11,005 API responses in total. All six primary individual contrasts and one of
+seven secondary group contrasts passed their respective Holm corrections.
+All final outcomes are complete; three intermediate C3 duplicate-marker votes
+remain invalid. Full request/state replay passed with zero new API calls.
+
+Follow-up conservative accounting is $18.755232375; pilot plus follow-up totals
+$22.906073025 against the absolute $100 new-package cap. No paid run is active
+or queued. Preserve the frozen source, raw records and local verified archives.
+The original ten-environment Phase 2 design is not claimed complete. Human
+benchmarking is Phase 3 and human-validated moral scoring is Phase 4; the coding
+manual still needs the required human review. Ethical understanding, human
+resemblance and moral quality are not established. C2 interface limitations and
+C3 outcome saturation remain documented; any repair must be prospective.
 
 ## Exploratory Phase 2 authorisation (2026-09-12)
 
@@ -30,7 +36,7 @@ claims are produced by this behavioural pilot. Historical raw data and question
 bodies remain immutable. The pilot is now complete: 2,180 responses, 75 group
 runs, $4.15084065 conservative accounting. See its ASSESSMENT.md for useful
 individual contrasts, 25 group format failures and state-adherence problems.
-No confirmatory run is queued; do not scale the pilot unchanged. Preserve its
+At pilot closure no confirmatory run was queued; the repaired fresh study above supersedes that status. Preserve its
 frozen source and raw responses. Current execution status belongs in NEXT_STEPS.md.
 
 ## Desktop continuation (2026-09-12)
@@ -82,7 +88,7 @@ Phase 1.5 calls are queued. The original full-architecture Phase 2 design is not
 released by this closure; prepare downstream scope and prerequisites offline.
 See NEXT_STEPS.md and experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md.
 
-Updated 2026-09-12. This file and its companion contain the same working rules;
+Updated 2026-09-13. This file and its companion contain the same working rules;
 edit both together. Current execution status belongs in NEXT_STEPS.md, and
 decisions belong in the relevant phase document, with current pointers in NEXT_STEPS.md.
 

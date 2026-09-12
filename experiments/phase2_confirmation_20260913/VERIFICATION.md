@@ -38,3 +38,22 @@ at N=20 and conservative alpha .05/7, power is .030 for a 20-point difference
 with .40 discordance; .333 for a 40-point difference with .50 discordance;
 and .943 for a 60-point difference with .60 discordance. Group non-rejection
 therefore cannot establish equivalence or absence of an encoding effect.
+
+## Post-collection verification
+
+The frozen collector completed at commit `14349800`: 11,005 responses, all
+4,800 individual slots and 300 group runs. All final outcomes are complete.
+The frozen request/state replay passed with zero new dispatches, 11,005 unique
+provider IDs, 11,005 stop finish reasons, and no API, model, usage or integrity
+failure. Three intermediate duplicate-marker votes remain invalid. See
+analysis/integrity_audit.json for the complete checks and review-pack hash.
+
+The fixed full-text assistant review covered 120 individual responses, 320 group
+responses and all three additional parser failures; see QUALITATIVE_REVIEW.md.
+This is unblinded review, not human gold coding. Post hoc diagnostics and archive
+utilities are separate from the frozen collector and cannot dispatch API calls.
+
+The local raw archive contains 22,312 files. Every compressed member passed its
+CRC and SHA-256 comparison against the original source. The manifest and archive
+checksums are recorded in analysis/raw_archive.json; off-device backup remains
+unverified. No raw records were included in Git.

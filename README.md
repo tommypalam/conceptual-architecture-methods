@@ -30,12 +30,15 @@ The original full validity battery remains unmet. Ethical understanding and
 validation of the complete ten-parameter architecture are not established.
 The narrower conclusion was accepted after observing the results; this is
 recorded in the [closure decision](experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md).
-The researcher has authorised a [small exploratory Phase 2 pilot](experiments/phase2_exploratory_20260912/PROTOCOL.md)
-before a separate confirmatory study. The pilot is complete: 2,180 responses,
-75 group runs and $4.15 conservatively accounted for. Read the
-[pilot assessment](experiments/phase2_exploratory_20260912/ASSESSMENT.md): individual
-contrasts are promising, while group-state issues need repair before scaling.
-The original full-architecture Phase 2 study remains separate and unreleased.
+The amended **Phase 2 behavioural study is complete** after an exploratory pilot
+and independent confirmation: 400 fresh profiles, 4,800 individual responses,
+300 group runs and 11,005 confirmation responses in total. All six primary
+individual profile/context contrasts and one of seven secondary group contrasts
+passed their respective multiple-test corrections. Read the
+[Phase 2 assessment](experiments/phase2_confirmation_20260913/ASSESSMENT.md).
+Combined pilot-plus-confirmation accounting is $22.91, below the $100 cap.
+Human benchmarking and validated moral scoring remain Phases 3 and 4. The
+original full ten-environment Phase 2 design is not claimed complete.
 
 ## Find your way around
 

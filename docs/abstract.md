@@ -3,7 +3,7 @@
 ## A Probabilistic Framework for Encoding Political-Ethical Concepts in LLM-Based Agents
 
 **Tommaso Piero Palamenga - Bocconi University**
-**Revised abstract draft - 12 September 2026**
+**Revised abstract draft - 13 September 2026**
 
 Can explicit ethical parameters shape an artificial agent's decisions during
 generation? This thesis develops PARIA, a framework representing normatively
@@ -28,10 +28,21 @@ in both dilemmas after multiplicity correction. Canonical observed curves were
 ordered. Broader wording equivalence, representation retention and explanation
 recovery remained insufficient.
 
+A separately frozen Phase 2 follow-up tested 400 fresh profiles across three
+individual dilemmas in two anchor environments. All six whole-profile versus
+context-only contrasts passed Holm-adjusted exact paired tests; in the inverse
+anchor, encoding reduced immediate technology adoption by 37 percentage points
+(simultaneous 95% CI [28.7, 44.2]). Three hundred matched-condition group runs
+provided secondary interaction evidence: one of seven adjusted group contrasts
+passed, while restructuring approvals remained common and scientific-approach
+outcomes were unanimous. Remaining interface and semantic limitations are
+reported. These two environments do not identify separate societal-axis effects.
+
 Profiles entered before generation, and the application retained the model's
 choices without ethical answer substitution. The findings support an initial,
-conditional demonstration of functional normative parameterization, strongest
-for Procedural Dependence. They do not establish intrinsic ethical understanding,
+conditional demonstration of functional normative parameterization, with
+replicated local Procedural Dependence effects and broader whole-profile effects
+in the tested dilemmas. They do not establish intrinsic ethical understanding,
 improved moral performance, unseen-task transfer or validity of the entire
 architecture. The contribution is an auditable demonstration of both the
 possibility and limits of using explicit normative representations to influence
@@ -50,9 +61,10 @@ It does not retrospectively pass the original battery. The
 independent prospective confirmation and the unavailable complete-data primary
 bootstrap. Protocols were frozen locally; public preregistration is not claimed.
 
-This abstract reflects completed empirical work, not a completed account of
-collective simulation, behavioural benchmarks or moral-performance evaluation.
-Those broader elements remain future work. Exact effects and limits are linked
+This abstract includes the completed amended two-anchor behavioural Phase 2;
+see its [assessment](../experiments/phase2_confirmation_20260913/ASSESSMENT.md).
+The original broader configuration study, human behavioural benchmarks and
+validated moral-performance evaluation remain uncompleted. Exact effects and limits are linked
 in the [all-ten assessment](../experiments/phase1_5_encoding_validity/all_ten_assessment_20260912/ASSESSMENT.md)
 and [PD confirmation](../experiments/phase1_5_encoding_validity/structural_encoding_20260912/pd_confirmation/analysis/REPORT.md).
 The original [theory](../Theory/concepts_as_architecture_thesis_v0_6.md) and

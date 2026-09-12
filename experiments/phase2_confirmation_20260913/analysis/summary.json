@@ -1,0 +1,956 @@
+{
+  "seed": 2026091302,
+  "complete_allocation": true,
+  "response_count": 11005,
+  "simple_slots": 4800,
+  "group_runs": 300,
+  "status": {
+    "complex:ok": 6202,
+    "simple:ok": 4800,
+    "complex:missing_or_ambiguous": 3
+  },
+  "token_usage": {
+    "prompt_tokens": 16599251,
+    "completion_tokens": 1022394
+  },
+  "accounted_nano": 18755232375,
+  "accounted_usd": 18.755232375,
+  "aggregate_phase2_accounted_usd": 22.906073025,
+  "api_errors": 0,
+  "integrity_errors": 0,
+  "unknown_usage": 0,
+  "simple_cells": [
+    {
+      "problem": "S1",
+      "config": "00100",
+      "arm": "E",
+      "first_label": "A",
+      "first_count": 397,
+      "valid": 400,
+      "missing": 0,
+      "rate": 0.9925,
+      "ci95": [
+        0.9782393314855828,
+        0.9984506410500943
+      ]
+    },
+    {
+      "problem": "S1",
+      "config": "00100",
+      "arm": "U",
+      "first_label": "A",
+      "first_count": 369,
+      "valid": 400,
+      "missing": 0,
+      "rate": 0.9225,
+      "ci95": [
+        0.8917970653118859,
+        0.9467373415613488
+      ]
+    },
+    {
+      "problem": "S1",
+      "config": "11011",
+      "arm": "E",
+      "first_label": "A",
+      "first_count": 398,
+      "valid": 400,
+      "missing": 0,
+      "rate": 0.995,
+      "ci95": [
+        0.9820558553944145,
+        0.9993939021906778
+      ]
+    },
+    {
+      "problem": "S1",
+      "config": "11011",
+      "arm": "U",
+      "first_label": "A",
+      "first_count": 383,
+      "valid": 400,
+      "missing": 0,
+      "rate": 0.9575,
+      "ci95": [
+        0.9328238855613031,
+        0.9750503807978852
+      ]
+    },
+    {
+      "problem": "S2",
+      "config": "00100",
+      "arm": "E",
+      "first_label": "FORMAL_REPORT",
+      "first_count": 113,
+      "valid": 400,
+      "missing": 0,
+      "rate": 0.2825,
+      "ci95": [
+        0.2388814208787987,
+        0.32937068147045345
+      ]
+    },
+    {
+      "problem": "S2",
+      "config": "00100",
+      "arm": "U",
+      "first_label": "FORMAL_REPORT",
+      "first_count": 0,
+      "valid": 400,
+      "missing": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.00917980458366526
+      ]
+    },
+    {
+      "problem": "S2",
+      "config": "11011",
+      "arm": "E",
+      "first_label": "FORMAL_REPORT",
+      "first_count": 38,
+      "valid": 400,
+      "missing": 0,
+      "rate": 0.095,
+      "ci95": [
+        0.0681067155231008,
+        0.1280606459950202
+      ]
+    },
+    {
+      "problem": "S2",
+      "config": "11011",
+      "arm": "U",
+      "first_label": "FORMAL_REPORT",
+      "first_count": 0,
+      "valid": 400,
+      "missing": 0,
+      "rate": 0.0,
+      "ci95": [
+        0.0,
+        0.00917980458366526
+      ]
+    },
+    {
+      "problem": "S3",
+      "config": "00100",
+      "arm": "E",
+      "first_label": "ADOPT",
+      "first_count": 345,
+      "valid": 400,
+      "missing": 0,
+      "rate": 0.8625,
+      "ci95": [
+        0.8248136835067718,
+        0.8947084317381936
+      ]
+    },
+    {
+      "problem": "S3",
+      "config": "00100",
+      "arm": "U",
+      "first_label": "ADOPT",
+      "first_count": 400,
+      "valid": 400,
+      "missing": 0,
+      "rate": 1.0,
+      "ci95": [
+        0.9908201954163347,
+        1.0
+      ]
+    },
+    {
+      "problem": "S3",
+      "config": "11011",
+      "arm": "E",
+      "first_label": "ADOPT",
+      "first_count": 252,
+      "valid": 400,
+      "missing": 0,
+      "rate": 0.63,
+      "ci95": [
+        0.5806128132078463,
+        0.6774479859536989
+      ]
+    },
+    {
+      "problem": "S3",
+      "config": "11011",
+      "arm": "U",
+      "first_label": "ADOPT",
+      "first_count": 400,
+      "valid": 400,
+      "missing": 0,
+      "rate": 1.0,
+      "ci95": [
+        0.9908201954163347,
+        1.0
+      ]
+    }
+  ],
+  "primary_individual_contrasts": [
+    {
+      "problem": "S1",
+      "config": "00100",
+      "contrast": "E-U",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 31,
+      "n01": 3,
+      "difference": 0.07,
+      "ci95": [
+        0.026202598650504266,
+        0.11163196799748203
+      ],
+      "family_ci95": [
+        0.014296895245461703,
+        0.12281988568376659
+      ],
+      "missing_assignment_bounds": [
+        0.07,
+        0.07
+      ],
+      "complete_pair_exact_p": 7.660128176212311e-07,
+      "primary_p": 7.660128176212311e-07,
+      "holm_p": 1.5320256352424622e-06,
+      "reject_05": true
+    },
+    {
+      "problem": "S1",
+      "config": "11011",
+      "contrast": "E-U",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 17,
+      "n01": 2,
+      "difference": 0.0375,
+      "ci95": [
+        0.0028527221230213486,
+        0.0705573925431893
+      ],
+      "family_ci95": [
+        -0.006529628972125674,
+        0.07967344630491681
+      ],
+      "missing_assignment_bounds": [
+        0.0375,
+        0.0375
+      ],
+      "complete_pair_exact_p": 0.000728607177734375,
+      "primary_p": 0.000728607177734375,
+      "holm_p": 0.000728607177734375,
+      "reject_05": true
+    },
+    {
+      "problem": "S2",
+      "config": "00100",
+      "contrast": "E-U",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 113,
+      "n01": 0,
+      "difference": 0.2825,
+      "ci95": [
+        0.22213640239122454,
+        0.3360869488753008
+      ],
+      "family_ci95": [
+        0.20499857281828315,
+        0.3511227716414491
+      ],
+      "missing_assignment_bounds": [
+        0.2825,
+        0.2825
+      ],
+      "complete_pair_exact_p": 1.925929944387236e-34,
+      "primary_p": 1.925929944387236e-34,
+      "holm_p": 9.62964972193618e-34,
+      "reject_05": true
+    },
+    {
+      "problem": "S2",
+      "config": "11011",
+      "contrast": "E-U",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 38,
+      "n01": 0,
+      "difference": 0.095,
+      "ci95": [
+        0.05390443812305731,
+        0.13299418340398947
+      ],
+      "family_ci95": [
+        0.04252729272217218,
+        0.14429142363779582
+      ],
+      "missing_assignment_bounds": [
+        0.095,
+        0.095
+      ],
+      "complete_pair_exact_p": 7.275957614183426e-12,
+      "primary_p": 7.275957614183426e-12,
+      "holm_p": 2.1827872842550278e-11,
+      "reject_05": true
+    },
+    {
+      "problem": "S3",
+      "config": "00100",
+      "contrast": "E-U",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 0,
+      "n01": 55,
+      "difference": -0.1375,
+      "ci95": [
+        -0.18073509386632916,
+        -0.09029859518320466
+      ],
+      "family_ci95": [
+        -0.19334258126424278,
+        -0.0771475063536903
+      ],
+      "missing_assignment_bounds": [
+        -0.1375,
+        -0.1375
+      ],
+      "complete_pair_exact_p": 5.551115123125783e-17,
+      "primary_p": 5.551115123125783e-17,
+      "holm_p": 2.220446049250313e-16,
+      "reject_05": true
+    },
+    {
+      "problem": "S3",
+      "config": "11011",
+      "contrast": "E-U",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 0,
+      "n01": 148,
+      "difference": -0.37,
+      "ci95": [
+        -0.42637923779462433,
+        -0.3051820440833494
+      ],
+      "family_ci95": [
+        -0.4419385659280806,
+        -0.2865868272027466
+      ],
+      "missing_assignment_bounds": [
+        -0.37,
+        -0.37
+      ],
+      "complete_pair_exact_p": 5.605193857299268e-45,
+      "primary_p": 5.605193857299268e-45,
+      "holm_p": 3.363116314379561e-44,
+      "reject_05": true
+    }
+  ],
+  "descriptive_context_contrasts": [
+    {
+      "problem": "S1",
+      "arm": "E",
+      "contrast": "11011-00100",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 3,
+      "n01": 2,
+      "difference": 0.0025,
+      "ci95": [
+        -0.01896335753359942,
+        0.023725566857447953
+      ],
+      "family_ci95": [
+        -0.024978806513336498,
+        0.02979958865040863
+      ],
+      "missing_assignment_bounds": [
+        0.0025,
+        0.0025
+      ],
+      "complete_pair_exact_p": 1.0,
+      "primary_p": 1.0
+    },
+    {
+      "problem": "S1",
+      "arm": "U",
+      "contrast": "11011-00100",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 31,
+      "n01": 17,
+      "difference": 0.035,
+      "ci95": [
+        -0.020629227035237077,
+        0.08981588834086125
+      ],
+      "family_ci95": [
+        -0.035576962409046474,
+        0.10437070814255577
+      ],
+      "missing_assignment_bounds": [
+        0.035,
+        0.035
+      ],
+      "complete_pair_exact_p": 0.05946337525377034,
+      "primary_p": 0.05946337525377034
+    },
+    {
+      "problem": "S2",
+      "arm": "E",
+      "contrast": "11011-00100",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 8,
+      "n01": 83,
+      "difference": -0.1875,
+      "ci95": [
+        -0.24923331778148644,
+        -0.12166314333927723
+      ],
+      "family_ci95": [
+        -0.2653390715504949,
+        -0.10349879556357908
+      ],
+      "missing_assignment_bounds": [
+        -0.1875,
+        -0.1875
+      ],
+      "complete_pair_exact_p": 7.576841438713428e-17,
+      "primary_p": 7.576841438713428e-17
+    },
+    {
+      "problem": "S2",
+      "arm": "U",
+      "contrast": "11011-00100",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 0,
+      "n01": 0,
+      "difference": 0.0,
+      "ci95": [
+        -0.010895278371854295,
+        0.010895278371854295
+      ],
+      "family_ci95": [
+        -0.01531596435023255,
+        0.01531596435023255
+      ],
+      "missing_assignment_bounds": [
+        0.0,
+        0.0
+      ],
+      "complete_pair_exact_p": 1.0,
+      "primary_p": 1.0
+    },
+    {
+      "problem": "S3",
+      "arm": "E",
+      "contrast": "11011-00100",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 19,
+      "n01": 112,
+      "difference": -0.2325,
+      "ci95": [
+        -0.30674464383288896,
+        -0.15356856629482157
+      ],
+      "family_ci95": [
+        -0.32604537528927435,
+        -0.13174322369831415
+      ],
+      "missing_assignment_bounds": [
+        -0.2325,
+        -0.2325
+      ],
+      "complete_pair_exact_p": 3.107534600701465e-17,
+      "primary_p": 3.107534600701465e-17
+    },
+    {
+      "problem": "S3",
+      "arm": "U",
+      "contrast": "11011-00100",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 0,
+      "n01": 0,
+      "difference": 0.0,
+      "ci95": [
+        -0.010895278371854295,
+        0.010895278371854295
+      ],
+      "family_ci95": [
+        -0.01531596435023255,
+        0.01531596435023255
+      ],
+      "missing_assignment_bounds": [
+        0.0,
+        0.0
+      ],
+      "complete_pair_exact_p": 1.0,
+      "primary_p": 1.0
+    }
+  ],
+  "group_cells": [
+    {
+      "problem": "C1",
+      "config": "00100",
+      "arm": "E",
+      "first_label": "PACKAGE_A",
+      "first_count": 11,
+      "valid": 20,
+      "missing": 0,
+      "ci95": [
+        0.3152781330405485,
+        0.7694221032240758
+      ],
+      "consensus": 14,
+      "mean_rounds": 3.6,
+      "mean_public_evidence": 0.0,
+      "adoptions": 0
+    },
+    {
+      "problem": "C1",
+      "config": "00100",
+      "arm": "U",
+      "first_label": "PACKAGE_A",
+      "first_count": 20,
+      "valid": 20,
+      "missing": 0,
+      "ci95": [
+        0.8315665290169146,
+        1.0
+      ],
+      "consensus": 20,
+      "mean_rounds": 1.25,
+      "mean_public_evidence": 0.0,
+      "adoptions": 0
+    },
+    {
+      "problem": "C1",
+      "config": "11011",
+      "arm": "E",
+      "first_label": "PACKAGE_A",
+      "first_count": 0,
+      "valid": 20,
+      "missing": 0,
+      "ci95": [
+        0.0,
+        0.1684334709830853
+      ],
+      "consensus": 20,
+      "mean_rounds": 1.0,
+      "mean_public_evidence": 0.0,
+      "adoptions": 0
+    },
+    {
+      "problem": "C1",
+      "config": "11011",
+      "arm": "U",
+      "first_label": "PACKAGE_A",
+      "first_count": 0,
+      "valid": 20,
+      "missing": 0,
+      "ci95": [
+        0.0,
+        0.1684334709830853
+      ],
+      "consensus": 20,
+      "mean_rounds": 1.05,
+      "mean_public_evidence": 0.0,
+      "adoptions": 0
+    },
+    {
+      "problem": "C1",
+      "config": "neutral",
+      "arm": "B",
+      "first_label": "PACKAGE_A",
+      "first_count": 0,
+      "valid": 20,
+      "missing": 0,
+      "ci95": [
+        0.0,
+        0.1684334709830853
+      ],
+      "consensus": 20,
+      "mean_rounds": 1.15,
+      "mean_public_evidence": 0.0,
+      "adoptions": 0
+    },
+    {
+      "problem": "C2",
+      "config": "00100",
+      "arm": "E",
+      "first_label": "APPROVE",
+      "first_count": 20,
+      "valid": 20,
+      "missing": 0,
+      "ci95": [
+        0.8315665290169146,
+        1.0
+      ],
+      "consensus": 0,
+      "mean_rounds": 5.0,
+      "mean_public_evidence": 0.0,
+      "adoptions": 2
+    },
+    {
+      "problem": "C2",
+      "config": "00100",
+      "arm": "U",
+      "first_label": "APPROVE",
+      "first_count": 20,
+      "valid": 20,
+      "missing": 0,
+      "ci95": [
+        0.8315665290169146,
+        1.0
+      ],
+      "consensus": 0,
+      "mean_rounds": 5.0,
+      "mean_public_evidence": 0.0,
+      "adoptions": 0
+    },
+    {
+      "problem": "C2",
+      "config": "11011",
+      "arm": "E",
+      "first_label": "APPROVE",
+      "first_count": 19,
+      "valid": 20,
+      "missing": 0,
+      "ci95": [
+        0.7512672372279723,
+        0.9987349105020502
+      ],
+      "consensus": 0,
+      "mean_rounds": 5.0,
+      "mean_public_evidence": 0.0,
+      "adoptions": 2
+    },
+    {
+      "problem": "C2",
+      "config": "11011",
+      "arm": "U",
+      "first_label": "APPROVE",
+      "first_count": 16,
+      "valid": 20,
+      "missing": 0,
+      "ci95": [
+        0.5633859970033317,
+        0.9426660029499673
+      ],
+      "consensus": 0,
+      "mean_rounds": 5.0,
+      "mean_public_evidence": 0.0,
+      "adoptions": 3
+    },
+    {
+      "problem": "C2",
+      "config": "neutral",
+      "arm": "B",
+      "first_label": "APPROVE",
+      "first_count": 19,
+      "valid": 20,
+      "missing": 0,
+      "ci95": [
+        0.7512672372279723,
+        0.9987349105020502
+      ],
+      "consensus": 0,
+      "mean_rounds": 5.0,
+      "mean_public_evidence": 0.0,
+      "adoptions": 2
+    },
+    {
+      "problem": "C3",
+      "config": "00100",
+      "arm": "E",
+      "first_label": "CONTINUE",
+      "first_count": 20,
+      "valid": 20,
+      "missing": 0,
+      "ci95": [
+        0.8315665290169146,
+        1.0
+      ],
+      "consensus": 0,
+      "mean_rounds": 6.0,
+      "mean_public_evidence": 17.45,
+      "adoptions": 0
+    },
+    {
+      "problem": "C3",
+      "config": "00100",
+      "arm": "U",
+      "first_label": "CONTINUE",
+      "first_count": 20,
+      "valid": 20,
+      "missing": 0,
+      "ci95": [
+        0.8315665290169146,
+        1.0
+      ],
+      "consensus": 0,
+      "mean_rounds": 6.0,
+      "mean_public_evidence": 17.65,
+      "adoptions": 0
+    },
+    {
+      "problem": "C3",
+      "config": "11011",
+      "arm": "E",
+      "first_label": "CONTINUE",
+      "first_count": 20,
+      "valid": 20,
+      "missing": 0,
+      "ci95": [
+        0.8315665290169146,
+        1.0
+      ],
+      "consensus": 0,
+      "mean_rounds": 6.0,
+      "mean_public_evidence": 18.1,
+      "adoptions": 0
+    },
+    {
+      "problem": "C3",
+      "config": "11011",
+      "arm": "U",
+      "first_label": "CONTINUE",
+      "first_count": 20,
+      "valid": 20,
+      "missing": 0,
+      "ci95": [
+        0.8315665290169146,
+        1.0
+      ],
+      "consensus": 0,
+      "mean_rounds": 6.0,
+      "mean_public_evidence": 17.35,
+      "adoptions": 0
+    },
+    {
+      "problem": "C3",
+      "config": "neutral",
+      "arm": "B",
+      "first_label": "CONTINUE",
+      "first_count": 20,
+      "valid": 20,
+      "missing": 0,
+      "ci95": [
+        0.8315665290169146,
+        1.0
+      ],
+      "consensus": 0,
+      "mean_rounds": 6.0,
+      "mean_public_evidence": 16.6,
+      "adoptions": 0
+    }
+  ],
+  "secondary_group_contrasts": [
+    {
+      "problem": "C1",
+      "config": "00100",
+      "metric": "first_label",
+      "planned_pairs": 20,
+      "complete_pairs": 20,
+      "missing_pairs": 0,
+      "n10": 0,
+      "n01": 9,
+      "difference": -0.45,
+      "ci95": [
+        -0.7119259904399626,
+        -0.010160921160121156
+      ],
+      "family_ci95": [
+        -0.7721522054744211,
+        0.11501567781514146
+      ],
+      "missing_assignment_bounds": [
+        -0.45,
+        -0.45
+      ],
+      "complete_pair_exact_p": 0.00390625,
+      "primary_p": 0.00390625,
+      "holm_p": 0.02734375,
+      "reject_05": true
+    },
+    {
+      "problem": "C1",
+      "config": "11011",
+      "metric": "first_label",
+      "planned_pairs": 20,
+      "complete_pairs": 20,
+      "missing_pairs": 0,
+      "n10": 0,
+      "n01": 0,
+      "difference": 0.0,
+      "ci95": [
+        -0.19675967970462552,
+        0.19675967970462552
+      ],
+      "family_ci95": [
+        -0.27122981179242506,
+        0.27122981179242506
+      ],
+      "missing_assignment_bounds": [
+        0.0,
+        0.0
+      ],
+      "complete_pair_exact_p": 1.0,
+      "primary_p": 1.0,
+      "holm_p": 1.0,
+      "reject_05": false
+    },
+    {
+      "problem": "C2",
+      "config": "00100",
+      "metric": "first_label",
+      "planned_pairs": 20,
+      "complete_pairs": 20,
+      "missing_pairs": 0,
+      "n10": 0,
+      "n01": 0,
+      "difference": 0.0,
+      "ci95": [
+        -0.19675967970462552,
+        0.19675967970462552
+      ],
+      "family_ci95": [
+        -0.27122981179242506,
+        0.27122981179242506
+      ],
+      "missing_assignment_bounds": [
+        0.0,
+        0.0
+      ],
+      "complete_pair_exact_p": 1.0,
+      "primary_p": 1.0,
+      "holm_p": 1.0,
+      "reject_05": false
+    },
+    {
+      "problem": "C2",
+      "config": "11011",
+      "metric": "first_label",
+      "planned_pairs": 20,
+      "complete_pairs": 20,
+      "missing_pairs": 0,
+      "n10": 3,
+      "n01": 0,
+      "difference": 0.15,
+      "ci95": [
+        -0.17209066849777857,
+        0.41098245820688856
+      ],
+      "family_ci95": [
+        -0.25899664326840766,
+        0.4884454906269414
+      ],
+      "missing_assignment_bounds": [
+        0.15,
+        0.15
+      ],
+      "complete_pair_exact_p": 0.25,
+      "primary_p": 0.25,
+      "holm_p": 1.0,
+      "reject_05": false
+    },
+    {
+      "problem": "C3",
+      "config": "00100",
+      "metric": "first_label",
+      "planned_pairs": 20,
+      "complete_pairs": 20,
+      "missing_pairs": 0,
+      "n10": 0,
+      "n01": 0,
+      "difference": 0.0,
+      "ci95": [
+        -0.19675967970462552,
+        0.19675967970462552
+      ],
+      "family_ci95": [
+        -0.27122981179242506,
+        0.27122981179242506
+      ],
+      "missing_assignment_bounds": [
+        0.0,
+        0.0
+      ],
+      "complete_pair_exact_p": 1.0,
+      "primary_p": 1.0,
+      "holm_p": 1.0,
+      "reject_05": false
+    },
+    {
+      "problem": "C3",
+      "config": "11011",
+      "metric": "first_label",
+      "planned_pairs": 20,
+      "complete_pairs": 20,
+      "missing_pairs": 0,
+      "n10": 0,
+      "n01": 0,
+      "difference": 0.0,
+      "ci95": [
+        -0.19675967970462552,
+        0.19675967970462552
+      ],
+      "family_ci95": [
+        -0.27122981179242506,
+        0.27122981179242506
+      ],
+      "missing_assignment_bounds": [
+        0.0,
+        0.0
+      ],
+      "complete_pair_exact_p": 1.0,
+      "primary_p": 1.0,
+      "holm_p": 1.0,
+      "reject_05": false
+    },
+    {
+      "problem": "C1",
+      "config": "00100",
+      "metric": "consensus_by_round5",
+      "planned_pairs": 20,
+      "complete_pairs": 20,
+      "missing_pairs": 0,
+      "n10": 0,
+      "n01": 6,
+      "difference": -0.3,
+      "ci95": [
+        -0.573647252829171,
+        0.09450488201903579
+      ],
+      "family_ci95": [
+        -0.6449017473585026,
+        0.20230411177619756
+      ],
+      "missing_assignment_bounds": [
+        -0.3,
+        -0.3
+      ],
+      "complete_pair_exact_p": 0.03125,
+      "primary_p": 0.03125,
+      "holm_p": 0.1875,
+      "reject_05": false
+    }
+  ]
+}

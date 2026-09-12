@@ -19,6 +19,7 @@ limited normative parameterization, not demonstrated ethical understanding.
 | Document | Use it for |
 |---|---|
 | [Next steps](../NEXT_STEPS.md) | Current work and remaining dependencies |
+| [Completed Phase 2 confirmation](../experiments/phase2_confirmation_20260913/ASSESSMENT.md) | Fresh individual and group results, integrity checks and remaining limits |
 | [Small Phase 2 pilot](../experiments/phase2_exploratory_20260912/PROTOCOL.md) | Frozen exploratory protocol, matched controls, state mechanics and $10 cap |
 | [Revised Phase 2 proposal](../experiments/phase2_design_20260912/PROTOCOL_DRAFT.md) | Encoding/control comparisons, population and group designs, $100 cap and required preparation |
 | [Pre-analysis plan](pre_analysis_plan.md) | The original broad-study draft; downstream scope remains to be settled |

@@ -1,0 +1,314 @@
+{
+  "designation": "Complete individual subset; groups still running; requested interim inspection",
+  "seed": 2026091302,
+  "manifest_hash": "2290a0e2e4d11770ebc0c879bc63951b6ae51ecdbbf31e15b96e32dc9fa3ba5a",
+  "individual_responses": 4800,
+  "invalid": [],
+  "cells": [
+    {
+      "task": "S1",
+      "context": "00100",
+      "arm": "E",
+      "label": "A",
+      "first_count": 397,
+      "valid": 400,
+      "ci95": [
+        0.9782393314855828,
+        0.9984506410500943
+      ]
+    },
+    {
+      "task": "S1",
+      "context": "00100",
+      "arm": "U",
+      "label": "A",
+      "first_count": 369,
+      "valid": 400,
+      "ci95": [
+        0.8917970653118859,
+        0.9467373415613488
+      ]
+    },
+    {
+      "task": "S1",
+      "context": "11011",
+      "arm": "E",
+      "label": "A",
+      "first_count": 398,
+      "valid": 400,
+      "ci95": [
+        0.9820558553944145,
+        0.9993939021906778
+      ]
+    },
+    {
+      "task": "S1",
+      "context": "11011",
+      "arm": "U",
+      "label": "A",
+      "first_count": 383,
+      "valid": 400,
+      "ci95": [
+        0.9328238855613031,
+        0.9750503807978852
+      ]
+    },
+    {
+      "task": "S2",
+      "context": "00100",
+      "arm": "E",
+      "label": "FORMAL_REPORT",
+      "first_count": 113,
+      "valid": 400,
+      "ci95": [
+        0.2388814208787987,
+        0.32937068147045345
+      ]
+    },
+    {
+      "task": "S2",
+      "context": "00100",
+      "arm": "U",
+      "label": "FORMAL_REPORT",
+      "first_count": 0,
+      "valid": 400,
+      "ci95": [
+        0.0,
+        0.00917980458366526
+      ]
+    },
+    {
+      "task": "S2",
+      "context": "11011",
+      "arm": "E",
+      "label": "FORMAL_REPORT",
+      "first_count": 38,
+      "valid": 400,
+      "ci95": [
+        0.0681067155231008,
+        0.1280606459950202
+      ]
+    },
+    {
+      "task": "S2",
+      "context": "11011",
+      "arm": "U",
+      "label": "FORMAL_REPORT",
+      "first_count": 0,
+      "valid": 400,
+      "ci95": [
+        0.0,
+        0.00917980458366526
+      ]
+    },
+    {
+      "task": "S3",
+      "context": "00100",
+      "arm": "E",
+      "label": "ADOPT",
+      "first_count": 345,
+      "valid": 400,
+      "ci95": [
+        0.8248136835067718,
+        0.8947084317381936
+      ]
+    },
+    {
+      "task": "S3",
+      "context": "00100",
+      "arm": "U",
+      "label": "ADOPT",
+      "first_count": 400,
+      "valid": 400,
+      "ci95": [
+        0.9908201954163347,
+        1.0
+      ]
+    },
+    {
+      "task": "S3",
+      "context": "11011",
+      "arm": "E",
+      "label": "ADOPT",
+      "first_count": 252,
+      "valid": 400,
+      "ci95": [
+        0.5806128132078463,
+        0.6774479859536989
+      ]
+    },
+    {
+      "task": "S3",
+      "context": "11011",
+      "arm": "U",
+      "label": "ADOPT",
+      "first_count": 400,
+      "valid": 400,
+      "ci95": [
+        0.9908201954163347,
+        1.0
+      ]
+    }
+  ],
+  "primary_contrasts": [
+    {
+      "task": "S1",
+      "context": "00100",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 31,
+      "n01": 3,
+      "difference": 0.07,
+      "ci95": [
+        0.026202598650504266,
+        0.11163196799748203
+      ],
+      "family_ci95": [
+        0.014296895245461703,
+        0.12281988568376659
+      ],
+      "missing_assignment_bounds": [
+        0.07,
+        0.07
+      ],
+      "complete_pair_exact_p": 7.660128176212311e-07,
+      "primary_p": 7.660128176212311e-07,
+      "holm_p": 1.5320256352424622e-06,
+      "reject_05": true
+    },
+    {
+      "task": "S1",
+      "context": "11011",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 17,
+      "n01": 2,
+      "difference": 0.0375,
+      "ci95": [
+        0.0028527221230213486,
+        0.0705573925431893
+      ],
+      "family_ci95": [
+        -0.006529628972125674,
+        0.07967344630491681
+      ],
+      "missing_assignment_bounds": [
+        0.0375,
+        0.0375
+      ],
+      "complete_pair_exact_p": 0.000728607177734375,
+      "primary_p": 0.000728607177734375,
+      "holm_p": 0.000728607177734375,
+      "reject_05": true
+    },
+    {
+      "task": "S2",
+      "context": "00100",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 113,
+      "n01": 0,
+      "difference": 0.2825,
+      "ci95": [
+        0.22213640239122454,
+        0.3360869488753008
+      ],
+      "family_ci95": [
+        0.20499857281828315,
+        0.3511227716414491
+      ],
+      "missing_assignment_bounds": [
+        0.2825,
+        0.2825
+      ],
+      "complete_pair_exact_p": 1.925929944387236e-34,
+      "primary_p": 1.925929944387236e-34,
+      "holm_p": 9.62964972193618e-34,
+      "reject_05": true
+    },
+    {
+      "task": "S2",
+      "context": "11011",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 38,
+      "n01": 0,
+      "difference": 0.095,
+      "ci95": [
+        0.05390443812305731,
+        0.13299418340398947
+      ],
+      "family_ci95": [
+        0.04252729272217218,
+        0.14429142363779582
+      ],
+      "missing_assignment_bounds": [
+        0.095,
+        0.095
+      ],
+      "complete_pair_exact_p": 7.275957614183426e-12,
+      "primary_p": 7.275957614183426e-12,
+      "holm_p": 2.1827872842550278e-11,
+      "reject_05": true
+    },
+    {
+      "task": "S3",
+      "context": "00100",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 0,
+      "n01": 55,
+      "difference": -0.1375,
+      "ci95": [
+        -0.18073509386632916,
+        -0.09029859518320466
+      ],
+      "family_ci95": [
+        -0.19334258126424278,
+        -0.0771475063536903
+      ],
+      "missing_assignment_bounds": [
+        -0.1375,
+        -0.1375
+      ],
+      "complete_pair_exact_p": 5.551115123125783e-17,
+      "primary_p": 5.551115123125783e-17,
+      "holm_p": 2.220446049250313e-16,
+      "reject_05": true
+    },
+    {
+      "task": "S3",
+      "context": "11011",
+      "planned_pairs": 400,
+      "complete_pairs": 400,
+      "missing_pairs": 0,
+      "n10": 0,
+      "n01": 148,
+      "difference": -0.37,
+      "ci95": [
+        -0.42637923779462433,
+        -0.3051820440833494
+      ],
+      "family_ci95": [
+        -0.4419385659280806,
+        -0.2865868272027466
+      ],
+      "missing_assignment_bounds": [
+        -0.37,
+        -0.37
+      ],
+      "complete_pair_exact_p": 5.605193857299268e-45,
+      "primary_p": 5.605193857299268e-45,
+      "holm_p": 3.363116314379561e-44,
+      "reject_05": true
+    }
+  ],
+  "accounted_usd": 4.73606595,
+  "inspection_recorded_at": "2026-09-12T23:10:30.641271+00:00",
+  "reason": "Researcher asked how completed individuals looked while groups were running. No change to collection, sample, tests or stopping rules."
+}
