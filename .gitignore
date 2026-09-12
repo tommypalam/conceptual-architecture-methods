@@ -139,3 +139,6 @@ experiments/phase1_5_encoding_validity/ms_wording_review_20260911/*_EXPLANATIONS
 # MS crossover: raw records and intents remain local.
 experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/
 experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/dispatches/
+
+# Full per-record metadata/checksum index for offline repeat audit.
+experiments/phase1_5_encoding_validity/repeat_stability_20260912/record_index.json

@@ -10,6 +10,18 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Offline repeat audit complete:53,782 valid records,18 studies,$0.**
+[Findings and all comparisons](experiments/phase1_5_encoding_validity/repeat_stability_20260912/INTERPRETATION.md).
+83 repeated prompt/settings groups;5/139 between-run contrasts and3/188
+chronological-halves contrasts differ after their respective Holm corrections.
+Canonical MoR endpoint direction recurs in all six available studies; canonical
+high-MS30/50 ->14/20 ->0/20 fails repeatability. Other detected shifts concern
+PD/S3; all within-run detections are unchanged axis-pilot baseline paraphrases.
+Zero same-prompt/same-seed repeats; all fingerprints absent, recorded cache hits0.
+Next:40 exact MS high-endpoint replays including prior seeds, two whole20-seed
+cohorts interleaved, $0.30 cap. Preparing; no new calls yet. Original gates held.
+
+
 **MS crossover complete: 160/160 valid, cost$0.1862505.**
 [Results and repeat audit](experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/analysis/INTERPRETATION.md).
 All low-MS cells0/20; high-MS cells canonical/canonical0/20,

@@ -1,0 +1,16 @@
+{
+  "path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\output\\validity_backups\\repeat_stability_20260912_172f87f18fb4f8db.zip",
+  "sha256": "6e4eb4170164daab57a71fa0cc29d3b8c186738f5ac3d0fb997c647b2bd44264",
+  "file_sha256": {
+    "INTERPRETATION.md": "3d88a40d4e464b9eb5d7c2104c4c059b6df7c8cf480aa64eeb47f10020b17340",
+    "PROTOCOL.md": "3381975415de1a03f316627c7346733a96e84d9a009e32a359169081737371f3",
+    "record_index.json": "7455810abb202342cac3f96df93b90f5f74339edaf7bf911d218d17873b1282f",
+    "REPORT.md": "3278522bfb1f20aec6f59374ca99689d3ab86b00fc3ed6f1934adc21dc9df8b9",
+    "report_provenance.json": "4655655f6fda84143ce8dc41575e76dcbfccf23625188e73002dfa97b746f5b1",
+    "results.json": "16f48bdf5e7dbe45ccfa1ef44b463c76a3815c22498e6a9537958646dacdec7a",
+    "code/audit_validity_repeat_stability.py": "4936909559812feca857a8a738dd2fd27205f0ea9c92cb0238d0efd0bbb54aa2",
+    "code/report_validity_repeat_stability.py": "09916e6fca8df35df6a9394bd77a2a3cbcea1950d238d6a271fab74793bbe5dc",
+    "tests/test_repeat_stability.py": "54ddfadf0ba2c02016c10b5828e8cf33bebc6c64a5c9b2dbd819eac0184407d6"
+  },
+  "note": "Verified same-computer audit bundle; includes full record checksum/metadata index, no new API responses."
+}

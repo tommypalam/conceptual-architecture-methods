@@ -6,6 +6,54 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+
+
+## 2026-09-12 ? Broad offline audit finds recurring MoR direction and local instability
+
+54,120 archived files ->53,782 valid responses from18 studies;18 invalid/failure
+and320 different tool-protocol calls excluded. Seventeen older successful
+records used multiple attempts and remain explicitly counted.83 repeated keys
+support139 between-run pairs (5 Holm detections) and188 temporal-half tests
+(3 detections). All53,782 IDs unique; no same-prompt/same-seed repeats, no
+fingerprints, zero recorded cache hits. Source ZIP checksums, manifest bytes,
+filename inventories, record hashes and original-parser rechecks verified.
+This is not a fresh loose-file versus ZIP byte audit of every historical record.
+
+Canonical MoR's direction recurs across six studies, preserving a narrow
+positive result. MS high endpoint30/50 ->14/20 ->0/20 differs in the broad family;
+other detected changes concern PD/S3. Three temporal-half changes occur in
+unchanged axis-pilot baseline paraphrases, with opposite directions across
+wordings. Neither global failure nor backend drift follows from these patterns.
+
+Synthetic resolution: all five perspectives retain the limited positive finding,
+keep non-detection distinct from equivalence, and require a same-seed replay
+before attributing the MS discrepancy to seed schedule or unobserved server
+state. Select both complete20-seed cohorts, not favourable outputs. Proposed
+40-call cap$0.30 inside remaining$3.79170675; no new prompt text or phase change.
+Implementation audit corrected two historical-format assumptions (bare-label
+parser and older retry/failure metadata); no source records or results edited.
+[Interpretation](experiments/phase1_5_encoding_validity/repeat_stability_20260912/INTERPRETATION.md).
+
+## 2026-09-12 ? Probe repeatability offline across the saved behavioural studies
+
+The user requested continued probing. Decision: audit all eligible repeated
+exact prompts/settings across18 specified primary source designations before
+new spending. Use assembled allocations once, report exclusions, and prohibit
+duplicate provider IDs. Prompt hashes exclude seeds, so these are not claimed
+to be identical full requests. No raw archive changes or paid allocation.
+
+Synthetic review: Linden keeps failed response reproducibility separate from
+claims about whether ethics is encodable in principle. Osei requires broad
+coverage rather than inspecting only the conspicuous MS shift. Tanaka fixes
+all eligible run pairs and separate chronological-halves families with Holm
+correction; selection is exploratory and non-detection is not equivalence.
+Renna asks whether instability spans cases and dates before another repair.
+Okafor requires hash/reparse checks, source-copy accounting and unique IDs.
+Resolution: report all eligible comparisons and predetermined canonical MS/MoR
+endpoint reference histories; inspect seeds/cache/fingerprints without inferring
+unobserved causes. No constitutional rule or original gate changes.
+[Protocol](experiments/phase1_5_encoding_validity/repeat_stability_20260912/PROTOCOL.md).
+
 ## 2026-09-12 ? MS crossover complete; fresh canonical effect fails replication
 
 160/160 valid, $0.1862505. All low-MS counts0/20; high-MS C/C0,
