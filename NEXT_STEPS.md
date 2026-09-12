@@ -27,13 +27,17 @@ verification and same-computer archiving completed (commit3d502ab3). The partial
 study is not a new validity result. Original files and failures remain unchanged.
 [Verified segment1](experiments/phase1_5_encoding_validity/all_ten_followup_20260912/STATUS.md).
 
-An administrative continuation is being verified for exactly15,309 unattempted
+An administrative continuation is running for exactly15,309 unattempted
 requests in the original schedule. No failed request is replaced. Prompts, model,
 seed per request, timeout, concurrency, analyses and thresholds remain frozen.
 Prior known/unknown accounting is$6.66183325 of the existing$25 ceiling, including
 $0.019947 for the three timeouts. The continuation retains that full bound and
 reserves each new batch. The provider balance is not verified.
 [Continuation protocol](experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment2/PROTOCOL.md).
+[Live progress](experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment2/progress.json)
+updates every30 total records. Four continuation tests and six existing tests
+passed. The first12 new records were saved; initial returned model/provenance
+checks passed. Scoring, recomputation and archiving run automatically at exit.
 
 All-ten scope remains11,250 gradient calls (25 backgrounds, three representations)
 and6,000 wording calls (50 backgrounds, four wordings), with the completed prior
