@@ -1,0 +1,13 @@
+{
+  "status": "PROCESS_EXIT_WITH_UNRESOLVED_DISPATCHES",
+  "n_parent_records": 1941,
+  "n_segment_records": 10722,
+  "n_records": 12663,
+  "planned": 17250,
+  "known_followup_cost_usd": 13.222559249999968,
+  "unknown_followup_reserved_usd": 0.03752175,
+  "pending_requests": 3,
+  "total_accounted_usd": 17.891242749999986,
+  "cap_usd": 25,
+  "provider_balance_verified": false
+}

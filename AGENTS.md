@@ -165,6 +165,11 @@ and failures are preserved. A separate administrative continuation covers only
 the15,309 unattempted slots, retaining all settings, thresholds and unknown cost
 bounds. Segment combination must remain disjoint and disclose the interruption.
 Completion of dispatch does not repair invalid slots or establish a gate pass.
+Monitoring later detected segment2 absent after12,663 total saved responses,
+with three unresolved intents and4,584 never-dispatched slots. Offline
+finalization and archive verification are complete, with 12,651 valid records
+and $17.89124275 accounted including full unknown bounds. No further paid
+segment is running. The exact interruption cause is unestablished. See NEXT_STEPS.md.
 
 ## Experimental Problems
 

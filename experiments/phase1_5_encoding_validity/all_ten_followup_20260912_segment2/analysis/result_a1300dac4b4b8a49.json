@@ -1,0 +1,6751 @@
+{
+  "design_hash": "adc6212eedf1a1c12cfbf82f32117e39ca94aa8a5ce2cc9d9b7f80d0d55b7575",
+  "all_planned_recorded": false,
+  "n_records": 12663,
+  "n_parse_invalid": 12,
+  "n_terminal_failures": 3,
+  "gradient_analysis": {
+    "design_hash": "adc6212eedf1a1c12cfbf82f32117e39ca94aa8a5ce2cc9d9b7f80d0d55b7575",
+    "status": "INCOMPLETE_OR_INVALID",
+    "n_records": 8270,
+    "n_valid": 8262,
+    "groups": [],
+    "known_cost_usd": 8.326834499999995,
+    "phase_gate": "Original gate unchanged; profile-average follow-up is not a retroactive original-battery pass."
+  },
+  "gradient_sensitivity": {
+    "legacy_independent_call_diagnostic": {
+      "schema_version": "1.0",
+      "n_records": 2735,
+      "n_expected": 3750,
+      "sweeps": [
+        {
+          "arm": "full_harness",
+          "parameter": "LL",
+          "problem": "S1",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 17,
+              "n_valid": 17,
+              "n_missing": 8,
+              "n_invalid": 0,
+              "opt0_count": 17,
+              "rate": 1.0,
+              "ci95": [
+                0.8156818649911483,
+                1.0
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 17,
+              "n_valid": 17,
+              "n_missing": 8,
+              "n_invalid": 0,
+              "opt0_count": 17,
+              "rate": 1.0,
+              "ci95": [
+                0.8156818649911483,
+                1.0
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 17,
+              "n_valid": 17,
+              "n_missing": 8,
+              "n_invalid": 0,
+              "opt0_count": 17,
+              "rate": 1.0,
+              "ci95": [
+                0.8156818649911483,
+                1.0
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 17,
+              "n_valid": 17,
+              "n_missing": 8,
+              "n_invalid": 0,
+              "opt0_count": 16,
+              "rate": 0.9411764705882353,
+              "ci95": [
+                0.7301796936242461,
+                0.9895395990150025
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 17,
+              "n_valid": 17,
+              "n_missing": 8,
+              "n_invalid": 0,
+              "opt0_count": 16,
+              "rate": 0.9411764705882353,
+              "ci95": [
+                0.7301796936242461,
+                0.9895395990150025
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": -5.5004004665484825,
+            "se": 4.382207730970915,
+            "ci95": [
+              -14.08936979202423,
+              3.0885688589272657
+            ],
+            "p_value": 0.09986857996373515,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 2.7076409055103383
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.48995732625372845,
+          "monotonic": true,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "LL",
+          "problem": "S2",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 7,
+              "rate": 0.3684210526315789,
+              "ci95": [
+                0.19149512745135072,
+                0.5896046683519693
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 5,
+              "rate": 0.2631578947368421,
+              "ci95": [
+                0.11806412346782508,
+                0.487915508978151
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 4,
+              "rate": 0.21052631578947367,
+              "ci95": [
+                0.08507676632916253,
+                0.43334278443814167
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 3,
+              "rate": 0.15789473684210525,
+              "ci95": [
+                0.05520471638534141,
+                0.37565475270329074
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 2,
+              "rate": 0.10526315789473684,
+              "ci95": [
+                0.02935856029887013,
+                0.31394082711109006
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": -1.9216909489968337,
+            "se": 0.9378091677884733,
+            "ci95": [
+              -3.7597631422336715,
+              -0.08361875575999589
+            ],
+            "p_value": 0.033812037759134224,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 4.504183374888257
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.6436570138537469,
+          "monotonic": true,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "LL",
+          "problem": "S3",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 11,
+              "rate": 0.5789473684210527,
+              "ci95": [
+                0.3627590353425504,
+                0.7685810871754576
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 7,
+              "rate": 0.3684210526315789,
+              "ci95": [
+                0.19149512745135072,
+                0.5896046683519693
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 10,
+              "rate": 0.5263157894736842,
+              "ci95": [
+                0.3170780924511316,
+                0.7267019483882042
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 12,
+              "rate": 0.631578947368421,
+              "ci95": [
+                0.41039533164803066,
+                0.8085048725486492
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 13,
+              "rate": 0.6842105263157895,
+              "ci95": [
+                0.46010407675327475,
+                0.8463562091220773
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": 0.9705270895129235,
+            "se": 0.742166758035611,
+            "ci95": [
+              -0.4840930267596869,
+              2.425147205785534
+            ],
+            "p_value": 0.18743831252623888,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 1.7376385807212102
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.21875175172204964,
+          "monotonic": false,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "CS",
+          "problem": "S1",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 16,
+              "rate": 0.8888888888888888,
+              "ci95": [
+                0.672002348698212,
+                0.9689804773543876
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 18,
+              "rate": 1.0,
+              "ci95": [
+                0.8241207763533425,
+                1.0
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 17,
+              "rate": 0.9444444444444444,
+              "ci95": [
+                0.7424269921812741,
+                0.990124809021697
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 18,
+              "rate": 1.0,
+              "ci95": [
+                0.8241207763533425,
+                1.0
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 18,
+              "rate": 1.0,
+              "ci95": [
+                0.8241207763533425,
+                1.0
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": 4.466771027048011,
+            "se": 3.0787416356983877,
+            "ci95": [
+              -1.5674516966245982,
+              10.500993750720621
+            ],
+            "p_value": 0.07781483137695801,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 3.1099608392987577
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.6796738189082436,
+          "monotonic": false,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "CS",
+          "problem": "S2",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 3,
+              "rate": 0.16666666666666666,
+              "ci95": [
+                0.05836576805861446,
+                0.39222038103915724
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 5,
+              "rate": 0.2777777777777778,
+              "ci95": [
+                0.12499753379553993,
+                0.5087265656029746
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 5,
+              "rate": 0.2777777777777778,
+              "ci95": [
+                0.12499753379553993,
+                0.5087265656029746
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 4,
+              "rate": 0.2222222222222222,
+              "ci95": [
+                0.09000928108601694,
+                0.45214584316212625
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 5,
+              "rate": 0.2777777777777778,
+              "ci95": [
+                0.12499753379553993,
+                0.5087265656029746
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": 0.45239326225131515,
+            "se": 0.8706161174247089,
+            "ci95": [
+              -1.253982972261162,
+              2.1587694967637923
+            ],
+            "p_value": 0.6026092626739648,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 0.2710784382130811
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.26917366454564395,
+          "monotonic": false,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "CS",
+          "problem": "S3",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 16,
+              "rate": 0.8888888888888888,
+              "ci95": [
+                0.672002348698212,
+                0.9689804773543876
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 13,
+              "rate": 0.7222222222222222,
+              "ci95": [
+                0.4912734343970254,
+                0.8750024662044601
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 11,
+              "rate": 0.6111111111111112,
+              "ci95": [
+                0.3861904160223791,
+                0.7969475342783638
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 13,
+              "rate": 0.7222222222222222,
+              "ci95": [
+                0.4912734343970254,
+                0.8750024662044601
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 9,
+              "rate": 0.5,
+              "ci95": [
+                0.29031021505169974,
+                0.7096897849483003
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": -1.892444637576551,
+            "se": 0.8575955036739623,
+            "ci95": [
+              -3.5733009380809584,
+              -0.21158833707214342
+            ],
+            "p_value": 0.02275290582668552,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 5.187271928530805
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.8911225078866527,
+          "monotonic": false,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "RT",
+          "problem": "S1",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 21,
+              "n_valid": 21,
+              "n_missing": 4,
+              "n_invalid": 0,
+              "opt0_count": 21,
+              "rate": 1.0,
+              "ci95": [
+                0.8453609810751531,
+                1.0
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 21,
+              "n_valid": 21,
+              "n_missing": 4,
+              "n_invalid": 0,
+              "opt0_count": 21,
+              "rate": 1.0,
+              "ci95": [
+                0.8453609810751531,
+                1.0
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 21,
+              "n_valid": 21,
+              "n_missing": 4,
+              "n_invalid": 0,
+              "opt0_count": 21,
+              "rate": 1.0,
+              "ci95": [
+                0.8453609810751531,
+                1.0
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 21,
+              "n_valid": 21,
+              "n_missing": 4,
+              "n_invalid": 0,
+              "opt0_count": 21,
+              "rate": 1.0,
+              "ci95": [
+                0.8453609810751531,
+                1.0
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 21,
+              "n_valid": 21,
+              "n_missing": 4,
+              "n_invalid": 0,
+              "opt0_count": 21,
+              "rate": 1.0,
+              "ci95": [
+                0.8453609810751531,
+                1.0
+              ]
+            }
+          ],
+          "fit": {
+            "status": "pinned",
+            "slope": null,
+            "p_value": null,
+            "ci95": null
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.0,
+          "monotonic": true,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "RT",
+          "problem": "S2",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 21,
+              "n_valid": 21,
+              "n_missing": 4,
+              "n_invalid": 0,
+              "opt0_count": 7,
+              "rate": 0.3333333333333333,
+              "ci95": [
+                0.17194752605083477,
+                0.5462654802574476
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 21,
+              "n_valid": 21,
+              "n_missing": 4,
+              "n_invalid": 0,
+              "opt0_count": 2,
+              "rate": 0.09523809523809523,
+              "ci95": [
+                0.02651876743807452,
+                0.2891413907391826
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 21,
+              "n_valid": 21,
+              "n_missing": 4,
+              "n_invalid": 0,
+              "opt0_count": 3,
+              "rate": 0.14285714285714285,
+              "ci95": [
+                0.04981012499725268,
+                0.34636060280620945
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 21,
+              "n_valid": 21,
+              "n_missing": 4,
+              "n_invalid": 0,
+              "opt0_count": 7,
+              "rate": 0.3333333333333333,
+              "ci95": [
+                0.17194752605083477,
+                0.5462654802574476
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 21,
+              "n_valid": 21,
+              "n_missing": 4,
+              "n_invalid": 0,
+              "opt0_count": 4,
+              "rate": 0.19047619047619047,
+              "ci95": [
+                0.07667565052761793,
+                0.40000564690204926
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": -0.1392191371150997,
+            "se": 0.834537377589058,
+            "ci95": [
+              -1.7748823409421124,
+              1.496444066711913
+            ],
+            "p_value": 0.8674849244997636,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 0.02784025894180786
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.32769253518171115,
+          "monotonic": false,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "RT",
+          "problem": "S3",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 17,
+              "n_valid": 17,
+              "n_missing": 8,
+              "n_invalid": 0,
+              "opt0_count": 12,
+              "rate": 0.7058823529411765,
+              "ci95": [
+                0.4686688993346016,
+                0.8672001038970478
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 17,
+              "n_valid": 17,
+              "n_missing": 8,
+              "n_invalid": 0,
+              "opt0_count": 10,
+              "rate": 0.5882352941176471,
+              "ci95": [
+                0.3600544264299978,
+                0.7838894320978518
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 17,
+              "n_valid": 17,
+              "n_missing": 8,
+              "n_invalid": 0,
+              "opt0_count": 10,
+              "rate": 0.5882352941176471,
+              "ci95": [
+                0.3600544264299978,
+                0.7838894320978518
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 17,
+              "n_valid": 17,
+              "n_missing": 8,
+              "n_invalid": 0,
+              "opt0_count": 5,
+              "rate": 0.29411764705882354,
+              "ci95": [
+                0.1327998961029523,
+                0.5313311006653985
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 17,
+              "n_valid": 17,
+              "n_missing": 8,
+              "n_invalid": 0,
+              "opt0_count": 9,
+              "rate": 0.5294117647058824,
+              "ci95": [
+                0.30963235060004424,
+                0.7383489355759056
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": -1.3289449449357587,
+            "se": 0.7927659943827995,
+            "ci95": [
+              -2.8827377420940854,
+              0.2248478522225683
+            ],
+            "p_value": 0.0888669771829441,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 2.894778717906817
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.3655322026461052,
+          "monotonic": false,
+          "predicted_direction": 1,
+          "direction_matches": false,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "MoR",
+          "problem": "S1",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 21,
+              "n_valid": 21,
+              "n_missing": 4,
+              "n_invalid": 0,
+              "opt0_count": 21,
+              "rate": 1.0,
+              "ci95": [
+                0.8453609810751531,
+                1.0
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 21,
+              "n_valid": 21,
+              "n_missing": 4,
+              "n_invalid": 0,
+              "opt0_count": 21,
+              "rate": 1.0,
+              "ci95": [
+                0.8453609810751531,
+                1.0
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 21,
+              "n_valid": 21,
+              "n_missing": 4,
+              "n_invalid": 0,
+              "opt0_count": 21,
+              "rate": 1.0,
+              "ci95": [
+                0.8453609810751531,
+                1.0
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 21,
+              "n_valid": 21,
+              "n_missing": 4,
+              "n_invalid": 0,
+              "opt0_count": 21,
+              "rate": 1.0,
+              "ci95": [
+                0.8453609810751531,
+                1.0
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 21,
+              "n_valid": 21,
+              "n_missing": 4,
+              "n_invalid": 0,
+              "opt0_count": 19,
+              "rate": 0.9047619047619048,
+              "ci95": [
+                0.7108586092608176,
+                0.9734812325619255
+              ]
+            }
+          ],
+          "fit": {
+            "status": "separation",
+            "slope": null,
+            "p_value": null,
+            "ci95": null
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.6274557729231907,
+          "monotonic": true,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "MoR",
+          "problem": "S2",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 3,
+              "rate": 0.15,
+              "ci95": [
+                0.052368745896216595,
+                0.36041886474075696
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 5,
+              "rate": 0.25,
+              "ci95": [
+                0.11186170140766569,
+                0.468700877618744
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 5,
+              "rate": 0.25,
+              "ci95": [
+                0.11186170140766569,
+                0.468700877618744
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 6,
+              "rate": 0.3,
+              "ci95": [
+                0.1454772448676043,
+                0.5189728183535235
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 7,
+              "rate": 0.35,
+              "ci95": [
+                0.18119182410108206,
+                0.5671457233147638
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": 1.1903619082961288,
+            "se": 0.8277881247597674,
+            "ci95": [
+              -0.4320730030629196,
+              2.812796819655177
+            ],
+            "p_value": 0.14504131314848212,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 2.12364167717368
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.4707048425953554,
+          "monotonic": true,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "MoR",
+          "problem": "S3",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 8,
+              "rate": 0.4,
+              "ci95": [
+                0.21880653237281705,
+                0.6134184992377469
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 8,
+              "rate": 0.4,
+              "ci95": [
+                0.21880653237281705,
+                0.6134184992377469
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 11,
+              "rate": 0.55,
+              "ci95": [
+                0.34208534245034233,
+                0.7418021417443759
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 15,
+              "rate": 0.75,
+              "ci95": [
+                0.531299122381256,
+                0.8881382985923343
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 18,
+              "rate": 0.9,
+              "ci95": [
+                0.6989663547715128,
+                0.9721335187862319
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": 3.1166603045214107,
+            "se": 0.8430537977059993,
+            "ci95": [
+              1.4643052239879812,
+              4.76901538505484
+            ],
+            "p_value": 6.460448254195855e-05,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 15.962653564078465
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 1.128653138791943,
+          "monotonic": true,
+          "predicted_direction": 1,
+          "direction_matches": true,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "RE",
+          "problem": "S1",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 15,
+              "n_valid": 15,
+              "n_missing": 10,
+              "n_invalid": 0,
+              "opt0_count": 15,
+              "rate": 1.0,
+              "ci95": [
+                0.7961166989641515,
+                1.0
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 15,
+              "n_valid": 15,
+              "n_missing": 10,
+              "n_invalid": 0,
+              "opt0_count": 14,
+              "rate": 0.9333333333333333,
+              "ci95": [
+                0.7018347012621998,
+                0.9881331045067315
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 15,
+              "n_valid": 15,
+              "n_missing": 10,
+              "n_invalid": 0,
+              "opt0_count": 15,
+              "rate": 1.0,
+              "ci95": [
+                0.7961166989641515,
+                1.0
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 15,
+              "n_valid": 15,
+              "n_missing": 10,
+              "n_invalid": 0,
+              "opt0_count": 15,
+              "rate": 1.0,
+              "ci95": [
+                0.7961166989641515,
+                1.0
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 15,
+              "n_valid": 15,
+              "n_missing": 10,
+              "n_invalid": 0,
+              "opt0_count": 15,
+              "rate": 1.0,
+              "ci95": [
+                0.7961166989641515,
+                1.0
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": 2.8719736402396547,
+            "se": 4.302609148237178,
+            "ci95": [
+              -5.560985329857542,
+              11.304932610336852
+            ],
+            "p_value": 0.4631408154701211,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 0.5382935038130778
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.0,
+          "monotonic": false,
+          "predicted_direction": 1,
+          "direction_matches": true,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "RE",
+          "problem": "S2",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 15,
+              "n_valid": 15,
+              "n_missing": 10,
+              "n_invalid": 0,
+              "opt0_count": 1,
+              "rate": 0.06666666666666667,
+              "ci95": [
+                0.011866895493268553,
+                0.2981652987378003
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 15,
+              "n_valid": 15,
+              "n_missing": 10,
+              "n_invalid": 0,
+              "opt0_count": 2,
+              "rate": 0.13333333333333333,
+              "ci95": [
+                0.03736125910306537,
+                0.37881982832322364
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 15,
+              "n_valid": 15,
+              "n_missing": 10,
+              "n_invalid": 0,
+              "opt0_count": 3,
+              "rate": 0.2,
+              "ci95": [
+                0.07047549346981563,
+                0.45185448715169363
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 15,
+              "n_valid": 15,
+              "n_missing": 10,
+              "n_invalid": 0,
+              "opt0_count": 3,
+              "rate": 0.2,
+              "ci95": [
+                0.07047549346981563,
+                0.45185448715169363
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 15,
+              "n_valid": 15,
+              "n_missing": 10,
+              "n_invalid": 0,
+              "opt0_count": 2,
+              "rate": 0.13333333333333333,
+              "ci95": [
+                0.03736125910306537,
+                0.37881982832322364
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": 0.8064236229534606,
+            "se": 1.1700997802350857,
+            "ci95": [
+              -1.4869298046254764,
+              3.0997770505323974
+            ],
+            "p_value": 0.4876904084728314,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 0.4816178523909116
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.22526952786297216,
+          "monotonic": false,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "RE",
+          "problem": "S3",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 12,
+              "rate": 0.631578947368421,
+              "ci95": [
+                0.41039533164803066,
+                0.8085048725486492
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 13,
+              "rate": 0.6842105263157895,
+              "ci95": [
+                0.46010407675327475,
+                0.8463562091220773
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 8,
+              "rate": 0.42105263157894735,
+              "ci95": [
+                0.23141891282454238,
+                0.6372409646574496
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 9,
+              "rate": 0.47368421052631576,
+              "ci95": [
+                0.2732980516117956,
+                0.6829219075488682
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 9,
+              "rate": 0.47368421052631576,
+              "ci95": [
+                0.2732980516117956,
+                0.6829219075488682
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": -1.0721426741149287,
+            "se": 0.7417095729061975,
+            "ci95": [
+              -2.5258667239996213,
+              0.3815813757697639
+            ],
+            "p_value": 0.14440092311435618,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 2.1304227775337665
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.31894992537975275,
+          "monotonic": false,
+          "predicted_direction": -1,
+          "direction_matches": true,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "PD",
+          "problem": "S1",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 23,
+              "n_valid": 23,
+              "n_missing": 2,
+              "n_invalid": 0,
+              "opt0_count": 22,
+              "rate": 0.9565217391304348,
+              "ci95": [
+                0.7900884492974114,
+                0.9922833338565469
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 23,
+              "n_valid": 23,
+              "n_missing": 2,
+              "n_invalid": 0,
+              "opt0_count": 23,
+              "rate": 1.0,
+              "ci95": [
+                0.8568833815495731,
+                1.0
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 23,
+              "n_valid": 23,
+              "n_missing": 2,
+              "n_invalid": 0,
+              "opt0_count": 22,
+              "rate": 0.9565217391304348,
+              "ci95": [
+                0.7900884492974114,
+                0.9922833338565469
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 23,
+              "n_valid": 23,
+              "n_missing": 2,
+              "n_invalid": 0,
+              "opt0_count": 23,
+              "rate": 1.0,
+              "ci95": [
+                0.8568833815495731,
+                1.0
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 23,
+              "n_valid": 23,
+              "n_missing": 2,
+              "n_invalid": 0,
+              "opt0_count": 23,
+              "rate": 1.0,
+              "ci95": [
+                0.8568833815495731,
+                1.0
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": 2.8848785515873,
+            "se": 3.0502858918225852,
+            "ci95": [
+              -3.093571938935442,
+              8.863329042110042
+            ],
+            "p_value": 0.2984249685161714,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 1.081219218680971
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.42011147814247796,
+          "monotonic": false,
+          "predicted_direction": 1,
+          "direction_matches": true,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "PD",
+          "problem": "S2",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 1,
+              "rate": 0.0625,
+              "ci95": [
+                0.01111934476464252,
+                0.28328737570298945
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 1,
+              "rate": 0.0625,
+              "ci95": [
+                0.01111934476464252,
+                0.28328737570298945
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 3,
+              "rate": 0.1875,
+              "ci95": [
+                0.06591599071428142,
+                0.4300888096197414
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 8,
+              "rate": 0.5,
+              "ci95": [
+                0.27999563610326017,
+                0.7200043638967398
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 12,
+              "rate": 0.75,
+              "ci95": [
+                0.5050168346449122,
+                0.8981793250878696
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": 5.668710444314884,
+            "se": 1.3385236848478885,
+            "ci95": [
+              3.0452522295592535,
+              8.292168659070516
+            ],
+            "p_value": 1.205712183935216e-07,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 28.01190799569555
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 1.589034592109038,
+          "monotonic": true,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "PD",
+          "problem": "S3",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 19,
+              "rate": 1.0,
+              "ci95": [
+                0.8318207759473837,
+                1.0
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 16,
+              "rate": 0.8421052631578947,
+              "ci95": [
+                0.6243452472967093,
+                0.9447952836146585
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 13,
+              "rate": 0.6842105263157895,
+              "ci95": [
+                0.46010407675327475,
+                0.8463562091220773
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 7,
+              "rate": 0.3684210526315789,
+              "ci95": [
+                0.19149512745135072,
+                0.5896046683519693
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 7,
+              "rate": 0.3684210526315789,
+              "ci95": [
+                0.19149512745135072,
+                0.5896046683519693
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": -4.781042186064572,
+            "se": 1.0678934611880775,
+            "ci95": [
+              -6.874074909318969,
+              -2.6880094628101756
+            ],
+            "p_value": 1.1857274699194172e-07,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 28.04425244403626
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 1.8370903439130795,
+          "monotonic": true,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "TfA",
+          "problem": "S1",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 19,
+              "rate": 0.95,
+              "ci95": [
+                0.763868806553258,
+                0.9911185511992047
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 20,
+              "rate": 1.0,
+              "ci95": [
+                0.8388748419471806,
+                1.0
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 20,
+              "rate": 1.0,
+              "ci95": [
+                0.8388748419471806,
+                1.0
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 19,
+              "rate": 0.95,
+              "ci95": [
+                0.763868806553258,
+                0.9911185511992047
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 18,
+              "rate": 0.9,
+              "ci95": [
+                0.6989663547715128,
+                0.9721335187862319
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": -2.0893263391263934,
+            "se": 1.9971544023886834,
+            "ci95": [
+              -6.00367703937372,
+              1.8250243611209331
+            ],
+            "p_value": 0.2710832048551991,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 1.2112575774002465
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.19247429699702145,
+          "monotonic": false,
+          "predicted_direction": 1,
+          "direction_matches": false,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "TfA",
+          "problem": "S2",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 5,
+              "rate": 0.2777777777777778,
+              "ci95": [
+                0.12499753379553993,
+                0.5087265656029746
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 6,
+              "rate": 0.3333333333333333,
+              "ci95": [
+                0.1627877475083369,
+                0.5625053270405489
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 5,
+              "rate": 0.2777777777777778,
+              "ci95": [
+                0.12499753379553993,
+                0.5087265656029746
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 4,
+              "rate": 0.2222222222222222,
+              "ci95": [
+                0.09000928108601694,
+                0.45214584316212625
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 3,
+              "rate": 0.16666666666666666,
+              "ci95": [
+                0.05836576805861446,
+                0.39222038103915724
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": -0.8847762122987853,
+            "se": 0.867227219273915,
+            "ci95": [
+              -2.5845103284884323,
+              0.8149579038908615
+            ],
+            "p_value": 0.30402152452175624,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 1.0564706753767013
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.26917366454564395,
+          "monotonic": false,
+          "predicted_direction": -1,
+          "direction_matches": true,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "TfA",
+          "problem": "S3",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 17,
+              "n_valid": 17,
+              "n_missing": 8,
+              "n_invalid": 0,
+              "opt0_count": 13,
+              "rate": 0.7647058823529411,
+              "ci95": [
+                0.5273820188043501,
+                0.9044495567791988
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 17,
+              "n_valid": 17,
+              "n_missing": 8,
+              "n_invalid": 0,
+              "opt0_count": 10,
+              "rate": 0.5882352941176471,
+              "ci95": [
+                0.3600544264299978,
+                0.7838894320978518
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 17,
+              "n_valid": 17,
+              "n_missing": 8,
+              "n_invalid": 0,
+              "opt0_count": 9,
+              "rate": 0.5294117647058824,
+              "ci95": [
+                0.30963235060004424,
+                0.7383489355759056
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 17,
+              "n_valid": 17,
+              "n_missing": 8,
+              "n_invalid": 0,
+              "opt0_count": 16,
+              "rate": 0.9411764705882353,
+              "ci95": [
+                0.7301796936242461,
+                0.9895395990150025
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 17,
+              "n_valid": 17,
+              "n_missing": 8,
+              "n_invalid": 0,
+              "opt0_count": 15,
+              "rate": 0.8823529411764706,
+              "ci95": [
+                0.6566364940511412,
+                0.9671202262362074
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": 1.5813972819706503,
+            "se": 0.9172624173697778,
+            "ci95": [
+              -0.21640402044621188,
+              3.3791985843875123
+            ],
+            "p_value": 0.07763223098821803,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 3.1137876539558107
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.3126777312927098,
+          "monotonic": false,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "ID",
+          "problem": "S1",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 19,
+              "rate": 1.0,
+              "ci95": [
+                0.8318207759473837,
+                1.0
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 19,
+              "rate": 1.0,
+              "ci95": [
+                0.8318207759473837,
+                1.0
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 19,
+              "rate": 1.0,
+              "ci95": [
+                0.8318207759473837,
+                1.0
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 19,
+              "rate": 1.0,
+              "ci95": [
+                0.8318207759473837,
+                1.0
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 19,
+              "n_valid": 19,
+              "n_missing": 6,
+              "n_invalid": 0,
+              "opt0_count": 19,
+              "rate": 1.0,
+              "ci95": [
+                0.8318207759473837,
+                1.0
+              ]
+            }
+          ],
+          "fit": {
+            "status": "pinned",
+            "slope": null,
+            "p_value": null,
+            "ci95": null
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.0,
+          "monotonic": true,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "ID",
+          "problem": "S2",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 13,
+              "n_valid": 13,
+              "n_missing": 12,
+              "n_invalid": 0,
+              "opt0_count": 2,
+              "rate": 0.15384615384615385,
+              "ci95": [
+                0.043258178358081184,
+                0.4223463101948254
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 13,
+              "n_valid": 13,
+              "n_missing": 12,
+              "n_invalid": 0,
+              "opt0_count": 3,
+              "rate": 0.23076923076923078,
+              "ci95": [
+                0.08179528718498569,
+                0.5025637594672749
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 13,
+              "n_valid": 13,
+              "n_missing": 12,
+              "n_invalid": 0,
+              "opt0_count": 5,
+              "rate": 0.38461538461538464,
+              "ci95": [
+                0.17709707797762575,
+                0.6447710848733431
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 13,
+              "n_valid": 13,
+              "n_missing": 12,
+              "n_invalid": 0,
+              "opt0_count": 3,
+              "rate": 0.23076923076923078,
+              "ci95": [
+                0.08179528718498569,
+                0.5025637594672749
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 13,
+              "n_valid": 13,
+              "n_missing": 12,
+              "n_invalid": 0,
+              "opt0_count": 1,
+              "rate": 0.07692307692307693,
+              "ci95": [
+                0.013710421242556586,
+                0.3331395092109959
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": -0.45643980576083704,
+            "se": 1.071175061092232,
+            "ci95": [
+              -2.5559043466390463,
+              1.6430247351173721
+            ],
+            "p_value": 0.6693835875845582,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 0.18232400535059412
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.2440443459265993,
+          "monotonic": false,
+          "predicted_direction": 1,
+          "direction_matches": false,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "ID",
+          "problem": "S3",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 15,
+              "rate": 0.75,
+              "ci95": [
+                0.531299122381256,
+                0.8881382985923343
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 13,
+              "rate": 0.65,
+              "ci95": [
+                0.43285427668523624,
+                0.818808175898918
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 11,
+              "rate": 0.55,
+              "ci95": [
+                0.34208534245034233,
+                0.7418021417443759
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 10,
+              "rate": 0.5,
+              "ci95": [
+                0.2992980081982123,
+                0.7007019918017877
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 10,
+              "rate": 0.5,
+              "ci95": [
+                0.2992980081982123,
+                0.7007019918017877
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": -1.3724808330135145,
+            "se": 0.7422547971669347,
+            "ci95": [
+              -2.8272735028127496,
+              0.0823118367857203
+            ],
+            "p_value": 0.060254144411058135,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 3.5303753991380518
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.5235987755982985,
+          "monotonic": true,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "MS",
+          "problem": "S1",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 16,
+              "rate": 1.0,
+              "ci95": [
+                0.8063923194655637,
+                1.0
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 16,
+              "rate": 1.0,
+              "ci95": [
+                0.8063923194655637,
+                1.0
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 16,
+              "rate": 1.0,
+              "ci95": [
+                0.8063923194655637,
+                1.0
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 16,
+              "rate": 1.0,
+              "ci95": [
+                0.8063923194655637,
+                1.0
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 15,
+              "rate": 0.9375,
+              "ci95": [
+                0.7167126242970107,
+                0.9888806552353576
+              ]
+            }
+          ],
+          "fit": {
+            "status": "separation",
+            "slope": null,
+            "p_value": null,
+            "ci95": null
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.5053605102841567,
+          "monotonic": true,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "MS",
+          "problem": "S2",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 3,
+              "rate": 0.1875,
+              "ci95": [
+                0.06591599071428142,
+                0.4300888096197414
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 4,
+              "rate": 0.25,
+              "ci95": [
+                0.10182067491213048,
+                0.49498316535508774
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 3,
+              "rate": 0.1875,
+              "ci95": [
+                0.06591599071428142,
+                0.4300888096197414
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 5,
+              "rate": 0.3125,
+              "ci95": [
+                0.14164643854782039,
+                0.5559564416525933
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 6,
+              "rate": 0.375,
+              "ci95": [
+                0.18481232558863633,
+                0.6135895945449727
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": 1.1487379968096758,
+            "se": 0.9209228441778657,
+            "ci95": [
+              -0.6562376103190835,
+              2.953713603938435
+            ],
+            "p_value": 0.20661880680515804,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 1.5949607754020576
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.42245127779495284,
+          "monotonic": false,
+          "predicted_direction": 1,
+          "direction_matches": true,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "MS",
+          "problem": "S3",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 11,
+              "rate": 0.6875,
+              "ci95": [
+                0.44404355834740666,
+                0.8583535614521796
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 11,
+              "rate": 0.6875,
+              "ci95": [
+                0.44404355834740666,
+                0.8583535614521796
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 11,
+              "rate": 0.6875,
+              "ci95": [
+                0.44404355834740666,
+                0.8583535614521796
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 10,
+              "rate": 0.625,
+              "ci95": [
+                0.38641040545502714,
+                0.8151876744113636
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 16,
+              "n_valid": 16,
+              "n_missing": 9,
+              "n_invalid": 0,
+              "opt0_count": 13,
+              "rate": 0.8125,
+              "ci95": [
+                0.5699111903802586,
+                0.9340840092857187
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": 0.4475266922436013,
+            "se": 0.8657671700839941,
+            "ci95": [
+              -1.2493457801181438,
+              2.144399164605346
+            ],
+            "p_value": 0.6045511262506271,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 0.26818614293658527
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.2907347584413926,
+          "monotonic": false,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "AW",
+          "problem": "S1",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 18,
+              "rate": 1.0,
+              "ci95": [
+                0.8241207763533425,
+                1.0
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 18,
+              "rate": 1.0,
+              "ci95": [
+                0.8241207763533425,
+                1.0
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 18,
+              "rate": 1.0,
+              "ci95": [
+                0.8241207763533425,
+                1.0
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 18,
+              "rate": 1.0,
+              "ci95": [
+                0.8241207763533425,
+                1.0
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 18,
+              "rate": 1.0,
+              "ci95": [
+                0.8241207763533425,
+                1.0
+              ]
+            }
+          ],
+          "fit": {
+            "status": "pinned",
+            "slope": null,
+            "p_value": null,
+            "ci95": null
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.0,
+          "monotonic": true,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "AW",
+          "problem": "S2",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 6,
+              "rate": 0.3,
+              "ci95": [
+                0.1454772448676043,
+                0.5189728183535235
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 3,
+              "rate": 0.15,
+              "ci95": [
+                0.052368745896216595,
+                0.36041886474075696
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 6,
+              "rate": 0.3,
+              "ci95": [
+                0.1454772448676043,
+                0.5189728183535235
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 7,
+              "rate": 0.35,
+              "ci95": [
+                0.18119182410108206,
+                0.5671457233147638
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 20,
+              "n_valid": 20,
+              "n_missing": 5,
+              "n_invalid": 0,
+              "opt0_count": 6,
+              "rate": 0.3,
+              "ci95": [
+                0.1454772448676043,
+                0.5189728183535235
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": 0.4975643198435919,
+            "se": 0.7910789720691698,
+            "ci95": [
+              -1.0529219743389056,
+              2.0480506140260895
+            ],
+            "p_value": 0.5284156611745224,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 0.3974374102142946
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.0,
+          "monotonic": false,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        },
+        {
+          "arm": "full_harness",
+          "parameter": "AW",
+          "problem": "S3",
+          "cells": [
+            {
+              "value": 0.1,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 9,
+              "rate": 0.5,
+              "ci95": [
+                0.29031021505169974,
+                0.7096897849483003
+              ]
+            },
+            {
+              "value": 0.3,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 12,
+              "rate": 0.6666666666666666,
+              "ci95": [
+                0.43749467295945105,
+                0.837212252491663
+              ]
+            },
+            {
+              "value": 0.5,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 10,
+              "rate": 0.5555555555555556,
+              "ci95": [
+                0.33716415642042774,
+                0.7544048187299437
+              ]
+            },
+            {
+              "value": 0.7,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 15,
+              "rate": 0.8333333333333334,
+              "ci95": [
+                0.6077796189608428,
+                0.9416342319413856
+              ]
+            },
+            {
+              "value": 0.9,
+              "n_expected": 25,
+              "n_recorded": 18,
+              "n_valid": 18,
+              "n_missing": 7,
+              "n_invalid": 0,
+              "opt0_count": 13,
+              "rate": 0.7222222222222222,
+              "ci95": [
+                0.4912734343970254,
+                0.8750024662044601
+              ]
+            }
+          ],
+          "fit": {
+            "status": "ok",
+            "slope": 1.3838122138205597,
+            "se": 0.8110920093257573,
+            "ci95": [
+              -0.20589891260610638,
+              2.973523340247226
+            ],
+            "p_value": 0.08273681148443963,
+            "test": "likelihood_ratio_1df",
+            "lr_statistic": 3.010303242196386
+          },
+          "complete": false,
+          "parse_quality_98pct": false,
+          "cohens_h_extremes": 0.46055399168132216,
+          "monotonic": false,
+          "predicted_direction": null,
+          "direction_matches": null,
+          "criterion_met": false
+        }
+      ],
+      "delivery_contrasts": [],
+      "battery_status": "NOT CLOSED: coherence, paraphrase and numeric/verbal tests also required",
+      "inference_note": "Unadjusted p<0.05 follows spec 4.1; no new directional hypotheses inferred."
+    },
+    "representation_retention_diagnostic": [
+      {
+        "variant": "numeric_only",
+        "parameter": "LL",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "separation",
+          "slope": null,
+          "p_value": null,
+          "ci95": null
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "LL",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "pinned",
+          "slope": null,
+          "p_value": null,
+          "ci95": null
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "LL",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 2.5153210524528777,
+          "se": 0.8394127834912598,
+          "ci95": [
+            0.8701022286475357,
+            4.16053987625822
+          ],
+          "p_value": 0.0015514963231020916,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 10.01643325520385
+        },
+        "absolute_logit_slope_ratio": 1.308910287455916,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "LL",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 1.9305166596957701,
+          "se": 0.8099015625033752,
+          "ci95": [
+            0.34313876616648287,
+            3.5178945532250574
+          ],
+          "p_value": 0.013914749882300986,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 6.048927041636233
+        },
+        "absolute_logit_slope_ratio": 1.0045926795375415,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "LL",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 2.2968913328741447,
+          "se": 0.8465055425103791,
+          "ci95": [
+            0.6377709568403076,
+            3.956011708907982
+          ],
+          "p_value": 0.00460047303430461,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 8.030161775409795
+        },
+        "absolute_logit_slope_ratio": 2.366643195943022,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "LL",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 0.0,
+          "se": 0.7248660933577357,
+          "ci95": [
+            -1.4207114365953712,
+            1.4207114365953712
+          ],
+          "p_value": 1.0,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.0
+        },
+        "absolute_logit_slope_ratio": 0.0,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "CS",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 5.035131268915321,
+          "se": 2.5841417978925953,
+          "ci95": [
+            -0.029693585898609598,
+            10.099956123729251
+          ],
+          "p_value": 0.014461573191167774,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 5.980905788555468
+        },
+        "absolute_logit_slope_ratio": 1.1272418573563925,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "CS",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "separation",
+          "slope": null,
+          "p_value": null,
+          "ci95": null
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "CS",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 2.7999162145973684,
+          "se": 0.8501703761125283,
+          "ci95": [
+            1.133612896693987,
+            4.46621953250075
+          ],
+          "p_value": 0.00044558002966539205,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 12.330655011710192
+        },
+        "absolute_logit_slope_ratio": 6.189120060417586,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "CS",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 1.4851554522038248,
+          "se": 0.8425947613225252,
+          "ci95": [
+            -0.16629993355040207,
+            3.1366108379580515
+          ],
+          "p_value": 0.07246561070118689,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 3.226269003784921
+        },
+        "absolute_logit_slope_ratio": 3.282885878567276,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "CS",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -0.5544612902256099,
+          "se": 0.747402752594219,
+          "ci95": [
+            -2.0193437672563395,
+            0.9104211868051195
+          ],
+          "p_value": 0.4569203618177,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.5534280651120298
+        },
+        "absolute_logit_slope_ratio": 0.2929867956061576,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "CS",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -2.007419477531542,
+          "se": 0.7807613533227388,
+          "ci95": [
+            -3.53768361056482,
+            -0.4771553444982639
+          ],
+          "p_value": 0.007854189773308519,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 7.066423188159774
+        },
+        "absolute_logit_slope_ratio": 1.0607546649830808,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "RT",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -1.8164180956642575,
+          "se": 2.245692942806967,
+          "ci95": [
+            -6.21789538390156,
+            2.585059192573045
+          ],
+          "p_value": 0.400243687988441,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.7075940496781286
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "RT",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "pinned",
+          "slope": null,
+          "p_value": null,
+          "ci95": null
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "RT",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -0.03441183930412609,
+          "se": 0.7184844058311515,
+          "ci95": [
+            -1.4426153981868044,
+            1.373791719578552
+          ],
+          "p_value": 0.9617988053664165,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.0022940655076411076
+        },
+        "absolute_logit_slope_ratio": 0.24717750746922124,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "RT",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -0.3336371642404945,
+          "se": 0.6950647416650804,
+          "ci95": [
+            -1.6959390248276511,
+            1.0286646963466621
+          ],
+          "p_value": 0.6309033004894746,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.23083780894100414
+        },
+        "absolute_logit_slope_ratio": 2.396489241020502,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "RT",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -2.933199274955759,
+          "se": 0.8782217586180145,
+          "ci95": [
+            -4.654482292286449,
+            -1.2119162576250693
+          ],
+          "p_value": 0.00033637396991479724,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 12.856138631895462
+        },
+        "absolute_logit_slope_ratio": 2.207163875473826,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "RT",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -0.8504068289804076,
+          "se": 0.8489007901044389,
+          "ci95": [
+            -2.514221804032658,
+            0.8134081460718425
+          ],
+          "p_value": 0.3134169061143483,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 1.0162217250339438
+        },
+        "absolute_logit_slope_ratio": 0.6399112560840633,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "MoR",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -1.8164180956642533,
+          "se": 2.2456929428069596,
+          "ci95": [
+            -6.21789538390154,
+            2.585059192573034
+          ],
+          "p_value": 0.40024368798843635,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.7075940496781428
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "MoR",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 0.0,
+          "se": 3.5542901855932096,
+          "ci95": [
+            -6.966280754366684,
+            6.966280754366684
+          ],
+          "p_value": 1.0,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.0
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "MoR",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 0.8949223141316411,
+          "se": 0.8074022025280683,
+          "ci95": [
+            -0.6875569238616437,
+            2.4774015521249257
+          ],
+          "p_value": 0.26417427099489965,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 1.2467492048254059
+        },
+        "absolute_logit_slope_ratio": 0.751806915102503,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "MoR",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 1.1855953962682952,
+          "se": 0.7143867185200132,
+          "ci95": [
+            -0.2145768430646453,
+            2.585767635601236
+          ],
+          "p_value": 0.09296313406255945,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 2.8222995246457003
+        },
+        "absolute_logit_slope_ratio": 0.9959957455000755,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "MoR",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 0.13230358139381143,
+          "se": 0.8135125565456524,
+          "ci95": [
+            -1.4621517304067275,
+            1.7267588931943503
+          ],
+          "p_value": 0.8707871190806639,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.026457872258959014
+        },
+        "absolute_logit_slope_ratio": 0.042450433626621285,
+        "direction_matches": true,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "MoR",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 1.2982311295326665,
+          "se": 0.7498912449283539,
+          "ci95": [
+            -0.1715287028487711,
+            2.767990961914104
+          ],
+          "p_value": 0.07898930427887689,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 3.085575771136149
+        },
+        "absolute_logit_slope_ratio": 0.4165455977506733,
+        "direction_matches": true,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "RE",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 2.8599779918742247,
+          "se": 4.292256482379819,
+          "ci95": [
+            -5.55269012599857,
+            11.272646109747019
+          ],
+          "p_value": 0.46403751214808087,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.5361384178675817
+        },
+        "absolute_logit_slope_ratio": 0.9958232038771675,
+        "direction_matches": true,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "RE",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "pinned",
+          "slope": null,
+          "p_value": null,
+          "ci95": null
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "RE",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -1.6356206819100545,
+          "se": 0.8197135764939117,
+          "ci95": [
+            -3.2422297694765962,
+            -0.02901159434351297
+          ],
+          "p_value": 0.04083789202856986,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 4.182729003093172
+        },
+        "absolute_logit_slope_ratio": 2.028240040786166,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "RE",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -0.7100057555522761,
+          "se": 0.7735917938991073,
+          "ci95": [
+            -2.226217810330217,
+            0.8062062992256647
+          ],
+          "p_value": 0.35667006656227696,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.8495839371690863
+        },
+        "absolute_logit_slope_ratio": 0.8804376947093118,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "RE",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -0.3221979439180496,
+          "se": 0.7336709848678012,
+          "ci95": [
+            -1.7601666507609315,
+            1.1157707629248323
+          ],
+          "p_value": 0.6602632098701944,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.19320402180787255
+        },
+        "absolute_logit_slope_ratio": 0.3005177871350278,
+        "direction_matches": true,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "RE",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -0.6983561787435265,
+          "se": 0.7671658314988051,
+          "ci95": [
+            -2.201973578650867,
+            0.8052612211638138
+          ],
+          "p_value": 0.36063718667592337,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.8356731667696238
+        },
+        "absolute_logit_slope_ratio": 0.6513649681186611,
+        "direction_matches": true,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "PD",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 2.925835344171357,
+          "se": 2.5110103306556053,
+          "ci95": [
+            -1.9956544687215065,
+            7.847325157064221
+          ],
+          "p_value": 0.19980043410446977,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 1.643832571444868
+        },
+        "absolute_logit_slope_ratio": 1.0141970595474536,
+        "direction_matches": true,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "PD",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 5.468173899295785,
+          "se": 4.364898241175915,
+          "ci95": [
+            -3.086869449590999,
+            14.023217248182569
+          ],
+          "p_value": 0.10074408706088367,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 2.6937243971915272
+        },
+        "absolute_logit_slope_ratio": 1.8954606932368505,
+        "direction_matches": true,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "PD",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 0.3446831330836303,
+          "se": 0.7589765522008723,
+          "ci95": [
+            -1.1428835743404226,
+            1.8322498405076835
+          ],
+          "p_value": 0.6493912454658792,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.20666847520190856
+        },
+        "absolute_logit_slope_ratio": 0.06080450509327231,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "PD",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 3.8973739111275507,
+          "se": 0.9262492939953096,
+          "ci95": [
+            2.0819586541911415,
+            5.71278916806396
+          ],
+          "p_value": 2.315339414066928e-06,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 22.31382300210788
+        },
+        "absolute_logit_slope_ratio": 0.6875238997321169,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "PD",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -2.9138204608471336,
+          "se": 1.1725216695622596,
+          "ci95": [
+            -5.211920704281873,
+            -0.6157202174123939
+          ],
+          "p_value": 0.007325477479532935,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 7.191376244949538
+        },
+        "absolute_logit_slope_ratio": 0.6094529910947286,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "PD",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -4.2958300084945815,
+          "se": 0.9876186337577716,
+          "ci95": [
+            -6.231526961120414,
+            -2.3601330558687486
+          ],
+          "p_value": 5.826888561377763e-07,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 24.96869108231654
+        },
+        "absolute_logit_slope_ratio": 0.8985133034416113,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "TfA",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "pinned",
+          "slope": null,
+          "p_value": null,
+          "ci95": null
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "TfA",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "pinned",
+          "slope": null,
+          "p_value": null,
+          "ci95": null
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "TfA",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -2.3643348488620193,
+          "se": 0.9063866265225703,
+          "ci95": [
+            -4.140819992914965,
+            -0.5878497048090734
+          ],
+          "p_value": 0.006111492072437105,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 7.517131593801935
+        },
+        "absolute_logit_slope_ratio": 2.6722405236450832,
+        "direction_matches": true,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "TfA",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -0.10417975094185815,
+          "se": 0.7218238132806925,
+          "ci95": [
+            -1.518928428155341,
+            1.310568926271625
+          ],
+          "p_value": 0.8852303359468103,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.020834641624475125
+        },
+        "absolute_logit_slope_ratio": 0.11774700708915202,
+        "direction_matches": true,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "TfA",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 0.13739341603531274,
+          "se": 0.829020549577111,
+          "ci95": [
+            -1.4874570035793824,
+            1.7622438356500079
+          ],
+          "p_value": 0.868347658649918,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.027475605582964135
+        },
+        "absolute_logit_slope_ratio": 0.0868810245228831,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "TfA",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 1.2460827998875512,
+          "se": 0.7658075879821139,
+          "ci95": [
+            -0.2548724916448395,
+            2.7470380914199417
+          ],
+          "p_value": 0.09924893040262132,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 2.7175712293468735
+        },
+        "absolute_logit_slope_ratio": 0.7879631602343159,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "ID",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "separation",
+          "slope": null,
+          "p_value": null,
+          "ci95": null
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "ID",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "pinned",
+          "slope": null,
+          "p_value": null,
+          "ci95": null
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "ID",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -0.9674114445954701,
+          "se": 0.7858831764082753,
+          "ci95": [
+            -2.5077141664115854,
+            0.572891277220645
+          ],
+          "p_value": 0.21467029157201126,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 1.539647433707131
+        },
+        "absolute_logit_slope_ratio": 2.1194721240030705,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "ID",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 0.5308822081549947,
+          "se": 0.7309491247085886,
+          "ci95": [
+            -0.9017517508048762,
+            1.9635161671148655
+          ],
+          "p_value": 0.46659252705944343,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.5300340915105437
+        },
+        "absolute_logit_slope_ratio": 1.163093580916042,
+        "direction_matches": true,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "ID",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -1.461698421656627,
+          "se": 0.9257204321481095,
+          "ci95": [
+            -3.2760771284197263,
+            0.35268028510647254
+          ],
+          "p_value": 0.10715268211924839,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 2.5957207830045945
+        },
+        "absolute_logit_slope_ratio": 1.0650046153629846,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "ID",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -0.9554289891150972,
+          "se": 0.7809776402046741,
+          "ci95": [
+            -2.486117036647297,
+            0.5752590584171023
+          ],
+          "p_value": 0.21752881451848483,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 1.520599361485452
+        },
+        "absolute_logit_slope_ratio": 0.6961328465456896,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "MS",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": -2.974425008603295,
+          "se": 2.1956905550742363,
+          "ci95": [
+            -7.2778994177434395,
+            1.3290494005368494
+          ],
+          "p_value": 0.13566491801170527,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 2.226453651806885
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "MS",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "pinned",
+          "slope": null,
+          "p_value": null,
+          "ci95": null
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "MS",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 1.7056594716017894,
+          "se": 0.8280731609479176,
+          "ci95": [
+            0.08266589957967607,
+            3.328653043623903
+          ],
+          "p_value": 0.034617826772244474,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 4.463926944743122
+        },
+        "absolute_logit_slope_ratio": 1.4848115726465214,
+        "direction_matches": true,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "MS",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 2.1287850938448445,
+          "se": 0.7150850044442713,
+          "ci95": [
+            0.7272442392494469,
+            3.5303259484402423
+          ],
+          "p_value": 0.0020002480405762668,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 9.54930807486528
+        },
+        "absolute_logit_slope_ratio": 1.8531511099632791,
+        "direction_matches": true,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "MS",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 1.1976880038458402,
+          "se": 0.8296202126242818,
+          "ci95": [
+            -0.42833773374416917,
+            2.8237137414358493
+          ],
+          "p_value": 0.1437231021200918,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 2.1376372291805836
+        },
+        "absolute_logit_slope_ratio": 2.6762381431181876,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "MS",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 1.3196704036825708,
+          "se": 0.7897280057457939,
+          "ci95": [
+            -0.22816804516178357,
+            2.8675088525269254
+          ],
+          "p_value": 0.08996130536731882,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 2.8750656664758765
+        },
+        "absolute_logit_slope_ratio": 2.948808253350478,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "AW",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 1.8295134536676212,
+          "se": 2.2543603289504786,
+          "ci95": [
+            -2.5889515992510637,
+            6.247978506586306
+          ],
+          "p_value": 0.39858219627687663,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.712599478919465
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "AW",
+        "problem": "S1",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "pinned",
+          "slope": null,
+          "p_value": null,
+          "ci95": null
+        },
+        "absolute_logit_slope_ratio": null,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "AW",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 0.6227701476849965,
+          "se": 0.8219712830194917,
+          "ci95": [
+            -0.9882639633593426,
+            2.233804258729336
+          ],
+          "p_value": 0.44711756596712793,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.5779485070810608
+        },
+        "absolute_logit_slope_ratio": 1.251637472479463,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "AW",
+        "problem": "S2",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 0.4510434722851925,
+          "se": 0.7526107858737549,
+          "ci95": [
+            -1.0240465624037127,
+            1.926133506974098
+          ],
+          "p_value": 0.5482748142911488,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.36041685812537594
+        },
+        "absolute_logit_slope_ratio": 0.9065028465605751,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "numeric_only",
+        "parameter": "AW",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 0.5167802218499965,
+          "se": 0.8062679778335976,
+          "ci95": [
+            -1.06347597659175,
+            2.097036420291743
+          ],
+          "p_value": 0.5205661033717015,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 0.41277157817179955
+        },
+        "absolute_logit_slope_ratio": 0.37344678467840714,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      },
+      {
+        "variant": "verbal_only",
+        "parameter": "AW",
+        "problem": "S3",
+        "complete": false,
+        "source_sweep_criterion_met": false,
+        "fit": {
+          "status": "ok",
+          "slope": 1.5180211021618515,
+          "se": 0.8523466670173199,
+          "ci95": [
+            -0.15254766753480342,
+            3.1885898718585066
+          ],
+          "p_value": 0.06941764641793387,
+          "test": "likelihood_ratio_1df",
+          "lr_statistic": 3.2967370961564484
+        },
+        "absolute_logit_slope_ratio": 1.0969848993966855,
+        "direction_matches": false,
+        "criterion_met": false,
+        "assessment": "not_assessable"
+      }
+    ],
+    "exact_paired_180_comparisons": [
+      {
+        "parameter": "LL",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 0,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 0,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 0,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 5,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 10,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 3,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 5,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 6,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 2,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 7,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 6,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 10,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 2,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "LL",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 4,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 2,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 3,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 1,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 0,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 3,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 1,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 10,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 4,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 4,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 4,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 1,
+        "negative_pairs": 8,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 2,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 4,
+        "positive_pairs": 2,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 4,
+        "positive_pairs": 1,
+        "negative_pairs": 4,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 1,
+        "negative_pairs": 7,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "CS",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 1,
+        "negative_pairs": 7,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 4,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 4,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 0,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 3,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 3,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 4,
+        "positive_pairs": 0,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 4,
+        "positive_pairs": 5,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 3,
+        "positive_pairs": 2,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 3,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 4,
+        "positive_pairs": 3,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 0,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 2,
+        "negative_pairs": 5,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 1,
+        "negative_pairs": 6,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 10,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 10,
+        "positive_pairs": 1,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RT",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 10,
+        "positive_pairs": 2,
+        "negative_pairs": 4,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 4,
+        "positive_pairs": 0,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 4,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 0,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 5,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 2,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 4,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 5,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 3,
+        "positive_pairs": 5,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 3,
+        "positive_pairs": 3,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 10,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 8,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 2,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 2,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 6,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MoR",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 7,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 10,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 10,
+        "positive_pairs": 1,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 4,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 4,
+        "positive_pairs": 1,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 10,
+        "positive_pairs": 2,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 10,
+        "positive_pairs": 2,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 4,
+        "positive_pairs": 1,
+        "negative_pairs": 7,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 4,
+        "positive_pairs": 1,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 2,
+        "negative_pairs": 4,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 2,
+        "negative_pairs": 4,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 5,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 7,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 1,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 7,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 5,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "RE",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 3,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 2,
+        "positive_pairs": 1,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 2,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 1,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 1,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 4,
+        "positive_pairs": 1,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 4,
+        "positive_pairs": 1,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 11,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 8,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 4,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 2,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 9,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 13,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 12,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 9,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 11,
+        "positive_pairs": 0,
+        "negative_pairs": 6,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 11,
+        "positive_pairs": 1,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 11,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "PD",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 10,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 1,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 0,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 2,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 3,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 7,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 5,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 1,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 3,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 3,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 7,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 2,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 3,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 4,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "TfA",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 6,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 2,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 3,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 3,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 12,
+        "positive_pairs": 1,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 12,
+        "positive_pairs": 1,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 1,
+        "negative_pairs": 4,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 2,
+        "negative_pairs": 4,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 3,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 1,
+        "negative_pairs": 6,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 2,
+        "negative_pairs": 5,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 1,
+        "negative_pairs": 5,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 2,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 1,
+        "negative_pairs": 5,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "ID",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 3,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 0,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 0,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 0,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 10,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 10,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 4,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 3,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 6,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 5,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 2,
+        "positive_pairs": 7,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 2,
+        "positive_pairs": 9,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 5,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 1,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 4,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 3,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 6,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "MS",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 2,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S1",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 10,
+        "positive_pairs": 1,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S1",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 10,
+        "positive_pairs": 1,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S1",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 6,
+        "positive_pairs": 0,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 3,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S2",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 5,
+        "positive_pairs": 5,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 4,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S2",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 9,
+        "positive_pairs": 2,
+        "negative_pairs": 3,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 3,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S2",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 1,
+        "negative_pairs": 1,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 6,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S3",
+        "variant": "canonical",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 7,
+        "positive_pairs": 3,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 2,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S3",
+        "variant": "numeric_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 8,
+        "positive_pairs": 4,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "endpoint",
+        "complete_pairs": false,
+        "missing_pairs": 10,
+        "positive_pairs": 6,
+        "negative_pairs": 2,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      },
+      {
+        "parameter": "AW",
+        "problem": "S3",
+        "variant": "verbal_only",
+        "contrast": "interior",
+        "complete_pairs": false,
+        "missing_pairs": 10,
+        "positive_pairs": 3,
+        "negative_pairs": 0,
+        "effect": null,
+        "p_exact": 1.0,
+        "p_holm": 1.0
+      }
+    ],
+    "warning": "Legacy fit/retention p-values ignore repeated backgrounds; paired sensitivity retained. Incomplete contrasts use p=1 for multiplicity and never support a claim. No new gate."
+  },
+  "wording_analysis": [
+    {
+      "parameter": "LL",
+      "problem": "S1",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "LL",
+      "problem": "S2",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "LL",
+      "problem": "S3",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "CS",
+      "problem": "S1",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "CS",
+      "problem": "S2",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "CS",
+      "problem": "S3",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "RT",
+      "problem": "S1",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "RT",
+      "problem": "S2",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "RT",
+      "problem": "S3",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S1",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S2",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "RE",
+      "problem": "S1",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "RE",
+      "problem": "S2",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "RE",
+      "problem": "S3",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "PD",
+      "problem": "S1",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "PD",
+      "problem": "S2",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "PD",
+      "problem": "S3",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S1",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S2",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "TfA",
+      "problem": "S3",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "ID",
+      "problem": "S1",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "ID",
+      "problem": "S2",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "ID",
+      "problem": "S3",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "MS",
+      "problem": "S1",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "MS",
+      "problem": "S2",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "MS",
+      "problem": "S3",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "AW",
+      "problem": "S1",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "AW",
+      "problem": "S2",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    },
+    {
+      "parameter": "AW",
+      "problem": "S3",
+      "complete": false,
+      "pairs": [],
+      "all_pairs_equivalent": false
+    }
+  ],
+  "original_gate_passed": false,
+  "note": "Profile-average wording equivalence, not conditional equality for each profile. Existing independent TOST is a sensitivity only. Old audit is separate evidence; no new coder run."
+}

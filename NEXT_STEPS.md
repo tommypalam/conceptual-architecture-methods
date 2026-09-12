@@ -3,7 +3,7 @@
 Updated 2026-09-12. Working branch: `phase1-5-all-ten-criteria`.
 
 **The previous structural package is complete; the new all-ten follow-up is
-being continued after a technical stop. Phase 1.5 remains open, the original full validity gate is unmet, and
+interrupted again; offline finalization and archiving are complete. Phase 1.5 remains open, the original full validity gate is unmet, and
 Phase 2 remains on hold.**
 The researcher rejected the earlier closure interpretation. No automatic
 closure, threshold relaxation, theoretical revision or parameter removal is made.
@@ -27,7 +27,7 @@ verification and same-computer archiving completed (commit3d502ab3). The partial
 study is not a new validity result. Original files and failures remain unchanged.
 [Verified segment1](experiments/phase1_5_encoding_validity/all_ten_followup_20260912/STATUS.md).
 
-An administrative continuation is running for exactly15,309 unattempted
+The administrative continuation was launched for exactly15,309 unattempted
 requests in the original schedule. No failed request is replaced. Prompts, model,
 seed per request, timeout, concurrency, analyses and thresholds remain frozen.
 Prior known/unknown accounting is$6.66183325 of the existing$25 ceiling, including
@@ -43,6 +43,18 @@ All-ten scope remains11,250 gradient calls (25 backgrounds, three representation
 and6,000 wording calls (50 backgrounds, four wordings), with the completed prior
 200-item audit separate. Analyze disjoint segments together as one frozen design,
 with invalid slots and the interruption explicit. Phase1.5 remains open.
+
+## Latest monitoring interruption
+
+The collection process is no longer present. The last progress checkpoint is
+stale. Exactly12,663 responses are saved across both segments; three segment2
+dispatches have no response, and4,584 requests were never dispatched. The exact
+exit cause is unknown. Offline scoring, recomputation and archive verification are complete. All
+unknown charges are retained: $17.89124275 total accounted under the $25 cap.
+Of the 12,663 saved responses, 12,651 are valid and twelve remain invalid. No further paid segment is running.
+[Interruption observation](experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment2/interruption_observation.json).
+[Verified interrupted assessment](experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment2/STATUS.md).
+The raw archive remains on this computer; no off-device backup is claimed.
 
 ## New evidence
 

@@ -16,6 +16,39 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+## 2026-09-12 - Interrupted segment verified and archived
+
+Offline finalization completed without additional API calls: 12,663 records
+across two disjoint segments, 12,651 valid and twelve invalid (three API failures
+and nine parse failures). Three further dispatched requests have no saved
+response; 4,584 were never dispatched. Exact prompts, hashes, requested seeds,
+returned IDs and raw payloads were verified; the unchanged analysis recomputed
+identically, and the archive was checked byte-for-byte by the existing helper.
+
+Known follow-up usage is $13.22255925, follow-up unknown bounds $0.03752175;
+with the prior package, total accounted cost is $17.89124275 under $25.
+The unresolved requests retain full reservations. No provider balance or
+outside-computer backup is claimed. The original RUNNING checkpoint is stale;
+STATUS.md and budget_ledger.json are authoritative terminal artifacts. No further
+paid segment is running. This interrupted allocation is not a completed study
+or a new gate result; Phase 1.5 stays open and Phase 2 held.
+
+## 2026-09-12 - Monitoring detected an unfinalized execution interruption
+
+Tracking observed the continuation process absent with its last checkpoint
+still marked RUNNING. There are12,663 saved responses across both segments;
+segment2 contains10,722 records and10,725 dispatch intents. Three dispatched
+slots have no saved response and4,584 original slots were never dispatched.
+The exact reason the process exited is unestablished. Do not describe this as
+an API quota error or infer that unresolved calls were free.
+
+The first status reply relied on the stale checkpoint and was corrected when
+process/file checks established the interruption. Offline finalization uses the
+unchanged frozen scorer, with reason PROCESS_EXIT_WITH_UNRESOLVED_DISPATCHES,
+full unresolved reservations and separate archives. No failed or unresolved slot
+is retried and no further paid segment has been launched. The interrupted study
+remains incomplete and the original Phase1.5 gate remains unmet.
+
 ## 2026-09-12 - Preserve timeout stop and continue only untouched slots
 
 Observed three TimeoutError records after1,941 attempted requests (1,937 valid,

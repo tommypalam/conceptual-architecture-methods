@@ -1,0 +1,16 @@
+{
+  "observed_utc": "2026-09-12T14:40:42.086569+00:00",
+  "status": "PROCESS_EXIT_WITH_UNRESOLVED_DISPATCHES",
+  "parent_records": 1941,
+  "segment_records": 10722,
+  "segment_intents": 10725,
+  "unresolved_dispatch_keys": [
+    "background_10/PD_S3/canonical/v0.8/call_0001",
+    "background_15/TfA_S3/numeric_only/v0.1/call_0001",
+    "background_24/RE_S2/paraphrase_2/v0.8/call_0001"
+  ],
+  "original_planned": 17250,
+  "never_dispatched": 4584,
+  "cause": "Original collection process absent; exact cause unestablished. Progress.json is stale. Offline verification/finalization is now running.",
+  "paid_requests_restarted": false
+}
