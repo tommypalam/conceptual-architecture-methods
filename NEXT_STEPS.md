@@ -1,15 +1,16 @@
 # Current state and next steps
 
-Updated 2026-09-12. Working branch: `phase1-5-tool-delivery-screen`.
+Updated 2026-09-12. Working branch: `phase1-5-final-confirmation`.
 
-**Phase 1.5 evaluation is closed; the full validity gate is unmet. Phase 2 remains
-on hold.** Closure ends collection for the evaluated implementation; it is not
-a pass or pass-with-revision. The researcher requested closure on September 12.
+**Phase 1.5 is open.** The researcher rejected the assistant's closure
+interpretation. The objective is evidence that explicit normative parameters can
+systematically shape AI decisions under specified conditions. The original full
+validity gate remains unmet; Phase 2 remains on hold.
 
-Read the [closure report](experiments/phase1_5_encoding_validity/PHASE1_5_CLOSURE_2026-09-12.md) for the complete outcome, evidence and
-thesis-ready conclusion. Phase 0 remains closed and Phase 1 passed operationally.
-The theory, all ten parameters, Beta marginals, R, locked prompts and original
-criteria are unchanged. No Appendix A descope or architectural revision is invoked.
+Read the [clarified objective](experiments/phase1_5_encoding_validity/NORMATIVE_ENCODING_OBJECTIVE_2026-09-12.md).
+The earlier closure report is a preserved historical synthesis with a superseded
+closure decision, not the current operational status. Phase 0, the ten parameter
+definitions, Beta marginals, R, original criteria and locked prompts are unchanged.
 
 ## Evidence that determines the outcome
 
@@ -28,22 +29,21 @@ criteria are unchanged. No Appendix A descope or architectural revision is invok
 
 ## Execution and handoff
 
-No paid calls are pending or queued. Automatic probing stops. The unexecuted
-900-call `original_confirmation_20260911` and older proposals are historical,
-not instructions to launch. Reopening experimental work requires a new scoped
-decision; no further sweep follows automatically from this closure.
+**Paid work is paused. No new calls have been sent.** The proposed 3,600-call
+`final_confirmation_20260912` protocol and runner are drafts: not frozen, tested
+or dispatched. Such a numeric-only sweep could strengthen a limited behavioural
+claim but cannot itself clear paraphrase, representation and recovery gates.
 
-The current deliverable is the closure evidence package and its thesis-ready
-finding. Main-study simulation remains blocked by the unmet validity gate.
-A future revised implementation would need its own explicit justification,
-frozen validation plan and the existing consultation rules.
+The user authorised up to $25 including conservative reservations, then paused
+spending to assess whether the proposed study serves the objective. Do not treat
+the budget as permission to resume the draft automatically. The older $9 ledger
+retains $3.35738625 separately; provider balance is unverified.
 
-The latest $9 allowance retains a conservative tracked **$3.35738625**, with
-zero pending requests; provider balance is unverified. Closure incurred no new
-API cost. Raw records and same-computer archives are preserved; no off-device
-backup or remote push is claimed.
+Next task: offline assessment of what existing evidence and additional controls
+would justify the conditional normative-encoding claim. No new gate thresholds,
+architectural revision, parameter removal, coding manual or Phase 2 release is
+approved. All earlier raw records and evidence remain preserved.
 
-The [previous ledger](docs/archive/NEXT_STEPS_before_closure_2026-09-12.md) is
-preserved byte-for-byte for history. Its dated proposals and status statements
-are superseded by this file. [meta.md](meta.md) records the closure decision and
-five-perspective review.
+The [previous ledger](docs/archive/NEXT_STEPS_before_closure_2026-09-12.md) and
+earlier closure report are historical. [meta.md](meta.md) records this correction
+and the five-perspective review.

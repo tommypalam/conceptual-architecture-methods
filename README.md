@@ -22,11 +22,12 @@ hypotheses to evaluate, not established properties of human or artificial minds.
 
 ## Current state
 
-**Phase 0 is closed; Phase 1 passed operationally; Phase 1.5 evaluation is
-closed with the full validity gate unmet. Phase 2 remains on hold.** The
-[closure report](experiments/phase1_5_encoding_validity/PHASE1_5_CLOSURE_2026-09-12.md)
-consolidates the original battery and subsequent diagnostics. Closing evaluation
-does not constitute a validity pass or authorise a revised architecture.
+**Phase 0 is closed; Phase 1 passed operationally; Phase 1.5 is open and the
+full validity gate remains unmet. Phase 2 remains on hold.** The researcher
+rejected the earlier closure interpretation and clarified the goal: determine
+whether normative parameters systematically shape AI decisions under specified
+conditions. See the [current objective](experiments/phase1_5_encoding_validity/NORMATIVE_ENCODING_OBJECTIVE_2026-09-12.md).
+Paid testing is paused while the evidentiary scope is assessed offline.
 
 The original battery collected 39,000 unique behavioural responses (38,993 valid)
 and a separate 200-item audit. Only 8/30 paraphrase cells establish equivalence

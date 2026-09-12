@@ -108,24 +108,26 @@ The coding manual itself is still to be drafted and pre-registered before Phase 
 ## Phase Plan and Current Status
 
 Read [NEXT_STEPS.md](NEXT_STEPS.md) for the current phase ledger. Phase 0 is
-closed and Phase 1 passed operationally. **Phase 1.5 evaluation closed on
-2026-09-12 at the researcher's request; the full validity gate remains unmet.**
-This ends collection for the evaluated implementation, not a pass or
-pass-with-revision. Phase 2 remains on hold; Phases 2-6 are not completed.
+closed and Phase 1 passed operationally. **Phase 1.5 is open.** On 2026-09-12 the
+researcher rejected the assistant's closure interpretation and clarified the
+objective: establish whether explicit normative parameters can systematically
+shape AI behaviour under specified conditions. See the [objective](experiments/phase1_5_encoding_validity/NORMATIVE_ENCODING_OBJECTIVE_2026-09-12.md).
+The original validity gate is still unmet and Phase 2 remains on hold.
 
-The fresh battery contains 39,000 unique behavioural responses (38,993 valid)
-and a separate 200-item audit; no interrupted September 6 sample is pooled.
-Only 8/30 paraphrase cells establish equivalence (24 required), and literal audit
-thresholds do not establish active-trait recoverability. The final 360-call
-transfer diagnostic supports local MoR and MS endpoint effects across 20 new
-backgrounds; MS is not an ordered gradient and RE remains unresolved. These
-results do not replace the original battery or validate all ten parameters.
+The original fresh battery contains 39,000 unique behavioural responses (38,993
+valid) and a separate 200-item audit. Only 8/30 paraphrase cells establish
+equivalence (24 required). The later 360-call transfer test supports local MoR
+and MS endpoint effects across 20 new backgrounds; MS is not an ordered gradient
+and RE remains unresolved. MoR primarily concerns response style; MS is more
+directly relevant to normative orientation. Do not equate either result with
+internal ethical understanding or validation of the entire architecture.
 
-See the [closure report](experiments/phase1_5_encoding_validity/PHASE1_5_CLOSURE_2026-09-12.md)
-for evidence and limits. No new paid run is queued; automatic probing stops.
-Reopening experimental work requires a new scoped decision. No parameter removal,
-gate revision, Appendix A descope or architectural departure is authorised by
-closure. The hard gate and existing consultation rules remain in force.
+Paid testing is paused. The 3,600-call confirmation protocol and runner are
+unfinished drafts, not frozen or dispatched. The additional $25 budget does not
+override the subsequent spending pause. Assess the scoped claim and evidence
+offline before proposing further collection. The former closure report remains
+historical evidence; its closure decision is superseded. No gate revision,
+theory change, parameter deletion or Appendix A descope has been approved.
 
 ## Experimental Problems
 

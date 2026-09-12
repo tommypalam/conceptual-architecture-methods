@@ -28,12 +28,12 @@ encoding-validity battery collected 39,000 behavioural
 responses and a separate 200-item reasoning audit. Only 8 of 30 paraphrase cells
 established equivalence against 24 required; representation retention and active-
 trait recovery were insufficient to clear the gate. Subsequent diagnostics
-identified local parameter influence. In a final 360-response test across 20 new
+identified local parameter influence. In a 360-response transfer test across 20 new
 complete profile backgrounds, Mode of Response and Moral Scope produced positive
 average endpoint effects, while Relational Embedding remained unresolved. Moral
-Scope did not exhibit an ordered three-level response. Evaluation therefore
-closed with evidence of partial behavioural parameterisation and the full validity
-gate unmet. Conditional on this validity gate,
+Scope did not exhibit an ordered three-level response. These results provide
+preliminary evidence of partial behavioural parameterisation. Phase 1.5 remains
+open, with the full validity gate unmet. Conditional on this validity gate,
 the planned main study compares a shared agent population across selected
 societal configurations in individual dilemmas and multi-round collective tasks.
 Further evaluation will examine obedience, conformity, bargaining, helping,
@@ -57,9 +57,9 @@ probabilistic modelling; encoding validity; behavioural validation.
 This is an abstract for the complete **PARIA / Concepts as Architecture** paper,
 not the entire Cognitive Hexagon programme. It deliberately uses prospective
 language for unfinished work and makes no claim that the main study is already
-preregistered. Completed encoding results and their limits are documented in the
-[Phase 1.5 closure](../experiments/phase1_5_encoding_validity/PHASE1_5_CLOSURE_2026-09-12.md);
-its local transfer study does not validate the full architecture. Phase 2 remains
+preregistered. The [clarified objective](../experiments/phase1_5_encoding_validity/NORMATIVE_ENCODING_OBJECTIVE_2026-09-12.md)
+and linked transfer results describe the current evidentiary scope. The earlier
+closure decision was rejected by the researcher; Phase 1.5 remains open. Phase 2 remains
 on hold. Earlier completed-work statements are grounded in the
 [Phase 0 closure](../experiments/PHASE0_CLOSURE_2026-07-29.md) and
 [Phase 1 operational pilot](../experiments/phase1_pilot/PHASE1_PILOT_RESULT_2026-07-29.md).

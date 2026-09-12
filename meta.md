@@ -16,6 +16,44 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+## 2026-09-12 - Correct rejected closure; clarify conditional normative-encoding objective
+
+The researcher explicitly rejected the preceding assistant closure interpretation.
+They want to establish whether encoding occurs to some extent and whether AI can
+be normatively parameterised. The assistant acknowledges its earlier error:
+closing with unmet gates was not the intended task. Phase 1.5 remains OPEN.
+The historical closure report and commit are preserved, not treated as user
+acceptance of ending evaluation. Its scientific evidence remains available.
+
+The subsequent proposed 3,600-call sweep is an unfinished draft. After approving
+up to $25 including conservative reservations, the user questioned whether it
+could clear the original gate. It cannot address all four original subtests;
+the assistant paused spending. No new API calls have been made. Clarifying the
+claim here does not silently resume dispatch or amend the original criteria.
+
+Decision: pursue a defensible conditional behavioural claim, with fresh evidence
+designed to distinguish normative parameter influence from isolated or generic
+response changes. [Objective and evidence boundary](experiments/phase1_5_encoding_validity/NORMATIVE_ENCODING_OBJECTIVE_2026-09-12.md).
+
+Synthetic review (internal perspectives, not external expert or human sign-off):
+
+- Linden: distinguish a normative disposition from morally better behaviour;
+  MoR response style alone does not establish normativity or ethical understanding.
+- Osei: MS transfer is promising but requires its instability and unordered rates
+  to remain prominent. Replication and construct-relevant controls matter.
+- Tanaka: no new success thresholds are settled by this clarification; preserve
+  multiplicity, contrary results and the difference between estimation and proof.
+- Renna: a limited normative-conditioning claim and full architecture readiness
+  are different inferences. Keep the Phase 2 dependency intact pending a decision.
+- Okafor: correct current status consistently, retain historical provenance,
+  mark unfinished code as draft and keep paid dispatch paused.
+
+Tension: the researcher prioritises a positive feasibility finding, while the
+current evidence supports only a provisional, conditional inference. Resolution:
+take that objective seriously without presupposing the experimental result.
+No theory change, parameter deletion, moral-coding manual, Appendix A descope,
+replacement gate or Phase 2 release is approved. Next work is offline assessment.
+
 ## 2026-09-12 - Close evaluated Phase 1.5 implementation with validity gate unmet
 
 Decision: complete the requested scientific and operational closure without
