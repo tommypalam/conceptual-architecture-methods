@@ -1,5 +1,19 @@
 # Current state and next steps
 
+## Fresh Phase 2 confirmation authorised (2026-09-13)
+
+The researcher instructed: "lets go ahead and complete phase 2 run it". Execute
+experiments/phase2_confirmation_20260913/PROTOCOL.md on the development branch:
+400 fresh profiles, two existing anchors, E/U individual controls, twenty matched
+groups per task and condition plus neutral bridges. Freeze before paid calls.
+New-run ceiling $30; completed pilot $4.15084065; absolute combined API cap $100.
+This supersedes earlier no-confirmation-queued status. The pilot remains immutable.
+The revised behavioural study defers human benchmarking and validated moral
+scoring to Phases 3 and 4; no original ten-environment completion is claimed.
+Independent-field parsing and explicit C2 adopted state address observed pilot
+failures prospectively. All ten parameters, distributions and locked tasks stay
+unchanged. See the protocol for synthetic review and inference limits.
+
 Updated 2026-09-12. Published branch: `main`. Create a development branch before new work.
 
 ## Small Phase 2 pilot complete (2026-09-12)

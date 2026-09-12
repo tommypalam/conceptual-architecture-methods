@@ -1,0 +1,51 @@
+{
+  "sha256": "7a8585ec38d1ca4336b0a09271454b83e9adccd20b0846c9da2a6f575a9daea6",
+  "payload": {
+    "root_seed": 2026091302,
+    "n_profiles": 400,
+    "simple_calls": 4800,
+    "group_max_calls": 7900,
+    "maximum_calls": 12700,
+    "groups_per_problem_per_condition": 20,
+    "minimum_R_eigenvalue": 0.3114080941511761,
+    "population_sha256": "72ff60b570ef45623ab0c26e675c316cb34b4976917862331332cc101f87363a",
+    "schedule_sha256": "98c45b719a1b1a051802ffa36d98c38b571b750ba022750f5fbc3193da9964ec",
+    "simple_all_max_reservations_usd": 28.842,
+    "confirmation_cap_usd": 30,
+    "prior_phase2_accounted_usd": 4.15084065,
+    "new_package_absolute_cap_usd": 100,
+    "full_group_reservation_is_not_claimed": true,
+    "means": {
+      "LL": 0.5920507499999997,
+      "CS": 0.5502637499999997,
+      "RT": 0.503357,
+      "MoR": 0.435061,
+      "RE": 0.4007895000000003,
+      "PD": 0.5601119999999995,
+      "TfA": 0.34641275000000016,
+      "ID": 0.60438075,
+      "MS": 0.5512399999999994,
+      "AW": 0.45707474999999986
+    },
+    "minimum": 0.0078,
+    "maximum": 0.9958,
+    "individual_power_delta10pp_discordance30pp": 0.8342863754829988,
+    "group_power_scenarios": [
+      {
+        "difference": 0.2,
+        "discordance": 0.4,
+        "power_at_alpha_05_over_7": 0.02971197255820015
+      },
+      {
+        "difference": 0.4,
+        "discordance": 0.5,
+        "power_at_alpha_05_over_7": 0.3332169745381987
+      },
+      {
+        "difference": 0.6,
+        "discordance": 0.6,
+        "power_at_alpha_05_over_7": 0.943473632965748
+      }
+    ]
+  }
+}
