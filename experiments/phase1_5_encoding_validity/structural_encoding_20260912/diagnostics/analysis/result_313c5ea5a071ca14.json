@@ -1,0 +1,659 @@
+{
+  "design_hash": "9fb13020497a349c5527abf8aea1800395265dda5eeec576f484cd84a5b98381",
+  "status": "COMPLETE",
+  "n_records": 480,
+  "n_valid": 480,
+  "groups": [
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "variant": "canonical",
+      "prespecified": true,
+      "rates": [
+        0.375,
+        0.375,
+        0.5,
+        0.75,
+        0.75
+      ],
+      "n_per_level": 8,
+      "endpoint_effect": 0.375,
+      "endpoint_nominal95": [
+        0.125,
+        0.75
+      ],
+      "endpoint_adjusted": [
+        0.0,
+        0.875
+      ],
+      "interior_effect": 0.375,
+      "interior_nominal95": [
+        -0.25,
+        0.875
+      ],
+      "interior_adjusted": [
+        -0.625,
+        1.0
+      ],
+      "observed_ordered": true,
+      "predicted_endpoint_supported": false,
+      "background_endpoint_effects": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "background_interior_effects": [
+        -1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        -1.0,
+        1.0
+      ]
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "variant": "paraphrase_1",
+      "prespecified": true,
+      "rates": [
+        0.625,
+        0.75,
+        0.875,
+        1.0,
+        1.0
+      ],
+      "n_per_level": 8,
+      "endpoint_effect": 0.375,
+      "endpoint_nominal95": [
+        0.125,
+        0.75
+      ],
+      "endpoint_adjusted": [
+        0.0,
+        0.875
+      ],
+      "interior_effect": 0.25,
+      "interior_nominal95": [
+        0.0,
+        0.625
+      ],
+      "interior_adjusted": [
+        0.0,
+        0.75
+      ],
+      "observed_ordered": true,
+      "predicted_endpoint_supported": false,
+      "background_endpoint_effects": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "background_interior_effects": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "variant": "paraphrase_2",
+      "prespecified": true,
+      "rates": [
+        0.5,
+        0.75,
+        0.625,
+        1.0,
+        1.0
+      ],
+      "n_per_level": 8,
+      "endpoint_effect": 0.5,
+      "endpoint_nominal95": [
+        0.125,
+        0.875
+      ],
+      "endpoint_adjusted": [
+        0.0,
+        1.0
+      ],
+      "interior_effect": 0.25,
+      "interior_nominal95": [
+        0.0,
+        0.625
+      ],
+      "interior_adjusted": [
+        0.0,
+        0.75
+      ],
+      "observed_ordered": false,
+      "predicted_endpoint_supported": false,
+      "background_endpoint_effects": [
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "background_interior_effects": [
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "variant": "paraphrase_3",
+      "prespecified": true,
+      "rates": [
+        0.375,
+        0.625,
+        0.625,
+        0.875,
+        1.0
+      ],
+      "n_per_level": 8,
+      "endpoint_effect": 0.625,
+      "endpoint_nominal95": [
+        0.25,
+        0.875
+      ],
+      "endpoint_adjusted": [
+        0.125,
+        1.0
+      ],
+      "interior_effect": 0.25,
+      "interior_nominal95": [
+        -0.25,
+        0.75
+      ],
+      "interior_adjusted": [
+        -0.5,
+        0.875
+      ],
+      "observed_ordered": true,
+      "predicted_endpoint_supported": true,
+      "background_endpoint_effects": [
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "background_interior_effects": [
+        0.0,
+        0.0,
+        1.0,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "variant": "numeric_only",
+      "prespecified": true,
+      "rates": [
+        0.5,
+        0.5,
+        0.75,
+        0.625,
+        0.75
+      ],
+      "n_per_level": 8,
+      "endpoint_effect": 0.25,
+      "endpoint_nominal95": [
+        -0.25,
+        0.625
+      ],
+      "endpoint_adjusted": [
+        -0.5,
+        0.875
+      ],
+      "interior_effect": 0.125,
+      "interior_nominal95": [
+        0.0,
+        0.375
+      ],
+      "interior_adjusted": [
+        0.0,
+        0.625
+      ],
+      "observed_ordered": false,
+      "predicted_endpoint_supported": false,
+      "background_endpoint_effects": [
+        -1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0
+      ],
+      "background_interior_effects": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parameter": "MoR",
+      "problem": "S3",
+      "variant": "verbal_only",
+      "prespecified": true,
+      "rates": [
+        0.25,
+        0.125,
+        0.5,
+        0.5,
+        0.5
+      ],
+      "n_per_level": 8,
+      "endpoint_effect": 0.25,
+      "endpoint_nominal95": [
+        -0.25,
+        0.75
+      ],
+      "endpoint_adjusted": [
+        -0.5,
+        0.875
+      ],
+      "interior_effect": 0.375,
+      "interior_nominal95": [
+        0.125,
+        0.75
+      ],
+      "interior_adjusted": [
+        0.0,
+        0.875
+      ],
+      "observed_ordered": false,
+      "predicted_endpoint_supported": false,
+      "background_endpoint_effects": [
+        1.0,
+        -1.0,
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      "background_interior_effects": [
+        1.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parameter": "MS",
+      "problem": "S2",
+      "variant": "canonical",
+      "prespecified": true,
+      "rates": [
+        0.375,
+        0.125,
+        0.25,
+        0.125,
+        0.5
+      ],
+      "n_per_level": 8,
+      "endpoint_effect": 0.125,
+      "endpoint_nominal95": [
+        -0.25,
+        0.5
+      ],
+      "endpoint_adjusted": [
+        -0.5,
+        0.75
+      ],
+      "interior_effect": 0.0,
+      "interior_nominal95": [
+        -0.375,
+        0.375
+      ],
+      "interior_adjusted": [
+        -0.5,
+        0.5
+      ],
+      "observed_ordered": false,
+      "predicted_endpoint_supported": false,
+      "background_endpoint_effects": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "background_interior_effects": [
+        0.0,
+        -1.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parameter": "MS",
+      "problem": "S2",
+      "variant": "paraphrase_1",
+      "prespecified": true,
+      "rates": [
+        0.25,
+        0.125,
+        0.375,
+        0.375,
+        0.375
+      ],
+      "n_per_level": 8,
+      "endpoint_effect": 0.125,
+      "endpoint_nominal95": [
+        0.0,
+        0.375
+      ],
+      "endpoint_adjusted": [
+        0.0,
+        0.625
+      ],
+      "interior_effect": 0.25,
+      "interior_nominal95": [
+        -0.25,
+        0.625
+      ],
+      "interior_adjusted": [
+        -0.5,
+        0.875
+      ],
+      "observed_ordered": false,
+      "predicted_endpoint_supported": false,
+      "background_endpoint_effects": [
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "background_interior_effects": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parameter": "MS",
+      "problem": "S2",
+      "variant": "paraphrase_2",
+      "prespecified": true,
+      "rates": [
+        0.125,
+        0.25,
+        0.125,
+        0.375,
+        0.375
+      ],
+      "n_per_level": 8,
+      "endpoint_effect": 0.25,
+      "endpoint_nominal95": [
+        0.0,
+        0.625
+      ],
+      "endpoint_adjusted": [
+        0.0,
+        0.75
+      ],
+      "interior_effect": 0.125,
+      "interior_nominal95": [
+        -0.25,
+        0.5
+      ],
+      "interior_adjusted": [
+        -0.5,
+        0.75
+      ],
+      "observed_ordered": false,
+      "predicted_endpoint_supported": false,
+      "background_endpoint_effects": [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "background_interior_effects": [
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parameter": "MS",
+      "problem": "S2",
+      "variant": "paraphrase_3",
+      "prespecified": true,
+      "rates": [
+        0.375,
+        0.5,
+        0.5,
+        0.25,
+        0.5
+      ],
+      "n_per_level": 8,
+      "endpoint_effect": 0.125,
+      "endpoint_nominal95": [
+        0.0,
+        0.375
+      ],
+      "endpoint_adjusted": [
+        0.0,
+        0.625
+      ],
+      "interior_effect": -0.25,
+      "interior_nominal95": [
+        -0.625,
+        0.0
+      ],
+      "interior_adjusted": [
+        -0.75,
+        0.0
+      ],
+      "observed_ordered": false,
+      "predicted_endpoint_supported": false,
+      "background_endpoint_effects": [
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "background_interior_effects": [
+        0.0,
+        -1.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parameter": "MS",
+      "problem": "S2",
+      "variant": "numeric_only",
+      "prespecified": true,
+      "rates": [
+        0.375,
+        0.25,
+        0.125,
+        0.125,
+        0.125
+      ],
+      "n_per_level": 8,
+      "endpoint_effect": -0.25,
+      "endpoint_nominal95": [
+        -0.625,
+        0.0
+      ],
+      "endpoint_adjusted": [
+        -0.75,
+        0.0
+      ],
+      "interior_effect": -0.125,
+      "interior_nominal95": [
+        -0.375,
+        0.0
+      ],
+      "interior_adjusted": [
+        -0.625,
+        0.0
+      ],
+      "observed_ordered": false,
+      "predicted_endpoint_supported": false,
+      "background_endpoint_effects": [
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "background_interior_effects": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "parameter": "MS",
+      "problem": "S2",
+      "variant": "verbal_only",
+      "prespecified": true,
+      "rates": [
+        0.375,
+        0.5,
+        0.625,
+        0.625,
+        0.625
+      ],
+      "n_per_level": 8,
+      "endpoint_effect": 0.25,
+      "endpoint_nominal95": [
+        0.0,
+        0.625
+      ],
+      "endpoint_adjusted": [
+        0.0,
+        0.75
+      ],
+      "interior_effect": 0.125,
+      "interior_nominal95": [
+        0.0,
+        0.375
+      ],
+      "interior_adjusted": [
+        0.0,
+        0.625
+      ],
+      "observed_ordered": true,
+      "predicted_endpoint_supported": false,
+      "background_endpoint_effects": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "background_interior_effects": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "known_cost_usd": 0.5155987500000003,
+  "phase_gate": "Original gate unchanged; structural mechanism triangulated, no proof of unique internal understanding or Phase2 release.",
+  "pending_requests": 0
+}

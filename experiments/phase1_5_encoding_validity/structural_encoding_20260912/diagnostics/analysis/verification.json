@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "n_records": 480,
+  "unique_api_ids": 480,
+  "source_hashes_and_exact_requests_verified": true,
+  "raw_reparse_verified": true,
+  "same_computer_zip_matches_all_current_raw_records": true,
+  "result_sha256": "d5634fe592232986f91319a251f9d28ba3865129aacad0b4aef68e4d6f1e8dd1",
+  "note": "No off-device backup or unique internal-mechanism inference."
+}

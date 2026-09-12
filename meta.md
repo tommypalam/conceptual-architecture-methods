@@ -16,6 +16,42 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+## 2026-09-12 - Structural diagnostic panel complete; preserve uncertainty qualification
+
+480/480 valid, estimated$0.51559875; exact requests/settings,480 unique API IDs,
+raw reparsing and ZIP byte equality verified; all-curve figure visually checked.
+MoR endpoint direction is positive across all six expressions. MS is uneven,
+with a reversed numeric-only endpoint. The eight-background panel does not
+establish broad robustness or the original gate.
+
+The frozen percentile-bootstrap family flags MoR/paraphrase3 only. A separate
+post-primary exact paired-binomial sensitivity over all24 contrasts finds no
+Holm-adjusted p<.05. Its five positive discordant pairs and zero negative pairs
+give exact unadjusted p=.0625, illustrating the small-sample bootstrap concern.
+No primary estimate, protocol or raw record is changed. The additional check
+was introduced after viewing diagnostics and before interpreting the full sweep;
+it is transparently supplementary, not retrospectively preregistered. Apply it
+uniformly to the completed sweep rather than selecting favourable comparisons.
+
+Synthetic interpretation review: Linden keeps the structural research objective
+separate from normative correctness. Osei withholds strong conclusions atN8.
+Tanaka requires the exact-pair qualification alongside approximate bootstrap
+flags. Renna retains all representation-dependent findings, including contrary
+MS evidence. Okafor confirms byte-level provenance and fixed canonical next-stage
+coverage. Resolution: no diagnostic gate pass; continue the explicitly authorised,
+already-frozen all-parameter sweep, without selecting representations or cases.
+
+The new independent-audit wrapper has three passing tests for blinding, exact
+brief parsing, bounded usage and single-attempt failure preservation. It reuses
+the existing200-item quartile method and15-word optional explanation prompt.
+Inspection of the sweep's frozen profiles found three of200 background values
+cross a quartile boundary when rounded for display; no actively varied level does.
+Keep the specified full-precision audit key and add a labelled delivered-value
+sensitivity without changing either the requests or primary scoring.
+
+The theory-alignment note records the exact supporting sections and boundaries.
+Full-sweep scientific results remain uninterpreted while collection is running.
+
 ## 2026-09-12 - Theory-aligned structural tests and full ten-parameter coverage
 
 Decision: honour the researcher's clarified structural objective, check its basis

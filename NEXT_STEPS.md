@@ -41,6 +41,10 @@ spending pause. [Frozen staged protocol](experiments/phase1_5_encoding_validity/
 - Then prepare the existing 200-item blind audit. Exact coder requests must fit
   the remaining reservation before dispatch; the coder cannot alter decisions.
 
+**Live status:** diagnostics complete480/480valid,$0.51559875; the3,000-call
+full sweep is running. No interim winner selection. Audit requests will be frozen
+after the complete source exists. [Diagnostic interpretation](experiments/phase1_5_encoding_validity/structural_encoding_20260912/diagnostics/analysis/INTERPRETATION.md).
+
 Four relevant preflight tests passed. Behavioural stages are frozen, with joint
 reservation $21.482604, leaving
 $3.517396 for coding within the new $25
