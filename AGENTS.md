@@ -1,5 +1,18 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Latest objective clarification (2026-09-12)
+
+The researcher explicitly deprioritised passing the original gate in favour of
+a limited possibility claim: ethical parameters can begin to shape generated AI
+decisions. This current instruction governs the research priority; historical
+gate results remain recorded, not retroactively passed. Use the existing local,
+replicated PD evidence to assess functional normative parameterization. Do not
+equate upstream profile effects with demonstrated ethical understanding or an
+absence of provider-side alignment. Retain all ten parameters and contrary or
+unresolved results. See the latest entry in meta.md and the updated normative
+encoding objective. No further paid calls are queued; formal phase closure and
+any downstream design remain separate decisions.
+
 Updated 2026-09-12. This file and its companion contain the same working rules;
 edit both together. Current execution status belongs in NEXT_STEPS.md, and
 decisions belong in meta.md.

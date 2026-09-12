@@ -1,5 +1,48 @@
 # Research objective: evidence that normative parameterisation is possible
 
+## Latest researcher clarification: a limited possibility claim
+
+The researcher explicitly deprioritised passing the original gate and clarified
+that the objective is to show that ethical parameters can begin to participate
+in generating AI decisions. This supersedes the priority and execution statements
+in the historical sections below. It is a post-results clarification of the
+research claim, not a retrospective pass of the original experiment.
+
+**Supported claim:** in the tested model, harness and dilemmas, an explicit
+normative profile can systematically influence generated decisions, with local
+replicated evidence strongest for Procedural Dependence (PD).
+
+The application supplies the profile before generation and saves the raw model
+response. Its parser extracts the selected label; it does not replace the choice
+with an ethically preferred answer. This establishes the absence of an added
+application-level output filter in the tested path. It does not establish the
+absence or role of provider-side alignment mechanisms.
+
+PD has independent endpoint confirmation in two dilemmas, ordered observed
+canonical curves in the later all-ten study, and significant verbal endpoint
+and interior contrasts. Its separate blind explanation audit supplies limited
+corroboration. See the [complete evidence and qualifications](all_ten_assessment_20260912/ASSESSMENT.md)
+and [independent confirmation](structural_encoding_20260912/pd_confirmation/analysis/REPORT.md).
+All ten parameters remain reported, including contrary and unresolved findings.
+
+This is evidence for a beginning of functional normative parameterization.
+Calling it demonstrated ethical *understanding* would exceed the present tests:
+semantic use, learned instruction-following and other internal mechanisms are
+not separated. New backgrounds are not unseen dilemmas; persistence without
+reinjection and broad semantic transfer have not been established. Wording
+and representation weaknesses remain substantive limits on the claim.
+
+The existing results can support this limited possibility claim now; another
+full sweep is not a prerequisite for writing it up. No new numerical success
+threshold is introduced. Phase 1.5 closure and downstream study scope remain
+separate explicit decisions; no Phase 2 experiment is launched by this note.
+No paid calls are queued. The theory, prompts and raw results are unchanged.
+
+## Historical objective and earlier execution state
+
+The following text records the earlier position; the clarification above and
+NEXT_STEPS.md govern current priority and execution status.
+
 Researcher clarification, 2026-09-12: the priority is a defensible conclusion that
 encoding occurs to some extent and AI behaviour can be normatively parameterised.
 The researcher rejected closing Phase 1.5 with the gate unmet. That earlier

@@ -1,5 +1,18 @@
 # Current state and next steps
 
+## Current objective clarification (2026-09-12)
+
+The researcher now prioritises evidence that ethical parameters can begin to
+shape generated decisions, and explicitly deprioritises passing the original
+gate. Assess and write up that limited possibility claim using existing data.
+The original outcomes remain unchanged and all ten parameters stay in reporting.
+Local replicated PD effects support functional normative parameterization;
+ethical understanding is not established by the current behavioural tests.
+See the [updated objective](experiments/phase1_5_encoding_validity/NORMATIVE_ENCODING_OBJECTIVE_2026-09-12.md).
+No further API calls are queued. Next work is an evidence-based thesis account,
+not another sweep aimed at the historical gate. Formal phase closure and any
+new downstream design remain separate decisions.
+
 Updated 2026-09-12. Working branch: `phase1-5-all-ten-criteria`.
 
 **The all-ten follow-up has finished dispatch and verification. Phase 1.5 remains

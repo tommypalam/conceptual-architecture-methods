@@ -1,5 +1,34 @@
 # PARIA decision log
 
+## 2026-09-12 - Researcher prioritises limited generative encoding claim
+
+Decision: assess whether ethical parameters can begin to shape generated AI
+decisions, rather than optimise further experiments to pass the original gate.
+This is the researcher's explicit current instruction, adopted after the results;
+it is not a preregistered replacement criterion or a retroactive battery pass.
+
+Synthetic five-perspective review (not external expert review):
+- Linden: normative content must matter; ordinary prompt responsiveness alone
+  does not establish ethical understanding. PD is the clearest existing case.
+- Osei: independent confirmation and later cross-form effects support a limited
+  behavioural claim; fixed dilemmas and wording dependence constrain transfer.
+- Tanaka: retain the frozen analyses, incomplete slots, multiplicity correction
+  and all ten rows. Do not select a new numerical pass threshold after outcomes.
+- Renna: upstream profile use differs architecturally from rewriting decisions
+  after generation, but does not identify the foundation model's inner mechanism.
+- Okafor: use the saved evidence to write the claim now; no further full sweep
+  or paid dispatch is needed for this clarification.
+
+The tension is the researcher's aspiration to understanding versus the present
+ability to observe only functional behaviour. Resolution: report positive,
+local evidence of normative parameterization during decision generation, with
+understanding an unestablished interpretation. Code inspection confirms profile
+rendering before dispatch and raw-response parsing without ethical answer
+substitution (run_all_ten_followup.py and engine/parsing.py). Provider-side
+mechanisms are not observed. Original theory, prompts, outcomes and parameter
+set are unchanged. No formal phase closure or Phase 2 release is enacted.
+The objective document and both constitutions record this priority change.
+
 Current decisions are recorded here; [NEXT_STEPS.md](NEXT_STEPS.md) owns execution
 status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
