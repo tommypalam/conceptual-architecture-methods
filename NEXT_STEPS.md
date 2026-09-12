@@ -2,7 +2,29 @@
 
 Updated 2026-09-12. Published branch: `main`. Create a development branch before new work.
 
-## Revised Phase 2 preparation (2026-09-12)
+## Small Phase 2 pilot authorised (2026-09-12)
+
+The researcher chose the exploratory-first sequence after reviewing the roadmap
+and smaller budget option. Work continues on `phase2-design-20260912`.
+The [pilot protocol](experiments/phase2_exploratory_20260912/PROTOCOL.md) fixes
+50 new profiles, both existing anchors, E/U controls and five matched groups per
+task plus neutral bridges: 600 simple calls and up to 1,975 group calls.
+The pilot has a $10 operational cap inside the $100 absolute new-package API cap.
+Transport, matching, neutral context, voting, amendments and private-evidence
+state are repaired in separate prospective modules; historical runners remain
+unchanged. The runner is `code/run_phase2_pilot.py`. The local manifest is frozen
+and [offline verification](experiments/phase2_exploratory_20260912/VERIFICATION.md)
+passed: 21 targeted checks and a complete mock run with duplicate-free replay.
+The authorised live pilot is next; no paid pilot result exists yet.
+
+The pilot evaluates behaviour and implementation, with no moral coding or human
+resemblance claims. The original moral-manual timing is explicitly deferred for
+this exploratory step; required human review remains before moral scoring.
+After the pilot: write the assessment, fix any material defects prospectively,
+then freeze an independent confirmatory question, analysis and justified sample.
+The earlier $27 design remains a proposal, not an automatically queued test.
+
+## Earlier revised Phase 2 preparation (2026-09-12)
 
 The researcher requested a rigorous, expedited adjustment around ethical encoding
 during generation, human behavioural resemblance and good/bad consequences, while

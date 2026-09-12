@@ -1,0 +1,32 @@
+{
+  "sha256": "b9549c35c86ab087981fa59ae554c0678ead68627b7c23d726fd20e37b0d9206",
+  "payload": {
+    "root_seed": 2026091202,
+    "n_profiles": 50,
+    "simple_calls": 600,
+    "group_max_calls": 1975,
+    "maximum_calls": 2575,
+    "groups_per_problem_per_condition": 5,
+    "minimum_R_eigenvalue": 0.3114080941511761,
+    "population_sha256": "775b0b258d61d9af1d9b4b384b9bf555b47f34343d20a93ff4eacc273ee13e4f",
+    "schedule_sha256": "2af548722420d4a1abf7f8263c34f7e406da37857a67f0927d50c9f59bcf5a26",
+    "simple_all_max_reservations_usd": 3.60525,
+    "pilot_cap_usd": 10,
+    "new_package_absolute_cap_usd": 100,
+    "full_group_reservation_is_not_claimed": true,
+    "means": {
+      "LL": 0.570694,
+      "CS": 0.5629780000000002,
+      "RT": 0.54058,
+      "MoR": 0.465792,
+      "RE": 0.39975199999999994,
+      "PD": 0.5614659999999999,
+      "TfA": 0.37269599999999997,
+      "ID": 0.5719519999999999,
+      "MS": 0.5306579999999999,
+      "AW": 0.48517000000000005
+    },
+    "minimum": 0.0399,
+    "maximum": 0.9793
+  }
+}

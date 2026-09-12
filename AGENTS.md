@@ -1,5 +1,20 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Exploratory Phase 2 authorisation (2026-09-12)
+
+The researcher explicitly instructed: run the small exploratory Phase 2 test,
+assess it, then conduct a separately designed confirmatory study. This supersedes
+the earlier preparation-only restriction for this pilot. The pilot has 50 fresh
+profiles, both existing anchors, encoded/context-only arms and five matched groups
+per task plus neutral bridges; at most 2,575 calls, $10 operational ceiling within
+the $100 absolute new-package API cap. See
+experiments/phase2_exploratory_20260912/PROTOCOL.md. Preserve the separate future
+confirmatory freeze and fresh sample. No original full-battery pass is implied.
+The exploratory-first instruction amends the original sequencing: moral coding
+and its required human sign-off remain pending; no moral scores or human-validity
+claims are produced by this behavioural pilot. Historical raw data and question
+bodies remain immutable. Current execution status belongs in NEXT_STEPS.md.
+
 ## Desktop continuation (2026-09-12)
 
 Phase 2 continuation: the researcher requested rigorous, expedited design work
