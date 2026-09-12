@@ -10,6 +10,16 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Researcher requested backtracking and a different approach.**
+[Theory-grounded mechanism/evaluation review](experiments/phase1_5_encoding_validity/approach_review_20260912/REVIEW.md).
+Further API probes and the proposed repeated-block study are paused. Preserve
+all evidence; no rollback, new prompt or gate revision. Choice pending between
+reviewing the encoding mechanism and reviewing the evaluation strategy.
+Provisional recommendation: inspect the intended tool/profile contract and the
+failed prior implementation before proposing a substantively different design.
+No new architecture or paid allocation. Remaining$3.74647425;Phase1.5 open.
+
+
 **MS exact-seed replay complete:40/40 valid, cost$0.0452325.**
 [Results and all matched-request checks](experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/analysis/INTERPRETATION.md).
 Explicit40-call/$0.30 approval resolved the earlier automatic-review block.

@@ -11,6 +11,28 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+
+## 2026-09-12 ? Researcher changes direction; stop the local probing loop
+
+User: "wow thats weird, let sbacktrack and change approach". Pause additional
+API probes, including the proposed fixed-block follow-up. This is a change of
+research direction, not permission to erase results or change locked prompts.
+Asked whether the desired change concerns encoding mechanism or evaluation.
+No answer assumed; no new architecture, scoring rule or paid run implemented.
+
+Synthetic perspectives: Linden keeps the target as auditable parameter-driven
+behaviour without upgrading it to internal moral understanding. Osei separates
+stochastic individual variation from stability of population effects. Tanaka
+retains original gate outcomes and rejects retrospective thresholds chosen to
+pass existing data. Renna returns to thesis4.1: system prompting was baseline,
+tool injection the target, while fine-tuning was rejected as primary. Okafor
+requires a concrete difference from the failed full-text tool screen, fixed
+profile identity and a profile service unable to prescribe scenario actions.
+Resolution: preserve evidence, pause paid work, prepare a two-route design
+review. Prefer mechanism review provisionally, but wait for clarification before
+implementing a new design. No theoretical departure or constitution change.
+[Review](experiments/phase1_5_encoding_validity/approach_review_20260912/REVIEW.md).
+
 ## 2026-09-12 ? Approved40-call replay complete; changing seeds alone is insufficient
 
 Researcher replied "approved" to exact40-call OpenAI/$0.30 request; approval
