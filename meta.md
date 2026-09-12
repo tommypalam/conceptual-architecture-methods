@@ -16,6 +16,48 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+## 2026-09-12 - Completed structural package: replicated PD, limited scope
+
+All 3,580 behavioral responses and 200 final blind codings are valid. The
+independent PD confirmation passed both prospective targets: S2 FORMAL_REPORT
+0% to80%, paired +80pp, simultaneous95% CI[35.4,95.2], Holm p=.000003815;
+S3 WAIT16% to84%, +68pp,[22.9,88.2], p=.000015259. All25 backgrounds retained,
+no opposing discordances. Hypotheses originated as exploratory sweep findings
+and were frozen only for this fresh confirmation; no pooling or gate revision.
+
+The completed blind audit has7 traits above35% but only1 at least50%, so the
+literal rule fails. PD active recovery is11/20 (balanced accuracy56.25%),
+problem-stratified permutation p=.003, supplementary Holm10 p=.03. The existing
+permutation does not additionally cluster repeated source backgrounds; this
+and the limits of self-explanations qualify the signal. All2000 estimates are
+non-null despite permission to abstain. AW aggregate56% equals its majority
+baseline56%, illustrating why aggregate accuracy cannot alone establish recovery.
+
+Five-perspective judgment: Linden supports a limited generative normative-input
+claim, rejects inference to intrinsic understanding or moral superiority. Osei
+accepts fresh-profile replication while noting reused tasks and coder dependence.
+Tanaka accepts prospective exact paired PD inference; retains the bootstrap/exact
+MoR disagreement and audit dependence/multiplicity cautions. Renna sees converging
+PD behavior/explanation evidence but not whole-architecture validation. Okafor
+confirms frozen inputs, complete counts, preserved failures and budget control.
+Disagreement concerns how much structural interpretation follows from a causal
+input effect. Resolution: report local architectural feasibility consistent with
+normative parameterization; preserve alternative S3 caution/preservation readings,
+all-ten weaknesses and original gate failure. Phase1.5 remains open; Phase2 held.
+No theory, Phase0 prompt, Beta/R, parameter or gate change.
+
+18 relevant offline tests passed. All3,580 behavioral record hashes, unique
+returned IDs/requested seeds and exact request provenance verified; audit both-key
+scores recomputed, raw archive equality checked and figures visually inspected.
+Known token estimate$4.61909475 plus unknown HTTP400 bound$0.012067. Conservative
+reservations$24.729379 under$25. No pending or queued requests. Failed audit13 and
+schemaR2's one HTTP400 remain separate from final200; no discarded failures.
+Same-computer archives exist; no off-device backup is claimed.
+
+[Assessment](experiments/phase1_5_encoding_validity/structural_encoding_20260912/FINAL_ASSESSMENT.md)
+records claim wording, limitations, unchanged gate and the next substantive
+decision needed before any Phase2 transition. The requested package is complete.
+
 ## 2026-09-12 - Complete all-ten sweep; separate audit repair and independent PD test
 
 All3000 sweep responses are valid (estimated$3.2520015). Original frozen

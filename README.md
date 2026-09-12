@@ -29,6 +29,10 @@ whether normative parameters systematically shape AI decisions under specified
 conditions. See the [current objective](experiments/phase1_5_encoding_validity/NORMATIVE_ENCODING_OBJECTIVE_2026-09-12.md).
 The researcher has authorised [structural diagnostics and an all-parameter sweep](experiments/phase1_5_encoding_validity/structural_encoding_20260912/PROTOCOL.md)
 within a $25 reservation cap. The theory remains unchanged.
+The package is now complete: 3,580 valid behavioral responses and 200 valid
+blind codings. Independent PD effects replicated in both tested dilemmas,
+providing local normative-parameterization evidence; the full gate remains unmet.
+[Completed assessment](experiments/phase1_5_encoding_validity/structural_encoding_20260912/FINAL_ASSESSMENT.md).
 
 The original battery collected 39,000 unique behavioural responses (38,993 valid)
 and a separate 200-item audit. Only 8/30 paraphrase cells establish equivalence

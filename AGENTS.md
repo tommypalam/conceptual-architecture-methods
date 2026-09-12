@@ -134,13 +134,17 @@ No theory, locked prompt, distribution, R or original gate changes. Phase 2 is
 still held. The older closure and nine-prediction draft are superseded.
 
 
-The staged behavioral work is now complete:480 diagnostic,3000 full-sweep and
-100 separate PD-confirmation responses, all valid. Both fresh PD endpoint
-predictions passed exact paired tests and conservative simultaneous intervals;
-this is local context-dependent normative-parameter evidence, not a full-gate
-pass. The same-item independent audit is running under a separate schema-R3
-format after preserved technical failures. Exact coder-format deviations and
-$24.729379 total reservations are recorded in meta.md and NEXT_STEPS.md.
+The structural package is complete: 480 diagnostic, 3,000 full-sweep and
+100 independent PD-confirmation responses, all valid, plus 200 valid blind
+schema-R3 codings. Both fresh PD endpoint predictions passed exact paired tests
+and simultaneous intervals. PD also has the strongest active audit signal
+(11/20 correct; supplementary Holm p=.03), with repeated-background dependence
+and self-explanation limits disclosed. Overall literal audit thresholds fail.
+These findings support local normative parameterization; the original full gate
+remains unmet. Phase 1.5 stays open and Phase 2 held. Known estimated cost
+$4.619095 plus unknown-usage bound $0.012067; conservative reservations
+$24.729379 under the $25 cap. No further calls queued. See the
+[completed assessment](experiments/phase1_5_encoding_validity/structural_encoding_20260912/FINAL_ASSESSMENT.md).
 
 ## Experimental Problems
 

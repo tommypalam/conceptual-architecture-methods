@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "records": 200,
+  "unique_api_ids": 200,
+  "exact_blind_requests_schema_settings_verified": true,
+  "both_keys_scores_recomputed": true,
+  "raw_zip_byte_equality_verified": true,
+  "off_device_backup_verified": false
+}

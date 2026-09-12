@@ -1,0 +1,18 @@
+{
+  "behavioral_records": 3580,
+  "unique_returned_api_ids": 3580,
+  "unique_requested_seeds": 3580,
+  "all_record_hashes_verified": true,
+  "stage_source_request_checks_passed": true,
+  "relevant_offline_tests_passed": 18,
+  "visual_checks": [
+    "sweep/analysis/fig_01_all_curves.png",
+    "pd_confirmation/analysis/fig_02_PD_confirmation.png"
+  ],
+  "off_device_backup_verified": false,
+  "verification_files": {
+    "diagnostics\\analysis\\verification.json": "fecc27e632211cfd5dc7ff1c5af5f492e28eba28cb9f48ee2c9b94989360a1f3",
+    "sweep\\analysis\\verification.json": "336d9c0129371d561361f9dee00666bdf81e973c4e96194e74e2f6572388a5a1",
+    "pd_confirmation\\analysis\\verification.json": "ec4ac4a4825c854ab23c112763ca67267623cbf926c4b37f0fa2e5039efead30"
+  }
+}

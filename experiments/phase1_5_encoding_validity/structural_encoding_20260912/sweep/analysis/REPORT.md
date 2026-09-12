@@ -1,6 +1,8 @@
 # Structural encoding: sweep
 
 **3000/3000 valid responses; token estimate $3.252002.**
+
+Interpret the bootstrap flags alongside the [supplementary exact paired check](discrete_uncertainty_sensitivity.json). MoR/S3 has a positive frozen bootstrap flag but does not survive exact Holm60 correction; only exploratory PD/S2 and PD/S3 endpoints survive that check. A [separate fresh-profile PD confirmation](../../pd_confirmation/analysis/REPORT.md) subsequently supported both effects. Its results do not revise this study or the original gate.
 Neutral context; 20 unselected backgrounds; draw seed 20261008, schedule 20261009, analysis 20261010.
 Model gpt-5.4-mini-2026-03-17, temperature 1, maximum 600. One observation per background/condition.
 All displayed rates use the target label shown; unpredicted contrasts use the first response label and remain exploratory. No background removed.

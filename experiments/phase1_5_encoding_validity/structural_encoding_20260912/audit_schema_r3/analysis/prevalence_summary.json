@@ -1,0 +1,115 @@
+{
+  "parameters": [
+    {
+      "parameter": "LL",
+      "all_accuracy": 0.305,
+      "all_majority_baseline": 0.415,
+      "active_accuracy": 0.3,
+      "active_balanced_accuracy": 0.3125,
+      "active_majority_baseline": 0.4,
+      "active_p_unadjusted": 0.208,
+      "active_p_holm_supplement": 1.0,
+      "abstentions": 0
+    },
+    {
+      "parameter": "CS",
+      "all_accuracy": 0.28,
+      "all_majority_baseline": 0.485,
+      "active_accuracy": 0.25,
+      "active_balanced_accuracy": 0.25,
+      "active_majority_baseline": 0.4,
+      "active_p_unadjusted": 0.621,
+      "active_p_holm_supplement": 1.0,
+      "abstentions": 0
+    },
+    {
+      "parameter": "RT",
+      "all_accuracy": 0.355,
+      "all_majority_baseline": 0.405,
+      "active_accuracy": 0.2,
+      "active_balanced_accuracy": 0.1875,
+      "active_majority_baseline": 0.4,
+      "active_p_unadjusted": 0.8025,
+      "active_p_holm_supplement": 1.0,
+      "abstentions": 0
+    },
+    {
+      "parameter": "MoR",
+      "all_accuracy": 0.395,
+      "all_majority_baseline": 0.38,
+      "active_accuracy": 0.25,
+      "active_balanced_accuracy": 0.28125,
+      "active_majority_baseline": 0.4,
+      "active_p_unadjusted": 0.2365,
+      "active_p_holm_supplement": 1.0,
+      "abstentions": 0
+    },
+    {
+      "parameter": "RE",
+      "all_accuracy": 0.29,
+      "all_majority_baseline": 0.435,
+      "active_accuracy": 0.5,
+      "active_balanced_accuracy": 0.375,
+      "active_majority_baseline": 0.4,
+      "active_p_unadjusted": 0.025,
+      "active_p_holm_supplement": 0.207,
+      "abstentions": 0
+    },
+    {
+      "parameter": "PD",
+      "all_accuracy": 0.45,
+      "all_majority_baseline": 0.355,
+      "active_accuracy": 0.55,
+      "active_balanced_accuracy": 0.5625,
+      "active_majority_baseline": 0.4,
+      "active_p_unadjusted": 0.003,
+      "active_p_holm_supplement": 0.03,
+      "abstentions": 0
+    },
+    {
+      "parameter": "TfA",
+      "all_accuracy": 0.4,
+      "all_majority_baseline": 0.435,
+      "active_accuracy": 0.35,
+      "active_balanced_accuracy": 0.375,
+      "active_majority_baseline": 0.4,
+      "active_p_unadjusted": 0.133,
+      "active_p_holm_supplement": 0.798,
+      "abstentions": 0
+    },
+    {
+      "parameter": "ID",
+      "all_accuracy": 0.365,
+      "all_majority_baseline": 0.44,
+      "active_accuracy": 0.45,
+      "active_balanced_accuracy": 0.40625,
+      "active_majority_baseline": 0.4,
+      "active_p_unadjusted": 0.023,
+      "active_p_holm_supplement": 0.207,
+      "abstentions": 0
+    },
+    {
+      "parameter": "MS",
+      "all_accuracy": 0.46,
+      "all_majority_baseline": 0.515,
+      "active_accuracy": 0.4,
+      "active_balanced_accuracy": 0.40625,
+      "active_majority_baseline": 0.4,
+      "active_p_unadjusted": 0.029,
+      "active_p_holm_supplement": 0.207,
+      "abstentions": 0
+    },
+    {
+      "parameter": "AW",
+      "all_accuracy": 0.56,
+      "all_majority_baseline": 0.56,
+      "active_accuracy": 0.25,
+      "active_balanced_accuracy": 0.28125,
+      "active_majority_baseline": 0.4,
+      "active_p_unadjusted": 0.3115,
+      "active_p_holm_supplement": 1.0,
+      "abstentions": 0
+    }
+  ],
+  "holm_note": "Supplementary ten-test multiplicity qualification; original scoring unchanged. No gate replacement."
+}
