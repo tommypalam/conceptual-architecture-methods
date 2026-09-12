@@ -133,6 +133,15 @@ are retained; absent signs remain exploratory. All backgrounds are retained.
 No theory, locked prompt, distribution, R or original gate changes. Phase 2 is
 still held. The older closure and nine-prediction draft are superseded.
 
+
+The staged behavioral work is now complete:480 diagnostic,3000 full-sweep and
+100 separate PD-confirmation responses, all valid. Both fresh PD endpoint
+predictions passed exact paired tests and conservative simultaneous intervals;
+this is local context-dependent normative-parameter evidence, not a full-gate
+pass. The same-item independent audit is running under a separate schema-R3
+format after preserved technical failures. Exact coder-format deviations and
+$24.729379 total reservations are recorded in meta.md and NEXT_STEPS.md.
+
 ## Experimental Problems
 
 S1 Promotion Decision; S2 Quiet Error; S3 Department Reorganisation;

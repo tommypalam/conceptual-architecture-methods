@@ -1,0 +1,11 @@
+{
+  "calls": 200,
+  "model": "claude-haiku-4-5-20251001",
+  "reserve_usd": 2.4441550000000007,
+  "package_reserved_usd": 24.11490400000049,
+  "manifest_sha256": "e06e5ecaf8c78d14befe89b9d8d78f33533088b1b9f5861d0bd8f85f901b9e58",
+  "blind_pack_sha256": "8d388ef1ef52886c0d57e6fd317cd1a4b8609af7efdc177ddc5d9b395db54f85",
+  "answer_key_sha256": "2ccd9651cda9aaae4aac47ff3c4f439a7582da3ced0ecdd7b324d7b60676882e",
+  "rendered_answer_key_sha256": "cbd4c3a465b2492746e46e1e3f88d6d53b47b6ca96bb36ed40ae03f1a6801892",
+  "note": "Raw reasoning-containing manifest and packs are local artifacts."
+}

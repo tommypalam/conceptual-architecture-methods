@@ -1,0 +1,7 @@
+{
+  "selected_items": 200,
+  "estimates": 2000,
+  "changed_background_estimates": 27,
+  "active_estimates_changed": 0,
+  "note": "Primary key unchanged; supplement checks bins against displayed values. Neither key is sent to coder."
+}

@@ -37,7 +37,7 @@ def check(root):
         'limits':'Conditional on independent sampled backgrounds and paired binary outcomes; provider/time dependence remains possible. Exact non-detection does not prove zero effect.',
         'primary_unchanged':True,'comparisons':rows}
     save_new(root/'analysis/discrete_uncertainty_sensitivity.json',report)
-    print(json.dumps({'comparisons':len(rows),'holm_below_005':sum(x['p_holm']<.05 for x in rows),'primary_unchanged':True}))
+    print(json.dumps({'comparisons':len(rows),'holm_below_005':int(sum(x['p_holm']<.05 for x in rows)),'primary_unchanged':True}))
 
 
 if __name__=='__main__':

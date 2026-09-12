@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "records": 100,
+  "unique_api_ids": 100,
+  "no_API_ID_overlap_with_prior_3480": true,
+  "result_recomputed": true,
+  "source_requests_raw_reparsing_verified": true,
+  "raw_zip_byte_equality_verified": true,
+  "result_sha256": "eeecba46919b100e082e12106d895ea482ea3cce06787cf3596373836e0a0d38",
+  "off_device_backup_verified": false
+}

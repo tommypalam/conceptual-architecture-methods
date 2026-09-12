@@ -1,0 +1,1141 @@
+{
+  "n_expected": 200,
+  "n_codings": 1,
+  "complete": false,
+  "n_decimal_literal_traces": 0,
+  "literal_spec_thresholds_met": false,
+  "parameters": [
+    {
+      "parameter": "LL",
+      "all_items": {
+        "n": 200,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ],
+        "class_counts": [
+          4,
+          53,
+          83,
+          60
+        ],
+        "majority_class_baseline": 0.415,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            53
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            83
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            60
+          ]
+        ]
+      },
+      "active_parameter_items": {
+        "n": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.16112515805281938
+        ],
+        "class_counts": [
+          4,
+          4,
+          8,
+          4
+        ],
+        "majority_class_baseline": 0.4,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ]
+        ]
+      },
+      "literal_spec_binomial_p_vs_025": 1.0,
+      "literal_spec_above_035": false,
+      "literal_spec_at_least_050": false,
+      "active_stratified_permutation_p": 1.0
+    },
+    {
+      "parameter": "CS",
+      "all_items": {
+        "n": 200,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ],
+        "class_counts": [
+          16,
+          54,
+          87,
+          43
+        ],
+        "majority_class_baseline": 0.435,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            16
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            54
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            87
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            43
+          ]
+        ]
+      },
+      "active_parameter_items": {
+        "n": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.16112515805281938
+        ],
+        "class_counts": [
+          4,
+          4,
+          8,
+          4
+        ],
+        "majority_class_baseline": 0.4,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ]
+        ]
+      },
+      "literal_spec_binomial_p_vs_025": 1.0,
+      "literal_spec_above_035": false,
+      "literal_spec_at_least_050": false,
+      "active_stratified_permutation_p": 1.0
+    },
+    {
+      "parameter": "RT",
+      "all_items": {
+        "n": 200,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ],
+        "class_counts": [
+          14,
+          65,
+          81,
+          40
+        ],
+        "majority_class_baseline": 0.405,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            14
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            65
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            81
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            40
+          ]
+        ]
+      },
+      "active_parameter_items": {
+        "n": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.16112515805281938
+        ],
+        "class_counts": [
+          4,
+          4,
+          8,
+          4
+        ],
+        "majority_class_baseline": 0.4,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ]
+        ]
+      },
+      "literal_spec_binomial_p_vs_025": 1.0,
+      "literal_spec_above_035": false,
+      "literal_spec_at_least_050": false,
+      "active_stratified_permutation_p": 1.0
+    },
+    {
+      "parameter": "MoR",
+      "all_items": {
+        "n": 200,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ],
+        "class_counts": [
+          33,
+          76,
+          61,
+          30
+        ],
+        "majority_class_baseline": 0.38,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            33
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            76
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            61
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            30
+          ]
+        ]
+      },
+      "active_parameter_items": {
+        "n": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.16112515805281938
+        ],
+        "class_counts": [
+          4,
+          4,
+          8,
+          4
+        ],
+        "majority_class_baseline": 0.4,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ]
+        ]
+      },
+      "literal_spec_binomial_p_vs_025": 1.0,
+      "literal_spec_above_035": false,
+      "literal_spec_at_least_050": false,
+      "active_stratified_permutation_p": 1.0
+    },
+    {
+      "parameter": "RE",
+      "all_items": {
+        "n": 200,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ],
+        "class_counts": [
+          33,
+          79,
+          40,
+          48
+        ],
+        "majority_class_baseline": 0.395,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            33
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            79
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            40
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            48
+          ]
+        ]
+      },
+      "active_parameter_items": {
+        "n": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.16112515805281938
+        ],
+        "class_counts": [
+          4,
+          4,
+          8,
+          4
+        ],
+        "majority_class_baseline": 0.4,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ]
+        ]
+      },
+      "literal_spec_binomial_p_vs_025": 1.0,
+      "literal_spec_above_035": false,
+      "literal_spec_at_least_050": false,
+      "active_stratified_permutation_p": 1.0
+    },
+    {
+      "parameter": "PD",
+      "all_items": {
+        "n": 200,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ],
+        "class_counts": [
+          20,
+          71,
+          63,
+          46
+        ],
+        "majority_class_baseline": 0.355,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            20
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            71
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            63
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            46
+          ]
+        ]
+      },
+      "active_parameter_items": {
+        "n": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.16112515805281938
+        ],
+        "class_counts": [
+          4,
+          4,
+          8,
+          4
+        ],
+        "majority_class_baseline": 0.4,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ]
+        ]
+      },
+      "literal_spec_binomial_p_vs_025": 1.0,
+      "literal_spec_above_035": false,
+      "literal_spec_at_least_050": false,
+      "active_stratified_permutation_p": 1.0
+    },
+    {
+      "parameter": "TfA",
+      "all_items": {
+        "n": 200,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ],
+        "class_counts": [
+          30,
+          79,
+          87,
+          4
+        ],
+        "majority_class_baseline": 0.435,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            30
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            79
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            87
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ]
+        ]
+      },
+      "active_parameter_items": {
+        "n": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.16112515805281938
+        ],
+        "class_counts": [
+          4,
+          4,
+          8,
+          4
+        ],
+        "majority_class_baseline": 0.4,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ]
+        ]
+      },
+      "literal_spec_binomial_p_vs_025": 1.0,
+      "literal_spec_above_035": false,
+      "literal_spec_at_least_050": false,
+      "active_stratified_permutation_p": 1.0
+    },
+    {
+      "parameter": "ID",
+      "all_items": {
+        "n": 200,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ],
+        "class_counts": [
+          4,
+          88,
+          78,
+          30
+        ],
+        "majority_class_baseline": 0.44,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            88
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            78
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            30
+          ]
+        ]
+      },
+      "active_parameter_items": {
+        "n": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.16112515805281938
+        ],
+        "class_counts": [
+          4,
+          4,
+          8,
+          4
+        ],
+        "majority_class_baseline": 0.4,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ]
+        ]
+      },
+      "literal_spec_binomial_p_vs_025": 1.0,
+      "literal_spec_above_035": false,
+      "literal_spec_at_least_050": false,
+      "active_stratified_permutation_p": 1.0
+    },
+    {
+      "parameter": "MS",
+      "all_items": {
+        "n": 200,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ],
+        "class_counts": [
+          13,
+          68,
+          103,
+          16
+        ],
+        "majority_class_baseline": 0.515,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            13
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            68
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            103
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            16
+          ]
+        ]
+      },
+      "active_parameter_items": {
+        "n": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.16112515805281938
+        ],
+        "class_counts": [
+          4,
+          4,
+          8,
+          4
+        ],
+        "majority_class_baseline": 0.4,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ]
+        ]
+      },
+      "literal_spec_binomial_p_vs_025": 1.0,
+      "literal_spec_above_035": false,
+      "literal_spec_at_least_050": false,
+      "active_stratified_permutation_p": 1.0
+    },
+    {
+      "parameter": "AW",
+      "all_items": {
+        "n": 200,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          1.734723475976807e-18,
+          0.018845326377266575
+        ],
+        "class_counts": [
+          19,
+          112,
+          59,
+          10
+        ],
+        "majority_class_baseline": 0.56,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            19
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            112
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            59
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            10
+          ]
+        ]
+      },
+      "active_parameter_items": {
+        "n": 20,
+        "correct": 0,
+        "accuracy": 0.0,
+        "ci95": [
+          0.0,
+          0.16112515805281938
+        ],
+        "class_counts": [
+          4,
+          4,
+          8,
+          4
+        ],
+        "majority_class_baseline": 0.4,
+        "balanced_accuracy": 0.0,
+        "recall_by_quartile": [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "confusion_matrix_with_missing_column": [
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            8
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            4
+          ]
+        ]
+      },
+      "literal_spec_binomial_p_vs_025": 1.0,
+      "literal_spec_above_035": false,
+      "literal_spec_at_least_050": false,
+      "active_stratified_permutation_p": 1.0
+    }
+  ],
+  "status": "REVIEW REQUIRED: aggregate thresholds alone do not establish recoverability above the empirical class baseline",
+  "permutation_resamples": 1999
+}

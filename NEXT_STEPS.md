@@ -41,9 +41,22 @@ spending pause. [Frozen staged protocol](experiments/phase1_5_encoding_validity/
 - Then prepare the existing 200-item blind audit. Exact coder requests must fit
   the remaining reservation before dispatch; the coder cannot alter decisions.
 
-**Live status:** diagnostics complete480/480valid,$0.51559875; the3,000-call
-full sweep is running. No interim winner selection. Audit requests will be frozen
-after the complete source exists. [Diagnostic interpretation](experiments/phase1_5_encoding_validity/structural_encoding_20260912/diagnostics/analysis/INTERPRETATION.md).
+**Live status:** diagnostics480/480 and full sweep3000/3000 are complete and
+verified. Independent PD confirmation100/100 is complete: both prospective
+endpoint effects pass. S2 FORMAL_REPORT rises0% to80% (change+80pp,
+simultaneous95% CI[35.4,95.2]); S3 WAIT rises16% to84% (+68pp,[22.9,88.2]).
+[Confirmation report](experiments/phase1_5_encoding_validity/structural_encoding_20260912/pd_confirmation/analysis/REPORT.md).
+These directions were exploratory in the full sweep and confirmed separately
+on25 fresh backgrounds. They do not replace the original gate.
+
+The independent audit is collecting a fresh200-item schema-R3 designation.
+Initial audit13 attempts (12 valid,1 malformed code) and schema-R2 HTTP400 are
+preserved separately. No pooling or in-place retry. R3 keeps the same blinded
+items/messages/model/scoring, adds an exact code schema, max1000; the coder's
+format instruction is an explicit instrument change. Agent prompts unchanged.
+All package reservations, including failed dispatched bounds and PD confirmation,
+total$24.729379 under the$25 cap. Current completed behavioral cost$3.87558375;
+audit usage will be finalized after collection. No off-device backup claimed.
 
 Four relevant preflight tests passed. Behavioural stages are frozen, with joint
 reservation $21.482604, leaving

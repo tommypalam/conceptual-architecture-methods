@@ -1,0 +1,107 @@
+{
+  "design_hash": "3ef0bb24cdf19b7189a87d2dba70f43767c00e6886a548f2c2c14f2d8767e5b6",
+  "complete": true,
+  "n_records": 100,
+  "groups": [
+    {
+      "problem": "S2",
+      "target_label": "FORMAL_REPORT",
+      "rates": [
+        0.0,
+        0.8
+      ],
+      "n_backgrounds": 25,
+      "background_effects": [
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0
+      ],
+      "effect": 0.8,
+      "simultaneous95": [
+        0.35449836981085237,
+        0.9516125562605395
+      ],
+      "positive_pairs": 20,
+      "negative_pairs": 0,
+      "tied_pairs": 5,
+      "p_two_sided": 1.9073486328125e-06,
+      "p_holm": 3.814697265625e-06,
+      "supported": true
+    },
+    {
+      "problem": "S3",
+      "target_label": "WAIT",
+      "rates": [
+        0.16,
+        0.84
+      ],
+      "n_backgrounds": 25,
+      "background_effects": [
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "effect": 0.68,
+      "simultaneous95": [
+        0.22856770099844395,
+        0.8822798878714033
+      ],
+      "positive_pairs": 17,
+      "negative_pairs": 0,
+      "tied_pairs": 8,
+      "p_two_sided": 1.52587890625e-05,
+      "p_holm": 1.52587890625e-05,
+      "supported": true
+    }
+  ],
+  "both_supported": true,
+  "known_cost_usd": 0.1079835,
+  "configuration": "neutral",
+  "draw_seed": 20261012,
+  "schedule_seed": 20261013,
+  "phase_gate": "Independent local confirmation only; original validity gate and Phase2 hold unchanged."
+}

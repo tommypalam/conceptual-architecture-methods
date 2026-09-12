@@ -156,3 +156,8 @@ experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit/blind_
 experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit/private_answer_key.json
 experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit/manifest.json
 experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit/private_answer_key_rendered.json
+
+# Schema audit replacements also contain private/raw-derived blind material.
+experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit_schema_*/blind_pack.json
+experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit_schema_*/private_answer_key*.json
+experiments/phase1_5_encoding_validity/structural_encoding_20260912/audit_schema_*/manifest.json

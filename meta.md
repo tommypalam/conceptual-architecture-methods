@@ -16,6 +16,44 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+## 2026-09-12 - Complete all-ten sweep; separate audit repair and independent PD test
+
+All3000 sweep responses are valid (estimated$3.2520015). Original frozen
+bootstrap flags MoR/S3 (+.65 endpoint; adjusted[.20,1.00]); the supplementary
+exact paired Holm60 analysis supports only the exploratory PD endpoints:
+S2 FORMAL_REPORT +.65 (p=.0144043), S3 ADOPT -.70 (p=.00732422).
+Do not substitute one analysis for the other. The new PD directions are not
+retroactively added to the nine original theoretical predictions.
+
+Decision: freeze an independent100-call PD test in25 new unselected backgrounds,
+PD .1/.9 crossed with S2/S3, draw/schedule seeds20261012/20261013. Primary targets
+FORMAL_REPORT and WAIT, exact paired tests with Holm2 and simultaneous conservative
+intervals; both must pass. Detailed five-perspective review and consequences:
+[PD protocol](experiments/phase1_5_encoding_validity/structural_encoding_20260912/pd_confirmation/PROTOCOL.md).
+Linden requires conceptual caution; Osei fresh replication and no extensions;
+Tanaka exact paired uncertainty; Renna context-dependent architecture evidence;
+Okafor frozen inputs and accountable budget. The disputed inferential scope is
+resolved as local behavioral evidence, not validation of the whole architecture.
+S3 WAIT has multiple plausible mechanisms: the locked text offers a written plan,
+not a specified consultation requirement. No moral superiority is assigned.
+
+Audit technical repair: initial brief coder13 attempts ended on invalid TD code
+(12 valid,1 failed). Preserve without remapping or pooling. SchemaR2 returned400
+on its first request (nullable enum syntax); preserve its unknown-usage bound.
+SchemaR3 uses equivalent anyOf syntax, same200 blinded items/messages and keys,
+model Haiku4.5 and scoring, max1000. Provider format instruction and constrained
+sampling are an explicit rater-instrument change; agent prompts are unchanged.
+R3 collection is active. Synthetic review: all five perspectives support a
+separate format-only repair for this concrete parsing/API limitation; Tanaka
+requires no outcome-conditioned salvage and Renna disclosure of coder change.
+Resolution: full200 fresh R3 calls, all prior failed attempts archived, no pooling.
+
+User's broad instruction authorizes these needed tests; exact reservations are
+$24.729379 including all3480 behavior calls, both failed-audit dispatched bounds,
+all200 R3 coder calls and new100 PD calls. Undispatched failed-audit reservations
+are released. No theory/locked prompt/Beta/R/gate changes. Phase1.5 remains open;
+Phase2 held. Four R3-audit and three PD preflight tests pass before dispatch.
+
 ## 2026-09-12 - Structural diagnostic panel complete; preserve uncertainty qualification
 
 480/480 valid, estimated$0.51559875; exact requests/settings,480 unique API IDs,

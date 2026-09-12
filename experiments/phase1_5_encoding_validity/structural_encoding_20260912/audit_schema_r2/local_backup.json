@@ -1,0 +1,21 @@
+{
+  "path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\output\\validity_backups\\audit_schema_r2_6392463e0b8fac2c.zip",
+  "sha256": "860d724e95ce5913fdb3aec78d4c61166c7ef71110e4142d467676a194066fde",
+  "file_sha256": {
+    "blind_pack.json": "8d388ef1ef52886c0d57e6fd317cd1a4b8609af7efdc177ddc5d9b395db54f85",
+    "budget_ledger.json": "f01caa5e77f446c260aff89a06f7891d76fc9b6fae841f46c3f4d8365f9fc16e",
+    "dispatch_authorization.json": "fd828d8217bc8c34dffc9b1e044205d50931b5a5ada5afabfa273b326ac7bc98",
+    "manifest.json": "aadee11dc7b1e6d58efb42afc213b9742e91649884e83746632ebccac0044ceb",
+    "preflight.json": "6b7c347d6c8da8d5dfa9fb5f6ad6bd8e3de8f162bb076226d356c4cf34df6dde",
+    "private_answer_key.json": "2ccd9651cda9aaae4aac47ff3c4f439a7582da3ced0ecdd7b324d7b60676882e",
+    "private_answer_key_rendered.json": "cbd4c3a465b2492746e46e1e3f88d6d53b47b6ca96bb36ed40ae03f1a6801892",
+    "PROTOCOL.md": "8913a37a204ed047bcbd2d9328bece64bc61d181958ee4a0884441bf2e5b7107",
+    "rounding_check.json": "4ed84fa16acac08cb7a4465f4388df5f1157a3af946ae182ff4b4bb93141ea1c",
+    "analysis/audit_b3eddb5fbe557ce5.json": "6467da74dce24111e41dbcc3c9a3e3e5e4c7f582e3b7160d0dae3297d3b7eb21",
+    "analysis/rendered_truth_sensitivity_7b28d69f7fc0a32f.json": "57310fdafcac418cb8a51d17917352431fc753f30f3ab9bdfaadb04da67b8955",
+    "dispatches/d660f226b2e00dacedebf66d.json": "3fd18a844bdd891084eefd97191120531a424b4997c886c052b059de086a2e90",
+    "records/d660f226b2e00dacedebf66d.json": "70a3fb3f8c4d6b43693dfcf51a10f21061e2d0ae96cd9152af046b626e5e9b98",
+    "records/failures.jsonl": "d454e783265da52ff7da233a236a12f9d2a41ea30707bf5cbdd6f0e2d5f4c1e3"
+  },
+  "note": "Verified same-computer archive, not off-device backup."
+}
