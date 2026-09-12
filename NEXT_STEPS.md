@@ -10,16 +10,17 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
-**Three-parameter transfer study prepared and tested:360 calls,$2.50 cap.**
-[Frozen protocol and exact preview](experiments/phase1_5_encoding_validity/profile_transfer_20260912/PROTOCOL.md).
-Researcher said go after the expanded design. All20 backgrounds retained and
-hash-locked (seed20260929); MoR/S3,MS/S2,RE/S3 x3 levels x2 complete blocks.
-Only numerical values change; other nine coordinates fixed in each triplet.
-Three tests passed, including full360-call mock, opposite-direction RE scoring,
-missing/failure/budget guards and exact wording checks. Full reserve$2.18088.
-Ordering seed20260930; analysis seed20261001; no API calls yet; dispatch review
-before launch. Original gates remain unchanged; no automatic expansion.
-
+**Three-parameter transfer complete:360/360 valid,cost$0.389088.**
+[Full result, limits and all-background figure](experiments/phase1_5_encoding_validity/profile_transfer_20260912/analysis/INTERPRETATION.md).
+Two of three meet the frozen LOCAL criterion: MoR ADOPT+.575, adjusted interval
+[.400,.750], block effects+.600/+.550; MS FORMAL_REPORT+.275,[.100,.450],
+blocks+.350/+.200. RE WAIT+.050,[-.150,.275], blocks+.200/-.100: unresolved.
+MS rates7.5/2.5/35% are NOT monotonic; endpoint transfer is not graded encoding.
+MoR rates22.5/40/80% are ordered at these three levels. All20 backgrounds retained;
+no original gate change, parameter deletion or Phase2 release. No new paid run.
+All sources/messages/values/parses/IDs/seeds and raw ZIP bytes verified; figure
+visually checked. Four relevant tests passed (three before collection; one
+additional independent bootstrap check). Remaining$3.35738625;no pending calls.
 
 **Three-parameter profile-transfer test proposed for discussion.**
 [Expanded360-call draft](experiments/phase1_5_encoding_validity/profile_transfer_proposal_20260912/PROPOSED_TEST.md).

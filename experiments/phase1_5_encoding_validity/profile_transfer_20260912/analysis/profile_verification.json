@@ -1,0 +1,10 @@
+{
+  "draw_seed": 20260929,
+  "backgrounds_hash": "42f83f058224ac84d57e3d935d0e937dfe8ab47a94a10bb6e284ac1da8f4f45f",
+  "all20_draws_reproduced_and_retained": true,
+  "all180_conditions_change_only_numeric_values": true,
+  "other_nine_values_fixed_within_each_triplet": true,
+  "source_user_messages_and_definitions_exact": true,
+  "R_and_Beta_source_hashes_unchanged": true,
+  "no_historical_outcomes_pooled": true
+}

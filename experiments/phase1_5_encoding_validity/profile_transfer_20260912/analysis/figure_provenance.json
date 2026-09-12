@@ -1,0 +1,16 @@
+{
+  "design_hash": "dfdcb435d0b836148634dab01ea5f20e602642222fd09a64d2ce8446ce369375",
+  "analysis_digest": "ccfa028c256d7ecc71779e23edc3ed6d7b869fedf8047ff4d88fb0fb62175919",
+  "script_sha256": "09760bfcd3f84cdc8adc37c2b9329c73079332cc375e5178715d7ad3e431f1e4",
+  "all20_backgrounds_retained": true,
+  "files": [
+    {
+      "path": "fig_01_profile_transfer.png",
+      "sha256": "b313e1f9d58e723e237a4440b0fa7f092bb839ecac2651f84461ba3ae8a75f8c"
+    },
+    {
+      "path": "fig_01_profile_transfer.pdf",
+      "sha256": "f45f061abd273941f7d67d1d52a4df0ffc16254074d0ea3383ecee16c8dfe1c8"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "design_hash": "dfdcb435d0b836148634dab01ea5f20e602642222fd09a64d2ce8446ce369375",
+  "unique_real_api_ids": 360,
+  "unique_requested_seeds": 360,
+  "raw_record_archive_bytes_verified": true,
+  "sources_messages_profiles_labels_and_parses_verified": true,
+  "authorization_matches": true,
+  "no_retries_or_pooling": true,
+  "all_settings_pinned": true,
+  "pending_requests": 0
+}

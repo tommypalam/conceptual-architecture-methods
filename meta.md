@@ -15,6 +15,32 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+
+## 2026-09-12 ? Profile transfer complete; two supported endpoint effects
+
+360/360 valid,$0.389088. All20 prospectively sampled backgrounds retained.
+Frozen local decisions: MoR ADOPT+.575, adjusted98.333%[.400,.750], block
++.600/+.550; MS FORMAL_REPORT+.275,[.100,.450], blocks+.350/+.200; RE WAIT
++.050,[-.150,.275], blocks+.200/-.100. MoR and MS meet the local criterion;
+RE does not. All three outcomes reported. MS midpoint remains out of order
+(7.5/2.5/35%), whereas MoR rates22.5/40/80% are ordered at three points.
+
+Synthetic interpretation review: Linden permits a scoped behavioural transfer
+claim, not internal ethical understanding. Osei retains the unfamiliar-profile
+advance but flags case selection, noisy individual curves and only two blocks.
+Tanaka preserves adjusted approximate cluster intervals, makes MS nonmonotonicity
+prominent, and treats RE non-detection as unresolved rather than zero effect.
+Renna separates endpoint transfer from the remaining representation/paraphrase/
+recovery requirements; no automatic move to Phase2. Okafor verifies unchanged
+other-nine values, source wording,20 reproducible draws,360 unique IDs/seeds,
+write-once records and raw ZIP byte equality; no outcomes discarded.
+Resolution: retain positive MoR/MS transfer with MS shape and RE limitations.
+Original gate unchanged; no parameter deletion, new rule, interaction claim or
+new paid allocation. Three tests passed before collection; an extra analytic
+bootstrap check passed afterwards without changing frozen analysis or prompts.
+All-background figure visually checked. Remaining tracked$3.35738625, no pending
+calls. [Interpretation](experiments/phase1_5_encoding_validity/profile_transfer_20260912/analysis/INTERPRETATION.md).
+
 ## 2026-09-12 ? Freeze360-call profile transfer after researcher go
 
 All20 draws from unchanged sampler/R retained with seed20260929;180 unique

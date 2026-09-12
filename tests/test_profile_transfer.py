@@ -87,3 +87,20 @@ def test_budget_and_terminal_failures_preserved(tmp_path):
     assert all(r['terminal_failure'] for r in run.ValiditySink(tmp_path / 'records').read_all())
     with pytest.raises(ValueError, match='Existing attempts'): asyncio.run(run.execute(tmp_path, m, client))
     assert client.n_calls == 3
+
+
+def test_cluster_intervals_do_not_treat_duplicate_blocks_as_new_backgrounds(tmp_path):
+    m=run.prepare(tmp_path);rows=[]
+    for _,c,block,_ in run.jobs(m['design']):
+        target=c['background']<10 and c['value']==.9
+        other=next(l for l in c['labels'] if l!=c['target_label'])
+        rows.append({'cell_id':c['id'],'call_index':block,'terminal_failure':False,'parse_status':'ok',
+            'parsed_decision':c['target_label'] if target else other,
+            'response_payload':{'usage':{'prompt_tokens':100,'completion_tokens':10}}})
+    r=run.assess(rows,m)
+    # Twenty clusters with effects ten0/ten1 imply Binomial(20,.5)/20 bootstrap.
+    # Repeated identical block outcomes must not narrow that to forty clusters.
+    for p in r['primary']:
+        assert p['mean_high_minus_low']==.5
+        assert p['nominal95']==[.3,.7]
+        assert p['bonferroni983333']==[.25,.75]

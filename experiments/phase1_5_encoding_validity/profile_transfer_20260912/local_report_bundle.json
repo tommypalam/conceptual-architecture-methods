@@ -1,0 +1,26 @@
+{
+  "path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\output\\validity_backups\\profile_transfer_20260912_reports_dcbfaae3e9da8c89.zip",
+  "sha256": "11f604dc370308e3eb978c35997d6057c856520890c1c1d4d5699bf0c0e76f2c",
+  "file_sha256": {
+    "backgrounds.json": "d7e24f9f3319562cd6eb9cb808c8d8344aefbc00f03c184768d07c0638071b07",
+    "budget_ledger.json": "d5caad4aa8c1c272c34ba7260c6a8c66772cd4fc87aa511d1921a0d3bf695d04",
+    "dispatch_authorization.json": "6fbfdce072692b8edfa878aeeaec4bc672964eb68b03ecc841af0e4adf26c03f",
+    "local_backup.json": "69323af44355629ef005cdbc44e4e1587b8296e59ab5a5969f36fd92e364d441",
+    "manifest.json": "c57c61f9e3eea5cdd84fe59a8d461319c8047dfdac959be55fb0e8f28a740f07",
+    "PROTOCOL.md": "52fe411dd0df7a8bc03ede5accc7749f5a3526603491474b0f8f0b1835b550cf",
+    "request_preview.json": "4be0f0f34394bd30dcfd44e24779c25b7024c2e091fe4d3c89d78f9ca8686dcc",
+    "analysis/budget_369e9b279b7d77f7.json": "d5caad4aa8c1c272c34ba7260c6a8c66772cd4fc87aa511d1921a0d3bf695d04",
+    "analysis/figure_provenance.json": "607a797fbe6512f2b298ddaeb5274f227b6b8ac6ba3b1e7d2f57023cda37bbf5",
+    "analysis/fig_01_profile_transfer.pdf": "f45f061abd273941f7d67d1d52a4df0ffc16254074d0ea3383ecee16c8dfe1c8",
+    "analysis/fig_01_profile_transfer.png": "b313e1f9d58e723e237a4440b0fa7f092bb839ecac2651f84461ba3ae8a75f8c",
+    "analysis/INTERPRETATION.md": "e8941ed0a82b0a540eaf71767e7d15deb64ee95fd08c16ce156ed78d25704ff9",
+    "analysis/profile_verification.json": "b2080eecbbd98313ccd6add62dfdf817c8ed515265d65fb59c79ebd98af52525",
+    "analysis/REPORT.md": "07941567e3c5c4eeea9eab1b06473ae6e56594df2a88cafa40838345fc49c8cb",
+    "analysis/result_ccfa028c256d7ecc.json": "2c689c2aecbb0e5a0b9c77836f5eb14488b5d1b15503803a3cb589779f728554",
+    "analysis/verification.json": "6751ee33dd09c6354e206214718dff8cf15763e2f12680179f9656b89b590672",
+    "code/run_validity_profile_transfer.py": "fa1e5e3eceff962c648d5967adb58e00c9189a435476424bc950a1707da3dce9",
+    "code/report_validity_profile_transfer.py": "09760bfcd3f84cdc8adc37c2b9329c73079332cc375e5178715d7ad3e431f1e4",
+    "tests/test_profile_transfer.py": "d6f46ab456b9292498d7931fd86b7e4665d79c761a48a7a5daaf3223a8542983"
+  },
+  "note": "Verified same-computer report/code bundle; raw archive separately referenced in local_backup.json."
+}
