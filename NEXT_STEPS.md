@@ -1,6 +1,6 @@
 # Current state and next steps
 
-Updated 2026-09-12. Development branch: `project-cleanup-20260912`.
+Updated 2026-09-12. Published branch: `main`. Create a development branch before new work.
 
 **Phase 1.5 is closed for the researcher-accepted, limited normative-encoding objective.**
 The researcher accepted the results and instructed the project to proceed.
@@ -77,3 +77,11 @@ listed; descriptive labels preserve their exact source paths. This administrativ
 change introduces no new analysis, architecture decision or paid run.
 Verification: all 54 study folders appear once in the index, and all 171 local
 links in the changed documentation resolve. Only Markdown files changed.
+
+## Desktop handoff and publication
+
+The researcher authorised publishing this version to GitHub main and preserving
+the previous published main as backup. The [desktop handoff](docs/desktop_handoff.md)
+contains continuation context, setup and separate local-data transfer steps.
+Recent ignored records require the transfer bundle; Git alone is not the dataset.
+Do not recreate meta.md or restart Phase 1.5.

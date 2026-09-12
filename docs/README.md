@@ -1,5 +1,7 @@
 # Writing, planning and project guides
 
+Moving to another computer? Start with the [desktop handoff](desktop_handoff.md).
+
 [Back to the project](../README.md)
 
 ## Read the thesis work

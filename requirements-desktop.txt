@@ -1,0 +1,10 @@
+# Direct dependency versions observed on the originating Python 3.11 environment.
+# Verify installation and offline tests on the desktop; no API keys are needed.
+anthropic==0.97.0
+httpx==0.28.1
+matplotlib==3.10.0
+numpy==2.2.1
+openai==2.33.0
+pandas==2.2.3
+pytest==9.0.2
+scipy==1.15.1

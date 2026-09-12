@@ -1,6 +1,6 @@
 # Project layout and naming
 
-Updated 12 September 2026. Current cleanup branch: `project-cleanup-20260912`.
+Updated 12 September 2026. Published version: `main`; use a development branch for new work.
 
 ## Where things belong
 

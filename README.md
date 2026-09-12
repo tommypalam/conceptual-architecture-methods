@@ -1,5 +1,7 @@
 # PARIA - Concepts as Architecture
 
+Moving to another computer? Start with the [desktop handoff](docs/desktop_handoff.md).
+
 Can explicit ethical parameters shape how an AI agent makes decisions?
 PARIA studies this using ten normatively motivated parameters and fixed dilemmas.
 

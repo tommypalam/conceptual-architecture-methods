@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-12",
+  "bundle": "paria_desktop_data_20260912.zip",
+  "bundle_sha256": "2d8f3a8cd2ee1620601a488e2530009e21003e1abc9149ec2819e11579744d5d",
+  "bundle_bytes": 729667364,
+  "file_count": 124125,
+  "uncompressed_bytes": 1388268452,
+  "all_zip_payload_hashes_verified": true
+}

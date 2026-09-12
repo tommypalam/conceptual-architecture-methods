@@ -1,5 +1,12 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Desktop continuation (2026-09-12)
+
+The researcher authorised publication to main with the previous published main
+preserved as backup. Use docs/desktop_handoff.md on the desktop. Recent ignored
+research data transfers separately; a Git clone alone is incomplete. No new paid
+run or Phase 2 release follows from publication. Work on a development branch.
+
 ## Human-readable navigation (2026-09-12)
 
 The researcher requested a gentle organisation pass and intentionally removed
