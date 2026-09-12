@@ -3,7 +3,7 @@
 Updated 2026-09-12. Working branch: `phase1-5-all-ten-criteria`.
 
 **The previous structural package is complete; the new all-ten follow-up is
-interrupted again; offline finalization and archiving are complete. Phase 1.5 remains open, the original full validity gate is unmet, and
+preparing an authorized third execution segment after verified interruption. Phase 1.5 remains open, the original full validity gate is unmet, and
 Phase 2 remains on hold.**
 The researcher rejected the earlier closure interpretation. No automatic
 closure, threshold relaxation, theoretical revision or parameter removal is made.
@@ -43,6 +43,15 @@ All-ten scope remains11,250 gradient calls (25 backgrounds, three representation
 and6,000 wording calls (50 backgrounds, four wordings), with the completed prior
 200-item audit separate. Analyze disjoint segments together as one frozen design,
 with invalid slots and the interruption explicit. Phase1.5 remains open.
+
+## Authorized continuation after the interruption
+
+The researcher instructed continue. A third segment is being verified for the
+4,584 never-dispatched slots, keeping all prior intents excluded and all unknown
+charges reserved. Exact prompts, model, schedule and analysis are unchanged.
+A hidden background worker will record its PID and stdout/stderr. Monitor process
+liveness alongside checkpoint freshness; do not infer RUNNING from a stale file.
+[Third-segment protocol](experiments/phase1_5_encoding_validity/all_ten_followup_20260912_segment3/PROTOCOL.md).
 
 ## Latest monitoring interruption
 

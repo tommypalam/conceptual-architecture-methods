@@ -170,6 +170,10 @@ with three unresolved intents and4,584 never-dispatched slots. Offline
 finalization and archive verification are complete, with 12,651 valid records
 and $17.89124275 accounted including full unknown bounds. No further paid
 segment is running. The exact interruption cause is unestablished. See NEXT_STEPS.md.
+The researcher then explicitly instructed continue: a third segment covers only
+the 4,584 untouched requests, retaining the $25 total cap and all unknown
+reservations. All prior intents remain excluded. Monitor its saved PID plus
+checkpoint freshness; the scientific design and missing-data rules are unchanged.
 
 ## Experimental Problems
 

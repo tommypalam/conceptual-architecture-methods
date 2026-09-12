@@ -16,6 +16,28 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+## 2026-09-12 - Researcher authorized continuation after second interruption
+
+The researcher instructed continue after the verified 12,663-record interruption.
+Prepare a third execution segment for exactly 4,584 untouched requests. Exclude
+all 12,666 prior intents, including three unresolved calls; preserve all prior
+raw records, unknown bounds and analyses. Use the same frozen request order,
+messages, profiles, model, temperature, seed per request, timeout and concurrency.
+Prior total accounted cost is $17.89124275; the original $25 cap remains.
+
+A hidden background worker with stdout/stderr files and a saved PID separates
+process supervision from the interactive command session. Monitoring must check
+process liveness and fresh progress together. This is an operational change,
+not a model or scientific-design revision, and does not survive machine shutdown.
+At full dispatch at most 17,247 responses can exist because the three unresolved
+slots are never replaced. Preserve the full denominator and missing-data rules.
+
+Synthetic review: Linden preserves meaning; Osei discloses time segments and
+missing responses; Tanaka retains all unknown bounds and fixed allocation;
+Renna keeps prior-cohort recovery separate; Okafor requires disjoint intents and
+process checks. Resolution: continue the authorized untouched suffix without
+new criteria, revised theory, increased funding or a Phase 2 release.
+
 ## 2026-09-12 - Interrupted segment verified and archived
 
 Offline finalization completed without additional API calls: 12,663 records

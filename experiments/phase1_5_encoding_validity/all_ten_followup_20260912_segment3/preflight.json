@@ -1,0 +1,10 @@
+{
+  "tests_passed": 4,
+  "prior_records_verified": 12663,
+  "prior_intents_verified": 12666,
+  "unresolved_excluded": 3,
+  "remaining_exact_schedule_suffix": 4584,
+  "prior_accounted_usd": 17.891242749999986,
+  "cap_usd": 25,
+  "plan_sha256": "78643ca8db7ee57eda628bc7a74dbb64c199197d032aedcbeec8d25c0ead38f1"
+}
