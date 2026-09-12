@@ -1,6 +1,6 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
-Updated 2026-09-09. This file and its companion contain the same working rules;
+Updated 2026-09-12. This file and its companion contain the same working rules;
 edit both together. Current execution status belongs in NEXT_STEPS.md, and
 decisions belong in meta.md.
 
@@ -108,17 +108,24 @@ The coding manual itself is still to be drafted and pre-registered before Phase 
 ## Phase Plan and Current Status
 
 Read [NEXT_STEPS.md](NEXT_STEPS.md) for the current phase ledger. Phase 0 is
-closed and Phase 1 passed operationally. Phase 1.5 is open: its original September
-sweep stopped at 8,640/15,000 records after API credits were exhausted. A fresh
-15,000-call September 9 restart is collected and scored; no old
-responses are pooled. Claude Haiku 4.5 is pinned for independent coding and
-paraphrase generation. The 4,500 rotations, 200-item audit, 15,000 gradients and
-4,500 human-approved paraphrases are also collected. The empirical battery is
-complete; the current gate is not met. Only 8/30 paraphrase cells establish
-equivalence (24 required); literal audit thresholds do not establish active-trait
-recoverability. Phase 2 remains on hold pending the researcher's next decision.
-See NEXT_STEPS.md and the battery assessment for evidence and limitations. Phases 2–6
-are planned, not completed. Follow-up code being tested does not close a gate.
+closed and Phase 1 passed operationally. **Phase 1.5 evaluation closed on
+2026-09-12 at the researcher's request; the full validity gate remains unmet.**
+This ends collection for the evaluated implementation, not a pass or
+pass-with-revision. Phase 2 remains on hold; Phases 2-6 are not completed.
+
+The fresh battery contains 39,000 unique behavioural responses (38,993 valid)
+and a separate 200-item audit; no interrupted September 6 sample is pooled.
+Only 8/30 paraphrase cells establish equivalence (24 required), and literal audit
+thresholds do not establish active-trait recoverability. The final 360-call
+transfer diagnostic supports local MoR and MS endpoint effects across 20 new
+backgrounds; MS is not an ordered gradient and RE remains unresolved. These
+results do not replace the original battery or validate all ten parameters.
+
+See the [closure report](experiments/phase1_5_encoding_validity/PHASE1_5_CLOSURE_2026-09-12.md)
+for evidence and limits. No new paid run is queued; automatic probing stops.
+Reopening experimental work requires a new scoped decision. No parameter removal,
+gate revision, Appendix A descope or architectural departure is authorised by
+closure. The hard gate and existing consultation rules remain in force.
 
 ## Experimental Problems
 

@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checked_local_links": 73,
+  "selected_files_hashed": 31,
+  "constitution_bodies_match": true,
+  "previous_ledger_matches_git_checkout_bytes": true,
+  "existing_experimental_and_phase0_files_unchanged": true,
+  "budget_matches_final_transfer_ledger": true,
+  "new_api_calls": 0,
+  "limitations": [
+    "Historical archive retains root-relative links unchanged.",
+    "No fresh reanalysis or complete raw-archive audit.",
+    "No off-device backup or remote push."
+  ]
+}

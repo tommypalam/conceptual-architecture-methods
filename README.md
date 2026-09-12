@@ -22,22 +22,24 @@ hypotheses to evaluate, not established properties of human or artificial minds.
 
 ## Current state
 
-**Phase 0 is closed; the Phase 1 operational pilot passed; the Phase 1.5 empirical
-battery is complete, but the current validity gate is not met.** The fresh
-September 9 runs collected 39,000 behavioural responses across the source sweep,
-representation rotations, gradients and human-approved paraphrases, plus the
-200-item independent audit. The interrupted September 6 sample remains separate.
-Only 8/30 paraphrase cells establish equivalence (24 required), and audit
-numerical thresholds alone do not establish recovery of manipulated traits.
-Phase 2 remains on hold. See the
-[battery assessment](experiments/phase1_5_encoding_validity/phase_review_20260909/BATTERY_ASSESSMENT.md).
-[NEXT_STEPS.md](NEXT_STEPS.md) owns the detailed current
-status, blockers, and next actions.
+**Phase 0 is closed; Phase 1 passed operationally; Phase 1.5 evaluation is
+closed with the full validity gate unmet. Phase 2 remains on hold.** The
+[closure report](experiments/phase1_5_encoding_validity/PHASE1_5_CLOSURE_2026-09-12.md)
+consolidates the original battery and subsequent diagnostics. Closing evaluation
+does not constitute a validity pass or authorise a revised architecture.
 
-A subsequent 7,900-slot controlled pilot tested one approved numeric-axis
-clarification. It did not resolve wording dependence or meet the local PD/S1
-criterion. All records, including ten API failures, are preserved and verified;
-see the [candidate assessment](experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/analysis/INTERPRETATION.md).
+The original battery collected 39,000 unique behavioural responses (38,993 valid)
+and a separate 200-item audit. Only 8/30 paraphrase cells establish equivalence
+(24 required); representation retention and active-trait recovery remain
+insufficient. Later targeted studies establish useful local parameter influence:
+a final 360-response test supports MoR and MS endpoint effects across 20 new
+complete backgrounds. MS does not show an ordered gradient, and RE remains
+unresolved. These findings do not establish internal ethical understanding or
+validate the complete ten-parameter architecture.
+
+[NEXT_STEPS.md](NEXT_STEPS.md) owns current status. No further paid run is queued;
+all positive, negative and inconclusive evidence is retained. The interrupted
+September 6 sample remains separate from the fresh battery.
 
 Completed calibration exposed substantial prompt-harness effects on the tested
 model. The locked holdout therefore supplies measured, problem-specific naked

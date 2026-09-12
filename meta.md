@@ -16,6 +16,44 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+## 2026-09-12 - Close evaluated Phase 1.5 implementation with validity gate unmet
+
+Decision: complete the requested scientific and operational closure without
+promoting local diagnostic successes to a whole-phase pass. The researcher asked
+to close this phase; that authorises consolidation and stopping the probe loop,
+not altering results, theory, gate criteria or the Phase 2 dependency.
+
+Five synthetic review perspectives (structured internal review, not external
+expert review or independent human sign-off):
+
+- **Linden:** Numerical influence is a defensible limited claim. Neither an
+  internal ethical understanding nor the impossibility of ethical encoding follows.
+- **Osei:** Retain all outcomes and development selection. New backgrounds are
+  useful transfer evidence, but familiar dilemmas and two blocks limit generality.
+- **Tanaka:** Preserve 8/30 versus 24 and the other original criteria. Report
+  adjusted transfer intervals, MS nonmonotonicity and unresolved RE together;
+  non-detection is not zero effect, and failed equivalence is not proof of difference.
+- **Renna:** Closure of this evaluation must not be interpreted as architectural
+  readiness. A future revision requires its own validated scope before Phase 2.
+- **Okafor:** End automatic paid dispatch, archive the previous ledger unchanged,
+  preserve raw provenance and provide one current handoff with auditable sources.
+
+Disagreement: the positive transfer results justify continued research interest,
+but do not justify immediate main-study release. The resolution distinguishes
+closing this evaluation from passing its validity gate; it neither abandons the
+conceptual theory nor creates a partial-pass architecture by omission.
+
+Resolution: [Phase 1.5 closure](experiments/phase1_5_encoding_validity/PHASE1_5_CLOSURE_2026-09-12.md).
+No new API calls, parameter deletion, prompt changes, distribution/R edits, gate
+weakening or Appendix A descope. Phase 2 remains held. The prepared 900-call
+confirmation and previous proposals are not queued. Remaining conservative
+tracked latest allowance $3.35738625; provider balance unverified.
+
+AGENTS.md and CLAUDE.md receive matching status updates; README, NEXT_STEPS and
+the provisional abstract reflect the completed evaluation. Historical reports
+retain as-of-date status. The previous NEXT_STEPS is archived byte-for-byte.
+Closure evidence hashes document selected sources, not a fresh raw-archive audit.
+
 ## 2026-09-12 ? Profile transfer complete; two supported endpoint effects
 
 360/360 valid,$0.389088. All20 prospectively sampled backgrounds retained.

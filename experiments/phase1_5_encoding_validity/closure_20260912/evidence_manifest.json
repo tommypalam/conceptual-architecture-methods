@@ -1,0 +1,165 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-12",
+  "status": "EVALUATION_CLOSED_GATE_UNMET",
+  "phase2_authorized": false,
+  "source_commit": "f720793991071c4220829b1faa2db20f2f75c8fe",
+  "scope": "SHA-256 of selected existing evidence and closure documentation; no new raw-record audit or collection.",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 21167,
+      "sha256": "755d1427c8844359f1d286b70442c8ae0c3f6df643d424a9ebe33f9712b16b9e"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 21167,
+      "sha256": "7197d83cf3928fae4724fe244ec6fada610bbee6b8565f0a602c409cc0013111"
+    },
+    {
+      "path": "docs/abstract.md",
+      "bytes": 4589,
+      "sha256": "5df80b4e95451e04d9b1561be568193c59db985c17631b5d33e6d06c130d11d1"
+    },
+    {
+      "path": "docs/archive/NEXT_STEPS_before_closure_2026-09-12.md",
+      "bytes": 49753,
+      "sha256": "12c620d904939a3a20a7b3987e4ef514f00ffbfce33de5101f8c518309e711c4"
+    },
+    {
+      "path": "docs/README.md",
+      "bytes": 3971,
+      "sha256": "5460795b2c5477a226bfff11e5fb142d800e5b8b93fa142516382d89fb1680bc"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/axis_instruction_20260911_assembled/analysis/INTERPRETATION.md",
+      "bytes": 4492,
+      "sha256": "8a010d06c91a9a58bc23b64dbabdbb2fce6a52b6ada9247c880b1a208a6fa707"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/joint_wording_20260911/analysis/INTERPRETATION.md",
+      "bytes": 4901,
+      "sha256": "7ba5822b52899bc6e33eac006e1e6c07c258a86aac5ac888278ee1c90bc12207"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/analysis/INTERPRETATION.md",
+      "bytes": 3933,
+      "sha256": "3a4de6bdadfe39a0a57300f567e212b70a9bc6eef67e1150c1510fe94d63fb33"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/analysis/replay_verification.json",
+      "bytes": 30756,
+      "sha256": "d549a990e15a04535a672282c8fc9f0be45ced52c71deac9e62dd4e1816451fb"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/analysis/INTERPRETATION.md",
+      "bytes": 3951,
+      "sha256": "c837e2dc36eace33f88a9848356bf565308a1568206c91b52b4c3113cae53919"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/analysis/INTERPRETATION.md",
+      "bytes": 4056,
+      "sha256": "82e14cef9b2c5b93d8d823ad768fc281d01c7de7dc277dae3fb47d0f2dbfc6ac"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/pd_interaction_20260911/analysis/INTERPRETATION.md",
+      "bytes": 4799,
+      "sha256": "b3306fe762dce126bc222b27867d478307ecc4664e7f37c753152e818732e523"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/PHASE1_5_CLOSURE_2026-09-12.md",
+      "bytes": 11535,
+      "sha256": "3e523b8aeed1f02ddefede7450b9f83e5cc388f90951df15409efeb34e4ab713"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/phase_review_20260909/BATTERY_ASSESSMENT.md",
+      "bytes": 5491,
+      "sha256": "8e78c91068465888bd0407e3e4af561580da81db17baaba52435697494ee0f46"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/phase_review_20260909/evidence_a8076369a0ab8aa4.json",
+      "bytes": 148517,
+      "sha256": "a1e95540d66c6bce0048c7fa269793c11174561cc5642dc05a99a58379bc9d10"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_ablation_20260911/analysis/INTERPRETATION.md",
+      "bytes": 4580,
+      "sha256": "d202305d83802f9e0b8fd434bc75cafdeb2be874eb7f4d130be76e633ccd5c36"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_transfer_20260912/analysis/figure_provenance.json",
+      "bytes": 615,
+      "sha256": "607a797fbe6512f2b298ddaeb5274f227b6b8ac6ba3b1e7d2f57023cda37bbf5"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_transfer_20260912/analysis/INTERPRETATION.md",
+      "bytes": 5008,
+      "sha256": "e8941ed0a82b0a540eaf71767e7d15deb64ee95fd08c16ce156ed78d25704ff9"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_transfer_20260912/analysis/profile_verification.json",
+      "bytes": 425,
+      "sha256": "b2080eecbbd98313ccd6add62dfdf817c8ed515265d65fb59c79ebd98af52525"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_transfer_20260912/analysis/REPORT.md",
+      "bytes": 3348,
+      "sha256": "07941567e3c5c4eeea9eab1b06473ae6e56594df2a88cafa40838345fc49c8cb"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_transfer_20260912/analysis/result_ccfa028c256d7ecc.json",
+      "bytes": 72206,
+      "sha256": "2c689c2aecbb0e5a0b9c77836f5eb14488b5d1b15503803a3cb589779f728554"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_transfer_20260912/analysis/verification.json",
+      "bytes": 391,
+      "sha256": "6751ee33dd09c6354e206214718dff8cf15763e2f12680179f9656b89b590672"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_transfer_20260912/budget_ledger.json",
+      "bytes": 387,
+      "sha256": "d5caad4aa8c1c272c34ba7260c6a8c66772cd4fc87aa511d1921a0d3bf695d04"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_transfer_20260912/local_backup.json",
+      "bytes": 91636,
+      "sha256": "69323af44355629ef005cdbc44e4e1587b8296e59ab5a5969f36fd92e364d441"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/profile_transfer_20260912/local_report_bundle.json",
+      "bytes": 2363,
+      "sha256": "97392241c5d2b9c6402a56dba882db503ccf88668d5ce8ae47fec70a5e9e2232"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/repeat_stability_20260912/INTERPRETATION.md",
+      "bytes": 3946,
+      "sha256": "3d88a40d4e464b9eb5d7c2104c4c059b6df7c8cf480aa64eeb47f10020b17340"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/repeat_stability_20260912/local_backup.json",
+      "bytes": 1278,
+      "sha256": "6307babefd0e18b6f97f9e9c56780d0e61cdacc60e37e9280570b32078a955ae"
+    },
+    {
+      "path": "experiments/phase1_5_encoding_validity/tool_delivery_20260911/analysis/INTERPRETATION.md",
+      "bytes": 2728,
+      "sha256": "05eec780ada32c1279a8b009983071e833cc79a00b9d693572b0674c0bc7259b"
+    },
+    {
+      "path": "meta.md",
+      "bytes": 162475,
+      "sha256": "1b717499b460899b4548694e216494d63af93a4e0ab97916345a94fffaba589d"
+    },
+    {
+      "path": "NEXT_STEPS.md",
+      "bytes": 2935,
+      "sha256": "3aeb3bd10bbcf70125461dc3316a3ad66465efecbc11a1f28f200355cbe832f2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5860,
+      "sha256": "0004b202dce823586b56af668207b2027e805f5eec349e4ec07524971baf8b8a"
+    }
+  ]
+}

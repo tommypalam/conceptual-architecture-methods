@@ -5,6 +5,7 @@
 | File | Role |
 |---|---|
 | [Repository introduction](../README.md) | Research question, scope, and navigation |
+| [Phase 1.5 closure](../experiments/phase1_5_encoding_validity/PHASE1_5_CLOSURE_2026-09-12.md) | Completed evaluation; validity gate unmet, Phase 2 held |
 | [Current status](../NEXT_STEPS.md) | Single detailed operational phase ledger |
 | [7 September handoff](HANDOFF_2026-09-07.md) | Interrupted-sample recovery plan and next-person briefing |
 | [AGENTS.md](../AGENTS.md) / [CLAUDE.md](../CLAUDE.md) | Matching research and engineering constitutions |
