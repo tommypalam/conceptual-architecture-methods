@@ -1,0 +1,16 @@
+{
+  "design_hash": "72de22bf34e3e9549697c6816f06b5debaf4a720eca0c98b79a5de14aaa9b3f7",
+  "analysis_digest": "3fc10fdfe9d8bcd1aefc51a557e890ab6c0e9adc3790c2aad27c02e9eaf84d4c",
+  "script_sha256": "3d849a4b70d9d62442cf62a676fd5036f7a4db48ec3ed730b0f96d553e2b702f",
+  "all_eight_conditions_retained": true,
+  "files": [
+    {
+      "path": "fig_01_ms_crossover.png",
+      "sha256": "99d9a27f539a3dcfe15a0d00082db97520036947d752dd1dc03f44801c201d5d"
+    },
+    {
+      "path": "fig_01_ms_crossover.pdf",
+      "sha256": "c219b0254a4c523ae64148c1b57dd63bcfc4637418feeb0344b5506d3e4bc759"
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "design_hash": "72de22bf34e3e9549697c6816f06b5debaf4a720eca0c98b79a5de14aaa9b3f7",
+  "status": "COMPLETE_CROSSOVER",
+  "n_records": 160,
+  "n_valid": 160,
+  "cells": [
+    {
+      "id": "MS_S2/background_canonical/ms_canonical/v0.1",
+      "value": 0.1,
+      "background": "canonical",
+      "ms_stanza": "canonical",
+      "n_expected": 20,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "adopt": 0,
+      "formal_report_count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "id": "MS_S2/background_canonical/ms_paraphrase_2/v0.1",
+      "value": 0.1,
+      "background": "canonical",
+      "ms_stanza": "paraphrase_2",
+      "n_expected": 20,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "adopt": 0,
+      "formal_report_count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "id": "MS_S2/background_paraphrase_2/ms_canonical/v0.1",
+      "value": 0.1,
+      "background": "paraphrase_2",
+      "ms_stanza": "canonical",
+      "n_expected": 20,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "adopt": 0,
+      "formal_report_count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "id": "MS_S2/background_paraphrase_2/ms_paraphrase_2/v0.1",
+      "value": 0.1,
+      "background": "paraphrase_2",
+      "ms_stanza": "paraphrase_2",
+      "n_expected": 20,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "adopt": 0,
+      "formal_report_count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "id": "MS_S2/background_canonical/ms_canonical/v0.9",
+      "value": 0.9,
+      "background": "canonical",
+      "ms_stanza": "canonical",
+      "n_expected": 20,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "adopt": 0,
+      "formal_report_count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0.0,
+        0.16112515805281938
+      ]
+    },
+    {
+      "id": "MS_S2/background_canonical/ms_paraphrase_2/v0.9",
+      "value": 0.9,
+      "background": "canonical",
+      "ms_stanza": "paraphrase_2",
+      "n_expected": 20,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "adopt": 2,
+      "formal_report_count": 2,
+      "rate": 0.1,
+      "wilson95": [
+        0.027866481213768224,
+        0.3010336452284873
+      ]
+    },
+    {
+      "id": "MS_S2/background_paraphrase_2/ms_canonical/v0.9",
+      "value": 0.9,
+      "background": "paraphrase_2",
+      "ms_stanza": "canonical",
+      "n_expected": 20,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "adopt": 2,
+      "formal_report_count": 2,
+      "rate": 0.1,
+      "wilson95": [
+        0.027866481213768224,
+        0.3010336452284873
+      ]
+    },
+    {
+      "id": "MS_S2/background_paraphrase_2/ms_paraphrase_2/v0.9",
+      "value": 0.9,
+      "background": "paraphrase_2",
+      "ms_stanza": "paraphrase_2",
+      "n_expected": 20,
+      "n_recorded": 20,
+      "n_valid": 20,
+      "n_missing": 0,
+      "n_invalid": 0,
+      "adopt": 3,
+      "formal_report_count": 3,
+      "rate": 0.15,
+      "wilson95": [
+        0.052368745896216595,
+        0.36041886474075696
+      ]
+    }
+  ],
+  "primary_four_comparisons": [
+    {
+      "varied_component": "ms_stanza",
+      "fixed_counterpart": "canonical",
+      "effect_p2_minus_canonical": {
+        "difference": 0.1,
+        "conservative_95_interval_unknown_envelope": [
+          -0.1882238182512901,
+          0.34863651816586094
+        ]
+      },
+      "two_sided_fisher_p": 0.4871794871794873,
+      "holm_p": 1.0,
+      "difference_detected": false
+    },
+    {
+      "varied_component": "ms_stanza",
+      "fixed_counterpart": "paraphrase_2",
+      "effect_p2_minus_canonical": {
+        "difference": 0.04999999999999999,
+        "conservative_95_interval_unknown_envelope": [
+          -0.323967506959014,
+          0.40244659675355315
+        ]
+      },
+      "two_sided_fisher_p": 1.0,
+      "holm_p": 1.0,
+      "difference_detected": false
+    },
+    {
+      "varied_component": "background",
+      "fixed_counterpart": "canonical",
+      "effect_p2_minus_canonical": {
+        "difference": 0.1,
+        "conservative_95_interval_unknown_envelope": [
+          -0.1882238182512901,
+          0.34863651816586094
+        ]
+      },
+      "two_sided_fisher_p": 0.4871794871794873,
+      "holm_p": 1.0,
+      "difference_detected": false
+    },
+    {
+      "varied_component": "background",
+      "fixed_counterpart": "paraphrase_2",
+      "effect_p2_minus_canonical": {
+        "difference": 0.04999999999999999,
+        "conservative_95_interval_unknown_envelope": [
+          -0.323967506959014,
+          0.40244659675355315
+        ]
+      },
+      "two_sided_fisher_p": 1.0,
+      "holm_p": 1.0,
+      "difference_detected": false
+    }
+  ],
+  "secondary_endpoint_effects": [
+    {
+      "background": "canonical",
+      "ms_stanza": "canonical",
+      "high_minus_low": {
+        "difference": 0.0,
+        "conservative_95_interval_unknown_envelope": [
+          -0.19675967970462552,
+          0.19675967970462552
+        ]
+      }
+    },
+    {
+      "background": "canonical",
+      "ms_stanza": "paraphrase_2",
+      "high_minus_low": {
+        "difference": 0.1,
+        "conservative_95_interval_unknown_envelope": [
+          -0.1882238182512901,
+          0.34863651816586094
+        ]
+      }
+    },
+    {
+      "background": "paraphrase_2",
+      "ms_stanza": "canonical",
+      "high_minus_low": {
+        "difference": 0.1,
+        "conservative_95_interval_unknown_envelope": [
+          -0.1882238182512901,
+          0.34863651816586094
+        ]
+      }
+    },
+    {
+      "background": "paraphrase_2",
+      "ms_stanza": "paraphrase_2",
+      "high_minus_low": {
+        "difference": 0.15,
+        "conservative_95_interval_unknown_envelope": [
+          -0.17209066849777857,
+          0.41098245820688856
+        ]
+      }
+    }
+  ],
+  "secondary_high_value_interaction": {
+    "difference": -0.05000000000000002,
+    "conservative_95_interval_unknown_envelope": [
+      -0.7370081237509765,
+      0.6526889156787163
+    ]
+  },
+  "known_cost_usd": 0.1862505000000001,
+  "unknown_usage_calls": 0,
+  "phase_gate": "Unchanged; diagnostic attribution is not validation or internal understanding.",
+  "unresolved_dispatches": 0
+}

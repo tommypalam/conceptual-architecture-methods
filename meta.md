@@ -5,6 +5,39 @@ status. The [earlier log](docs/archive/meta_through_2026-09-06.md) is preserved
 byte-for-byte, including its original encoding defects and historical templates.
 
 
+
+## 2026-09-12 ? MS crossover complete; fresh canonical effect fails replication
+
+160/160 valid, $0.1862505. All low-MS counts0/20; high-MS C/C0,
+C/P2 2, P2/C2, P2/P2 3 (each/20, background first). All four primary
+Holm p=1; wide exact intervals prevent invariance claims. Secondary interaction
+-0.05, conservative nominal95 interval[-0.737,+0.653]. No phase gate changed.
+
+Unexpected canonical high-MS repeat14/20 ->0/20 prompted a disclosed offline
+audit of160 matched controls, prior640 ->80/new160 ->80. Exact messages,
+profiles, labels and recorded settings match; executor ASTs identical and same
+SDK client. Payload/reparse and unique ID/seed checks pass. New-minus-old -0.70,
+nominal conservative95[-0.898,-0.230]; post-result Fisher/Holm-four p=.00001336.
+No data pooled. Times/seeds/interleaved allocation differ; no returned backend
+fingerprints. No identified local bug or established backend explanation.
+
+Synthetic interpretation review (not external peer review): Linden rejects
+redefining MS or interpreting uniform local correction as successful ethical
+encoding. Osei treats the concurrent failed replication as load-bearing and
+warns that historical controls would have confounded attribution. Tanaka keeps
+primary non-detections separate from equivalence, and labels the repeat test
+post-result; it challenges a fixed-probability sampling explanation without
+identifying a cause. Renna prioritises exact-request reproducibility over
+another presentation repair. Okafor verifies immutable raw archives and stops
+at the allocated160 with no automatic extension.
+
+Resolution: retain all prior positive findings with this negative replication;
+no stable stanza/background mechanism identified. Keep Phase1.5 open/Phase2
+held; recommend existing-record repeat analysis before additional paid work.
+Three runner tests passed; full real provenance and raw ZIP verified; figure
+visually checked. Remaining tracked allowance$3.79170675, no pending calls.
+[Interpretation](experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/analysis/INTERPRETATION.md).
+
 ## 2026-09-12 ? Freeze MS stanza/background attribution test
 
 Decision: follow the researcher's repeated go instruction with the proposed

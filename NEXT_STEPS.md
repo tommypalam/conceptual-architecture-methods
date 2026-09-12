@@ -10,15 +10,20 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
-**MS stanza/background crossover prepared: 160 calls, $1.20 cap.**
-[Exact protocol and preview](experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/PROTOCOL.md).
-Canonical/P2 MS stanza crossed with canonical/P2 other-nine descriptions at
-MS .1/.9, N20 each. All ten verbatim descriptions and locked S2 retained.
-Four prespecified high-value comparisons, Holm correction; secondary endpoint
-contrasts. No monotonicity or phase pass claim. Fresh controls, no pooling.
-Seed20260927; full reserve$1.05024; remaining allowance before run$3.97795725.
-Researcher requested proceeding; verification and dispatch review precede calls.
-
+**MS crossover complete: 160/160 valid, cost$0.1862505.**
+[Results and repeat audit](experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/analysis/INTERPRETATION.md).
+All low-MS cells0/20; high-MS cells canonical/canonical0/20,
+canonical/P2 2/20, P2/canonical2/20, P2/P2 3/20 (background first).
+All four primary Holm p=1: no detected block effect, not equivalence.
+The identical canonical high-MS control fell14/20 to0/20. Post-result audit
+of160 matched controls found exact messages/profiles/settings and identical
+executor logic; no local request/parse discrepancy. Cause remains unknown;
+seeds, collection times and interleaved allocation differ; backend fingerprints
+absent. Prior positive effect retained with failed replication prominently noted.
+Next priority: existing-record exact-request repeat audit before further paid
+wording repair or scale-up. Phase1.5 open; Phase2 held;900-call study paused.
+All raw archive bytes, IDs/seeds and sources verified. Remaining$3.79170675;
+no pending requests or additional calls queued.
 
 **Offline MS review complete; no new API calls or prompt changes.**
 [Review and smallest proposed follow-up](experiments/phase1_5_encoding_validity/ms_wording_review_20260911/REVIEW.md).

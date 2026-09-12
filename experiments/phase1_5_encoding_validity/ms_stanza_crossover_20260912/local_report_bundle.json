@@ -1,0 +1,26 @@
+{
+  "path": "C:\\Users\\tommy\\Downloads\\conceptual-architecture-methods-main (1)\\output\\validity_backups\\ms_stanza_crossover_20260912_reports_b9f4deb0aa65c3a4.zip",
+  "sha256": "3aa0664edaa2e96aedb280ce95c5f03f47068e37ba7a229efffa95b835efb590",
+  "file_sha256": {
+    "budget_ledger.json": "f312edfbb5431f2099201012010c332c811ec902fd300fa9019a9afccf89cfa5",
+    "dispatch_authorization.json": "011403152a6f726fdeb4c232a983532901e96ecc3d54e64fa1aac28e840b494d",
+    "local_backup.json": "93550f6d1938fd5cfc0c6e8ea1f12e3b6021a39b81440d790fc8f45522f4403a",
+    "manifest.json": "38c2ebf33d2dc6e578339e283f5186115ba0981a6d74c692e4faf379ec0d9c50",
+    "PROTOCOL.md": "7ff4a1af0ba6b9583af00986d9c6496228c1909f76000fe3adfca71248dde4ea",
+    "request_preview.json": "41c3b88c6a01e5285c4faed12d884c6587224e7d87c4518c0bb7c13e9910371b",
+    "analysis/budget_334244a5d4469e7b.json": "f312edfbb5431f2099201012010c332c811ec902fd300fa9019a9afccf89cfa5",
+    "analysis/figure_provenance.json": "a81b01db6b67aa5c1cc377f8d9a462e587605fb2ab3dfa895172c76c1da7b5f6",
+    "analysis/fig_01_ms_crossover.pdf": "c219b0254a4c523ae64148c1b57dd63bcfc4637418feeb0344b5506d3e4bc759",
+    "analysis/fig_01_ms_crossover.png": "99d9a27f539a3dcfe15a0d00082db97520036947d752dd1dc03f44801c201d5d",
+    "analysis/INTERPRETATION.md": "c837e2dc36eace33f88a9848356bf565308a1568206c91b52b4c3113cae53919",
+    "analysis/repeat_audit.json": "1fc0582e286aca4553d0b32ae5e491dc18d8471fef325dd3cad7e056c1204b19",
+    "analysis/REPORT.md": "1c8e1f8b27c15187ca631b5a2cbcaf30105420bd206ed6049cd0ea72090ee3fc",
+    "analysis/result_3fc10fdfe9d8bcd1.json": "0421cfb6e9b62ea0918b2fb22fb3ad0bb49501b09e2699357a6df8fce722497c",
+    "analysis/verification.json": "6b92078b4be333fe2102ceda21c2f7ec4e93bee9aab35fa81b7ec37c71164492",
+    "code/run_validity_ms_stanza_crossover.py": "5b5c6b83e2129c0f2ebd18add37b96462bfff917cc5023669abbc9b32f8584ad",
+    "code/report_validity_ms_stanza_crossover.py": "3d849a4b70d9d62442cf62a676fd5036f7a4db48ec3ed730b0f96d553e2b702f",
+    "code/audit_validity_ms_crossover_repeat.py": "1e08ffe5588d31c36df7710c1c4fbffed0ab4b2535942de5746f25d107ac9886",
+    "tests/test_ms_stanza_crossover.py": "52d07873b095414c79b2242e96a76b0090861af9b832f33949e55b865d75b526"
+  },
+  "note": "Verified same-computer report/code bundle. Raw response archive separately referenced by local_backup.json."
+}
