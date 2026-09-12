@@ -10,6 +10,17 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
+**Three-parameter transfer study prepared and tested:360 calls,$2.50 cap.**
+[Frozen protocol and exact preview](experiments/phase1_5_encoding_validity/profile_transfer_20260912/PROTOCOL.md).
+Researcher said go after the expanded design. All20 backgrounds retained and
+hash-locked (seed20260929); MoR/S3,MS/S2,RE/S3 x3 levels x2 complete blocks.
+Only numerical values change; other nine coordinates fixed in each triplet.
+Three tests passed, including full360-call mock, opposite-direction RE scoring,
+missing/failure/budget guards and exact wording checks. Full reserve$2.18088.
+Ordering seed20260930; analysis seed20261001; no API calls yet; dispatch review
+before launch. Original gates remain unchanged; no automatic expansion.
+
+
 **Three-parameter profile-transfer test proposed for discussion.**
 [Expanded360-call draft](experiments/phase1_5_encoding_validity/profile_transfer_proposal_20260912/PROPOSED_TEST.md).
 Same20 prospectively sampled backgrounds x3 parameters x3 levels x2 blocks:

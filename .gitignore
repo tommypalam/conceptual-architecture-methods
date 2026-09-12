@@ -145,3 +145,6 @@ experiments/phase1_5_encoding_validity/repeat_stability_20260912/record_index.js
 
 experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/records/
 experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/dispatches/
+
+experiments/phase1_5_encoding_validity/profile_transfer_20260912/records/
+experiments/phase1_5_encoding_validity/profile_transfer_20260912/dispatches/

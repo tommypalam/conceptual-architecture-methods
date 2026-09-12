@@ -14,6 +14,24 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+
+## 2026-09-12 ? Freeze360-call profile transfer after researcher go
+
+All20 draws from unchanged sampler/R retained with seed20260929;180 unique
+rendered conditions, two complete blocks,360 unique request seeds under schedule
+seed20260930. Exact canonical definitions/non-profile text/user messages retained;
+one named coordinate varied per triplet. Full360 mock and two further tests pass:
+orientation/cluster analysis/missing data, and budget/failure/no-retry guards.
+Full conservative reserve$2.18088 below$2.50 cap and remaining$3.74647425.
+
+The previous five-perspective design resolution stands. Freeze bootstrap method
+as NumPy linear percentile quantiles, shared50000 background resamples with
+analysis seed20261001, ordinary95 and Bonferroni98.333% intervals, positive
+adjusted lower bound plus both block effects positive for each local decision.
+Approximate coverage atN20; not an original gate replacement. No new theory
+mapping or recalibration. Exact preview and profile hashes prepared before API.
+[Protocol](experiments/phase1_5_encoding_validity/profile_transfer_20260912/PROTOCOL.md).
+
 ## 2026-09-12 ? Expand proposed transfer test to MoR, MS and RE
 
 User requested at least two additional parameters. Revise the draft to360 calls:
