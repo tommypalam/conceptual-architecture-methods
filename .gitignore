@@ -142,3 +142,6 @@ experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/dispatches/
 
 # Full per-record metadata/checksum index for offline repeat audit.
 experiments/phase1_5_encoding_validity/repeat_stability_20260912/record_index.json
+
+experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/records/
+experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/dispatches/

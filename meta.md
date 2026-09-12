@@ -8,6 +8,27 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+
+## 2026-09-12 ? Freeze 40-call MS request replay, $0.30 cap
+
+The researcher asked to keep probing. Under ongoing authority, prepare all20
+canonical high-MS seeds from each of the two latest source cohorts, interleaved
+with ordering seed20260928. Actual request seeds replay history exactly. No new
+prompt text, model, values or meanings; source responses are not sent to API.
+
+Synthetic review: Linden rejects reading repeatability as internal moral
+understanding. Osei selects complete cohorts, and notes they were chosen after
+the observed shift. Tanaka fixes two exact paired McNemar tests with Holm-two;
+new-cohort Fisher comparison is secondary, not another success threshold.
+Renna sees this as a direct check on changing seed lists as a sufficient
+explanation, not a test proving server drift. Okafor hash-locks all40 source
+records, checks exact messages/settings/seeds, and preserves source/new records
+separately under one-attempt fail-stop collection.
+Resolution: bounded40 replay, no repair/phase-pass claim or automatic extension.
+Three tests pass: exact replay and identity, paired change detection, budget and
+failure guards. Remaining prior allowance$3.79170675 covers cap$0.30.
+[Protocol](experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/PROTOCOL.md).
+
 ## 2026-09-12 ? Broad offline audit finds recurring MoR direction and local instability
 
 54,120 archived files ->53,782 valid responses from18 studies;18 invalid/failure

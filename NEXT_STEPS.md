@@ -19,7 +19,8 @@ high-MS30/50 ->14/20 ->0/20 fails repeatability. Other detected shifts concern
 PD/S3; all within-run detections are unchanged axis-pilot baseline paraphrases.
 Zero same-prompt/same-seed repeats; all fingerprints absent, recorded cache hits0.
 Next:40 exact MS high-endpoint replays including prior seeds, two whole20-seed
-cohorts interleaved, $0.30 cap. Preparing; no new calls yet. Original gates held.
+cohorts interleaved, $0.30 cap. [Frozen replay protocol](experiments/phase1_5_encoding_validity/ms_seed_replay_20260912/PROTOCOL.md);
+three tests passed. Dispatch review before calls. Original gates held.
 
 
 **MS crossover complete: 160/160 valid, cost$0.1862505.**

@@ -1,0 +1,8 @@
+{
+  "design_hash": "6b492387c9c9e9f5f3a70db43b6c8978d78e214ab33d36fb807d70a88de797f9",
+  "request_preview_sha256": "1db97f84c807019d0d99a788d856b09ab7e0eda068fd189dd8ffc0a10adfcb71",
+  "planned_calls": 40,
+  "spending_ceiling_usd": 0.3,
+  "user_instruction": "lets keep probing",
+  "scope": "Continuation of authorised validity diagnostics within existing tracked allowance; exact original MS prompt/settings and historical seeds, 40 new calls capped at $0.30. No new prompt text or theory change."
+}

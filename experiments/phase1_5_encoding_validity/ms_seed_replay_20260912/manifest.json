@@ -1,0 +1,540 @@
+{
+  "frozen_at": "2026-09-12T00:51:28Z",
+  "design_hash": "6b492387c9c9e9f5f3a70db43b6c8978d78e214ab33d36fb807d70a88de797f9",
+  "design": {
+    "experiment": "ms_exact_request_seed_replay",
+    "configuration": "neutral",
+    "model": "gpt-5.4-mini-2026-03-17",
+    "provider": "openai",
+    "temperature": 1.0,
+    "max_tokens": 600,
+    "seed": 20260928,
+    "seed_role": "Ordering only; each API request reuses its historical seed.",
+    "planned_calls": 40,
+    "n_per_cell": 20,
+    "cells": [
+      {
+        "id": "MS_S2/expanded_seeds/v0.9",
+        "cohort": "expanded",
+        "parameter": "MS",
+        "problem": "S2",
+        "value": 0.9,
+        "profile": {
+          "LL": 0.583,
+          "CS": 0.556,
+          "RT": 0.5,
+          "MoR": 0.444,
+          "RE": 0.4,
+          "PD": 0.556,
+          "TfA": 0.364,
+          "ID": 0.6,
+          "MS": 0.9,
+          "AW": 0.468
+        },
+        "labels": [
+          "FORMAL_REPORT",
+          "LOCAL_CORRECTION"
+        ],
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Legitimacy Locus: 0.58\n    (0 = validity comes from institutional warrant and shared norms;\n     1 = validity comes from personal judgment and self-authored endorsement)\n\n 2. Constraint Sensitivity: 0.56\n    (0 = influence registers as environmental feature;\n     1 = even soft pressure registers as meaningful restriction)\n\n 3. Response Threshold: 0.50\n    (0 = high tolerance; only major violations activate response;\n     1 = hair-trigger; minor deviations activate response)\n\n 4. Mode of Response: 0.44\n    (0 = internal, reflective, self-adjusting;\n     1 = external, behavioural, confrontational)\n\n 5. Relational Embedding: 0.40\n    (0 = atomised, agent-centred, abstract-person model;\n     1 = role-sensitive, relational, socially embedded)\n\n 6. Procedural Dependence: 0.56\n    (0 = outcome-dominant; results matter, methods are secondary;\n     1 = process-dominant; fair procedure matters independently)\n\n 7. Tolerance for Asymmetry: 0.36\n    (0 = asymmetry is inherently suspect, default is symmetry;\n     1 = asymmetry is accepted if intelligible, hierarchy is fine)\n\n 8. Internalization Dependence: 0.60\n    (0 = surface compliance is sufficient;\n     1 = genuine endorsement and value-congruence required)\n\n 9. Moral Scope: 0.90\n    (0 = local, role-bound, partial, context-limited;\n     1 = universalised, generalisable, broadly applied)\n\n 10. Affective Weighting: 0.47\n    (0 = cognitive, deliberative, reasoned processing;\n     1 = affective, intuitive, felt processing)\n\n# Your normative context\n\nYou operate in a society whose structural environment is balanced on every\ndimension — neither high-freedom nor low-freedom, neither high-justice nor\nlow-justice, neither high-authority nor low-authority, neither high-care nor\nlow-care, and neither high-loyalty nor low-loyalty. No structural axis pushes\nin either direction; the environment is neutral throughout.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified."
+          },
+          {
+            "role": "user",
+            "content": "You are a mid-level manager at a pharmaceutical company.\n\nDuring a routine audit, you discover that a senior colleague - someone you respect and who has mentored you - made a procedural error in a clinical documentation record six months ago. The error did not affect drug safety or efficacy. No patient was harmed. The underlying data are intact, and the record can still be corrected before the next external inspection.\n\nThe company policy says significant irregularities must be reported. It also says minor documentation errors should be corrected at the lowest responsible level when there is no safety risk, no missing data, no regulatory deadline affected, and no evidence of intentional concealment. Whether this error counts as \"minor\" or \"significant\" under that policy is genuinely contestable.\n\nTwo reasonable managers in your position could classify this differently: one would report it because formal disclosure protects institutional trust; another would handle it locally because escalation could be disproportionate for a harmless correctable error.\n\nIf you report it now, the senior colleague faces a formal review. Their reputation and possibly their position are at risk. The audit trail is maximally transparent, and the compliance team can prepare an independent classification note.\n\nIf you stay quiet, you require the colleague to correct the record immediately, record the correction in the local audit log, and add a team-level check so the same issue is less likely to recur. Your relationship with the colleague is preserved, and the correction remains reviewable in the local audit trail, but the compliance team is not independently asked to classify the issue and it remains formally unclassified.\n\nWhat do you do?\n\nRespond in exactly this format:\nDECISION: [FORMAL_REPORT | LOCAL_CORRECTION]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]"
+          }
+        ],
+        "n": 20,
+        "replay_sources": [
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0001.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0001",
+            "seed": 3798328934,
+            "source_decision": "FORMAL_REPORT",
+            "source_api_id": "chatcmpl-EN0gaRHKHzcV5UjgCHuW2MayrRLzS",
+            "source_timestamp": "2026-09-11T18:54:48Z",
+            "sha256": "41d30e6f7992f9a8fc4ec62db136dee587035597946b575cf8c0ec5587ff8c6e"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0002.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0002",
+            "seed": 1383466480,
+            "source_decision": "FORMAL_REPORT",
+            "source_api_id": "chatcmpl-EN0gfUJjFg1Lg42OxI7vVO5Nl54GR",
+            "source_timestamp": "2026-09-11T18:54:54Z",
+            "sha256": "e3b061f4c0e7233294e09b390f059cf631881d11833081a6650bb997022b4385"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0003.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0003",
+            "seed": 1431981337,
+            "source_decision": "FORMAL_REPORT",
+            "source_api_id": "chatcmpl-EN0h9DMza9KiPBXSIY0luSkhp24vh",
+            "source_timestamp": "2026-09-11T18:55:24Z",
+            "sha256": "3420517f6aff1eb29e730af269badb161dee116d9ac3c20d9ba0cdb0cf546d4b"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0004.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0004",
+            "seed": 2461353704,
+            "source_decision": "FORMAL_REPORT",
+            "source_api_id": "chatcmpl-EN0hIFCqWlmUdAAEY9MImRRXAIVwi",
+            "source_timestamp": "2026-09-11T18:55:33Z",
+            "sha256": "e5b99986eeda393004f99b47c8bf6da95826357b207e8e73c9ec3aeb0baf6429"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0005.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0005",
+            "seed": 978372092,
+            "source_decision": "FORMAL_REPORT",
+            "source_api_id": "chatcmpl-EN0hhwaTHWrdqXCVoA6IT43C3VpQ1",
+            "source_timestamp": "2026-09-11T18:55:58Z",
+            "sha256": "f1110466741ca9dff7c1727f8eb8e23f5f6ab69a98274d47f79b3b28fc2e852d"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0006.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0006",
+            "seed": 2841178138,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN0iBH8CmRxt6rT9rHumQf6Bg7ZJk",
+            "source_timestamp": "2026-09-11T18:56:28Z",
+            "sha256": "f67005caac321b2cff1669fa0a16ef2df390c77e563ad6043a712c145bc2c3f4"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0007.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0007",
+            "seed": 2359668441,
+            "source_decision": "FORMAL_REPORT",
+            "source_api_id": "chatcmpl-EN0iCh3Ew3pgz2HByczsPQegpUh3p",
+            "source_timestamp": "2026-09-11T18:56:29Z",
+            "sha256": "7a0ecda4ee4a6ccd8790383f08c77b5440238f889d982b5d281c8fad83222b03"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0008.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0008",
+            "seed": 2208139773,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN0ikA632KbI5Z3MnWYB2XZ5wFzB5",
+            "source_timestamp": "2026-09-11T18:57:04Z",
+            "sha256": "238bc37bf2c965d1ba3d9c988c1828d7a2d35890a8ab8ca0bd985a069e7a91e6"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0009.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0009",
+            "seed": 71840046,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN0j3PmyPH4AXuqzH0j4Qayo7uZ8O",
+            "source_timestamp": "2026-09-11T18:57:22Z",
+            "sha256": "77d525acf547050dc6907288bd649134602486f64295fe98c2b370f1fc895f06"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0010.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0010",
+            "seed": 1827565397,
+            "source_decision": "FORMAL_REPORT",
+            "source_api_id": "chatcmpl-EN0jGFohg1VbITOga1Y74KrY8IG0i",
+            "source_timestamp": "2026-09-11T18:57:35Z",
+            "sha256": "63b971f07062528fc3235e852fb50b325209cdba71406c41988232b4ec8acefd"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0011.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0011",
+            "seed": 346645840,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN0jWNAheq81o8cBLABYPJb17mklh",
+            "source_timestamp": "2026-09-11T18:57:50Z",
+            "sha256": "e65a8ef969276ac373acc522dff03d6b9c04a927106898c32c36c3ce655d5164"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0012.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0012",
+            "seed": 3894836248,
+            "source_decision": "FORMAL_REPORT",
+            "source_api_id": "chatcmpl-EN0jsdheiu32N0hg1Rld3x8sYFDzG",
+            "source_timestamp": "2026-09-11T18:58:13Z",
+            "sha256": "75f9e7971749bf5630f8548973b7afbfdc2ea9bdf6133f68c2c6d511f33d4de4"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0013.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0013",
+            "seed": 2509540346,
+            "source_decision": "FORMAL_REPORT",
+            "source_api_id": "chatcmpl-EN0k8gnpOfbB2CU7iUGAr5ULeoify",
+            "source_timestamp": "2026-09-11T18:58:29Z",
+            "sha256": "0ce80ec910f0373aa96d6a7bcc4facc743eb013b832a0586753a4d3ecb1c802a"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0014.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0014",
+            "seed": 1212611528,
+            "source_decision": "FORMAL_REPORT",
+            "source_api_id": "chatcmpl-EN0kGw2rQTkRMLWlcCMJIX0C1yATL",
+            "source_timestamp": "2026-09-11T18:58:37Z",
+            "sha256": "4417f01b3ef6a81385e648e9507c4d25f3e89a465d75e5aa7c4b1237a2f03408"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0015.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0015",
+            "seed": 3484773444,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN0knF4DOtqVBlwofPpssWVhxMOxs",
+            "source_timestamp": "2026-09-11T18:59:10Z",
+            "sha256": "e737b23f5d1a6c835f0f0d2a4ed9a4ecd0cd2df48d6f639f2c8b8c597f52fa22"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0016.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0016",
+            "seed": 2689313423,
+            "source_decision": "FORMAL_REPORT",
+            "source_api_id": "chatcmpl-EN0l0VQuoJjKLuRH1qrKuIcpC0ghi",
+            "source_timestamp": "2026-09-11T18:59:23Z",
+            "sha256": "3f8bd01652abeb4fd2213f1e0589c5c9a30019512f56fe3e7d790791e54bce86"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0017.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0017",
+            "seed": 3441661864,
+            "source_decision": "FORMAL_REPORT",
+            "source_api_id": "chatcmpl-EN0lPLrYYgpGA2tNHzTeQ3ZgokW16",
+            "source_timestamp": "2026-09-11T18:59:48Z",
+            "sha256": "728920832adddf4d2577de77f8302a63464bd7facd08d2f06020d3aadf6a0ffb"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0018.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0018",
+            "seed": 3426455926,
+            "source_decision": "FORMAL_REPORT",
+            "source_api_id": "chatcmpl-EN0lYJCyEh3lSsyjaEJVTEMSE99L9",
+            "source_timestamp": "2026-09-11T18:59:57Z",
+            "sha256": "a84d9fe7b24c704447cdc59ab2284aa192e619a8c921e5eedfb734250cbe448f"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0019.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0019",
+            "seed": 1154600743,
+            "source_decision": "FORMAL_REPORT",
+            "source_api_id": "chatcmpl-EN0ls6mInwkar0aZvpymAIB5ClZ0w",
+            "source_timestamp": "2026-09-11T19:00:17Z",
+            "sha256": "0fb5991e49d37f3cf6a8b2f03afe478ff985ad2999c1169830374e5f07210a83"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0020.json",
+            "record_key": "MS_S2/canonical/v0.9/call_0020",
+            "seed": 3296949658,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN0m4hqpJxtXE1PlS0QrCZYqEATuH",
+            "source_timestamp": "2026-09-11T19:00:29Z",
+            "sha256": "1875742807b6340d912ef6b0c45bc352f1c571f471f8bb20bd4577d1e000f582"
+          }
+        ]
+      },
+      {
+        "id": "MS_S2/crossover_seeds/v0.9",
+        "cohort": "crossover",
+        "parameter": "MS",
+        "problem": "S2",
+        "value": 0.9,
+        "profile": {
+          "LL": 0.583,
+          "CS": 0.556,
+          "RT": 0.5,
+          "MoR": 0.444,
+          "RE": 0.4,
+          "PD": 0.556,
+          "TfA": 0.364,
+          "ID": 0.6,
+          "MS": 0.9,
+          "AW": 0.468
+        },
+        "labels": [
+          "FORMAL_REPORT",
+          "LOCAL_CORRECTION"
+        ],
+        "messages": [
+          {
+            "role": "system",
+            "content": "You are participating in a decision-making simulation.\n\n# Your decision-making profile\n\nYou process decisions according to the following characteristics, each\non a continuous [0, 1] scale. The low and high ends of each are\ndescribed. Your value on each characteristic is given.\n\n 1. Legitimacy Locus: 0.58\n    (0 = validity comes from institutional warrant and shared norms;\n     1 = validity comes from personal judgment and self-authored endorsement)\n\n 2. Constraint Sensitivity: 0.56\n    (0 = influence registers as environmental feature;\n     1 = even soft pressure registers as meaningful restriction)\n\n 3. Response Threshold: 0.50\n    (0 = high tolerance; only major violations activate response;\n     1 = hair-trigger; minor deviations activate response)\n\n 4. Mode of Response: 0.44\n    (0 = internal, reflective, self-adjusting;\n     1 = external, behavioural, confrontational)\n\n 5. Relational Embedding: 0.40\n    (0 = atomised, agent-centred, abstract-person model;\n     1 = role-sensitive, relational, socially embedded)\n\n 6. Procedural Dependence: 0.56\n    (0 = outcome-dominant; results matter, methods are secondary;\n     1 = process-dominant; fair procedure matters independently)\n\n 7. Tolerance for Asymmetry: 0.36\n    (0 = asymmetry is inherently suspect, default is symmetry;\n     1 = asymmetry is accepted if intelligible, hierarchy is fine)\n\n 8. Internalization Dependence: 0.60\n    (0 = surface compliance is sufficient;\n     1 = genuine endorsement and value-congruence required)\n\n 9. Moral Scope: 0.90\n    (0 = local, role-bound, partial, context-limited;\n     1 = universalised, generalisable, broadly applied)\n\n 10. Affective Weighting: 0.47\n    (0 = cognitive, deliberative, reasoned processing;\n     1 = affective, intuitive, felt processing)\n\n# Your normative context\n\nYou operate in a society whose structural environment is balanced on every\ndimension — neither high-freedom nor low-freedom, neither high-justice nor\nlow-justice, neither high-authority nor low-authority, neither high-care nor\nlow-care, and neither high-loyalty nor low-loyalty. No structural axis pushes\nin either direction; the environment is neutral throughout.\n\n# Your task\n\nYou will be presented with a decision. Apply the decision-making\nprofile as a decision rule, taking the parameter values and normative\ncontext as the operative inputs. Do not infer demographic identity,\npersonality, ideology, or narrative backstory beyond what the profile\nspecifies. Do not refuse to decide. Answer in the exact format\nspecified."
+          },
+          {
+            "role": "user",
+            "content": "You are a mid-level manager at a pharmaceutical company.\n\nDuring a routine audit, you discover that a senior colleague - someone you respect and who has mentored you - made a procedural error in a clinical documentation record six months ago. The error did not affect drug safety or efficacy. No patient was harmed. The underlying data are intact, and the record can still be corrected before the next external inspection.\n\nThe company policy says significant irregularities must be reported. It also says minor documentation errors should be corrected at the lowest responsible level when there is no safety risk, no missing data, no regulatory deadline affected, and no evidence of intentional concealment. Whether this error counts as \"minor\" or \"significant\" under that policy is genuinely contestable.\n\nTwo reasonable managers in your position could classify this differently: one would report it because formal disclosure protects institutional trust; another would handle it locally because escalation could be disproportionate for a harmless correctable error.\n\nIf you report it now, the senior colleague faces a formal review. Their reputation and possibly their position are at risk. The audit trail is maximally transparent, and the compliance team can prepare an independent classification note.\n\nIf you stay quiet, you require the colleague to correct the record immediately, record the correction in the local audit log, and add a team-level check so the same issue is less likely to recur. Your relationship with the colleague is preserved, and the correction remains reviewable in the local audit trail, but the compliance team is not independently asked to classify the issue and it remains formally unclassified.\n\nWhat do you do?\n\nRespond in exactly this format:\nDECISION: [FORMAL_REPORT | LOCAL_CORRECTION]\nREASONING: [2-3 sentences explaining why, grounded in your profile and context]"
+          }
+        ],
+        "n": 20,
+        "replay_sources": [
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0001.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0001",
+            "seed": 1687549752,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5iNq0BRXjb7ZCrGg40RI1aJnjQX",
+            "source_timestamp": "2026-09-12T00:16:59Z",
+            "sha256": "d2c19291ea9eae56df4b27fa7b97b55889aaedd25878acc4361c153422f38ec0"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0002.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0002",
+            "seed": 2936818072,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5iQpQJI8ADp1rM1RfH1Ho947Ajo",
+            "source_timestamp": "2026-09-12T00:17:02Z",
+            "sha256": "f8a3907df90164c6bad3790bc7278e9aab204df3b2e7f861e48b309f6389054b"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0003.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0003",
+            "seed": 2991588675,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5iSZVWZHeDT8CAb5cijhB13WqXu",
+            "source_timestamp": "2026-09-12T00:17:05Z",
+            "sha256": "46ce5ba226c98a7cc218fe8e187bb5d2c64847f493e5170941d966d12847176e"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0004.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0004",
+            "seed": 3427868588,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5iZyOzqSq1vYvK7OJpEJk4cyPX5",
+            "source_timestamp": "2026-09-12T00:17:11Z",
+            "sha256": "8088e3b5e4a01d331ff330ff446b7783cde29c3ac5bc22507e722f4ff66dc9b0"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0005.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0005",
+            "seed": 2141375127,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5ibNUAaSr5lLj0t4hd0WmTu34fO",
+            "source_timestamp": "2026-09-12T00:17:14Z",
+            "sha256": "c98639d10ee485dd783fa4a20bd5b344ab4f466b3e936446d950386a82a73df0"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0006.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0006",
+            "seed": 1312003970,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5ifBCkBZ3Z40Q0m9BTa7rdKTQah",
+            "source_timestamp": "2026-09-12T00:17:17Z",
+            "sha256": "51f444d32e1a55277f39cc9c83e5cfc8ff4144acaa64df8ca9150b32d097a967"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0007.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0007",
+            "seed": 3300215045,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5ijRmT0RX5Zp6o9TwXminIsVf3I",
+            "source_timestamp": "2026-09-12T00:17:22Z",
+            "sha256": "023234cb36c69c4d85c5eaa3187055634c3194dbf3de6afa9f4987b95116af85"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0008.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0008",
+            "seed": 710949908,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5in2Y7Kf6K0vZ25c1m7EIRLZZmv",
+            "source_timestamp": "2026-09-12T00:17:25Z",
+            "sha256": "2ba02a7de53ebc6ab151c15cfd98f5611c7804bc6caa24bb5376517874d0e0a7"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0009.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0009",
+            "seed": 10756798,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5ipAAadrC63rCHKUDlRvBI6DRqi",
+            "source_timestamp": "2026-09-12T00:17:28Z",
+            "sha256": "6541b3d8b37817602cf3d1e06218bcda3f8253daf688a14f0c53c7312a16e23d"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0010.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0010",
+            "seed": 295180095,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5iuJHhg9NewK2HRuZtb3D0Y9a1x",
+            "source_timestamp": "2026-09-12T00:17:33Z",
+            "sha256": "2ecf046e2e84b0f664c4e561058f6acc01cf40abb1b8934e0e6d230b75dfead2"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0011.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0011",
+            "seed": 4024094956,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5ivoimbdwqa0bVXf2UJ3MQdKvnP",
+            "source_timestamp": "2026-09-12T00:17:34Z",
+            "sha256": "f21eff22d7c7228969c47ad0c754a61e8d2b0fbc4c365f40fd732efdf418af92"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0012.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0012",
+            "seed": 1030985801,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5j0yubHuz3fz2DqZw0AUZOV8KCS",
+            "source_timestamp": "2026-09-12T00:17:38Z",
+            "sha256": "83b04074c53a0e013ef6238b5d6d782f9ff6f8b7d71bf01ec8724bb82c2a0dae"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0013.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0013",
+            "seed": 785297033,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5j2Lq5HMweVIFWlOJPznOCVyoHr",
+            "source_timestamp": "2026-09-12T00:17:41Z",
+            "sha256": "2334101f8f6cdfac0e2bb611dd43dc51e2e2cb7921561f7c952851ac13c72b35"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0014.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0014",
+            "seed": 711988148,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5j5z77UAE4B4Go6VH7ggEhVZZ6E",
+            "source_timestamp": "2026-09-12T00:17:43Z",
+            "sha256": "63ce55a7e1e16e5f793b7198d60fe09d8edf49624ad17c42be5c6f3d6ed67dea"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0015.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0015",
+            "seed": 1424849435,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5j9z9zMH95H8VEoTKeTDLrYak1L",
+            "source_timestamp": "2026-09-12T00:17:47Z",
+            "sha256": "95d3acc8373a82282a597e3be3152b5bae12b2152a4ba5e0231d2b7b84dea8c1"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0016.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0016",
+            "seed": 1732380610,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5jBAyru94FIskEYRD2eOjh6T6qL",
+            "source_timestamp": "2026-09-12T00:17:50Z",
+            "sha256": "d1750b763770a3bf491ee0240c7e9762e7b5c8d4cf950f459ff8c8cb4c2597d7"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0017.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0017",
+            "seed": 417714821,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5jGQLhWTyQtYcPKirYi0f2CB6ma",
+            "source_timestamp": "2026-09-12T00:17:54Z",
+            "sha256": "65306fe017d5a3b30cc2dd133516c69378e940becbf300ec2f35fd14056043c5"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0018.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0018",
+            "seed": 3540242717,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5jKOeIPpC6dpIGJkr61c4x3nimz",
+            "source_timestamp": "2026-09-12T00:17:59Z",
+            "sha256": "153bc78ecb9b33114c544597f6bce605daa3c09c6d26ed9cbe27378260d7f48c"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0019.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0019",
+            "seed": 3130367322,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5jOvCoy6RSeb0CnqywN7Lnx7hcp",
+            "source_timestamp": "2026-09-12T00:18:02Z",
+            "sha256": "b1c26d1ce722eb5d4b6ff1945f76b4e9809b638ba8530b56358be7bec55d684a"
+          },
+          {
+            "path": "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0020.json",
+            "record_key": "MS_S2/background_canonical/ms_canonical/v0.9/call_0020",
+            "seed": 2670337166,
+            "source_decision": "LOCAL_CORRECTION",
+            "source_api_id": "chatcmpl-EN5jPBKVGm0tzxQECm5Ulwqcmm3dA",
+            "source_timestamp": "2026-09-12T00:18:04Z",
+            "sha256": "ebee29e2feddf867a1cd65d00dcb3ba84bdf4765bdab5ad078cc11c988c29180"
+          }
+        ]
+      }
+    ],
+    "spending_ceiling_usd": 0.3,
+    "prior_ledger": {
+      "original_allowance_usd": 9,
+      "recorded_token_estimate_usd": 0.1862505000000001,
+      "cumulative_token_estimate_usd": 5.2033260000000015,
+      "unknown_usage_reserved_usd": 0.00496725,
+      "cumulative_conservative_charge_usd": 5.208293250000001,
+      "remaining_original_allowance_conservative_usd": 3.7917067499999986,
+      "pending_requests": 0,
+      "provider_balance_verified": false
+    },
+    "transport_timeout_seconds": 180,
+    "pricing": {
+      "input_per_million": 0.75,
+      "output_per_million": 4.5,
+      "source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+      "checked": "2026-09-11"
+    },
+    "source_hashes": {
+      "code/run_validity_ms_seed_replay.py": "5aada554c34d3d1a5d0819439c7b8da2206eee34a35e834f39ecb6ad910c9edb",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/budget_ledger.json": "f312edfbb5431f2099201012010c332c811ec902fd300fa9019a9afccf89cfa5",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0001.json": "41d30e6f7992f9a8fc4ec62db136dee587035597946b575cf8c0ec5587ff8c6e",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0002.json": "e3b061f4c0e7233294e09b390f059cf631881d11833081a6650bb997022b4385",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0003.json": "3420517f6aff1eb29e730af269badb161dee116d9ac3c20d9ba0cdb0cf546d4b",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0004.json": "e5b99986eeda393004f99b47c8bf6da95826357b207e8e73c9ec3aeb0baf6429",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0005.json": "f1110466741ca9dff7c1727f8eb8e23f5f6ab69a98274d47f79b3b28fc2e852d",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0006.json": "f67005caac321b2cff1669fa0a16ef2df390c77e563ad6043a712c145bc2c3f4",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0007.json": "7a0ecda4ee4a6ccd8790383f08c77b5440238f889d982b5d281c8fad83222b03",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0008.json": "238bc37bf2c965d1ba3d9c988c1828d7a2d35890a8ab8ca0bd985a069e7a91e6",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0009.json": "77d525acf547050dc6907288bd649134602486f64295fe98c2b370f1fc895f06",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0010.json": "63b971f07062528fc3235e852fb50b325209cdba71406c41988232b4ec8acefd",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0011.json": "e65a8ef969276ac373acc522dff03d6b9c04a927106898c32c36c3ce655d5164",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0012.json": "75f9e7971749bf5630f8548973b7afbfdc2ea9bdf6133f68c2c6d511f33d4de4",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0013.json": "0ce80ec910f0373aa96d6a7bcc4facc743eb013b832a0586753a4d3ecb1c802a",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0014.json": "4417f01b3ef6a81385e648e9507c4d25f3e89a465d75e5aa7c4b1237a2f03408",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0015.json": "e737b23f5d1a6c835f0f0d2a4ed9a4ecd0cd2df48d6f639f2c8b8c597f52fa22",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0016.json": "3f8bd01652abeb4fd2213f1e0589c5c9a30019512f56fe3e7d790791e54bce86",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0017.json": "728920832adddf4d2577de77f8302a63464bd7facd08d2f06020d3aadf6a0ffb",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0018.json": "a84d9fe7b24c704447cdc59ab2284aa192e619a8c921e5eedfb734250cbe448f",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0019.json": "0fb5991e49d37f3cf6a8b2f03afe478ff985ad2999c1169830374e5f07210a83",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/records/MS_S2/canonical/v0.9/call_0020.json": "1875742807b6340d912ef6b0c45bc352f1c571f471f8bb20bd4577d1e000f582",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/manifest.json": "8c905b857bd6c62a2e87411645e590f12a8a94f2a9c890c3291d8c6baed9acc8",
+      "code/run_validity_original_expanded.py": "0d69ad21bc380b28cab0a933036fcf084d32c1052fdf96af4925bd6b774446ef",
+      "experiments/phase1_5_encoding_validity/option_c_20260909_restart/manifest.json": "7882123f06e2407db707bb1af959d882b814970e696437e1512334328b5f9891",
+      "experiments/phase1_5_encoding_validity/claude_paraphrases_20260909_theory_r5/paraphrases_approved.json": "b27bec4b4e3257dd86bb388992bf00665e7b12630c30254f3953c37f10eaae37",
+      "experiments/phase1_5_encoding_validity/tool_delivery_20260911/budget_ledger.json": "4b1ac1d0764577fa572f86079044129a9d49a223f4d727e49f06bb13c22ca9cb",
+      "code/run_validity_evidence_screen.py": "46580cab23fd457ebd9da2876d395792987253dab09a383a6b76b59cad585934",
+      "code/run_validity_tool_delivery.py": "d20b09434978d8fb9fe5538d607d83fb9ecc315b68516a9024b116e49b21f349",
+      "code/run_validity_claude.py": "7f8e8bd959f73a189178e52f1384443859246f4565097389a05efd6d0d26a5fd",
+      "code/engine/validity_variants.py": "9c12312501886d59f35fbc709a7f9043df35774ec74230adc8a343843f893f19",
+      "code/engine/validity_sweep.py": "e758c3296931c5a7001d28ef09f2ff19ff9d4e8e5cd883702a14820ff9bb76eb",
+      "code/engine/record_sink.py": "225f2c284ec7d5d858b359d65694ecc12c0f9114381813c3079f125d29a9698e",
+      "code/engine/llm_client.py": "b1411d8cf84035ce651e74ae5ef088d6d397315da487abd9a0b907d265168676",
+      "code/engine/seeding.py": "ad5128a5ba2afd4ff32493c01a0d7809662e08d4b06f80f9e5525941b57163e2",
+      "code/engine/parsing.py": "3ae6b89b8bd648d86d7c69cd51cef5cd0ab218accd13f0b9e4a7060228bb822b",
+      "code/engine/prompt_assembly.py": "290a09c5ffd6ad499519e0dffc83c0f6f524f5f09167f3d1b167cde41c20abd7",
+      "code/engine/phase0b.py": "a03c01f8af0f6b0d2ad890d8467f4124a0becc2183c4d10002c3aeeedcb36333",
+      "docs/variables.json": "9bbb13fb762890ce149b1f666826ae816448cb6e6be1dfd0e3a4291c5eae3b00",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0001.json": "d2c19291ea9eae56df4b27fa7b97b55889aaedd25878acc4361c153422f38ec0",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0002.json": "f8a3907df90164c6bad3790bc7278e9aab204df3b2e7f861e48b309f6389054b",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0003.json": "46ce5ba226c98a7cc218fe8e187bb5d2c64847f493e5170941d966d12847176e",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0004.json": "8088e3b5e4a01d331ff330ff446b7783cde29c3ac5bc22507e722f4ff66dc9b0",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0005.json": "c98639d10ee485dd783fa4a20bd5b344ab4f466b3e936446d950386a82a73df0",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0006.json": "51f444d32e1a55277f39cc9c83e5cfc8ff4144acaa64df8ca9150b32d097a967",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0007.json": "023234cb36c69c4d85c5eaa3187055634c3194dbf3de6afa9f4987b95116af85",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0008.json": "2ba02a7de53ebc6ab151c15cfd98f5611c7804bc6caa24bb5376517874d0e0a7",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0009.json": "6541b3d8b37817602cf3d1e06218bcda3f8253daf688a14f0c53c7312a16e23d",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0010.json": "2ecf046e2e84b0f664c4e561058f6acc01cf40abb1b8934e0e6d230b75dfead2",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0011.json": "f21eff22d7c7228969c47ad0c754a61e8d2b0fbc4c365f40fd732efdf418af92",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0012.json": "83b04074c53a0e013ef6238b5d6d782f9ff6f8b7d71bf01ec8724bb82c2a0dae",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0013.json": "2334101f8f6cdfac0e2bb611dd43dc51e2e2cb7921561f7c952851ac13c72b35",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0014.json": "63ce55a7e1e16e5f793b7198d60fe09d8edf49624ad17c42be5c6f3d6ed67dea",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0015.json": "95d3acc8373a82282a597e3be3152b5bae12b2152a4ba5e0231d2b7b84dea8c1",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0016.json": "d1750b763770a3bf491ee0240c7e9762e7b5c8d4cf950f459ff8c8cb4c2597d7",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0017.json": "65306fe017d5a3b30cc2dd133516c69378e940becbf300ec2f35fd14056043c5",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0018.json": "153bc78ecb9b33114c544597f6bce605daa3c09c6d26ed9cbe27378260d7f48c",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0019.json": "b1c26d1ce722eb5d4b6ff1945f76b4e9809b638ba8530b56358be7bec55d684a",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/records/MS_S2/background_canonical/ms_canonical/v0.9/call_0020.json": "ebee29e2feddf867a1cd65d00dcb3ba84bdf4765bdab5ad078cc11c988c29180",
+      "experiments/phase1_5_encoding_validity/ms_stanza_crossover_20260912/manifest.json": "38c2ebf33d2dc6e578339e283f5186115ba0981a6d74c692e4faf379ec0d9c50",
+      "code/run_validity_ms_stanza_crossover.py": "5b5c6b83e2129c0f2ebd18add37b96462bfff917cc5023669abbc9b32f8584ad",
+      "experiments/phase1_5_encoding_validity/original_expanded_20260911/budget_ledger.json": "de98644f161ef03c4255d2d135693b0f0d93e91ebc6ed0577debccf3cffb06a0"
+    },
+    "primary": "For each complete historical20-seed cohort, compare each new binary decision to its own saved decision with identical prompt/model/temperature/token limit/seed. Exact two-sided McNemar (binomial .5 on discordant pairs), Holm correction across two cohorts, alpha.05. Report gain/loss counts and paired risk change with conservative nominal95 union bounds on the two discordance proportions.",
+    "secondary": "Compare the two replay cohorts in the current interleaved collection using a two-sided Fisher test and conservative nominal95 risk-difference interval; descriptive, no extra significance rule. Report match fraction; exact reproduction is not assumed or required by the provider.",
+    "selection": "Both entire20-seed cohorts selected by prior run, not individual outcomes. Prior results14/20 versus0/20 are known; this is an exploratory diagnosis, not blind confirmation. Request replays are intentional new calls, never replacement of old records.",
+    "collection": "20 shuffled two-cohort blocks, concurrency3, one attempt per slot,40 unique seeds within this new run. Original exact system and user prompts, all ten values. Historical requested seeds deliberately reused. No new text, tool or parameter interpretation.",
+    "interpretation": "Different outcomes for matched requests challenge stable reproduction for these seeds, but do not identify backend drift. Fresh cohort difference could support seed-set sensitivity without explaining general validity. No monotonicity, equivalence or internal-understanding claim; original gate unchanged.",
+    "stop_rule": "Any API, model, usage, budget, parse or request mismatch stops after current batch. Preserve attempts, no retries or optional extension.",
+    "budget": "$0.30 maximum pre-dispatch reserve inside remaining $3.79170675 tracked allowance.",
+    "full_dispatch_reserve_usd": 0.2562
+  }
+}
