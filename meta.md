@@ -13,6 +13,34 @@ byte-for-byte, including its original encoding defects and historical templates.
 
 
 
+
+## 2026-09-12 ? Expand proposed transfer test to MoR, MS and RE
+
+User requested at least two additional parameters. Revise the draft to360 calls:
+same20 sampled background profiles xMoR/S3,MS/S2,RE/S3 x.1/.5/.9 x2 blocks.
+All three directions come from thesis6.1.1. RE predicts WAIT, opposite to MoR's
+ADOPT in the same S3 dilemma; its original full sweep failed, explicitly retained
+as a challenging comparison rather than described as validated. MS probes
+transport of a positive but unstable signal. PD's S1 directional case is near
+ceiling and its S3 contrast lacks an original directional hypothesis, so RE is
+preferred for this bounded draft. PD is not removed from the architecture.
+
+Synthetic review: Linden demands that all original parameter meanings and
+normative interpretations remain intact. Osei values a contrary S3 prediction
+and the inclusion of RE's prior failure over selecting only previous successes.
+Tanaka requires three-comparison multiplicity control, not three independent
+uses of the old95% criterion: shared50,000 background-bootstrap draws, nominal95
+estimation plus98.333% Bonferroni intervals for decisions, approximate atN20.
+Renna separates this one-coordinate intervention test from a full three-way
+factorial, and keeps other validity requirements open. Okafor retains identical
+nine-coordinate backgrounds within each triplet, all20 draws, fixed two-block
+allocation and exact reservation checks before any dispatch.
+
+Resolution: expanded draft only, no sampling/API execution or calibration/gate
+change. Expected$0.40-$0.50; proposed$2.50 cap subject to exact preflight, within
+remaining$3.74647425. Prior120-call/$1 draft superseded prospectively, never run.
+[Revised proposal](experiments/phase1_5_encoding_validity/profile_transfer_proposal_20260912/PROPOSED_TEST.md).
+
 ## 2026-09-12 ? Propose counterfactual profile-transfer test
 
 Researcher asks to think through a test using accumulated evidence of parameter

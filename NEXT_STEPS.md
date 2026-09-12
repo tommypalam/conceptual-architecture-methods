@@ -10,16 +10,16 @@ See [live restart instructions](docs/phase1_5_restart_20260909.md).
 
 ### Active execution
 
-**New test proposed for discussion: transfer across complete profiles.**
-[120-call counterfactual MoR/S3 proposal](experiments/phase1_5_encoding_validity/profile_transfer_proposal_20260912/PROPOSED_TEST.md).
-20 prospectively sampled backgrounds xMoR .1/.5/.9 x2 complete blocks.
-Hold other nine values fixed within each background; retain all ten parameters,
-canonical wording, locked S3 and pinned model. Test the prespecified average
-MoR effect across unfamiliar backgrounds, with fresh controls and profile-level
-uncertainty. Not a new theory mapping, recalibration or original-gate revision.
-Draft only: no profile draw, frozen paid allocation or launch. Probing stays
-paused while the design is discussed; remaining$3.74647425 unchanged.
-
+**Three-parameter profile-transfer test proposed for discussion.**
+[Expanded360-call draft](experiments/phase1_5_encoding_validity/profile_transfer_proposal_20260912/PROPOSED_TEST.md).
+Same20 prospectively sampled backgrounds x3 parameters x3 levels x2 blocks:
+MoR/S3 ->ADOPT, MS/S2 ->FORMAL_REPORT, RE/S3 ->WAIT. All directions already
+specified in thesis6.1.1; RE is an unvalidated opposite-direction comparison.
+Vary one coordinate at a time; preserve other nine, canonical text and dilemmas.
+Three primary effects with background-level bootstrap and multiplicity-adjusted
+intervals; no new overall gate. Expected$0.40-$0.50, proposed$2.50 cap subject
+to exact preflight. Draft only: no draws, frozen dispatches or calls. Remaining
+$3.74647425 unchanged; automatic probing stays paused during discussion.
 
 **Researcher requested backtracking and a different approach.**
 [Theory-grounded mechanism/evaluation review](experiments/phase1_5_encoding_validity/approach_review_20260912/REVIEW.md).
