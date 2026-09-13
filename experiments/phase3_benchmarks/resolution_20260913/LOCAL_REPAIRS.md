@@ -1,5 +1,11 @@
 # Prospective Phase 3 implementation repairs
 
+Continuation: the user approved disclosure and the Claude call returned a
+truncated response. See [outcome and disposition](CONSULTATION_OUTCOME.md).
+The fuller [canonical revision 2](../canonical_r2/PROTOCOL.md) now supplies exact
+text, controls and paired inference; all 38 Phase 3 tests pass. The account below records the
+earlier offline mechanics milestone and pre-approval state.
+
 Status: offline mechanics implemented; stimulus and collection release pending.
 This is a new revision, not an edit to the frozen first audit or perception check.
 No new behavioural outcomes have been collected.

@@ -2,16 +2,19 @@
 
 ## Phase 3 preparation started (2026-09-13)
 
-Latest continuation: prospective offline mechanics for all five families pass
-nine new tests (26 Phase 3 tests total). See
-experiments/phase3_benchmarks/resolution_20260913/LOCAL_REPAIRS.md.
-These are reusable mechanics, not released full stimuli or a population study.
-A frozen $0.248127 Claude consultation is pending explicit approval to disclose
-the private spec/protocol/template/check summary to Anthropic. Automatic approval
-review rejected that dispatch; do not bypass it. No additional call or reservation
-was made. Existing $0.0894432 accounting and frozen evidence remain unchanged.
+Latest continuation: the researcher explicitly approved the private packet's
+disclosure to Anthropic. Claude responded but exhausted 7,000 output tokens;
+the incomplete review and its errors are preserved, not accepted as a release.
+Full reserved cost $0.248127 remains accounted; tonight totals $0.3375702.
+See experiments/phase3_benchmarks/resolution_20260913/CONSULTATION_OUTCOME.md.
+Exact local canonical builders and paired inference now cover all five families;
+all 38 Phase 3 tests pass, including ten-contrast multiplicity safeguards.
+See experiments/phase3_benchmarks/canonical_r2/PROTOCOL.md.
+The 38-call archive passed integrity checks with the old 37 records unchanged.
+The failed consultation stops further paid dispatch pending explicit linked
+reconciliation; do not overwrite it or reset the ledger. No population release.
 
-Phase 3 checkpoint: Anthropic authentication verified. One independent Claude
+Earlier prerequisite checkpoint: Anthropic authentication verified. One independent Claude
 design review and 36 no-peer perception calls completed. Both image families
 scored 18/18; these are stimulus checks, not human/ethical validation. Conservative
 new spending is $0.0894432. See experiments/phase3_benchmarks/README.md. Preserve

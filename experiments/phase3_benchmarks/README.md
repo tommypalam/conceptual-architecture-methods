@@ -5,12 +5,16 @@ ceiling for tonight's new work, inside the existing $100 package cap. All five
 benchmarks remain in scope. No population benchmark or recognition study has
 started; no ethical-understanding or human-rate result is claimed.
 
-Latest local work: [prospective implementation repairs](resolution_20260913/LOCAL_REPAIRS.md)
-add mechanics for all five families, with nine new tests and 26 Phase 3 tests
-passing. They do not release full stimuli. The next Claude consultation is
-prepared but blocked by automatic approval review pending explicit approval to
-send its private-project packet to Anthropic. No new charge or reservation was
-created; the completed-check accounting below is unchanged.
+Latest work: [canonical revision 2](canonical_r2/PROTOCOL.md) provides exact local
+procedures, controls and paired inference for all five families; 38 Phase 3 tests pass. The user
+approved the private-packet disclosure. Claude responded but hit its output cap;
+its partial advice and rejected errors are in the
+[consultation disposition](resolution_20260913/CONSULTATION_OUTCOME.md).
+The failed call is preserved at its full $0.248127 reservation. Total conservative
+spending is **$0.3375702**, leaving **$29.6624298** tonight; package accounting is
+**$23.243643225**. The new 38-call archive passed verification with the earlier
+records unchanged. Further paid dispatch is stopped pending linked reconciliation.
+Canonical/variant review, recognition and population studies remain uncompleted.
 
 ## Completed prerequisite checks, 2026-09-13
 
@@ -20,12 +24,13 @@ created; the completed-check accounting below is unchanged.
 | No-peer line perception | 18 | 18/18 correct on the fixed image set | Included below |
 | No-peer colour perception | 18 | 18/18 correct on the fixed image set | Included below |
 | Combined perception check | 36 | Both engineering gates passed; no conformity inference | $0.010098 |
-| Total | 37 | Prerequisites only | **$0.0894432** |
+| Initial prerequisite subtotal | 37 | Prerequisites only | **$0.0894432** |
+| Further Claude consultation | 1 | Truncated response; partial advice checked, failed call retained | $0.248127 reserved charge |
+| Current total | 38 | No population results | **$0.3375702** |
 
-Accounting includes a 10% allowance and full uncached usage. Tonight's remaining
-accounting room is $29.9105568; this is not a provider-balance query or permission
-to spend the remainder automatically. Carried-forward package accounting is
-$22.995516225, below $100. One shared ledger preserves spending across restarts.
+Accounting includes a 10% allowance and the full reservation for the truncated
+consultation. It is not a provider-balance query or permission to spend the remainder
+automatically. One shared ledger preserves spending across restarts.
 
 ## Read in this order
 
@@ -44,11 +49,10 @@ influence. It must not be pooled with future profile/context comparisons.
 
 ## Remaining release work
 
-Complete the canonical procedures, scripts, action spaces and endpoint definitions
-for all five benchmarks. The Asch source now supports an 18-trial, 12-critical-trial
-structure; its exact peer schedule and public/private modulators remain to be frozen.
-Keep the spec's context hypotheses distinct from individual parameter directions.
-Set context text, source-matched comparisons, invalidity rules and analyses before
+Review the new exact canonical scripts, action spaces, contexts and controls in
+canonical_r2. The Asch schedule now specifies 18 trials, 12 critical, balanced
+truth/wrong-majority pairs and public/private wording. The implemented inferential code,
+independent variant validation and the whole costed schedule must be frozen before
 behavioural outcomes. The full D-matrix replication remains a separate budget decision.
 
 Then generate candidates with a separate model, conduct independent equivalence

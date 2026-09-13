@@ -65,16 +65,21 @@ and the existing 3D browser suite passed; rendering and research data are unchan
 
 ## Phase 3 preparation started (2026-09-13)
 
-Current continuation: [prospective mechanics and remaining release work](experiments/phase3_benchmarks/resolution_20260913/LOCAL_REPAIRS.md).
-All five families have offline mechanics; nine new tests and all 26 Phase 3 tests
-pass. Full stimuli, causal controls and inferential analysis still need review.
-The researcher requested a further Claude consultation to resolve these issues.
-Its exact private-project packet is frozen at a $0.248127 reservation ceiling,
-but automatic approval review blocked disclosure to Anthropic pending specific
-user approval. No request or reservation was created. Continue local preparation;
-do not bypass the rejection or begin a population study from these primitives.
+Current continuation: [canonical revision 2](experiments/phase3_benchmarks/canonical_r2/PROTOCOL.md)
+provides exact local procedures and paired inference for all five families;
+all 38 Phase 3 tests pass, including missingness and ten-contrast multiplicity.
+The user approved the private-packet disclosure and Claude returned partial advice,
+but hit the 7,000-token cap. Several suggestions were wrong and rejected; see the
+[checked disposition](experiments/phase3_benchmarks/resolution_20260913/CONSULTATION_OUTCOME.md).
+The failure remains recorded at its full $0.248127 reservation. Tonight totals
+$0.3375702, leaving $29.6624298; package accounting is $23.243643225. A verified
+38-call archive preserves all old evidence. Further paid dispatch is stopped until
+an explicit linked reconciliation, without overwriting the failure or resetting
+the ledger. Next: review canonical/variant equivalence, freeze the implemented
+inference with the runtime, and price the full recognition/rater schedule before
+population collection.
 
-Latest checkpoint: [Phase 3 evidence and next release work](experiments/phase3_benchmarks/README.md).
+Earlier 37-call checkpoint: [Phase 3 evidence and next release work](experiments/phase3_benchmarks/README.md).
 Anthropic access works. One independent Claude design review and 36 no-peer
 perception calls completed; line and colour checks each scored 18/18. These are
 prerequisites, not behavioural benchmark results. New conservative spending is
