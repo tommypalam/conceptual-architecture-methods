@@ -23,6 +23,7 @@ limited normative parameterization, not demonstrated ethical understanding.
 | [Moral capstone design](../experiments/phase4_coding/CAPSTONE_DESIGN_DRAFT_20260913.md) | Good/bad decisions, simulated consequences and dual AI-assisted scoring |
 | [AI-only scope amendment](../experiments/phase4_coding/AI_ONLY_SCOPE_20260913.md) | Human raters deferred; independent AI coding, factual checks and explicit limits |
 | [Draft moral manual](../experiments/phase4_coding/manual_r1/MANUAL_DRAFT.md) | Category rules, evidence requirements and uncertainty handling; not yet frozen |
+| [Consequential moral pilot](../experiments/phase4_coding/consequence_pilot_r1/PROTOCOL.md) | Explicit action effects, independent AI scoring and measurement gates |
 | [Completed Phase 2 confirmation](../experiments/phase2_confirmation_20260913/ASSESSMENT.md) | Fresh individual and group results, integrity checks and remaining limits |
 | [Small Phase 2 pilot](../experiments/phase2_exploratory_20260912/PROTOCOL.md) | Frozen exploratory protocol, matched controls, state mechanics and $10 cap |
 | [Revised Phase 2 proposal](../experiments/phase2_design_20260912/PROTOCOL_DRAFT.md) | Encoding/control comparisons, population and group designs, $100 cap and required preparation |

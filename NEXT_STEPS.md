@@ -8,6 +8,21 @@ and verification. Continue future implementation on a development branch.
 
 ## Current design work: a stronger paper contribution
 
+The next authorized work is the small
+[consequential moral pilot r1](experiments/phase4_coding/consequence_pilot_r1/PROTOCOL.md).
+Its scoped manual and explicit transition model cover costly disclosure and
+equal-receipt/total-output trade-offs. Six fresh backgrounds, four tasks and E/V/U/G
+arms give 96 participant choices. One Claude review and 32 independent coding calls
+precede participant collection; rejected review or failed measurement checks stop
+the designation. Exact full reservation is $2.049750450, within the $4 study ceiling
+and existing cumulative caps. No participant run is authorized by a failed check.
+Five offline tests passed, including full mocked collection, zero-call replay,
+historical preservation, measurement/review stops and provider/size guards. A
+1 KB inherited transport limit was caught and corrected before spending; the new
+separate transport supports evidence-backed ratings and keeps the old audit and
+no-retry behavior. Unused prelaunch artifacts are preserved in the pilot folder.
+The reviewed protocol will control collection after the prelaunch commit.
+
 The researcher subsequently clarified that good/bad decisions and consequences
 must remain central, and authorised an adaptive exploratory implementation.
 [Implementation v0.2](Theory/implementation_specification_v0_2.md) now governs this

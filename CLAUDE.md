@@ -1,5 +1,18 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Consequential moral pilot preparation (2026-09-13)
+
+The researcher instructed proceeding with the next implementation step. The
+consequence_pilot_r1 protocol and scoped manual define 96 prospective individual
+choices (six backgrounds, four tasks, E/V/U/G) with deterministic effects and
+independent action-level AI coding. Maximum reservation $2.049750450 within $4;
+cumulative budgets do not reset. One accepted Claude review and all prespecified
+measurement checks must precede participants. A failed gate stops this designation;
+no rewritten in-place retries or retrospective criterion changes. Human raters
+remain deferred. This is a development pilot, not full Phase 4, group validation,
+human comparison, all-context coverage or confirmation. Current execution state
+belongs in NEXT_STEPS.md.
+
 ## Transfer pilot complete; AI-assisted moral preparation (2026-09-13)
 
 The frozen transfer_pilot_r1 completed one accepted Claude review and 448/448 valid
