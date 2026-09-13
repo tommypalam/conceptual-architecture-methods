@@ -1,0 +1,9 @@
+clause,requirement,artifact,status
+7.1,Five canonical benchmark procedures,structures/*.md; benchmark_registry.json,STRUCTURES PREPARED; prompts and measures unresolved
+7.2,Five matched decanonised variants,review/variant_generation_prompt.md,GENERATION TEMPLATE; independent generation not executed
+7.2.1,Independent causal-structure review,review/independent_review_form.json,UNFILLED; no reviewed variant
+7.3,"Distinct-model recognition, N50, two raters",review/recognition_prompt.md; ANALYSIS_CONTRACT_DRAFT.md,TEMPLATE PREPARED; not collected
+7.4,"High/low contexts, canonical/decanonised N200",benchmark_registry.json; code/phase3_preflight.py,DRAFT CONTEXT MAPS; no frozen schedule
+7.5,Milgram and Asch modulators N100,benchmark_registry.json; preflight_report.json,9 EXPLICIT CELLS COUNTED; stimulus implementations pending
+7.6,A-D and t4/t8/t16 dependence sensitivity,code/phase3_sensitivity.py; tests/test_phase3_preparation.py,OFFLINE SAMPLER TESTED; D allocation unresolved
+7.7,Exact call and spend budget,code/phase3_preflight.py; preflight_report.json,INCONSISTENCY QUANTIFIED; no spend release

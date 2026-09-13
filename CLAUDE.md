@@ -11,6 +11,16 @@ Freeze exact contexts, review workflow, analysis and budget before collection.
 Phase 3 can broaden targeted context coverage; it does not complete missing
 Phase 2 task/configuration cells. No new paid collection is queued.
 
+Phase 3's clause/source audit, five structural review packets, draft contexts,
+recognition/review templates and offline accounting/sensitivity tools are prepared.
+Five tests passed. The spec's D regime produces 110,400 nominal calls if N=100
+applies to each of its 100 matrices; the budget paragraph counts D only once.
+The source audit also identifies unmatched reference rates and measurement units.
+See experiments/phase3_preparation_20260913/SPEC_RECONCILIATION.md.
+No canonical/variant prompt, pass criterion or collection protocol is released.
+Next: agree the reconciliation, complete source-matched operational procedures,
+then independent variant validation and an exact all-cost schedule before collection.
+
 ## Phase 2 behavioural study complete (2026-09-13)
 
 The researcher-authorised exploratory-first sequence is complete for the amended

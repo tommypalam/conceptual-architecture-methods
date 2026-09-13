@@ -1,0 +1,220 @@
+{
+  "status": "DRAFT_NOT_RELEASED",
+  "axes": [
+    "Freedom",
+    "Justice",
+    "Authority",
+    "Care",
+    "Loyalty"
+  ],
+  "benchmarks": [
+    {
+      "id": "milgram",
+      "concept": "Authority",
+      "outcome": "Completion of the maximum step in an escalating compliance trajectory; not merely agreeing to one step.",
+      "actors": [
+        "participant acting as teacher",
+        "experimenter with procedural authority",
+        "learner believed to receive shocks"
+      ],
+      "structure": [
+        "Increasing aversive intervention after errors",
+        "Learner protest and pressure to continue",
+        "Participant may refuse; preserve the escalation and stop rule"
+      ],
+      "canonical": "Teacher/learner learning experiment; increasing shock labels and scripted experimenter prompts.",
+      "variant_domain": "Corporate evaluator delivering escalating critical feedback under supervisor pressure (spec example).",
+      "equivalence_risks": [
+        "Physical pain versus reputational discomfort changes stakes; not automatically equivalent",
+        "Cannot tell participant that harm is fake or that learner is a confederate",
+        "Single final-step vignette does not reproduce a maximum-voltage trajectory"
+      ],
+      "high": {
+        "Freedom": 0,
+        "Justice": 0,
+        "Authority": 1,
+        "Care": 0,
+        "Loyalty": 0
+      },
+      "low": {
+        "Freedom": 0,
+        "Justice": 0,
+        "Authority": 0,
+        "Care": 0,
+        "Loyalty": 0
+      },
+      "low_status": "PROPOSED: authority-only change; the spec does not give an exact low-rate vector",
+      "modulators": [
+        "peer_rebellion",
+        "experimenter_absent",
+        "diffused_responsibility"
+      ],
+      "target_delta_from_spec": 0.5
+    },
+    {
+      "id": "asch",
+      "concept": "Loyalty",
+      "outcome": "Share of critical perceptual trials matching the incorrect majority; cluster repeated trials by participant.",
+      "actors": [
+        "participant",
+        "scripted peers giving perceptual judgments",
+        "experimenter"
+      ],
+      "structure": [
+        "Objectively distinguishable reference and alternatives",
+        "Unanimous incorrect peer answers before participant responds",
+        "Correct option and majority option counterbalanced without revealing that peers are scripted"
+      ],
+      "canonical": "Line-length matching under unanimous majority pressure.",
+      "variant_domain": "Product colour matching in a marketing setting (spec example).",
+      "equivalence_risks": [
+        "Supplying the correct answer in prose changes a perception task into an instruction conflict",
+        "Colour and line judgments need controlled stimuli and competence checks",
+        "A single hypothetical response is not the original repeated-critical-trial measure"
+      ],
+      "high": {
+        "Freedom": "NEUTRAL",
+        "Justice": "NEUTRAL",
+        "Authority": "NEUTRAL",
+        "Care": "NEUTRAL",
+        "Loyalty": 1
+      },
+      "low": {
+        "Freedom": "NEUTRAL",
+        "Justice": "NEUTRAL",
+        "Authority": "NEUTRAL",
+        "Care": "NEUTRAL",
+        "Loyalty": 0
+      },
+      "low_status": "PROPOSED: loyalty-only contrast",
+      "modulators": [
+        "unanimity_break",
+        "private_response",
+        "group_size_1",
+        "group_size_2",
+        "group_size_3",
+        "group_size_5"
+      ],
+      "target_delta_from_spec": 0.2
+    },
+    {
+      "id": "ultimatum",
+      "concept": "Justice",
+      "outcome": "Keep proposer offer share separate from responder acceptance at each offered share; do not infer a rejection threshold from one offer.",
+      "actors": [
+        "proposer",
+        "responder"
+      ],
+      "structure": [
+        "Fixed divisible stake",
+        "Proposer selects split",
+        "Responder acceptance implements split; rejection pays both zero",
+        "Role decisions isolated to avoid contamination from answering the other role"
+      ],
+      "canonical": "Anonymous monetary ultimatum bargain.",
+      "variant_domain": "Discretionary team-bonus negotiation (spec example).",
+      "equivalence_risks": [
+        "Workplace entitlement or recurring relationships may change the payoff game",
+        "Hypothetical points lack real monetary incentives",
+        "Primary 20-percent offer alone cannot test proposer distribution or equal-offer acceptance"
+      ],
+      "high": {
+        "Freedom": "NEUTRAL",
+        "Justice": 0,
+        "Authority": "NEUTRAL",
+        "Care": "NEUTRAL",
+        "Loyalty": "NEUTRAL"
+      },
+      "low": {
+        "Freedom": "NEUTRAL",
+        "Justice": 1,
+        "Authority": "NEUTRAL",
+        "Care": "NEUTRAL",
+        "Loyalty": "NEUTRAL"
+      },
+      "low_status": "UNRESOLVED: high/low refers to rejection rate; confirm its direction from the normative definition before labelling",
+      "modulators": [],
+      "target_delta_from_spec": 0.3
+    },
+    {
+      "id": "bystander",
+      "concept": "Care",
+      "outcome": "Intervention within a defined observation window, distinguishing individual helping from whether any member of a group helps.",
+      "actors": [
+        "participant observing emergency",
+        "person at risk or incident source",
+        "other potential helpers"
+      ],
+      "structure": [
+        "Same observable emergency and same opportunity to help",
+        "Manipulate whether other helpers are present without implying that they already acted",
+        "Keep danger, intervention cost, knowledge and time window fixed in a presence contrast"
+      ],
+      "canonical": "A staged emergency observed alone or alongside other potential helpers; exact paradigm remains to be selected.",
+      "variant_domain": "Workplace software incident (spec example).",
+      "equivalence_risks": [
+        "Smoke/pluralistic ignorance and seizure/diffusion of responsibility are different procedures",
+        "Risk to people versus software reliability changes stakes",
+        "A model statement of intent is not timed human intervention"
+      ],
+      "high": {
+        "Freedom": "NEUTRAL",
+        "Justice": "NEUTRAL",
+        "Authority": "NEUTRAL",
+        "Care": 1,
+        "Loyalty": "NEUTRAL"
+      },
+      "low": {
+        "Freedom": "NEUTRAL",
+        "Justice": "NEUTRAL",
+        "Authority": "NEUTRAL",
+        "Care": 0,
+        "Loyalty": "NEUTRAL"
+      },
+      "low_status": "PROPOSED: care-only contrast; presence and danger need additional conditions",
+      "modulators": [],
+      "target_delta_from_spec": 0.2
+    },
+    {
+      "id": "reactance",
+      "concept": "Freedom",
+      "outcome": "Threat-versus-control change in preference or adjacent-option selection; define adjacency and response denominator before conversion to a binary rate.",
+      "actors": [
+        "participant choosing options",
+        "authority restricting a choice"
+      ],
+      "structure": [
+        "Credible initial freedom to choose",
+        "An explicit removal/threat versus a comparable no-threat condition",
+        "Specified preference measurement before/after where required",
+        "Measure restoration separately from simple inability to select the removed option"
+      ],
+      "canonical": "Choice alternatives with a social restriction; exact stimulus set and intervention are unresolved.",
+      "variant_domain": "Project-priority resource restriction (spec example).",
+      "equivalence_risks": [
+        "Ranking shifts, anger and binary selection are different outcomes",
+        "A standardized mean difference cannot specify a unique probability difference without distribution and base-rate assumptions",
+        "Removal changes feasible options; compare against a carefully matched control"
+      ],
+      "high": {
+        "Freedom": 0,
+        "Justice": "NEUTRAL",
+        "Authority": 1,
+        "Care": "NEUTRAL",
+        "Loyalty": "NEUTRAL"
+      },
+      "low": {
+        "Freedom": 1,
+        "Justice": "NEUTRAL",
+        "Authority": 1,
+        "Care": "NEUTRAL",
+        "Loyalty": "NEUTRAL"
+      },
+      "low_status": "PROPOSED: hold Authority high and change Freedom only; requires review",
+      "modulators": [],
+      "target_delta_from_spec": 0.2
+    }
+  ],
+  "context_warning": "NEUTRAL is an explicit benchmark context state, not a new value of an LPM coordinate and not a Phase 2 binary configuration. Context texts are not frozen.",
+  "source": "Theory/implementation_specification_v0_1.md sections 7.1-7.6"
+}

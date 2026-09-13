@@ -1,0 +1,80 @@
+{
+  "status": "OFFLINE_SPEC_AUDIT_NOT_A_COLLECTION_FREEZE",
+  "ready_to_collect": false,
+  "new_api_calls": 0,
+  "benchmarks": [
+    "milgram",
+    "asch",
+    "ultimatum",
+    "bystander",
+    "reactance"
+  ],
+  "modulator_cells": 9,
+  "scenarios": {
+    "1": {
+      "nominal_calls": 11400,
+      "counts": {
+        "recognition": 500,
+        "primary": 4000,
+        "modulator": 900,
+        "sensitivity": 6000
+      },
+      "nominal_slot_sha256": "c25f94f5c1cd1392ae4e05c32916e2b2fd9f18ff5e182683a8980a11dec8acc7",
+      "d_profiles_per_matrix": 1,
+      "illustrative_benchmark_usd_1500_in_150_out_plus_10pct": "21.582000",
+      "illustrative_benchmark_usd_1500_in_600_out_plus_10pct": "45.861750"
+    },
+    "10": {
+      "nominal_calls": 20400,
+      "counts": {
+        "recognition": 500,
+        "primary": 4000,
+        "modulator": 900,
+        "sensitivity": 15000
+      },
+      "nominal_slot_sha256": "2eb46215ca7b508a6d8094fe4bf8496dbb00857468902ed936900d5b5884a2c0",
+      "d_profiles_per_matrix": 10,
+      "illustrative_benchmark_usd_1500_in_150_out_plus_10pct": "39.402000",
+      "illustrative_benchmark_usd_1500_in_600_out_plus_10pct": "83.729250"
+    },
+    "100": {
+      "nominal_calls": 110400,
+      "counts": {
+        "recognition": 500,
+        "primary": 4000,
+        "modulator": 900,
+        "sensitivity": 105000
+      },
+      "nominal_slot_sha256": "9b1bd263e3bde061907e39b5615ee722268f2d9c95437e732707537f790c0758",
+      "d_profiles_per_matrix": 100,
+      "illustrative_benchmark_usd_1500_in_150_out_plus_10pct": "217.602000",
+      "illustrative_benchmark_usd_1500_in_600_out_plus_10pct": "462.404250"
+    }
+  },
+  "budget": {
+    "hard_cap_usd": "100",
+    "prior_phase2_conservative_usd": "22.906073025",
+    "remaining_accounting_room_usd": "77.093926975",
+    "provider_balance_verified": false,
+    "price_source": "https://developers.openai.com/api/docs/models/gpt-5.4-mini",
+    "price_checked": "2026-09-13",
+    "exclusions": [
+      "separate judge model",
+      "variant generation/revisions",
+      "rater calls",
+      "additional trials/roles/control conditions",
+      "longer context growth"
+    ],
+    "warning": "Token assumptions are illustrations, not measured prompts or hard upper bounds."
+  },
+  "release_issues": [
+    "Benchmark procedure, stimuli, units and reference targets are not frozen",
+    "Canonical scenarios are not approved; no independently generated/reviewed variants exist",
+    "Neutral-axis context text and high/low direction require specification",
+    "Recognition model, two raters and threshold adjudication workflow not completed",
+    "D sample-per-matrix interpretation conflicts with rough call budget",
+    "Primary roles/control conditions and sensitivity replication may add calls",
+    "Distinct-model pricing and all-call reservation budget not frozen",
+    "A paid collector and its immutable recording/analysis contract are not released"
+  ]
+}

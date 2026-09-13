@@ -1,0 +1,24 @@
+{
+  "status": "UNFILLED",
+  "benchmark": null,
+  "canonical_sha256": null,
+  "variant_sha256": null,
+  "structure_sha256": null,
+  "generator_model": null,
+  "reviewer_identity": null,
+  "reviewer_independent_of_generation": null,
+  "checks": {
+    "actors": null,
+    "agency": null,
+    "information": null,
+    "incentives": null,
+    "pressure": null,
+    "actions": null,
+    "timing": null,
+    "outcome": null,
+    "modulators": null
+  },
+  "mismatches": [],
+  "decision": null,
+  "review_timestamp": null
+}

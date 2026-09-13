@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-13",
+  "new_api_calls": 0,
+  "unit_tests_passed": 5,
+  "ready_to_collect": false,
+  "immutable_inputs_sha256": {
+    "Theory/implementation_specification_v0_1.md": "b304bc3cba2cf3901402c58be279f7dedb38c10642152dc197f51074009f1766",
+    "Theory/concepts_as_architecture_thesis_v0_6.md": "55540ee3ba861ed1a7960c95babb246aa42181b6522c2de09d8a3273068471af",
+    "config/parameters.json": "b7d671b019a25d6c0a139aa2c7ec7c3710abcd1eb0c20d21e10d1ff386e90af9",
+    "config/correlation_matrix_R.json": "71e33a8258df8e5f6e4ff73cdce7990f5d94365b4077bf5aaed4d7e00975f794",
+    "code/utils.py": "05ff40edc3506a128f95b32efafaeb93a9f0b58bbd0db435b74b7059f9c9ffd6",
+    "code/phase2_confirmation_design.py": "bffedb82d15d45d37ac0bb1d18b76dbb9560e5a7d2081bf0ff46ec9c588b05de",
+    "code/phase2_confirmation_transport.py": "779de2a4cff464f7381bea2221068368ae655addd2eb99c066ef8e9d1f10ade8"
+  },
+  "warning": "Preparation verification only; no canonical prompts, variants, human targets or paid protocol are approved."
+}

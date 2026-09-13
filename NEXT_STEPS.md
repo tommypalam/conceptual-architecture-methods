@@ -1,6 +1,6 @@
 # Current state and next steps
 
-Updated 2026-09-13. Current local development branch: `phase2-visual-theatre-3d-20260913`.
+Updated 2026-09-13. Current local development branch: `phase3-preparation-20260913`.
 The new Phase 2 results are committed locally; publication to main is separate.
 
 ## Phase 2 behavioural study complete (2026-09-13)
@@ -73,6 +73,16 @@ probes, concept-specific high/low contexts, modulators and dependency sensitivit
 Freeze exact contexts, review workflow, analysis and budget before collection.
 Phase 3 can broaden targeted context coverage; it does not complete missing
 Phase 2 task/configuration cells. No new paid collection is queued.
+
+Phase 3's clause/source audit, five structural review packets, draft contexts,
+recognition/review templates and offline accounting/sensitivity tools are prepared.
+Five tests passed. The spec's D regime produces 110,400 nominal calls if N=100
+applies to each of its 100 matrices; the budget paragraph counts D only once.
+The source audit also identifies unmatched reference rates and measurement units.
+See [the reviewable reconciliation proposal](experiments/phase3_preparation_20260913/SPEC_RECONCILIATION.md).
+No canonical/variant prompt, pass criterion or collection protocol is released.
+Next: agree the reconciliation, complete source-matched operational procedures,
+then independent variant validation and an exact all-cost schedule before collection.
 
 ## Next work
 

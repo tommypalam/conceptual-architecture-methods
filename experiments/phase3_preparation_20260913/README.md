@@ -8,6 +8,22 @@ future work and prefers proceeding to Phase 3 according to the implementation
 specification. The completed two-anchor behavioural Phase 2 stays closed within
 its amended scope. Its original 8-12-configuration battery remains unperformed.
 
+## Prepared artefacts and current release status
+
+The clause audit, source audit, five structural packets, review templates,
+draft context registry, nominal call accounting and offline dependence sampler
+are prepared. Five offline tests passed. No benchmark was dropped and no model
+calls were made. The package is **not ready for paid collection**: the original
+spec's sampling budget and several measurement/reference choices need reconciliation.
+
+Start with [the concrete reconciliation proposal](SPEC_RECONCILIATION.md), then
+[the source audit](SOURCE_AUDIT.md) and [clause checklist](spec_checklist.csv).
+The [registry](benchmark_registry.json) keeps proposed contexts separate from
+approved inputs. [Implementation inventory](IMPLEMENTATION_INVENTORY.md) explains
+what is coded and what remains missing. [Preflight report](preflight_report.json)
+and [verification](VERIFICATION.json) document offline checks; the
+[analysis contract](ANALYSIS_CONTRACT_DRAFT.md) is explicitly a draft.
+
 ## Scope to prepare
 
 Follow Part 7 of Theory/implementation_specification_v0_1.md:
