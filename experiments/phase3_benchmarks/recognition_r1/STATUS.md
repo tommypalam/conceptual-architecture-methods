@@ -1,5 +1,7 @@
 # Recognition complete: all five alternatives rejected
 
+Next candidate pilot: [frozen N5 design and specific disclosure approval](../design_pilot_r1/DISCLOSURE.md). Maximum $0.425814400; automatic review blocked launch before any call. Current results and costs below are unchanged.
+
 All500 probes are dual-coded with100% exact rater agreement and no missing
 outcomes. Every canonical and alternative form was recognised50/50 times; all
 five alternatives fail the frozen >15/50 gate. No discussion calls were needed.

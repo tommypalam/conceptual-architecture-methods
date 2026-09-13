@@ -1,5 +1,7 @@
 # Phase 3: recognition screen complete, all alternatives rejected
 
+Next candidate pilot: [frozen N5 design and specific disclosure approval](design_pilot_r1/DISCLOSURE.md). Maximum $0.425814400; automatic review blocked launch before any call. Current results and costs below are unchanged.
+
 All500 recognition responses are dual-coded. Haiku and GPT-5.4 mini agreed on
 all500 answers, with no missing outcomes. Every canonical and alternative form
 was recognised50/50 times. **All five alternatives fail the >15/50 recognition

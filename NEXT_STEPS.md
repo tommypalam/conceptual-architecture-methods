@@ -65,6 +65,17 @@ and the existing 3D browser suite passed; rendering and research data are unchan
 
 ## Phase 3 recognition complete: all five alternatives rejected (2026-09-13)
 
+The next one-candidate exploratory pilot is implemented, tested and frozen in
+experiments/phase3_benchmarks/design_pilot_r1/. It uses independent generation and
+structural review, then N5 recognition and dual coding if accepted. Maximum new
+accounting $0.425814400; it cannot satisfy the formal N50 gate. Automatic approval
+review rejected launch before any call because OK CONTINUE was not accepted as
+specific disclosure approval for the new OpenAI/Anthropic payloads. See that
+folder's DISCLOSURE.md and PRELAUNCH_CHECKPOINT.json. All650 records and current
+costs below are unchanged. No collector is running; do not bypass the block.
+After explicit approval of those concrete payloads/destinations, run the SAME
+frozen pilot; no repeated generation, quotes or unchanged tests are needed.
+
 All500 recognition probes are dual-coded. Both raters agreed on all500 answers;
 every canonical and alternative form was recognised50/50 times, with no missing
 outcomes. All five alternatives fail the frozen >15/50 gate. No discussion was
@@ -116,10 +127,10 @@ all historical failed outcomes when designing linked revisions.
 
 ## Next work
 
-1. Phase 3: review new alternative-scenario design offline. All five current
-   alternatives failed the completed recognition screen; see the
-   [assessment](experiments/phase3_benchmarks/recognition_r1/execution/transport_r1/ASSESSMENT.md).
-   Population remains gated; do not repeat the completed coding.
+1. Phase 3: after the specific paid-disclosure approval required by automatic
+   review, execute the [frozen small pilot](experiments/phase3_benchmarks/design_pilot_r1/DISCLOSURE.md).
+   The original five alternatives remain rejected; population remains gated.
+   Do not repeat completed probes/coding or unchanged prelaunch checks.
 2. Phase 4: draft and review the dual moral-coding manual and human gold/reliability
    plan. Obtain the required human review before moral scores are assigned.
    Dissent is not automatically bad; proposed safeguards are not realised welfare.
