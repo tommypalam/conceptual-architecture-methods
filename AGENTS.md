@@ -2,6 +2,13 @@
 
 ## Phase 3 preparation started (2026-09-13)
 
+Current budget amendment: separate hard caps of $15 Anthropic and $30 OpenAI
+replace the earlier combined $30 nightly ceiling. Carry forward $0.3274722
+Anthropic and $0.010098 OpenAI already accounted; retain the $100 package cap.
+See experiments/phase3_benchmarks/PROVIDER_BUDGET_20260913.md. Three new budget
+tests passed. This does not clear the failed consultation or release paid stages;
+frozen collectors remain unchanged and a continuation must bind the new caps.
+
 Latest continuation: the researcher explicitly approved the private packet's
 disclosure to Anthropic. Claude responded but exhausted 7,000 output tokens;
 the incomplete review and its errors are preserved, not accepted as a release.

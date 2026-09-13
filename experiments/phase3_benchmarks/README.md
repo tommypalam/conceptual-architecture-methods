@@ -1,7 +1,8 @@
 # Phase 3: human-behaviour benchmark development
 
-Phase 3 is **open**. The researcher approved staged reconciliation and a $30
-ceiling for tonight's new work, inside the existing $100 package cap. All five
+Phase 3 is **open**. The researcher approved staged reconciliation and now sets
+separate **$15 Claude / $30 OpenAI** ceilings, inside the existing $100 package cap.
+See the [provider budget amendment](PROVIDER_BUDGET_20260913.md). All five
 benchmarks remain in scope. No population benchmark or recognition study has
 started; no ethical-understanding or human-rate result is claimed.
 
@@ -11,7 +12,7 @@ approved the private-packet disclosure. Claude responded but hit its output cap;
 its partial advice and rejected errors are in the
 [consultation disposition](resolution_20260913/CONSULTATION_OUTCOME.md).
 The failed call is preserved at its full $0.248127 reservation. Total conservative
-spending is **$0.3375702**, leaving **$29.6624298** tonight; package accounting is
+spending is **$0.3375702**, leaving **$14.6725278 Claude / $29.989902 OpenAI**; package accounting is
 **$23.243643225**. The new 38-call archive passed verification with the earlier
 records unchanged. Further paid dispatch is stopped pending linked reconciliation.
 Canonical/variant review, recognition and population studies remain uncompleted.

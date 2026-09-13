@@ -65,6 +65,12 @@ and the existing 3D browser suite passed; rendering and research data are unchan
 
 ## Phase 3 preparation started (2026-09-13)
 
+Latest [budget amendment](experiments/phase3_benchmarks/PROVIDER_BUDGET_20260913.md):
+the user set separate $15 Claude and $30 OpenAI caps, replacing the combined $30.
+Current remaining accounting room is $14.6725278 and $29.989902 respectively;
+the $100 package cap and prior charges remain. Three provider-budget tests pass.
+This is a budget update, not a failure reset or paid collection release.
+
 Current continuation: [canonical revision 2](experiments/phase3_benchmarks/canonical_r2/PROTOCOL.md)
 provides exact local procedures and paired inference for all five families;
 all 38 Phase 3 tests pass, including missingness and ten-contrast multiplicity.
@@ -72,7 +78,7 @@ The user approved the private-packet disclosure and Claude returned partial advi
 but hit the 7,000-token cap. Several suggestions were wrong and rejected; see the
 [checked disposition](experiments/phase3_benchmarks/resolution_20260913/CONSULTATION_OUTCOME.md).
 The failure remains recorded at its full $0.248127 reservation. Tonight totals
-$0.3375702, leaving $29.6624298; package accounting is $23.243643225. A verified
+$0.3375702; package accounting is $23.243643225. A verified
 38-call archive preserves all old evidence. Further paid dispatch is stopped until
 an explicit linked reconciliation, without overwriting the failure or resetting
 the ledger. Next: review canonical/variant equivalence, freeze the implemented
