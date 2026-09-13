@@ -30,6 +30,14 @@ checks passed. Frozen sources and raw records remain unchanged. Visual seating
 and animation are schematic, rounds are simultaneous, and choices carry no
 moral scoring. The viewer makes no API calls; live support is future work.
 
+The 3D upgrade at /lab adds three original Blender dioramas, selectable agents
+and synchronised matched-condition replay. Both browser suites and a fresh
+300-run / 6,205-row offline reconstruction passed; invalid votes are retained.
+Mobile label collisions were corrected. Original GLBs and checksums are in
+viewer/assets; editable Blender source is local under output. See
+viewer/DESIGN_3D.md for the design review and rendering limits. No research
+collection, analysis or moral-scoring behaviour changed.
+
 ## Exploratory Phase 2 authorisation (2026-09-12)
 
 The researcher explicitly instructed: run the small exploratory Phase 2 test,

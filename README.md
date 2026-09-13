@@ -43,9 +43,10 @@ original full ten-environment Phase 2 design is not claimed complete.
 ## Watch the agents interact
 
 The [simulation theatre](viewer/README.md) replays all 300 completed Phase 2
-group runs with a visual table, round controls, full responses, agent profiles,
-amendments and evidence sharing. Run `py -3.11 -B code/serve_replay.py` and open
-http://127.0.0.1:8765. It reads your local records and makes no API calls.
+group runs with explorable Blender-built 3D rooms, matched comparison, round
+controls, full responses, agent profiles, amendments and evidence sharing.
+Run `py -3.11 -B code/serve_replay.py` and open http://127.0.0.1:8765/lab;
+the classic viewer remains at `/`. It reads local records and makes no API calls.
 
 ## Find your way around
 

@@ -3,6 +3,7 @@
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const { chromium } = require(process.argv[2] || 'playwright');
+const base = process.argv[3] || 'http://127.0.0.1:8765';
 
 (async () => {
   const browser = await chromium.launch({ headless: true });
@@ -10,7 +11,7 @@ const { chromium } = require(process.argv[2] || 'playwright');
     const page = await browser.newPage({ viewport: { width: 1440, height: 1100 } });
     const errors = [];
     page.on('pageerror', error => errors.push(error.message));
-    await page.goto('http://127.0.0.1:8765');
+    await page.goto(base);
     await page.waitForFunction(() => document.querySelector('#provenance').textContent.includes('checks passed'));
     assert.equal(await page.locator('.seat').count(), 5);
     assert.equal(await page.locator('.parameter').count(), 10);
@@ -53,14 +54,14 @@ const { chromium } = require(process.argv[2] || 'playwright');
     assert.match(await page.locator('#brief-text').textContent(), /outside lab/);
     await page.locator('#close-brief').click();
     // The known duplicate-marker vote stays missing; its evidence is not silently erased.
-    const failed = await (await page.request.get('http://127.0.0.1:8765/api/run/C3-5-neutral-B')).json();
+    const failed = await (await page.request.get(base+'/api/run/C3-5-neutral-B')).json();
     const bad = failed.rounds[3].responses.find(r => r.agent === 96);
     assert.equal(bad.vote, null);
     assert.match(bad.text, /VOTE: CONTINUE[\s\S]*VOTE: CONTINUE/);
     assert.equal(failed.result.status, 'ok');
-    assert.equal((await page.request.get('http://127.0.0.1:8765/api/run/nonexistent')).status(), 404);
-    assert.equal((await page.request.get('http://127.0.0.1:8765/data/raw/anything')).status(), 404);
-    assert.equal((await page.request.post('http://127.0.0.1:8765/api/run/C1-1-00100-E')).status(), 501);
+    assert.equal((await page.request.get(base+'/api/run/nonexistent')).status(), 404);
+    assert.equal((await page.request.get(base+'/data/raw/anything')).status(), 404);
+    assert.equal((await page.request.post(base+'/api/run/C1-1-00100-E')).status(), 501);
     // Return to a useful explanatory view for screenshots.
     await page.locator('[data-run="C1-1-00100-E"]').click();
     await page.waitForFunction(() => location.hash === '#C1-1-00100-E' && !document.body.classList.contains('loading'));

@@ -20,7 +20,72 @@ must be present, including `records`, `dispatches` and `groups`. A Git clone
 alone does not contain these records. Missing or inconsistent data produces
 an error; the viewer cannot collect replacement responses.
 
-## Watching a run
+## Explore the 3D rooms
+
+Open **http://127.0.0.1:8765/lab** for the Blender-built rooms. The current desktop
+session runs the upgraded server at **http://127.0.0.1:8766/lab**; the earlier
+classic server uses 8765. Restart a server after adding static files, because its
+asset allowlist is constructed at startup.
+
+The council, boardroom and laboratory each have an original Blender diorama
+with selectable ceramic figures. Drag to orbit, scroll or pinch to zoom, or use
+Top view and Reset view. Agent buttons provide the same inspection without
+requiring a click on the 3D model. Small leader lines keep projected labels
+readable when they would otherwise overlap.
+
+Press Play or select a numbered round. Inspect a selected agent's complete
+response, ten-coordinate profile, information available at that round, exact
+incoming prompt and record provenance. Vote changes pulse briefly; C3 evidence
+cards travel toward the shared bench only for newly authenticated disclosures.
+These animations are illustrative and reveal no speaking order.
+
+Compare conditions opens two matched conversations with a shared round control.
+An early-ending conversation holds its final recorded state and says when it
+ended. Select an agent in either room to inspect that conversation. Comparison
+is exploratory; it does not add a statistical test. A run's URL fragment can be
+bookmarked, but camera, comparison and playback state are not persisted.
+
+The 3D view requires WebGL 2. The classic link remains available if graphics or
+asset loading fails. Reduced motion disables the disclosure and vote pulses;
+both rooms stop rendering when idle, and playback pauses when the tab is hidden.
+All code and assets load locally. Browser checks emulate phone sizes, not
+physical devices.
+
+### Blender assets and maintenance
+
+`build_assets.py` generated four original GLB assets using Blender 5.2.1 LTS;
+no downloaded models, paid assets or generated textures are involved. Each GLB
+contains exactly its intended scene. Byte sizes and SHA-256 checksums are in
+`assets/manifest.json`; the four files total about 2.25 MB. The editable project
+is retained locally at `output/paria_dioramas.blend` and is not committed.
+
+Playback does not require Blender or its addon. To make a fresh asset set,
+execute `build_assets.py` in Blender with `PARIA_ROOT` set to a separate output
+root. It creates new scenes and refuses to overwrite existing generated assets
+or a project. Inspect exports before replacing a versioned asset set. The live
+Blender connection used during development is a separate local setup; a Git
+clone does not install or configure that addon.
+
+Three.js 0.186.0 is vendored under its MIT licence in `vendor/three/`. See
+`vendor/README.md` for the four local import substitutions. The design and
+synthetic review are recorded in [DESIGN_3D.md](DESIGN_3D.md).
+
+Run the additional offline browser checks against a running upgraded server:
+
+```powershell
+node tests/check_theatre3d.cjs <path-to-playwright-module> http://127.0.0.1:8766
+```
+
+On 2026-09-13 these passed at 1440 px and 390 px: GLB isolation/checksums,
+selection, camera controls, complete prompts, profile omission, matched
+comparison and early ending, amendment/evidence boundaries, invalid votes,
+playback, idle rendering, reduced motion, local-only requests, mobile label
+layout and asset-failure fallback. Screenshots of all three rooms and comparison
+were visually inspected; browser errors were zero. The classic browser suite
+also passed on the updated server, and all 300 runs / 6,205 rows passed a fresh
+offline reconstruction with all three invalid votes retained and zero API calls.
+
+## Watching a run in the classic viewer
 
 - Select one of three scenarios, one of 20 matched groups, and one of five
   profile/context conditions. The condition selector keeps the current round

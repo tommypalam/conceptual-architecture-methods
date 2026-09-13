@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#dbe7e9"><title>PARIA · Simulation rooms</title>
+  <link rel="stylesheet" href="/lab.css"><script type="module" src="/lab.js"></script>
+</head>
+<body>
+  <header class="app-header">
+    <a class="wordmark" href="/lab">paria<span>Simulation rooms</span></a>
+    <nav aria-label="Choose a recorded simulation">
+      <label>Scenario<select id="problem"><option value="C1">Resource council</option><option value="C2">Restructuring board</option><option value="C3">Research lab</option></select></label>
+      <label>Group<select id="group"></select></label>
+      <label>Condition<select id="condition"><option value="00100-E">Encoded · 00100</option><option value="00100-U">Context only · 00100</option><option value="11011-E">Encoded · 11011</option><option value="11011-U">Context only · 11011</option><option value="neutral-B">Neutral · no profile</option></select></label>
+    </nav>
+    <a class="classic-link" href="/">Classic view</a>
+  </header>
+  <main>
+    <section class="theatre" aria-label="3D simulation">
+      <div class="room-heading"><div><p id="study-label">Phase 2 / Recorded simulation</p><h1 id="title">Resource council</h1><p id="subtitle">Five agents. One shared decision.</p></div><button id="brief-open" class="quiet">Read the dilemma</button></div>
+      <div class="view-actions"><button id="compare-toggle" aria-pressed="false">Compare conditions</button><button id="reset-camera" title="Reset the camera">Reset view</button><button id="top-camera" title="Look down at the table">Top view</button></div>
+      <div id="compare-controls" hidden><label>Compare with<select id="compare-condition"><option value="00100-U">Context only · 00100</option><option value="00100-E">Encoded · 00100</option><option value="11011-E">Encoded · 11011</option><option value="11011-U">Context only · 11011</option><option value="neutral-B">Neutral · no profile</option></select></label><span>Same group, separate conversations. Shared round controls.</span></div>
+      <div id="error" role="alert" hidden></div>
+      <div id="views" class="views"><div class="world" id="world-a"><div class="world-caption" id="caption-a"></div><div class="loading-label">Opening the room…</div></div><div class="world" id="world-b" hidden><div class="world-caption" id="caption-b"></div></div></div>
+      <div class="scene-guide"><span>Drag to orbit · Scroll to zoom · Select an agent</span><span>Illustrative room and figures</span></div>
+      <div class="state-strip"><div id="tally-a" class="outcome"></div><div id="tally-b" class="outcome" hidden></div></div>
+      <div class="playback"><button id="previous" class="step" aria-label="Previous round">‹</button><button id="play" class="primary">Play</button><button id="next" class="step" aria-label="Next round">›</button><div class="timeline" id="timeline" aria-label="Round timeline"></div><label class="speed-label">Pace<select id="speed"><option value="7000">Slow</option><option value="4500" selected>Normal</option><option value="1800">Fast</option></select></label></div>
+      <p class="round-note" id="round-note">Each step reveals a simultaneous round. Agents see only earlier rounds.</p>
+      <div class="event-strip" id="events" aria-live="polite"></div>
+      <div class="examples"><span>Explore an example</span><button data-run="C1-1-00100-E">A divided council</button><button data-run="C2-1-neutral-B">An adopted amendment</button><button data-run="C3-1-00100-E">Evidence sharing</button></div>
+    </section>
+    <aside class="details" aria-label="Agent and discussion details">
+      <div class="inspector-heading"><div><span class="small-label">Agent inspector</span><h2 id="agent-title">Select an agent</h2></div><span id="agent-vote"></span></div>
+      <div id="role" class="role"></div><div id="agent-selector" class="agent-selector" aria-label="Select an agent"></div>
+      <div class="tabs" aria-label="Agent details"><button data-tab="response" aria-pressed="true">Response</button><button data-tab="profile" aria-pressed="false">Profile</button><button data-tab="knowledge" aria-pressed="false">Knowledge</button></div>
+      <div id="inspector"></div>
+      <section class="discussion"><div class="section-heading"><h3>At the table</h3><span id="round-label">Before round 1</span></div><div id="messages"></div></section>
+      <details class="shared" id="shared"><summary>Shared state</summary><div id="shared-body"></div></details>
+      <p class="limits">Figures and motion are illustrative. Colours identify choices, not moral quality. Messages are the model’s recorded responses.</p>
+    </aside>
+  </main>
+  <footer><span id="verified">Loading verified recordings…</span><span>Local replay · No new model calls</span></footer>
+  <dialog id="brief"><button id="brief-close" class="quiet">Close</button><h2 id="brief-title"></h2><div id="brief-text"></div><h3>How the group works</h3><p id="brief-rules"></p></dialog>
+</body>
+</html>

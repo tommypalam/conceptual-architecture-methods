@@ -20,6 +20,10 @@ sys.path.insert(0, str(ROOT / "output" / "phase2_runtime"))
 PACKAGE = ROOT / "experiments" / "phase2_confirmation_20260913"
 RAW = ROOT / "data" / "raw" / "phase2_confirmation_20260913"
 UI = ROOT / "viewer"
+STATIC_FILES = {"/" + p.relative_to(UI).as_posix(): p for p in UI.rglob("*")
+                if p.is_file() and not p.is_symlink() and p.suffix in {".html", ".js", ".css", ".glb", ".json", ".txt"}}
+STATIC_FILES["/"] = UI / "index.html"
+STATIC_FILES["/lab"] = UI / "lab.html"
 
 
 def digest(value):
@@ -145,10 +149,11 @@ class Handler(BaseHTTPRequestHandler):
             elif route.startswith("/api/run/"):
                 payload = json.dumps(self.store.replay(route.removeprefix("/api/run/")), ensure_ascii=False).encode("utf-8")
                 mime = "application/json"
-            elif route in {"/", "/index.html", "/app.js", "/style.css"}:
-                name = "index.html" if route == "/" else route[1:]
-                payload = (UI / name).read_bytes()
-                mime = {"html": "text/html", "js": "text/javascript", "css": "text/css"}[name.split(".")[-1]]
+            elif route in STATIC_FILES:
+                path = STATIC_FILES[route]
+                payload = path.read_bytes()
+                mime = {".html": "text/html", ".js": "text/javascript", ".css": "text/css",
+                        ".glb": "model/gltf-binary", ".json": "application/json", ".txt": "text/plain"}[path.suffix]
             else:
                 self.send_error(404)
                 return

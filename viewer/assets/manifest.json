@@ -1,0 +1,24 @@
+{
+  "created_with": "5.2.1 LTS",
+  "design": "Original procedural PARIA dioramas",
+  "files": {
+    "agent.glb": {
+      "bytes": 134396,
+      "sha256": "40504a7940a84698be40828c8c0e2eca6abfd980bdb37162950e356bb6af668e"
+    },
+    "boardroom.glb": {
+      "bytes": 650800,
+      "sha256": "e6d3be61174ebedfbb850148a18a08e0654a1391b5a15697767ad019f84f231f"
+    },
+    "council.glb": {
+      "bytes": 819252,
+      "sha256": "e04c3a7127c0e5e0851300af962c4dd13a485a31678c3fc747ae3a7727d8474b"
+    },
+    "laboratory.glb": {
+      "bytes": 643600,
+      "sha256": "5597ebd939b6518d4aaa5386029c8d79dfb1ff96c19737c154aa4434c8234c41"
+    }
+  },
+  "illustrative_only": true,
+  "external_assets": false
+}

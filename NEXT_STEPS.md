@@ -1,6 +1,6 @@
 # Current state and next steps
 
-Updated 2026-09-13. Current local development branch: `phase2-design-20260912`.
+Updated 2026-09-13. Current local development branch: `phase2-visual-theatre-3d-20260913`.
 The new Phase 2 results are committed locally; publication to main is separate.
 
 ## Phase 2 behavioural study complete (2026-09-13)
@@ -49,6 +49,16 @@ or frozen sources changed, and no API calls were made. Run
 `py -3.11 -B code/serve_replay.py`, then open http://127.0.0.1:8765.
 Future live/final-simulation support needs a new adapter; the current viewer
 replays completed Phase 2 only. Design review and checks are in its README.
+
+The 3D upgrade is complete at `/lab`: three Blender rooms, selectable figures,
+recorded vote/disclosure effects and synchronised matched-condition playback.
+Both browser suites passed on the upgraded server; all 300 runs / 6,205 rows
+passed a fresh offline reconstruction. Mobile label collisions were corrected;
+idle rendering, reduced motion and asset-failure fallback were checked. See
+[3D design and review](viewer/DESIGN_3D.md) and [usage](viewer/README.md).
+The current desktop server is http://127.0.0.1:8766/lab. Generated GLBs and their
+checksums are versioned; the editable Blender project remains under `output/`.
+The research claims and paid-study status above are unchanged.
 
 ## Next work
 
