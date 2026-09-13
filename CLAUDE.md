@@ -2,6 +2,14 @@
 
 ## Phase 3 preparation started (2026-09-13)
 
+Latest continuation: user requested economical progress. Five alternative-domain
+generation requests are frozen at $0.38276425 total, with a tested linked
+continuation retaining the truncated consultation and every old charge. All 45
+Phase 3 tests pass. Automatic approval review blocked disclosure of the private
+structural packets to OpenAI pending specific approval; no call/reservation was
+created. See experiments/phase3_benchmarks/variants_r2/STATUS.md. Do not bypass
+that rejection. The same frozen requests may run once the explicit approval arrives.
+
 Current budget amendment: separate hard caps of $15 Anthropic and $30 OpenAI
 replace the earlier combined $30 nightly ceiling. Carry forward $0.3274722
 Anthropic and $0.010098 OpenAI already accounted; retain the $100 package cap.

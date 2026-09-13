@@ -1,5 +1,10 @@
 # Phase 3: human-behaviour benchmark development
 
+Latest [candidate-development release](variants_r2/STATUS.md): five frozen OpenAI
+requests cost at most $0.38276425 combined; linked continuation and all 45 Phase 3
+tests passed. The command was blocked by automatic approval review pending explicit
+private-packet disclosure approval. No additional calls or charges occurred.
+
 Phase 3 is **open**. The researcher approved staged reconciliation and now sets
 separate **$15 Claude / $30 OpenAI** ceilings, inside the existing $100 package cap.
 See the [provider budget amendment](PROVIDER_BUDGET_20260913.md). All five

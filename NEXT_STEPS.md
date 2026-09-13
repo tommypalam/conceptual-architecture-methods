@@ -65,6 +65,14 @@ and the existing 3D browser suite passed; rendering and research data are unchan
 
 ## Phase 3 preparation started (2026-09-13)
 
+Latest [economical continuation](experiments/phase3_benchmarks/variants_r2/STATUS.md):
+five candidate-generation requests frozen at $0.38276425 maximum; no population
+sampling. A tested linked continuation preserves the previous failure and costs;
+all 45 Phase 3 tests pass. Automatic approval review blocked private-packet egress
+to OpenAI pending explicit disclosure approval. No call/reservation was created.
+Once approved, run the frozen generation batch, then prepare the independent
+reviews of its actual candidates. No automatic retry of the old Claude consultation.
+
 Latest [budget amendment](experiments/phase3_benchmarks/PROVIDER_BUDGET_20260913.md):
 the user set separate $15 Claude and $30 OpenAI caps, replacing the combined $30.
 Current remaining accounting room is $14.6725278 and $29.989902 respectively;
