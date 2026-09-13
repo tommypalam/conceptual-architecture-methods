@@ -1,3 +1,13 @@
+# Current status: paid collector ready, specific disclosure approval pending
+
+See [execution status](execution/STATUS.md). All65 tests pass, including the full
+mock pipeline and deterministic replay. The researcher instructed START after
+the cost report and the $14.06743250 allocation is frozen. Automatic approval
+review nevertheless blocked the paid command before launch, requiring specific
+paid disclosure approval. No new screening calls, reservations or charges exist.
+
+## Earlier quotation checkpoint (superseded by execution status above)
+
 # Quotation complete; paid screening not released
 
 Current result: [ten completed free quotes and full cost assessment](QUOTATION_OUTCOME.md).

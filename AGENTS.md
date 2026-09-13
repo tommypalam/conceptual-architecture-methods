@@ -2,18 +2,17 @@
 
 ## Phase 3 structural review complete; recognition next (2026-09-13)
 
-Latest continuation: explicit disclosure approval was received and all ten FREE
-Anthropic token-count requests completed for the unchanged recognition bundles.
-See experiments/phase3_benchmarks/recognition_r1/QUOTATION_OUTCOME.md. No paid
-screening call or new charge occurred. The complete conservative bound is
-$14.06743250 ($11.44946000 Claude/$2.61797250 OpenAI), including the SAME two
-raters exchanging their original positions in one bounded discussion round.
-Unresolved disagreements remain missing; no third-AI tie-break. This corrects
-the earlier provisional adjudication proposal before collection. The full bound
-fits the provider/package caps but exceeds the frozen $7 screening/$10 validation
-allocations. Resolve economical delivery/allocation and implement/test the linked
-paid runtime before release. Do not repeat completed quotes or ask again for
-disclosure approval for these exact token-count requests. Prior evidence is intact.
+Latest continuation: the researcher instructed START after the $14.06743250
+review. The linked paid collector and explicit allocation supplement are frozen
+in commit01e9ec28. All65 Phase3 tests pass, including a complete mock screening,
+dual coding/discussion and zero-call replay. See
+experiments/phase3_benchmarks/recognition_r1/execution/STATUS.md. Automatic
+approval review rejected the paid command before launch: it considered the prior
+approval limited to FREE token counting and requires specific paid disclosure
+approval for Anthropic recognition and Anthropic/OpenAI answer/rating coding.
+No paid call, reservation or failure record was created. Do not bypass the block.
+After specific approval, execute the SAME frozen runner; do not change requests,
+regenerate candidates or repeat quotes. The old failed consultation stays intact.
 
 All five canonical/repaired-alternative pairs received independent Claude
 structural acceptance, with no blocking mismatches or required changes. The
@@ -28,7 +27,8 @@ cost $0.07882875. Cumulative Phase 3 accounting is $0.41639895: $0.3587892 Claud
 and $0.05760975 OpenAI. Separate hard caps are $15 Claude and $30 OpenAI, with
 $14.6412108 and $29.94239025 remaining accounting room. Package accounting is
 $23.322471975 within the existing $100 cap. These are estimates, not balances.
-The frozen validation-stage allocations remain binding; caps are not targets.
+The execution release prospectively allocates $14.06743250 to this exact screen;
+provider/package caps remain binding and are not spending targets.
 
 All 48 Phase 3 offline tests passed at candidate freeze. The 48-call checkpoint
 verifies exact generation/review replay with zero additional calls, source
@@ -39,9 +39,8 @@ the linked validation continuation preserves it without retry or ledger reset.
 No failure or approval block is pending for the completed five reviews.
 Off-device backup is not verified. Do not repeat paid checks merely to resume.
 
-Next: resolve delivery/allocation for the now-priced visual/sequential bundles,
-then complete the paid runtime and freeze two independent raters, discussion,
-missingness handling and the complete cost reservation. Recognition requires
+Next: execute the frozen collector after the specific paid-disclosure approval.
+The two-rater discussion and fixed-denominator analysis are implemented. Recognition requires
 50 responses per canonical/alternative form across five families (500 judge
 calls, plus classification/adjudication); >15/50 rejects an alternative. No
 answer keys, profiles, context labels or benchmark names belong in recognition

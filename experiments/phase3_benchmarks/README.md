@@ -1,10 +1,9 @@
 # Phase 3: human-benchmark preparation
 
-Latest: [completed free quotes and full screening cost](recognition_r1/QUOTATION_OUTCOME.md).
-All ten approved token-count requests succeeded, without new spending. The full
-conservative bound is $14.06743250 including two-rater discussion; provider caps
-fit, but the earlier screening/validation allocations do not. Paid runtime,
-economical delivery and allocation resolution remain pending.
+Latest: [verified paid collector and dispatch status](recognition_r1/execution/STATUS.md).
+All65 tests pass and the $14.06743250 screening allocation is frozen. Automatic
+approval review blocked paid dispatch before launch pending specific approval of
+the paid Anthropic/OpenAI transfers. No new charge or screening call occurred.
 
 **All five canonical/alternative pairs passed independent structural review.**
 Phase 3 remains open: recognition screening and agent population collection have
