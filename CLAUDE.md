@@ -1,59 +1,60 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
-## Phase 3: canonical E/U diagnostic complete and verified (2026-09-13)
+## Phase 3: E/V representation diagnostic verified; disclosure approval pending (2026-09-13)
 
-The approved context_diagnostic_r2 completed one accepted Claude review and all
-576 participant decisions, with zero invalid actions. There were 24 matched
-profiles/replicate blocks, two justice contexts, full-profile E/context-only U
-arms and six isolated tasks. See
-experiments/phase3_benchmarks/context_diagnostic_r2/ASSESSMENT.md and CHECKPOINT.json.
+The researcher instructed continuation with an ordinary-language comparison.
+The exact-information E/V diagnostic is implemented, tested and frozen at commit
+707ee797. See experiments/phase3_benchmarks/representation_diagnostic_r1/PROTOCOL.md,
+DISCLOSURE.md, PRELAUNCH_CHECKPOINT.json and LAUNCH_BLOCK.json.
 
-At the prespecified 20-unit offer, E rejected 12/24 (Justice LOW) and 13/24
-(Justice HIGH); U rejected 0/24 and 1/24. E-U was +50 percentage points in each
-context. Both LOW-minus-HIGH context contrasts were -4.2 points; their interaction
-was zero, with bootstrap 95% interval [-20.8,+20.8] points and a much wider
-conservative interval. This is an exploratory profile-package difference, with
-no positive evidence that encoding strengthened the primary context effect.
-The predicted context direction was not observed; uncertainty does not establish
-equivalence or reversal. No significance or human-equivalence claim is made.
+E retains the previous structured decimal profile. V expresses the SAME rendered
+positions in words, with the SAME ten names and endpoint meanings. No arbitrary
+low/moderate/high bins or new trait-action rules are used. Written percentages
+retain quantitative information: this tests notation/presentation, not numeric
+versus wholly nonquantitative descriptions or intrinsic ethical understanding.
+Nonprofile context/task instructions are identical in each E/V pair; token length,
+layout, introductory wording and unit framing remain bundled format differences.
 
-Report the full grid: U rejection at offer 10 differed 19/24 versus 0/24 across
-contexts, so the primary result does not imply that context never matters.
-All 96 responder grids were complete; five were nonmonotone and retained.
-The profile package includes semantic definitions, values, wording and length;
-its effect does not isolate numeric encoding or establish ethical understanding,
-human resemblance, ten separate trait effects, or moral quality.
+The schedule is one Claude methodological/fidelity review, then only on accept
+with no blocking issues, 576 GPT-5.4 mini decisions: 24 fresh matched profiles,
+both justice contexts, E/V and six isolated ultimatum roles/offers. Seeds are
+2026091320 for profiles, 2026091321 plus profile ID for order and 2026091322-26
+for analysis. Maximum new accounting is $4.200345600 under a $4.30 local ceiling.
+No retry, larger sample, formal Phase 3 pass or human/moral-validity claim follows.
 
-The run cost $0.304161000 against the $4.200345600 reservation/$4.30 ceiling.
-Phase 3 accounting is $6.448701325: Claude $6.007318900 and OpenAI $0.441382425.
-Remaining room under the $15/$30 caps is $8.992681100/$29.558617575. Package
-accounting including Phase 2 is $29.354774350 under $100. These are conservative
-usage estimates, not balances. Specific disclosure approval was received and
-the launch block resolved. No collector is running, paid call queued or approval pending.
+Five offline tests passed, including exhaustive inverse translation at every
+integer percentage, exact saved-request reconstruction, mock collection/replay,
+missingness/duplicate checks and preserved failure/no retry. All 24 profiles in
+both contexts passed the real-data fidelity audit. The prelaunch and post-block
+checks preserved all 1,237 earlier paid records and verified zero new calls/charges.
 
-Four prelaunch tests passed. Real-data replay made zero new API calls and verified
-all 660 inherited records, exact requests, model identifiers, scores, costs and
-the previous archive. The ledger now contains 1,237 records. All 3,713 members
-of the new archive passed CRC and SHA-256 checks. Raw data/archives are excluded
-from Git; off-device backup is unverified. Preserve all frozen sources, requests,
-raw records and historical checkpoints, including the first no-spend diagnostic
-freeze and its prospectively repaired review serialization.
+Automatic approval review rejected launch: the general go-ahead was insufficient
+to authorise this new nonpublic protocol and synthetic profile/task payload
+disclosure to Anthropic and OpenAI. It requires specific payload/destination
+approval. No collector is running. Do not bypass or indirectly retry the block.
+After that specific approval, execute the SAME frozen representation runner;
+do not regenerate the comparison or repeat unchanged preparation/tests.
 
-This canonical-only exploratory supplement does not pass the original Phase 3
-gate or replace its all-five N200 study. All 500 earlier recognition responses
-remain dual-coded with exact agreement; every canonical/alternative cell was
-recognised 50/50 and all five alternatives failed the >15/50 gate. The later
-allocation candidate remains discarded after 5/5 recognition. These datasets
-are not pooled. All five benchmark families, ten LPM coordinates, Beta marginals
-and R remain in scope; formal population collection is not released.
+The last paid study remains the completed E/U diagnostic: all 576 decisions
+valid, profile-package difference +50 points at offer 20 in both justice contexts,
+both LOW-minus-HIGH context effects -4.2 points and interaction zero with wide
+uncertainty. The full offer grid and five nonmonotone grids remain reported in
+experiments/phase3_benchmarks/context_diagnostic_r2/ASSESSMENT.md. No earlier
+responses are pooled into this fresh representation comparison.
 
-Next: specify a matched ordinary-language representation control before
-collecting a larger sample. Freeze a faithful translation of the same values,
-independently check its fidelity, and keep tasks/context fixed. Do not invent
-new trait-action rules or convert this package effect into numeric specificity.
-The formal low-recognition alternative and remaining benchmark/modulator/
-dependency-sensitivity requirements remain unresolved. No follow-up is frozen
-or queued by this assessment.
+Phase 3 accounting is unchanged at $6.448701325: Claude $6.007318900 and OpenAI
+$0.441382425. Remaining room under their $15/$30 caps is $8.992681100 and
+$29.558617575. Package accounting including Phase 2 is $29.354774350 under $100.
+These are conservative estimates, not balances. The 3,713-member archive is
+verified locally; off-device backup is unverified. Raw records/archives stay
+outside Git and all frozen sources and historical outcomes remain immutable.
+
+The original all-five N200 Phase 3 study is not released. All five alternatives
+failed the earlier >15/50 recognition gate; the later candidate was discarded
+after 5/5 recognition. Both diagnostic supplements retain those unmet gates.
+All five benchmark families, ten LPM coordinates, Beta marginals and R remain
+in scope. Human resemblance, moral quality and ethical understanding are not
+established; neither similar estimates nor wide intervals establish equivalence.
 
 ## Phase 2 behavioural study complete (2026-09-13)
 

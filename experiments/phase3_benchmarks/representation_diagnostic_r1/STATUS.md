@@ -1,4 +1,10 @@
-# Exact-information E/V diagnostic prepared
+# E/V diagnostic verified; specific disclosure approval pending
+
+Automatic approval review blocked launch before any call: the general go-ahead
+did not specifically approve exporting this new nonpublic protocol and synthetic
+payload to Anthropic and OpenAI. See [DISCLOSURE.md](DISCLOSURE.md) and the
+[post-block audit](LAUNCH_BLOCK.json). New spending is zero and all 1,237 earlier
+records remain intact. No collector is running. Do not bypass the rejection.
 
 Five offline tests passed in 152.151 seconds. The real saved-file prelaunch
 audit verified all exact requests, both profile renderings and all 1,237 inherited
@@ -29,3 +35,8 @@ the nonpublic protocol, representative synthetic E/V system prompts, all six
 tasks, metadata and fidelity summary. OpenAI receives the synthetic profile
 representation, context and task for each decision. No credentials, prior raw
 answers or human-subject records are included in model messages.
+
+After specific payload/destination approval, execute the SAME frozen command:
+`py -3.11 -B code/phase3_representation_diagnostic.py run --yes`.
+Do not repeat unchanged preparation/tests or regenerate the comparison.
+After completion use `py -3.11 -B code/phase3_representation_diagnostic.py verify`.

@@ -1,5 +1,11 @@
 # Exact disclosure for the E/V representation comparison
 
+Automatic approval review rejected the launch before any new call or charge.
+Its stated reason was that the general go-ahead did not specifically authorise
+export of this new nonpublic protocol and synthetic payload to Anthropic and
+OpenAI. The exact approval scope below remains pending; do not bypass the block.
+The prepared work is complete and the frozen package is unchanged.
+
 The researcher instructed "go ahead" after the recommendation to compare the
 profile with an ordinary-language description. The concrete frozen scope is:
 
