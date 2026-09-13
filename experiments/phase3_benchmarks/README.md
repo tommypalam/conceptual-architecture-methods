@@ -5,6 +5,13 @@ ceiling for tonight's new work, inside the existing $100 package cap. All five
 benchmarks remain in scope. No population benchmark or recognition study has
 started; no ethical-understanding or human-rate result is claimed.
 
+Latest local work: [prospective implementation repairs](resolution_20260913/LOCAL_REPAIRS.md)
+add mechanics for all five families, with nine new tests and 26 Phase 3 tests
+passing. They do not release full stimuli. The next Claude consultation is
+prepared but blocked by automatic approval review pending explicit approval to
+send its private-project packet to Anthropic. No new charge or reservation was
+created; the completed-check accounting below is unchanged.
+
 ## Completed prerequisite checks, 2026-09-13
 
 | Check | Calls | Outcome | Conservative cost |

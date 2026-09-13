@@ -2,6 +2,15 @@
 
 ## Phase 3 preparation started (2026-09-13)
 
+Latest continuation: prospective offline mechanics for all five families pass
+nine new tests (26 Phase 3 tests total). See
+experiments/phase3_benchmarks/resolution_20260913/LOCAL_REPAIRS.md.
+These are reusable mechanics, not released full stimuli or a population study.
+A frozen $0.248127 Claude consultation is pending explicit approval to disclose
+the private spec/protocol/template/check summary to Anthropic. Automatic approval
+review rejected that dispatch; do not bypass it. No additional call or reservation
+was made. Existing $0.0894432 accounting and frozen evidence remain unchanged.
+
 Phase 3 checkpoint: Anthropic authentication verified. One independent Claude
 design review and 36 no-peer perception calls completed. Both image families
 scored 18/18; these are stimulus checks, not human/ethical validation. Conservative

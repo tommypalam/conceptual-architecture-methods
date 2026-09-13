@@ -65,6 +65,15 @@ and the existing 3D browser suite passed; rendering and research data are unchan
 
 ## Phase 3 preparation started (2026-09-13)
 
+Current continuation: [prospective mechanics and remaining release work](experiments/phase3_benchmarks/resolution_20260913/LOCAL_REPAIRS.md).
+All five families have offline mechanics; nine new tests and all 26 Phase 3 tests
+pass. Full stimuli, causal controls and inferential analysis still need review.
+The researcher requested a further Claude consultation to resolve these issues.
+Its exact private-project packet is frozen at a $0.248127 reservation ceiling,
+but automatic approval review blocked disclosure to Anthropic pending specific
+user approval. No request or reservation was created. Continue local preparation;
+do not bypass the rejection or begin a population study from these primitives.
+
 Latest checkpoint: [Phase 3 evidence and next release work](experiments/phase3_benchmarks/README.md).
 Anthropic access works. One independent Claude design review and 36 no-peer
 perception calls completed; line and colour checks each scored 18/18. These are
