@@ -65,6 +65,16 @@ and the existing 3D browser suite passed; rendering and research data are unchan
 
 ## Phase 3: design pilot stopped at structural review (2026-09-13)
 
+The clarified design_pilot_r2 continuation is now implemented, tested and frozen.
+Its one review, conditional N5 probes, dual coding and bounded discussion cost at
+most $0.411347200 new, or $0.415707325 including the stopped attempt. Automatic
+approval review blocked launch before any call: it acknowledged approve continue
+as substantive approval but requires specific revised-payload/destination approval.
+See experiments/phase3_benchmarks/design_pilot_r2/DISCLOSURE.md and its prelaunch
+checkpoint. All652 records and current costs below are unchanged. No collector
+is running. After explicit approval, execute the SAME frozen runner without
+redesign, fresh generation, quotes or repeated unchanged tests. Do not bypass the block.
+
 The specifically approved design_pilot_r1 ran one generation and one independent
 Claude review. The reviewer requested revision because the six-conversation role
 schedule was ambiguous. No recognition or coding calls ran. This is a structural
@@ -118,10 +128,9 @@ Preserve all frozen sources and historical outcomes when designing linked revisi
 
 ## Next work
 
-1. Phase 3: revise the drafting contract using the [stopped-pilot assessment](experiments/phase3_benchmarks/design_pilot_r1/ASSESSMENT.md)
-   and its offline repair proposal. Separate participant wording from engine
-   scheduling; a future candidate needs independent review before recognition.
-   Population remains gated; do not repeat the stopped pilot.
+1. Phase 3: after specific revised-payload approval, run the [verified clarified pilot](experiments/phase3_benchmarks/design_pilot_r2/DISCLOSURE.md).
+   Independent review gates N5 recognition. Do not repeat the stopped first pilot
+   or unchanged prelaunch tests. Population remains gated.
 2. Phase 4: draft and review the dual moral-coding manual and human gold/reliability
    plan. Obtain the required human review before moral scores are assigned.
    Dissent is not automatically bad; proposed safeguards are not realised welfare.

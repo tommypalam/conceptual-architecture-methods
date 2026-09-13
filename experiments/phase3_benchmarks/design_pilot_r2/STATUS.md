@@ -1,4 +1,15 @@
-# Clarified pilot verified and frozen
+# Clarified pilot verified; specific revised-payload approval pending
+
+Automatic approval review blocked paid launch before any call. It acknowledged
+approve continue as substantive authorisation but required specific approval of
+the revised packet's Anthropic/OpenAI destinations. See [DISCLOSURE.md](DISCLOSURE.md)
+and the exact saved review/recognition requests. Do not bypass the block.
+[PRELAUNCH_CHECKPOINT.json](PRELAUNCH_CHECKPOINT.json) confirms zero new calls or
+charges,652 preserved records and unchanged frozen sources. No collector is running.
+After the required specific approval, execute the SAME frozen command; do not
+regenerate the candidate or repeat unchanged prelaunch checks.
+
+## Verified preparation
 
 The researcher approved continuing with the clarified draft. The independent
 review receives the complete six-task packet; recognition and coding proceed

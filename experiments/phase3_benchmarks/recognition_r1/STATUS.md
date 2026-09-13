@@ -1,5 +1,7 @@
 # Recognition complete: all five alternatives rejected
 
+Clarified pilot: [verified continuation and revised-payload approval](../design_pilot_r2/DISCLOSURE.md). Automatic review blocked launch before any new call or charge.
+
 Next-candidate pilot: [stopped at structural review](../design_pilot_r1/ASSESSMENT.md); two calls cost $0.004360125. No recognition calls ran. The earlier approval block is resolved; the original recognition results below remain unchanged.
 
 All500 probes are dual-coded with100% exact rater agreement and no missing

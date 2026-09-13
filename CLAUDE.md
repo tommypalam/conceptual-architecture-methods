@@ -2,6 +2,16 @@
 
 ## Phase 3: design pilot stopped at structural review (2026-09-13)
 
+The clarified design_pilot_r2 continuation is now implemented, tested and frozen.
+Its one review, conditional N5 probes, dual coding and bounded discussion cost at
+most $0.411347200 new, or $0.415707325 including the stopped attempt. Automatic
+approval review blocked launch before any call: it acknowledged approve continue
+as substantive approval but requires specific revised-payload/destination approval.
+See experiments/phase3_benchmarks/design_pilot_r2/DISCLOSURE.md and its prelaunch
+checkpoint. All652 records and current costs below are unchanged. No collector
+is running. After explicit approval, execute the SAME frozen runner without
+redesign, fresh generation, quotes or repeated unchanged tests. Do not bypass the block.
+
 The specifically approved design_pilot_r1 ran one generation and one independent
 Claude review. The reviewer requested revision because the six-conversation role
 schedule was ambiguous. No recognition or coding calls ran. This is a structural
