@@ -1,57 +1,53 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
-## Phase 3: clarified pilot complete; candidate discarded (2026-09-13)
+## Phase 3: canonical context diagnostic ready; disclosure approval pending (2026-09-13)
 
-The explicitly approved design_pilot_r2 completed independent structural review,
-five recognition probes and dual coding. Claude accepted the corrected six-task
-packet with no blocking issues. All five probes named the ultimatum game; both
-raters agreed on all five with no ambiguity or refusal. No discussion was needed.
-The frozen >=2/5 exploratory rule discards this candidate. This is not an N50
-gate result or a human-behaviour test. See
-experiments/phase3_benchmarks/design_pilot_r2/ASSESSMENT.md and CHECKPOINT.json.
+The researcher authorised useful continuation within the existing budgets.
+A separately labelled canonical ultimatum diagnostic is prepared and tested:
+24 fresh profiles/replicate blocks, justice LOW/HIGH contexts, encoded and
+context-only arms, one proposer plus five responder offers, 576 fixed decisions.
+One independent Claude methodological review gates participant collection.
+The maximum new accounting is $4.200345600 under a $4.30 local ceiling.
+See experiments/phase3_benchmarks/context_diagnostic_r2/PROTOCOL.md,
+DISCLOSURE.md and PRELAUNCH_CHECKPOINT.json.
 
-Eight calls cost $0.036588750; including the stopped first pilot, $0.040948875
-against the approved $0.425814400 ceiling. All Phase 3 accounting is $6.144540325:
-Claude $5.988386800 and OpenAI $0.156153525. Remaining room under the $15/$30 caps
-is $9.011613200 and $29.843846475. Package accounting including Phase 2 is
-$29.050613350 under $100. These are conservative estimates, not provider balances.
-The specific disclosure approval was received and the launch block resolved.
-No collector is running, no paid work is queued and no approval is pending.
+This is an explicit exploratory sequencing amendment, not the all-five N200
+primary study, an Appendix A descope or a waiver of failed recognition gates.
+The study estimates context effects and the incremental full profile-package
+effect. It cannot isolate numeric encoding from semantic instructions or
+establish human resemblance, moral quality or ethical understanding. All five
+benchmark families, ten LPM coordinates, Beta marginals and R remain in scope.
 
-Zero-call replay reproduced the results and verified frozen request/source/cost
-links. All 652 inherited records and the stopped-run archive remain intact.
-The ledger contains 660 paid records. All 1,982 members of the new local archive
-passed CRC and SHA-256 checks. Raw data and archives are excluded from Git;
-off-device backup is unverified. Four prelaunch tests passed. Do not rerun this
-candidate or modify frozen sources, manifests, responses or historical checkpoints.
+Automatic approval review rejected the first launch because the broad budget
+approval did not specifically approve sending the new nonpublic protocol and
+synthetic profile/task payloads to Anthropic and OpenAI. No call or charge occurred.
+The specific disclosure remains pending. Do not retry or route around that block.
+After specific approval of the current packet/destinations, execute the SAME
+frozen r2 runner without redesign or repeating unchanged tests/preparation.
 
-The original design_pilot_r1 remains a structural stop: one generation and one
-review cost $0.004360125, with zero recognition observations. Its ambiguous task
-schedule and fenced-review parsing issue were repaired prospectively in r2;
-neither the original evidence nor its disposition was overwritten.
+An offline audit also caught a review-JSON key-order mismatch in the first freeze.
+Its decoded content and all 576 participant requests were unchanged. The separate
+r2 correction uses sorted review serialization and tested saved-file round trips.
+The original source/protocol/requests and zero-spend r1 checkpoint are preserved.
+Four r2 tests passed, including full mock collection and replay, exact saved-file
+reconstruction, missingness, duplicate prevention and preserved failures/no retry.
+Final zero-network verification checked the current freeze and all inherited evidence.
 
-The earlier complete recognition screen remains unchanged: all 500 responses
-were dual-coded with exact agreement; all ten canonical/alternative cells showed
-50/50 recognition. All five alternatives failed the frozen >15/50 gate. See
-experiments/phase3_benchmarks/recognition_r1/execution/transport_r1/ASSESSMENT.md.
-That screen cost $5.687192500, including both preserved failed coding attempts.
-The new N5 pilot is not pooled with those results. Phase 3 remains open;
-population collection is not released.
+The last paid result remains design_pilot_r2: structural acceptance, recognition
+5/5, both raters agreeing, and exploratory candidate discard. It cost $0.036588750,
+or $0.040948875 including its stopped first attempt. The earlier full screen's
+500 dual-coded answers still show 50/50 recognition in every canonical/alternative
+cell; all five alternatives failed the >15/50 gate. New diagnostic data will not
+be pooled with those screens. Phase 3 remains open and formal population collection
+is not released. See experiments/phase3_benchmarks/design_pilot_r2/ASSESSMENT.md.
 
-Next: review the alternative-scenario and contamination-test design offline.
-The schedule repair worked, but this familiar token allocation setting did not
-provide a low-recognition control. Do not fund repeated cosmetic rewording,
-loosen the threshold or delete defining causal rules to conceal a paradigm.
-A substantive change to the validation design requires a documented prospective
-proposal. Recognition cannot distinguish memorisation from structural reasoning;
-these checks do not establish human resemblance, moral quality or ethical understanding.
-
-All five benchmark families, ten LPM coordinates, Beta distributions and R remain
-in scope. Canonical procedures are in
-experiments/phase3_benchmarks/canonical_r2/PROTOCOL.md. High/low contexts, modulators,
-dependency sensitivity and full D=100 trajectory costs still need a feasible
-collection freeze. Phase 3 does not retrospectively fill omitted Phase 2 cells.
-Preserve all frozen sources and historical outcomes when designing linked revisions.
+Current Phase 3 accounting remains $6.144540325: Claude $5.988386800 and OpenAI
+$0.156153525, with $9.011613200/$29.843846475 room under their $15/$30 caps.
+Package accounting including Phase 2 is $29.050613350 under $100. These are
+conservative estimates, not balances. All 660 paid records and the 1,982-member
+archive remain intact. Raw data/archives are excluded from Git; off-device backup
+is unverified. No collector is running. Frozen sources and historical outcomes
+must remain immutable; the next step is the current packet's specific approval.
 
 ## Phase 2 behavioural study complete (2026-09-13)
 
