@@ -1,6 +1,6 @@
 # Phase 3: recognition screen complete, all alternatives rejected
 
-Next diagnostic: [canonical E/U pilot prepared; specific disclosure approval pending](context_diagnostic_r2/DISCLOSURE.md). Maximum new accounting $4.200345600; zero new calls or charges. Four offline tests and saved-file reconstruction passed. Original recognition failures remain unchanged.
+Latest behavioural supplement: [canonical E/U diagnostic complete](context_diagnostic_r2/ASSESSMENT.md). All 576 decisions valid; profile-package difference +50 points at offer 20 in both contexts, primary context interaction zero with wide uncertainty. Cost $0.304161000; zero-call verification passed and 1,237 records are preserved. Original recognition gates remain unmet. No further paid work is queued.
 
 Clarified pilot: [completed and discarded after 5/5 recognition](design_pilot_r2/ASSESSMENT.md). Structural review accepted; both raters agreed. Eight calls cost $0.036588750, or $0.040948875 including the stopped pilot. Zero-call verification passed; 660 records are preserved. No further paid work is queued.
 
@@ -30,9 +30,9 @@ shared structure does not by itself demonstrate memorisation, human resemblance,
 moral quality or ethical understanding. The main thesis questions remain separate.
 
 The complete screen cost $5.687192500 conservatively; the final CONTINUE turn
-added $0.204660500. All Phase 3 accounting including both design pilots is $6.144540325:
-Claude $5.988386800, OpenAI $0.156153525, within the separate $15/$30 caps. Package accounting including
-Phase 2 is $29.050613350 under $100. These are estimates, not provider balances.
+added $0.204660500. All Phase 3 accounting including the completed context diagnostic is $6.448701325:
+Claude $6.007318900, OpenAI $0.441382425, within the separate $15/$30 caps. Package accounting including
+Phase 2 is $29.354774350 under $100. These are estimates, not provider balances.
 
 The original500 probes and28 valid coding batches were reused. An exact replacement
 reproduced an invalid long ID, so a [prospective format amendment](recognition_r1/execution/transport_r1/PROTOCOL.md)
@@ -43,7 +43,7 @@ formats and AI-only raters are explicit limitations; no rubric or answer text ch
 Seven recovery/transport tests and seven existing runtime/analysis checks passed.
 Final real-data replay made zero API calls, reproduced results, checked all frozen
 sources and historical evidence, and verified the1,952-member local archive:
-`output/phase3_recognition_transport_r1_20260913.zip`. The original650 records remain intact; the two design pilots bring the ledger to 660. Raw data and archives are excluded from Git; off-device backup is unverified.
+`output/phase3_recognition_transport_r1_20260913.zip`. The original650 records remain intact; the design pilots and context diagnostic bring the ledger to 1,237. Raw data and archives are excluded from Git; off-device backup is unverified.
 
 ## Evidence and next work
 

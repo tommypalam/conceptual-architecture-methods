@@ -1,6 +1,6 @@
 # Recognition complete: all five alternatives rejected
 
-Next diagnostic: [canonical E/U pilot prepared; specific disclosure approval pending](../context_diagnostic_r2/DISCLOSURE.md). Maximum new accounting $4.200345600; zero new calls or charges. Four offline tests and saved-file reconstruction passed. Original recognition failures remain unchanged.
+Latest behavioural supplement: [canonical E/U diagnostic complete](../context_diagnostic_r2/ASSESSMENT.md). All 576 decisions valid; profile-package difference +50 points at offer 20 in both contexts, primary context interaction zero with wide uncertainty. Cost $0.304161000; zero-call verification passed and 1,237 records are preserved. Original recognition gates remain unmet. No further paid work is queued.
 
 Clarified pilot: [completed and discarded after 5/5 recognition](../design_pilot_r2/ASSESSMENT.md). Structural review accepted; both raters agreed. Eight calls cost $0.036588750, or $0.040948875 including the stopped pilot. Zero-call verification passed; 660 records are preserved. No further paid work is queued.
 

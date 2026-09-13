@@ -1,53 +1,59 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
-## Phase 3: canonical context diagnostic ready; disclosure approval pending (2026-09-13)
+## Phase 3: canonical E/U diagnostic complete and verified (2026-09-13)
 
-The researcher authorised useful continuation within the existing budgets.
-A separately labelled canonical ultimatum diagnostic is prepared and tested:
-24 fresh profiles/replicate blocks, justice LOW/HIGH contexts, encoded and
-context-only arms, one proposer plus five responder offers, 576 fixed decisions.
-One independent Claude methodological review gates participant collection.
-The maximum new accounting is $4.200345600 under a $4.30 local ceiling.
-See experiments/phase3_benchmarks/context_diagnostic_r2/PROTOCOL.md,
-DISCLOSURE.md and PRELAUNCH_CHECKPOINT.json.
+The approved context_diagnostic_r2 completed one accepted Claude review and all
+576 participant decisions, with zero invalid actions. There were 24 matched
+profiles/replicate blocks, two justice contexts, full-profile E/context-only U
+arms and six isolated tasks. See
+experiments/phase3_benchmarks/context_diagnostic_r2/ASSESSMENT.md and CHECKPOINT.json.
 
-This is an explicit exploratory sequencing amendment, not the all-five N200
-primary study, an Appendix A descope or a waiver of failed recognition gates.
-The study estimates context effects and the incremental full profile-package
-effect. It cannot isolate numeric encoding from semantic instructions or
-establish human resemblance, moral quality or ethical understanding. All five
-benchmark families, ten LPM coordinates, Beta marginals and R remain in scope.
+At the prespecified 20-unit offer, E rejected 12/24 (Justice LOW) and 13/24
+(Justice HIGH); U rejected 0/24 and 1/24. E-U was +50 percentage points in each
+context. Both LOW-minus-HIGH context contrasts were -4.2 points; their interaction
+was zero, with bootstrap 95% interval [-20.8,+20.8] points and a much wider
+conservative interval. This is an exploratory profile-package difference, with
+no positive evidence that encoding strengthened the primary context effect.
+The predicted context direction was not observed; uncertainty does not establish
+equivalence or reversal. No significance or human-equivalence claim is made.
 
-Automatic approval review rejected the first launch because the broad budget
-approval did not specifically approve sending the new nonpublic protocol and
-synthetic profile/task payloads to Anthropic and OpenAI. No call or charge occurred.
-The specific disclosure remains pending. Do not retry or route around that block.
-After specific approval of the current packet/destinations, execute the SAME
-frozen r2 runner without redesign or repeating unchanged tests/preparation.
+Report the full grid: U rejection at offer 10 differed 19/24 versus 0/24 across
+contexts, so the primary result does not imply that context never matters.
+All 96 responder grids were complete; five were nonmonotone and retained.
+The profile package includes semantic definitions, values, wording and length;
+its effect does not isolate numeric encoding or establish ethical understanding,
+human resemblance, ten separate trait effects, or moral quality.
 
-An offline audit also caught a review-JSON key-order mismatch in the first freeze.
-Its decoded content and all 576 participant requests were unchanged. The separate
-r2 correction uses sorted review serialization and tested saved-file round trips.
-The original source/protocol/requests and zero-spend r1 checkpoint are preserved.
-Four r2 tests passed, including full mock collection and replay, exact saved-file
-reconstruction, missingness, duplicate prevention and preserved failures/no retry.
-Final zero-network verification checked the current freeze and all inherited evidence.
+The run cost $0.304161000 against the $4.200345600 reservation/$4.30 ceiling.
+Phase 3 accounting is $6.448701325: Claude $6.007318900 and OpenAI $0.441382425.
+Remaining room under the $15/$30 caps is $8.992681100/$29.558617575. Package
+accounting including Phase 2 is $29.354774350 under $100. These are conservative
+usage estimates, not balances. Specific disclosure approval was received and
+the launch block resolved. No collector is running, paid call queued or approval pending.
 
-The last paid result remains design_pilot_r2: structural acceptance, recognition
-5/5, both raters agreeing, and exploratory candidate discard. It cost $0.036588750,
-or $0.040948875 including its stopped first attempt. The earlier full screen's
-500 dual-coded answers still show 50/50 recognition in every canonical/alternative
-cell; all five alternatives failed the >15/50 gate. New diagnostic data will not
-be pooled with those screens. Phase 3 remains open and formal population collection
-is not released. See experiments/phase3_benchmarks/design_pilot_r2/ASSESSMENT.md.
+Four prelaunch tests passed. Real-data replay made zero new API calls and verified
+all 660 inherited records, exact requests, model identifiers, scores, costs and
+the previous archive. The ledger now contains 1,237 records. All 3,713 members
+of the new archive passed CRC and SHA-256 checks. Raw data/archives are excluded
+from Git; off-device backup is unverified. Preserve all frozen sources, requests,
+raw records and historical checkpoints, including the first no-spend diagnostic
+freeze and its prospectively repaired review serialization.
 
-Current Phase 3 accounting remains $6.144540325: Claude $5.988386800 and OpenAI
-$0.156153525, with $9.011613200/$29.843846475 room under their $15/$30 caps.
-Package accounting including Phase 2 is $29.050613350 under $100. These are
-conservative estimates, not balances. All 660 paid records and the 1,982-member
-archive remain intact. Raw data/archives are excluded from Git; off-device backup
-is unverified. No collector is running. Frozen sources and historical outcomes
-must remain immutable; the next step is the current packet's specific approval.
+This canonical-only exploratory supplement does not pass the original Phase 3
+gate or replace its all-five N200 study. All 500 earlier recognition responses
+remain dual-coded with exact agreement; every canonical/alternative cell was
+recognised 50/50 and all five alternatives failed the >15/50 gate. The later
+allocation candidate remains discarded after 5/5 recognition. These datasets
+are not pooled. All five benchmark families, ten LPM coordinates, Beta marginals
+and R remain in scope; formal population collection is not released.
+
+Next: specify a matched ordinary-language representation control before
+collecting a larger sample. Freeze a faithful translation of the same values,
+independently check its fidelity, and keep tasks/context fixed. Do not invent
+new trait-action rules or convert this package effect into numeric specificity.
+The formal low-recognition alternative and remaining benchmark/modulator/
+dependency-sensitivity requirements remain unresolved. No follow-up is frozen
+or queued by this assessment.
 
 ## Phase 2 behavioural study complete (2026-09-13)
 
