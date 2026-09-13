@@ -1,4 +1,18 @@
-# Linked recovery frozen and verified; ready to run
+# Exact replacement stopped; short-ID revision follows
+
+The single authorised replacement ran and reproduced the exact original typo:
+`4a33034c17c6a89c` instead of `4a33034c17c6a89a`. No valid coding was added.
+The full $0.031920900 reservation is retained; this is not an approval block.
+All578 paid records and1,736 archive members were verified with zero new calls;
+see [CHECKPOINT.json](CHECKPOINT.json). The older checkpoint/archive remain intact.
+Screening accounting is now $5.514452900, Phase3 $5.930851850, package
+$28.836924875. Claude total $5.873242100; OpenAI total $0.057609750.
+
+The active task is the prospective [short-ID repair](../transport_r1/PROTOCOL.md).
+It changes only arbitrary within-batch IDs; no new probes, rubric or item-order
+changes. Do not retry this exact replacement or overwrite either failed response.
+
+## Historical prelaunch validation
 
 The researcher instructed CONTINUE after the stopped-run assessment. The exact
 linked recovery is implemented and frozen; no extra approval is needed for this
