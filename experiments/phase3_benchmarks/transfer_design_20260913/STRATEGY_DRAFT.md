@@ -155,8 +155,9 @@ The intended paper builds four connected layers of evidence:
    transfer test. The replay viewer can make this result inspectable.
 4. **Moral decisions and consequences:** a central fresh experiment tests helpful
    and harmful actions, their costs and simulated outcomes under the existing dual
-   moral standard. Prepare measurement in parallel with transfer; retain human
-   validation and examine active good as well as avoidance of violations.
+   moral standard. Prepare measurement in parallel with transfer; human raters
+   are now deferred under the researcher's no-budget amendment. Examine active
+   good as well as avoidance of violations using explicit AI-assisted scoring.
 
 A second theoretically distinct coordinate and joint interventions would strengthen
 an architectural claim. Select it prospectively using theory and the complete
@@ -186,7 +187,7 @@ appropriate institutional review and participant compensation need a separate
 plan. A small convenience sample would be exploratory, not human validation of
 the entire architecture. No participants are contacted by this proposal.
 
-For the central good/bad experiment, retain the Phase 4 human-reviewed coding requirement.
+For the central good/bad experiment, use the amended Phase 4 AI-assisted coding scope.
 Neither procedural fidelity nor profile fidelity is automatically morally good.
 If later simulations have explicit state transitions and payoffs, report the
 defined outcomes directly and distinguish them from morally weighted judgments.
@@ -203,7 +204,7 @@ not checked provider wallet balances or a new allocation to exhaust.
 | Offline design | Source-to-prediction table, stimuli, task-validity rubric, baseline templates and competing predictions | $0 |
 | Small pilot | Two new settings; 12 fresh background/sampling blocks; full 2x2 conditions and E/V/S/U | $2 total, including review |
 | Fresh confirmation | Held-out settings and fresh blocks; sample chosen by prospective precision/power simulation | Up to $8, only if a defensible design fits |
-| Moral capstone preparation | Manual, human validation plan and matched consequential scenarios, developed alongside transfer | Protect $4 Claude/$10 OpenAI within existing allowances; exact costs unresolved |
+| Moral capstone preparation | Manual, independent AI measurement checks and matched consequential scenarios, developed alongside transfer; human raters deferred | Protect $4 Claude/$10 OpenAI within existing allowances; exact costs unresolved |
 | Additional validation | Targeted second-model, specificity or group test chosen by the remaining claim gap | Separate proposal that preserves the moral-study reserve |
 
 Pilot arithmetic: `12 blocks x 2 settings x 4 P/O cells x (2 E + 2 V + 2 S + 1 U)

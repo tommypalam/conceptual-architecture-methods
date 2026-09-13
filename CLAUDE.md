@@ -1,6 +1,31 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Transfer pilot complete; AI-assisted moral preparation (2026-09-13)
+
+The frozen transfer_pilot_r1 completed one accepted Claude review and 448/448 valid
+participant responses, costing $0.302339400. Full-profile process/outcome contrasts
+were inconsistent across two related settings; the PD-only arm showed larger
+descriptive shifts. All responses opposed the secretly preferential procedure,
+creating a floor that limits interpretation. Do not enlarge this packet into a
+confirmation by default. See its ASSESSMENT.md; original Phase 3 remains unresolved.
+Zero-call replay preserved 1,814 prior records; 2,263 ledger records and 6,791 archive
+members are verified. Current provider accounting: Claude $6.056865100/$15 and
+OpenAI $1.103860725/$30; package $30.066798850/$100. No collector is running.
+
+The moral manual is drafted, with four passing offline schema/aggregation tests.
+These checks establish software behavior, not moral validity. Complete task-specific
+rule maps and independent AI review before freezing a moral pilot. No moral scores
+have been assigned. Human raters are deferred as explicitly directed below.
+
 ## Exploratory implementation and central moral experiment (2026-09-13)
+
+Current amendment: the researcher ruled out human raters because no budget is
+available. Human manual review and human-coded validation are deferred, not gates
+for current completion. Phase 4 proceeds as AI-assisted moral evaluation with a
+versioned rubric, independent provider judgments, factual checks and visible
+disagreements. See experiments/phase4_coding/AI_ONLY_SCOPE_20260913.md. This explicit
+instruction supersedes conflicting human-rater requirements below; do not reopen
+that request. No human moral-consensus or human-validation claim is permitted.
 
 The researcher explicitly authorised revising the implementation as an exploratory
 thesis and keeping good/bad decisions central to the final experiment. Current
@@ -8,11 +33,12 @@ forward-looking policy is Theory/implementation_specification_v0_2.md; the origi
 v0.1 and frozen studies remain intact. Prepare Phase 4 measurement alongside transfer
 work and use experiments/phase4_coding/CAPSTONE_DESIGN_DRAFT_20260913.md for the
 central consequential-choice experiment. Keep the dual relative/fixed taxonomy,
-human manual review and held-out measurement validation. No moral labels or new
-manual are approved yet. Research questions may evolve between documented batches;
+independent AI manual review and held-out measurement checks. The manual remains
+a draft until prospectively frozen. Research questions may evolve between documented batches;
 do not retrofit hypotheses, alter old results or call exploration confirmation.
 Protect a planning reserve of $4 Claude/$10 OpenAI within existing allowances for
-the moral study; no new funding or provider balance is implied. No paid calls ran.
+the moral study; no new funding or provider balance is implied. Current run status
+belongs in NEXT_STEPS.md.
 
 ## Transfer research strategy drafted (2026-09-13)
 
@@ -299,9 +325,14 @@ The metric architecture is specified; the coding manual and empirical reliabilit
 - **Fixed-standard 4-vector:** harm / deception / coercion / unfairness avoidance, configuration-independent.
 - **Headline binary** B(v_a): strict-OR (any negative → not-good; ≥1 positive and no negative → good; else neutral), with net-score and weighted (w_n = 1.5) robustness aggregations.
 - **Principled resistance is a positive trigger** (refusal of illegitimate directive, whistleblowing, welfare-preserving disobedience, principled noncompliance with harmful consensus) — never code dissent as a violation by default.
-- Coding: Phase A LLM-rater + Phase B human gold subset (10–20 %, MTurk, blind to configuration). κ ≥ 0.60 per category; PABAK alongside; ≤ 3 revision rounds per category.
+- Current coding scope: two independent provider judges, blinded study-arm/profile
+  information, explicit evidence sources and factual checks. Human gold-subset
+  validation is deferred by the researcher's 2026-09-13 instruction. AI agreement
+  must not be presented as human validation or moral truth.
 
-The coding manual itself is still to be drafted and pre-registered before Phase 2 — that work requires panel review and human sign-off.
+The manual is a development draft at experiments/phase4_coding/manual_r1/MANUAL_DRAFT.md.
+Review and freeze it before new capstone collection. Human sign-off is not a gate
+under the current amendment; original Phase 2 timing requirements are historical.
 
 ---
 

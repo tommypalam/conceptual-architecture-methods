@@ -23,6 +23,15 @@ study documents rather than silently changing that historical theory text.
 
 ## Three central questions
 
+**Scope amendment, 13 September 2026:** the researcher explicitly ruled out
+human raters because no funding is available. The current Phase 4 deliverable is
+therefore AI-assisted moral evaluation with a prospectively frozen manual,
+independent provider judgments and checks against recorded scenario facts.
+Human manual review and human-coded validation are deferred, not completion gates
+for this amended scope. This supersedes the earlier human-rating requirements in
+this version and in forward-looking project guidance; historical protocols stay
+unchanged. See the [scope record](../experiments/phase4_coding/AI_ONLY_SCOPE_20260913.md).
+
 1. Can normative representations produce interpretable, selective and transferable
    differences in generated behaviour?
 2. Where does that behaviour resemble or diverge from comparable human behaviour?
@@ -75,9 +84,9 @@ still follow their applicable requirements.
 | Stage | Purpose and output | Status |
 |---|---|---|
 | Existing Phases 0–2 and Phase 1.5 | Establish the platform and limited behavioural effects, retaining amended scope and failed original gates | Completed as documented, not reopened |
-| Phase 3A: transfer and interpretation | New situations, competing explanations, simpler controls and held-out prediction where justified | Design underway |
+| Phase 3A: transfer and interpretation | New situations, competing explanations, simpler controls and held-out prediction where justified | r1 evaluation pilot complete; mixed results and procedural rejection floor; consequential-task redesign needed |
 | Phase 3B: human behavioural comparison | Comparable human evidence; original five benchmark families remain visible with recognition failures | Unresolved; no replacement gate silently adopted |
-| Phase 4A: moral measurement preparation | Draft manual, human review, calibration cases, blind coding and validation plan | Prepare alongside Phase 3A |
+| Phase 4A: moral measurement preparation | Draft manual, independent AI review, calibration cases, blind coding and factual checks | Manual and offline schema drafted; task maps and independent review pending; human raters deferred |
 | Phase 4B: moral decisions and consequences | Fresh matched individual/group situations with consequential choices and the dual moral evaluation | Central culminating experiment; protocol and funding not yet fixed |
 | Phase 5: integrated analysis | Relate representations, behaviour, human resemblance and moral outcomes; report sensitivity and failure cases | Follows available evidence |
 | Phase 6: paper and release | A coherent exploratory paper, auditable evidence and explicit limits | Develop throughout; finalise after capstone |
@@ -85,8 +94,8 @@ still follow their applicable requirements.
 Phase 4B extends the original plan, which mainly scored previously collected
 actions, with a prospective consequential-choice experiment. It does not replace
 the coding of existing evidence or retrospectively complete formal Phase 3.
-Human-rate validation is not a blanket prerequisite for exploring moral outcomes,
-but human moral-measurement validation remains necessary for validated moral claims.
+AI-assisted moral evaluation can complete the amended scope. It does not establish
+human-validated moral judgments, human consensus or human behavioural resemblance.
 
 ## Central moral experiment requirements
 
@@ -107,28 +116,28 @@ information available when it was chosen, and independently recorded state chang
 Attribute positive benefit or harm only when supported by the scenario/transition
 model; these are simulated consequences, not measured real-world welfare.
 
-The coding manual still requires human review. The exploratory-policy amendment
-does not waive that requirement or approve a not-yet-written manual. No moral
-scores are assigned by this specification. Separate development/calibration items
-from a held-out human-coded validation sample and retain disagreements. Do not tune
-the manual and evaluate its final reliability on the same items without disclosure.
+Freeze the coding manual after independent AI review and development calibration,
+before collecting the new capstone responses. Separate development items from
+held-out measurement checks and retain both original judgments and disagreements.
+Check observable claims against the transition model; do not use judge agreement
+as a substitute for factual correctness or ethical validity. No moral scores are
+assigned by this specification. Human validation is explicitly deferred.
 
-## Feasible human validation and budget
+## AI-assisted evaluation and budget
 
-The original v0.1 proposal for thousands of MTurk items is not an instruction to
-spend thousands of dollars. A smaller, explicitly scoped human-review design may
-replace its fixed sample/platform requirements prospectively. Qualified reviewers,
-item coverage, number of independent ratings, conflict handling, reliability
-estimation and uncertainty must be specified before launch. Convenience sampling
-does not justify population-wide moral-consensus claims. No specific reduced
-sample, rater count or payment is approved by this document.
+The original v0.1 MTurk plan is deferred under the researcher's no-human-rater
+instruction. Specify two independently prompted provider judges, item coverage,
+blinding, evidence requirements, disagreement handling and uncertainty before
+launch. Do not call either judge a gold standard, silently replace disagreements
+with consensus, or claim that agreement validates the moral taxonomy. Factual
+outcome measures and rubric-dependent judgments remain separate outputs.
 
 Reserve research capacity for Phase 4B before extending Phase 3. As a planning
 constraint, protect at least $4 of remaining Claude allowance and $10 of remaining
 OpenAI allowance for moral-study preparation/collection, pending exact quotes and
 wallet verification. These are portions of existing ceilings, not new spending
-authority or proof that the capstone will fit. Human participation is a separate
-unfunded item until a feasible arrangement is established; never assume free labour.
+authority or proof that the capstone will fit. No human participation, recruitment
+or unpaid labour is planned within the present scope.
 
 Current recorded ceilings remain $15 Claude, $30 OpenAI for the current Phase 3
 allocation and $100 for the new Phase 2+3 package. Carry all charges forward when
@@ -147,12 +156,13 @@ serve the moral question without treating prompt behaviour as internal ethics.
 Okafor reserves resources for a feasible consequential simulation with inspectable
 actions and state changes. This is internal design review, not external approval.
 
-The principal trade-off is breadth versus the precision and cost of human grounding.
-Resolution: narrow the capstone's claims and sample transparently if needed;
-preserve its central status and human-validation requirement. Neither abandon the
-moral experiment silently nor buy a broad study that cannot be validly evaluated.
+The original review above preceded the no-human-rater instruction. The updated
+five-perspective review is in the scope record. Resolution: preserve the central
+moral experiment, remove the infeasible human-rating gate, and narrow the claims
+to transparent AI-assisted judgments under explicit standards. External human
+grounding remains a limitation and possible future extension.
 
-Documentation verification: 84 local links across the revised specification,
+Verification of the preceding revision: 84 local links across the revised specification,
 strategy, capstone and navigation documents resolve. The companion constitutions
 match apart from their title filenames, and `git diff --check` passes. Original
 specification v0.1 and thesis v0.6 are byte-unchanged in this revision. No experiment

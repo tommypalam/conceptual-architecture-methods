@@ -37,7 +37,9 @@ individual profile/context contrasts and one of seven secondary group contrasts
 passed their respective multiple-test corrections. Read the
 [Phase 2 assessment](experiments/phase2_confirmation_20260913/ASSESSMENT.md).
 Combined pilot-plus-confirmation accounting is $22.91, below the $100 cap.
-Human benchmarking and validated moral scoring remain Phases 3 and 4. The
+Human benchmarking remains unresolved. Phase 4 now plans AI-assisted moral scoring
+under explicit standards; human raters are deferred at the researcher's request.
+See the [scope amendment](experiments/phase4_coding/AI_ONLY_SCOPE_20260913.md). The
 original full ten-environment Phase 2 design is not claimed complete.
 
 ## Watch the agents interact

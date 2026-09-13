@@ -19,6 +19,12 @@ plan before Phase 2 are superseded by the recorded study-specific protocols and
 amendments. None of this changes earlier tests or retrospectively preregisters them.
 No new coding manual or paid collection is approved by this status update.
 
+Later 13 September amendment: the researcher ruled out human raters for budget
+reasons. The [AI-assisted scope](../experiments/phase4_coding/AI_ONLY_SCOPE_20260913.md)
+supersedes human-rating completion prerequisites. It keeps the central moral
+experiment, prospective manual freezes, independent AI coding and factual checks;
+human validation and human-consensus claims are deferred.
+
 2026-09-12 continuation: the researcher authorised expedited Phase 2 design work
 under a $100 absolute API cap. The [revised design proposal](../experiments/phase2_design_20260912/PROTOCOL_DRAFT.md)
 specifies scope, matched controls, implementation findings and outstanding review.

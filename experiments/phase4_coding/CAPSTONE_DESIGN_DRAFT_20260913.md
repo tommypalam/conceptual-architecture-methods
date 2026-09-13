@@ -1,6 +1,10 @@
 # Moral decisions and consequences: central experiment
 
-13 September 2026 · Design brief, not a coding manual or paid protocol
+13 September 2026 · Design brief, not a frozen paid protocol
+
+Current amendment: human raters are deferred at the researcher's explicit request.
+This brief now describes AI-assisted moral evaluation. See the
+[scope record](AI_ONLY_SCOPE_20260913.md) and [draft manual](manual_r1/MANUAL_DRAFT.md).
 
 ## Purpose
 
@@ -60,7 +64,7 @@ researcher's encoding-versus-filter question. Its access to information, handlin
 of blocked actions, opportunity to revise and total model-call budget must be
 specified and matched fairly. Without that comparison, report generation-time
 intervention placement but make no claim of outperforming filtering. Final arms,
-sample sizes and resources depend on the exact quote and human-validation scope.
+sample sizes and resources depend on the exact quote and AI measurement scope.
 
 Include matched individual and group conditions where feasible. Independent votes
 versus deliberation can test whether discussion changes harmful or helpful
@@ -75,7 +79,7 @@ power-seeking, deception, disutility, ethical violations, appropriate authority 
 honest disclosure, welfare promotion and principled compliance under cost. Also
 retain the four fixed-standard categories: harm, deception, coercion and unfairness
 avoidance. Full definitions, evidence rules and edge cases belong in the future
-human-reviewed manual, not in this design brief.
+versioned coding manual, not in this design brief.
 
 Report both vectors and their original headline aggregations separately. The
 fixed-standard all-four-upheld headline measures avoiding specified violations;
@@ -96,7 +100,7 @@ remain to be validated. [Pan et al., 2023](https://arxiv.org/abs/2304.03279)
 
 ## Independent measurement
 
-Draft and human-review the manual before the new capstone responses are collected.
+Draft, independently AI-review and freeze the manual before the new capstone responses are collected.
 Use authored or explicitly designated development examples for rubric calibration.
 If older Phase 2 responses are used, record that exposure and exclude those items
 from any claimed held-out validation of the developed rubric.
@@ -107,9 +111,9 @@ scoring requires the applicable institutional facts even when the configuration
 ID is hidden; fixed-standard raters must use the same standards across conditions.
 Do not remove factual context so aggressively that the action becomes unjudgeable.
 
-Use independent AI coding only alongside a scoped human validation sample.
+Use two independently prompted provider judges; human validation is deferred.
 Report category prevalence, agreement and uncertainty, positive and negative
-agreement where useful, and AI-versus-human discrepancies. Freeze the reliability
+agreement where useful, and each judge's disagreements with recorded facts. Freeze the reliability
 criterion and escalation rules before validation; do not lower them after failure.
 Do not repeatedly revise the manual on the held-out items and call the same items
 an untouched gold set. Disagreement and unscorable outcomes remain visible.
@@ -129,21 +133,21 @@ predicted. Any subsequently selected central effect gets fresh confirmation if
 presented as confirmed. Stronger moral outcomes are not a required result for an
 informative thesis; clear evidence of harm or a competence/morality trade-off matters.
 
-The capstone is complete only when the scoped collection, human measurement checks,
+The amended capstone is complete only when the scoped collection, AI measurement checks,
 all-results report, uncertainty analysis and reproducible archive are complete.
-If human grounding cannot be funded or arranged, report an unvalidated exploratory
-moral study and the unmet requirement; do not silently replace humans with more AI
-ratings or describe this central experiment as fully validated.
+Report it as an exploratory AI-assisted moral study with no human validation.
+Completing this amended scope does not establish human moral consensus or validate
+the taxonomy merely through AI agreement. Do not reopen the deferred human gate.
 
 ## Next deliverables
 
 1. Trace the proposed categories to the actual source instruments and distinguish
    their validated constructs from our new action-coding uses.
-2. Prepare the human-reviewed manual, calibration/validation split and feasible
-   rater plan, with explicitly costed recruitment or institutional participation.
+2. Prepare the versioned manual, calibration/held-out check split and independent
+   AI coding plan with exact costs and factual consistency checks.
 3. Build fresh task states, candidate actions, transition rules and matched arms.
-4. Freeze a small pilot with exact API and human costs, preserving the capstone
+4. Freeze a small pilot with exact API costs, preserving the capstone
    reserve specified in implementation v0.2. No current paid release exists.
 
-The synthetic five-perspective review in implementation v0.2 covers this design
-brief. It does not constitute the required human review of the future coding manual.
+The synthetic five-perspective reviews in implementation v0.2 and the scope record
+cover this design brief. Neither constitutes external expert or human validation.

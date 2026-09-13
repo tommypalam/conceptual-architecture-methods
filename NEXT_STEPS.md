@@ -14,12 +14,14 @@ must remain central, and authorised an adaptive exploratory implementation.
 forward-looking policy, preserving v0.1 and all frozen studies. The
 [central moral experiment brief](experiments/phase4_coding/CAPSTONE_DESIGN_DRAFT_20260913.md)
 retains the eight-category relative and four-category fixed-standard evaluation,
-adds prospective consequential-choice collection, and keeps human manual review
-and measurement validation required. Prepare the manual/validation plan alongside
+adds prospective consequential-choice collection, and now defers human raters
+under the researcher's explicit no-budget instruction. See the
+[AI-only amendment](experiments/phase4_coding/AI_ONLY_SCOPE_20260913.md).
+Prepare the versioned manual and independent AI measurement checks alongside
 the transfer packet. Protect a planning reserve of $4 Claude and $10 OpenAI within
 existing allowances for this capstone; this is not a quote or extra funding.
-Human participation remains separately uncosted. No moral scores or paid calls
-were produced. The thesis may develop hypotheses during exploration; confirmation
+Human participation is outside current scope. No moral scores have been assigned.
+The thesis may develop hypotheses during exploration; confirmation
 claims still require separately planned fresh tests.
 
 On `research-transfer-design-20260913`, the researcher requested a more ambitious,
@@ -27,11 +29,34 @@ scientifically distinctive direction. The [transfer strategy draft](experiments/
 proposes selective process/outcome trade-offs, prediction on held-out situations
 and subsequent group validation, grounded in the existing PD theory and a scoped
 literature comparison. It includes E/V/S/U controls, candidate estimand, a
-672-decision pilot sizing example and a proposed $2 pilot ceiling. No quote,
-task packet, confirmatory N or paid release is frozen. No new API calls were made.
+672-decision pilot sizing example and a proposed $2 pilot ceiling. The exact
+[r1 protocol](experiments/phase3_benchmarks/transfer_pilot_r1/PROTOCOL.md) now freezes
+eight blocks, 448 participant calls and one Claude review at a maximum $1.7853165.
+Four offline tests passed; prelaunch freeze is `f749a393`. The pilot is now complete:
+one accepted Claude review, 448/448 valid participant decisions, $0.302339400.
+See the [assessment](experiments/phase3_benchmarks/transfer_pilot_r1/ASSESSMENT.md).
+Every response opposed the secretly preferential procedure. Full-profile trade-off
+effects were inconsistent across the two settings; PD-only shifts were descriptively
+larger. This is not confirmation, numerical superiority or a formal Phase 3 pass.
 All ten coordinates and original benchmark failures remain in the record; no
-formal Phase 3 replacement or new moral-coding rule was adopted. Next: prepare
-the exact task-validity and pilot packet before collection.
+formal Phase 3 replacement is implied. Zero-call replay preserved all 1,814 earlier
+records; the ledger now has 2,263 records and all 6,791 archive members passed checks.
+No collector is running or paid follow-up queued. The original task should not be
+scaled automatically: its saturation limits discrimination of competing explanations.
+
+Current cumulative accounting: Claude $6.056865100/$15; OpenAI $1.103860725/$30;
+Phase 2+3 package $30.066798850/$100. These are usage estimates, not wallet balances.
+The moral-study reserve remains intact. Raw archives are local; off-device backup
+is unverified.
+
+The [moral manual draft](experiments/phase4_coding/manual_r1/MANUAL_DRAFT.md) now
+specifies all twelve categories, evidence rules, harmful omissions, mixed cases,
+unknowns and independent-judge disagreement. Offline schema/aggregation code in
+`code/phase4_moral_schema.py` passed four tests. It validates structure and evidence
+references, not factual truth or moral validity; no agent actions have been morally
+scored. Next: complete explicit consequential-task rule maps and independent AI
+manual review, then freeze a small moral pilot with exact costs and measurement
+stopping rules. Human raters are outside the current scope and are not a blocker.
 
 ## Phase 2 behavioural study complete (2026-09-13)
 
