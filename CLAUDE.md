@@ -2,6 +2,15 @@
 
 ## Consequential moral pilot preparation (2026-09-13)
 
+Current status: r1 was screened out after one accepted review and 32 ratings,
+costing $0.512428950; zero participants ran. Preserve its 13 measurement failures
+and the distinction between explanations and contradictory numeric labels.
+R2 is separately designated, uses atomic named labels and new development cases,
+and retains the same moral definitions and zero-failure measurement threshold.
+Its reservation plus actual r1 charges is $2.698311825 within the shared $4 ceiling.
+Current accounting is Claude $6.489798700/$15, OpenAI $1.183356075/$30, package
+$30.579227800/$100. See both phase assessments/protocols and NEXT_STEPS.md.
+
 The researcher instructed proceeding with the next implementation step. The
 consequence_pilot_r1 protocol and scoped manual define 96 prospective individual
 choices (six backgrounds, four tasks, E/V/U/G) with deterministic effects and

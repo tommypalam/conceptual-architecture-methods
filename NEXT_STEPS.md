@@ -8,8 +8,19 @@ and verification. Continue future implementation on a development branch.
 
 ## Current design work: a stronger paper contribution
 
-The next authorized work is the small
-[consequential moral pilot r1](experiments/phase4_coding/consequence_pilot_r1/PROTOCOL.md).
+Current continuation is the separately designated
+[consequential moral pilot r2](experiments/phase4_coding/consequence_pilot_r2/PROTOCOL.md).
+The [r1 assessment](experiments/phase4_coding/consequence_pilot_r1/ASSESSMENT.md)
+records a failed measurement gate after 33 calls ($0.512428950), with zero
+participant decisions. Its 13 check failures include numeric labels contradicting
+their own evidence and an uncertainty error. All r1 ratings remain unchanged.
+R2 uses one named label per category, deterministic conversion to the same vectors,
+explicit missing-fact logic and new development checks. The measurement threshold
+is unchanged. Its $2.185882875 full reservation plus r1 cost totals $2.698311825,
+within the shared $4 ceiling. No participant run is released by a failed check.
+
+The original [r1 protocol](experiments/phase4_coding/consequence_pilot_r1/PROTOCOL.md)
+and scoped manual remain frozen historical evidence.
 Its scoped manual and explicit transition model cover costly disclosure and
 equal-receipt/total-output trade-offs. Six fresh backgrounds, four tasks and E/V/U/G
 arms give 96 participant choices. One Claude review and 32 independent coding calls
@@ -21,7 +32,12 @@ historical preservation, measurement/review stops and provider/size guards. A
 1 KB inherited transport limit was caught and corrected before spending; the new
 separate transport supports evidence-backed ratings and keeps the old audit and
 no-retry behavior. Unused prelaunch artifacts are preserved in the pilot folder.
-The reviewed protocol will control collection after the prelaunch commit.
+R1 was frozen at `fe2a44bc`, reviewed, screened out and archived. Zero-call replay
+preserved its 2,263 inherited records; the ledger now has 2,296 records and 6,890
+archive members. Current accounting: Claude $6.489798700/$15; OpenAI
+$1.183356075/$30; package $30.579227800/$100. These are usage estimates, not balances.
+R2 will undergo its own offline tests, freeze, independent review and measurement
+checks before participants. Neither round completes full Phase 4 or human validation.
 
 The researcher subsequently clarified that good/bad decisions and consequences
 must remain central, and authorised an adaptive exploratory implementation.

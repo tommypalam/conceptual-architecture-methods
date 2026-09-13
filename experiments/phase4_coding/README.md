@@ -10,6 +10,8 @@ experiment remains central; no human-validation or moral-consensus claim follows
 | [General manual draft](manual_r1/MANUAL_DRAFT.md) | Broad twelve-category taxonomy, provenance and unresolved scope |
 | [First consequential pilot](consequence_pilot_r1/PROTOCOL.md) | Small individual workflow test, controls, checks and exact stopping rules |
 | [Scoped pilot manual](consequence_pilot_r1/MANUAL.md) | Frozen category rules for explicit finite action outcomes |
+| [R1 measurement failure](consequence_pilot_r1/ASSESSMENT.md) | Preserved coding failures; zero participant calls |
+| [Revised pilot r2](consequence_pilot_r2/PROTOCOL.md) | Named-label interface, unchanged standards and new development checks |
 
 Use [NEXT_STEPS.md](../../NEXT_STEPS.md) for current execution and cumulative
 accounting. Earlier behavioural phases remain unaltered. A pilot completion is
