@@ -13,7 +13,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 
 def report(study='consequence_pilot_r1'):
-    if study not in ('consequence_pilot_r1','consequence_pilot_r2'):raise ValueError('Unknown study')
+    if study not in ('consequence_pilot_r1','consequence_pilot_r2','consequence_pilot_r3'):raise ValueError('Unknown study')
     FOLDER=ROOT/'experiments/phase4_coding'/study
     results=read_checked(FOLDER/'results.json');checkpoint=read_checked(FOLDER/'CHECKPOINT.json')
     assert results['accounted_nano']==checkpoint['study_accounted_nano']

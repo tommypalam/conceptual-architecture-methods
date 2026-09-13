@@ -12,6 +12,8 @@ experiment remains central; no human-validation or moral-consensus claim follows
 | [Scoped pilot manual](consequence_pilot_r1/MANUAL.md) | Frozen category rules for explicit finite action outcomes |
 | [R1 measurement failure](consequence_pilot_r1/ASSESSMENT.md) | Preserved coding failures; zero participant calls |
 | [Revised pilot r2](consequence_pilot_r2/PROTOCOL.md) | Named-label interface, unchanged standards and new development checks |
+| [R2 review stop](consequence_pilot_r2/ASSESSMENT.md) | Preserved review requests; no coding or participants |
+| [Pilot r3](consequence_pilot_r3/PROTOCOL.md) | Explicit estimands and attribution, exact gates, original-case regressions |
 
 Use [NEXT_STEPS.md](../../NEXT_STEPS.md) for current execution and cumulative
 accounting. Earlier behavioural phases remain unaltered. A pilot completion is

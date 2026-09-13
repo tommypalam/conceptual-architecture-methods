@@ -2,6 +2,13 @@
 
 ## Consequential moral pilot preparation (2026-09-13)
 
+14 September continuation: r2 stopped after one $0.038352600 review, without coding
+or participants. R3 formalizes estimands, attribution and blocking criteria, and
+adds all original r1 regression cases to its 40-rating gate before 96 conditional
+participant choices. Its $2.647544625 reservation plus r1+r2 actual charges is
+$3.198326175 within the same $4 ceiling. The date change does not reset budgets.
+See consequence_pilot_r3/PROTOCOL.md and the preserved r1/r2 assessments.
+
 Current status: r1 was screened out after one accepted review and 32 ratings,
 costing $0.512428950; zero participants ran. Preserve its 13 measurement failures
 and the distinction between explanations and contradictory numeric labels.

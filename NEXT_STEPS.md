@@ -9,7 +9,15 @@ and verification. Continue future implementation on a development branch.
 ## Current design work: a stronger paper contribution
 
 Current continuation is the separately designated
-[consequential moral pilot r2](experiments/phase4_coding/consequence_pilot_r2/PROTOCOL.md).
+[consequential moral pilot r3](experiments/phase4_coding/consequence_pilot_r3/PROTOCOL.md).
+R2 stopped at independent review after one $0.038352600 call, without coding or
+participants; see its [assessment](experiments/phase4_coding/consequence_pilot_r2/ASSESSMENT.md).
+R3 formalizes the paired estimands, action-rating attribution and exact blocking
+criteria, and retests all original r1 cases alongside the newer checks. Forty
+ratings plus one review precede 96 conditional participant calls. Full r3
+reservation $2.647544625 plus r1+r2 charges $0.550781550 totals $3.198326175 within
+the unchanged $4 development ceiling. The 14 September continuation does not
+reset the provider/package budgets; original source/date labels stay preserved.
 The [r1 assessment](experiments/phase4_coding/consequence_pilot_r1/ASSESSMENT.md)
 records a failed measurement gate after 33 calls ($0.512428950), with zero
 participant decisions. Its 13 check failures include numeric labels contradicting
@@ -36,8 +44,9 @@ R1 was frozen at `fe2a44bc`, reviewed, screened out and archived. Zero-call repl
 preserved its 2,263 inherited records; the ledger now has 2,296 records and 6,890
 archive members. Current accounting: Claude $6.489798700/$15; OpenAI
 $1.183356075/$30; package $30.579227800/$100. These are usage estimates, not balances.
-R2 will undergo its own offline tests, freeze, independent review and measurement
-checks before participants. Neither round completes full Phase 4 or human validation.
+R2 passed six offline tests and was frozen at `4527dcfd`, then stopped at review.
+R3 must pass its expanded offline checks and independent gates before participants.
+No round completes full Phase 4 or human validation merely by passing its pilot.
 
 The researcher subsequently clarified that good/bad decisions and consequences
 must remain central, and authorised an adaptive exploratory implementation.
