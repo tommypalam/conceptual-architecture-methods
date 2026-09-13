@@ -1,0 +1,115 @@
+# PARIA simulation theatre
+
+A local visual replay of the **completed Phase 2 confirmation**, with all 300
+recorded group runs. No new generations, profile changes or API spending.
+
+From the repository root, run:
+
+```powershell
+py -3.11 -B code/serve_replay.py
+```
+
+Open **http://127.0.0.1:8765**. Stop the server with Ctrl+C. Use `--port 8766`
+if another process occupies the default port. The launcher uses the existing
+Python research dependencies (NumPy/SciPy) and, if present, the local
+`output/phase2_runtime` target. The UI needs no JavaScript installation,
+build step, remote fonts or external web service.
+
+The original local raw data under `data/raw/phase2_confirmation_20260913`
+must be present, including `records`, `dispatches` and `groups`. A Git clone
+alone does not contain these records. Missing or inconsistent data produces
+an error; the viewer cannot collect replacement responses.
+
+## Watching a run
+
+- Select one of three scenarios, one of 20 matched groups, and one of five
+  profile/context conditions. The condition selector keeps the current round
+  where possible, to make switching between matched runs easier.
+- Press Play or step through rounds. The slider supports rewind and replay.
+  Space and left/right arrows also work outside focused interactive controls.
+- Click an agent to inspect its fixed ten-coordinate LPM profile. In the
+  context-only and neutral conditions, the profile is explicitly labelled as
+  **not supplied** to that agent.
+- Click a dialogue card for the complete raw response, exact incoming prompt,
+  record path and checksum. The card preview is shortened for readability;
+  peers actually received the saved structured excerpts, not these full texts.
+- Use Knowledge and Shared state to follow private evidence and public
+  disclosures in C3, or registered and adopted amendments in C2.
+- Expand the comparison and load the five final outcomes for the same group.
+  This deliberately reveals the ending. URL fragments bookmark individual runs.
+
+The three starting examples are selected illustrations, not representative
+samples or additional statistical findings. All group runs are available.
+
+## What the visual means
+
+Round steps reveal simultaneous responses together. Agent seating and the brief
+vote-change animation are schematic; they do not represent physical actions,
+speaking order, elapsed deliberation time or measured influence between agents.
+Blue and amber distinguish the two choices without assigning moral value.
+An adjacent-round change is marked only when both votes are valid.
+
+C2 excludes the CEO from vote totals. Proposals and adopted amendments are
+separate; only amendments adopted before a round are part of the incoming
+working plan for that round. C3 distinguishes public evidence at round start
+from disclosures that become public for the next round. Authenticating an
+evidence ID does not validate an agent's interpretation of it.
+
+This is a replay tool, not a live simulation engine. Future studies can add a
+separate adapter to supply the same display structure. Their recording formats
+and interaction rules must be reviewed before claiming live support. The
+completed Phase 2 collector, parser, state logic and records are unchanged.
+
+## Verification
+
+The reader checks frozen source hashes and population/schedule hashes. Each
+requested replay verifies record envelopes, dispatch links, exact incoming
+messages and state hashes; it runs the frozen pure state transition and checks
+the reconstructed final state and outcome against the saved group artifact.
+It never instantiates a collector ledger or API client. Its HTTP server binds
+only to loopback and serves allowlisted assets and read-only JSON routes.
+
+On 2026-09-13, all **300 runs / 6,205 response rows** passed reconstruction.
+All **three missing/ambiguous intermediate votes** remain missing. Final
+outcomes agree with the saved artifacts. Zero API calls were made.
+
+Repeat the full offline check with:
+
+```powershell
+py -3.11 -B code/serve_replay.py --verify-all
+```
+
+Browser integration checks passed at desktop (1440 px) and mobile (390 px)
+widths: playback, full prompt inspection, omitted-profile labelling, CEO vote
+exclusion, amendment adoption across the round boundary, evidence visibility,
+all five comparison conditions, invalid vote retention and read-only routes.
+Screenshots were visually inspected; browser errors: zero. The check script
+accepts an existing Playwright or playwright-core module location:
+
+```powershell
+node tests/check_replay_viewer.cjs <path-to-playwright-module>
+```
+
+The test script writes screenshots and its report under ignored `output/`.
+The scientific data and frozen manifest are not modified by either check.
+
+## Design review
+
+Decision: add a read-only theatre alongside the frozen experiment, with recorded
+round boundaries and no inferred actions. These are synthetic review
+perspectives, not external review or human validation.
+
+- Linden: profiles and dialogue must not be presented as proof of ethical
+  understanding; choice colours carry no moral scoring.
+- Osei: schematic seating and playback must not imply human conversation or
+  causal peer influence; simultaneous rounds are explicit.
+- Tanaka: every group remains browsable; selected examples and final-outcome
+  comparisons must not masquerade as population estimates.
+- Renna: a separate adapter preserves the current evidence while leaving a path
+  to later study formats; future live support remains unimplemented.
+- Okafor: reuse verified pure transitions, check saved states and fail visibly
+  on missing data; never invoke the collector for a replay.
+
+The principal tradeoff is an engaging presentation versus implied behaviour
+that was never measured. The resolution is round-based playback of actual
+responses, explicit visual conventions, and inspectable original inputs.

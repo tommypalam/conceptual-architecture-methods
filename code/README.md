@@ -1,5 +1,9 @@
 # Code guide
 
+Visual playback: [simulation theatre](../viewer/README.md), launched with
+`py -3.11 -B code/serve_replay.py` from the repository root. It replays completed
+Phase 2 records locally without API calls; `--verify-all` checks all 300 groups.
+
 [Back to the project](../README.md)
 
 ## Understand the implementation

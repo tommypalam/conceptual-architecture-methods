@@ -40,6 +40,13 @@ Combined pilot-plus-confirmation accounting is $22.91, below the $100 cap.
 Human benchmarking and validated moral scoring remain Phases 3 and 4. The
 original full ten-environment Phase 2 design is not claimed complete.
 
+## Watch the agents interact
+
+The [simulation theatre](viewer/README.md) replays all 300 completed Phase 2
+group runs with a visual table, round controls, full responses, agent profiles,
+amendments and evidence sharing. Run `py -3.11 -B code/serve_replay.py` and open
+http://127.0.0.1:8765. It reads your local records and makes no API calls.
+
 ## Find your way around
 
 | Area | Contents |

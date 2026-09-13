@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PARIA — Simulation theatre</title>
+  <link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="/">P<span class="brand-dot">.</span> <span>PARIA <small>SIMULATION THEATRE</small></span></a><span class="recording"><i></i> RECORDED EXPERIMENT <span class="desktop-only">/ PHASE 2</span></span><span class="cost">Playback · $0 API spend</span></header>
+  <main>
+    <aside class="library">
+      <div class="eyebrow">THE EXPERIMENTS</div><h1>A seat at the table.</h1><p class="muted intro">Watch the decisions unfold. Read what each agent said, and see what changed.</p>
+      <label for="problem">Scenario</label><select id="problem"><option value="C1">01 · Resource council</option><option value="C2">02 · Restructuring board</option><option value="C3">03 · Scientific approach</option></select>
+      <label for="group">Matched group</label><select id="group"></select>
+      <label for="condition">Profile & environment</label><select id="condition"><option value="00100-E">Encoded · 00100</option><option value="00100-U">Context only · 00100</option><option value="11011-E">Encoded · 11011</option><option value="11011-U">Context only · 11011</option><option value="neutral-B">Neutral · no profile</option></select>
+      <div id="context" class="context"></div>
+      <div class="divider"></div><div class="eyebrow">START EXPLORING</div>
+      <button class="tour" data-run="C1-1-00100-E"><span>01</span><div>Persistent disagreement<small>A council that goes all five rounds</small></div><b>↗</b></button>
+      <button class="tour" data-run="C2-1-neutral-B"><span>02</span><div>A proposal becomes binding<small>Follow the CEO’s amendment adoption</small></div><b>↗</b></button>
+      <button class="tour" data-run="C3-1-00100-E"><span>03</span><div>Who knows what?<small>Track private and public evidence</small></div><b>↗</b></button>
+      <p class="fine">Selected examples for exploration, not a representative sample. All 300 recorded group runs are available above.</p>
+      <div class="library-foot"><i class="verified-dot"></i><span id="provenance">Loading recording index…</span></div>
+    </aside>
+    <section class="workspace" aria-label="Simulation replay">
+      <div id="error" role="alert" hidden></div>
+      <div class="scene-heading"><div><div class="eyebrow" id="scene-kicker">COUNCIL CHAMBER</div><h2 id="scene-title">Resource council</h2></div><button id="brief-button" class="subtle">Read the dilemma ↗</button></div>
+      <div class="scene" id="scene"><div class="room-grid"></div><div class="table"><div class="table-inner"><div class="eyebrow" id="round-caption">BEFORE ROUND 1</div><div id="table-result">Take your seat</div><div id="tally" class="tally">Press play to reveal the first round.</div></div></div><div id="seats"></div><div class="scene-note">Schematic seating · simultaneous rounds</div></div>
+      <div class="transport"><button id="previous" class="square" aria-label="Previous round">⏮</button><button id="play" class="play">▶ Play</button><button id="next" class="square" aria-label="Next round">⏭</button><input id="scrub" type="range" min="0" max="5" value="0" aria-label="Replay round"><span id="position">0 / 5</span><select id="speed" aria-label="Playback speed"><option value="6000">Slow</option><option value="3500" selected>Normal</option><option value="1500">Fast</option></select></div>
+      <div class="round-note" id="round-note">Each step reveals one complete round. Agents only saw earlier rounds.</div>
+      <div class="discussion-heading"><h3 id="discussion-title">Around the table</h3><span id="change-count" class="pill">Select an agent to inspect</span></div>
+      <div id="discussion" class="discussion"></div>
+      <details class="shared" id="shared"><summary>Shared state <span id="shared-count"></span></summary><div id="shared-body"></div></details>
+      <details class="comparison"><summary>Compare this group across conditions</summary><p class="fine">Reveals final outcomes. Matched membership and role assignments; each condition is a separate recorded conversation.</p><button id="compare" class="subtle">Load five recorded outcomes</button><div id="comparison-body"></div></details>
+    </section>
+    <aside class="inspector" aria-label="Agent inspector"><div class="eyebrow">AGENT INSPECTOR</div><div id="agent-heading"></div><div class="tabs" role="tablist" aria-label="Agent details"><button role="tab" aria-selected="true" data-tab="profile">Profile</button><button role="tab" aria-selected="false" data-tab="response">Response</button><button role="tab" aria-selected="false" data-tab="knowledge">Knowledge</button></div><div id="inspector-body"></div><p class="fine inspector-note">These are generated statements and recorded choices. They do not reveal private thought or establish moral quality. Blue and amber distinguish choices, not good and bad.</p></aside>
+  </main>
+  <dialog id="brief"><button id="close-brief" class="subtle">Close ✕</button><div class="eyebrow">THE LOCKED SCENARIO</div><h2 id="brief-title"></h2><div id="brief-text" class="prewrap"></div><h3>How the interaction works</h3><p id="brief-rules"></p></dialog>
+  <footer>PARIA / Concepts as Architecture <span>Actual saved responses · schematic animation · no new generations</span></footer>
+</body></html>

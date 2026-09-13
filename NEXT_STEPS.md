@@ -38,6 +38,18 @@ Fresh confirmation cost $18.755232375 conservatively (estimated provider token
 charge $17.05021125). These are usage-based estimates, not invoice or balance
 verification. The $100 cap is not a spending target or downstream authorisation.
 
+## Visual replay available (2026-09-13)
+
+The researcher requested a game-like view of agent interactions. The
+[simulation theatre](viewer/README.md) is implemented as a separate read-only
+viewer: all 300 confirmation groups and 6,205 responses passed reconstruction;
+desktop/mobile browser checks passed. It preserves simultaneous rounds, CEO
+vote exclusion, amendment adoption and evidence visibility. No research records
+or frozen sources changed, and no API calls were made. Run
+`py -3.11 -B code/serve_replay.py`, then open http://127.0.0.1:8765.
+Future live/final-simulation support needs a new adapter; the current viewer
+replays completed Phase 2 only. Design review and checks are in its README.
+
 ## Next work
 
 1. Phase 3: prepare the human-benchmark comparison, canonical/decanonised forms,

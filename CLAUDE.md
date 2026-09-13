@@ -20,6 +20,16 @@ manual still needs the required human review. Ethical understanding, human
 resemblance and moral quality are not established. C2 interface limitations and
 C3 outcome saturation remain documented; any repair must be prospective.
 
+## Visual replay viewer (2026-09-13)
+
+The researcher requested a game-like view of interactions. The read-only
+simulation theatre is documented in viewer/README.md, including its design
+review. Launch code/serve_replay.py to inspect all 300 completed Phase 2 group
+runs. All 6,205 responses passed state reconstruction; desktop/mobile browser
+checks passed. Frozen sources and raw records remain unchanged. Visual seating
+and animation are schematic, rounds are simultaneous, and choices carry no
+moral scoring. The viewer makes no API calls; live support is future work.
+
 ## Exploratory Phase 2 authorisation (2026-09-12)
 
 The researcher explicitly instructed: run the small exploratory Phase 2 test,
