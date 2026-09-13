@@ -1,8 +1,8 @@
 # Recognition complete: all five alternatives rejected
 
-Prepared follow-up: [exact-information E/V representation diagnostic; disclosure approval pending](../representation_diagnostic_r1/DISCLOSURE.md). Five tests passed; automatic review blocked launch before any new call or charge. Maximum new accounting $4.200345600.
+Latest representation comparison: [E/V diagnostic complete and verified](../representation_diagnostic_r1/ASSESSMENT.md). All 576 decisions valid; numeric-minus-prose rejection differences at offer 20 were +16.7/+4.2 points with wide intervals including zero. Neither a clear presentation effect nor equivalence is established. Cost $0.409685100; 1,814 records preserved; no further paid work queued.
 
-Latest behavioural supplement: [canonical E/U diagnostic complete](../context_diagnostic_r2/ASSESSMENT.md). All 576 decisions valid; profile-package difference +50 points at offer 20 in both contexts, primary context interaction zero with wide uncertainty. Cost $0.304161000; zero-call verification passed and 1,237 records are preserved. Original recognition gates remain unmet. No further paid work is queued.
+Earlier E/U diagnostic: [canonical E/U diagnostic complete](../context_diagnostic_r2/ASSESSMENT.md). All 576 decisions valid; profile-package difference +50 points at offer 20 in both contexts, primary context interaction zero with wide uncertainty. Cost $0.304161000; zero-call verification passed and 1,237 records are preserved. Original recognition gates remain unmet. No further paid work is queued.
 
 Clarified pilot: [completed and discarded after 5/5 recognition](../design_pilot_r2/ASSESSMENT.md). Structural review accepted; both raters agreed. Eight calls cost $0.036588750, or $0.040948875 including the stopped pilot. Zero-call verification passed; 660 records are preserved. No further paid work is queued.
 
