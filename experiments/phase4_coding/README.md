@@ -19,6 +19,8 @@ The moral experiment remains central; no human-validation or moral-consensus cla
 | [R3 measurement stop](consequence_pilot_r3/ASSESSMENT.md) | Four failed checks; no participant decisions |
 | [Finite-rule pilot](consequence_rule_pilot_r1/PROTOCOL.md) | Prospective individual choices with explicit deterministic outcomes |
 | [Finite rule map](consequence_rule_pilot_r1/RULES.md) | Exact conditions, normative assumptions and scope limits |
+| [Completed finite-rule assessment](consequence_rule_pilot_r1/ASSESSMENT.md) | 96 valid choices, identical actions across arms, no observed encoding advantage |
+| [Complete descriptive tables](consequence_rule_pilot_r1/TABLES.md) | All cell outcomes and paired contrasts with uncertainty |
 
 Use [NEXT_STEPS.md](../../NEXT_STEPS.md) for current execution and cumulative
 accounting. Earlier behavioural phases remain unaltered. A pilot completion is

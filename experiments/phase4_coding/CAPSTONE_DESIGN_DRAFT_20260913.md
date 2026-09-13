@@ -6,6 +6,14 @@ Current amendment: human raters are deferred at the researcher's explicit reques
 This brief now describes AI-assisted moral evaluation. See the
 [scope record](AI_ONLY_SCOPE_20260913.md) and [draft manual](manual_r1/MANUAL_DRAFT.md).
 
+14 September measurement amendment: the finite individual pilot now uses
+deterministic rule-derived primary classifications after independent AI review.
+See [the scoped change](DETERMINISTIC_SCOPE_20260914.md). The earlier generative
+rating screens remain failed reliability audits. This route is limited to fully
+specified task/action pairs; it does not authorize applying the finite scorer
+to arbitrary group dialogue or silently substituting rules for general coding.
+Any group extension needs its own state transitions, rule map and prospective review.
+
 ## Purpose
 
 The thesis culminates in investigating whether different normative representations

@@ -2,7 +2,34 @@
 
 Prepared 12 September 2026 for Tommaso Piero Palamenga.
 
-## Current continuation: 13 September 2026
+## Current continuation: 14 September 2026
+
+Work continues on research-transfer-design-20260913; main, backup-1 and backup
+were not moved by this development sequence. Read NEXT_STEPS.md first. The
+448-choice transfer pilot is complete but limited by inconsistent full-profile
+effects and a floor on secretly preferential procedures. Human raters are deferred
+at the researcher's explicit instruction.
+
+The moral-rating r1/r3 screens failed, and r2 stopped at review; all are preserved
+with no participant calls. A prospective finite-rule amendment led to the completed
+consequence_rule_pilot_r1: one accepted review and 96/96 valid choices. All E/V/U/G
+arms chose accurate reports and equal allocations. No observed encoding advantage
+or equivalence follows; good/bad labels depend on the disclosed dual standards.
+See experiments/phase4_coding/consequence_rule_pilot_r1/ASSESSMENT.md.
+
+Moral development including all failed screens cost $1.329527925/$4. Current
+accounting is Claude $7.139674300/$15, OpenAI $1.350579450/$30, and package
+$31.396326775/$100. These are usage estimates, not balances. Zero-call replay
+verified 2,435 ledger records and a 7,307-member archive at
+output/phase4_consequence_rule_pilot_r1_20260914.zip. Raw data remains outside Git;
+off-device backup is unverified. No collector is running or next paid batch queued.
+
+Next is a separately prepared contextual/group moral design; do not expand the
+saturated pilot into a supposed confirmation. Formal Phase 3, broad concept
+specificity/transfer and full Phase 4 remain unfinished. Preserve all freezes,
+failed screens and previous archives. The chronology below is historical.
+
+## Previous continuation: 13 September 2026
 
 The researcher authorised publication from `phase3-preparation-20260913` to
 `main`, with the previous main preserved as `backup-1` and the original `backup`

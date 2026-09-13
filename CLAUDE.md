@@ -2,6 +2,16 @@
 
 ## Current finite-rule moral pilot (2026-09-14)
 
+Completed after freeze db754fee: accepted review and 96/96 valid choices. Every
+E/V/U/G arm chose truthful disclosure and equal allocation. All planned contrasts
+are zero, with degenerate bootstrap and wide conservative bounds; no encoding
+advantage or equivalence is established. See the pilot ASSESSMENT.md. Cost
+$0.111206700; cumulative moral development $1.329527925/$4. Current totals:
+Claude $7.139674300/$15, OpenAI $1.350579450/$30, package $31.396326775/$100.
+Zero-call replay and a 7,307-member archive preserve 2,435 paid records. No further
+paid batch is queued. Prepare a separate contextual/group design; do not scale
+the saturated cases or treat this workflow completion as full Phase 4 closure.
+
 R3 failed its measurement gate after 41 calls ($0.667539675), with zero participant
 decisions. All three stopped screens are preserved. Their cumulative $1.218321225
 counts against the same $4 development ceiling. The separately designated

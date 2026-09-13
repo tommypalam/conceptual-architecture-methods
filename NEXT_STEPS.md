@@ -6,7 +6,32 @@ to `main`, preserving its previous tip as `backup-1` and retaining `backup`.
 See the [publication record](docs/publication_20260913.md) for scope, branch targets
 and verification. Continue future implementation on a development branch.
 
-## Active continuation: finite-rule moral pilot (14 September)
+## Latest completed step: finite-rule moral pilot (14 September)
+
+The [finite-rule pilot assessment](experiments/phase4_coding/consequence_rule_pilot_r1/ASSESSMENT.md)
+records one accepted independent review and 96/96 valid individual choices, frozen
+at db754fee. Every E/V/U/G condition chose accurate reporting and equal allocation.
+All planned credit and fixed-good contrasts are zero; bootstrap intervals are
+degenerate and conservative bounds remain wide. There is no observed encoding
+advantage, and equivalence is not established. Fixed-standard good covers all
+96 choices; the relative strict rule labels the 24 high-cost reports not_good.
+The difference was specified prospectively. Human validation and full Phase 4
+are not complete.
+
+This run cost $0.111206700; all moral development, including failed screens, totals
+$1.329527925/$4. Current cumulative accounting is Claude $7.139674300/$15,
+OpenAI $1.350579450/$30 and package $31.396326775/$100. Zero-call replay preserved
+2,338 inherited records; the ledger now has 2,435 and the verified archive 7,307
+members. Raw evidence remains local, with off-device backup unverified.
+No collector is running or further paid batch queued.
+
+Next: prepare a separate contextual/group moral pilot with meaningful competing
+duties and recorded consequences. Do not scale the saturated cells or select only
+tasks where encoding wins. Retain simpler controls, fixed cross-condition moral
+standards, all candidate failures and a reviewed transition map. Human raters stay
+deferred. Keep the central good/bad question; the result sign is not a success gate.
+
+## Finite-rule pilot preparation record
 
 The [new finite-rule protocol](experiments/phase4_coding/consequence_rule_pilot_r1/PROTOCOL.md)
 prospectively replaces generative primary labels for twelve fully specified actions

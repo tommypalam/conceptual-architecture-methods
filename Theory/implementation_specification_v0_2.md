@@ -98,8 +98,8 @@ still follow their applicable requirements.
 | Existing Phases 0–2 and Phase 1.5 | Establish the platform and limited behavioural effects, retaining amended scope and failed original gates | Completed as documented, not reopened |
 | Phase 3A: transfer and interpretation | New situations, competing explanations, simpler controls and held-out prediction where justified | r1 evaluation pilot complete; mixed results and procedural rejection floor; consequential-task redesign needed |
 | Phase 3B: human behavioural comparison | Comparable human evidence; original five benchmark families remain visible with recognition failures | Unresolved; no replacement gate silently adopted |
-| Phase 4A: moral measurement preparation | Draft manual, independent AI review, calibration cases, blind coding and factual checks | Manual and offline schema drafted; task maps and independent review pending; human raters deferred |
-| Phase 4B: moral decisions and consequences | Fresh matched individual/group situations with consequential choices and the dual moral evaluation | Central culminating experiment; protocol and funding not yet fixed |
+| Phase 4A: moral measurement preparation | Explicit manual and reviewed task maps; deterministic finite rules or separately validated general coding | Generative screens failed; twelve-action rule map independently reviewed and exhaustively checked; human raters deferred |
+| Phase 4B: moral decisions and consequences | Fresh matched individual/group situations with consequential choices and the dual moral evaluation | 96-choice finite individual pilot complete, saturated across E/V/U/G; contextual/group capstone remains to be specified |
 | Phase 5: integrated analysis | Relate representations, behaviour, human resemblance and moral outcomes; report sensitivity and failure cases | Follows available evidence |
 | Phase 6: paper and release | A coherent exploratory paper, auditable evidence and explicit limits | Develop throughout; finalise after capstone |
 
