@@ -1,68 +1,64 @@
-# Phase 3: recognition probes complete; coding stopped
+# Phase 3: recognition screen complete, all alternatives rejected
 
-The approved screening saved **500 recognition probes**, then stopped after
-28 valid Haiku coding batches when the next response changed one character in
-an answer ID. The strict parser rejected that batch; no retry occurred.
-OpenAI coding and discussion have not started. **No formal recognition verdict
-exists; Phase 3 remains open and population collection is not released.**
+All500 recognition responses are dual-coded. Haiku and GPT-5.4 mini agreed on
+all500 answers, with no missing outcomes. Every canonical and alternative form
+was recognised50/50 times. **All five alternatives fail the >15/50 recognition
+gate.** No discussion was needed. This screen is complete; Phase3 remains open
+and population collection is not released.
 
-Read the [current assessment](recognition_r1/execution/ASSESSMENT.md),
-[verified checkpoint](recognition_r1/execution/CHECKPOINT.json) and
-[continuation handoff](recognition_r1/execution/CONTINUATION.md).
+Read the [final assessment](recognition_r1/execution/transport_r1/ASSESSMENT.md),
+[results](recognition_r1/execution/transport_r1/results.json) and
+[verification checkpoint](recognition_r1/execution/transport_r1/CHECKPOINT.json).
 
-| Work preserved | API calls | Conservative cost |
-|---|---:|---:|
-| Earlier design, perception, generation and structural review, including failed consultation | 48 | $0.416398950 |
-| Recognition probes, all ten cells complete | 500 | $5.337931500 |
-| Valid initial coding batches | 28 | $0.112679600 |
-| Failed coding batch, full reservation retained | 1 | $0.031920900 |
-| **Total** | **577** | **$5.898930950** |
+| Benchmark | Canonical recognised | Alternative recognised | Alternative gate |
+|---|---:|---:|---|
+| Milgram | 50/50 | 50/50 | Reject |
+| Asch | 50/50 | 50/50 | Reject |
+| Ultimatum | 50/50 | 50/50 | Reject |
+| Bystander | 50/50 | 50/50 | Reject |
+| Reactance | 50/50 | 50/50 | Reject |
 
-This screening attempt used $5.482532000 of its $14.06743250 maximum. Provider
-totals are $5.841321200 Claude and $0.057609750 OpenAI, within $15/$30 caps.
-Package accounting including Phase 2 is $28.805003975 under $100. These are
-conservative estimates, not verified balances. No paid call is queued.
+Earlier independent [structural acceptance](variants_r3/ASSESSMENT.md) assessed
+operational text structure. It did not establish low recognition. Recognising a
+shared structure does not by itself demonstrate memorisation, human resemblance,
+moral quality or ethical understanding. The main thesis questions remain separate.
 
-All five pairs previously received independent structural text acceptance;
-that does not establish low recognition, human resemblance, equal perceptual
-difficulty or ethical understanding. Their domain caveats remain in the
-[structural assessment](variants_r3/ASSESSMENT.md).
+The complete screen cost $5.687192500 conservatively; the final CONTINUE turn
+added $0.204660500. All Phase3 accounting is $6.103591450: Claude $5.949588700,
+OpenAI $0.154002750, within the separate $15/$30 caps. Package accounting including
+Phase2 is $29.009664475 under $100. These are estimates, not provider balances.
 
-## Read the evidence
+The original500 probes and28 valid coding batches were reused. An exact replacement
+reproduced an invalid long ID, so a [prospective format amendment](recognition_r1/execution/transport_r1/PROTOCOL.md)
+used short opaque IDs for the remaining72 calls, mapped exactly back to original
+records. Both failures remain immutable and fully accounted. The mixed coding
+formats and AI-only raters are explicit limitations; no rubric or answer text changed.
 
-1. [Structural assessment and next gate](variants_r3/ASSESSMENT.md).
-2. [Exact repaired candidates](variants_r3/candidates.json) and
-   [tracked repair rationale](variants_r3/REPAIRS.md); generated originals remain
-   in [generation results](variants_r2/generation_result.json).
-3. [Canonical operational protocol](canonical_r2/PROTOCOL.md) and
-   [frozen review manifest](variants_r3/review_manifest.json).
-4. [Five review verdicts](variants_r3/review_result.json) and
-   [48-call verification checkpoint](variants_r3/REVIEW_CHECKPOINT.json).
-5. [Budget amendment](PROVIDER_BUDGET_20260913.md),
-   [linked continuation](variants_r2/PROTOCOL.md), and
-   [preserved reconciliation](variants_r2/reconciliation.json).
-6. Historical [staged protocol](validation_20260913/PROTOCOL.md),
-   [source erratum](validation_20260913/ERRATUM.md), and
-   [truncated consultation disposition](resolution_20260913/CONSULTATION_OUTCOME.md).
+Seven recovery/transport tests and seven existing runtime/analysis checks passed.
+Final real-data replay made zero API calls, reproduced results, checked all frozen
+sources and historical evidence, and verified the1,952-member local archive:
+`output/phase3_recognition_transport_r1_20260913.zip`. All650 paid records remain
+intact. Raw data and archives are excluded from Git; off-device backup is unverified.
 
-The 65 offline tests passed before launch. After the stop, the local verifier
-checked exact request and cost links, successful parser replay, frozen sources,
-historical evidence and all 1,733 archive members with zero additional API calls.
-The archive is `output/phase3_recognition_r1_20260913.zip`; its SHA256 is in the
-current checkpoint. Raw records and archives are excluded from Git. Off-device
-backup is unverified; both historical failures remain immutable and accounted.
+## Evidence and next work
 
-## Next release work
+- [Completed recognition assessment and next decision](recognition_r1/execution/transport_r1/ASSESSMENT.md).
+- [Original stopped screen](recognition_r1/execution/ASSESSMENT.md) and
+  [exact replacement checkpoint](recognition_r1/execution/recovery_r1/CHECKPOINT.json).
+- [Accepted structural reviews and limitations](variants_r3/ASSESSMENT.md),
+  [repaired candidates](variants_r3/candidates.json), and
+  [canonical protocol](canonical_r2/PROTOCOL.md).
+- [Original quotation and discussion design](recognition_r1/QUOTATION_OUTCOME.md),
+  [first paid release](recognition_r1/execution/RELEASE.md), and
+  [provider budget](PROVIDER_BUDGET_20260913.md).
 
-Prepare the linked coding recovery described in the handoff. Reuse all 500
-probes and 28 valid coding batches. Do not restart the failed runner or overwrite
-its records. The original release excludes retries; a replacement requires an
-explicit linked, costed and tested continuation. Complete two-rater coding and
-bounded discussion before applying the fixed-denominator recognition gate.
-More than 15 recognitions in 50 rejects an alternative; missing outcomes block
-passing. No automatic new candidates or population collection follow.
+Review alternative-scenario design offline before any new candidate round. Do
+not loosen the threshold, hide these rejections, or launch population simulations
+using rejected low-recognition controls. An exploratory pilot may cheaply reject
+future candidates, but does not replace the specified N50 acceptance screen.
+No new generation, screening or population calls are running or queued.
 
-All five families and ten coordinates remain in scope, with high/low contexts,
-modulators and dependency sensitivity still to be frozen for collection. Full
-D=100 replication and trajectory costs require a feasible budget resolution.
-Phase 3 does not retrospectively complete omitted Phase 2 configurations.
+All five benchmark families, ten LPM coordinates, Beta distributions and R remain
+in scope. High/low contexts, modulators, dependency sensitivity and full D=100
+trajectory costs still need their collection freeze and feasible budget resolution.
+Phase3 does not retrospectively fill omitted Phase2 configurations.

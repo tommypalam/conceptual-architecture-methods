@@ -1,3 +1,18 @@
+# Recognition complete: all five alternatives rejected
+
+All500 probes are dual-coded with100% exact rater agreement and no missing
+outcomes. Every canonical and alternative form was recognised50/50 times; all
+five alternatives fail the frozen >15/50 gate. No discussion calls were needed.
+See the [final assessment](execution/transport_r1/ASSESSMENT.md),
+[results](execution/transport_r1/results.json) and [checkpoint](execution/transport_r1/CHECKPOINT.json).
+
+The screen cost $5.687192500 conservatively. All650 paid records are preserved
+and the1,952-member archive passed zero-call verification. The format amendment
+and both failed coding attempts are fully documented. This screening is complete;
+Phase3 and population collection remain gated. No paid work is running or queued.
+
+## Earlier checkpoints (historical, superseded above)
+
 # Current status: all probes saved; coding stopped
 
 The paid-disclosure approval was received and collection ran. All 500 probes

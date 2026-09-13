@@ -1,3 +1,18 @@
+# Recognition execution complete: all five alternatives rejected
+
+The linked [short-ID continuation](transport_r1/ASSESSMENT.md) completed dual
+coding of all500 saved probes. All ten cells show50/50 recognition, no missing
+outcomes, and exact rater agreement. All five alternatives fail the >15/50 gate.
+No discussion was required. Phase3 remains open; no population run is released.
+
+Screening cost $5.687192500; final [checkpoint](transport_r1/CHECKPOINT.json)
+verifies650 preserved paid records and1,952 archive members with zero new API
+calls. Both failed coding attempts remain intact, and the identifier-format
+amendment is explicit. No collector is running. Do not execute any historical
+launch command below merely to resume; the screen is complete.
+
+## Original stopped-run checkpoint (historical)
+
 # All recognition probes saved; coding stopped
 
 The approved run completed all 500 probes and 28 valid Haiku coding batches.

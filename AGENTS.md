@@ -1,49 +1,55 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
-## Phase 3 probes complete; recognition coding stopped (2026-09-13)
+## Phase 3 recognition complete: all five alternatives rejected (2026-09-13)
 
-The approved screening collected all 500 probes (50 per canonical/alternative
-form across five families), then stopped after 28 valid Haiku coding batches.
-The 29th batch changed one character in an item ID and remains failed at its
-full reservation. There are 71 undispatched coding calls; OpenAI coding and
-bounded discussion have not started. No retry occurred and no collector is
-running. Specific paid-disclosure approval was received; the earlier automatic
-approval block is resolved. This is a data-validation stop, not an approval block.
+All500 recognition probes are dual-coded. Both raters agreed on all500 answers;
+every canonical and alternative form was recognised50/50 times, with no missing
+outcomes. All five alternatives fail the frozen >15/50 gate. No discussion was
+needed. This screening stage is complete; Phase3 remains open and population
+collection is not released. See
+experiments/phase3_benchmarks/recognition_r1/execution/transport_r1/ASSESSMENT.md
+and its results.json and CHECKPOINT.json.
 
-See experiments/phase3_benchmarks/recognition_r1/execution/ASSESSMENT.md and
-CHECKPOINT.json in that directory. Offline verification replayed all valid
-responses and costs with zero API calls, checked all frozen sources and preserved
-historical evidence, and verified all 1,733 members in the new local archive.
-All 577 paid records remain intact, including 48 historical records. The 65
-prelaunch tests passed; no frozen runtime or scientific input changed midrun.
-Off-device backup is not verified. Raw records and output archives stay out of Git.
+All500 probes and28 valid coding batches were reused. An exact replacement of
+the first invalid coding batch reproduced the same one-character ID typo. Both
+failed responses remain immutable and fully accounted. A prospective short-ID
+format amendment then completed the remaining72 coding calls. The same answer
+text, rubric, models, shuffled batches and parser rules were retained; a frozen
+bijection maps within-batch IDs back to original IDs. Report the mixed coding ID
+formats as a post-failure amendment; do not claim unchanged preregistered execution.
 
-Screening accounting is $5.482532000 of the $14.06743250 maximum. All Phase 3
-accounting is $5.898930950: Claude $5.841321200 and OpenAI $0.057609750.
-Remaining room under the separate $15/$30 provider caps is $9.158678800 and
-$29.942390250. Package accounting including Phase 2 is $28.805003975 under $100.
-These are conservative estimates, not provider balances. The failed coding
-batch retains $0.031920900; the older failed consultation retains $0.248127.
+Screening accounting is $5.687192500 of the $14.067432500 ceiling. The latest
+CONTINUE turn added $0.204660500. All Phase3 accounting is $6.103591450: Claude
+$5.949588700 and OpenAI $0.154002750. Remaining room under $15/$30 caps is
+$9.050411300 and $29.845997250. Package accounting including Phase2 is
+$29.009664475 under $100. These are conservative estimates, not provider balances.
+Both failed coding charges and the older failed consultation remain included.
 
-All five pairs previously passed independent structural text review; see
-experiments/phase3_benchmarks/variants_r3/ASSESSMENT.md for domain limitations.
-No formal recognition verdict exists because dual coding is incomplete. Phase 3
-remains open; no population collection is released. Recognition does not establish
-human resemblance, moral quality or ethical understanding.
+Seven recovery/transport tests and seven existing parser/ledger/analysis checks
+passed. Full real-data replay reproduced the final result with zero API calls,
+verified historical evidence and frozen inputs, and checked all1,952 local archive
+members. The ledger retains650 paid records. Raw data and archives are excluded
+from Git; off-device backup remains unverified. No collector is running or paid
+work queued. Do not rerun successful probes or coding to resume.
 
-Next: follow experiments/phase3_benchmarks/recognition_r1/execution/CONTINUATION.md.
-Reuse all 500 probes and 28 valid coding batches. The frozen release excludes
-retries: a replacement requires an explicit linked, costed, offline-tested
-continuation. Do not alter the failed record, rerun the original collector, or
-regenerate stimuli. No further paid call is queued by this checkpoint.
+Structural acceptance did not make these alternatives unrecognisable. Recognition
+alone cannot distinguish memorisation from structural reasoning, and this screen
+does not establish human resemblance, moral quality or ethical understanding.
+The single-judge repeated-sampling design and AI-only batched raters remain limits.
+
+Next: review alternative-scenario design offline before a separately designated
+new candidate round. Do not loosen the recognition threshold after observing the
+results, pool future candidates with these outcomes, or launch population work
+using rejected controls. A small exploratory recognition pilot could screen out
+poor candidates cheaply, but cannot replace the specified N50 acceptance gate.
 
 All five benchmark families, ten LPM coordinates, Beta distributions and R remain
 in scope. Canonical procedures are in
 experiments/phase3_benchmarks/canonical_r2/PROTOCOL.md. Concept-specific high/low
-contexts, modulators and dependency sensitivity still require their collection
-freeze. Full D=100 replication and its trajectory costs remain unresolved within
-the budget; Phase 3 does not retrospectively fill omitted Phase 2 cells. Preserve
-frozen protocols/manifests and use linked revisions for substantive changes.
+contexts, modulators and dependency sensitivity still need a collection freeze.
+Full D=100 trajectory costs remain unresolved within the budget. Phase3 does not
+retrospectively fill omitted Phase2 configurations. Preserve frozen sources and
+all historical failed outcomes when designing linked revisions.
 
 ## Phase 2 behavioural study complete (2026-09-13)
 
