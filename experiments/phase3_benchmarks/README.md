@@ -1,9 +1,10 @@
 # Phase 3: human-benchmark preparation
 
-Latest: [complete recognition stimuli and quotation status](recognition_r1/STATUS.md).
-All 54 tests pass. Free token counting of the new private bundles/36 images was
-blocked by automatic approval review pending specific disclosure approval; no new
-call or charge occurred. Paid runtime and rater-discussion costing remain pending.
+Latest: [completed free quotes and full screening cost](recognition_r1/QUOTATION_OUTCOME.md).
+All ten approved token-count requests succeeded, without new spending. The full
+conservative bound is $14.06743250 including two-rater discussion; provider caps
+fit, but the earlier screening/validation allocations do not. Paid runtime,
+economical delivery and allocation resolution remain pending.
 
 **All five canonical/alternative pairs passed independent structural review.**
 Phase 3 remains open: recognition screening and agent population collection have

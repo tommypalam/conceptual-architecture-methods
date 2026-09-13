@@ -1,4 +1,14 @@
-# Complete stimuli verified; free quotation needs disclosure approval
+# Quotation complete; paid screening not released
+
+Current result: [ten completed free quotes and full cost assessment](QUOTATION_OUTCOME.md).
+The disclosure approval was received and the exact approved token-count requests
+succeeded. The full prospective bound is $14.06743250, including a bounded
+same-two-rater discussion. It fits the $15 Claude/$30 OpenAI caps but exceeds the
+original $7 screening/$10 validation allocations. No paid call or charge occurred.
+The earlier third-AI-only adjudication proposal is superseded by the discussion
+procedure in QUOTATION_OUTCOME.md. Paid runtime and allocation remain unreleased.
+
+## Earlier preparation checkpoint (historical, superseded above)
 
 2026-09-13, branch `phase3-preparation-20260913`. The researcher instructed
 proceed after the five structural accepts. Preparation is complete for the ten

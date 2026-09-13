@@ -65,16 +65,18 @@ and the existing 3D browser suite passed; rendering and research data are unchan
 
 ## Phase 3 structural review complete; recognition next (2026-09-13)
 
-Latest continuation: the ten complete recognition payloads are assembled and
-hash-frozen; all 54 Phase 3 tests pass, including exact reconstruction of every
-escalation state and perception turn. Prior evidence/spending is unchanged.
-See experiments/phase3_benchmarks/recognition_r1/STATUS.md. Automatic approval
-review blocked the ten FREE Anthropic token-count requests before launch because
-these new complete private bundles include 36 images beyond the prior disclosure
-approval. No quotes or paid calls occurred. Obtain explicit disclosure approval
-for those exact requests; do not bypass the rejection. The paid collector is not
-released. Before collection, also resolve/cost two-rater disagreement discussion
-as required by spec7.3; the proposed third-AI-only adjudication is not that process.
+Latest continuation: explicit disclosure approval was received and all ten FREE
+Anthropic token-count requests completed for the unchanged recognition bundles.
+See experiments/phase3_benchmarks/recognition_r1/QUOTATION_OUTCOME.md. No paid
+screening call or new charge occurred. The complete conservative bound is
+$14.06743250 ($11.44946000 Claude/$2.61797250 OpenAI), including the SAME two
+raters exchanging their original positions in one bounded discussion round.
+Unresolved disagreements remain missing; no third-AI tie-break. This corrects
+the earlier provisional adjudication proposal before collection. The full bound
+fits the provider/package caps but exceeds the frozen $7 screening/$10 validation
+allocations. Resolve economical delivery/allocation and implement/test the linked
+paid runtime before release. Do not repeat completed quotes or ask again for
+disclosure approval for these exact token-count requests. Prior evidence is intact.
 
 All five canonical/repaired-alternative pairs received independent Claude
 structural acceptance, with no blocking mismatches or required changes. The
@@ -100,8 +102,8 @@ the linked validation continuation preserves it without retry or ledger reset.
 No failure or approval block is pending for the completed five reviews.
 Off-device backup is not verified. Do not repeat paid checks merely to resume.
 
-Next: obtain the exact token quotes for the verified visual/sequential bundles,
-then complete the paid runtime and freeze two independent raters, adjudication,
+Next: resolve delivery/allocation for the now-priced visual/sequential bundles,
+then complete the paid runtime and freeze two independent raters, discussion,
 missingness handling and the complete cost reservation. Recognition requires
 50 responses per canonical/alternative form across five families (500 judge
 calls, plus classification/adjudication); >15/50 rejects an alternative. No
