@@ -1,5 +1,16 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Phase 3 preparation started (2026-09-13)
+
+The researcher prefers proceeding to Phase 3 as specified, while deferring a
+broader Phase 2 configuration extension. See
+experiments/phase3_preparation_20260913/README.md.
+Prepare all five benchmark families, canonical/decanonised variants, recognition
+probes, concept-specific high/low contexts, modulators and dependency sensitivity.
+Freeze exact contexts, review workflow, analysis and budget before collection.
+Phase 3 can broaden targeted context coverage; it does not complete missing
+Phase 2 task/configuration cells. No new paid collection is queued.
+
 ## Phase 2 behavioural study complete (2026-09-13)
 
 The researcher-authorised exploratory-first sequence is complete for the amended
