@@ -1,29 +1,24 @@
-# Repaired candidates awaiting independent reading
+# Five structural reviews completed
 
-Five separately generated candidates were repaired locally with full before/after
-provenance in candidates.json. See REPAIRS.md. Original generated texts remain
-unchanged. All 48 Phase 3 tests pass; generation replay made zero new calls.
+Explicit researcher approval resolved the earlier disclosure block. All five
+frozen canonical/repaired pairs were sent to Claude successfully and received
+accept, with no blocking mismatches or required changes. No retry was needed.
+See [the assessment](ASSESSMENT.md) for domain limits and the next gate, and
+[the exact verdicts](review_result.json) for the preserved reviewer outputs.
 
-Five exact canonical/repaired-pair review requests are frozen in review_manifest.json.
-Maximum combined reservation **$0.2901162**, charged to Claude within its $15 cap.
-Each call concerns one benchmark and requests a concise structural verdict.
-This is neither a retry of the truncated consultation nor recognition collection.
+The reviews cost $0.031317 against the $0.2901162 maximum reservation. Generation
+plus these reviews cost $0.07882875. Current Phase 3 accounting is $0.41639895:
+$0.3587892 Claude and $0.05760975 OpenAI. Remaining provider room is
+$14.6412108/$29.94239025 under $15/$30 caps. Package accounting is $23.322471975
+within $100. These estimates are not provider balances.
 
-Automatic approval review rejected the dispatch before process launch because it
-requires specific user approval to send these newly created private protocol
-pairs to Anthropic. It did not accept the earlier private-packet approval as
-covering these new pairs. Explicit approval has been requested and is pending.
-Do not bypass the rejection. Once approval arrives, run the SAME frozen requests:
+[The checkpoint](REVIEW_CHECKPOINT.json) verifies all 48 API records, the preserved
+historical failure, exact generation/review replay with zero new calls, and the
+145-member local archive. All 48 Phase 3 offline tests passed at candidate freeze.
+Original generated text and tracked local repairs remain unchanged. Off-device
+backup is not verified.
 
-    py -3.11 -B code/phase3_repaired_candidates.py run --yes
-
-Load the existing Anthropic user-environment key into the process without printing
-it. No review request/reservation/charge was created by the rejected invocation.
-Current total Phase 3 conservative accounting is $0.38508195: $0.3274722 Claude
-and $0.05760975 OpenAI. Remaining provider room is $14.6725278/$29.94239025.
-Package accounting is $23.291154975, within $100. These are not billing balances.
-
-The verified 43-call archive is output/phase3_candidates_20260913.zip, 130 JSON
-members, SHA256 53a2456db88622b0ddb7f749a825b3e169465d386c77b7aa15aea2128df0bcec.
-The original failed consultation remains preserved and fully charged. New data
-belongs to the linked continuation. Off-device backup is not verified.
+Next: verify actual stimulus-bundle assembly, then freeze recognition requests,
+two independent raters, adjudication and the full cost bound. No recognition or
+population calls have run. No further paid batch is queued. Structural acceptance
+is not human equivalence or a Phase 3 behavioural result.

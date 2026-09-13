@@ -63,83 +63,54 @@ The requested desktop UI restyle adds local game-style fonts, tactile controls,
 fixed playback and inspector tabs, and full-screen mode. Desktop layout checks
 and the existing 3D browser suite passed; rendering and research data are unchanged.
 
-## Phase 3 preparation started (2026-09-13)
+## Phase 3 structural review complete; recognition next (2026-09-13)
 
-Latest [candidate development](experiments/phase3_benchmarks/variants_r3/STATUS.md):
-five OpenAI candidates generated successfully for $0.04751175 after explicit
-disclosure approval, then repaired locally with full provenance. All 48 Phase 3
-tests pass; the 43-call archive and zero-call generation replay are verified.
-Phase 3 total is $0.38508195 (Claude $0.3274722, OpenAI $0.05760975).
-Five independent reviews of the actual repaired pairs are frozen at $0.2901162
-maximum, but automatic approval review requires specific disclosure approval
-for those NEW pairs to Anthropic. No review call/reservation occurred. Once
-approved, run the same frozen review manifest; recognition/population remain gated.
+All five canonical/repaired-alternative pairs received independent Claude
+structural acceptance, with no blocking mismatches or required changes. The
+researcher's explicit approval resolved the earlier disclosure block. See
+experiments/phase3_benchmarks/variants_r3/ASSESSMENT.md for domain limitations.
+This is text-level operational review, not human equivalence, recognition
+screening or behavioural evidence. Phase 3 remains open; recognition and
+population collection have not started.
 
-Latest [budget amendment](experiments/phase3_benchmarks/PROVIDER_BUDGET_20260913.md):
-the user set separate $15 Claude and $30 OpenAI caps, replacing the combined $30.
-Current remaining accounting room is $14.6725278 and $29.989902 respectively;
-the $100 package cap and prior charges remain. Three provider-budget tests pass.
-This is a budget update, not a failure reset or paid collection release.
+The five reviews cost $0.031317 conservatively; generation plus these reviews
+cost $0.07882875. Cumulative Phase 3 accounting is $0.41639895: $0.3587892 Claude
+and $0.05760975 OpenAI. Separate hard caps are $15 Claude and $30 OpenAI, with
+$14.6412108 and $29.94239025 remaining accounting room. Package accounting is
+$23.322471975 within the existing $100 cap. These are estimates, not balances.
+The frozen validation-stage allocations remain binding; caps are not targets.
 
-Current continuation: [canonical revision 2](experiments/phase3_benchmarks/canonical_r2/PROTOCOL.md)
-provides exact local procedures and paired inference for all five families;
-all 38 Phase 3 tests pass, including missingness and ten-contrast multiplicity.
-The user approved the private-packet disclosure and Claude returned partial advice,
-but hit the 7,000-token cap. Several suggestions were wrong and rejected; see the
-[checked disposition](experiments/phase3_benchmarks/resolution_20260913/CONSULTATION_OUTCOME.md).
-The failure remains recorded at its full $0.248127 reservation. Tonight totals
-$0.3375702; package accounting is $23.243643225. A verified
-38-call archive preserves all old evidence. Further paid dispatch is stopped until
-an explicit linked reconciliation, without overwriting the failure or resetting
-the ledger. Next: review canonical/variant equivalence, freeze the implemented
-inference with the runtime, and price the full recognition/rater schedule before
-population collection.
+All 48 Phase 3 offline tests passed at candidate freeze. The 48-call checkpoint
+verifies exact generation/review replay with zero additional calls, source
+hashes, preserved historical evidence and all 145 archived JSON members. See
+experiments/phase3_benchmarks/variants_r3/REVIEW_CHECKPOINT.json. The earlier
+truncated consultation remains immutable at its full $0.248127 reservation;
+the linked validation continuation preserves it without retry or ledger reset.
+No failure or approval block is pending for the completed five reviews.
+Off-device backup is not verified. Do not repeat paid checks merely to resume.
 
-Earlier 37-call checkpoint: [Phase 3 evidence and next release work](experiments/phase3_benchmarks/README.md).
-Anthropic access works. One independent Claude design review and 36 no-peer
-perception calls completed; line and colour checks each scored 18/18. These are
-prerequisites, not behavioural benchmark results. New conservative spending is
-$0.0894432; tonight has $29.9105568 accounting room left. Package accounting is
-$22.995516225. No further paid task is queued; preserve valid records and do not
-repeat checks merely to resume. Complete canonical procedures, independent
-variant validation and the required recognition/rater freeze before population work.
+Next: assemble and locally verify the exact visual/sequential task bundles,
+then freeze recognition requests, two independent raters, adjudication,
+missingness handling and the complete cost reservation. Recognition requires
+50 responses per canonical/alternative form across five families (500 judge
+calls, plus classification/adjudication); >15/50 rejects an alternative. No
+answer keys, profiles, context labels or benchmark names belong in recognition
+requests. Recognition must inspect actual task content, not abstract summaries.
+No further paid batch is queued by this checkpoint.
 
-The staged reconciliation is accepted. Tonight has a **$30 ceiling for additional
-work**, within the original $100 package cap. See the
-[validation protocol](experiments/phase3_benchmarks/validation_20260913/PROTOCOL.md),
-[operational drafts](experiments/phase3_benchmarks/validation_20260913/OPERATIONAL_PROTOCOLS.md)
-and [prospective erratum](experiments/phase3_benchmarks/validation_20260913/ERRATUM.md).
-The offline persistent budget guard passed five tests. The initial validation
-allocation is at most $10 ($1 generation, $2 structural review, $7 recognition);
-$20 remains unallocated. None of these allocations is a spend target or a quote.
-The prerequisite calls above are complete and Anthropic access is configured. Finish
-canonical procedures and freeze exact generation/review/recognition requests and
-cost bounds before dispatch. Use one shared nightly ledger across all stages.
-
-The researcher prefers proceeding to Phase 3 as specified, while deferring a
-broader Phase 2 configuration extension. See
-[Phase 3 preparation and checklist](experiments/phase3_preparation_20260913/README.md).
-Prepare all five benchmark families, canonical/decanonised variants, recognition
-probes, concept-specific high/low contexts, modulators and dependency sensitivity.
-Freeze exact contexts, review workflow, analysis and budget before collection.
-Phase 3 can broaden targeted context coverage; it does not complete missing
-Phase 2 task/configuration cells. No new paid collection is queued.
-
-Phase 3's clause/source audit, five structural review packets, draft contexts,
-recognition/review templates and offline accounting/sensitivity tools are prepared.
-Five tests passed. The spec's D regime produces 110,400 nominal calls if N=100
-applies to each of its 100 matrices; the budget paragraph counts D only once.
-The source audit also identifies unmatched reference rates and measurement units.
-See [the reviewable reconciliation proposal](experiments/phase3_preparation_20260913/SPEC_RECONCILIATION.md).
-No canonical/variant prompt, pass criterion or collection protocol is released.
-The reconciliation is accepted. Next: complete source-matched operational procedures,
-then independent variant validation and an exact all-cost schedule before collection.
+All five benchmark families, ten LPM coordinates, Beta distributions and R remain
+in scope. Canonical procedures are in
+experiments/phase3_benchmarks/canonical_r2/PROTOCOL.md. Concept-specific high/low
+contexts, modulators and dependency sensitivity still require their collection
+freeze. Full D=100 replication and its trajectory costs remain unresolved within
+the budget; Phase 3 does not retrospectively fill omitted Phase 2 cells. Preserve
+frozen protocols/manifests and use linked revisions for substantive changes.
 
 ## Next work
 
-1. Phase 3: prepare the human-benchmark comparison, canonical/decanonised forms,
-   predicted high/low contexts, modulator and recognition/contamination checks.
-   Freeze concrete sampling, analysis and budget before any new paid collection.
+1. Phase 3: verify the actual stimulus bundles for the five accepted pairs.
+   Freeze recognition requests, two independent raters, adjudication and total
+   cost before screening; population collection remains gated on those results.
 2. Phase 4: draft and review the dual moral-coding manual and human gold/reliability
    plan. Obtain the required human review before moral scores are assigned.
    Dissent is not automatically bad; proposed safeguards are not realised welfare.

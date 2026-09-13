@@ -7,11 +7,13 @@ in ../variants_r3/candidates.json. No additional generation call was used.
 All 48 Phase 3 tests pass. GENERATION_CHECKPOINT.json verifies the 43-call archive,
 all previous records and charges, and a zero-call replay of the five responses.
 
-Independent review of the repaired pairs is prepared at $0.2901162 maximum,
-but automatic approval review blocked disclosure to Anthropic pending specific
-user approval for those NEW pairs. See ../variants_r3/STATUS.md. No review call
-or reservation was created. Current Phase 3 total is $0.38508195: Anthropic
-$0.3274722 and OpenAI $0.05760975. No population or recognition calls have run.
+Independent review is now complete: all five repaired pairs received accept,
+with no blocking mismatches or required changes. See
+[the checked assessment](../variants_r3/ASSESSMENT.md) and
+[48-call checkpoint](../variants_r3/REVIEW_CHECKPOINT.json). The five reviews cost
+$0.031317; current Phase 3 accounting is $0.41639895. Recognition and population
+collection have not started. The earlier approval block was resolved by explicit
+researcher approval; the historical checkpoint below is not current run status.
 
 ## Earlier pre-generation checkpoint (superseded by the result above)
 
