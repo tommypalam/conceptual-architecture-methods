@@ -2,13 +2,14 @@
 
 ## Phase 3 preparation started (2026-09-13)
 
-Latest continuation: user requested economical progress. Five alternative-domain
-generation requests are frozen at $0.38276425 total, with a tested linked
-continuation retaining the truncated consultation and every old charge. All 45
-Phase 3 tests pass. Automatic approval review blocked disclosure of the private
-structural packets to OpenAI pending specific approval; no call/reservation was
-created. See experiments/phase3_benchmarks/variants_r2/STATUS.md. Do not bypass
-that rejection. The same frozen requests may run once the explicit approval arrives.
+Latest continuation: user approved OpenAI disclosure and all five candidates were
+generated for $0.04751175. Tracked local repairs preserve the generated originals;
+all 48 Phase 3 tests and the 43-call archive verification pass. Phase 3 accounting
+is $0.38508195 total. See experiments/phase3_benchmarks/variants_r3/STATUS.md.
+Five independent Claude reviews are frozen at $0.2901162 maximum, but automatic
+approval review blocked disclosure of these NEW private pairs to Anthropic pending
+specific approval. No review call/reservation was created. Do not bypass that
+rejection; run the same frozen requests once that approval arrives.
 
 Current budget amendment: separate hard caps of $15 Anthropic and $30 OpenAI
 replace the earlier combined $30 nightly ceiling. Carry forward $0.3274722

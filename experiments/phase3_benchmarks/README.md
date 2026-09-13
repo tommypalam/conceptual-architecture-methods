@@ -1,9 +1,12 @@
 # Phase 3: human-behaviour benchmark development
 
-Latest [candidate-development release](variants_r2/STATUS.md): five frozen OpenAI
-requests cost at most $0.38276425 combined; linked continuation and all 45 Phase 3
-tests passed. The command was blocked by automatic approval review pending explicit
-private-packet disclosure approval. No additional calls or charges occurred.
+Latest [candidate development](variants_r3/STATUS.md): five OpenAI candidates
+completed for $0.04751175, then repaired locally with full provenance. All 48
+Phase 3 tests pass; the 43-call archive and zero-call replay are verified. Total
+Phase 3 accounting is $0.38508195 (Claude $0.3274722/OpenAI $0.05760975).
+Five concise independent reviews are frozen at $0.2901162 maximum but blocked
+by automatic approval review pending specific disclosure approval for the newly
+repaired private pairs to Anthropic. No review call or charge occurred.
 
 Phase 3 is **open**. The researcher approved staged reconciliation and now sets
 separate **$15 Claude / $30 OpenAI** ceilings, inside the existing $100 package cap.

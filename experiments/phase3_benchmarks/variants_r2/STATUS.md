@@ -1,5 +1,20 @@
 # Current release status
 
+The user explicitly approved the five OpenAI packets. **Generation completed:**
+five valid responses, $0.04751175 conservative cost, against $0.38276425 maximum.
+The generated originals are in generation_result.json; tracked local repairs are
+in ../variants_r3/candidates.json. No additional generation call was used.
+All 48 Phase 3 tests pass. GENERATION_CHECKPOINT.json verifies the 43-call archive,
+all previous records and charges, and a zero-call replay of the five responses.
+
+Independent review of the repaired pairs is prepared at $0.2901162 maximum,
+but automatic approval review blocked disclosure to Anthropic pending specific
+user approval for those NEW pairs. See ../variants_r3/STATUS.md. No review call
+or reservation was created. Current Phase 3 total is $0.38508195: Anthropic
+$0.3274722 and OpenAI $0.05760975. No population or recognition calls have run.
+
+## Earlier pre-generation checkpoint (superseded by the result above)
+
 Five generation requests are frozen in generation_manifest.json. Combined maximum
 reservation: **$0.38276425**, charged to OpenAI if dispatched. N agents=0. The
 later five independent Claude reviews have a $0.60 whole-batch ceiling, but their

@@ -65,13 +65,15 @@ and the existing 3D browser suite passed; rendering and research data are unchan
 
 ## Phase 3 preparation started (2026-09-13)
 
-Latest [economical continuation](experiments/phase3_benchmarks/variants_r2/STATUS.md):
-five candidate-generation requests frozen at $0.38276425 maximum; no population
-sampling. A tested linked continuation preserves the previous failure and costs;
-all 45 Phase 3 tests pass. Automatic approval review blocked private-packet egress
-to OpenAI pending explicit disclosure approval. No call/reservation was created.
-Once approved, run the frozen generation batch, then prepare the independent
-reviews of its actual candidates. No automatic retry of the old Claude consultation.
+Latest [candidate development](experiments/phase3_benchmarks/variants_r3/STATUS.md):
+five OpenAI candidates generated successfully for $0.04751175 after explicit
+disclosure approval, then repaired locally with full provenance. All 48 Phase 3
+tests pass; the 43-call archive and zero-call generation replay are verified.
+Phase 3 total is $0.38508195 (Claude $0.3274722, OpenAI $0.05760975).
+Five independent reviews of the actual repaired pairs are frozen at $0.2901162
+maximum, but automatic approval review requires specific disclosure approval
+for those NEW pairs to Anthropic. No review call/reservation occurred. Once
+approved, run the same frozen review manifest; recognition/population remain gated.
 
 Latest [budget amendment](experiments/phase3_benchmarks/PROVIDER_BUDGET_20260913.md):
 the user set separate $15 Claude and $30 OpenAI caps, replacing the combined $30.
