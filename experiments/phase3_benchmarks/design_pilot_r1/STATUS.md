@@ -1,15 +1,25 @@
-# One-candidate pilot frozen; specific disclosure approval pending
+# Pilot stopped at structural review; recognition not tested
 
-Automatic approval review rejected paid dispatch BEFORE launch. It did not treat
-OK CONTINUE as specific approval for the new paid multi-provider experiment and
-its project-derived prompts/scenario disclosures. See [DISCLOSURE.md](DISCLOSURE.md)
-for the concrete payloads, destinations and exact generation request. Do not
-bypass the block. The [prelaunch checkpoint](PRELAUNCH_CHECKPOINT.json) confirms
-zero new calls/charges, unchanged sources and650 preserved records. Provider
-accounting remains $5.949588700 Claude and $0.154002750 OpenAI.
+Specific paid-disclosure approval was received and the exact frozen command ran.
+Generation and review completed, costing $0.004360125 conservatively. Claude's
+review requested revision of the six-conversation role schedule; no recognition
+or coding calls ran. The earlier automatic approval block is resolved.
 
-After specific approval, execute the SAME frozen pilot. No redesign, new quote
-or repeat of unchanged tests is required. No collector is running.
+The runner stopped on a Markdown fence around the otherwise valid review JSON.
+A separate zero-call audit extracted only that complete wrapper, validated the
+unchanged revise verdict and preserved all raw records. See [ASSESSMENT.md](ASSESSMENT.md),
+[STOP_CHECKPOINT.json](STOP_CHECKPOINT.json) and the unreviewed
+[offline repair proposal](REPAIR_PROPOSAL.md). No original source was modified.
+
+The ledger retains652 records and the new1,958-member archive is verified. Phase3
+accounting is $6.107951575, package $29.014024600. Claude total $5.952994300 and
+OpenAI $0.154957275 remain within $15/$30 caps. No collector is running or paid
+work queued. No recognition rate or formal gate result exists for this candidate.
+
+Do not resume the old command or run the original full-pipeline verifier against
+the preserved fenced response. Audit this checkpoint with
+`py -3.11 -B code/verify_phase3_design_pilot_stop.py`. A future revision needs a new
+designation and independent review. All historical failures/rejections remain intact.
 
 ## Verified preparation
 

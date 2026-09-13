@@ -1,66 +1,57 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
-## Phase 3 recognition complete: all five alternatives rejected (2026-09-13)
+## Phase 3: design pilot stopped at structural review (2026-09-13)
 
-The next one-candidate exploratory pilot is implemented, tested and frozen in
-experiments/phase3_benchmarks/design_pilot_r1/. It uses independent generation and
-structural review, then N5 recognition and dual coding if accepted. Maximum new
-accounting $0.425814400; it cannot satisfy the formal N50 gate. Automatic approval
-review rejected launch before any call because OK CONTINUE was not accepted as
-specific disclosure approval for the new OpenAI/Anthropic payloads. See that
-folder's DISCLOSURE.md and PRELAUNCH_CHECKPOINT.json. All650 records and current
-costs below are unchanged. No collector is running; do not bypass the block.
-After explicit approval of those concrete payloads/destinations, run the SAME
-frozen pilot; no repeated generation, quotes or unchanged tests are needed.
+The specifically approved design_pilot_r1 ran one generation and one independent
+Claude review. The reviewer requested revision because the six-conversation role
+schedule was ambiguous. No recognition or coding calls ran. This is a structural
+stop with zero recognition observations, not an N5 or N50 recognition failure.
+See experiments/phase3_benchmarks/design_pilot_r1/ASSESSMENT.md and STOP_CHECKPOINT.json.
 
-All500 recognition probes are dual-coded. Both raters agreed on all500 answers;
-every canonical and alternative form was recognised50/50 times, with no missing
-outcomes. All five alternatives fail the frozen >15/50 gate. No discussion was
-needed. This screening stage is complete; Phase3 remains open and population
-collection is not released. See
-experiments/phase3_benchmarks/recognition_r1/execution/transport_r1/ASSESSMENT.md
-and its results.json and CHECKPOINT.json.
+The review's valid JSON was inside a Markdown fence, which stopped the frozen
+runner's downstream parser. An offline audit removed only the complete wrapper
+in derived data and validated the unchanged revise verdict. Both raw responses,
+original sources and manifests remain intact; no API call was repeated. The
+local REPAIR_PROPOSAL.md separates participant text from one unrestricted
+proposer task plus five fixed-offer responder tasks. It is not independently
+reviewed or released. Fixing that ambiguity alone does not establish low recognition.
 
-All500 probes and28 valid coding batches were reused. An exact replacement of
-the first invalid coding batch reproduced the same one-character ID typo. Both
-failed responses remain immutable and fully accounted. A prospective short-ID
-format amendment then completed the remaining72 coding calls. The same answer
-text, rubric, models, shuffled batches and parser rules were retained; a frozen
-bijection maps within-batch IDs back to original IDs. Report the mixed coding ID
-formats as a post-failure amendment; do not claim unchanged preregistered execution.
+The pilot cost $0.004360125 of its $0.425814400 maximum. All Phase3 accounting is
+$6.107951575: Claude $5.952994300 and OpenAI $0.154957275. Remaining room under
+$15/$30 caps is $9.047005700 and $29.845042725. Package accounting including Phase2
+is $29.014024600 under $100. These are conservative estimates, not balances.
+The pilot's approval block was resolved. No collector is running, no paid work
+is queued and no approval is pending for this stopped round.
 
-Screening accounting is $5.687192500 of the $14.067432500 ceiling. The latest
-CONTINUE turn added $0.204660500. All Phase3 accounting is $6.103591450: Claude
-$5.949588700 and OpenAI $0.154002750. Remaining room under $15/$30 caps is
-$9.050411300 and $29.845997250. Package accounting including Phase2 is
-$29.009664475 under $100. These are conservative estimates, not provider balances.
-Both failed coding charges and the older failed consultation remain included.
+Three fence-audit tests passed. Zero-call verification checked request/model/parser/
+cost links, all650 inherited records, the previous archive and all1,958 members
+of the new stopped-run archive. The ledger now contains652 paid records. Raw data
+and archives are excluded from Git; off-device backup is unverified. Do not rerun
+the unchanged pilot or its original full-pipeline verifier merely to resume; use
+code/verify_phase3_design_pilot_stop.py for the stopped-run disposition.
 
-Seven recovery/transport tests and seven existing parser/ledger/analysis checks
-passed. Full real-data replay reproduced the final result with zero API calls,
-verified historical evidence and frozen inputs, and checked all1,952 local archive
-members. The ledger retains650 paid records. Raw data and archives are excluded
-from Git; off-device backup remains unverified. No collector is running or paid
-work queued. Do not rerun successful probes or coding to resume.
+The earlier complete recognition screen remains unchanged: all500 responses were
+dual-coded with exact agreement; all ten canonical/alternative cells showed50/50
+recognition. All five alternatives failed the frozen >15/50 gate. See
+experiments/phase3_benchmarks/recognition_r1/execution/transport_r1/ASSESSMENT.md.
+That screen cost $5.687192500, including both preserved failed coding attempts.
+Its short-ID format amendment and limitations remain explicit. The new pilot is
+not pooled with those results. Phase3 remains open; population stays gated.
 
-Structural acceptance did not make these alternatives unrecognisable. Recognition
-alone cannot distinguish memorisation from structural reasoning, and this screen
-does not establish human resemblance, moral quality or ethical understanding.
-The single-judge repeated-sampling design and AI-only batched raters remain limits.
-
-Next: review alternative-scenario design offline before a separately designated
-new candidate round. Do not loosen the recognition threshold after observing the
-results, pool future candidates with these outcomes, or launch population work
-using rejected controls. A small exploratory recognition pilot could screen out
-poor candidates cheaply, but cannot replace the specified N50 acceptance gate.
+Next: improve the drafting contract to separate participant text, role prompts
+and engine-only scheduling, and specify a more substantial alternative setting.
+The new candidate needs a separate designation and independent review before any
+recognition check. Do not loosen the recognition threshold, remove defining
+causal rules to conceal a paradigm, or fund open-ended surface-rewording loops.
+Recognition alone cannot distinguish memorisation from structural reasoning;
+these checks do not establish human resemblance, moral quality or ethical understanding.
 
 All five benchmark families, ten LPM coordinates, Beta distributions and R remain
 in scope. Canonical procedures are in
-experiments/phase3_benchmarks/canonical_r2/PROTOCOL.md. Concept-specific high/low
-contexts, modulators and dependency sensitivity still need a collection freeze.
-Full D=100 trajectory costs remain unresolved within the budget. Phase3 does not
-retrospectively fill omitted Phase2 configurations. Preserve frozen sources and
-all historical failed outcomes when designing linked revisions.
+experiments/phase3_benchmarks/canonical_r2/PROTOCOL.md. High/low contexts, modulators,
+dependency sensitivity and full D=100 trajectory costs still need a feasible
+collection freeze. Phase3 does not retrospectively fill omitted Phase2 cells.
+Preserve all frozen sources and historical outcomes when designing linked revisions.
 
 ## Phase 2 behavioural study complete (2026-09-13)
 

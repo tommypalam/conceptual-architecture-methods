@@ -1,6 +1,6 @@
 # Phase 3: recognition screen complete, all alternatives rejected
 
-Next candidate pilot: [frozen N5 design and specific disclosure approval](design_pilot_r1/DISCLOSURE.md). Maximum $0.425814400; automatic review blocked launch before any call. Current results and costs below are unchanged.
+Next-candidate pilot: [stopped at structural review](design_pilot_r1/ASSESSMENT.md); two calls cost $0.004360125. No recognition calls ran. The earlier approval block is resolved; the original recognition results below remain unchanged.
 
 All500 recognition responses are dual-coded. Haiku and GPT-5.4 mini agreed on
 all500 answers, with no missing outcomes. Every canonical and alternative form
@@ -26,9 +26,9 @@ shared structure does not by itself demonstrate memorisation, human resemblance,
 moral quality or ethical understanding. The main thesis questions remain separate.
 
 The complete screen cost $5.687192500 conservatively; the final CONTINUE turn
-added $0.204660500. All Phase3 accounting is $6.103591450: Claude $5.949588700,
-OpenAI $0.154002750, within the separate $15/$30 caps. Package accounting including
-Phase2 is $29.009664475 under $100. These are estimates, not provider balances.
+added $0.204660500. All Phase3 accounting including the stopped design pilot is $6.107951575:
+Claude $5.952994300, OpenAI $0.154957275, within the separate $15/$30 caps. Package accounting including
+Phase2 is $29.014024600 under $100. These are estimates, not provider balances.
 
 The original500 probes and28 valid coding batches were reused. An exact replacement
 reproduced an invalid long ID, so a [prospective format amendment](recognition_r1/execution/transport_r1/PROTOCOL.md)
@@ -39,8 +39,7 @@ formats and AI-only raters are explicit limitations; no rubric or answer text ch
 Seven recovery/transport tests and seven existing runtime/analysis checks passed.
 Final real-data replay made zero API calls, reproduced results, checked all frozen
 sources and historical evidence, and verified the1,952-member local archive:
-`output/phase3_recognition_transport_r1_20260913.zip`. All650 paid records remain
-intact. Raw data and archives are excluded from Git; off-device backup is unverified.
+`output/phase3_recognition_transport_r1_20260913.zip`. The original650 records remain intact; the stopped pilot brings the ledger to652. Raw data and archives are excluded from Git; off-device backup is unverified.
 
 ## Evidence and next work
 
