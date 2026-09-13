@@ -1,5 +1,10 @@
 # Phase 3: human-benchmark preparation
 
+Latest: [complete recognition stimuli and quotation status](recognition_r1/STATUS.md).
+All 54 tests pass. Free token counting of the new private bundles/36 images was
+blocked by automatic approval review pending specific disclosure approval; no new
+call or charge occurred. Paid runtime and rater-discussion costing remain pending.
+
 **All five canonical/alternative pairs passed independent structural review.**
 Phase 3 remains open: recognition screening and agent population collection have
 not started. The reviews assess operational text structure; they do not establish
