@@ -1,8 +1,10 @@
 # Moral decisions and consequences
 
-The current scope is AI-assisted moral evaluation. Human raters are deferred
-under the researcher's [explicit amendment](AI_ONLY_SCOPE_20260913.md). The moral
-experiment remains central; no human-validation or moral-consensus claim follows.
+The current finite-task pilot uses explicit deterministic moral classifications
+after independent AI review, following the [measurement amendment](DETERMINISTIC_SCOPE_20260914.md).
+Earlier AI-rating screens remain failed reliability audits. Human raters are
+deferred under the researcher's [explicit amendment](AI_ONLY_SCOPE_20260913.md).
+The moral experiment remains central; no human-validation or moral-consensus claim follows.
 
 | Read | Purpose |
 |---|---|
@@ -14,6 +16,9 @@ experiment remains central; no human-validation or moral-consensus claim follows
 | [Revised pilot r2](consequence_pilot_r2/PROTOCOL.md) | Named-label interface, unchanged standards and new development checks |
 | [R2 review stop](consequence_pilot_r2/ASSESSMENT.md) | Preserved review requests; no coding or participants |
 | [Pilot r3](consequence_pilot_r3/PROTOCOL.md) | Explicit estimands and attribution, exact gates, original-case regressions |
+| [R3 measurement stop](consequence_pilot_r3/ASSESSMENT.md) | Four failed checks; no participant decisions |
+| [Finite-rule pilot](consequence_rule_pilot_r1/PROTOCOL.md) | Prospective individual choices with explicit deterministic outcomes |
+| [Finite rule map](consequence_rule_pilot_r1/RULES.md) | Exact conditions, normative assumptions and scope limits |
 
 Use [NEXT_STEPS.md](../../NEXT_STEPS.md) for current execution and cumulative
 accounting. Earlier behavioural phases remain unaltered. A pilot completion is

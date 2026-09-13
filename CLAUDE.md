@@ -1,6 +1,22 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
-## Consequential moral pilot preparation (2026-09-13)
+## Current finite-rule moral pilot (2026-09-14)
+
+R3 failed its measurement gate after 41 calls ($0.667539675), with zero participant
+decisions. All three stopped screens are preserved. Their cumulative $1.218321225
+counts against the same $4 development ceiling. The separately designated
+consequence_rule_pilot_r1 uses deterministic classifications for twelve explicit
+task/action pairs, after independent AI review and exhaustive offline tests.
+Its $0.584697300 reservation brings the full projected development total to
+$1.803018525. See experiments/phase4_coding/DETERMINISTIC_SCOPE_20260914.md and
+the new protocol. This prospective method amendment supersedes the two-provider
+rating gate for this finite study only; no old gate is passed or rating repaired.
+Keep simulated consequences separate from classifications under stipulated moral
+standards. No human validation, general moral scorer or full Phase 4 is implied.
+Current accounting before this new run: Claude $7.094015500/$15, OpenAI
+$1.285031550/$30, package $31.285120075/$100. NEXT_STEPS.md owns execution status.
+
+## Historical consequential pilot preparation (2026-09-13)
 
 14 September continuation: r2 stopped after one $0.038352600 review, without coding
 or participants. R3 formalizes estimands, attribution and blocking criteria, and

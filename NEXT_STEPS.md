@@ -6,7 +6,25 @@ to `main`, preserving its previous tip as `backup-1` and retaining `backup`.
 See the [publication record](docs/publication_20260913.md) for scope, branch targets
 and verification. Continue future implementation on a development branch.
 
-## Current design work: a stronger paper contribution
+## Active continuation: finite-rule moral pilot (14 September)
+
+The [new finite-rule protocol](experiments/phase4_coding/consequence_rule_pilot_r1/PROTOCOL.md)
+prospectively replaces generative primary labels for twelve fully specified actions
+with explicit deterministic classifications. It requires independent AI review of
+the rule map before 96 participant choices. See the [scope amendment](experiments/phase4_coding/DETERMINISTIC_SCOPE_20260914.md).
+This does not repair any failed screen or establish universal moral truth.
+Full reservation $0.584697300 plus all prior screening charges $1.218321225 gives
+$1.803018525 within the original $4 ceiling. No human raters are required.
+
+R3 is now stopped after 41 calls and four failed measurement checks, with zero
+participants. Its [assessment](experiments/phase4_coding/consequence_pilot_r3/ASSESSMENT.md)
+records the failures, $0.667539675 cost, zero-call replay and 7,016-member archive.
+Current prelaunch accounting: Claude $7.094015500/$15, OpenAI $1.285031550/$30,
+package $31.285120075/$100. These are usage estimates, not wallet balances.
+The unused first offline manifest is preserved under prelaunch_attempt_01;
+source-hash guards caught its outdated review packet before any paid launch.
+
+## Prior design and screening chronology: a stronger paper contribution
 
 Current continuation is the separately designated
 [consequential moral pilot r3](experiments/phase4_coding/consequence_pilot_r3/PROTOCOL.md).

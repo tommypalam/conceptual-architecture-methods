@@ -23,6 +23,18 @@ study documents rather than silently changing that historical theory text.
 
 ## Three central questions
 
+**Finite-task measurement amendment, 14 September 2026:** r1 and r3 AI-rating
+screens failed, while r2 stopped at review; none collected participant decisions.
+For the separately designated consequence_rule_pilot_r1 only, primary moral
+outcomes now use deterministic rules for twelve fully specified task/action pairs,
+with independent AI review of the rule map and exhaustive offline checks before
+collection. This supersedes the two-provider rating gate below for that finite
+study, not for open-ended scoring. The old gates remain failed. Rule-derived labels
+are classifications under stipulated standards, not human validation or universal
+moral truth. See the [dated amendment](../experiments/phase4_coding/DETERMINISTIC_SCOPE_20260914.md)
+and [prospective protocol](../experiments/phase4_coding/consequence_rule_pilot_r1/PROTOCOL.md).
+All prior charges carry forward; no budget or inference reset occurs.
+
 **Scope amendment, 13 September 2026:** the researcher explicitly ruled out
 human raters because no funding is available. The current Phase 4 deliverable is
 therefore AI-assisted moral evaluation with a prospectively frozen manual,
