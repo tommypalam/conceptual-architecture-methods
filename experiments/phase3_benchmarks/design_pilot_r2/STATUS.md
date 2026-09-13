@@ -1,34 +1,20 @@
-# Clarified pilot verified; specific revised-payload approval pending
+# Clarified pilot complete: candidate discarded
 
-Automatic approval review blocked paid launch before any call. It acknowledged
-approve continue as substantive authorisation but required specific approval of
-the revised packet's Anthropic/OpenAI destinations. See [DISCLOSURE.md](DISCLOSURE.md)
-and the exact saved review/recognition requests. Do not bypass the block.
-[PRELAUNCH_CHECKPOINT.json](PRELAUNCH_CHECKPOINT.json) confirms zero new calls or
-charges,652 preserved records and unchanged frozen sources. No collector is running.
-After the required specific approval, execute the SAME frozen command; do not
-regenerate the candidate or repeat unchanged prelaunch checks.
+The researcher supplied the specific revised-payload approval. The collector
+completed eight calls and has exited. Claude accepted the corrected structure,
+then recognised the ultimatum game in all five probes. Both raters agreed;
+no discussion was needed. The frozen exploratory rule discards this candidate.
+The formal N50 gate was not tested and population collection remains unreleased.
 
-## Verified preparation
+Read [ASSESSMENT.md](ASSESSMENT.md), [results.json](results.json) and
+[CHECKPOINT.json](CHECKPOINT.json). New accounting is $0.036588750; both pilot
+attempts together cost $0.040948875, within the $0.425814400 ceiling.
+Zero-call verification reproduced the result, preserved all 652 inherited
+records and checked every member of the new 1,982-member archive. The current
+ledger contains 660 records. No paid work is active or queued.
 
-The researcher approved continuing with the clarified draft. The independent
-review receives the complete six-task packet; recognition and coding proceed
-only after accept with no blocking issues. No fresh generation call is needed.
-The original pilot and its revise verdict remain immutable.
-
-Four tests passed in68.018 seconds: full fenced-review mock collection/discussion
-and zero-call replay, six-role mapping and strict JSON validation, structural
-revision stopping before probes, and preserved failure/no-retry behavior.
-All652 inherited records and the stopped archive were verified before freeze.
-
-Release SHA256:
-`7f9c985e9cded9d14d12f86d9a30e4507136e4052280d857843e6c6bc368516b`.
-Maximum additional accounting $0.411347200; with the stopped pilot, $0.415707325,
-within the already approved $0.425814400 ceiling and original provider/package caps.
-
-See [candidate.json](candidate.json) and [PROTOCOL.md](PROTOCOL.md). The task
-schedule repair and explicit voluntary/equal-status wording do not establish
-low recognition. Full six-task recognition scope is disclosed prospectively.
-
-Paid command: `py -3.11 -B code/phase3_design_pilot_r2.py run --yes`.
-Final zero-call verification: `py -3.11 -B code/phase3_design_pilot_r2.py verify`.
+The earlier [DISCLOSURE.md](DISCLOSURE.md) and
+[PRELAUNCH_CHECKPOINT.json](PRELAUNCH_CHECKPOINT.json) remain historical evidence
+of the resolved prelaunch block. Do not rerun preparation or collection.
+The source, candidate, protocol, requests and release remain frozen.
+Four prelaunch tests passed; real-data verification made zero API calls.

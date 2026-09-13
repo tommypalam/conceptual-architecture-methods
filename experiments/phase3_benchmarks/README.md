@@ -1,6 +1,6 @@
 # Phase 3: recognition screen complete, all alternatives rejected
 
-Clarified pilot: [verified continuation and revised-payload approval](design_pilot_r2/DISCLOSURE.md). Automatic review blocked launch before any new call or charge.
+Clarified pilot: [completed and discarded after 5/5 recognition](design_pilot_r2/ASSESSMENT.md). Structural review accepted; both raters agreed. Eight calls cost $0.036588750, or $0.040948875 including the stopped pilot. Zero-call verification passed; 660 records are preserved. No further paid work is queued.
 
 Next-candidate pilot: [stopped at structural review](design_pilot_r1/ASSESSMENT.md); two calls cost $0.004360125. No recognition calls ran. The earlier approval block is resolved; the original recognition results below remain unchanged.
 
@@ -28,9 +28,9 @@ shared structure does not by itself demonstrate memorisation, human resemblance,
 moral quality or ethical understanding. The main thesis questions remain separate.
 
 The complete screen cost $5.687192500 conservatively; the final CONTINUE turn
-added $0.204660500. All Phase3 accounting including the stopped design pilot is $6.107951575:
-Claude $5.952994300, OpenAI $0.154957275, within the separate $15/$30 caps. Package accounting including
-Phase2 is $29.014024600 under $100. These are estimates, not provider balances.
+added $0.204660500. All Phase 3 accounting including both design pilots is $6.144540325:
+Claude $5.988386800, OpenAI $0.156153525, within the separate $15/$30 caps. Package accounting including
+Phase 2 is $29.050613350 under $100. These are estimates, not provider balances.
 
 The original500 probes and28 valid coding batches were reused. An exact replacement
 reproduced an invalid long ID, so a [prospective format amendment](recognition_r1/execution/transport_r1/PROTOCOL.md)
@@ -41,7 +41,7 @@ formats and AI-only raters are explicit limitations; no rubric or answer text ch
 Seven recovery/transport tests and seven existing runtime/analysis checks passed.
 Final real-data replay made zero API calls, reproduced results, checked all frozen
 sources and historical evidence, and verified the1,952-member local archive:
-`output/phase3_recognition_transport_r1_20260913.zip`. The original650 records remain intact; the stopped pilot brings the ledger to652. Raw data and archives are excluded from Git; off-device backup is unverified.
+`output/phase3_recognition_transport_r1_20260913.zip`. The original650 records remain intact; the two design pilots bring the ledger to 660. Raw data and archives are excluded from Git; off-device backup is unverified.
 
 ## Evidence and next work
 

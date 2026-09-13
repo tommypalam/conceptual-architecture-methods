@@ -1,6 +1,6 @@
 # Recognition complete: all five alternatives rejected
 
-Clarified pilot: [verified continuation and revised-payload approval](../design_pilot_r2/DISCLOSURE.md). Automatic review blocked launch before any new call or charge.
+Clarified pilot: [completed and discarded after 5/5 recognition](../design_pilot_r2/ASSESSMENT.md). Structural review accepted; both raters agreed. Eight calls cost $0.036588750, or $0.040948875 including the stopped pilot. Zero-call verification passed; 660 records are preserved. No further paid work is queued.
 
 Next-candidate pilot: [stopped at structural review](../design_pilot_r1/ASSESSMENT.md); two calls cost $0.004360125. No recognition calls ran. The earlier approval block is resolved; the original recognition results below remain unchanged.
 

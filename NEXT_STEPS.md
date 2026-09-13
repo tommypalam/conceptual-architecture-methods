@@ -63,74 +63,65 @@ The requested desktop UI restyle adds local game-style fonts, tactile controls,
 fixed playback and inspector tabs, and full-screen mode. Desktop layout checks
 and the existing 3D browser suite passed; rendering and research data are unchanged.
 
-## Phase 3: design pilot stopped at structural review (2026-09-13)
+## Phase 3: clarified pilot complete; candidate discarded (2026-09-13)
 
-The clarified design_pilot_r2 continuation is now implemented, tested and frozen.
-Its one review, conditional N5 probes, dual coding and bounded discussion cost at
-most $0.411347200 new, or $0.415707325 including the stopped attempt. Automatic
-approval review blocked launch before any call: it acknowledged approve continue
-as substantive approval but requires specific revised-payload/destination approval.
-See experiments/phase3_benchmarks/design_pilot_r2/DISCLOSURE.md and its prelaunch
-checkpoint. All652 records and current costs below are unchanged. No collector
-is running. After explicit approval, execute the SAME frozen runner without
-redesign, fresh generation, quotes or repeated unchanged tests. Do not bypass the block.
+The explicitly approved design_pilot_r2 completed independent structural review,
+five recognition probes and dual coding. Claude accepted the corrected six-task
+packet with no blocking issues. All five probes named the ultimatum game; both
+raters agreed on all five with no ambiguity or refusal. No discussion was needed.
+The frozen >=2/5 exploratory rule discards this candidate. This is not an N50
+gate result or a human-behaviour test. See
+experiments/phase3_benchmarks/design_pilot_r2/ASSESSMENT.md and CHECKPOINT.json.
 
-The specifically approved design_pilot_r1 ran one generation and one independent
-Claude review. The reviewer requested revision because the six-conversation role
-schedule was ambiguous. No recognition or coding calls ran. This is a structural
-stop with zero recognition observations, not an N5 or N50 recognition failure.
-See experiments/phase3_benchmarks/design_pilot_r1/ASSESSMENT.md and STOP_CHECKPOINT.json.
+Eight calls cost $0.036588750; including the stopped first pilot, $0.040948875
+against the approved $0.425814400 ceiling. All Phase 3 accounting is $6.144540325:
+Claude $5.988386800 and OpenAI $0.156153525. Remaining room under the $15/$30 caps
+is $9.011613200 and $29.843846475. Package accounting including Phase 2 is
+$29.050613350 under $100. These are conservative estimates, not provider balances.
+The specific disclosure approval was received and the launch block resolved.
+No collector is running, no paid work is queued and no approval is pending.
 
-The review's valid JSON was inside a Markdown fence, which stopped the frozen
-runner's downstream parser. An offline audit removed only the complete wrapper
-in derived data and validated the unchanged revise verdict. Both raw responses,
-original sources and manifests remain intact; no API call was repeated. The
-local REPAIR_PROPOSAL.md separates participant text from one unrestricted
-proposer task plus five fixed-offer responder tasks. It is not independently
-reviewed or released. Fixing that ambiguity alone does not establish low recognition.
+Zero-call replay reproduced the results and verified frozen request/source/cost
+links. All 652 inherited records and the stopped-run archive remain intact.
+The ledger contains 660 paid records. All 1,982 members of the new local archive
+passed CRC and SHA-256 checks. Raw data and archives are excluded from Git;
+off-device backup is unverified. Four prelaunch tests passed. Do not rerun this
+candidate or modify frozen sources, manifests, responses or historical checkpoints.
 
-The pilot cost $0.004360125 of its $0.425814400 maximum. All Phase3 accounting is
-$6.107951575: Claude $5.952994300 and OpenAI $0.154957275. Remaining room under
-$15/$30 caps is $9.047005700 and $29.845042725. Package accounting including Phase2
-is $29.014024600 under $100. These are conservative estimates, not balances.
-The pilot's approval block was resolved. No collector is running, no paid work
-is queued and no approval is pending for this stopped round.
+The original design_pilot_r1 remains a structural stop: one generation and one
+review cost $0.004360125, with zero recognition observations. Its ambiguous task
+schedule and fenced-review parsing issue were repaired prospectively in r2;
+neither the original evidence nor its disposition was overwritten.
 
-Three fence-audit tests passed. Zero-call verification checked request/model/parser/
-cost links, all650 inherited records, the previous archive and all1,958 members
-of the new stopped-run archive. The ledger now contains652 paid records. Raw data
-and archives are excluded from Git; off-device backup is unverified. Do not rerun
-the unchanged pilot or its original full-pipeline verifier merely to resume; use
-code/verify_phase3_design_pilot_stop.py for the stopped-run disposition.
-
-The earlier complete recognition screen remains unchanged: all500 responses were
-dual-coded with exact agreement; all ten canonical/alternative cells showed50/50
-recognition. All five alternatives failed the frozen >15/50 gate. See
+The earlier complete recognition screen remains unchanged: all 500 responses
+were dual-coded with exact agreement; all ten canonical/alternative cells showed
+50/50 recognition. All five alternatives failed the frozen >15/50 gate. See
 experiments/phase3_benchmarks/recognition_r1/execution/transport_r1/ASSESSMENT.md.
 That screen cost $5.687192500, including both preserved failed coding attempts.
-Its short-ID format amendment and limitations remain explicit. The new pilot is
-not pooled with those results. Phase3 remains open; population stays gated.
+The new N5 pilot is not pooled with those results. Phase 3 remains open;
+population collection is not released.
 
-Next: improve the drafting contract to separate participant text, role prompts
-and engine-only scheduling, and specify a more substantial alternative setting.
-The new candidate needs a separate designation and independent review before any
-recognition check. Do not loosen the recognition threshold, remove defining
-causal rules to conceal a paradigm, or fund open-ended surface-rewording loops.
-Recognition alone cannot distinguish memorisation from structural reasoning;
+Next: review the alternative-scenario and contamination-test design offline.
+The schedule repair worked, but this familiar token allocation setting did not
+provide a low-recognition control. Do not fund repeated cosmetic rewording,
+loosen the threshold or delete defining causal rules to conceal a paradigm.
+A substantive change to the validation design requires a documented prospective
+proposal. Recognition cannot distinguish memorisation from structural reasoning;
 these checks do not establish human resemblance, moral quality or ethical understanding.
 
 All five benchmark families, ten LPM coordinates, Beta distributions and R remain
 in scope. Canonical procedures are in
 experiments/phase3_benchmarks/canonical_r2/PROTOCOL.md. High/low contexts, modulators,
 dependency sensitivity and full D=100 trajectory costs still need a feasible
-collection freeze. Phase3 does not retrospectively fill omitted Phase2 cells.
+collection freeze. Phase 3 does not retrospectively fill omitted Phase 2 cells.
 Preserve all frozen sources and historical outcomes when designing linked revisions.
 
 ## Next work
 
-1. Phase 3: after specific revised-payload approval, run the [verified clarified pilot](experiments/phase3_benchmarks/design_pilot_r2/DISCLOSURE.md).
-   Independent review gates N5 recognition. Do not repeat the stopped first pilot
-   or unchanged prelaunch tests. Population remains gated.
+1. Phase 3: use the [completed pilot assessment](experiments/phase3_benchmarks/design_pilot_r2/ASSESSMENT.md)
+   to review alternative-scenario and contamination-test design offline. The
+   candidate was discarded after 5/5 recognition; no larger screen is queued.
+   Keep the original gate and human-benchmark requirements explicit.
 2. Phase 4: draft and review the dual moral-coding manual and human gold/reliability
    plan. Obtain the required human review before moral scores are assigned.
    Dissent is not automatically bad; proposed safeguards are not realised welfare.
