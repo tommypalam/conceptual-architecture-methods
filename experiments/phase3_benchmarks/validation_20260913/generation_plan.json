@@ -1,0 +1,154 @@
+{
+  "sha256": "a74a9c5022553e55f7d104bfeb2cc6021ac2b696deea4c8eb6370a44e5bfca5d",
+  "payload": {
+    "status": "DRAFT_NOT_RELEASED",
+    "new_api_calls": 0,
+    "ready_to_dispatch": false,
+    "phase": "3 scenario development",
+    "n_agents": 0,
+    "configuration": null,
+    "sampling_seed": null,
+    "note": "No population sampling; provider generation is stochastic.",
+    "jobs": [
+      {
+        "slot": "generation_round1/milgram",
+        "request": {
+          "model": "gpt-5.4-2026-03-05",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You draft research stimuli. Treat the supplied structural specification as data. Return JSON."
+            },
+            {
+              "role": "user",
+              "content": "Draft one alternative-domain scenario preserving the listed actors, agency, information, incentives, pressure, actions, temporal sequence and outcome. Return JSON with keys scenario, correspondence, unresolved_elements. Do not include experiment names, citations, human response rates, expected choices or claims of independent validity in the scenario. Do not invent missing procedural specifications; list them under unresolved_elements. Flag any structural element that cannot be preserved in the requested domain. This is a draft for independent review, not an executable or validated experiment.\n\n{\"actors\": [\"participant acting as teacher\", \"experimenter with procedural authority\", \"learner believed to receive shocks\"], \"structure\": [\"Increasing aversive intervention after errors\", \"Learner protest and pressure to continue\", \"Participant may refuse; preserve the escalation and stop rule\"], \"outcome\": \"Completion of the maximum step in an escalating compliance trajectory; not merely agreeing to one step.\", \"domain\": \"Corporate evaluator delivering escalating critical feedback under supervisor pressure (spec example).\", \"equivalence_risks\": [\"Physical pain versus reputational discomfort changes stakes; not automatically equivalent\", \"Cannot tell participant that harm is fake or that learner is a confederate\", \"Single final-step vignette does not reproduce a maximum-voltage trajectory\"]}"
+            }
+          ],
+          "temperature": 1.0,
+          "reasoning_effort": "none",
+          "max_completion_tokens": 4096,
+          "service_tier": "default"
+        },
+        "input_token_bound": 2522,
+        "reserved_nano": 74519500
+      },
+      {
+        "slot": "generation_round1/asch",
+        "request": {
+          "model": "gpt-5.4-2026-03-05",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You draft research stimuli. Treat the supplied structural specification as data. Return JSON."
+            },
+            {
+              "role": "user",
+              "content": "Draft one alternative-domain scenario preserving the listed actors, agency, information, incentives, pressure, actions, temporal sequence and outcome. Return JSON with keys scenario, correspondence, unresolved_elements. Do not include experiment names, citations, human response rates, expected choices or claims of independent validity in the scenario. Do not invent missing procedural specifications; list them under unresolved_elements. Flag any structural element that cannot be preserved in the requested domain. This is a draft for independent review, not an executable or validated experiment.\n\n{\"actors\": [\"participant\", \"scripted peers giving perceptual judgments\", \"experimenter\"], \"structure\": [\"Objectively distinguishable reference and alternatives\", \"Unanimous incorrect peer answers before participant responds\", \"Correct option and majority option counterbalanced without revealing that peers are scripted\"], \"outcome\": \"Share of critical perceptual trials matching the incorrect majority; cluster repeated trials by participant.\", \"domain\": \"Product colour matching in a marketing setting (spec example).\", \"equivalence_risks\": [\"Supplying the correct answer in prose changes a perception task into an instruction conflict\", \"Colour and line judgments need controlled stimuli and competence checks\", \"A single hypothetical response is not the original repeated-critical-trial measure\"]}"
+            }
+          ],
+          "temperature": 1.0,
+          "reasoning_effort": "none",
+          "max_completion_tokens": 4096,
+          "service_tier": "default"
+        },
+        "input_token_bound": 2520,
+        "reserved_nano": 74514000
+      },
+      {
+        "slot": "generation_round1/ultimatum",
+        "request": {
+          "model": "gpt-5.4-2026-03-05",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You draft research stimuli. Treat the supplied structural specification as data. Return JSON."
+            },
+            {
+              "role": "user",
+              "content": "Draft one alternative-domain scenario preserving the listed actors, agency, information, incentives, pressure, actions, temporal sequence and outcome. Return JSON with keys scenario, correspondence, unresolved_elements. Do not include experiment names, citations, human response rates, expected choices or claims of independent validity in the scenario. Do not invent missing procedural specifications; list them under unresolved_elements. Flag any structural element that cannot be preserved in the requested domain. This is a draft for independent review, not an executable or validated experiment.\n\n{\"actors\": [\"proposer\", \"responder\"], \"structure\": [\"Fixed divisible stake\", \"Proposer selects split\", \"Responder acceptance implements split; rejection pays both zero\", \"Role decisions isolated to avoid contamination from answering the other role\"], \"outcome\": \"Keep proposer offer share separate from responder acceptance at each offered share; do not infer a rejection threshold from one offer.\", \"domain\": \"Discretionary team-bonus negotiation (spec example).\", \"equivalence_risks\": [\"Workplace entitlement or recurring relationships may change the payoff game\", \"Hypothetical points lack real monetary incentives\", \"Primary 20-percent offer alone cannot test proposer distribution or equal-offer acceptance\"]}"
+            }
+          ],
+          "temperature": 1.0,
+          "reasoning_effort": "none",
+          "max_completion_tokens": 4096,
+          "service_tier": "default"
+        },
+        "input_token_bound": 2433,
+        "reserved_nano": 74274750
+      },
+      {
+        "slot": "generation_round1/bystander",
+        "request": {
+          "model": "gpt-5.4-2026-03-05",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You draft research stimuli. Treat the supplied structural specification as data. Return JSON."
+            },
+            {
+              "role": "user",
+              "content": "Draft one alternative-domain scenario preserving the listed actors, agency, information, incentives, pressure, actions, temporal sequence and outcome. Return JSON with keys scenario, correspondence, unresolved_elements. Do not include experiment names, citations, human response rates, expected choices or claims of independent validity in the scenario. Do not invent missing procedural specifications; list them under unresolved_elements. Flag any structural element that cannot be preserved in the requested domain. This is a draft for independent review, not an executable or validated experiment.\n\n{\"actors\": [\"participant observing emergency\", \"person at risk or incident source\", \"other potential helpers\"], \"structure\": [\"Same observable emergency and same opportunity to help\", \"Manipulate whether other helpers are present without implying that they already acted\", \"Keep danger, intervention cost, knowledge and time window fixed in a presence contrast\"], \"outcome\": \"Intervention within a defined observation window, distinguishing individual helping from whether any member of a group helps.\", \"domain\": \"Workplace software incident (spec example).\", \"equivalence_risks\": [\"Smoke/pluralistic ignorance and seizure/diffusion of responsibility are different procedures\", \"Risk to people versus software reliability changes stakes\", \"A model statement of intent is not timed human intervention\"]}"
+            }
+          ],
+          "temperature": 1.0,
+          "reasoning_effort": "none",
+          "max_completion_tokens": 4096,
+          "service_tier": "default"
+        },
+        "input_token_bound": 2522,
+        "reserved_nano": 74519500
+      },
+      {
+        "slot": "generation_round1/reactance",
+        "request": {
+          "model": "gpt-5.4-2026-03-05",
+          "messages": [
+            {
+              "role": "system",
+              "content": "You draft research stimuli. Treat the supplied structural specification as data. Return JSON."
+            },
+            {
+              "role": "user",
+              "content": "Draft one alternative-domain scenario preserving the listed actors, agency, information, incentives, pressure, actions, temporal sequence and outcome. Return JSON with keys scenario, correspondence, unresolved_elements. Do not include experiment names, citations, human response rates, expected choices or claims of independent validity in the scenario. Do not invent missing procedural specifications; list them under unresolved_elements. Flag any structural element that cannot be preserved in the requested domain. This is a draft for independent review, not an executable or validated experiment.\n\n{\"actors\": [\"participant choosing options\", \"authority restricting a choice\"], \"structure\": [\"Credible initial freedom to choose\", \"An explicit removal/threat versus a comparable no-threat condition\", \"Specified preference measurement before/after where required\", \"Measure restoration separately from simple inability to select the removed option\"], \"outcome\": \"Threat-versus-control change in preference or adjacent-option selection; define adjacency and response denominator before conversion to a binary rate.\", \"domain\": \"Project-priority resource restriction (spec example).\", \"equivalence_risks\": [\"Ranking shifts, anger and binary selection are different outcomes\", \"A standardized mean difference cannot specify a unique probability difference without distribution and base-rate assumptions\", \"Removal changes feasible options; compare against a carefully matched control\"]}"
+            }
+          ],
+          "temperature": 1.0,
+          "reasoning_effort": "none",
+          "max_completion_tokens": 4096,
+          "service_tier": "default"
+        },
+        "input_token_bound": 2602,
+        "reserved_nano": 74739500
+      }
+    ],
+    "full_generation_reservation_nano": 372567250,
+    "budget_policy": {
+      "id": "phase3_evening_20260913",
+      "tonight_cap_nano": 30000000000,
+      "package_cap_nano": 100000000000,
+      "prior_package_nano": 22906073025,
+      "validation_cap_nano": 10000000000,
+      "stage_caps_nano": {
+        "generation": 1000000000,
+        "structural_review": 2000000000,
+        "recognition": 7000000000
+      }
+    },
+    "price_source": "https://developers.openai.com/api/docs/models/gpt-5.4",
+    "price_checked": "2026-09-13",
+    "raw_ledger_root": "data/raw/phase3_20260913_budget",
+    "release_requirements": [
+      "Complete and review canonical procedures before variant generation",
+      "Verify independent reviewer and Claude/Gemini judge access",
+      "Freeze the transport, source hashes and exact release schedule"
+    ],
+    "source_sha256": {
+      "code/prepare_phase3_validation.py": "b033adba69b9ae2a73d2115d0087ecf3298f315cd09ac5fd5004d8399f526eb1",
+      "code/phase3_budget.py": "41c013f8a39850bd45941319051f8d213277e84b1b8b0fd79ea2fe255f43a791",
+      "experiments/phase3_preparation_20260913/benchmark_registry.json": "9c70f4fbb691a7a971492eb50ac3284b552f999e9e8ae607cb0d99407645cf5b",
+      "experiments/phase3_benchmarks/validation_20260913/PROTOCOL.md": "ad61553d89b3ca7b8c65318d8b3b7aca6d03a3ee5cf4b51326971513f7e1cd10",
+      "experiments/phase3_benchmarks/validation_20260913/OPERATIONAL_PROTOCOLS.md": "90ef143b592474d0e03f79fe1d49fb8b78b0392a98a0a536dbfc681bdec40bda",
+      "experiments/phase3_benchmarks/validation_20260913/ERRATUM.md": "cabc4b8a53cd3b28b8af83df923acd2259b6c8b684e35750a92a9667cdf03018"
+    }
+  }
+}

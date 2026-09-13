@@ -1,5 +1,11 @@
 # Phase 3: concrete issues to reconcile before collection
 
+Update 2026-09-13: the researcher accepted the staged reconciliation, retaining
+the original $100 package cap and adding a $30 cap on tonight's new work. See
+../phase3_benchmarks/validation_20260913/PROTOCOL.md. The proposal below remains
+the historical review basis. No D sample size, unverified human rate or executable
+behavioural collection schedule was thereby selected.
+
 The full five-benchmark scope is retained. Following the spec requires resolving
 its internal inconsistencies; this document proposes decisions, it does not amend
 the frozen theory or authorize a narrower experiment. No paid call has been made.

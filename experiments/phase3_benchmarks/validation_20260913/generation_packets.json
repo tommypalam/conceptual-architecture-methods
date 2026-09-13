@@ -1,0 +1,102 @@
+[
+  {
+    "id": "milgram",
+    "actors": [
+      "participant acting as teacher",
+      "experimenter with procedural authority",
+      "learner believed to receive shocks"
+    ],
+    "structure": [
+      "Increasing aversive intervention after errors",
+      "Learner protest and pressure to continue",
+      "Participant may refuse; preserve the escalation and stop rule"
+    ],
+    "outcome": "Completion of the maximum step in an escalating compliance trajectory; not merely agreeing to one step.",
+    "domain": "Corporate evaluator delivering escalating critical feedback under supervisor pressure (spec example).",
+    "equivalence_risks": [
+      "Physical pain versus reputational discomfort changes stakes; not automatically equivalent",
+      "Cannot tell participant that harm is fake or that learner is a confederate",
+      "Single final-step vignette does not reproduce a maximum-voltage trajectory"
+    ]
+  },
+  {
+    "id": "asch",
+    "actors": [
+      "participant",
+      "scripted peers giving perceptual judgments",
+      "experimenter"
+    ],
+    "structure": [
+      "Objectively distinguishable reference and alternatives",
+      "Unanimous incorrect peer answers before participant responds",
+      "Correct option and majority option counterbalanced without revealing that peers are scripted"
+    ],
+    "outcome": "Share of critical perceptual trials matching the incorrect majority; cluster repeated trials by participant.",
+    "domain": "Product colour matching in a marketing setting (spec example).",
+    "equivalence_risks": [
+      "Supplying the correct answer in prose changes a perception task into an instruction conflict",
+      "Colour and line judgments need controlled stimuli and competence checks",
+      "A single hypothetical response is not the original repeated-critical-trial measure"
+    ]
+  },
+  {
+    "id": "ultimatum",
+    "actors": [
+      "proposer",
+      "responder"
+    ],
+    "structure": [
+      "Fixed divisible stake",
+      "Proposer selects split",
+      "Responder acceptance implements split; rejection pays both zero",
+      "Role decisions isolated to avoid contamination from answering the other role"
+    ],
+    "outcome": "Keep proposer offer share separate from responder acceptance at each offered share; do not infer a rejection threshold from one offer.",
+    "domain": "Discretionary team-bonus negotiation (spec example).",
+    "equivalence_risks": [
+      "Workplace entitlement or recurring relationships may change the payoff game",
+      "Hypothetical points lack real monetary incentives",
+      "Primary 20-percent offer alone cannot test proposer distribution or equal-offer acceptance"
+    ]
+  },
+  {
+    "id": "bystander",
+    "actors": [
+      "participant observing emergency",
+      "person at risk or incident source",
+      "other potential helpers"
+    ],
+    "structure": [
+      "Same observable emergency and same opportunity to help",
+      "Manipulate whether other helpers are present without implying that they already acted",
+      "Keep danger, intervention cost, knowledge and time window fixed in a presence contrast"
+    ],
+    "outcome": "Intervention within a defined observation window, distinguishing individual helping from whether any member of a group helps.",
+    "domain": "Workplace software incident (spec example).",
+    "equivalence_risks": [
+      "Smoke/pluralistic ignorance and seizure/diffusion of responsibility are different procedures",
+      "Risk to people versus software reliability changes stakes",
+      "A model statement of intent is not timed human intervention"
+    ]
+  },
+  {
+    "id": "reactance",
+    "actors": [
+      "participant choosing options",
+      "authority restricting a choice"
+    ],
+    "structure": [
+      "Credible initial freedom to choose",
+      "An explicit removal/threat versus a comparable no-threat condition",
+      "Specified preference measurement before/after where required",
+      "Measure restoration separately from simple inability to select the removed option"
+    ],
+    "outcome": "Threat-versus-control change in preference or adjacent-option selection; define adjacency and response denominator before conversion to a binary rate.",
+    "domain": "Project-priority resource restriction (spec example).",
+    "equivalence_risks": [
+      "Ranking shifts, anger and binary selection are different outcomes",
+      "A standardized mean difference cannot specify a unique probability difference without distribution and base-rate assumptions",
+      "Removal changes feasible options; compare against a carefully matched control"
+    ]
+  }
+]

@@ -65,6 +65,27 @@ and the existing 3D browser suite passed; rendering and research data are unchan
 
 ## Phase 3 preparation started (2026-09-13)
 
+Latest checkpoint: [Phase 3 evidence and next release work](experiments/phase3_benchmarks/README.md).
+Anthropic access works. One independent Claude design review and 36 no-peer
+perception calls completed; line and colour checks each scored 18/18. These are
+prerequisites, not behavioural benchmark results. New conservative spending is
+$0.0894432; tonight has $29.9105568 accounting room left. Package accounting is
+$22.995516225. No further paid task is queued; preserve valid records and do not
+repeat checks merely to resume. Complete canonical procedures, independent
+variant validation and the required recognition/rater freeze before population work.
+
+The staged reconciliation is accepted. Tonight has a **$30 ceiling for additional
+work**, within the original $100 package cap. See the
+[validation protocol](experiments/phase3_benchmarks/validation_20260913/PROTOCOL.md),
+[operational drafts](experiments/phase3_benchmarks/validation_20260913/OPERATIONAL_PROTOCOLS.md)
+and [prospective erratum](experiments/phase3_benchmarks/validation_20260913/ERRATUM.md).
+The offline persistent budget guard passed five tests. The initial validation
+allocation is at most $10 ($1 generation, $2 structural review, $7 recognition);
+$20 remains unallocated. None of these allocations is a spend target or a quote.
+The prerequisite calls above are complete and Anthropic access is configured. Finish
+canonical procedures and freeze exact generation/review/recognition requests and
+cost bounds before dispatch. Use one shared nightly ledger across all stages.
+
 The researcher prefers proceeding to Phase 3 as specified, while deferring a
 broader Phase 2 configuration extension. See
 [Phase 3 preparation and checklist](experiments/phase3_preparation_20260913/README.md).
@@ -81,7 +102,7 @@ applies to each of its 100 matrices; the budget paragraph counts D only once.
 The source audit also identifies unmatched reference rates and measurement units.
 See [the reviewable reconciliation proposal](experiments/phase3_preparation_20260913/SPEC_RECONCILIATION.md).
 No canonical/variant prompt, pass criterion or collection protocol is released.
-Next: agree the reconciliation, complete source-matched operational procedures,
+The reconciliation is accepted. Next: complete source-matched operational procedures,
 then independent variant validation and an exact all-cost schedule before collection.
 
 ## Next work

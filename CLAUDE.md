@@ -2,6 +2,24 @@
 
 ## Phase 3 preparation started (2026-09-13)
 
+Phase 3 checkpoint: Anthropic authentication verified. One independent Claude
+design review and 36 no-peer perception calls completed. Both image families
+scored 18/18; these are stimulus checks, not human/ethical validation. Conservative
+new spending is $0.0894432. See experiments/phase3_benchmarks/README.md. Preserve
+the frozen requests, source hashes and shared nightly ledger; no paid task is
+queued. Complete canonical procedures and variant/recognition review next.
+
+The researcher approved the staged specification reconciliation and set a new
+**$30 hard ceiling for tonight's additional work**, within the existing $100
+package cap. See experiments/phase3_benchmarks/validation_20260913/PROTOCOL.md.
+All five benchmarks remain in scope; sensitivity replication remains unresolved.
+Source corrections and operational drafts are prepared. The persistent offline
+budget guard passed five tests; generation/review/recognition share a $10 initial
+validation allocation, with $20 unallocated. The prerequisite spending above
+comes from structural validation. Claude access is configured; do not substitute a same-provider
+recognition judge without discussing the methodological departure. Complete
+canonical procedures and freeze each exact priced stage before dispatch.
+
 The researcher prefers proceeding to Phase 3 as specified, while deferring a
 broader Phase 2 configuration extension. See
 experiments/phase3_preparation_20260913/README.md.
@@ -18,7 +36,7 @@ applies to each of its 100 matrices; the budget paragraph counts D only once.
 The source audit also identifies unmatched reference rates and measurement units.
 See experiments/phase3_preparation_20260913/SPEC_RECONCILIATION.md.
 No canonical/variant prompt, pass criterion or collection protocol is released.
-Next: agree the reconciliation, complete source-matched operational procedures,
+The reconciliation is now accepted. Next: complete source-matched operational procedures,
 then independent variant validation and an exact all-cost schedule before collection.
 
 ## Phase 2 behavioural study complete (2026-09-13)
