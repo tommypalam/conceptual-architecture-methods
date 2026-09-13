@@ -1,10 +1,14 @@
-# Current status: paid collector ready, specific disclosure approval pending
+# Current status: all probes saved; coding stopped
 
-See [execution status](execution/STATUS.md). All65 tests pass, including the full
-mock pipeline and deterministic replay. The researcher instructed START after
-the cost report and the $14.06743250 allocation is frozen. Automatic approval
-review nevertheless blocked the paid command before launch, requiring specific
-paid disclosure approval. No new screening calls, reservations or charges exist.
+The paid-disclosure approval was received and collection ran. All 500 probes
+completed; 28 initial coding batches are valid and one failed on a changed item
+ID. No retry occurred. OpenAI coding and discussion have not started, so there
+is no formal recognition verdict. Phase 3 remains open.
+
+See the [verified assessment](execution/ASSESSMENT.md),
+[checkpoint](execution/CHECKPOINT.json) and [continuation handoff](execution/CONTINUATION.md).
+This attempt used $5.482532000 conservatively. All evidence is locally archived;
+verification made zero API calls. No collector is running or paid call queued.
 
 ## Earlier quotation checkpoint (superseded by execution status above)
 

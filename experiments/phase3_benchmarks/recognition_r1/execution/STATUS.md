@@ -1,3 +1,24 @@
+# All recognition probes saved; coding stopped
+
+The approved run completed all 500 probes and 28 valid Haiku coding batches.
+Batch 29 changed one character in a requested ID, triggering the frozen failure
+rule. Its raw response and full $0.031920900 reservation are preserved. There
+was no retry; 71 coding calls remain undispatched and discussion has not started.
+No collector is running. The prior automatic approval block was resolved.
+
+Read [ASSESSMENT.md](ASSESSMENT.md), [CHECKPOINT.json](CHECKPOINT.json) and
+[CONTINUATION.md](CONTINUATION.md). There is no formal recognition verdict yet,
+no population release and no queued paid call. Do not rerun the command shown
+in the historical prelaunch text below: the failed slot now blocks that runner.
+
+Screening accounting is $5.482532000; Phase 3 total $5.898930950; package total
+$28.805003975. Claude total is $5.841321200 and OpenAI $0.057609750, within $15/$30.
+These are conservative estimates, not balances. The independent verifier made
+zero API calls and checked the 577-record ledger and 1,733-member local archive.
+The 500-probe checkpoint is separate and all frozen inputs remain unchanged.
+
+## Earlier prelaunch checkpoint (historical)
+
 # Verified collector; paid dispatch blocked before launch
 
 The researcher instructed START after the $14.06743250 full cost review. The

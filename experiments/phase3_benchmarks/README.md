@@ -1,33 +1,32 @@
-# Phase 3: human-benchmark preparation
+# Phase 3: recognition probes complete; coding stopped
 
-Latest: [verified paid collector and dispatch status](recognition_r1/execution/STATUS.md).
-All65 tests pass and the $14.06743250 screening allocation is frozen. Automatic
-approval review blocked paid dispatch before launch pending specific approval of
-the paid Anthropic/OpenAI transfers. No new charge or screening call occurred.
+The approved screening saved **500 recognition probes**, then stopped after
+28 valid Haiku coding batches when the next response changed one character in
+an answer ID. The strict parser rejected that batch; no retry occurred.
+OpenAI coding and discussion have not started. **No formal recognition verdict
+exists; Phase 3 remains open and population collection is not released.**
 
-**All five canonical/alternative pairs passed independent structural review.**
-Phase 3 remains open: recognition screening and agent population collection have
-not started. The reviews assess operational text structure; they do not establish
-human resemblance, equal perceptual difficulty or ethical understanding.
+Read the [current assessment](recognition_r1/execution/ASSESSMENT.md),
+[verified checkpoint](recognition_r1/execution/CHECKPOINT.json) and
+[continuation handoff](recognition_r1/execution/CONTINUATION.md).
 
-Start with the [checked assessment](variants_r3/ASSESSMENT.md), which records each
-reviewer's caveats and our bounded interpretation. The current evidence is:
-
-| Completed work | API calls | Conservative cost |
+| Work preserved | API calls | Conservative cost |
 |---|---:|---:|
-| Initial independent design review | 1 | $0.0793452 |
-| No-peer perception checks (18/18 lines; 18/18 colours) | 36 | $0.010098 |
-| Earlier truncated consultation, full reservation retained | 1 | $0.248127 |
-| Five generated alternative candidates | 5 | $0.04751175 |
-| Independent review of five repaired pairs | 5 | $0.031317 |
-| **Total** | **48** | **$0.41639895** |
+| Earlier design, perception, generation and structural review, including failed consultation | 48 | $0.416398950 |
+| Recognition probes, all ten cells complete | 500 | $5.337931500 |
+| Valid initial coding batches | 28 | $0.112679600 |
+| Failed coding batch, full reservation retained | 1 | $0.031920900 |
+| **Total** | **577** | **$5.898930950** |
 
-Generation plus the latest reviews cost $0.07882875. Provider totals are
-$0.3587892 Claude and $0.05760975 OpenAI, leaving $14.6412108 and $29.94239025
-under the researcher's separate $15/$30 caps. Package accounting, including
-Phase 2, is $23.322471975 against $100. These are conservative usage estimates,
-not verified invoices or provider balances. Existing validation-stage allocations
-remain binding; no extra batch is queued by this checkpoint.
+This screening attempt used $5.482532000 of its $14.06743250 maximum. Provider
+totals are $5.841321200 Claude and $0.057609750 OpenAI, within $15/$30 caps.
+Package accounting including Phase 2 is $28.805003975 under $100. These are
+conservative estimates, not verified balances. No paid call is queued.
+
+All five pairs previously received independent structural text acceptance;
+that does not establish low recognition, human resemblance, equal perceptual
+difficulty or ethical understanding. Their domain caveats remain in the
+[structural assessment](variants_r3/ASSESSMENT.md).
 
 ## Read the evidence
 
@@ -46,29 +45,24 @@ remain binding; no extra batch is queued by this checkpoint.
    [source erratum](validation_20260913/ERRATUM.md), and
    [truncated consultation disposition](resolution_20260913/CONSULTATION_OUTCOME.md).
 
-All 48 offline Phase 3 tests passed at candidate freeze. The newest verifier
-reconstructs generation/review manifests, replays all ten responses without API
-calls, checks derived results against raw records, and verifies historical
-scientific inputs and archives. The current local archive has 145 JSON members:
-`output/phase3_structural_review_20260913.zip`. Its checksum is in the checkpoint.
-Raw records and archives are excluded from Git; off-device backup is unverified.
-The historical failed consultation remains preserved and fully accounted.
+The 65 offline tests passed before launch. After the stop, the local verifier
+checked exact request and cost links, successful parser replay, frozen sources,
+historical evidence and all 1,733 archive members with zero additional API calls.
+The archive is `output/phase3_recognition_r1_20260913.zip`; its SHA256 is in the
+current checkpoint. Raw records and archives are excluded from Git. Off-device
+backup is unverified; both historical failures remain immutable and accounted.
 
 ## Next release work
 
-Assemble the actual visual/sequential stimulus bundles and verify state, role,
-action-schema and peer-schedule contracts offline. Recognition requests must
-show actual task content while excluding answer keys, agent profiles, context
-labels and identifying benchmark names.
+Prepare the linked coding recovery described in the handoff. Reuse all 500
+probes and 28 valid coding batches. Do not restart the failed runner or overwrite
+its records. The original release excludes retries; a replacement requires an
+explicit linked, costed and tested continuation. Complete two-rater coding and
+bounded discussion before applying the fixed-denominator recognition gate.
+More than 15 recognitions in 50 rejects an alternative; missing outcomes block
+passing. No automatic new candidates or population collection follow.
 
-Then freeze the specified 50 recognition responses per form across five pairs
-(500 judge calls), two independent raters, disagreement adjudication, missingness
-rules and the complete cost bound. More than 15 recognitions in 50 rejects an
-alternative. Do not repeat accepted generation, structural reviews or perception
-checks merely to resume; substantive changes need a linked prospective revision.
-
-Population work remains downstream of recognition. All five families and ten
-coordinates remain in scope, with high/low contexts, modulators and dependency
-sensitivity still to be frozen for collection. Full D=100 replication and total
-trajectory costs need a feasible budget resolution; neither a full Phase 3 pass
-nor completion of omitted Phase 2 configurations is claimed.
+All five families and ten coordinates remain in scope, with high/low contexts,
+modulators and dependency sensitivity still to be frozen for collection. Full
+D=100 replication and trajectory costs require a feasible budget resolution.
+Phase 3 does not retrospectively complete omitted Phase 2 configurations.

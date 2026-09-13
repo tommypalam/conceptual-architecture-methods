@@ -63,52 +63,42 @@ The requested desktop UI restyle adds local game-style fonts, tactile controls,
 fixed playback and inspector tabs, and full-screen mode. Desktop layout checks
 and the existing 3D browser suite passed; rendering and research data are unchanged.
 
-## Phase 3 structural review complete; recognition next (2026-09-13)
+## Phase 3 probes complete; recognition coding stopped (2026-09-13)
 
-Latest continuation: the researcher instructed START after the $14.06743250
-review. The linked paid collector and explicit allocation supplement are frozen
-in commit01e9ec28. All65 Phase3 tests pass, including a complete mock screening,
-dual coding/discussion and zero-call replay. See
-experiments/phase3_benchmarks/recognition_r1/execution/STATUS.md. Automatic
-approval review rejected the paid command before launch: it considered the prior
-approval limited to FREE token counting and requires specific paid disclosure
-approval for Anthropic recognition and Anthropic/OpenAI answer/rating coding.
-No paid call, reservation or failure record was created. Do not bypass the block.
-After specific approval, execute the SAME frozen runner; do not change requests,
-regenerate candidates or repeat quotes. The old failed consultation stays intact.
+The approved screening collected all 500 probes (50 per canonical/alternative
+form across five families), then stopped after 28 valid Haiku coding batches.
+The 29th batch changed one character in an item ID and remains failed at its
+full reservation. There are 71 undispatched coding calls; OpenAI coding and
+bounded discussion have not started. No retry occurred and no collector is
+running. Specific paid-disclosure approval was received; the earlier automatic
+approval block is resolved. This is a data-validation stop, not an approval block.
 
-All five canonical/repaired-alternative pairs received independent Claude
-structural acceptance, with no blocking mismatches or required changes. The
-researcher's explicit approval resolved the earlier disclosure block. See
+See experiments/phase3_benchmarks/recognition_r1/execution/ASSESSMENT.md and
+CHECKPOINT.json in that directory. Offline verification replayed all valid
+responses and costs with zero API calls, checked all frozen sources and preserved
+historical evidence, and verified all 1,733 members in the new local archive.
+All 577 paid records remain intact, including 48 historical records. The 65
+prelaunch tests passed; no frozen runtime or scientific input changed midrun.
+Off-device backup is not verified. Raw records and output archives stay out of Git.
+
+Screening accounting is $5.482532000 of the $14.06743250 maximum. All Phase 3
+accounting is $5.898930950: Claude $5.841321200 and OpenAI $0.057609750.
+Remaining room under the separate $15/$30 provider caps is $9.158678800 and
+$29.942390250. Package accounting including Phase 2 is $28.805003975 under $100.
+These are conservative estimates, not provider balances. The failed coding
+batch retains $0.031920900; the older failed consultation retains $0.248127.
+
+All five pairs previously passed independent structural text review; see
 experiments/phase3_benchmarks/variants_r3/ASSESSMENT.md for domain limitations.
-This is text-level operational review, not human equivalence, recognition
-screening or behavioural evidence. Phase 3 remains open; recognition and
-population collection have not started.
+No formal recognition verdict exists because dual coding is incomplete. Phase 3
+remains open; no population collection is released. Recognition does not establish
+human resemblance, moral quality or ethical understanding.
 
-The five reviews cost $0.031317 conservatively; generation plus these reviews
-cost $0.07882875. Cumulative Phase 3 accounting is $0.41639895: $0.3587892 Claude
-and $0.05760975 OpenAI. Separate hard caps are $15 Claude and $30 OpenAI, with
-$14.6412108 and $29.94239025 remaining accounting room. Package accounting is
-$23.322471975 within the existing $100 cap. These are estimates, not balances.
-The execution release prospectively allocates $14.06743250 to this exact screen;
-provider/package caps remain binding and are not spending targets.
-
-All 48 Phase 3 offline tests passed at candidate freeze. The 48-call checkpoint
-verifies exact generation/review replay with zero additional calls, source
-hashes, preserved historical evidence and all 145 archived JSON members. See
-experiments/phase3_benchmarks/variants_r3/REVIEW_CHECKPOINT.json. The earlier
-truncated consultation remains immutable at its full $0.248127 reservation;
-the linked validation continuation preserves it without retry or ledger reset.
-No failure or approval block is pending for the completed five reviews.
-Off-device backup is not verified. Do not repeat paid checks merely to resume.
-
-Next: execute the frozen collector after the specific paid-disclosure approval.
-The two-rater discussion and fixed-denominator analysis are implemented. Recognition requires
-50 responses per canonical/alternative form across five families (500 judge
-calls, plus classification/adjudication); >15/50 rejects an alternative. No
-answer keys, profiles, context labels or benchmark names belong in recognition
-requests. Recognition must inspect actual task content, not abstract summaries.
-No further paid batch is queued by this checkpoint.
+Next: follow experiments/phase3_benchmarks/recognition_r1/execution/CONTINUATION.md.
+Reuse all 500 probes and 28 valid coding batches. The frozen release excludes
+retries: a replacement requires an explicit linked, costed, offline-tested
+continuation. Do not alter the failed record, rerun the original collector, or
+regenerate stimuli. No further paid call is queued by this checkpoint.
 
 All five benchmark families, ten LPM coordinates, Beta distributions and R remain
 in scope. Canonical procedures are in
@@ -120,9 +110,9 @@ frozen protocols/manifests and use linked revisions for substantive changes.
 
 ## Next work
 
-1. Phase 3: verify the actual stimulus bundles for the five accepted pairs.
-   Freeze recognition requests, two independent raters, adjudication and total
-   cost before screening; population collection remains gated on those results.
+1. Phase 3: preserve the completed 500 probes and prepare the linked coding
+   recovery in [the handoff](experiments/phase3_benchmarks/recognition_r1/execution/CONTINUATION.md).
+   Dual coding and bounded discussion remain incomplete; population stays gated.
 2. Phase 4: draft and review the dual moral-coding manual and human gold/reliability
    plan. Obtain the required human review before moral scores are assigned.
    Dissent is not automatically bad; proposed safeguards are not realised welfare.
