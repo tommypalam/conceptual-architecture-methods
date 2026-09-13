@@ -3,6 +3,14 @@
 Prepared 13 September 2026 on `research-transfer-design-20260913`.
 Status: research strategy and candidate design, not a frozen protocol or paid release.
 
+Researcher clarification incorporated: the thesis is exploratory and its central
+culminating experiment investigates good/bad decisions and consequences. Read
+[implementation v0.2](../../../Theory/implementation_specification_v0_2.md) and the
+[moral capstone brief](../../phase4_coding/CAPSTONE_DESIGN_DRAFT_20260913.md). Transfer
+and prediction support that contribution; they do not replace it. Directional
+expectations below are candidate deductions for future studies, not hypotheses
+that the researcher is claimed to have held before the thesis began.
+
 ## Research objective
 
 The researcher wants a distinctive, strong paper rather than incremental increases
@@ -129,7 +137,7 @@ not a sufficient basis for claiming all-domain generalization. Freeze all held-o
 texts and analysis choices before obtaining any confirmation-model decisions.
 No domain may be silently discarded because its outcomes are inconvenient.
 
-The intended paper builds three layers of evidence:
+The intended paper builds four connected layers of evidence:
 
 1. **Selective control:** PD changes sensitivity to procedure/outcome conflicts,
    survives label/order changes and is not explained solely by inaction or
@@ -145,6 +153,10 @@ The intended paper builds three layers of evidence:
    aggregation. Add a matched no-discussion comparison if claiming an interaction
    mechanism. The existing Phase 2 data motivates this; it is not a fresh group
    transfer test. The replay viewer can make this result inspectable.
+4. **Moral decisions and consequences:** a central fresh experiment tests helpful
+   and harmful actions, their costs and simulated outcomes under the existing dual
+   moral standard. Prepare measurement in parallel with transfer; retain human
+   validation and examine active good as well as avoidance of violations.
 
 A second theoretically distinct coordinate and joint interventions would strengthen
 an architectural claim. Select it prospectively using theory and the complete
@@ -174,7 +186,7 @@ appropriate institutional review and participant compensation need a separate
 plan. A small convenience sample would be exploratory, not human validation of
 the entire architecture. No participants are contacted by this proposal.
 
-For good/bad outcomes, retain the Phase 4 human-reviewed coding requirement.
+For the central good/bad experiment, retain the Phase 4 human-reviewed coding requirement.
 Neither procedural fidelity nor profile fidelity is automatically morally good.
 If later simulations have explicit state transitions and payoffs, report the
 defined outcomes directly and distinguish them from morally weighted judgments.
@@ -191,7 +203,8 @@ not checked provider wallet balances or a new allocation to exhaust.
 | Offline design | Source-to-prediction table, stimuli, task-validity rubric, baseline templates and competing predictions | $0 |
 | Small pilot | Two new settings; 12 fresh background/sampling blocks; full 2x2 conditions and E/V/S/U | $2 total, including review |
 | Fresh confirmation | Held-out settings and fresh blocks; sample chosen by prospective precision/power simulation | Up to $8, only if a defensible design fits |
-| Additional validation | Targeted second-model, specificity or group test chosen by the remaining claim gap | Separate proposal after confirmation |
+| Moral capstone preparation | Manual, human validation plan and matched consequential scenarios, developed alongside transfer | Protect $4 Claude/$10 OpenAI within existing allowances; exact costs unresolved |
+| Additional validation | Targeted second-model, specificity or group test chosen by the remaining claim gap | Separate proposal that preserves the moral-study reserve |
 
 Pilot arithmetic: `12 blocks x 2 settings x 4 P/O cells x (2 E + 2 V + 2 S + 1 U)
 = 672 participant calls`, excluding separately capped reviewer calls. This is a
@@ -253,9 +266,12 @@ This draft establishes a research direction, candidate estimand, control logic,
 scoped literature comparison, stage budgets and explicit inference limits.
 It does not freeze task text, a moral rubric, a new benchmark or a paid study.
 Next deliverable is the exact pilot packet with independently reviewed task facts,
-alternative-explanation predictions, exact quote and offline verification.
+alternative-explanation predictions, exact quote and offline verification. Prepare
+the moral measurement and capstone packet in parallel. The overall thesis remains
+exploratory; a fresh confirmation stage is required only for claims presented as
+confirmed, not as a prerequisite to asking every new research question.
 
-Documentation verification: 42 local links across this strategy, current status
+Initial draft verification: 42 local links across this strategy, current status
 and the Phase 3 index resolve; companion constitutions match except for their
 filename headings; pilot/confirmation example arithmetic gives 672/8,064 calls;
 `git diff --check` passes. No experiment code or frozen records were changed.

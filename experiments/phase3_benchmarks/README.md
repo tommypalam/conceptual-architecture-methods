@@ -1,5 +1,10 @@
 # Phase 3: recognition screen complete, all alternatives rejected
 
+Current [implementation v0.2](../../Theory/implementation_specification_v0_2.md)
+keeps the thesis exploratory and the [moral capstone](../phase4_coding/CAPSTONE_DESIGN_DRAFT_20260913.md)
+central. Transfer work supports that experiment; original recognition results and
+human-behaviour validation requirements remain explicit.
+
 New research direction: [theory-grounded transfer strategy draft](transfer_design_20260913/STRATEGY_DRAFT.md).
 Candidate process/outcome trade-offs, held-out prediction and simpler controls;
 no paid release, finalized pilot packet or formal Phase 3 amendment. The proposed

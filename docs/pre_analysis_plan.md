@@ -2,12 +2,22 @@
 
 > This is a draft for future main-study estimation; it is not publicly preregistered.
 > Deviations from this plan must be disclosed here, with a current pointer in NEXT_STEPS.md.
-> Any analysis not described here requires explicit human approval before execution.
-> Source of truth: `Theory/concepts_as_architecture_thesis_v0_6.md` (thesis v0.6) and `Theory/implementation_specification_v0_1.md` (spec v0.1).
+> The legacy hypotheses below are historical plans, not prerequisites for every new exploratory analysis.
+> Current operational policy: [implementation v0.2](../Theory/implementation_specification_v0_2.md), alongside thesis v0.6 and unchanged v0.1 conventions.
 
 ---
 
 ## Status
+
+13 September 2026: the researcher clarified that the thesis is exploratory and
+authorised adapting its implementation while maintaining research discipline.
+The central moral-outcome experiment remains a required contribution. Use the
+[current amendment](../Theory/implementation_specification_v0_2.md) for prospective
+batch definitions, transparent revisions and the distinction between exploration
+and later confirmation. The statements below requiring this entire historical
+plan before Phase 2 are superseded by the recorded study-specific protocols and
+amendments. None of this changes earlier tests or retrospectively preregisters them.
+No new coding manual or paid collection is approved by this status update.
 
 2026-09-12 continuation: the researcher authorised expedited Phase 2 design work
 under a $100 absolute API cap. The [revised design proposal](../experiments/phase2_design_20260912/PROTOCOL_DRAFT.md)

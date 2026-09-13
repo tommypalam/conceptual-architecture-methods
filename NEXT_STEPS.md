@@ -8,6 +8,20 @@ and verification. Continue future implementation on a development branch.
 
 ## Current design work: a stronger paper contribution
 
+The researcher subsequently clarified that good/bad decisions and consequences
+must remain central, and authorised an adaptive exploratory implementation.
+[Implementation v0.2](Theory/implementation_specification_v0_2.md) now governs this
+forward-looking policy, preserving v0.1 and all frozen studies. The
+[central moral experiment brief](experiments/phase4_coding/CAPSTONE_DESIGN_DRAFT_20260913.md)
+retains the eight-category relative and four-category fixed-standard evaluation,
+adds prospective consequential-choice collection, and keeps human manual review
+and measurement validation required. Prepare the manual/validation plan alongside
+the transfer packet. Protect a planning reserve of $4 Claude and $10 OpenAI within
+existing allowances for this capstone; this is not a quote or extra funding.
+Human participation remains separately uncosted. No moral scores or paid calls
+were produced. The thesis may develop hypotheses during exploration; confirmation
+claims still require separately planned fresh tests.
+
 On `research-transfer-design-20260913`, the researcher requested a more ambitious,
 scientifically distinctive direction. The [transfer strategy draft](experiments/phase3_benchmarks/transfer_design_20260913/STRATEGY_DRAFT.md)
 proposes selective process/outcome trade-offs, prediction on held-out situations

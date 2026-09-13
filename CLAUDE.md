@@ -1,5 +1,19 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Exploratory implementation and central moral experiment (2026-09-13)
+
+The researcher explicitly authorised revising the implementation as an exploratory
+thesis and keeping good/bad decisions central to the final experiment. Current
+forward-looking policy is Theory/implementation_specification_v0_2.md; the original
+v0.1 and frozen studies remain intact. Prepare Phase 4 measurement alongside transfer
+work and use experiments/phase4_coding/CAPSTONE_DESIGN_DRAFT_20260913.md for the
+central consequential-choice experiment. Keep the dual relative/fixed taxonomy,
+human manual review and held-out measurement validation. No moral labels or new
+manual are approved yet. Research questions may evolve between documented batches;
+do not retrofit hypotheses, alter old results or call exploration confirmation.
+Protect a planning reserve of $4 Claude/$10 OpenAI within existing allowances for
+the moral study; no new funding or provider balance is implied. No paid calls ran.
+
 ## Transfer research strategy drafted (2026-09-13)
 
 The researcher requested a scientifically distinctive paper direction. See
