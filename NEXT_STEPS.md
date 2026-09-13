@@ -6,6 +6,19 @@ to `main`, preserving its previous tip as `backup-1` and retaining `backup`.
 See the [publication record](docs/publication_20260913.md) for scope, branch targets
 and verification. Continue future implementation on a development branch.
 
+## Current design work: a stronger paper contribution
+
+On `research-transfer-design-20260913`, the researcher requested a more ambitious,
+scientifically distinctive direction. The [transfer strategy draft](experiments/phase3_benchmarks/transfer_design_20260913/STRATEGY_DRAFT.md)
+proposes selective process/outcome trade-offs, prediction on held-out situations
+and subsequent group validation, grounded in the existing PD theory and a scoped
+literature comparison. It includes E/V/S/U controls, candidate estimand, a
+672-decision pilot sizing example and a proposed $2 pilot ceiling. No quote,
+task packet, confirmatory N or paid release is frozen. No new API calls were made.
+All ten coordinates and original benchmark failures remain in the record; no
+formal Phase 3 replacement or new moral-coding rule was adopted. Next: prepare
+the exact task-validity and pilot packet before collection.
+
 ## Phase 2 behavioural study complete (2026-09-13)
 
 The researcher-authorised exploratory-first sequence is complete for the amended

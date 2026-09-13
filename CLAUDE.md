@@ -1,5 +1,16 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Transfer research strategy drafted (2026-09-13)
+
+The researcher requested a scientifically distinctive paper direction. See
+experiments/phase3_benchmarks/transfer_design_20260913/STRATEGY_DRAFT.md for the
+candidate PD trade-off/transfer study, simpler controls, scoped literature review
+and synthetic five-perspective review. Work is on research-transfer-design-20260913.
+This is a design draft, not a frozen mapping, paid release or replacement of formal
+Phase 3. Keep all ten coordinates and original failed gates explicit. Numerical
+superiority is optional; selective transfer, prediction and usefulness require
+their own evidence. No new API calls or moral scoring were performed.
+
 ## Publication authorised (2026-09-13)
 
 The researcher requested publishing all completed work and a paper-style abstract

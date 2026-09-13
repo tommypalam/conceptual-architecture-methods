@@ -1,5 +1,10 @@
 # Phase 3: recognition screen complete, all alternatives rejected
 
+New research direction: [theory-grounded transfer strategy draft](transfer_design_20260913/STRATEGY_DRAFT.md).
+Candidate process/outcome trade-offs, held-out prediction and simpler controls;
+no paid release, finalized pilot packet or formal Phase 3 amendment. The proposed
+pilot ceiling is $2, subject to exact costing. No new calls have been made.
+
 Latest representation comparison: [E/V diagnostic complete and verified](representation_diagnostic_r1/ASSESSMENT.md). All 576 decisions valid; numeric-minus-prose rejection differences at offer 20 were +16.7/+4.2 points with wide intervals including zero. Neither a clear presentation effect nor equivalence is established. Cost $0.409685100; 1,814 records preserved; no further paid work queued.
 
 Earlier E/U diagnostic: [canonical E/U diagnostic complete](context_diagnostic_r2/ASSESSMENT.md). All 576 decisions valid; profile-package difference +50 points at offer 20 in both contexts, primary context interaction zero with wide uncertainty. Cost $0.304161000; zero-call verification passed and 1,237 records are preserved. Original recognition gates remain unmet. No further paid work is queued.
