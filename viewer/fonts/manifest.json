@@ -1,0 +1,28 @@
+{
+  "source": "https://github.com/google/fonts",
+  "downloaded": "2026-09-13",
+  "files": {
+    "LilitaOne-Regular.ttf": {
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/lilitaone/LilitaOne-Regular.ttf",
+      "bytes": 28092,
+      "sha256": "f5b641c45c69d772ee4eda687bc9fda411d5cad6b0b45371491da4580cbc8d59"
+    },
+    "LilitaOne-OFL.txt": {
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/lilitaone/OFL.txt",
+      "bytes": 4390,
+      "sha256": "9c14147639ea90cfa41b0645c77b4fa642494d11696e2a9f5cd2d9b5843c1a6e",
+      "trailing_whitespace_normalized": true
+    },
+    "Nunito-Variable.ttf": {
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/nunito/Nunito%5Bwght%5D.ttf",
+      "bytes": 276932,
+      "sha256": "bb55a5ca5c2042335b3991af27c4d0705d0ef41cac6164ac737fd8f2a1e85207"
+    },
+    "Nunito-OFL.txt": {
+      "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/nunito/OFL.txt",
+      "bytes": 4384,
+      "sha256": "ee9491ad3ea5d390878695bd6cce49beb3cacd5c4312f8ab574b541e9f7afa21",
+      "trailing_whitespace_normalized": true
+    }
+  }
+}

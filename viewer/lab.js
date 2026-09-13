@@ -91,6 +91,7 @@ function render(animate){
   if(comparing&&secondary)worldB.update(round,side==='b'?selected:null,animate&&round<=secondary.rounds.length);
   $('#tally-a').innerHTML=outcome(primary);if(comparing&&secondary)$('#tally-b').innerHTML=outcome(secondary);
   $('#timeline').innerHTML=Array.from({length:maximum()+1},(_,n)=>`<button data-round="${n}" class="${n===round?'current':n<round?'past':''}" aria-label="${n?'Round '+n:'Before round 1'}" aria-current="${n===round?'step':'false'}">${n||'Start'}</button>`).join('');
+  $('#round-position').textContent=round?`Round ${round} of ${maximum()}`:'Before round 1';
   $('#previous').disabled=round===0;$('#next').disabled=round===maximum();
   $('#round-note').textContent=`${primary.problem==='C2'?'CEO votes are excluded. Round 5 is binding.':primary.problem==='C3'?'Round 6 is binding. New disclosures become public next round.':'Unanimity ends the council; otherwise round 5’s majority decides.'} Responses within each round are simultaneous.${comparing?' An early-ending conversation holds its final state.':''}`;
   renderEvents();renderInspector();
@@ -155,6 +156,10 @@ function renderInspector(){
   }
 }
 
+$('#fullscreen').hidden=!document.fullscreenEnabled;
+$('#fullscreen').addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await document.documentElement.requestFullscreen();}catch{ $('#fullscreen').textContent='Use F11'; }});
+document.addEventListener('fullscreenchange',()=>{$('#fullscreen').textContent=document.fullscreenElement?'Exit full screen':'Full screen';});
+
 $('#group').innerHTML=Array.from({length:20},(_,i)=>`<option value="${i+1}">${String(i+1).padStart(2,'0')}</option>`).join('');
 for(const id of ['problem','group','condition'])$(`#${id}`).addEventListener('change',()=>load(idFromControls(),id==='condition'));
 $('#play').addEventListener('click',play);$('#previous').addEventListener('click',()=>step(round-1));$('#next').addEventListener('click',()=>step(round+1));
@@ -176,6 +181,7 @@ document.addEventListener('visibilitychange',()=>{if(document.hidden)stop();});
 (async()=>{
   try{
     index=await json('/api/index');
+    await document.fonts.ready;
     worldA=new World($('#world-a'),id=>choose(id,'a'));
     const fragment=location.hash.slice(1),initial=index.runs.some(r=>r.id===fragment)?fragment:'C1-1-00100-E';
     await load(initial);

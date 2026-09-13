@@ -37,6 +37,9 @@ Mobile label collisions were corrected. Original GLBs and checksums are in
 viewer/assets; editable Blender source is local under output. See
 viewer/DESIGN_3D.md for the design review and rendering limits. No research
 collection, analysis or moral-scoring behaviour changed.
+The requested desktop game-style UI revision uses local licensed fonts, fixed
+playback and inspector tabs, and full-screen mode. Desktop layouts and the
+existing browser suite passed; Blender assets and renderer code are unchanged.
 
 ## Exploratory Phase 2 authorisation (2026-09-12)
 

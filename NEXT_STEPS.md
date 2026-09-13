@@ -59,6 +59,9 @@ idle rendering, reduced motion and asset-failure fallback were checked. See
 The current desktop server is http://127.0.0.1:8766/lab. Generated GLBs and their
 checksums are versioned; the editable Blender project remains under `output/`.
 The research claims and paid-study status above are unchanged.
+The requested desktop UI restyle adds local game-style fonts, tactile controls,
+fixed playback and inspector tabs, and full-screen mode. Desktop layout checks
+and the existing 3D browser suite passed; rendering and research data are unchanged.
 
 ## Next work
 

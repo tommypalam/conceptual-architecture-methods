@@ -22,6 +22,17 @@ an error; the viewer cannot collect replacement responses.
 
 ## Explore the 3D rooms
 
+The interface is designed primarily for a desktop PC: a full-window room,
+permanent playback dock and independently scrolling agent panel with fixed
+tabs. Full screen expands the interface; Escape returns to the browser.
+Rounded Lilita One headings and Nunito text load from local licensed font files
+under `fonts/`. Small screens use a vertically scrolling fallback.
+
+The desktop restyle was checked at 1920x1080, 1440x900 and 1366x768; the
+existing 3D browser suite also passed at desktop and 390 px mobile widths.
+The Blender assets, lighting and renderer are unchanged.
+
+
 Open **http://127.0.0.1:8765/lab** for the Blender-built rooms. The current desktop
 session runs the upgraded server at **http://127.0.0.1:8766/lab**; the earlier
 classic server uses 8765. Restart a server after adding static files, because its

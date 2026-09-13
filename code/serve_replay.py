@@ -21,7 +21,7 @@ PACKAGE = ROOT / "experiments" / "phase2_confirmation_20260913"
 RAW = ROOT / "data" / "raw" / "phase2_confirmation_20260913"
 UI = ROOT / "viewer"
 STATIC_FILES = {"/" + p.relative_to(UI).as_posix(): p for p in UI.rglob("*")
-                if p.is_file() and not p.is_symlink() and p.suffix in {".html", ".js", ".css", ".glb", ".json", ".txt"}}
+                if p.is_file() and not p.is_symlink() and p.suffix in {".html", ".js", ".css", ".glb", ".json", ".txt", ".ttf"}}
 STATIC_FILES["/"] = UI / "index.html"
 STATIC_FILES["/lab"] = UI / "lab.html"
 
@@ -153,7 +153,7 @@ class Handler(BaseHTTPRequestHandler):
                 path = STATIC_FILES[route]
                 payload = path.read_bytes()
                 mime = {".html": "text/html", ".js": "text/javascript", ".css": "text/css",
-                        ".glb": "model/gltf-binary", ".json": "application/json", ".txt": "text/plain"}[path.suffix]
+                        ".glb": "model/gltf-binary", ".json": "application/json", ".txt": "text/plain", ".ttf": "font/ttf"}[path.suffix]
             else:
                 self.send_error(404)
                 return

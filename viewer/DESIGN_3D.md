@@ -98,3 +98,42 @@ physical phones or every GPU. At extreme orbit/zoom positions a figure can be
 occluded; the HTML agent selector remains available. The geometry, leader lines
 and animations remain explanatory illustrations. The visualiser introduces no
 human comparison, moral score or evidence of ethical understanding.
+
+
+## Desktop game UI revision, 2026-09-13
+
+The researcher requested cuter game typography and a fuller desktop interface,
+while preserving the 3D renders. This is a presentation change only.
+
+Before-build tokens: cloud #f5f7fc, mint #dbe7e9 (existing scene), lavender
+#e9e4fa, ink #314958, soft teal #b6dfd0, choice blue #4476c4 and amber #b87a28.
+Lilita One carries the game title, room headings and round numbers; Nunito
+carries controls and recorded text. Both are served locally with their licences.
+
+Layout: a full-window desktop console with tactile controls, a large room, a
+permanent playback dock and an independently scrolling agent panel.
+
+    PARIA mascot     Scenario / Group / Condition       Classic view
+    [ Room heading + camera tools      ] [ Agent identity + tabs ]
+    [                                  ] [ Response / profile   ]
+    [          Existing 3D room        ] [ Scrollable discussion ]
+    [                                  ] [                      ]
+    [ Tallies / timeline / events      ] [                      ]
+
+Brief review: pixel fonts would compromise long recorded responses. Rounded
+display lettering gives the game character, with larger readable body text.
+Panels distinguish the stage, playback controls and inspector, rather than
+boxing every statistic. Mint preserves the existing render background; lavender
+identifies the inspector. No invented achievements, scores or agent emotions.
+
+The implemented UI keeps the renderer, geometry, lighting and camera code
+unchanged. It adds a small SVG robot mark, tactile buttons, distinct stage and
+inspector frames, fixed inspector tabs, a round-position readout and a working
+full-screen toggle. Desktop pages fit the viewport; inspector content scrolls
+independently. Smaller screens retain a vertically scrolling layout.
+
+Verification: the existing 3D browser suite passed, including mobile labels,
+comparison, state boundaries, missing votes and local-only loading. Additional
+checks confirmed both fonts loaded, full-screen entry/exit and a visible playback
+dock without page overflow at 1920x1080, 1440x900 and 1366x768. Screenshots were
+inspected on desktop and mobile. All four GLB asset checksums still match.
