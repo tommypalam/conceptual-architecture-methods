@@ -1,7 +1,10 @@
 # Current state and next steps
 
-Updated 2026-09-13. Current local development branch: `phase3-preparation-20260913`.
-The new Phase 2 results are committed locally; publication to main is separate.
+Updated 2026-09-13. Publication source: `phase3-preparation-20260913`.
+The researcher authorised publishing the completed work and revised paper abstract
+to `main`, preserving its previous tip as `backup-1` and retaining `backup`.
+See the [publication record](docs/publication_20260913.md) for scope, branch targets
+and verification. Continue future implementation on a development branch.
 
 ## Phase 2 behavioural study complete (2026-09-13)
 

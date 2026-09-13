@@ -136,12 +136,24 @@ class RecognitionRuntime(unittest.TestCase):
     def test_full_mock_pipeline_discussion_and_replay(self):
         import contextlib
         import io
-        import shutil
-        from phase3_recognition_run import prepare, collect, LEDGER
+        import zipfile
+        from phase3_recognition_run import collect, ROOT, RUN
         with tempfile.TemporaryDirectory() as tmp, contextlib.redirect_stdout(io.StringIO()):
             root = Path(tmp)/"ledger"
-            shutil.copytree(LEDGER, root)
-            release = prepare(persist=False)
+            # Reproduce this release's 48-record starting state. The live ledger
+            # contains later studies and must not be used to rebuild old releases.
+            release = read_checked(RUN / "release.json")
+            checkpoint = read_checked(ROOT / "experiments/phase3_benchmarks/variants_r3/REVIEW_CHECKPOINT.json")
+            archive = ROOT / checkpoint["archive"]
+            self.assertEqual(hashlib.sha256(archive.read_bytes()).hexdigest(), checkpoint["archive_sha256"])
+            with zipfile.ZipFile(archive) as saved:
+                self.assertIsNone(saved.testzip())
+                saved.extractall(root)
+            self.assertEqual(sorted(p.stem for p in (root / "records").glob("*.json")), release["historical_keys"])
+            for name, expected in release["preserved_files"].items():
+                self.assertEqual(hashlib.sha256((root / name).read_bytes()).hexdigest(), expected)
+            for name, expected in release["source_sha256"].items():
+                self.assertEqual(hashlib.sha256((ROOT / name).read_bytes()).hexdigest(), expected)
             calls = []
             def mock(request):
                 calls.append(request["model"])

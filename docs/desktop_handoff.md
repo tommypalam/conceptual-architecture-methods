@@ -4,15 +4,22 @@ Prepared 12 September 2026 for Tommaso Piero Palamenga.
 
 ## Current continuation: 13 September 2026
 
-The amended Phase 2 behavioural study is complete on the local development
-branch `phase2-design-20260912`; do not assume GitHub main contains these new
-results until they are published. Read NEXT_STEPS.md and
+The researcher authorised publication from `phase3-preparation-20260913` to
+`main`, with the previous main preserved as `backup-1` and the original `backup`
+retained. See [publication record](publication_20260913.md) and verify remote
+branch tips when continuing. Read NEXT_STEPS.md and
 experiments/phase2_confirmation_20260913/ASSESSMENT.md. Confirmation saved 11,005
 responses and 300 group runs; six primary individual contrasts and one secondary
 group contrast passed their respective corrections. Pilot plus confirmation
 conservatively accounts for $22.906073025 of the $100 new-package cap.
-No paid run is active or queued. Next phases are human benchmarking and reviewed
-moral coding, not another automatic Phase 2 collection. Preserve the frozen
+The group replay viewer and both 576-decision Phase 3 diagnostics are complete.
+All five alternative benchmark controls failed recognition screening; formal
+Phase 3 remains open. The E/V comparison established neither a clear presentation
+effect nor equivalence. A theory-grounded transfer proposal is the next design
+task; no revised validation protocol has been adopted or frozen. Current package
+accounting is $29.764459450; see NEXT_STEPS.md for provider breakdowns and limits.
+No paid run is active or queued. Human benchmarking and reviewed moral coding
+remain unfinished. Preserve the frozen
 collector (commit 14349800), all raw records, and both Phase 2 archives.
 The new local archive is output/phase2_confirmation_20260913_raw.zip, SHA-256
 791b8635f9d3458c9713f9d06f858e40eb8eedf613d813ca4366175790b2a112.
@@ -47,12 +54,14 @@ phase documents. Preserve the gentle, human-readable layout and every raw record
 
 ## Git branches and backup
 
-- `main`: the current version, including the cleanup and this desktop handoff.
+- `main`: publication target for completed Phase 2, the viewer and current Phase 3 work.
+- `backup-1`: the immediately previous GitHub `main`, commit
+  `aaed0a8d6b2978b15bcc7e0253b7cdd63b56be9d`.
 - `backup`: the previous GitHub `main`, commit
   `c8e7aa0bde3ce17bb8e36f367a2e15950aa6cd2d`.
-- `project-cleanup-20260912`: the development history used to prepare publication.
+- `phase3-preparation-20260913`: the development source for this publication.
 
-The backup preserves the previous published version. It is not a backup of
+The backups preserve the two earlier published versions. They are not backups of
 ignored local response files. No force-push or history rewrite is required.
 Verify the actual remote branch tips on arrival; future commits may follow this handoff.
 

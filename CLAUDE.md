@@ -1,5 +1,15 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Publication authorised (2026-09-13)
+
+The researcher requested publishing all completed work and a paper-style abstract
+to `main`. Preserve the previous main at `aaed0a8d` as `backup-1` and retain the
+original `backup` at `c8e7aa0b`. See docs/publication_20260913.md. Use a fast-forward,
+verify remote refs and continue future implementation on a development branch.
+The abstract reports completed evidence; it does not imply that formal Phase 3
+or human-validated moral evaluation is complete. No new paid run or substantive
+validation amendment follows from publication. Ignored research data stays local.
+
 ## Phase 3: E/V representation comparison complete; inference remains exploratory (2026-09-13)
 
 The approved representation_diagnostic_r1 completed one accepted Claude review
