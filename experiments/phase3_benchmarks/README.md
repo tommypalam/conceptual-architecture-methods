@@ -24,6 +24,8 @@ behind it is also a substantive result in its own right — see the
 | [PD gradient r4 - review stop, sequence closed](pd_gradient_r4/ASSESSMENT.md) | Trade-off restated as stipulated quantities. Review returned `reject`; the accepted finding is structural and closes the sequence. 1 call, $0.002087250, zero participants |
 | [PD endpoint r1 - review stop](pd_endpoint_r1/ASSESSMENT.md) | Manipulation moved out of the task text. Review returned `reject` on option lawfulness and a packet drafting error; 1 call, $0.001676400 |
 | [PD endpoint r2 - ACCEPTED review, saturated screen](pd_endpoint_r2/ASSESSMENT.md) | **First PD designation to pass review and collect data.** 150 unprofiled decisions; all six tasks at modal share 1.00, order irrelevant (51.3%). Screen refused the participant stage; $0.058536225 |
+| [**Cross-model recognition - GENERALISES**](crossmodel_coding_r2/ASSESSMENT.md) | **1000 probes, two providers, 50/cell.** Milgram, Asch, Ultimatum and bystander decanonised variants recognised **1.00 on both models**; reactance near-zero in BOTH forms (canonical 0.30/0.08), so it is weakly identified rather than concealed. Rater disagreement 1.8% |
+| [Cross-model probes and cost pilots](crossmodel_pilot_r1/ASSESSMENT.md) | Measured per-probe cost and repaired two defects: max_tokens truncation and an OpenAI path that dropped Asch images |
 
 The transfer pilot's saturation and three other nulls share one cause; see the
 [cross-phase saturation diagnosis](../phase5_analysis/reanalysis_20260914/SATURATION_DIAGNOSIS.md)
