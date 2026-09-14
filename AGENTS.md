@@ -1,5 +1,21 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Provider ceiling amendment: Anthropic $32 (2026-09-15)
+
+The researcher raised the Anthropic provider ceiling from $15 to **$32**. The
+earlier $15 figure was stated to be a conservative planning estimate rather than
+a hard limit; it became a binding constraint when the cross-model recognition
+design was prepared. Spent at the time of this amendment: $7.256294100, leaving
+$24.743706 of headroom.
+
+The **$100 package cap is unchanged** and remains enforced, as does the $30
+OpenAI ceiling. Cumulative totals do not reset and no prior accounting figure is
+restated. Raising a ceiling is not authorisation for any particular run: each
+designation still needs its own reservation, gates and researcher authorisation.
+
+Current accounting: Claude $7.256294100/$32, OpenAI $2.515733825/$30, package
+$32.678100950/$100. These are usage estimates, not verified provider balances.
+
 ## Phase 3 closed for a scoped objective (2026-09-14)
 
 Phase 3 is closed for a stated limited objective, in the manner of the accepted
