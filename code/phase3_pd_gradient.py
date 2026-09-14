@@ -33,13 +33,21 @@ from phase3_variant_round import save
 import phase3_pd_gradient_tasks as T
 
 FOLDER = ROOT / "experiments/phase3_benchmarks/pd_gradient_r1"
-PARENT = ROOT / "experiments/phase3_benchmarks/transfer_pilot_r1"
+# The ledger chain advances across phases: the parent is whichever study last
+# wrote to the ledger, which is the Phase 4 finite-rule pilot, not the Phase 3
+# transfer pilot. Chaining to a stale release fails the reservation audit.
+PARENT = ROOT / "experiments/phase4_coding/consequence_rule_pilot_r1"
 STUDY = "pd_gradient_r1"
 
 N_PER_TASK = 120
 SCREEN_N = 25
 SCREEN_REJECT_AT = 1.0          # modal share that disqualifies a task
-CAP = 1_000_000_000             # 1.0 USD hard ceiling for this designation
+# Worst-case reservation, not expected spend: the bound charges the full input
+# bound (utf-8 bytes + 1024, which over-counts tokens roughly 4x) plus the full
+# max_output at output price, for every call. Prior studies settled near 17% of
+# reservation (transfer_pilot_r1: $1.785 reserved, $0.302 actual). Set to cover
+# the full three-stage batch: $3.450130 computed, $3.50 ceiling.
+CAP = 3_500_000_000             # 3.50 USD hard ceiling for this designation
 SEEDS = {"population": 2026091501, "schedule": 2026091502, "analysis": 2026091503}
 NEUTRAL = dict.fromkeys(AXES, "NEUTRAL")
 PARTICIPANT = RATERS[1]
