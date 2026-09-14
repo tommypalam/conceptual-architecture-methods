@@ -6,6 +6,48 @@ to `main`, preserving its previous tip as `backup-1` and retaining `backup`.
 See the [publication record](docs/publication_20260913.md) for scope, branch targets
 and verification. Continue future implementation on a development branch.
 
+## Phase 4: first non-saturated moral task set (15 September)
+
+[moral_conflict_screen_r2](experiments/phase4_coding/moral_conflict_screen_r2/ASSESSMENT.md)
+passed an independent review with zero blocking issues and collected 150
+unprofiled decisions on six candidate moral-conflict tasks. **Three of six show
+real dispersion** - the first moral task set in this project on which the
+unprofiled model does not answer identically.
+
+| Task | Modal share | Status |
+|---|---:|---|
+| `safety_hold` | 0.72 | usable |
+| `witness_cost` | 0.76 | usable |
+| `quota_shortfall` | 0.96 | usable, near-ceiling; report the ceiling with any result |
+| `referral_fee`, `triage_override`, `data_consent` | 1.00 | saturated, not eligible |
+
+Order is not the driver: the first-listed option was chosen in 72 of 150
+decisions (48.0%), 24-60% per task.
+
+The tasks were built so the four fixed standards **oppose** each other, checked
+mechanically before collection: no option clean on all four, no option dominating
+another on standards and total, at least two standards in tension. Three drafts
+were rejected by that check while authoring. In every task the honest option
+carries the *lower* stipulated total, so honesty is never also the
+welfare-maximising choice - the structure that made
+consequence_rule_pilot_r1 return 96/96 identical.
+
+**Construction plus review still did not predict dispersion.** All six tasks
+passed the same verification and the same accepted review, and three saturated
+anyway. Third independent confirmation that only measurement predicts dispersion.
+
+**No moral score was assigned and no profiled decision was collected.** Nothing
+here bears on whether profiles change moral choices; that needs a separately
+designated study built on the three usable tasks, with its own estimands, arms,
+sample size, classification step and review. The saturated three must not be
+quietly swapped for easier tasks to reach six.
+
+r1 stopped at review for $0.001999800 on my drafting error: it reused the Phase 3
+reviewer prompt, which forbids the stipulated consequences Phase 4 requires.
+
+Accounting: Claude $7.139674300/$15, OpenAI $1.506167025/$30, package
+$31.551914350/$100. No collector is running and no paid batch is queued.
+
 ## Phase 3 closed for a scoped objective (14 September)
 
 See the [closure record](experiments/phase3_benchmarks/PHASE3_CLOSURE_2026-09-14.md).

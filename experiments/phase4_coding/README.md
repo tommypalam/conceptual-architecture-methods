@@ -23,6 +23,8 @@ The moral experiment remains central; no human-validation or moral-consensus cla
 | [Complete descriptive tables](consequence_rule_pilot_r1/TABLES.md) | All cell outcomes and paired contrasts with uncertainty |
 | [Group/context pilot r1 - PREPARED, NOT LAUNCHED](group_context_pilot_r1/PROTOCOL.md) | Drafted four-condition group design with competing duties; no review, participants, calls or authorisation. Not frozen |
 | [Group/context rule map - draft](group_context_pilot_r1/RULES.md) | Proposed conditions and classifications for that unlaunched design |
+| [Moral-conflict screen r1 - review stop](moral_conflict_screen_r1/ASSESSMENT.md) | Reused the Phase 3 reviewer prompt, which forbids the stipulated consequences Phase 4 requires. 1 call, $0.001999800 |
+| [**Moral-conflict screen r2 - 3 of 6 tasks disperse**](moral_conflict_screen_r2/ASSESSMENT.md) | **First non-saturated moral task set.** Accepted review; 150 unprofiled decisions; safety_hold 0.72, witness_cost 0.76, quota_shortfall 0.96 usable. Order irrelevant (48.0%). No moral score assigned |
 
 Use [NEXT_STEPS.md](../../NEXT_STEPS.md) for current execution and cumulative
 accounting. Earlier behavioural phases remain unaltered. A pilot completion is
