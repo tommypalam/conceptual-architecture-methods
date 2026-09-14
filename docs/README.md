@@ -32,6 +32,7 @@ limited normative parameterization, not demonstrated ethical understanding.
 | [Pre-analysis plan](pre_analysis_plan.md) | Historical hypotheses with current exploratory-policy guidance |
 | [Variable codebook](variables.json) | Exact parameter codes, definitions and distributions |
 | [Research programme](research_programme.md) | Researcher-supplied context beyond this thesis |
+| [Publication record 2026-09-15](publication_20260915.md) | Latest release: Phase 3 closure and the completed Phase 4 moral capstone |
 | [Publication record 2026-09-14](publication_20260914.md) | Branch targets, verification and scope limits of the latest release |
 
 ## Work with the project

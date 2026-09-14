@@ -51,13 +51,29 @@ unprofiled answer is deterministic cannot discriminate any arm comparison. The f
 is a baseline-dispersion pre-screen before committing any multi-arm budget.
 → [saturation diagnosis](experiments/phase5_analysis/reanalysis_20260914/SATURATION_DIAGNOSIS.md)
 
+**4. Normative profiles change which moral standard gets sacrificed.**
+On tasks built so the four fixed standards cannot all be satisfied, an explicit
+profile moved the net-score good rate from 0.233 (no profile) to 0.750 (numeric)
+and 0.900 (matched prose) on `witness_cost` - a paired within-agent difference of
++0.517, Holm-corrected p = 0.0002, with 34 agents switching toward the accurate
+option and 3 away. Profiled arms deceived far less and accepted more harm, so the
+profiles changed *which* standard was given up, not how many. A second task
+showed no effect, and explicit ethical guidance underperformed the profiles.
+Labels are deterministic classifications under stipulated standards, never AI or
+human ratings.
+-> [moral capstone](experiments/phase4_coding/moral_capstone_r1/ASSESSMENT.md) ·
+[task screen](experiments/phase4_coding/moral_conflict_screen_r2/ASSESSMENT.md)
+
 ## What is *not* established
 
 Stated plainly, because the project's value depends on the distinction:
 
 - **No intrinsic ethical understanding.** Behavioural influence is not comprehension.
 - **No human resemblance.** Human behavioural comparison (Phase 3B) is unresolved.
-- **No moral quality claim.** No agent action has been assigned a moral score.
+- **No moral truth.** Moral labels are deterministic classifications under
+  standards this project stipulated, computed from stipulated transitions and
+  never from agent text. A higher good rate is not evidence an agent is
+  morally better. No AI or human rater assigns them.
   Human raters are deferred; AI agreement is never presented as human validation.
 - **No validity for nine of ten parameters.** Only PD has a demonstrated mechanism.
 - **No institutional-axis identification.** Both context anchors flip all five
