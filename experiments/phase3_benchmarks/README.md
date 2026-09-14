@@ -15,6 +15,7 @@ behind it is also a substantive result in its own right — see the
 | [PD gradient r1 - review stop](pd_gradient_r1/ASSESSMENT.md) | Prospective test of the PD dose-response. Review returned `revise`; 1 call, $0.028867575, zero participants |
 | [PD gradient r2 - frozen, never dispatched](pd_gradient_r2/STATUS.md) | Re-designated after a post-freeze source correction; $0 |
 | [PD gradient r3 - review stop](pd_gradient_r3/ASSESSMENT.md) | Same design as r2. Review returned `reject` on a real class-definition defect; 1 call, $0.001966800, zero participants |
+| [PD gradient r4 - review stop, sequence closed](pd_gradient_r4/ASSESSMENT.md) | Trade-off restated as stipulated quantities. Review returned `reject`; the accepted finding is structural and closes the sequence. 1 call, $0.002087250, zero participants |
 
 The transfer pilot's saturation and three other nulls share one cause; see the
 [cross-phase saturation diagnosis](../phase5_analysis/reanalysis_20260914/SATURATION_DIAGNOSIS.md)

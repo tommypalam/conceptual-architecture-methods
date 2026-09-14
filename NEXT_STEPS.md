@@ -6,6 +6,41 @@ to `main`, preserving its previous tip as `backup-1` and retaining `backup`.
 See the [publication record](docs/publication_20260913.md) for scope, branch targets
 and verification. Continue future implementation on a development branch.
 
+## PD gradient sequence closed at review (14 September)
+
+Four designations, three paid reviews, **zero screen calls and zero participant
+decisions**. Total $0.032921625 against $10.312758 of reservations; the gates
+prevented 99.7% of potential spend. See the
+[r4 assessment](experiments/phase3_benchmarks/pd_gradient_r4/ASSESSMENT.md).
+
+| Round | Verdict | Cost | Finding |
+|---|---|---:|---|
+| [r1](experiments/phase3_benchmarks/pd_gradient_r1/ASSESSMENT.md) | revise | $0.028867575 | Evaluative wording cued the answer; a rendered profile block leaked coordinate names to the reviewer |
+| [r2](experiments/phase3_benchmarks/pd_gradient_r2/STATUS.md) | never dispatched | $0 | Re-designated after a post-freeze source correction |
+| [r3](experiments/phase3_benchmarks/pd_gradient_r3/ASSESSMENT.md) | reject | $0.001966800 | Neutralised wording collapsed Class P into Class N |
+| [r4](experiments/phase3_benchmarks/pd_gradient_r4/ASSESSMENT.md) | reject | $0.002087250 | Stipulated totals define the class but reveal the answer |
+
+**The sequence is closed and no r5 should be prepared.** The three failures are
+three positions on one axis: the information that defines the process/outcome
+divergence is the same information that tells the participant which option
+maximises the outcome. Hiding it cannot establish the class structure; showing
+it hands over the answer. Escaping that needs a different measurement approach,
+not another wording round.
+
+Two of the six blocking findings were reviewer errors and are recorded as such
+rather than deferred to. The r4 "class reversal" finding restates the design
+specification and calls it a contradiction.
+
+**The PD gradient remains untested.** The
+[Phase 5 reanalysis](experiments/phase5_analysis/reanalysis_20260914/ASSESSMENT.md)
+stands as recorded: post-hoc, on Phase 2 data, still awaiting prospective test.
+What the sequence produced instead is a documented design constraint for
+process/outcome manipulation in this harness, which belongs in the write-up
+beside the saturation diagnosis.
+
+Accounting: Claude $7.139674300/$15, OpenAI $1.383501075/$30, package
+$31.429248400/$100. No collector is running and no paid batch is queued.
+
 ## Proposed next study: prospective PD gradient test (15 September)
 
 **DRAFT, not authorised, no calls made.** The

@@ -298,7 +298,9 @@ def prepare(persist=False):
     check = read_checked(checkpoint_path) if checkpoint_path.exists() else parent
     verify(parent)
     with Ledger(LEDGER, parent) as ledger:
-        if ledger.state["pending"] or ledger.state["failed"] != [digest(INHERITED_FAILURE)]:
+        # Against r3's release the r1 failure is already historical, so `failed`
+        # is empty. Either state is acceptable; anything else stops the study.
+        if ledger.state["pending"] or ledger.state["failed"] not in ([], [digest(INHERITED_FAILURE)]):
             raise BudgetStop("Unexpected unresolved dispatch in inherited evidence")
         providers = dict(ledger.state["providers"])
 
