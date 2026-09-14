@@ -26,6 +26,8 @@ The moral experiment remains central; no human-validation or moral-consensus cla
 | [Moral-conflict screen r1 - review stop](moral_conflict_screen_r1/ASSESSMENT.md) | Reused the Phase 3 reviewer prompt, which forbids the stipulated consequences Phase 4 requires. 1 call, $0.001999800 |
 | [**Moral-conflict screen r2 - 3 of 6 tasks disperse**](moral_conflict_screen_r2/ASSESSMENT.md) | **First non-saturated moral task set.** Accepted review; 150 unprofiled decisions; safety_hold 0.72, witness_cost 0.76, quota_shortfall 0.96 usable. Order irrelevant (48.0%). No moral score assigned |
 | [**Moral capstone r1 - COMPLETE**](moral_capstone_r1/ASSESSMENT.md) | **First completed moral experiment.** 480/480 valid decisions, 4 arms. witness_cost E-U +0.517 (Holm p=0.0002), V-U +0.667; safety_hold null. Profiles changed which standard was sacrificed; guidance-only underperformed |
+| [Moral-conflict screen set B](moral_conflict_screen_b2/ASSESSMENT.md) | Eight new tasks with wider tension coverage plus **three negative controls**. Controls saturated 3/3 as designed; two new conflict tasks eligible. 199/200 valid |
+| [**Moral capstone r3 - REPLICATION, 4 tasks**](moral_capstone_r3/ASSESSMENT.md) | **956/960 valid decisions.** witness_cost replicates (+0.350 Holm 0.0004); safety_hold moves from null to +0.367 (Holm 0.0006); two set B tasks flat. Standard substitution holds across both sets; guidance-only has the highest deception rate |
 
 Use [NEXT_STEPS.md](../../NEXT_STEPS.md) for current execution and cumulative
 accounting. Earlier behavioural phases remain unaltered. A pilot completion is
