@@ -1,4 +1,9 @@
-"""Prospective PD gradient collector (pd_gradient_r2); frozen evidence is never edited.
+"""Prospective PD gradient collector (pd_gradient_r3); frozen evidence is never edited.
+
+Identical design to r2. r2 was re-designated only because its collector source
+was corrected after its release was frozen, and the write-once rule forbids
+overwriting a frozen artifact. No task, seed, estimand or gate changed; see
+../experiments/phase3_benchmarks/pd_gradient_r2/STATUS.md.
 
 Revision of r1, which stopped at review with verdict `revise`. Three repairs:
   - Every job is tagged kind "probe". The shared parse() returns response text
@@ -40,7 +45,7 @@ from phase3_variant_round import save
 
 import phase3_pd_gradient_tasks_r2 as T
 
-FOLDER = ROOT / "experiments/phase3_benchmarks/pd_gradient_r2"
+FOLDER = ROOT / "experiments/phase3_benchmarks/pd_gradient_r3"
 # The ledger chain advances across phases: the parent is whichever study last
 # wrote to the ledger, which is the Phase 4 finite-rule pilot, not the Phase 3
 # transfer pilot. Chaining to a stale release fails the reservation audit.
@@ -49,7 +54,7 @@ FOLDER = ROOT / "experiments/phase3_benchmarks/pd_gradient_r2"
 # CHECKPOINT, so the parent-checkpoint field below falls back to its release.
 # r1's failed slot and full charge are carried forward untouched.
 PARENT = ROOT / "experiments/phase3_benchmarks/pd_gradient_r1"
-STUDY = "pd_gradient_r2"
+STUDY = "pd_gradient_r3"
 
 N_PER_TASK = 120
 SCREEN_N = 25
@@ -285,7 +290,9 @@ def prepare(persist=False):
 
     population = Population.draw(N_PER_TASK, seed=SEEDS["population"]).to_dict()
     batch = [review_job()] + screen_jobs() + participant_jobs(population, T.TASK_IDS)
-    slots = {j["slot"]: {"stage": j["stage"], "model": j["request"]["model"],
+    # dispatch() checks job["kind"] against cap["kind"], so the slot record must
+    # carry "kind"; the descriptive stage name rides alongside it.
+    slots = {j["slot"]: {"kind": j["kind"], "stage": j["stage"], "model": j["request"]["model"],
                          "input_token_bound": j["input_token_bound"],
                          "reserved_nano": j["reserved_nano"],
                          "max_output": j["request"].get("max_tokens",
