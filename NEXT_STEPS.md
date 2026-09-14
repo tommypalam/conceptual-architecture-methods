@@ -1,12 +1,70 @@
 # Current state and next steps
 
-Updated 2026-09-13. Publication source: `phase3-preparation-20260913`.
-The researcher authorised publishing the completed work and revised paper abstract
-to `main`, preserving its previous tip as `backup-1` and retaining `backup`.
-See the [publication record](docs/publication_20260913.md) for scope, branch targets
-and verification. Continue future implementation on a development branch.
+Updated 2026-09-16. Publication source: `research-transfer-design-20260913`.
+The researcher authorised publishing the Phase 4B result and this session's
+methodological work to `main`, preserving its previous tip as `backup-4` and
+retaining `backup` through `backup-3`. See the
+[publication record](docs/publication_20260916.md) for scope, branch targets and
+verification. Continue future implementation on a development branch.
 
-## Phase 4 capstone complete: profiles change moral choices (15 September)
+## Phase 4B complete: profiles move the good/bad headline, guidance does not (16 September)
+
+[phase4b_profiled_r1](experiments/phase4_coding/phase4b_profiled_r1/ASSESSMENT.md)
+is the **central moral experiment**, and the first profiled moral collection on
+material screened for dispersion in advance, purpose-built to an authoring
+criterion five independent reviews converged on, and carrying a net primary that
+splits. 631 calls, 631/631 valid, zero failures.
+
+| Arm | Good-rate | n | vs U | Fisher p |
+|---|---:|---:|---:|---:|
+| **U** no profile | 0.367 | 150 | - | - |
+| **G** ethical guidance | 0.429 | 240 | +0.062 | 0.244 |
+| **E** numeric profile | **0.600** | 240 | **+0.233** | **0.000008** |
+
+Paired **E vs G** - same agent, same item, byte-identical participant text -
+effect **+0.171**, 240 pairs, **pooled Holm p = 0.000112**, 4 of 6 items
+positive. Both conditions of the prespecified rule are met.
+
+**The G arm is the load-bearing control.** It states the target behaviour in
+plain English and does not move the headline. The ordering U < G < E is monotone
+and the E-U gap is roughly four times the G-U gap.
+
+Not established: moral truth, moral improvement, that the profile is understood
+rather than acting as a context cue, any coordinate-level claim, or cross-model
+transfer. The result is single-model.
+
+### Supporting evidence from the same session
+
+- [phase4b_grand_r1](experiments/phase4_coding/phase4b_grand_r1/ASSESSMENT.md) -
+  901 calls, twelve items, three models, payoffs frozen identical in all 36
+  cells. Good-rate variance: items 44.4%, models 32.1%, interaction 23.5%.
+- [magnitude_sweep_r1](experiments/phase4_coding/magnitude_sweep_r1/ASSESSMENT.md) -
+  three models show three decision structures across a 36x price range. Its
+  sonnet/haiku ordering is the **opposite** of `grand_r1`'s, so a model is not
+  globally strict or permissive.
+- [pd_discriminant_r2](experiments/phase4_coding/pd_discriminant_r2/ASSESSMENT.md) -
+  tying totals, worst losses and best gains changed nothing, refuting r1's own
+  welfare reading. r1 is marked superseded; its data stand.
+
+### Open, and stated as open
+
+- **The prospective PD test is untested, not failed.** Built twice, cleared
+  review twice, stopped by its own screen twice.
+- **The breadth question is untested** across two attempts.
+- **No human validation**; human raters remain deferred.
+- Six items is six situations. n = 40 agents, one model, one harness.
+
+### Next
+
+The highest-value remaining run is the **E/G contrast on `claude-sonnet-4-6`**
+using the same six items - roughly $3-4, a straight repeat of a design that
+worked, and cross-model is the largest remaining gap. The configuration
+counterfactual (thesis 5.3) is what would separate parameterised reasoning from
+an elaborate context cue. Neither is authorised by this publication.
+
+---
+
+## Historical: Phase 4 capstone complete: profiles change moral choices (15 September)
 
 [moral_capstone_r1](experiments/phase4_coding/moral_capstone_r1/ASSESSMENT.md) is
 the project's **first completed moral experiment**. Accepted independent review,

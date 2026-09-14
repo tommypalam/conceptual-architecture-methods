@@ -1,5 +1,56 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Phase 4B has an affirmative result; guidance does not reproduce it (2026-09-16)
+
+**The central moral experiment completed.** `phase4b_profiled_r1`: 631 calls,
+631/631 valid, zero failures. Parameter profiles change the deterministic
+good/bad classification and an explicit ethical instruction does not.
+
+| Arm | Good-rate | n | vs U | p |
+|---|---:|---:|---:|---:|
+| U no profile | 0.367 | 150 | — | — |
+| G ethical guidance | 0.429 | 240 | +0.062 | 0.244 |
+| E numeric profile | **0.600** | 240 | **+0.233** | **0.000008** |
+
+Paired E vs G, same agent and item, byte-identical participant text: **+0.171,
+pooled Holm p = 0.000112**, 4 of 6 items positive. Both conditions of the
+prespecified rule met. The G arm carries the target behaviour in plain English
+and does not move the headline; the ordering U < G < E is monotone.
+
+**This does not establish moral truth, moral improvement, or that the profile is
+understood.** A shift under a numeric block is consistent with the block acting
+as an elaborate context cue; separating that needs the configuration
+counterfactual (§5.3), which is not run. The result is **single-model** —
+`phase4b_grand_r1` shows the same items behave very differently on gpt and
+sonnet. Nine coordinates varied freely and none was manipulated, so no
+coordinate-level claim is licensed.
+
+**Supporting evidence.** `phase4b_grand_r1`, 901 calls with the payoff structure
+frozen identical in all 36 cells, decomposes good-rate variance as items 44.4%,
+models 32.1%, interaction 23.5%. Sonnet is most protective there (0.90) against
+haiku 0.46 — the **opposite** ordering from `magnitude_sweep_r1`, so a model is
+not globally strict or permissive and the ordering reverses with the standard at
+stake. Stipulated units are not the operative variable, established three ways;
+`pd_discriminant_r2` refuted `r1`'s own welfare reading, and r1 is marked
+superseded with its data intact.
+
+**Method carried forward.** A three-level authoring criterion — matched non-unit
+consequence text, no asymmetric violation label, no asymmetric obligatory or
+transgressive modals — derived from five review stops and enforced by
+`verify_items()`. Items built to it cleared six consecutive hard gates with zero
+blocking issues. Screen before profiling, prospectively: session gate and screen
+stops cost about $0.50 and prevented roughly 2,000 calls on cued or saturated
+stimuli.
+
+**Still open.** The prospective PD test is **untested, not failed** — built
+twice, cleared review twice, stopped by its own screen twice. The breadth
+question is untested. No human validation. See
+docs/publication_20260916.md and the phase4b assessments.
+
+Accounting: Claude $17.486071900/$32, OpenAI $4.566822975/$30. Usage estimates,
+not verified provider balances.
+
+
 ## Review-gate amendment: reviews inform, they do not gate replications (2026-09-16)
 
 The researcher ruled that a single AI design review does not gate a replication

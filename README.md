@@ -17,7 +17,40 @@ Moving to another computer? Start with the [desktop handoff](docs/desktop_handof
 
 ## What the evidence shows
 
-Three findings, each with its boundary stated.
+**Headline (16 September 2026): a numeric parameter profile changes the
+deterministic good/bad classification. An explicit ethical instruction, on the
+same items against the same baseline, does not.**
+
+| Arm | Good-rate | n | vs no-profile | p |
+|---|---:|---:|---:|---:|
+| no profile | 0.367 | 150 | — | — |
+| **ethical guidance** | 0.429 | 240 | +0.062 | 0.244 |
+| **numeric profile** | **0.600** | 240 | **+0.233** | **0.000008** |
+
+Paired profile-vs-guidance, same agent and item with byte-identical participant
+text: **+0.171, Holm p = 0.000112**, 4 of 6 items positive, both conditions of a
+decision rule fixed in source before collection. The guidance arm states the
+target behaviour in plain English — weigh everyone's interests, avoid harm,
+deception, coercion and unequal treatment — and does not move the headline.
+
+Items were screened for dispersion **before any profiled call**, with payoffs
+frozen identical across the whole pool, and cleared six consecutive independent
+review gates with zero blocking issues.
+→ [Phase 4B result](experiments/phase4_coding/phase4b_profiled_r1/ASSESSMENT.md) ·
+[three-model screen](experiments/phase4_coding/phase4b_grand_r1/ASSESSMENT.md) ·
+[publication record](docs/publication_20260916.md)
+
+**Boundaries, stated plainly.** This establishes no moral truth and no moral
+improvement: every label is a deterministic classification under stipulated
+standards, never read from agent text. It does not show the profile is
+*understood* — a shift under a numeric block is consistent with the block acting
+as an elaborate context cue, and separating those needs the configuration
+counterfactual, which is not run. The result is **single-model**; the same items
+behave very differently on two other models. Six items is six situations.
+
+---
+
+Three further findings, each with its boundary stated.
 
 **1. Profiles change decisions — and they create variance rather than shift it.**
 A fresh-sample confirmation ran 400 hash-locked profiles through 4,800 individual
