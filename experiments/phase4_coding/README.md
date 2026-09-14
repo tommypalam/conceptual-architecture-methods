@@ -21,6 +21,8 @@ The moral experiment remains central; no human-validation or moral-consensus cla
 | [Finite rule map](consequence_rule_pilot_r1/RULES.md) | Exact conditions, normative assumptions and scope limits |
 | [Completed finite-rule assessment](consequence_rule_pilot_r1/ASSESSMENT.md) | 96 valid choices, identical actions across arms, no observed encoding advantage |
 | [Complete descriptive tables](consequence_rule_pilot_r1/TABLES.md) | All cell outcomes and paired contrasts with uncertainty |
+| [Group/context pilot r1 - PREPARED, NOT LAUNCHED](group_context_pilot_r1/PROTOCOL.md) | Drafted four-condition group design with competing duties; no review, participants, calls or authorisation. Not frozen |
+| [Group/context rule map - draft](group_context_pilot_r1/RULES.md) | Proposed conditions and classifications for that unlaunched design |
 
 Use [NEXT_STEPS.md](../../NEXT_STEPS.md) for current execution and cumulative
 accounting. Earlier behavioural phases remain unaltered. A pilot completion is

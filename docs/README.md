@@ -9,7 +9,9 @@ Moving to another computer? Start with the [desktop handoff](desktop_handoff.md)
 1. [Abstract](abstract.md) - research question and main contribution.
 2. [Results and interpretation](phase1_5_results.md) - completed findings, uncertainty and limitations.
 3. [Accepted Phase 1.5 conclusion](../experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md) - the researcher's scoped closure decision.
-4. [Theory and implementation specification](../Theory/README.md) - the framework, current amendment and original plan.
+4. [Within-arm reanalysis](../experiments/phase5_analysis/reanalysis_20260914/ASSESSMENT.md) - where the Phase 2 effect actually lives: PD dose-response and deterministic baselines.
+5. [Saturation diagnosis](../experiments/phase5_analysis/reanalysis_20260914/SATURATION_DIAGNOSIS.md) - why four studies returned nulls, and the proposed dispersion pre-screen.
+6. [Theory and implementation specification](../Theory/README.md) - the framework, current amendment and original plan.
 
 The original validity battery remains unmet. The accepted conclusion concerns
 limited normative parameterization, not demonstrated ethical understanding.
@@ -30,6 +32,7 @@ limited normative parameterization, not demonstrated ethical understanding.
 | [Pre-analysis plan](pre_analysis_plan.md) | Historical hypotheses with current exploratory-policy guidance |
 | [Variable codebook](variables.json) | Exact parameter codes, definitions and distributions |
 | [Research programme](research_programme.md) | Researcher-supplied context beyond this thesis |
+| [Publication record 2026-09-14](publication_20260914.md) | Branch targets, verification and scope limits of the latest release |
 
 ## Work with the project
 

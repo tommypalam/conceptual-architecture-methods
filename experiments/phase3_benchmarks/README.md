@@ -1,4 +1,26 @@
-# Phase 3: recognition screen complete, all alternatives rejected
+# Phase 3: benchmarks and diagnostics — open
+
+Four studies are complete; the formal benchmark battery is not. Recognition
+screening is finished and all five decanonised alternatives were rejected as
+low-recognition controls. That operational verdict stands, and the measurement
+behind it is also a substantive result in its own right — see the
+[finding interpretation](recognition_r1/FINDING_INTERPRETATION.md).
+
+| Study | Result |
+|---|---|
+| [Recognition screen](recognition_r1/execution/transport_r1/ASSESSMENT.md) | 500 probes; 50/50 recognition in all ten cells; all alternatives rejected |
+| [E/U context diagnostic](context_diagnostic_r2/ASSESSMENT.md) | 576 decisions; +50-point profile-package difference at offer 20 |
+| [E/V representation diagnostic](representation_diagnostic_r1/ASSESSMENT.md) | 576 decisions; neither presentation effect nor equivalence established |
+| [Transfer pilot](transfer_pilot_r1/ASSESSMENT.md) | 448/448 valid; saturated, one side of the contrast flat |
+
+The transfer pilot's saturation and three other nulls share one cause; see the
+[cross-phase saturation diagnosis](../phase5_analysis/reanalysis_20260914/SATURATION_DIAGNOSIS.md)
+and its proposed dispersion pre-screen before designing further packets.
+
+The original all-five-benchmark N200 study is not released. All ten coordinates,
+five benchmark families, Beta marginals and R remain in scope.
+
+## Recognition screen detail
 
 Current [implementation v0.2](../../Theory/implementation_specification_v0_2.md)
 keeps the thesis exploratory and the [moral capstone](../phase4_coding/CAPSTONE_DESIGN_DRAFT_20260913.md)

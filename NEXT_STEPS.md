@@ -6,7 +6,54 @@ to `main`, preserving its previous tip as `backup-1` and retaining `backup`.
 See the [publication record](docs/publication_20260913.md) for scope, branch targets
 and verification. Continue future implementation on a development branch.
 
-## Latest completed step: finite-rule moral pilot (14 September)
+## Latest completed step: offline reanalysis and gap repair (14 September)
+
+No API calls, no budget change, no frozen record modified. Cumulative accounting
+is unchanged at Claude $7.139674300/$15, OpenAI $1.350579450/$30, package
+$31.396326775/$100. Reproduce with `py -3.11 -B code/phase5_reanalysis.py`.
+
+Three documents were added, and they change how the completed evidence is read:
+
+1. [Phase 2 within-arm reanalysis](experiments/phase5_analysis/reanalysis_20260914/ASSESSMENT.md).
+   The unprofiled arm was **perfectly deterministic in four of six cells** (400/400
+   identical choices on S2 and S3), so the six passing Phase 2 contrasts measure
+   variance creation from a deterministic baseline, not distribution shift. Within
+   the encoded arm, **Procedural Dependence shows a monotone dose-response** on
+   departure from that baseline (quintile spread 35.0-62.5 points, permutation
+   p<0.0001 in all four non-degenerate cells) and ranks **first of ten parameters**
+   under multivariate control in every one. Nine of ten coordinates show no
+   systematic effect. The thesis section 6.1.1 directional signs, locked before
+   collection and never previously evaluated, score **5 supported, 4 null, 0 wrong
+   sign** - descriptive and uncorrected. The S3 sign reversal is explained as a
+   label-ordering artefact, not an effect reversal. PD's dominance on S2/S3 was
+   *not* among the locked predictions and remains a post-hoc discovery.
+2. [Recognition finding interpretation](experiments/phase3_benchmarks/recognition_r1/FINDING_INTERPRETATION.md).
+   The 500-probe screen is filed as a failed gate; the operational verdict stands,
+   but the measurement is also a substantive result - cross-provider raters agreed
+   500/500 that all five decanonised variants were identifiable at the canonical
+   rate. Structure-preserving domain substitution does not conceal a classic
+   paradigm. This closes the alternative to the configuration counterfactual and
+   raises the priority of one-bit context contrasts.
+3. [Cross-phase saturation diagnosis](experiments/phase5_analysis/reanalysis_20260914/SATURATION_DIAGNOSIS.md).
+   Four studies across three phases (Phase 2 S2/S3, transfer_pilot_r1 448/448,
+   representation_diagnostic_r1, consequence_rule_pilot_r1 96/96) returned nulls
+   from one cause: deterministic unprofiled baselines cannot discriminate arm
+   contrasts. Proposes a **U-arm dispersion pre-screen** (n approx 20-30,
+   modal-share bands) as a required protocol field before any multi-arm budget is
+   committed. Screening is on baseline dispersion only, never on outcomes.
+
+The [abstract](docs/abstract.md) was rewritten around these findings. No phase is
+reopened, no completed result is altered, and no new hypothesis is presented as
+having preceded existing responses.
+
+Next: the three proposals in the saturation diagnosis and reanalysis section 6 -
+dispersion pre-screen adoption, a prospective PD dose-response test on fresh
+process/outcome tasks, and one-bit configuration contrasts. None is frozen,
+costed or authorised. Phase 3 remains open; Phase 4B remains the central moral
+experiment under implementation specification v0.2, with the good/bad decision
+question unchanged and its tasks now required to be contested in the U arm.
+
+## Preceding paid step: finite-rule moral pilot (14 September)
 
 The [finite-rule pilot assessment](experiments/phase4_coding/consequence_rule_pilot_r1/ASSESSMENT.md)
 records one accepted independent review and 96/96 valid individual choices, frozen

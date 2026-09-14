@@ -1,5 +1,42 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Offline reanalysis and located encoding effect (2026-09-14)
+
+No API calls, no budget change, no frozen record altered; accounting unchanged.
+The [Phase 2 within-arm reanalysis](experiments/phase5_analysis/reanalysis_20260914/ASSESSMENT.md)
+found the unprofiled arm perfectly deterministic in four of six cells (400/400 on
+S2 and S3), so the six passing Phase 2 contrasts measure variance creation from a
+deterministic baseline rather than distribution shift. Within the encoded arm,
+Procedural Dependence shows a monotone dose-response on departure from baseline
+(quintile spread 35.0-62.5 points, permutation p<0.0001 in all four non-degenerate
+cells) and ranks first of ten parameters under multivariate control in every one.
+Nine of ten coordinates show no systematic effect. Thesis section 6.1.1 directional
+signs, locked before collection and never previously scored, give 5 supported,
+4 null, 0 wrong sign - descriptive, dependent and uncorrected. The S3 sign reversal
+is a label-ordering artefact, not an effect reversal. PD's dominance on S2/S3 was
+NOT among the locked predictions; it is a post-hoc discovery requiring prospective
+test before any confirmatory language. Reproduce via `code/phase5_reanalysis.py`.
+
+Two framing repairs accompany it. The
+[recognition finding note](experiments/phase3_benchmarks/recognition_r1/FINDING_INTERPRETATION.md)
+keeps the failed-gate verdict while recording the substantive result: cross-provider
+raters agreed 500/500 that all five decanonised variants were identifiable at the
+canonical rate, so structure-preserving domain substitution does not conceal a
+classic paradigm and the configuration counterfactual is the only remaining
+discriminator. The
+[saturation diagnosis](experiments/phase5_analysis/reanalysis_20260914/SATURATION_DIAGNOSIS.md)
+traces four nulls across three phases to deterministic unprofiled baselines and
+proposes a required U-arm dispersion pre-screen (n approx 20-30, modal-share bands)
+before any multi-arm budget is committed. Screen on baseline dispersion only, never
+on outcomes; outcome-driven task selection remains forbidden. The
+[abstract](docs/abstract.md) was rewritten around these findings.
+
+No phase is reopened or completed result altered. The three proposals - pre-screen
+adoption, a prospective PD dose-response test, and one-bit configuration contrasts
+replacing the all-five-bit anchor flip - are unfrozen, uncosted and unauthorised.
+Phase 3 stays open; Phase 4B stays the central moral experiment under v0.2 with the
+good/bad question unchanged, and its tasks must now be contested in the U arm.
+
 ## Current finite-rule moral pilot (2026-09-14)
 
 Completed after freeze db754fee: accepted review and 96/96 valid choices. Every

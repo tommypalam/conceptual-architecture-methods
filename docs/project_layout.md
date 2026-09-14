@@ -1,6 +1,6 @@
 # Project layout and naming
 
-Updated 12 September 2026. Published version: `main`; use a development branch for new work.
+Updated 14 September 2026. Published version: `main`; use a development branch for new work.
 
 ## Where things belong
 
@@ -14,7 +14,7 @@ Updated 12 September 2026. Published version: `main`; use a development branch f
 | `code/engine/` | Reusable simulation, provider, parsing and analysis components |
 | `code/` | Existing CLI and reproducibility scripts; frozen source names stay stable |
 | `code/maintenance/` | Offline project maintenance tools |
-| `tests/` | Offline tests for implementation and provenance safeguards |
+| `tests/` | Offline tests for implementation and provenance safeguards; see its [README](../tests/README.md) |
 | `config/` | Parameter distributions, correlations, configurations and seeds |
 | `prompts/` | Current prompt templates |
 | `experiments/` | Locked questions and complete evidence packages at stable reproducibility paths |
@@ -35,6 +35,30 @@ aliases or duplicate copies are needed just to control the reading order.
 The researcher retired the separate root decision log. Record a substantive
 decision in the phase document it affects and link it from NEXT_STEPS.md. Existing
 archived chronologies remain available; do not create a replacement parallel log.
+
+## Navigation layer (2026-09-14)
+
+Every top-level area has a `README.md` acting as its entry point, and each one
+links back to the root. The intended path for a new reader is:
+
+    README.md  ->  docs/abstract.md  ->  experiments/README.md  ->  NEXT_STEPS.md
+
+The root README states the findings and, immediately after, what is *not*
+established. Keep that pairing: a finding and its boundary belong together, and
+a reader who sees only the first half has been misled.
+
+[experiments/README.md](../experiments/README.md) is the evidence index: every
+study in reading order with its outcome, plus a short guide to the shape of a
+frozen study folder (`PROTOCOL.md`, `ASSESSMENT.md`, `CHECKPOINT.json`,
+`STATUS.md`). A study whose protocol exists but whose assessment records zero
+participants was stopped by its own gate; that is a designed outcome, not an
+incomplete folder, and the navigation must not present it as a gap.
+
+When a result is filed under an operational verdict that understates it, add a
+sibling interpretation note rather than rewriting the frozen assessment. The
+[recognition finding note](../experiments/phase3_benchmarks/recognition_r1/FINDING_INTERPRETATION.md)
+is the worked example: the failed-gate verdict stands, and the measurement is
+reported as a finding beside it.
 
 ## Naming for new work
 
