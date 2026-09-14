@@ -18,11 +18,23 @@ ledger guarantee and changes only how a reply is read.
   - failure preservation in `failures.jsonl` with no retry
   - replay: a resumed slot must reproduce the same extracted value
 
-**Changed:** the parse step is `extract_choice`, which reads only a single
-unambiguous `{"choice": "..."}` object and never scans prose. It is strictly
-narrower than the inherited parser in what it accepts as an answer, and was
-verified to reproduce all 960 `moral_capstone_r3` decisions byte-identically
-before use.
+**Changed:** the parse step is chosen per job by `parse_for`, from two contracts
+that a job declares explicitly and exclusively:
+
+  - `valid_actions` -> `extract_choice`, which reads only a single unambiguous
+    `{"choice": "..."}` object and never scans prose. Strictly narrower than the
+    inherited parser, and verified to reproduce all 960 `moral_capstone_r3`
+    decisions byte-identically before use.
+  - `raw_text` -> the complete reply verbatim, for calls that do not return a
+    task choice. A design review returns a verdict; the inherited `probe`
+    contract caps such a reply at 1024 bytes, a bound sized for a 35-word
+    recognition answer, which rejected two complete review replies on length
+    alone. The reservation bounds these replies instead, via the same usage
+    guard every other call passes.
+
+Both paths share `_complete_text`: same usage guard, same stop-reason check, same
+truncation rule. Only what happens to the validated text differs. A job that
+declares both contracts or neither is a construction error and raises.
 
 This module does not edit any frozen source. `phase3_recognition.py` and
 `phase3_recognition_run.py` are imported, never modified.
@@ -59,12 +71,12 @@ def _usage_within_reservation(raw, job):
     return usage[keys[1]], maximum
 
 
-def parse_choice(raw, job):
-    """Extract the decision, or raise. `job` must carry `valid_actions`.
+def _complete_text(raw, job):
+    """Shared guards, then the reply text. Raises on anything not complete.
 
-    Truncation is still a failure: a reply cut off at the output limit may have
-    been about to say something else, so its content is not trusted even if a
-    choice object happens to appear.
+    Truncation is a failure for both call kinds: a reply cut off at the output
+    limit may have been about to say something else, so its content is not
+    trusted even if a well-formed object happens to appear before the cut.
     """
     produced, maximum = _usage_within_reservation(raw, job)
     stop = (raw.get("choices", [{}])[0].get("finish_reason")
@@ -76,10 +88,43 @@ def parse_choice(raw, job):
     text = response_text(raw)
     if text is None:
         raise ValueError("No readable response text")
+    return text
+
+
+def parse_choice(raw, job):
+    """Extract the decision, or raise. `job` must carry `valid_actions`."""
+    text = _complete_text(raw, job)
     picked = extract_choice(text, set(job["valid_actions"]))
     if picked is None:
         raise ValueError("No single unambiguous choice object")
     return picked
+
+
+def parse_text(raw, job):
+    """Return a complete reply verbatim, for calls that are not task choices.
+
+    A design review returns a verdict, not an action id. The inherited `probe`
+    contract would take this path but imposes a 1024-byte cap sized for a 35-word
+    recognition answer; a reviewer that reasons before answering exceeds it while
+    being perfectly complete. The reservation, not the byte count, is what bounds
+    a reply here, and `_complete_text` already enforces it via the usage guard.
+
+    No parsing, repair or inference: the caller owns interpretation.
+    """
+    return _complete_text(raw, job)
+
+
+def parse_for(raw, job):
+    """Pick the reader matched to what this job asks the model to return.
+
+    A job declares exactly one contract. `raw_text` and `valid_actions` are
+    mutually exclusive: a job carrying both, or neither, is a construction error
+    and stops the run rather than guessing.
+    """
+    wants_text, wants_choice = bool(job.get("raw_text")), bool(job.get("valid_actions"))
+    if wants_text == wants_choice:
+        raise ValueError("Job must declare exactly one of raw_text or valid_actions")
+    return parse_text(raw, job) if wants_text else parse_choice(raw, job)
 
 
 def dispatch(ledger, job, manifest_sha, responder, replay=False):
@@ -97,7 +142,7 @@ def dispatch(ledger, job, manifest_sha, responder, replay=False):
         if previous["request"] != job["request"] or previous["manifest_sha256"] != manifest_sha:
             raise BudgetStop("Changed request/manifest on resume")
         result = read_checked(path)
-        if result["error"] is None and result["parsed"] != parse_choice(result["raw"], job):
+        if result["error"] is None and result["parsed"] != parse_for(result["raw"], job):
             raise BudgetStop("Replay parse mismatch")
         return result, False
     if replay:
@@ -122,7 +167,7 @@ def dispatch(ledger, job, manifest_sha, responder, replay=False):
     raw, parsed, error = None, None, None
     try:
         raw = responder(job["request"])
-        parsed = parse_choice(raw, job)
+        parsed = parse_for(raw, job)
     except Exception as exc:
         error = {"type": type(exc).__name__,
                  "status": exc.code if isinstance(exc, HTTPError) else None}

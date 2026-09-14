@@ -1,13 +1,23 @@
-# capstone_model2_r4: the capstone effect does not replicate on a second model
+# capstone_model2_r4: the gpt-screened task set does not transfer to a second model
 
 **Outcome: complete. 961 paid calls, 960 decisions collected.** 16 September
 2026. Review returned **accept**. The provider-agnostic dispatcher worked
 throughout.
 
-**Three of the four E−U contrasts are null. The capstone effect, as measured on
-`gpt-5.4-mini`, does not appear on `claude-haiku-4-5-20251001`.** The reason is
-visible in the baselines and is the saturation problem this project has
-documented three times before.
+**Three of the four E−U contrasts are null, and all three sit on cells with no
+room to move.** This designation therefore does not measure whether the capstone
+effect appears on `claude-haiku-4-5-20251001`. It measures that the task set
+screened on `gpt-5.4-mini` is saturated on haiku — the saturation problem this
+project has documented three times before, now recurring across models.
+
+**Correction (recorded on review of this assessment).** An earlier version of
+this document was titled "the capstone effect does not replicate on a second
+model" and claimed "the design that produced it does not transfer". Both
+overstated the evidence in the same way: they read a null on a saturated cell as
+information about the effect. The saturation diagnosis this project established
+says precisely that such a null is uninformative. What does not transfer is the
+*task set*; whether the *effect* transfers was not tested here, because only one
+of four cells had headroom — and that one moved.
 
 ## Result
 
@@ -67,28 +77,37 @@ for dispersion on one model does not carry that dispersion to another.
 
 ## What this establishes
 
-**The capstone effect is not shown to generalise across models, and the design
-that produced it does not transfer.** `moral_capstone_r3` remains a
-single-model result and must be reported as one.
-
-**A stronger methodological point.** Dispersion screening — which this project
-introduced to fix exactly this problem — is **model-specific**. The eligible pool
+**A task set screened on one model is not a portable asset.** The eligible pool
 was screened on `gpt-5.4-mini`, cleared two prespecified gates, and produced
-large replicated effects there. On a second model, three of the four tasks are
-degenerate. Any cross-model design must re-screen per model before collecting,
-and a task set is not a portable asset.
+large replicated effects there. On `claude-haiku-4-5` three of its four tasks sit
+at 1.000 and the fourth at 0.000. **Dispersion screening must be repeated per
+model**, before collection, in any cross-model design.
+
+That is a statement about *where baselines sit*, which is model-specific in the
+ordinary way that model bias is. It is **not** a statement about whether
+parameter profiles move behaviour, which is the project's actual estimand and
+which this designation could not test.
+
+**`moral_capstone_r3` remains a single-model result** and must be reported as
+one. This designation does not extend it to a second model, and does not bound
+it either.
 
 **A genuine effect where measurement was possible.** On the single task with
-headroom, the profiled arm moved +0.133 with Holm correction across four tasks.
-That is consistent with the capstone effect existing on this model too, but one
-task at a floor is thin evidence and is not claimed as replication.
+headroom, the profiled arm moved +0.133 with Holm correction across four tasks,
+and G−U moved +0.200 at p = 0.0005. Every cell in which an effect *could* appear
+showed one. That is one task and is not claimed as replication — but it is the
+only evidence here that bears on the estimand, and it points toward the effect
+existing on this model, not away from it.
 
 ## What this does NOT establish
 
 - **Not evidence that profiles fail on this model.** Three null contrasts sit on
   cells with no room to move. A null at a ceiling is uninformative about the
   effect, and saying otherwise would invert what the saturation diagnosis
-  established.
+  established. The one cell with headroom moved.
+- **Not a test of cross-model generalisation of the effect.** That test requires
+  tasks that disperse on the second model. None of the four did, so the test was
+  not run. It remains open.
 - **Not a refutation of `moral_capstone_r3`.** Its 956 decisions, its
   Holm-corrected effects, and the passed specificity check stand unchanged. This
   bounds their scope; it does not contradict them.
@@ -102,8 +121,9 @@ task at a floor is thin evidence and is not claimed as replication.
 
 ## What a real cross-model design would need
 
-1. **Re-screen dispersion on every model before collecting.** The screen is
-   model-specific; that is now measured rather than suspected.
+1. **Re-screen dispersion on every model before collecting.** Baselines are
+   model-specific; that is now measured rather than suspected. Screening is on
+   baseline dispersion only, never on outcomes.
 2. **Select tasks that disperse on all models under comparison**, or accept that
    the comparison is per-model and report it that way.
 3. Decide both **before** collection, in a designation whose purpose is
