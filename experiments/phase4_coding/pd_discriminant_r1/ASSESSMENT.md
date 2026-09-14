@@ -32,6 +32,18 @@ The crossing did what it was built to do: it separated procedure-respect from
 welfare, and unprofiled `claude-haiku-4-5` followed **welfare** in every
 saturated cell.
 
+## Superseded by r2 (added 16 September 2026)
+
+**The welfare reading below is withdrawn on evidence.** `pd_discriminant_r2` ran
+the same four items with totals, worst losses and best gains tied exactly between
+the options, removing every numeric reason to prefer either. The screen returned
+**identical** modal shares, directions and the same 0.52 split.
+
+In r1 the higher-total option coincided with the option the model preferred for
+other reasons. The unprofiled model was not reading the units. The data in this
+assessment stand; the interpretation in "What this establishes" does not. See
+`../pd_discriminant_r2/ASSESSMENT.md`.
+
 ## What this establishes
 
 **A negative answer on the harder question, from a design that could have
