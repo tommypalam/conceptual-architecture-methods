@@ -61,8 +61,9 @@ a P-only study is not worth running.
 
 Task authorship rule: each task is written to its class specification, then
 the class assignment, predicted direction and the process-respecting label are
-recorded in `TASKS.md` and hashed before collection. No task may be reassigned
-between classes after any response is seen.
+recorded in `code/phase3_pd_gradient_tasks.py` and covered by its content hash
+before collection (see 3.4). No task may be reassigned between classes after any
+response is seen.
 
 ### 3.2 Dispersion pre-screen (mandatory gate)
 
@@ -101,12 +102,52 @@ establishes the baseline distribution and the within-arm gradient is the estiman
 No parameter, marginal, correlation matrix entry, locked question or societal
 axis definition changes. AW remains included, as in all prior studies.
 
+
+### 3.4 The task set (authored, hashed, not yet reviewed)
+
+Six tasks are authored in `code/phase3_pd_gradient_tasks.py`. Content hash
+`1f42b1b16af7bd81d2edb023061b8d0edec8684c93d2122635469b319fe63aff` covers all task text, the counterbalance map and the
+predictions; it is recomputed and checked before launch.
+
+| Task | Class | Process label | Outcome label | PD predicted to favour |
+|---|---|---|---|---|
+| `permit_sequence` | P | BETA | ALPHA | BETA |
+| `tender_award` | P | ALPHA | BETA | ALPHA |
+| `records_release` | P | BETA | ALPHA | BETA |
+| `inspection_backlog` | N | ALPHA | same | none (control) |
+| `roster_publication` | N | BETA | same | none (control) |
+| `grant_arithmetic` | N | ALPHA | same | none (control) |
+
+Class P tasks place a legitimate published procedure against a materially better
+outcome: a permit needing a survey sign-off, a late tender bid that is the best
+on the merits, and an outbreak dataset awaiting board approval. Class N tasks
+pair the same procedural structure with evidence that following the procedure
+also produces the better outcome, so the axis has nothing to separate.
+
+**Counterbalancing.** Options are stored by role (`process_text` /
+`outcome_text`) and labelled at assembly. The process-respecting option carries
+label ALPHA in three tasks and BETA in three, and neither class is
+label-constant. A fixed label, or a general pro-rule bias, therefore cannot
+reproduce the predicted P-versus-N pattern.
+
+**Leakage.** An automated audit checks that no participant-visible text contains
+any parameter name, the class assignment, the predicted answer, or the name of
+any classic paradigm. The audit currently reports zero forbidden terms across
+all six tasks, and includes a planted-term check so it cannot pass vacuously.
+Participant text is 134-152 words across tasks, so length is not a confound.
+
+Offline checks for all of the above are in `tests/test_phase3_pd_gradient.py`
+(35 tests, passing). They lock the design invariants; they do not establish
+scientific validity.
+
 ## 4. Estimands and analysis, fixed in advance
 
 **Primary estimand.** Per task, the point-biserial correlation between the PD
-coordinate and choice of the **outcome-maximising (process-bypassing) action**,
-with a two-sided permutation p (10,000 shuffles of the choice labels against
-fixed parameter values, seed `2026091503`).
+coordinate and choice of the **process-respecting option**, identified by role
+rather than by label (labels are counterbalanced per 3.4), with a two-sided
+permutation p (10,000 shuffles of the choice labels against fixed parameter
+values, seed `2026091503`). The prediction is a POSITIVE correlation on Class P
+and no correlation on Class N.
 
 **Primary contrast.** Mean PD correlation across Class P tasks minus mean across
 Class N tasks. This single number is the study's headline; it is positive only
