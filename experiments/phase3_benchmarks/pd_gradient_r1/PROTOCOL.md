@@ -140,6 +140,39 @@ Offline checks for all of the above are in `tests/test_phase3_pd_gradient.py`
 (35 tests, passing). They lock the design invariants; they do not establish
 scientific validity.
 
+
+### 3.5 Collector and stage gates (implemented, not run)
+
+`code/phase3_pd_gradient.py` implements the three stages, each gated on the one
+before. Zero calls have been made; `run` additionally requires an explicit
+`--yes` flag.
+
+1. **Review.** One independent design review of the full task set. Any verdict
+   other than `accept` writes a `review_stop` result with zero screen and zero
+   participant calls.
+2. **Screen.** 150 unprofiled calls. The unprofiled arm is constructed by
+   building the prompt from a placeholder profile and stripping the block
+   entirely, so no placeholder value reaches the model. Any task at modal
+   share 1.00 writes a `screen_stop` result with zero participant calls, and
+   replacement requires a new linked designation rather than an in-place retry.
+3. **Participants.** 720 profiled decisions, shuffled within each agent's block.
+
+Inherited safety machinery is unchanged: write-once records, a strict parser
+that rejects unknown labels, duplicate JSON keys and extra fields, per-call cost
+reservation with replay verification, source-hash freezing, and a guard that
+refuses to dispatch anything not in the frozen manifest. Two additional guards
+are specific to this study: a leakage gate that refuses to build a batch whose
+participant text contains a forbidden term or whose counterbalance is broken,
+and a check that the task content hash still matches the release at collection
+time.
+
+Offline verification in `tests/test_phase3_pd_gradient_collector.py` (40 tests)
+covers the parser, both stage gates, the unprofiled prompt construction, and the
+analysis. The analysis was checked against synthetic data in both directions: it
+recovers a planted Class P gradient (contrast +0.36) and reports no effect when
+none is present (contrast -0.06). Together with the 35 design tests and the
+21 reanalysis tests, 96 offline checks pass.
+
 ## 4. Estimands and analysis, fixed in advance
 
 **Primary estimand.** Per task, the point-biserial correlation between the PD
@@ -244,9 +277,9 @@ resets a counter.
 3. One accepted independent AI review of the task set, confirming each task
    instantiates its assigned class and that no task leaks its predicted answer,
    its class, the parameter names, or any benchmark identity.
-4. Offline tests passing: mocked full collection, zero-call replay, budget and
-   size guards, source-hash guard, screen-rejection path, and the two-round
-   replacement limit.
+4. Offline tests passing: parser, both stage gates, unprofiled prompt
+   construction, analysis in both directions, budget and size guards, and the
+   source-hash guard. 96 checks currently pass.
 5. Exact frozen manifest and cost bound.
 
 A rejected review or a failed offline test stops this designation. No rewritten

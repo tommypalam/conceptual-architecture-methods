@@ -27,6 +27,7 @@ Phase 2 records locally without API calls; `--verify-all` checks all 300 groups.
 | Phase 5 within-arm reanalysis | [Offline reanalysis, zero API calls](phase5_reanalysis.py) |
 | PD gradient power simulation | [Sizing and calibration, zero API calls](phase3_pd_gradient_power.py) |
 | PD gradient task set | [Six tasks, counterbalanced, leakage-audited](phase3_pd_gradient_tasks.py) |
+| PD gradient collector | [Three-stage collector, DRAFT and unauthorised](phase3_pd_gradient.py) |
 | Basic simulation CLI | [Run](run_engine.py), [score](score_engine.py) |
 | Configuration generation | [Build configuration](build_config.py) |
 | Final all-ten assessment | [Reproduce the assessment](report_all_ten_final.py) |
