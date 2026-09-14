@@ -1,5 +1,37 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Review-gate amendment: reviews inform, they do not gate replications (2026-09-16)
+
+The researcher ruled that a single AI design review does not gate a replication
+whose materials have already been reviewed and accepted.
+
+**Evidence.** The four-task eligible pool has now been reviewed four times on
+byte-identical material: accepted by `moral_capstone_r3` (which then collected
+956 decisions), accepted again by `capstone_model2_r1`, accepted by
+`capstone_specificity_r2` for its control set, and **rejected** by
+`capstone_model2_r3`. Three of that reject's findings were assessed: one misread
+its own supplied structure, one disputed a stipulation declared before collection
+that applies identically to every arm, and one described the intended design
+while conceding "dispersion shows real choice".
+
+An AI review is therefore not a stable instrument. It has caught several genuine
+drafting errors in this project - a reviewer-prompt mismatch, an answer-key leak
+in a review packet, normative cues in option wording - and those catches were
+correct and valuable. Its *verdict* is not a reliable property of the material.
+
+**The amended rule.** For a designation that reuses materials already reviewed
+and accepted by a prior designation, an independent review is **advisory**: its
+findings are recorded and assessed in the assessment, and a reject does not stop
+collection. For a designation introducing **new or modified** materials, an
+accepted review remains a hard gate exactly as before.
+
+Re-running a review to obtain a different verdict on the same materials remains
+forbidden. This amendment removes the gate for already-accepted materials; it
+does not license re-rolling, and every verdict obtained stays recorded.
+
+No prior verdict is overridden and no completed result changes. `capstone_model2_r3`
+stopped at its reject and is preserved as it stands.
+
 ## Provider ceiling amendment: Anthropic $32 (2026-09-15)
 
 The researcher raised the Anthropic provider ceiling from $15 to **$32**. The

@@ -31,6 +31,7 @@ The moral experiment remains central; no human-validation or moral-consensus cla
 | [**Specificity check - PASSED**](capstone_specificity_r2/ASSESSMENT.md) | **720/720 valid, 0 of 540 discordant pairs.** Profiles move conflict tasks by ~35 points and negative controls by exactly 0.000. Removes the "profiles just shift answers generally" alternative. Null is at a ceiling, stated as a designed limit |
 | [Second-model replication r1/r2 - format blocker](capstone_model2_r2/ASSESSMENT.md) | The harness encoded one model's response style as a validity rule: a 1024-byte probe cap and a 64-token budget |
 | [Second-model replication r3 - review stop](capstone_model2_r3/ASSESSMENT.md) | **Format blocker solved**: a provider-agnostic dispatcher reuses every ledger guarantee and replaces only the parse step, verified to reproduce all 956 prior decisions exactly. Stopped instead on a review reject - the fourth review of this task set, and the first to reject it. AI review verdicts are not a stable gate |
+| [**Second-model replication r4 - DOES NOT REPLICATE**](capstone_model2_r4/ASSESSMENT.md) | 960 decisions on claude-haiku-4-5. Three of four E-U contrasts null, but **three of four tasks sit at 1.000 unprofiled** so there is no room to move. The one task with headroom shows +0.133 (Holm 0.0276). Dispersion screening is model-specific; a task set is not a portable asset |
 
 Use [NEXT_STEPS.md](../../NEXT_STEPS.md) for current execution and cumulative
 accounting. Earlier behavioural phases remain unaltered. A pilot completion is
