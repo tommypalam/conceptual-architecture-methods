@@ -6,6 +6,50 @@ to `main`, preserving its previous tip as `backup-1` and retaining `backup`.
 See the [publication record](docs/publication_20260913.md) for scope, branch targets
 and verification. Continue future implementation on a development branch.
 
+## Phase 4 capstone complete: profiles change moral choices (15 September)
+
+[moral_capstone_r1](experiments/phase4_coding/moral_capstone_r1/ASSESSMENT.md) is
+the project's **first completed moral experiment**. Accepted independent review,
+then 480/480 valid decisions with zero invalid, across four arms on the two tasks
+that cleared both prespecified gates.
+
+**Primary outcome, net-score good rate:**
+
+| Task | E | V | U | G |
+|---|---:|---:|---:|---:|
+| `witness_cost` | 0.750 | 0.900 | 0.233 | 0.417 |
+| `safety_hold` | 0.750 | 0.767 | 0.717 | 0.533 |
+
+`witness_cost` E-U = **+0.517**, paired permutation p=0.0001, **Holm p=0.0002**.
+V-U = +0.667. `safety_hold` E-U = +0.033, p=0.82 - no effect.
+
+The shift is directional per agent: 34 agents moved from the deceptive option to
+the accurate one, 3 moved the other way. Order is not the driver (first-listed
+option chosen 41.7%).
+
+**What changed is which standard was sacrificed**, not how many. Profiled arms
+deceive far less (V 0.167, E 0.250) and accept more harm (0.950, 0.875);
+unprofiled and guidance-only deceive more (both 0.525) and avoid harm more. A
+conflicting task set is built to detect exactly this, and it is more specific
+than a global better-or-worse claim.
+
+**Explicit ethical guidance underperformed structured profiles.** The G arm was
+told directly to avoid harm, deception, coercion and unfairness; it scored 0.417
+against 0.750 (E) and 0.900 (V) on witness_cost, and was the only arm to move
+against the good rate on safety_hold.
+
+**Task-dependence is the other finding.** Both tasks passed identical gates; one
+moved, one did not. Clearing the gates makes an effect detectable, not inevitable.
+
+Labels are deterministic classifications under stipulated standards, computed
+from stipulated transitions and never from agent text. **No moral truth, no human
+validation, no AI rater, no claim that encoded agents are morally better.** Two
+stylised tasks, 60 agents, one model. Individual decisions only; no group or
+institutional evaluation.
+
+Accounting: Claude $7.139674300/$15, OpenAI $1.783980000/$30, package
+$31.829727325/$100. No collector is running and no paid batch is queued.
+
 ## Phase 4: first non-saturated moral task set (15 September)
 
 [moral_conflict_screen_r2](experiments/phase4_coding/moral_conflict_screen_r2/ASSESSMENT.md)
