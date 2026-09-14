@@ -24,6 +24,19 @@ STATIC_FILES = {"/" + p.relative_to(UI).as_posix(): p for p in UI.rglob("*")
                 if p.is_file() and not p.is_symlink() and p.suffix in {".html", ".js", ".css", ".glb", ".json", ".txt", ".ttf"}}
 STATIC_FILES["/"] = UI / "index.html"
 STATIC_FILES["/lab"] = UI / "lab.html"
+STATIC_FILES["/explore"] = UI / "explore.html"
+for route, source in {
+    "capstone": "experiments/phase4_coding/moral_capstone_r1/ASSESSMENT.md",
+    "phase2": "experiments/phase2_confirmation_20260913/ASSESSMENT.md",
+    "representation": "experiments/phase3_benchmarks/representation_diagnostic_r1/ASSESSMENT.md",
+    "phase3": "experiments/phase3_benchmarks/PHASE3_CLOSURE_2026-09-14.md",
+    "replication": "experiments/phase4_coding/moral_capstone_r3/ASSESSMENT.md",
+    "specificity": "experiments/phase4_coding/capstone_specificity_r2/ASSESSMENT.md",
+    "model2": "experiments/phase4_coding/capstone_model2_r4/ASSESSMENT.md",
+    "magnitude": "experiments/phase4_coding/magnitude_sweep_r1/ASSESSMENT.md",
+    "wording": "experiments/phase4_coding/closeout_r1/ASSESSMENT.md",
+}.items():
+    STATIC_FILES["/sources/" + route] = ROOT / source
 
 
 def digest(value):
@@ -153,7 +166,7 @@ class Handler(BaseHTTPRequestHandler):
                 path = STATIC_FILES[route]
                 payload = path.read_bytes()
                 mime = {".html": "text/html", ".js": "text/javascript", ".css": "text/css",
-                        ".glb": "model/gltf-binary", ".json": "application/json", ".txt": "text/plain", ".ttf": "font/ttf"}[path.suffix]
+                        ".glb": "model/gltf-binary", ".json": "application/json", ".txt": "text/plain", ".md": "text/plain; charset=utf-8", ".ttf": "font/ttf"}[path.suffix]
             else:
                 self.send_error(404)
                 return
@@ -162,7 +175,8 @@ class Handler(BaseHTTPRequestHandler):
             self.send_header("Content-Length", str(len(payload)))
             self.send_header("Cache-Control", "no-store")
             self.send_header("X-Content-Type-Options", "nosniff")
-            self.send_header("Content-Security-Policy", "default-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self'; frame-ancestors 'none'")
+            ancestors = "'self'" if route == "/lab" else "'none'"
+            self.send_header("Content-Security-Policy", "default-src 'self'; style-src 'self' 'unsafe-inline'; connect-src 'self'; frame-ancestors " + ancestors)
             self.end_headers()
             self.wfile.write(payload)
         except KeyError:

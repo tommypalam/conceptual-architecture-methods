@@ -258,7 +258,7 @@ def analyze(rows, n_agents):
     per task, with the E-U difference. Labels come from the stipulated
     transition, never from agent text.
     """
-    from phase4_control_pool import primary_outcome
+    from phase4_eligible_pool import primary_outcome
 
     rng = random.Random(SEEDS["analysis"])
     scored = []
