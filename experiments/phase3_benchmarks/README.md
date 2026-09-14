@@ -12,6 +12,7 @@ behind it is also a substantive result in its own right — see the
 | [E/U context diagnostic](context_diagnostic_r2/ASSESSMENT.md) | 576 decisions; +50-point profile-package difference at offer 20 |
 | [E/V representation diagnostic](representation_diagnostic_r1/ASSESSMENT.md) | 576 decisions; neither presentation effect nor equivalence established |
 | [Transfer pilot](transfer_pilot_r1/ASSESSMENT.md) | 448/448 valid; saturated, one side of the contrast flat |
+| [PD gradient test - DRAFT, not authorised](pd_gradient_r1/PROTOCOL.md) | Prospective test of the PD dose-response on fresh process/outcome tasks, with an aligned-task control class and a mandatory dispersion pre-screen. No calls made |
 
 The transfer pilot's saturation and three other nulls share one cause; see the
 [cross-phase saturation diagnosis](../phase5_analysis/reanalysis_20260914/SATURATION_DIAGNOSIS.md)

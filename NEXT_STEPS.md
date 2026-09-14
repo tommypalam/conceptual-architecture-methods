@@ -6,6 +6,39 @@ to `main`, preserving its previous tip as `backup-1` and retaining `backup`.
 See the [publication record](docs/publication_20260913.md) for scope, branch targets
 and verification. Continue future implementation on a development branch.
 
+## Proposed next study: prospective PD gradient test (15 September)
+
+**DRAFT, not authorised, no calls made.** The
+[pd_gradient_r1 protocol](experiments/phase3_benchmarks/pd_gradient_r1/PROTOCOL.md)
+converts the post-hoc PD finding into a prospective test. Six fresh tasks in two
+classes: Class P where the process-respecting and outcome-maximising actions
+diverge (PD gradient predicted), Class N where they coincide (no gradient
+predicted). Class N is the discriminating control that separates a
+process/outcome mechanism from a general dissent dial; it must not be dropped.
+
+A mandatory U-arm dispersion pre-screen (25 calls per task, reject at modal
+share 1.00, at most two replacement rounds) implements the saturation
+diagnosis before any profiled collection. Screening is on baseline dispersion
+only, never on outcomes.
+
+Design: 120 profiles per task, 720 participant decisions, power 0.932 against
+the *weakest* cell observed in the reanalysis; flat-task false-positive rate
+0.040. PD's maximum correlation with any other coordinate in R is 0.200, so the
+effect is separable by multivariate control. Reproduce the sizing with
+`py -3.11 -B code/phase3_pd_gradient_power.py` (seed 20260915, zero API calls).
+
+Projected cost $0.637132 for 871 calls, reservation $0.891985 with headroom,
+based on the observed transfer_pilot_r1 rate of $0.00067486 per decision.
+Remaining allowances: Claude $7.860326/$15, OpenAI $28.649421/$30, package
+$68.603673/$100. Budgets do not reset with a new designation.
+
+Three prespecified failure conditions are recorded in the protocol, any of which
+is a publishable outcome. The sign of the result is not a success gate.
+
+Gates before any paid call: researcher authorisation; tasks authored, classed
+and hashed; one accepted independent review; offline tests passing; frozen
+manifest and cost bound. **Awaiting researcher authorisation.**
+
 ## Latest completed step: offline reanalysis and gap repair (14 September)
 
 No API calls, no budget change, no frozen record modified. Cumulative accounting
