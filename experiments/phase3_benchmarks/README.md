@@ -1,4 +1,10 @@
-# Phase 3: benchmarks and diagnostics — open
+# Phase 3: closed for a scoped objective
+
+**[Closure record, 14 September 2026](PHASE3_CLOSURE_2026-09-14.md).** Phase 3 is
+closed for a stated limited objective: it characterised the boundaries of the
+measurement approach rather than delivering a benchmark pass. The original
+five-benchmark N200 study is not released, Phase 3B human comparison was never
+attempted, and neither is retrospectively passed.
 
 Four studies are complete; the formal benchmark battery is not. Recognition
 screening is finished and all five decanonised alternatives were rejected as
@@ -16,6 +22,8 @@ behind it is also a substantive result in its own right — see the
 | [PD gradient r2 - frozen, never dispatched](pd_gradient_r2/STATUS.md) | Re-designated after a post-freeze source correction; $0 |
 | [PD gradient r3 - review stop](pd_gradient_r3/ASSESSMENT.md) | Same design as r2. Review returned `reject` on a real class-definition defect; 1 call, $0.001966800, zero participants |
 | [PD gradient r4 - review stop, sequence closed](pd_gradient_r4/ASSESSMENT.md) | Trade-off restated as stipulated quantities. Review returned `reject`; the accepted finding is structural and closes the sequence. 1 call, $0.002087250, zero participants |
+| [PD endpoint r1 - review stop](pd_endpoint_r1/ASSESSMENT.md) | Manipulation moved out of the task text. Review returned `reject` on option lawfulness and a packet drafting error; 1 call, $0.001676400 |
+| [PD endpoint r2 - ACCEPTED review, saturated screen](pd_endpoint_r2/ASSESSMENT.md) | **First PD designation to pass review and collect data.** 150 unprofiled decisions; all six tasks at modal share 1.00, order irrelevant (51.3%). Screen refused the participant stage; $0.058536225 |
 
 The transfer pilot's saturation and three other nulls share one cause; see the
 [cross-phase saturation diagnosis](../phase5_analysis/reanalysis_20260914/SATURATION_DIAGNOSIS.md)

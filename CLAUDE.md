@@ -1,5 +1,43 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Phase 3 closed for a scoped objective (2026-09-14)
+
+Phase 3 is closed for a stated limited objective, in the manner of the accepted
+Phase 1.5 closure. It characterised the boundaries of the measurement approach
+rather than delivering a benchmark pass. The original five-benchmark N200 study
+is not released; Phase 3B human behavioural comparison was never attempted and is
+deferred as infeasible under the no-budget instruction. Neither is
+retrospectively passed. See experiments/phase3_benchmarks/PHASE3_CLOSURE_2026-09-14.md.
+
+Established: benchmark familiarity cannot be removed by domain substitution
+(500 probes, 500/500 cross-provider agreement, 50/50 recognition in all ten
+cells); profile packages shift behaviour while presentation format does not; and
+deterministic unprofiled baselines, not effect size, are the binding constraint
+on detecting normative parameterisation in this harness.
+
+The decisive new evidence is pd_endpoint_r2, the first PD designation to pass its
+review gate and collect data. Review accepted with zero blocking issues; 150
+unprofiled decisions on six fresh dilemmas written without quantities,
+comparisons or any statement of which option is preferable. All six returned
+modal share 1.00, 25/25 identical. Presentation order was irrelevant (51.3%
+first-shown, 48-52% per task), and four tasks resolved to the procedure-respecting
+option while two resolved to departing, so it is neither position bias nor blanket
+compliance. The screen refused the participant stage.
+
+Ambiguity as judged by an independent reviewer does not produce dispersion in the
+harness. Five designs failed to yield a testable process/outcome manipulation and
+the obstacle is not wording. The PD gradient remains untested prospectively; the
+Phase 5 reanalysis stands as recorded, post-hoc on Phase 2 data.
+
+Carried into Phase 4: screen candidate tasks for dispersion BEFORE building a
+study, and select moral tasks from those that actually vary. Screening is on
+baseline dispersion only, never on outcomes. Phase 4B remains the central moral
+experiment with the good/bad question unchanged.
+
+Accounting: Claude $7.139674300/$15, OpenAI $1.443713700/$30, package
+$31.489461025/$100. No ethical understanding, human resemblance or moral quality
+is established by this closure.
+
 ## Offline reanalysis and located encoding effect (2026-09-14)
 
 No API calls, no budget change, no frozen record altered; accounting unchanged.

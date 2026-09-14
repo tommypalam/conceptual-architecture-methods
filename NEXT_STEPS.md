@@ -6,6 +6,45 @@ to `main`, preserving its previous tip as `backup-1` and retaining `backup`.
 See the [publication record](docs/publication_20260913.md) for scope, branch targets
 and verification. Continue future implementation on a development branch.
 
+## Phase 3 closed for a scoped objective (14 September)
+
+See the [closure record](experiments/phase3_benchmarks/PHASE3_CLOSURE_2026-09-14.md).
+Phase 3 characterised the boundaries of the measurement approach rather than
+delivering a benchmark pass. The original five-benchmark N200 study is not
+released; Phase 3B human comparison was never attempted and is deferred as
+infeasible. Neither is retrospectively passed.
+
+**The decisive new evidence is [pd_endpoint_r2](experiments/phase3_benchmarks/pd_endpoint_r2/ASSESSMENT.md)** -
+the first PD designation to pass its review gate and collect data. An
+independent review accepted the design with zero blocking issues, and 150
+unprofiled decisions were collected on six fresh administrative dilemmas written
+without quantities, comparisons or any statement of which option is preferable.
+
+All six tasks returned **modal share 1.00, 25/25 identical decisions**.
+Presentation order was irrelevant (first-shown option chosen 51.3% of the time,
+48-52% per task), so the unanimity is content-driven. Four tasks resolved to the
+procedure-respecting option and two to departing, so it is not blanket
+compliance. The screen refused the participant stage; 720 paired decisions were
+not collected because they could not have discriminated anything.
+
+This prospectively confirms the saturation mechanism on fresh material and
+sharpens it: **ambiguity as judged by an independent reviewer does not produce
+dispersion in the harness.** Five designs failed to produce a testable
+process/outcome manipulation, and the obstacle is not wording - the harness
+returns a determinate answer regardless of how carefully the trade-off is
+concealed.
+
+Accounting: Claude $7.139674300/$15, OpenAI $1.443713700/$30, package
+$31.489461025/$100. The whole PD sequence spent $0.093134250 across six
+designations against $16.829628 of reservations. No collector is running and no
+paid batch is queued.
+
+Next: Phase 4B remains the central moral experiment with the good/bad question
+unchanged. Two requirements carry over - screen candidate tasks for dispersion
+*before* building a study, and select moral tasks from those that actually vary.
+A set assembled for theoretical interest and validated only by review will
+reproduce consequence_rule_pilot_r1's 96/96 result at larger N.
+
 ## PD gradient sequence closed at review (14 September)
 
 Four designations, three paid reviews, **zero screen calls and zero participant

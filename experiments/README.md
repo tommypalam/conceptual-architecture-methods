@@ -5,8 +5,8 @@ evidence stops. Status lines here are current; dated text *inside* frozen study
 folders is historical evidence, not current instruction.
 
 Current position: Phase 0 closed, Phase 1 passed operationally, Phase 1.5 closed
-for the accepted limited objective, Phase 2 complete, **Phase 3 open** with four
-completed diagnostics, Phase 4 at pilot stage, Phase 5 reanalysis begun. The
+for the accepted limited objective, Phase 2 complete, **Phase 3 closed for a scoped
+objective**, Phase 4 at pilot stage, Phase 5 reanalysis begun. The
 original full encoding battery and formal benchmark battery remain unmet.
 
 ## Reading order
@@ -23,7 +23,7 @@ original full encoding battery and formal benchmark battery remain unmet.
 | 8 | 2 confirmation | [Fresh-sample assessment](phase2_confirmation_20260913/ASSESSMENT.md) | 4,800 decisions, 300 group runs; six individual contrasts pass Holm |
 | 9 | 5 reanalysis | [Within-arm reanalysis](phase5_analysis/reanalysis_20260914/ASSESSMENT.md) | **Where the Phase 2 effect actually lives**: PD dose-response, deterministic baselines |
 
-## Phase 3 — open; four completed diagnostics
+## Phase 3 — closed for a scoped objective
 
 See the [Phase 3 index](phase3_benchmarks/README.md) for the full set.
 
