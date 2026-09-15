@@ -1,0 +1,763 @@
+{
+  "arm_rates": {
+    "CS+": {
+      "good_rate": 0.6,
+      "n": 175
+    },
+    "CS-": {
+      "good_rate": 0.6171,
+      "n": 175
+    },
+    "ID+": {
+      "good_rate": 0.6686,
+      "n": 175
+    },
+    "ID-": {
+      "good_rate": 0.5257,
+      "n": 175
+    },
+    "LL+": {
+      "good_rate": 0.56,
+      "n": 175
+    },
+    "LL-": {
+      "good_rate": 0.6914,
+      "n": 175
+    },
+    "MS+": {
+      "good_rate": 0.5714,
+      "n": 175
+    },
+    "MS-": {
+      "good_rate": 0.64,
+      "n": 175
+    },
+    "MoR+": {
+      "good_rate": 0.5486,
+      "n": 175
+    },
+    "MoR-": {
+      "good_rate": 0.6457,
+      "n": 175
+    },
+    "RE+": {
+      "good_rate": 0.64,
+      "n": 175
+    },
+    "RE-": {
+      "good_rate": 0.5943,
+      "n": 175
+    },
+    "RT+": {
+      "good_rate": 0.5943,
+      "n": 175
+    },
+    "RT-": {
+      "good_rate": 0.6171,
+      "n": 175
+    },
+    "TfA+": {
+      "good_rate": 0.5486,
+      "n": 175
+    },
+    "TfA-": {
+      "good_rate": 0.6514,
+      "n": 175
+    }
+  },
+  "consistency": {
+    "CS": {
+      "items": 7,
+      "meets_requirement": false,
+      "negative": 3,
+      "positive": 3
+    },
+    "ID": {
+      "items": 7,
+      "meets_requirement": true,
+      "negative": 1,
+      "positive": 6
+    },
+    "LL": {
+      "items": 7,
+      "meets_requirement": true,
+      "negative": 6,
+      "positive": 0
+    },
+    "MS": {
+      "items": 7,
+      "meets_requirement": true,
+      "negative": 5,
+      "positive": 2
+    },
+    "MoR": {
+      "items": 7,
+      "meets_requirement": true,
+      "negative": 6,
+      "positive": 1
+    },
+    "RE": {
+      "items": 7,
+      "meets_requirement": true,
+      "negative": 2,
+      "positive": 4
+    },
+    "RT": {
+      "items": 7,
+      "meets_requirement": false,
+      "negative": 3,
+      "positive": 3
+    },
+    "TfA": {
+      "items": 7,
+      "meets_requirement": true,
+      "negative": 5,
+      "positive": 2
+    }
+  },
+  "contrasts": {
+    "CS": {
+      "coordinate": "CS",
+      "discordant": 39,
+      "effect": -0.0171,
+      "good_more_under_high": 18,
+      "good_more_under_low": 21,
+      "p": 0.74925862,
+      "pairs": 175
+    },
+    "ID": {
+      "coordinate": "ID",
+      "discordant": 39,
+      "effect": 0.1429,
+      "good_more_under_high": 32,
+      "good_more_under_low": 7,
+      "p": 7.025e-05,
+      "pairs": 175
+    },
+    "LL": {
+      "coordinate": "LL",
+      "discordant": 35,
+      "effect": -0.1314,
+      "good_more_under_high": 6,
+      "good_more_under_low": 29,
+      "p": 0.00011684,
+      "pairs": 175
+    },
+    "MS": {
+      "coordinate": "MS",
+      "discordant": 38,
+      "effect": -0.0686,
+      "good_more_under_high": 13,
+      "good_more_under_low": 25,
+      "p": 0.07295139,
+      "pairs": 175
+    },
+    "MoR": {
+      "coordinate": "MoR",
+      "discordant": 41,
+      "effect": -0.0971,
+      "good_more_under_high": 12,
+      "good_more_under_low": 29,
+      "p": 0.01150779,
+      "pairs": 175
+    },
+    "RE": {
+      "coordinate": "RE",
+      "discordant": 46,
+      "effect": 0.0457,
+      "good_more_under_high": 27,
+      "good_more_under_low": 19,
+      "p": 0.30199561,
+      "pairs": 175
+    },
+    "RT": {
+      "coordinate": "RT",
+      "discordant": 28,
+      "effect": -0.0229,
+      "good_more_under_high": 12,
+      "good_more_under_low": 16,
+      "p": 0.57158819,
+      "pairs": 175
+    },
+    "TfA": {
+      "coordinate": "TfA",
+      "discordant": 56,
+      "effect": -0.1029,
+      "good_more_under_high": 19,
+      "good_more_under_low": 37,
+      "p": 0.02224139,
+      "pairs": 175
+    }
+  },
+  "correction_note": "coordinate_sweep_r2 dropped the screen arm, so its collect() derived an empty usable-task list and every contrast returned None. The data are intact; this rescore supplies the designation's own declared item set. No API call was made and no frozen source was edited.",
+  "decision_rule": "pooled Holm p < 0.05 over all eight contrasts as one family, AND the effect in the same direction in at least 4 of 7 items",
+  "holm": {
+    "CS": 1.0,
+    "ID": 0.000562,
+    "LL": 0.00081788,
+    "MS": 0.29180556,
+    "MoR": 0.06904674,
+    "RE": 0.90598683,
+    "RT": 1.0,
+    "TfA": 0.11120695
+  },
+  "holm_family_size": 8,
+  "per_item": {
+    "CS": {
+      "desk_booking": {
+        "coordinate": "CS",
+        "discordant": 5,
+        "effect": 0.12,
+        "good_more_under_high": 4,
+        "good_more_under_low": 1,
+        "p": 0.375,
+        "pairs": 25
+      },
+      "meeting_room": {
+        "coordinate": "CS",
+        "discordant": 6,
+        "effect": -0.08,
+        "good_more_under_high": 2,
+        "good_more_under_low": 4,
+        "p": 0.6875,
+        "pairs": 25
+      },
+      "on_call": {
+        "coordinate": "CS",
+        "discordant": 5,
+        "effect": 0.04,
+        "good_more_under_high": 3,
+        "good_more_under_low": 2,
+        "p": 1.0,
+        "pairs": 25
+      },
+      "rest_break": {
+        "coordinate": "CS",
+        "discordant": 11,
+        "effect": -0.2,
+        "good_more_under_high": 3,
+        "good_more_under_low": 8,
+        "p": 0.2265625,
+        "pairs": 25
+      },
+      "storage_unit": {
+        "coordinate": "CS",
+        "discordant": 7,
+        "effect": 0.04,
+        "good_more_under_high": 4,
+        "good_more_under_low": 3,
+        "p": 1.0,
+        "pairs": 25
+      },
+      "tool_library": {
+        "coordinate": "CS",
+        "discordant": 3,
+        "effect": -0.04,
+        "good_more_under_high": 1,
+        "good_more_under_low": 2,
+        "p": 1.0,
+        "pairs": 25
+      },
+      "weekend_rota": {
+        "coordinate": "CS",
+        "discordant": 2,
+        "effect": 0.0,
+        "good_more_under_high": 1,
+        "good_more_under_low": 1,
+        "p": 1.0,
+        "pairs": 25
+      }
+    },
+    "ID": {
+      "desk_booking": {
+        "coordinate": "ID",
+        "discordant": 5,
+        "effect": -0.04,
+        "good_more_under_high": 2,
+        "good_more_under_low": 3,
+        "p": 1.0,
+        "pairs": 25
+      },
+      "meeting_room": {
+        "coordinate": "ID",
+        "discordant": 4,
+        "effect": 0.16,
+        "good_more_under_high": 4,
+        "good_more_under_low": 0,
+        "p": 0.125,
+        "pairs": 25
+      },
+      "on_call": {
+        "coordinate": "ID",
+        "discordant": 7,
+        "effect": 0.28,
+        "good_more_under_high": 7,
+        "good_more_under_low": 0,
+        "p": 0.015625,
+        "pairs": 25
+      },
+      "rest_break": {
+        "coordinate": "ID",
+        "discordant": 5,
+        "effect": 0.12,
+        "good_more_under_high": 4,
+        "good_more_under_low": 1,
+        "p": 0.375,
+        "pairs": 25
+      },
+      "storage_unit": {
+        "coordinate": "ID",
+        "discordant": 9,
+        "effect": 0.28,
+        "good_more_under_high": 8,
+        "good_more_under_low": 1,
+        "p": 0.0390625,
+        "pairs": 25
+      },
+      "tool_library": {
+        "coordinate": "ID",
+        "discordant": 5,
+        "effect": 0.12,
+        "good_more_under_high": 4,
+        "good_more_under_low": 1,
+        "p": 0.375,
+        "pairs": 25
+      },
+      "weekend_rota": {
+        "coordinate": "ID",
+        "discordant": 4,
+        "effect": 0.08,
+        "good_more_under_high": 3,
+        "good_more_under_low": 1,
+        "p": 0.625,
+        "pairs": 25
+      }
+    },
+    "LL": {
+      "desk_booking": {
+        "coordinate": "LL",
+        "discordant": 6,
+        "effect": -0.16,
+        "good_more_under_high": 1,
+        "good_more_under_low": 5,
+        "p": 0.21875,
+        "pairs": 25
+      },
+      "meeting_room": {
+        "coordinate": "LL",
+        "discordant": 4,
+        "effect": -0.16,
+        "good_more_under_high": 0,
+        "good_more_under_low": 4,
+        "p": 0.125,
+        "pairs": 25
+      },
+      "on_call": {
+        "coordinate": "LL",
+        "discordant": 7,
+        "effect": -0.12,
+        "good_more_under_high": 2,
+        "good_more_under_low": 5,
+        "p": 0.453125,
+        "pairs": 25
+      },
+      "rest_break": {
+        "coordinate": "LL",
+        "discordant": 6,
+        "effect": -0.16,
+        "good_more_under_high": 1,
+        "good_more_under_low": 5,
+        "p": 0.21875,
+        "pairs": 25
+      },
+      "storage_unit": {
+        "coordinate": "LL",
+        "discordant": 8,
+        "effect": -0.24,
+        "good_more_under_high": 1,
+        "good_more_under_low": 7,
+        "p": 0.0703125,
+        "pairs": 25
+      },
+      "tool_library": {
+        "coordinate": "LL",
+        "discordant": 2,
+        "effect": 0.0,
+        "good_more_under_high": 1,
+        "good_more_under_low": 1,
+        "p": 1.0,
+        "pairs": 25
+      },
+      "weekend_rota": {
+        "coordinate": "LL",
+        "discordant": 2,
+        "effect": -0.08,
+        "good_more_under_high": 0,
+        "good_more_under_low": 2,
+        "p": 0.5,
+        "pairs": 25
+      }
+    },
+    "MS": {
+      "desk_booking": {
+        "coordinate": "MS",
+        "discordant": 5,
+        "effect": -0.12,
+        "good_more_under_high": 1,
+        "good_more_under_low": 4,
+        "p": 0.375,
+        "pairs": 25
+      },
+      "meeting_room": {
+        "coordinate": "MS",
+        "discordant": 4,
+        "effect": -0.16,
+        "good_more_under_high": 0,
+        "good_more_under_low": 4,
+        "p": 0.125,
+        "pairs": 25
+      },
+      "on_call": {
+        "coordinate": "MS",
+        "discordant": 8,
+        "effect": -0.08,
+        "good_more_under_high": 3,
+        "good_more_under_low": 5,
+        "p": 0.7265625,
+        "pairs": 25
+      },
+      "rest_break": {
+        "coordinate": "MS",
+        "discordant": 5,
+        "effect": -0.04,
+        "good_more_under_high": 2,
+        "good_more_under_low": 3,
+        "p": 1.0,
+        "pairs": 25
+      },
+      "storage_unit": {
+        "coordinate": "MS",
+        "discordant": 9,
+        "effect": -0.2,
+        "good_more_under_high": 2,
+        "good_more_under_low": 7,
+        "p": 0.1796875,
+        "pairs": 25
+      },
+      "tool_library": {
+        "coordinate": "MS",
+        "discordant": 4,
+        "effect": 0.08,
+        "good_more_under_high": 3,
+        "good_more_under_low": 1,
+        "p": 0.625,
+        "pairs": 25
+      },
+      "weekend_rota": {
+        "coordinate": "MS",
+        "discordant": 3,
+        "effect": 0.04,
+        "good_more_under_high": 2,
+        "good_more_under_low": 1,
+        "p": 1.0,
+        "pairs": 25
+      }
+    },
+    "MoR": {
+      "desk_booking": {
+        "coordinate": "MoR",
+        "discordant": 8,
+        "effect": -0.08,
+        "good_more_under_high": 3,
+        "good_more_under_low": 5,
+        "p": 0.7265625,
+        "pairs": 25
+      },
+      "meeting_room": {
+        "coordinate": "MoR",
+        "discordant": 3,
+        "effect": -0.12,
+        "good_more_under_high": 0,
+        "good_more_under_low": 3,
+        "p": 0.25,
+        "pairs": 25
+      },
+      "on_call": {
+        "coordinate": "MoR",
+        "discordant": 6,
+        "effect": 0.08,
+        "good_more_under_high": 4,
+        "good_more_under_low": 2,
+        "p": 0.6875,
+        "pairs": 25
+      },
+      "rest_break": {
+        "coordinate": "MoR",
+        "discordant": 8,
+        "effect": -0.16,
+        "good_more_under_high": 2,
+        "good_more_under_low": 6,
+        "p": 0.2890625,
+        "pairs": 25
+      },
+      "storage_unit": {
+        "coordinate": "MoR",
+        "discordant": 12,
+        "effect": -0.24,
+        "good_more_under_high": 3,
+        "good_more_under_low": 9,
+        "p": 0.14599609,
+        "pairs": 25
+      },
+      "tool_library": {
+        "coordinate": "MoR",
+        "discordant": 2,
+        "effect": -0.08,
+        "good_more_under_high": 0,
+        "good_more_under_low": 2,
+        "p": 0.5,
+        "pairs": 25
+      },
+      "weekend_rota": {
+        "coordinate": "MoR",
+        "discordant": 2,
+        "effect": -0.08,
+        "good_more_under_high": 0,
+        "good_more_under_low": 2,
+        "p": 0.5,
+        "pairs": 25
+      }
+    },
+    "RE": {
+      "desk_booking": {
+        "coordinate": "RE",
+        "discordant": 4,
+        "effect": 0.0,
+        "good_more_under_high": 2,
+        "good_more_under_low": 2,
+        "p": 1.0,
+        "pairs": 25
+      },
+      "meeting_room": {
+        "coordinate": "RE",
+        "discordant": 6,
+        "effect": 0.08,
+        "good_more_under_high": 4,
+        "good_more_under_low": 2,
+        "p": 0.6875,
+        "pairs": 25
+      },
+      "on_call": {
+        "coordinate": "RE",
+        "discordant": 6,
+        "effect": -0.08,
+        "good_more_under_high": 2,
+        "good_more_under_low": 4,
+        "p": 0.6875,
+        "pairs": 25
+      },
+      "rest_break": {
+        "coordinate": "RE",
+        "discordant": 11,
+        "effect": 0.12,
+        "good_more_under_high": 7,
+        "good_more_under_low": 4,
+        "p": 0.54882812,
+        "pairs": 25
+      },
+      "storage_unit": {
+        "coordinate": "RE",
+        "discordant": 11,
+        "effect": 0.28,
+        "good_more_under_high": 9,
+        "good_more_under_low": 2,
+        "p": 0.06542969,
+        "pairs": 25
+      },
+      "tool_library": {
+        "coordinate": "RE",
+        "discordant": 5,
+        "effect": -0.2,
+        "good_more_under_high": 0,
+        "good_more_under_low": 5,
+        "p": 0.0625,
+        "pairs": 25
+      },
+      "weekend_rota": {
+        "coordinate": "RE",
+        "discordant": 3,
+        "effect": 0.12,
+        "good_more_under_high": 3,
+        "good_more_under_low": 0,
+        "p": 0.25,
+        "pairs": 25
+      }
+    },
+    "RT": {
+      "desk_booking": {
+        "coordinate": "RT",
+        "discordant": 5,
+        "effect": 0.04,
+        "good_more_under_high": 3,
+        "good_more_under_low": 2,
+        "p": 1.0,
+        "pairs": 25
+      },
+      "meeting_room": {
+        "coordinate": "RT",
+        "discordant": 3,
+        "effect": 0.12,
+        "good_more_under_high": 3,
+        "good_more_under_low": 0,
+        "p": 0.25,
+        "pairs": 25
+      },
+      "on_call": {
+        "coordinate": "RT",
+        "discordant": 3,
+        "effect": -0.12,
+        "good_more_under_high": 0,
+        "good_more_under_low": 3,
+        "p": 0.25,
+        "pairs": 25
+      },
+      "rest_break": {
+        "coordinate": "RT",
+        "discordant": 5,
+        "effect": -0.2,
+        "good_more_under_high": 0,
+        "good_more_under_low": 5,
+        "p": 0.0625,
+        "pairs": 25
+      },
+      "storage_unit": {
+        "coordinate": "RT",
+        "discordant": 9,
+        "effect": 0.04,
+        "good_more_under_high": 5,
+        "good_more_under_low": 4,
+        "p": 1.0,
+        "pairs": 25
+      },
+      "tool_library": {
+        "coordinate": "RT",
+        "discordant": 2,
+        "effect": 0.0,
+        "good_more_under_high": 1,
+        "good_more_under_low": 1,
+        "p": 1.0,
+        "pairs": 25
+      },
+      "weekend_rota": {
+        "coordinate": "RT",
+        "discordant": 1,
+        "effect": -0.04,
+        "good_more_under_high": 0,
+        "good_more_under_low": 1,
+        "p": 1.0,
+        "pairs": 25
+      }
+    },
+    "TfA": {
+      "desk_booking": {
+        "coordinate": "TfA",
+        "discordant": 9,
+        "effect": 0.36,
+        "good_more_under_high": 9,
+        "good_more_under_low": 0,
+        "p": 0.00390625,
+        "pairs": 25
+      },
+      "meeting_room": {
+        "coordinate": "TfA",
+        "discordant": 6,
+        "effect": 0.24,
+        "good_more_under_high": 6,
+        "good_more_under_low": 0,
+        "p": 0.03125,
+        "pairs": 25
+      },
+      "on_call": {
+        "coordinate": "TfA",
+        "discordant": 11,
+        "effect": -0.36,
+        "good_more_under_high": 1,
+        "good_more_under_low": 10,
+        "p": 0.01171875,
+        "pairs": 25
+      },
+      "rest_break": {
+        "coordinate": "TfA",
+        "discordant": 10,
+        "effect": -0.32,
+        "good_more_under_high": 1,
+        "good_more_under_low": 9,
+        "p": 0.02148438,
+        "pairs": 25
+      },
+      "storage_unit": {
+        "coordinate": "TfA",
+        "discordant": 11,
+        "effect": -0.36,
+        "good_more_under_high": 1,
+        "good_more_under_low": 10,
+        "p": 0.01171875,
+        "pairs": 25
+      },
+      "tool_library": {
+        "coordinate": "TfA",
+        "discordant": 6,
+        "effect": -0.16,
+        "good_more_under_high": 1,
+        "good_more_under_low": 5,
+        "p": 0.21875,
+        "pairs": 25
+      },
+      "weekend_rota": {
+        "coordinate": "TfA",
+        "discordant": 3,
+        "effect": -0.12,
+        "good_more_under_high": 0,
+        "good_more_under_low": 3,
+        "p": 0.25,
+        "pairs": 25
+      }
+    }
+  },
+  "ranked_by_abs_effect": [
+    "ID",
+    "LL",
+    "TfA",
+    "MoR",
+    "MS",
+    "RE",
+    "RT",
+    "CS"
+  ],
+  "reference": {
+    "AW": {
+      "effect": -0.036,
+      "holm": 1.0,
+      "verdict": "inert"
+    },
+    "PD": {
+      "effect": 0.339,
+      "holm": 0.0,
+      "verdict": "load-bearing"
+    }
+  },
+  "rows": 2800,
+  "survivors": [
+    "LL",
+    "ID"
+  ],
+  "tasks": [
+    "desk_booking",
+    "storage_unit",
+    "tool_library",
+    "on_call",
+    "meeting_room",
+    "rest_break",
+    "weekend_rota"
+  ]
+}
