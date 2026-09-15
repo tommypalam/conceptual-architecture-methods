@@ -17,36 +17,57 @@ Moving to another computer? Start with the [desktop handoff](docs/desktop_handof
 
 ## What the evidence shows
 
-**Headline (16 September 2026): a numeric parameter profile changes the
-deterministic good/bad classification. An explicit ethical instruction, on the
-same items against the same baseline, does not.**
+**Headline: a numeric parameter profile changes the deterministic good/bad
+classification on two models from different providers. An explicit ethical
+instruction, on the same items against the same baseline, does not.**
 
-| Arm | Good-rate | n | vs no-profile | p |
-|---|---:|---:|---:|---:|
-| no profile | 0.367 | 150 | — | — |
-| **ethical guidance** | 0.429 | 240 | +0.062 | 0.244 |
-| **numeric profile** | **0.600** | 240 | **+0.233** | **0.000008** |
+| Model | no profile | ethical guidance | **numeric profile** | paired E−G | Holm |
+|---|---:|---:|---:|---:|---:|
+| `claude-haiku-4-5` | 0.367 | 0.429 | **0.600** | +0.171 | 0.000112 |
+| `gpt-5.4-mini` (calibration) | 0.395 | **0.378** | **0.606** | **+0.228** | **≈ 0** |
 
-Paired profile-vs-guidance, same agent and item with byte-identical participant
-text: **+0.171, Holm p = 0.000112**, 4 of 6 items positive, both conditions of a
-decision rule fixed in source before collection. The guidance arm states the
-target behaviour in plain English — weigh everyone's interests, avoid harm,
-deception, coercion and unequal treatment — and does not move the headline.
+The guidance arm states the target behaviour in plain English — weigh everyone's
+interests, avoid harm, deception, coercion and unequal treatment. **On the model
+this project is calibrated on it lands *below* the unprofiled baseline**
+(−0.017, p = 0.712) while ten numbers carrying no ethical vocabulary move the
+headline by +0.21.
+
+Prespecified same-item subgroup, the five items dispersing on both models:
+**+0.255, p < 10⁻⁷**.
 
 Items were screened for dispersion **before any profiled call**, with payoffs
-frozen identical across the whole pool, and cleared six consecutive independent
-review gates with zero blocking issues.
-→ [Phase 4B result](experiments/phase4_coding/phase4b_profiled_r1/ASSESSMENT.md) ·
-[three-model screen](experiments/phase4_coding/phase4b_grand_r1/ASSESSMENT.md) ·
-[publication record](docs/publication_20260916.md)
+frozen identical across the whole pool, under a three-level authoring criterion
+derived from five independent review stops and enforced in code.
+→ [Phase 4B closure](experiments/phase4_coding/PHASE4B_CLOSURE_2026-09-16.md) ·
+[calibration-model result](experiments/phase4_coding/phase4b_gpt_r2/ASSESSMENT.md) ·
+[three-model screen](experiments/phase4_coding/phase4b_grand_r1/ASSESSMENT.md)
+
+**The open question, published standing.** Is the model reading the *parameters*,
+or does any structured numeric block do similar work? The
+[permutation control](experiments/phase4_coding/phase4b_permutation_r2/ASSESSMENT.md)
+sent the same ten numbers per agent **deranged across the ten labels** — identical
+length, identical numerals, only the label-to-value mapping differs.
+
+| Arm | Good-rate | vs no block | p |
+|---|---:|---:|---:|
+| no block | 0.400 | — | — |
+| scrambled labels | 0.475 | +0.075 | 0.122 |
+| correct labels | 0.564 | **+0.164** | **0.00074** |
+
+A scrambled block does not clear baseline; a correctly-labelled one does; the
+difference between them (+0.089) **fails the prespecified rule** at pooled
+Holm 0.084. **The effect appears split between block-presence and
+label-mapping, and that is not yet resolved.**
 
 **Boundaries, stated plainly.** This establishes no moral truth and no moral
 improvement: every label is a deterministic classification under stipulated
 standards, never read from agent text. It does not show the profile is
-*understood* — a shift under a numeric block is consistent with the block acting
-as an elaborate context cue, and separating those needs the configuration
-counterfactual, which is not run. The result is **single-model**; the same items
-behave very differently on two other models. Six items is six situations.
+*understood* — see the open question above. A third model, `claude-sonnet-4-6`,
+is one where the question **cannot be asked with these items** at all: every item
+that disperses there sits within 0.12 of a bound, and that designation was
+[abandoned on a power analysis](experiments/phase4_coding/phase4b_sonnet_r1/ASSESSMENT.md)
+rather than run underpowered. Six to eight items is six to eight situations, and
+no human has validated any of it.
 
 ---
 

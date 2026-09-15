@@ -1,5 +1,43 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Phase 4B CLOSED for its stated question (2026-09-16)
+
+**The central moral experiment is closed.** Parameter profiles change the
+deterministic good/bad classification on two models from different providers, and
+an explicit ethical instruction does not reproduce it. See
+[experiments/phase4_coding/PHASE4B_CLOSURE_2026-09-16.md](experiments/phase4_coding/PHASE4B_CLOSURE_2026-09-16.md).
+
+| Model | U | G | E | paired E-G | Holm |
+|---|---:|---:|---:|---:|---:|
+| `claude-haiku-4-5` | 0.367 | 0.429 | 0.600 | +0.171 | 0.000112 |
+| `gpt-5.4-mini` (calibration) | 0.395 | **0.378** | 0.606 | +0.228 | ~0 |
+
+The G arm carries the target behaviour in plain English and on the calibration
+model lands **below** the unprofiled baseline (-0.017, p=0.712). Prespecified
+same-item subgroup across both models: +0.255, p < 1e-7.
+
+**One question left open and published standing.** The permutation control -
+same ten numbers, deranged across labels - returned E 0.564, P 0.475, U 0.400.
+A scrambled block does not clear baseline (p=0.122); a correctly-labelled one
+does (p=0.00074); the difference between them is +0.089 at pooled Holm 0.084 and
+**fails the prespecified rule**. The effect appears split between block-presence
+and label-mapping. The re-powered rerun was stopped by a review contradicting an
+earlier review of the byte-identical packet, and was not forced through.
+
+**Unplanned methods finding.** AI design review returned opposite verdicts on
+byte-identical material: `permutation_r2` accept with zero blocking issues,
+`permutation_r3` revise blocking two items r2 had explicitly cleared. Seven
+reviews across the item set gave three accepts and four revises. This is a
+tighter demonstration than the evidence behind the 16 September amendment.
+
+**Not closed:** the permutation question, the thesis 5.3 configuration
+counterfactual (never run in Phase 4 - every call used NEUTRAL on all five axes),
+the prospective PD test (untested, not failed), the breadth question, and human
+validation. No moral truth, moral improvement, coordinate-level claim or
+generalisation is established.
+
+Accounting at closure: Claude $19.684017100/$32, OpenAI $5.497067400/$30.
+
 ## Phase 4B has an affirmative result; guidance does not reproduce it (2026-09-16)
 
 **The central moral experiment completed.** `phase4b_profiled_r1`: 631 calls,

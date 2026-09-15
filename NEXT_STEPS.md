@@ -1,13 +1,66 @@
 # Current state and next steps
 
 Updated 2026-09-16. Publication source: `research-transfer-design-20260913`.
-The researcher authorised publishing the Phase 4B result and this session's
-methodological work to `main`, preserving its previous tip as `backup-4` and
-retaining `backup` through `backup-3`. See the
-[publication record](docs/publication_20260916.md) for scope, branch targets and
-verification. Continue future implementation on a development branch.
+**Phase 4B is CLOSED** for its stated question - see the
+[closure record](experiments/phase4_coding/PHASE4B_CLOSURE_2026-09-16.md).
+The 16 September publication to `main` predates the cross-model and permutation
+work; a publication pass folding those in is the next documentation step.
+Continue implementation on a development branch.
 
-## Phase 4B complete: profiles move the good/bad headline, guidance does not (16 September)
+## Phase 4B closed: profiles move the good/bad headline on two models (16 September)
+
+**The central moral experiment is closed for its stated question.** Parameter
+profiles change the deterministic good/bad classification; an explicit ethical
+instruction does not reproduce it.
+
+| Model | U | G | E | paired E-G | Holm |
+|---|---:|---:|---:|---:|---:|
+| `claude-haiku-4-5` | 0.367 | 0.429 | 0.600 | +0.171 | 0.000112 |
+| **`gpt-5.4-mini`** (calibration) | 0.395 | **0.378** | **0.606** | **+0.228** | **~0** |
+
+On the calibration model the guidance arm lands **below** baseline (-0.017,
+p=0.712). Prespecified same-item subgroup across both models: **+0.255,
+p < 1e-7**.
+
+- [Closure record](experiments/phase4_coding/PHASE4B_CLOSURE_2026-09-16.md)
+- [haiku result](experiments/phase4_coding/phase4b_profiled_r1/ASSESSMENT.md)
+- [calibration-model result](experiments/phase4_coding/phase4b_gpt_r2/ASSESSMENT.md)
+- [three-model screen](experiments/phase4_coding/phase4b_grand_r1/ASSESSMENT.md)
+
+### The open question, published standing
+
+The [permutation control](experiments/phase4_coding/phase4b_permutation_r2/ASSESSMENT.md) -
+same ten numbers deranged across labels - gave U 0.400, P 0.475, E 0.564. A
+scrambled block does not clear baseline (p=0.122); a correctly-labelled one does
+(p=0.00074); the difference is +0.089 at pooled Holm 0.084, **failing the
+prespecified rule**. The effect appears split between block-presence and
+label-mapping.
+
+[r3](experiments/phase4_coding/phase4b_permutation_r3/ASSESSMENT.md) re-powered
+it correctly and was stopped by a review contradicting an earlier review of the
+byte-identical packet. It was not forced through.
+
+### Still open
+
+- **The permutation question** - needs ~840 pairs and a review protocol that does
+  not flip on identical materials.
+- **Thesis 5.3 configuration counterfactual** - never run in Phase 4; every call
+  used NEUTRAL on all five axes.
+- **Prospective PD test** - untested, not failed.
+- **Breadth question** - untested across two attempts.
+- **Human validation** - deferred by instruction.
+
+### Next
+
+Phases 5 and 6, then a publication pass folding in the cross-model result, the
+permutation caveat and the review-instability finding. Neither is authorised by
+this closure.
+
+---
+
+## Historical: Phase 4B first result (16 September)
+
+### The original single-model write-up
 
 [phase4b_profiled_r1](experiments/phase4_coding/phase4b_profiled_r1/ASSESSMENT.md)
 is the **central moral experiment**, and the first profiled moral collection on
