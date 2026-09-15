@@ -26,6 +26,8 @@ STATIC_FILES["/"] = UI / "index.html"
 STATIC_FILES["/lab"] = UI / "lab.html"
 STATIC_FILES["/explore"] = UI / "explore.html"
 for route, source in {
+    "phase4b": "experiments/phase4_coding/phase4b_profiled_r1/ASSESSMENT.md",
+    "grand": "experiments/phase4_coding/phase4b_grand_r1/ASSESSMENT.md",
     "capstone": "experiments/phase4_coding/moral_capstone_r1/ASSESSMENT.md",
     "phase2": "experiments/phase2_confirmation_20260913/ASSESSMENT.md",
     "representation": "experiments/phase3_benchmarks/representation_diagnostic_r1/ASSESSMENT.md",

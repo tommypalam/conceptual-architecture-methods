@@ -1,5 +1,22 @@
 # PARIA simulation theatre
 
+## Interactive thesis explorer
+
+Open **http://127.0.0.1:8765/explore** after starting the server below.
+The explorer combines the original Blender rooms with a guided tour, ten
+illustrative profile sliders, two playable historical moral dilemmas, original
+versus replication charts, and the latest Phase 4B pooled and item-level results.
+The findings distinguish stipulated moral classifications from moral truth and
+keep inconclusive and negative results visible. All graphics, fonts and data
+load locally; interactions make no research API calls.
+
+Refresh the checksum-verified evidence export with
+`py -3.11 -B code/build_thesis_explorer.py`. Restart the server after adding files.
+Browser verification: `node tests/check_thesis_explorer.cjs http://127.0.0.1:8765`
+(requires local Playwright Core and Chromium; see the test for executable paths).
+Desktop and mobile screenshots are written under `output/explorer-*.png`.
+Sliders are explanatory only, and visitor choices never become research records.
+
 A local visual replay of the **completed Phase 2 confirmation**, with all 300
 recorded group runs. No new generations, profile changes or API spending.
 
