@@ -1,0 +1,440 @@
+{
+  "arms": {
+    "phase4b_gpt_r2": {
+      "arms": {
+        "E": {
+          "good_rate": 0.6062,
+          "n": 320
+        },
+        "G": {
+          "good_rate": 0.3781,
+          "n": 320
+        },
+        "U": {
+          "good_rate": 0.395,
+          "n": 200
+        }
+      },
+      "model": "gpt-5.4-mini"
+    },
+    "phase4b_permutation_r2": {
+      "arms": {
+        "E": {
+          "good_rate": 0.5643,
+          "n": 280
+        },
+        "P": {
+          "good_rate": 0.475,
+          "n": 280
+        },
+        "U": {
+          "good_rate": 0.4,
+          "n": 175
+        }
+      },
+      "model": "gpt-5.4-mini"
+    },
+    "phase4b_profiled_r1": {
+      "arms": {
+        "E": {
+          "good_rate": 0.6,
+          "n": 240
+        },
+        "G": {
+          "good_rate": 0.4292,
+          "n": 240
+        },
+        "U": {
+          "good_rate": 0.3667,
+          "n": 150
+        }
+      },
+      "model": "claude-haiku-4-5"
+    }
+  },
+  "aw_sensitivity": {
+    "phase4b_gpt_r2": {
+      "aw_holm": 1.0,
+      "aw_r": -0.0511,
+      "conclusions_changed_by_dropping_aw": [],
+      "holm_family_size": 9
+    },
+    "phase4b_permutation_r2": {
+      "aw_holm": 1.0,
+      "aw_r": -0.1666,
+      "conclusions_changed_by_dropping_aw": [],
+      "holm_family_size": 9
+    },
+    "phase4b_profiled_r1": {
+      "aw_holm": 1.0,
+      "aw_r": 0.0164,
+      "conclusions_changed_by_dropping_aw": [],
+      "holm_family_size": 9
+    }
+  },
+  "coordinate_association": {
+    "phase4b_gpt_r2": {
+      "any_survives_holm": [],
+      "coordinates": {
+        "AW": {
+          "holm": 1.0,
+          "p": 0.753972,
+          "r": -0.0511
+        },
+        "CS": {
+          "holm": 1.0,
+          "p": 0.592702,
+          "r": -0.0872
+        },
+        "ID": {
+          "holm": 0.513653,
+          "p": 0.057073,
+          "r": 0.3033
+        },
+        "LL": {
+          "holm": 0.729277,
+          "p": 0.09116,
+          "r": 0.2707
+        },
+        "MS": {
+          "holm": 0.839488,
+          "p": 0.139915,
+          "r": -0.2376
+        },
+        "MoR": {
+          "holm": 0.766294,
+          "p": 0.109471,
+          "r": -0.257
+        },
+        "PD": {
+          "holm": 0.094435,
+          "p": 0.009443,
+          "r": 0.4055
+        },
+        "RE": {
+          "holm": 1.0,
+          "p": 0.661911,
+          "r": 0.0713
+        },
+        "RT": {
+          "holm": 1.0,
+          "p": 0.884879,
+          "r": 0.0236
+        },
+        "TfA": {
+          "holm": 1.0,
+          "p": 0.272348,
+          "r": -0.1778
+        }
+      },
+      "mean_good_rate": 0.6062,
+      "n_agents": 40
+    },
+    "phase4b_permutation_r2": {
+      "any_survives_holm": [
+        "PD"
+      ],
+      "coordinates": {
+        "AW": {
+          "holm": 1.0,
+          "p": 0.304239,
+          "r": -0.1666
+        },
+        "CS": {
+          "holm": 1.0,
+          "p": 0.917631,
+          "r": -0.0166
+        },
+        "ID": {
+          "holm": 1.0,
+          "p": 0.611521,
+          "r": 0.0828
+        },
+        "LL": {
+          "holm": 1.0,
+          "p": 0.611934,
+          "r": -0.0827
+        },
+        "MS": {
+          "holm": 1.0,
+          "p": 0.502808,
+          "r": 0.1091
+        },
+        "MoR": {
+          "holm": 1.0,
+          "p": 0.766973,
+          "r": 0.0484
+        },
+        "PD": {
+          "holm": 0.00546,
+          "p": 0.000546,
+          "r": 0.5223
+        },
+        "RE": {
+          "holm": 1.0,
+          "p": 0.501094,
+          "r": -0.1095
+        },
+        "RT": {
+          "holm": 1.0,
+          "p": 0.541273,
+          "r": 0.0995
+        },
+        "TfA": {
+          "holm": 1.0,
+          "p": 0.382755,
+          "r": -0.1418
+        }
+      },
+      "mean_good_rate": 0.5643,
+      "n_agents": 40
+    },
+    "phase4b_profiled_r1": {
+      "any_survives_holm": [],
+      "coordinates": {
+        "AW": {
+          "holm": 1.0,
+          "p": 0.918465,
+          "r": 0.0164
+        },
+        "CS": {
+          "holm": 0.648659,
+          "p": 0.092666,
+          "r": -0.2695
+        },
+        "ID": {
+          "holm": 0.461933,
+          "p": 0.057742,
+          "r": 0.3026
+        },
+        "LL": {
+          "holm": 0.358787,
+          "p": 0.039865,
+          "r": -0.3263
+        },
+        "MS": {
+          "holm": 0.152026,
+          "p": 0.015203,
+          "r": -0.3813
+        },
+        "MoR": {
+          "holm": 1.0,
+          "p": 0.439733,
+          "r": -0.1257
+        },
+        "PD": {
+          "holm": 1.0,
+          "p": 0.58362,
+          "r": 0.0893
+        },
+        "RE": {
+          "holm": 0.648659,
+          "p": 0.100337,
+          "r": 0.2636
+        },
+        "RT": {
+          "holm": 1.0,
+          "p": 0.921964,
+          "r": -0.0155
+        },
+        "TfA": {
+          "holm": 0.648659,
+          "p": 0.12776,
+          "r": 0.2449
+        }
+      },
+      "mean_good_rate": 0.6,
+      "n_agents": 40
+    }
+  },
+  "coordinate_association_pooled": {
+    "any_survives_holm": [],
+    "coordinates": {
+      "AW": {
+        "holm": 1.0,
+        "p": 0.196546,
+        "r": 0.2086
+      },
+      "CS": {
+        "holm": 1.0,
+        "p": 0.481697,
+        "r": -0.1145
+      },
+      "ID": {
+        "holm": 1.0,
+        "p": 0.872089,
+        "r": -0.0069
+      },
+      "LL": {
+        "holm": 0.822683,
+        "p": 0.082268,
+        "r": -0.2781
+      },
+      "MS": {
+        "holm": 1.0,
+        "p": 0.146828,
+        "r": -0.2336
+      },
+      "MoR": {
+        "holm": 1.0,
+        "p": 0.131934,
+        "r": -0.2423
+      },
+      "PD": {
+        "holm": 1.0,
+        "p": 0.930804,
+        "r": -0.0116
+      },
+      "RE": {
+        "holm": 1.0,
+        "p": 0.165368,
+        "r": 0.2236
+      },
+      "RT": {
+        "holm": 1.0,
+        "p": 0.929254,
+        "r": 0.0132
+      },
+      "TfA": {
+        "holm": 1.0,
+        "p": 0.713093,
+        "r": 0.06
+      }
+    },
+    "mean_good_rate": 0.5905,
+    "n_agents": 40
+  },
+  "designations": {
+    "phase4b_gpt_r2": {
+      "model": "gpt-5.4-mini"
+    },
+    "phase4b_permutation_r2": {
+      "model": "gpt-5.4-mini"
+    },
+    "phase4b_profiled_r1": {
+      "model": "claude-haiku-4-5"
+    }
+  },
+  "portability": {
+    "agreement": {
+      "phase4b_gpt_r2 ~ phase4b_permutation_r2": {
+        "rank_correlation": -0.0545,
+        "top3_overlap": 1
+      },
+      "phase4b_gpt_r2 ~ phase4b_profiled_r1": {
+        "rank_correlation": 0.4303,
+        "top3_overlap": 2
+      },
+      "phase4b_permutation_r2 ~ phase4b_profiled_r1": {
+        "rank_correlation": -0.4061,
+        "top3_overlap": 0
+      }
+    },
+    "ranked_by_abs_r": {
+      "phase4b_gpt_r2": [
+        "PD",
+        "ID",
+        "LL",
+        "MoR",
+        "MS",
+        "TfA",
+        "CS",
+        "RE",
+        "AW",
+        "RT"
+      ],
+      "phase4b_permutation_r2": [
+        "PD",
+        "AW",
+        "TfA",
+        "RE",
+        "MS",
+        "RT",
+        "ID",
+        "LL",
+        "MoR",
+        "CS"
+      ],
+      "phase4b_profiled_r1": [
+        "MS",
+        "LL",
+        "ID",
+        "CS",
+        "RE",
+        "TfA",
+        "MoR",
+        "PD",
+        "AW",
+        "RT"
+      ]
+    }
+  },
+  "redundancy": {
+    "n_agents": 120,
+    "pairwise": {
+      "CS~AW": 0.0854,
+      "CS~ID": -0.0488,
+      "CS~MS": 0.0181,
+      "CS~MoR": -0.0017,
+      "CS~PD": -0.2364,
+      "CS~RE": 0.0749,
+      "CS~RT": 0.0489,
+      "CS~TfA": -0.1472,
+      "ID~AW": -0.0814,
+      "ID~MS": -0.0718,
+      "LL~AW": -0.0737,
+      "LL~CS": -0.151,
+      "LL~ID": 0.1175,
+      "LL~MS": -0.084,
+      "LL~MoR": -0.1017,
+      "LL~PD": 0.1442,
+      "LL~RE": -0.1773,
+      "LL~RT": 0.0351,
+      "LL~TfA": -0.0573,
+      "MS~AW": 0.1287,
+      "MoR~AW": 0.0808,
+      "MoR~ID": -0.07,
+      "MoR~MS": 0.0348,
+      "MoR~PD": -0.0578,
+      "MoR~RE": -0.0889,
+      "MoR~TfA": -0.0675,
+      "PD~AW": 0.0147,
+      "PD~ID": 0.0789,
+      "PD~MS": 0.1615,
+      "PD~TfA": 0.1742,
+      "RE~AW": 0.0728,
+      "RE~ID": -0.0459,
+      "RE~MS": 0.026,
+      "RE~PD": 0.0366,
+      "RE~TfA": 0.1231,
+      "RT~AW": -0.0341,
+      "RT~ID": 0.0088,
+      "RT~MS": 0.0482,
+      "RT~MoR": 0.0409,
+      "RT~PD": 0.021,
+      "RT~RE": -0.2184,
+      "RT~TfA": -0.0917,
+      "TfA~AW": 0.1169,
+      "TfA~ID": 0.1074,
+      "TfA~MS": -0.0266
+    },
+    "spectrum": {
+      "components_for_90pct_variance": 9,
+      "eigenvalues": [
+        1.5318,
+        1.4424,
+        1.2378,
+        1.0125,
+        0.9833,
+        0.9053,
+        0.8587,
+        0.7456,
+        0.6613,
+        0.6213
+      ],
+      "min_eigenvalue": 0.6213
+    },
+    "strong_pairs_abs_r_ge_0.4": []
+  },
+  "status": "POST-HOC AND EXPLORATORY. These data were collected to answer the Phase 4B arm question. No coordinate was manipulated; all ten varied freely by draw. Nothing here confirms a hypothesis, and a null across the ten is the expected result at n=40 agents per designation."
+}
