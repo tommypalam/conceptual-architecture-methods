@@ -1,5 +1,41 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Provider ceiling amendment: OpenAI $40 (2026-09-17)
+
+The researcher raised the OpenAI provider ceiling from $30 to **$40** to fund the
+full coordinate sweep, stating: *"ill up the budget one last time as much as its
+needed... but lets try to reduce cost and optimise as much as possible."*
+
+Spent at the time of this amendment: $6.868692600, leaving $33.13 of headroom.
+The sweep reserves $32.56 worst case.
+
+The **$100 package cap is unchanged** and remains enforced, as does the $32
+Anthropic ceiling. Cumulative totals do not reset and no prior accounting figure
+is restated. Raising a ceiling is not authorisation for any particular run: each
+designation still needs its own reservation, gates and researcher authorisation.
+
+**Optimisations applied to reduce the ask**, each recorded so the reduction is
+auditable rather than silent:
+
+  - PD and AW are excluded - both were tested at 40 agents in
+    `label_semantics_r1`. Eight coordinates, not ten. Saves ~20%.
+  - The U screen arm is dropped. These seven items have been screened four times
+    on gpt (`grand_r1`, `gpt_r2`, `permutation_r2`, `pd_prospective_r1`) with
+    consistent results; re-screening would confirm, not establish. The review
+    call is kept.
+  - No per-coordinate swap control. `label_semantics_r1` validated the method;
+    swap controls are the correct follow-up for coordinates that SURVIVE, not a
+    prerequisite for all eight.
+  - 30 agents rather than 40: 17/20 power at d=0.15 against 18/20, for $11 less.
+
+**One optimisation was REFUSED.** Three of the seven items showed |effect| <=
+0.10 under the PD manipulation and never survive Holm. Cutting them would reduce
+cost by ~40%, and would be outcome-driven selection: it would bias the sweep
+toward coordinates that happen to behave like PD. All seven items are retained.
+
+Current accounting: Claude $19.701708400/$32, OpenAI $6.868692600/$40, package
+$26.570401000/$100. These are usage estimates, not verified provider balances.
+
 ## Phase 5 CLOSED for a scoped objective; prospective PD test PASSED (2026-09-16)
 
 Phase 5 is closed for a stated limited objective, in the manner of the accepted
