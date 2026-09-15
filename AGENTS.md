@@ -1,5 +1,71 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Both load-bearing coordinates replicate on a second provider (2026-09-18)
+
+`id_crossmodel_r1` and `pd_crossmodel_r1` pinned each verified coordinate to its
+endpoints on `claude-haiku-4-5-20251001` over haiku's six dispersing items,
+40 agents, nine other coordinates drawn once per agent and held identical. 481
+calls each, 480/480 valid, zero failures, $1.266 and $1.245.
+
+| Coordinate | gpt | haiku | p (haiku) | Items | Prediction |
+|---|---:|---:|---:|---|---|
+| **PD** Procedural Dependence | **+0.346** | **+0.133** | **0.00031** | 4+/1- | **one-sided, theory-derived** |
+| **ID** Internalisation Dependence | +0.111 | **+0.075** | **0.0328** | 4+/2- | two-sided, descriptive |
+
+**The coordinate-level result is no longer single-model.** That was the sharpest
+scoping limitation on the coordinate map and it is removed.
+
+**PD's is the stronger test.** Its direction was locked ONE-SIDED from the
+coordinate definition before collection, and the derivation's premise - on every
+item the option keeping the stated arrangement classifies `good` - is a property
+of the ITEM SET, not the coordinate. `verify_direction()` re-checked it against
+haiku's six items and GATED prepare(). Only the direction transferred from gpt,
+never the magnitude.
+
+**Both effects SHRINK on haiku**: PD to ~38% of its gpt effect, ID to ~68%. What
+replicates is the direction and the decision rule. **Do not claim magnitude
+stability across models.**
+
+**Neither is verified cross-model.** Verification on gpt required the
+numeral-identical swap control; no swap control ran on haiku, because a four-arm
+design quadruples the Holm family and an underpowered TRUE arm would make the
+SWAP arms uninterpretable by construction - the LL outcome, induced by design.
+These license "the coordinate moves the outcome on haiku too" and nothing more.
+
+**A correlation pointed at nothing and the manipulation found something.** PD's
+post-hoc correlation on haiku was +0.089, near flat, and this project described
+PD as "flat on haiku" on that basis. Pinned, it gives +0.133 at p=0.0003. LL ran
+the other way: correlation +0.271, manipulation negative then null. **Post-hoc
+correlations mislead in BOTH directions**; only manipulation settles a
+coordinate.
+
+**Item sets differ by model and that is forced.** Four of six haiku items overlap
+gpt's seven; `ward_transfer` is haiku-only, `on_call` and `rest_break` gpt-only.
+`haiku_screen_r4`'s six alternatives all returned modal share 1.00 - fully
+deterministic, unable to show any arm difference.
+
+**pd_crossmodel_r1's review returned REVISE**, advisory under the 16 September
+amendment. Finding 1 (tied payoffs) describes the design correctly and reads it
+as a defect: totals are tied at -3 deliberately so welfare-maximisation, minimax
+and best-case are indifferent by construction. Finding 2 (`tool_library` carries
+ownership+contract weight the other items lack) has a real point - and that item
+is the ONE with a negative effect, so removing it strengthens the result to
++0.170. **All six items are reported as primary**; dropping one after seeing
+results would be outcome-driven selection. These items have now been reviewed
+five times: four accepts with zero blocking issues, one revise, on byte-identical
+material.
+
+**The empty-analysis defect is FIXED AT SOURCE.** `coordinate_sweep_r2` and
+`id_crossmodel_r1` both set SCREEN_N=0 and then derived an empty usable-task list
+from the absent screen, so every contrast returned None and both needed offline
+rescoring. `pd_crossmodel_r1` carries a `declared_tasks()` fallback, verified
+against an empty list before collection, and produced its own analysis. **A
+defect diagnosed once must be fixed in the next collector built on it, not
+rescored again.**
+
+Accounting: Claude $22.238957400/$32, OpenAI $11.093290725/$40, package
+$33.332248/$100. Usage estimates, not verified provider balances.
+
 ## Verified coordinate map: TWO of ten are label effects; LL withdrawn (2026-09-17)
 
 `label_semantics_r2` ran the swap control for ID and LL at 40 agents - 2,241
@@ -31,7 +97,8 @@ assessment carries a superseding note. Its data and its seven nulls stand.
 -0.131 pinned at 25 agents, -0.014 pinned at 40.** Positive, negative, null.
 **This is not a power failure** - it failed on the LARGER sample, with power
 17/20 at an effect of 0.131. **LL is unresolved, not inert**: it failed to
-replicate, which is not the same as being measured flat. Do not describe LL as
+replicate, which is not the same as being measured flat. LL was NOT carried into
+the cross-model runs; only PD and ID were. Do not describe LL as
 load-bearing, and do not describe it as demonstrated inert.
 
 **The replication gate is what caught it.** Had the swap control been run without

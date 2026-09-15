@@ -1,0 +1,134 @@
+{
+  "architecture_crossmodel": {
+    "gpt": 0.228,
+    "haiku": 0.171
+  },
+  "cells": {
+    "ID+": {
+      "good_rate": 0.6792,
+      "n": 240
+    },
+    "ID-": {
+      "good_rate": 0.6042,
+      "n": 240
+    }
+  },
+  "consistency": {
+    "items": 6,
+    "majority": 4,
+    "meets_requirement": true,
+    "negative": 2,
+    "positive": 4
+  },
+  "correction_note": "id_crossmodel_r1 dropped the screen arm, so its collect() derived an empty usable-task list and every contrast returned None - the same defect as coordinate_sweep_r2, inherited unfixed by a collector adapted from it. The data are intact; this rescore supplies the designation's own declared item set. No API call was made and no frozen source was edited.",
+  "gpt_reference": {
+    "coordinate_sweep_r2": 0.143,
+    "label_semantics_r2_swap": 0.046,
+    "label_semantics_r2_true": 0.111,
+    "post_hoc_correlation": 0.303
+  },
+  "holm_family_size": 6,
+  "holm_per_item": {
+    "desk_booking": 0.0234375,
+    "meeting_room": 0.57385252,
+    "storage_unit": 0.57385252,
+    "tool_library": 0.57385252,
+    "ward_transfer": 1.0,
+    "weekend_rota": 0.3125
+  },
+  "item_overlap_with_gpt": {
+    "haiku_items": [
+      "ward_transfer",
+      "weekend_rota",
+      "desk_booking",
+      "tool_library",
+      "meeting_room",
+      "storage_unit"
+    ],
+    "note": "Four of six overlap with gpt's seven. ward_transfer is haiku-only; on_call and rest_break are gpt-only."
+  },
+  "moved_outcome": true,
+  "per_item": {
+    "desk_booking": {
+      "discordant": 9,
+      "effect": 0.225,
+      "good_more_under_high": 9,
+      "good_more_under_low": 0,
+      "p": 0.00390625,
+      "pairs": 40
+    },
+    "meeting_room": {
+      "discordant": 9,
+      "effect": -0.125,
+      "good_more_under_high": 2,
+      "good_more_under_low": 7,
+      "p": 0.1796875,
+      "pairs": 40
+    },
+    "storage_unit": {
+      "discordant": 17,
+      "effect": 0.175,
+      "good_more_under_high": 12,
+      "good_more_under_low": 5,
+      "p": 0.14346313,
+      "pairs": 40
+    },
+    "tool_library": {
+      "discordant": 3,
+      "effect": 0.075,
+      "good_more_under_high": 3,
+      "good_more_under_low": 0,
+      "p": 0.25,
+      "pairs": 40
+    },
+    "ward_transfer": {
+      "discordant": 21,
+      "effect": -0.025,
+      "good_more_under_high": 10,
+      "good_more_under_low": 11,
+      "p": 1.0,
+      "pairs": 40
+    },
+    "weekend_rota": {
+      "discordant": 5,
+      "effect": 0.125,
+      "good_more_under_high": 5,
+      "good_more_under_low": 0,
+      "p": 0.0625,
+      "pairs": 40
+    }
+  },
+  "pooled": {
+    "discordant": 64,
+    "effect": 0.075,
+    "good_more_under_high": 41,
+    "good_more_under_low": 23,
+    "p": 0.03276576,
+    "pairs": 240
+  },
+  "power": {
+    "0.000_false_positive": "1/20",
+    "0.080": "14/20",
+    "0.111": "16/20",
+    "0.143": "18/20",
+    "0.200": "19/20",
+    "agents": 40,
+    "baselines_source": "phase4b_profiled_r1 E arm, per item, on claude-haiku-4-5-20251001",
+    "holm_family": 1,
+    "honest_reading": "16/20 is 80%. A null from this designation is a WEAK null and will be reported with this number in the same sentence. Two of six items sit near a bound in one arm, which compresses the detectable range; more agents does not fix that.",
+    "items": 6,
+    "seeds": 20,
+    "swap_design_rejected": "a four-arm swap at 40 agents gives 14/20 at +0.111 because the Holm family is 4x larger; an underpowered TRUE arm would render the SWAP arms uninterpretable by design, as happened to LL"
+  },
+  "primary_test": "pooled paired ID+ vs ID- p < 0.05 AND the effect pointing the same direction in at least 4 of 6 items; both required, prespecified, two-sided",
+  "reading": "ID moves the outcome on haiku, SAME sign as gpt. ID's effect is not specific to the calibration model. This licenses `ID moves the outcome on haiku too`, NOT `ID is verified cross-model`: verification on gpt required a null swap control, which this designation does not run.",
+  "rows": 480,
+  "tasks": [
+    "ward_transfer",
+    "weekend_rota",
+    "desk_booking",
+    "tool_library",
+    "meeting_room",
+    "storage_unit"
+  ]
+}

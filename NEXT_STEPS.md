@@ -1,6 +1,6 @@
 # Current state and next steps
 
-Updated 2026-09-17. Publication source: `research-transfer-design-20260913`.
+Updated 2026-09-18. Publication source: `research-transfer-design-20260913`.
 **Phase 4B and Phase 5 are both CLOSED** —
 [4B closure](experiments/phase4_coding/PHASE4B_CLOSURE_2026-09-16.md),
 [5 closure](experiments/phase5_analysis/PHASE5_CLOSURE_2026-09-16.md).
@@ -8,6 +8,53 @@ Published to `main` on 17 September with the previous tip preserved as
 `backup-5` — see the [publication record](docs/publication_20260917.md) for
 scope, branch targets and verification. **Phase 6 (paper and release) is next.**
 Continue implementation on a development branch.
+
+## Latest: both load-bearing coordinates are cross-provider (18 September)
+
+Two designations, 481 calls each, 480/480 valid, zero failures, $1.266 + $1.245.
+
+| Coordinate | gpt | haiku | p (haiku) | Items | Test |
+|---|---:|---:|---:|---|---|
+| **PD** | +0.346 | **+0.133** | **0.00031** | 4+/1- | **one-sided, theory-derived** |
+| **ID** | +0.111 | **+0.075** | **0.0328** | 4+/2- | two-sided |
+
+**The coordinate-level result is no longer single-model** — the sharpest scoping
+limitation on the coordinate map is removed. Both effects shrink on haiku;
+direction and decision rule replicate, magnitude does not.
+
+**Neither is verified cross-model**: no swap control ran on haiku, because a
+four-arm design quadruples the Holm family and an underpowered TRUE arm would
+make SWAP uninterpretable by construction. These license "moves the outcome on
+haiku too" and nothing more.
+
+→ [PD cross-model](experiments/phase5_analysis/pd_crossmodel_r1/ASSESSMENT.md) ·
+[ID cross-model](experiments/phase5_analysis/id_crossmodel_r1/ASSESSMENT.md)
+
+### What is now closed for Phase 6
+
+- **Permutation confound** — resolved, with three instances and one demonstrated
+  negative (LL).
+- **Single-model coordinate claim** — resolved for both survivors.
+- **The two AI-review findings on pd_crossmodel_r1** — assessed in its
+  assessment; all six items reported as primary.
+
+### What remains open
+
+- **Human resemblance** — unmet, deferred by instruction, not retrospectively
+  passed.
+- **Coverage** — six or seven items, two models. The venue critique's second
+  option is still unaddressed and is the main remaining weakness.
+- **Swap controls on haiku** — the correct follow-up now that both TRUE arms
+  replicate, and deliberately not run in advance.
+- **LL** — withdrawn, unresolved. No run queued.
+- **Thesis 5.3 configuration counterfactual** — never run in any phase.
+
+**Phase 5 is ready to close a second time** on this evidence, and Phase 6 (paper
+and release) is the next work. Nothing is queued.
+
+Ledger: Claude $22.238957400/$32, OpenAI $11.093290725/$40, package
+$33.332248/$100. Usage estimates.
+
 
 ## Latest: the coordinate map is verified — TWO of ten, not three (17 September)
 

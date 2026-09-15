@@ -78,6 +78,27 @@ not absence of evidence.
 → [coordinate sweep](experiments/phase5_analysis/coordinate_sweep_r2/ASSESSMENT.md) ·
 [verification](experiments/phase5_analysis/label_semantics_r2/ASSESSMENT.md)
 
+**Both survivors replicate on a second provider.** Each verified coordinate was
+pinned to its endpoints on `claude-haiku-4-5`, 40 agents, six items:
+
+| Coordinate | gpt | haiku | p (haiku) | Prediction |
+|---|---:|---:|---:|---|
+| **Procedural Dependence** | +0.346 | **+0.133** | **0.0003** | **one-sided, from theory** |
+| **Internalisation Dependence** | +0.111 | **+0.075** | **0.033** | two-sided |
+
+PD's is the stronger test: its direction was locked one-sided from the
+coordinate's definition before collection, and the derivation's premise was
+re-verified against the new item set rather than assumed to transfer. Both
+effects **shrink** on haiku — what replicates is the direction and the decision
+rule, not the magnitude.
+
+And a second correlation pointed the wrong way: PD's post-hoc correlation on
+haiku was **+0.089**, near flat. Pinned, it gives **+0.133**. Legitimacy Locus
+ran the opposite way — correlation +0.271, manipulation negative then null.
+Post-hoc correlations mislead in *both* directions.
+→ [PD cross-model](experiments/phase5_analysis/pd_crossmodel_r1/ASSESSMENT.md) ·
+[ID cross-model](experiments/phase5_analysis/id_crossmodel_r1/ASSESSMENT.md)
+
 **One of the three survivors did not survive replication, and the design caught
 it.** Legitimacy Locus was measured three times and gave three different answers:
 **+0.271** as a correlation across unmanipulated profiles, **−0.131** pinned at 25
