@@ -1,13 +1,76 @@
 # Current state and next steps
 
 Updated 2026-09-16. Publication source: `research-transfer-design-20260913`.
-**Phase 4B is CLOSED** for its stated question - see the
-[closure record](experiments/phase4_coding/PHASE4B_CLOSURE_2026-09-16.md).
-The 16 September publication to `main` predates the cross-model and permutation
-work; a publication pass folding those in is the next documentation step.
-Continue implementation on a development branch.
+**Phase 4B and Phase 5 are both CLOSED** —
+[4B closure](experiments/phase4_coding/PHASE4B_CLOSURE_2026-09-16.md),
+[5 closure](experiments/phase5_analysis/PHASE5_CLOSURE_2026-09-16.md).
+The 16 September publication to `main` predates the cross-model work, the
+permutation control and all of Phase 5. **A publication pass folding those in is
+the next step**, then Phase 6. Continue implementation on a development branch.
 
-## Phase 4B closed: profiles move the good/bad headline on two models (16 September)
+## Phase 5 closed: the prospective PD test PASSED (16 September)
+
+[pd_prospective_r1](experiments/phase5_analysis/pd_prospective_r1/ASSESSMENT.md) —
+736 calls, 736/736 valid, zero failures.
+
+| Arm | Good-rate | n | vs U | p |
+|---|---:|---:|---:|---:|
+| PD− (0.1, outcome-dominant) | 0.382 | 280 | −0.041 | 0.431 |
+| U (no profile) | 0.423 | 175 | — | — |
+| **PD+ (0.9, process-dominant)** | **0.729** | 280 | **+0.306** | **< 1e-8** |
+
+Paired **+0.346**, pooled Holm ≈ 0, **6 of 7 items positive**. The entire
+manipulation is one line of the prompt.
+
+**PD's dominance is no longer post-hoc.** Phase 2 flagged it as requiring
+prospective test; four attempts reached the profiled stage zero times; this is
+that test. Largest effect in the project.
+
+The [integrated analysis](experiments/phase5_analysis/integrated_20260916/ASSESSMENT.md)
+(zero API calls) addressed critical open problems 6 and 8 and ran the AW
+sensitivity check CLAUDE.md asked for.
+
+**Human resemblance is the unmet deliverable** — no human data exists, raters
+deferred by instruction, not retrospectively passed.
+
+## Phase 4B closed: profiles move the good/bad headline on two models
+
+| Model | U | G | E | paired E−G | Holm |
+|---|---:|---:|---:|---:|---:|
+| `claude-haiku-4-5` | 0.367 | 0.429 | 0.600 | +0.171 | 0.000112 |
+| **`gpt-5.4-mini`** (calibration) | 0.395 | **0.378** | **0.606** | **+0.228** | **≈ 0** |
+
+The guidance arm states the target behaviour in plain English and on the
+calibration model lands **below** baseline. Same-item subgroup across both
+models: **+0.255, p < 1e-7**.
+
+The [permutation control](experiments/phase4_coding/phase4b_permutation_r2/ASSESSMENT.md)
+failed its prespecified rule (E−P +0.089, Holm 0.084), so the caveat about
+whether the profile is read as parameters **stands** — though the PD result
+pressures it.
+
+### Still open
+
+- **Human resemblance** — deferred by instruction.
+- **PD cross-model** — flat on haiku; a haiku PD test is possible but unrun.
+- **The permutation question** — needs ~840 pairs and a stable review protocol.
+- **The other nine coordinates** — none manipulated.
+- **Thesis §5.3 configuration counterfactual** — never run.
+- **Concept separability** as opposed to sampler separability.
+
+### Next
+
+1. **Publication pass** folding in the cross-model result, the Phase 4B and
+   Phase 5 closures, the permutation caveat and the review-instability finding.
+2. **Phase 6** — paper and release.
+
+Neither is authorised by these closures.
+
+---
+
+## Historical
+
+
 
 **The central moral experiment is closed for its stated question.** Parameter
 profiles change the deterministic good/bad classification; an explicit ethical

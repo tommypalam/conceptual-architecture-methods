@@ -1,5 +1,55 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Phase 5 CLOSED for a scoped objective; prospective PD test PASSED (2026-09-16)
+
+Phase 5 is closed for a stated limited objective, in the manner of the accepted
+Phase 1.5 and Phase 3 closures. Three of four specified deliverables are met.
+**Human resemblance is NOT met** - no human data exists and human raters remain
+deferred by the 13 September no-budget instruction. It is not retrospectively
+passed. See
+[experiments/phase5_analysis/PHASE5_CLOSURE_2026-09-16.md](experiments/phase5_analysis/PHASE5_CLOSURE_2026-09-16.md).
+
+**The prospective PD test passed.** `pd_prospective_r1`, 736 calls, 736/736
+valid:
+
+| Arm | Good-rate | n | vs U | p |
+|---|---:|---:|---:|---:|
+| PD- (0.1, outcome-dominant) | 0.382 | 280 | -0.041 | 0.431 |
+| U (no profile) | 0.423 | 175 | - | - |
+| **PD+ (0.9, process-dominant)** | **0.729** | 280 | **+0.306** | **<1e-8** |
+
+Paired **+0.346**, pooled Holm ~0, 6 of 7 items positive with five surviving
+individual correction. The entire manipulation is one line: `Procedural
+Dependence: 0.10` against `0.90`, verified across all 40 agents as exactly two
+diff lines with the nine other coordinates identical and user text
+byte-identical.
+
+**The direction was locked from theory, not read off a correlation.** PD is
+defined as 0 = outcome-dominant, 1 = process-dominant; every item presents a
+claim under a stated arrangement and the option keeping it classifies `good` on
+all seven. Recorded in source before any call.
+
+**PD's dominance is no longer post-hoc.** The Phase 2 reanalysis ranked PD first
+of ten and recorded that it required prospective test before any confirmatory
+language. Four prior attempts reached the profiled stage zero times. This is that
+test. It is also the largest effect in the project (+0.346 against the Phase 4B
+arm effects of +0.171 and +0.228).
+
+**Integrated analysis, zero API calls** (`integrated_20260916`): the ten
+coordinates are empirically separable AS SAMPLED - 9 of 10 components for 90% of
+variance, min eigenvalue 0.621 (critical open problem 6, addressed for the
+sampler not the concepts); AW is inert and not load-bearing, the sensitivity
+check CLAUDE.md asked for; and there is NO stable coordinate ordering across
+designations, even within a model (critical open problem 8).
+
+**Not established:** human resemblance; moral truth or improvement; that PD is
+understood as a concept; anything about the other nine coordinates, held
+constant; PD cross-model (flat on haiku, r=+0.089); concept separability as
+opposed to sampler separability; generalisation. `on_call` ran NEGATIVE (-0.150)
+and is reported rather than smoothed.
+
+Accounting at closure: Claude $19.692970000/$32, OpenAI $5.977333725/$30.
+
 ## Phase 4B CLOSED for its stated question (2026-09-16)
 
 **The central moral experiment is closed.** Parameter profiles change the

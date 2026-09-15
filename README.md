@@ -42,6 +42,25 @@ derived from five independent review stops and enforced in code.
 [calibration-model result](experiments/phase4_coding/phase4b_gpt_r2/ASSESSMENT.md) ·
 [three-model screen](experiments/phase4_coding/phase4b_grand_r1/ASSESSMENT.md)
 
+**One coordinate is causally load-bearing, and the direction was predicted from
+theory.** Procedural Dependence is defined as 0 = outcome-dominant, 1 =
+process-dominant. Pinning it to each endpoint while holding the other nine
+identical — a one-line change to the prompt:
+
+| Arm | Good-rate | vs no profile | p |
+|---|---:|---:|---:|
+| PD− (0.1, outcome-dominant) | 0.382 | −0.041 | 0.431 |
+| no profile | 0.423 | — | — |
+| **PD+ (0.9, process-dominant)** | **0.729** | **+0.306** | **< 10⁻⁸** |
+
+Paired **+0.346**, pooled Holm ≈ 0, 6 of 7 items positive. **The prediction was
+locked in source before collection**, derived from the coordinate's definition
+rather than from any measured correlation — and PD's dominance, flagged as
+post-hoc since Phase 2 and never prospectively tested in four attempts, is
+no longer post-hoc.
+→ [prospective PD test](experiments/phase5_analysis/pd_prospective_r1/ASSESSMENT.md) ·
+[Phase 5 closure](experiments/phase5_analysis/PHASE5_CLOSURE_2026-09-16.md)
+
 **The open question, published standing.** Is the model reading the *parameters*,
 or does any structured numeric block do similar work? The
 [permutation control](experiments/phase4_coding/phase4b_permutation_r2/ASSESSMENT.md)
