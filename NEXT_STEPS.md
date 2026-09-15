@@ -1,6 +1,6 @@
 # Current state and next steps
 
-Updated 2026-09-16. Publication source: `research-transfer-design-20260913`.
+Updated 2026-09-17. Publication source: `research-transfer-design-20260913`.
 **Phase 4B and Phase 5 are both CLOSED** —
 [4B closure](experiments/phase4_coding/PHASE4B_CLOSURE_2026-09-16.md),
 [5 closure](experiments/phase5_analysis/PHASE5_CLOSURE_2026-09-16.md).
@@ -8,6 +8,56 @@ Published to `main` on 17 September with the previous tip preserved as
 `backup-5` — see the [publication record](docs/publication_20260917.md) for
 scope, branch targets and verification. **Phase 6 (paper and release) is next.**
 Continue implementation on a development branch.
+
+## Latest: the coordinate map is verified — TWO of ten, not three (17 September)
+
+Two designations ran after the Phase 5 closure below, which does not yet reflect
+them.
+
+**[coordinate_sweep_r2](experiments/phase5_analysis/coordinate_sweep_r2/ASSESSMENT.md)**
+— 2,801 calls, 2,800/2,800 valid, zero failures. Pinned each of the eight
+untested coordinates to 0.1 and 0.9 with the other nine held identical, Holm over
+all eight contrasts as one family. Found ID (+0.143) and LL (−0.131) significant
+alongside PD; seven not load-bearing.
+
+**[label_semantics_r2](experiments/phase5_analysis/label_semantics_r2/ASSESSMENT.md)**
+— 2,241 calls, 2,240/2,240 valid, zero failures, $1.656270. Ran the swap control
+for both survivors at 40 agents, each with a TRUE arm as a replication gate.
+
+| Contrast | Effect | Holm | Reading |
+|---|---:|---:|---|
+| **ID:TRUE** | **+0.111** | **0.00467** | replicates |
+| ID:SWAP | +0.046 | 0.408 | **null — the label carries it** |
+| LL:TRUE | −0.014 | 0.708 | **fails to replicate** |
+| LL:SWAP | −0.046 | 0.408 | uninterpretable, nothing claimed |
+
+**The verified map: PD and ID are label effects. LL is withdrawn.**
+
+**LL gave three different answers on three measurements** — +0.271 post-hoc,
+−0.131 pinned at 25 agents, −0.014 at 40. Not a power failure: it failed on the
+larger sample, power 17/20 at the previously measured size. **LL is unresolved,
+not inert.** `coordinate_sweep_r2`'s LL row carries a superseding note; its data
+and its seven nulls stand.
+
+The sign-reversal finding stands independently: LL's post-hoc correlation and its
+first manipulated effect had opposite signs, which is why this project treats
+post-hoc coordinate findings as untested until manipulated.
+
+### What this changes for Phase 6
+
+- The headline is **two of ten verified label effects**, not three load-bearing
+  coordinates. Every document carrying the older claim has been corrected.
+- **The permutation confound is resolved for two coordinates** — the venue
+  critique's first option. The one-binding swap isolates label semantics from
+  block structure, and it now has two independent instances plus a demonstrated
+  negative case.
+- **Item and coordinate coverage is still narrow**: seven items, one model,
+  `gpt-5.4-mini`. That remains the second option and is unaddressed.
+- **LL deserves a decision**: leave it withdrawn and unresolved, or spend on a
+  third measurement. Withdrawn is the honest default; no run is queued.
+
+Ledger: Claude $19.728369100/$32, OpenAI $11.093290725/$40. Usage estimates.
+
 
 ## Phase 5 closed: the prospective PD test PASSED (16 September)
 

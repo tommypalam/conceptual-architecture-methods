@@ -61,25 +61,36 @@ no longer post-hoc.
 → [prospective PD test](experiments/phase5_analysis/pd_prospective_r1/ASSESSMENT.md) ·
 [Phase 5 closure](experiments/phase5_analysis/PHASE5_CLOSURE_2026-09-16.md)
 
-**Which of the ten concept-parameters actually carry the behaviour? Three.**
-Each coordinate pinned to its endpoints with the other nine held identical,
-Holm-corrected over all eight contrasts as one family:
+**Which of the ten concept-parameters actually carry the behaviour? Two survive
+verification.** Each coordinate was pinned to its endpoints with the other nine
+held identical, Holm-corrected over all eight contrasts as one family. Every
+survivor then had to pass a label-swap control at 40 agents:
 
-| Coordinate | Effect | Holm | Items agreeing |
-|---|---:|---:|---|
-| **Procedural Dependence** | **+0.339** | ≈ 0 | 6 of 7 |
-| **Internalisation Dependence** | **+0.143** | 0.00056 | 6 of 7 |
-| **Legitimacy Locus** | **−0.131** | 0.00082 | **6 of 6** |
-| the other seven | −0.10 to +0.05 | not significant | |
+| Coordinate | Pinned effect | Swap control | Verdict |
+|---|---:|---|---|
+| **Procedural Dependence** | **+0.339** | **−0.036**, n.s. | **verified label effect** |
+| **Internalisation Dependence** | **+0.111 to +0.143** | **+0.046**, n.s. | **verified label effect** |
+| ~~Legitimacy Locus~~ | −0.131, then **−0.014** | uninterpretable | **did not replicate — withdrawn** |
+| the other seven | −0.10 to +0.05 | — | not load-bearing |
 
 Seven coordinates are **not** load-bearing — a corrected null at adequate power,
 not absence of evidence.
-→ [coordinate sweep](experiments/phase5_analysis/coordinate_sweep_r2/ASSESSMENT.md)
+→ [coordinate sweep](experiments/phase5_analysis/coordinate_sweep_r2/ASSESSMENT.md) ·
+[verification](experiments/phase5_analysis/label_semantics_r2/ASSESSMENT.md)
 
-**A correlation pointed the wrong way, and the manipulation caught it.** Legitimacy
-Locus correlates **+0.271** with the outcome across unmanipulated profiles; pinned
-to its endpoints it gives **−0.131**. Opposite signs — which is why this project
-treats post-hoc coordinate findings as untested until manipulated.
+**One of the three survivors did not survive replication, and the design caught
+it.** Legitimacy Locus was measured three times and gave three different answers:
+**+0.271** as a correlation across unmanipulated profiles, **−0.131** pinned at 25
+agents, and **−0.014** (Holm 0.708) pinned at 40. Positive, negative, null.
+
+This is not a power failure — it failed on the *larger* sample, where power was
+17/20 at an effect of the size previously measured. It is a coordinate that
+cleared a Holm-corrected bar in one well-powered designation and then vanished.
+Legitimacy Locus is **unresolved, not inert**, and it is no longer claimed.
+
+The swap control carries a TRUE arm precisely so that this is visible: had the
+control been run alone, Legitimacy Locus's null swap would have been read as
+evidence that its label carries the effect.
 
 **The open question, now answered for the coordinate that carries the effect.**
 Is the model reading the *parameters*, or does any structured numeric block do
@@ -99,10 +110,15 @@ cue, a verbosity effect and a response to numeric extremity — extremity was he
 constant and moved.
 → [label-semantics control](experiments/phase5_analysis/label_semantics_r1/ASSESSMENT.md)
 
+The same control was then run for the other two survivors. **Internalisation
+Dependence passed it**: TRUE +0.111 (Holm 0.0047), SWAP +0.046 (n.s.), making it
+the second of ten coordinates whose label — not the numeral — carries its effect.
+**Legitimacy Locus failed the replication gate** and nothing is claimed for it.
+
 An earlier control that deranged **all ten** labels at once measured only +0.089
 and [failed its rule](experiments/phase4_coding/phase4b_permutation_r2/ASSESSMENT.md);
-the dilution explanation is now confirmed. The caveat is answered for PD, not
-retired for all ten labels — AW is a label and it is inert.
+the dilution explanation is now confirmed. The caveat is answered for two
+coordinates, not retired for all ten labels — AW is a label and it is inert.
 
 **Boundaries, stated plainly.** This establishes no moral truth and no moral
 improvement: every label is a deterministic classification under stipulated

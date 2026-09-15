@@ -1,5 +1,16 @@
 # coordinate_sweep_r2: three of ten coordinates are load-bearing
 
+> **SUPERSEDED IN PART (17 September 2026, later the same day).**
+> `label_semantics_r2` re-ran the **LL** contrast at **40 agents** — larger than
+> this designation's 25 — and measured **−0.014 at Holm 0.708** against the
+> **−0.131** recorded below. **LL did not replicate and is withdrawn from the
+> load-bearing set.** Power there was 17/20 at an effect of 0.131, so this is a
+> failure to replicate rather than a failure of power. **ID replicated**
+> (+0.111, Holm 0.0047) and its swap control was null, confirming it as a label
+> effect. The headline of this file should be read as **two** of ten, not three.
+> The data and the seven nulls below stand unchanged.
+> See `experiments/phase5_analysis/label_semantics_r2/ASSESSMENT.md`.
+
 **Outcome: complete. 2,801 calls, 2,800/2,800 decisions valid, zero failures.**
 17 September 2026. Review **accept**, zero blocking issues. Cost $2.069183
 against a $31.517 reservation.

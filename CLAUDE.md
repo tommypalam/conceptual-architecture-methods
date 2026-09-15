@@ -1,6 +1,59 @@
 # CLAUDE.md — PARIA / Concepts-as-Architecture Project Constitution
 
-## Coordinate map: three of ten are load-bearing (2026-09-17)
+## Verified coordinate map: TWO of ten are label effects; LL withdrawn (2026-09-17)
+
+`label_semantics_r2` ran the swap control for ID and LL at 40 agents - 2,241
+calls, 2,240/2,240 valid, zero failures, Holm over all four contrasts as one
+family. For an active coordinate A and the inert partner AW, TRUE puts the level
+on A's label and SWAP puts the same numeral on AW's, so the blocks are
+**numeral-identical** and only the label binding differs.
+
+| Contrast | Effect | Holm | Items | Reading |
+|---|---:|---:|---|---|
+| **ID:TRUE** | **+0.111** | **0.00467** | 5+/1- | replicates the sweep |
+| ID:SWAP | +0.046 | 0.408 | 5+/2- | **null - the label carries it** |
+| LL:TRUE | **-0.014** | **0.708** | 4+/3- | **fails to replicate** |
+| LL:SWAP | -0.046 | 0.408 | 1+/4- | uninterpretable, nothing claimed |
+
+**The verified map:**
+
+| Coordinate | Pinned effect | Swap control | Status |
+|---|---:|---|---|
+| **PD** Procedural Dependence | **+0.339** | **-0.036, n.s.** | **verified label effect** |
+| **ID** Internalisation Dependence | **+0.111 to +0.143** | **+0.046, n.s.** | **verified label effect** |
+| ~~LL Legitimacy Locus~~ | -0.131 then -0.014 | uninterpretable | **not replicated - WITHDRAWN** |
+| TfA, MoR, MS, RE, RT, CS, AW | -0.10 to +0.05 | - | not load-bearing |
+
+**Two of ten, not three.** `coordinate_sweep_r2`'s LL row is superseded and that
+assessment carries a superseding note. Its data and its seven nulls stand.
+
+**LL gave three different answers across three measurements: +0.271 post-hoc,
+-0.131 pinned at 25 agents, -0.014 pinned at 40.** Positive, negative, null.
+**This is not a power failure** - it failed on the LARGER sample, with power
+17/20 at an effect of 0.131. **LL is unresolved, not inert**: it failed to
+replicate, which is not the same as being measured flat. Do not describe LL as
+load-bearing, and do not describe it as demonstrated inert.
+
+**The replication gate is what caught it.** Had the swap control been run without
+a TRUE arm, LL's null SWAP would have read as "the label carries it". Every swap
+control must carry a TRUE arm that reproduces the effect it claims to explain.
+
+**A bug caught before collection.** The first population draw gave agent 7
+AW=0.102, which renders as "0.10" at the block's two decimals and **collides with
+the LOW level**, making that agent's TRUE and SWAP byte-identical. The degeneracy
+check tested the raw draw, not rendered precision. It now tests **rendered
+precision and blocks**. The seed was changed before any call, on a property of
+the draw alone. Test degeneracy at the precision that reaches the wire.
+
+Accounting: Claude $19.728369100/$32, OpenAI $11.093290725/$40. Usage estimates,
+not verified provider balances.
+
+## Coordinate map as first measured, before verification (2026-09-17)
+
+> **LL's row below is SUPERSEDED** by the swap control above: LL measured
+> -0.014 at Holm 0.708 at 40 agents and is withdrawn. ID's row replicated
+> and is now verified as a label effect. Kept as the record of what the
+> sweep measured, and of the sign-reversal finding, which stands.
 
 `coordinate_sweep_r2` pinned each coordinate to 0.1 and 0.9 with the other nine
 drawn and held identical - 2,801 calls, 2,800/2,800 valid, zero failures, Holm
@@ -23,10 +76,8 @@ in sign; LL reverses. This is a concrete demonstration of why the Phase 2
 reanalysis insisted post-hoc coordinate findings need prospective test before
 confirmatory language.
 
-**ID and LL are load-bearing COORDINATES, not demonstrated LABEL effects.**
-Proving the label carries the effect - as `label_semantics_r1` did for PD, where
-the same numerals on the inert AW label gave -0.036 - requires the swap control,
-which has NOT been run for ID or LL. Do not conflate the two claims.
+**That distinction was the right one, and the swap control has since been run**
+(see the verified map above). ID survived it; LL did not replicate.
 
 Two operational notes recorded: `coordinate_sweep_r1` halted at 689/2801 on a
 network TimeoutError and that slot is preserved unresolved and never retried, its
