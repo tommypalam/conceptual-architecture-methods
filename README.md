@@ -61,22 +61,28 @@ no longer post-hoc.
 → [prospective PD test](experiments/phase5_analysis/pd_prospective_r1/ASSESSMENT.md) ·
 [Phase 5 closure](experiments/phase5_analysis/PHASE5_CLOSURE_2026-09-16.md)
 
-**The open question, published standing.** Is the model reading the *parameters*,
-or does any structured numeric block do similar work? The
-[permutation control](experiments/phase4_coding/phase4b_permutation_r2/ASSESSMENT.md)
-sent the same ten numbers per agent **deranged across the ten labels** — identical
-length, identical numerals, only the label-to-value mapping differs.
+**The open question, now answered for the coordinate that carries the effect.**
+Is the model reading the *parameters*, or does any structured numeric block do
+similar work? A one-binding control moved the same number between two labels,
+holding the block, its length and all ten numerals identical:
 
-| Arm | Good-rate | vs no block | p |
-|---|---:|---:|---:|
-| no block | 0.400 | — | — |
-| scrambled labels | 0.475 | +0.075 | 0.122 |
-| correct labels | 0.564 | **+0.164** | **0.00074** |
+| Arm | `0.9` sits on | Good-rate |
+|---|---|---:|
+| **TRUE+** | **Procedural Dependence** | **0.729** |
+| **TRUE−** (0.1 there instead) | Procedural Dependence | 0.389 |
+| **SWAP+** | Affective Weighting | 0.557 |
+| **SWAP−** (0.1 there instead) | Affective Weighting | 0.593 |
 
-A scrambled block does not clear baseline; a correctly-labelled one does; the
-difference between them (+0.089) **fails the prespecified rule** at pooled
-Holm 0.084. **The effect appears split between block-presence and
-label-mapping, and that is not yet resolved.**
+**TRUE +0.339 (Holm ≈ 0). SWAP −0.036 (Holm 1.000).** Move the identical number
+from one line to another and the effect vanishes. That rules out a formatting
+cue, a verbosity effect and a response to numeric extremity — extremity was held
+constant and moved.
+→ [label-semantics control](experiments/phase5_analysis/label_semantics_r1/ASSESSMENT.md)
+
+An earlier control that deranged **all ten** labels at once measured only +0.089
+and [failed its rule](experiments/phase4_coding/phase4b_permutation_r2/ASSESSMENT.md);
+the dilution explanation is now confirmed. The caveat is answered for PD, not
+retired for all ten labels — AW is a label and it is inert.
 
 **Boundaries, stated plainly.** This establishes no moral truth and no moral
 improvement: every label is a deterministic classification under stipulated
