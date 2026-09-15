@@ -61,6 +61,26 @@ no longer post-hoc.
 → [prospective PD test](experiments/phase5_analysis/pd_prospective_r1/ASSESSMENT.md) ·
 [Phase 5 closure](experiments/phase5_analysis/PHASE5_CLOSURE_2026-09-16.md)
 
+**Which of the ten concept-parameters actually carry the behaviour? Three.**
+Each coordinate pinned to its endpoints with the other nine held identical,
+Holm-corrected over all eight contrasts as one family:
+
+| Coordinate | Effect | Holm | Items agreeing |
+|---|---:|---:|---|
+| **Procedural Dependence** | **+0.339** | ≈ 0 | 6 of 7 |
+| **Internalisation Dependence** | **+0.143** | 0.00056 | 6 of 7 |
+| **Legitimacy Locus** | **−0.131** | 0.00082 | **6 of 6** |
+| the other seven | −0.10 to +0.05 | not significant | |
+
+Seven coordinates are **not** load-bearing — a corrected null at adequate power,
+not absence of evidence.
+→ [coordinate sweep](experiments/phase5_analysis/coordinate_sweep_r2/ASSESSMENT.md)
+
+**A correlation pointed the wrong way, and the manipulation caught it.** Legitimacy
+Locus correlates **+0.271** with the outcome across unmanipulated profiles; pinned
+to its endpoints it gives **−0.131**. Opposite signs — which is why this project
+treats post-hoc coordinate findings as untested until manipulated.
+
 **The open question, now answered for the coordinate that carries the effect.**
 Is the model reading the *parameters*, or does any structured numeric block do
 similar work? A one-binding control moved the same number between two labels,

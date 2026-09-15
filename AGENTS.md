@@ -1,5 +1,42 @@
 # AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
 
+## Coordinate map: three of ten are load-bearing (2026-09-17)
+
+`coordinate_sweep_r2` pinned each coordinate to 0.1 and 0.9 with the other nine
+drawn and held identical - 2,801 calls, 2,800/2,800 valid, zero failures, Holm
+over all eight contrasts as one family. With PD and AW from `label_semantics_r1`:
+
+| Coordinate | Effect | Holm | Items | Load-bearing |
+|---|---:|---:|---|---|
+| **PD** Procedural Dependence | **+0.339** | ~0 | 6+/1- | **YES** |
+| **ID** Internalisation Dependence | **+0.143** | **0.00056** | 6+/1- | **YES** |
+| **LL** Legitimacy Locus | **-0.131** | **0.00082** | **0+/6-** | **YES** |
+| TfA, MoR, MS, RE, RT, CS, AW | -0.10 to +0.05 | n.s. | | no |
+
+**Seven are not load-bearing** - a Holm-corrected null at adequate power (24/24
+simulated at d>=0.20, 0/24 false positives), not absence of evidence.
+
+**A methodological finding.** LL's post-hoc correlation and its manipulated
+effect have OPPOSITE SIGNS: Phase 5's integrated analysis measured LL at r=+0.271
+on the unmanipulated E arm; pinning LL to its endpoints gives -0.131. ID agrees
+in sign; LL reverses. This is a concrete demonstration of why the Phase 2
+reanalysis insisted post-hoc coordinate findings need prospective test before
+confirmatory language.
+
+**ID and LL are load-bearing COORDINATES, not demonstrated LABEL effects.**
+Proving the label carries the effect - as `label_semantics_r1` did for PD, where
+the same numerals on the inert AW label gave -0.036 - requires the swap control,
+which has NOT been run for ID or LL. Do not conflate the two claims.
+
+Two operational notes recorded: `coordinate_sweep_r1` halted at 689/2801 on a
+network TimeoutError and that slot is preserved unresolved and never retried, its
+689 calls ($0.55) not reused; and r2's collector produced an EMPTY analysis
+because dropping the screen arm left its usable-task list empty, corrected
+offline in `code/phase5_sweep_rescore.py` rather than in the hash-pinned
+collector.
+
+Accounting: Claude $19.719300700/$32, OpenAI $9.446089125/$40.
+
 ## Provider ceiling amendment: OpenAI $40 (2026-09-17)
 
 The researcher raised the OpenAI provider ceiling from $30 to **$40** to fund the
