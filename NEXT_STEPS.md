@@ -4,9 +4,10 @@ Updated 2026-09-16. Publication source: `research-transfer-design-20260913`.
 **Phase 4B and Phase 5 are both CLOSED** —
 [4B closure](experiments/phase4_coding/PHASE4B_CLOSURE_2026-09-16.md),
 [5 closure](experiments/phase5_analysis/PHASE5_CLOSURE_2026-09-16.md).
-The 16 September publication to `main` predates the cross-model work, the
-permutation control and all of Phase 5. **A publication pass folding those in is
-the next step**, then Phase 6. Continue implementation on a development branch.
+Published to `main` on 17 September with the previous tip preserved as
+`backup-5` — see the [publication record](docs/publication_20260917.md) for
+scope, branch targets and verification. **Phase 6 (paper and release) is next.**
+Continue implementation on a development branch.
 
 ## Phase 5 closed: the prospective PD test PASSED (16 September)
 
