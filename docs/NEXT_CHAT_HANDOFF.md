@@ -1,11 +1,11 @@
-# PARIA thesis: next-chat handoff
+# Concepts as Architecture thesis: next-chat handoff
 
 Prepared 14 September 2026. Read this before resuming research or making API calls.
 This is a current checkpoint; older dated status paragraphs elsewhere may be historical.
 
 ## 1. What the researcher wants
 
-Tommaso Piero Palamenga is developing PARIA / Concepts as Architecture as a Bocconi
+Tommaso Piero Palamenga is developing Concepts as Architecture as a Bocconi
 BEMACS thesis. He wants an ambitious, broad and complete thesis connecting normative
 encoding, individual behaviour, institutions, group interaction, and good/bad
 decisions and their consequences. He reported approximately **eight days remaining**
@@ -121,7 +121,7 @@ All 96 choices are good under the fixed standard. Under the relative strict rule
 72 are good and 24 high-cost truthful reports are not_good because total credits
 fall despite benefiting the customer. Net and weighted aggregations label all 96
 good. This divergence was specified before collection; it is not a discovered
-advantage of PARIA or evidence of universal moral truth.
+advantage of Concepts as Architecture or evidence of universal moral truth.
 
 Every planned contrast is zero. Bootstrap intervals are degenerate; conservative
 bounds remain wide. Do not present [0,0] bootstrap intervals as certainty. Five

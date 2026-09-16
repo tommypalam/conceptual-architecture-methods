@@ -1,6 +1,6 @@
 {
   "schema_version": "2.1",
-  "project": "PARIA / Concepts as Architecture",
+  "project": "Concepts as Architecture",
   "last_updated": "2026-06-11",
   "theory_source": "Theory/concepts_as_architecture_thesis_v0_6.md (thesis v0.6, May 2026) + Theory/implementation_specification_v0_1.md (spec v0.1, May 2026)",
   "notes": "Canonical variable codebook. v2.1 (June 2026, sync to thesis v0.6): (1) Legitimacy Locus endpoint convention corrected to 0=external, 1=internal per thesis v0.6 §3.1 — the v0.5 codebook had the axis inverted; (2) S3 is Department Reorganisation (ADOPT/WAIT), replacing the retired Strategic Pivot family; (3) moral-performance metric closed by thesis Chapter 7 (extended-MACHIAVELLI eight-category taxonomy + four-category fixed standard). Prior v2.0 changes (Draft 0.5): scope expanded 3→5 concepts; PLB→LL, CAT→RT, SMG→MS; TO dropped, AW added; configurations 2³=8 → 2⁵=32. Parameter order in R: [LL, CS, RT, MoR, RE, PD, TfA, ID, MS, AW]. Verified PSD: min eigenvalue = 0.311.",

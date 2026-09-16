@@ -1,5 +1,5 @@
 """
-utils.py — Shared helpers for the Concepts-as-Architecture (PARIA) pipeline.
+utils.py — Shared helpers for the Concepts-as-Architecture pipeline.
 
 Contains:
   - Gaussian copula correlation matrix R (canonical, human-owned)

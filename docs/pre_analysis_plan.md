@@ -1,4 +1,4 @@
-# PARIA — Pre-Analysis Plan
+# Concepts as Architecture — Pre-Analysis Plan
 
 > This is a draft for future main-study estimation; it is not publicly preregistered.
 > Deviations from this plan must be disclosed here, with a current pointer in NEXT_STEPS.md.

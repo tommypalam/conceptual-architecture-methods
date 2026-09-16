@@ -1,4 +1,4 @@
-# PARIA: handoff to Codex on the desktop
+# Concepts as Architecture: handoff to Codex on the desktop
 
 Prepared 12 September 2026 for Tommaso Piero Palamenga.
 

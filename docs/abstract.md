@@ -1,6 +1,6 @@
 # Concepts as Architecture
 
-## A Probabilistic Framework for Encoding Political-Ethical Concepts in LLM-Based Agents
+## A Probabilistic Framework for Encoding Political-Ethical Concepts in Normative AI Agents
 
 **Tommaso Piero Palamenga — Bocconi University**
 
@@ -8,10 +8,10 @@
 
 Can explicit representations of ethical dispositions systematically shape an
 artificial agent's decisions during generation, and where does that shaping stop?
-This paper introduces PARIA, a framework for investigating how political-ethical
+This paper introduces Concepts as Architecture, a framework for investigating how political-ethical
 concepts influence individual and collective behaviour in large-language-model
 agents. Drawing on psychological accounts of freedom, justice, authority, care and
-loyalty, PARIA represents individual dispositions through ten bounded parameters
+loyalty, the framework represents individual dispositions through ten bounded parameters
 with Beta distributions coupled by a Gaussian copula. Profiles condition decision
 generation, and the application preserves the resulting choices without subsequent
 ethical answer substitution.
@@ -49,7 +49,7 @@ profiles can systematically influence generated decisions, the influence
 concentrates on one theoretically appropriate axis, and it disappears on tasks
 whose answer is already determined. They do not establish intrinsic ethical
 understanding, human behavioural equivalence, improved moral outcomes, or validity
-for the remaining nine coordinates. PARIA provides a reproducible experimental
+for the remaining nine coordinates. The framework provides a reproducible experimental
 framework for separating behavioural influence from stronger claims about ethical
 competence, and for locating the conditions under which normative representation
 in artificial agents does and does not operate.

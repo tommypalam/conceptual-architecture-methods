@@ -1,9 +1,11 @@
-# PARIA — Concepts as Architecture
+# Concepts as Architecture
+
+**A Probabilistic Framework for Encoding Political-Ethical Concepts in Normative AI Agents**
 
 **Can explicit ethical parameters shape how an AI agent makes decisions, and where
 does that shaping stop?**
 
-PARIA encodes five political-ethical concepts — freedom, justice, authority, care
+Concepts as Architecture encodes five political-ethical concepts — freedom, justice, authority, care
 and loyalty — as ten uncertainty-aware parameters, samples agents from their joint
 distribution, and measures whether the resulting profiles change decisions in
 fixed dilemmas.
@@ -271,4 +273,4 @@ are write-once. Raw data and archives are excluded from Git, so a clone is not t
 dataset; off-device backup is unverified.
 
 The wider [Cognitive Hexagon programme](docs/research_programme.md) supplies
-context; this repository's empirical claims concern PARIA only.
+context; this repository's empirical claims concern Concepts as Architecture only.

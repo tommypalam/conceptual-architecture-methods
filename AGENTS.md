@@ -1,4 +1,4 @@
-# AGENTS.md — PARIA / Concepts-as-Architecture Project Constitution
+# AGENTS.md — Concepts-as-Architecture Project Constitution
 
 ## Both load-bearing coordinates replicate on a second provider (2026-09-18)
 
@@ -756,7 +756,7 @@ unfaithful paraphrase do not by themselves justify changing theoretical meaning.
 
 ## Purpose
 
-PARIA tests whether canonical psychological definitions of five political-ethical concepts — freedom, justice, authority, care, and loyalty — can be encoded as uncertainty-aware parameter distributions that generate **distinguishable and interpretable** social dynamics in an LLM-powered agent-based simulation.
+This project tests whether canonical psychological definitions of five political-ethical concepts — freedom, justice, authority, care, and loyalty — can be encoded as uncertainty-aware parameter distributions that generate **distinguishable and interpretable** social dynamics in an LLM-powered agent-based simulation.
 
 This is a **proof-of-concept thesis**, not a completed methodology. All design decisions are provisional until empirically validated. Claims are candidates for development, not established results.
 
@@ -1000,7 +1000,7 @@ not a staged conversation.
 - Merge back to main only after the work has been verified.
 - Never commit directly to main during active development. Documentation-only changes (AGENTS.md, CLAUDE.md, NEXT_STEPS.md, README) are the only exception.
 
-**When to commit (PARIA-specific):**
+**When to commit (Concepts as Architecture-specific):**
 1. Config artefacts created or changed (parameters.json, correlation_matrix_R.json, configurations.json, seeds.json)
 2. Beta marginals or R confirmed against proxy instruments (with PSD re-verification)
 3. Phase gate passed or failed — logged with numbers, never silently

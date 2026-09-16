@@ -2,19 +2,19 @@
 
 > Wider-programme context supplied by the researcher. Maturity claims about
 > other modules have not been independently verified in this repository.
-> PARIA's authoritative current status is [NEXT_STEPS.md](../NEXT_STEPS.md).
-> This document does not serve as the abstract of the PARIA paper.
+> This project's authoritative current status is [NEXT_STEPS.md](../NEXT_STEPS.md).
+> This document does not serve as the abstract of the Concepts as Architecture paper.
 
 **Tommaso Piero Palamenga** · Bocconi University
 *A research programme on synthetic minds, and the one vertex of it currently under empirical execution.*
 
-> **What this document is.** A single readable map of a larger research programme (the Cognitive Hexagon) and a detailed status of its most-developed component (PARIA / "Concepts as Architecture"), which is currently being executed and validated in code. It is written to be read in one sitting instead of opening a heavy repository. Nothing here is offered as a finished result; each part is labelled with its real maturity.
+> **What this document is.** A single readable map of a larger research programme (the Cognitive Hexagon) and a detailed status of its most-developed component, *Concepts as Architecture*, which is currently being executed and validated in code. It is written to be read in one sitting instead of opening a heavy repository. Nothing here is offered as a finished result; each part is labelled with its real maturity.
 
 ---
 
 ## 1. The one-paragraph version
 
-The **Cognitive Hexagon** is an architecture for synthetic minds: six functional modules coupled in a closed loop (a *plane*), lifted by an axis of *interiority* (depth) and swept by an axis of *development* (time). Each module prices its operations in a single shared currency — **nats** (units of information) — so the modules are not a loose collection but an economy: what one spends, another must supply. Of the six modules, three are formally drafted and have "survived an adversary" (been stress-tested), two are early embryos, and one is proposed. **PARIA** is the execution of one of the mature modules — *Concepts as Architecture* — and is the only part of the programme with running code, real API experiments, and a locked empirical record. This document explains the whole shape, then reports exactly where PARIA stands.
+The **Cognitive Hexagon** is an architecture for synthetic minds: six functional modules coupled in a closed loop (a *plane*), lifted by an axis of *interiority* (depth) and swept by an axis of *development* (time). Each module prices its operations in a single shared currency — **nats** (units of information) — so the modules are not a loose collection but an economy: what one spends, another must supply. Of the six modules, three are formally drafted and have "survived an adversary" (been stress-tested), two are early embryos, and one is proposed. **Concepts as Architecture** is the execution of one of the mature modules and is the only part of the programme with running code, real API experiments, and a locked empirical record. This document explains the whole shape, then reports exactly where that module stands.
 
 ---
 
@@ -25,7 +25,7 @@ A mind is modelled as a **plane of six competences**, in two triads, wired so th
 | # | Module | Role | Status |
 |---|--------|------|--------|
 | 1 | **Cognitive Framework Index (CFI)** | *The engine* — relational, task-relative model of whole-agent intelligence (6 macros → 36 subdomains → facets; abilities as a coupling graph; capacity as a dynamical fixed point) | **BUILT** |
-| 2 | **Concepts as Architecture** (= PARIA) | *The behavioural governor* — 10-parameter probabilistic encoding of five political-ethical concepts (freedom, justice, authority, care, loyalty) that dictates how an agent reads the normative structure of its world | **Implemented; limited empirical support** |
+| 2 | **Concepts as Architecture** | *The behavioural governor* — 10-parameter probabilistic encoding of five political-ethical concepts (freedom, justice, authority, care, loyalty) that dictates how an agent reads the normative structure of its world | **Implemented; limited empirical support** |
 | 3 | **Abductive Magnitude** | *The generative accelerator* — scores an abductive leap by the structural magnitude of the generative path (not by whether it turned out correct) | **BUILT** |
 | 4 | **Reactive Grounding** | *The boundary organ* — concepts as decaying regions in feature space; learning as collision; revision only when the world pushes back | **EMBRYO** |
 | 5 | **Cultural Evolution** | *The social field* — culture as the composition of minds; objectivity as intersubjective incompressibility | **EMBRYO** |
@@ -53,9 +53,9 @@ This is why each draft calls itself a "fetus," "embryo," or "survived its advers
 
 ---
 
-## 4. PARIA — the vertex under execution (detailed status)
+## 4. Concepts as Architecture — the vertex under execution (detailed status)
 
-**PARIA** = *Concepts as Architecture* = Hexagon Vertex 2. It is the behavioural governor and the only module with running code and a locked empirical record. It is a Bocconi thesis in its own right.
+**Concepts as Architecture** is Hexagon Vertex 2. It is the behavioural governor and the only module with running code and a locked empirical record. It is a Bocconi thesis in its own right.
 
 ### 4.1 The research question
 > Can canonical psychological definitions of five political-ethical concepts — **freedom, justice, authority, care, loyalty** — be encoded as uncertainty-aware parameter profiles that generate *distinguishable and interpretable* social dynamics in an LLM-agent simulation?
@@ -65,7 +65,7 @@ The longer-term question is whether an agent understands an ethical concept. The
 ### 4.2 The encoding
 Each concept is represented through a canonical definition and mapped across **ten parameters** (e.g. Legitimacy Locus, Response Threshold, Relational Embedding, Moral Scope…) as **Beta distributions**, combined into a **10-dimensional joint distribution** via a **Gaussian copula** with a verified positive-semi-definite correlation matrix. Agents are sampled from this joint and placed in societal **configurations** (binary high/low on each of the five concepts). Six experimental dilemmas (three simple, three complex) exercise the framework, with locked, measured baselines. The tested full harness was non-neutral; deviation from 50/50 alone cannot be attributed to encoded parameters.
 
-### 4.3 PARIA evidence and current work
+### 4.3 Evidence and current work
 
 Phase 0 calibration, harness diagnostics, and the locked holdout are closed.
 The tested full harness materially altered several dilemma baselines. The
@@ -94,7 +94,7 @@ its conclusions remain contingent on completed experiments and review.
 
 ## 5. How the pieces fit
 
-PARIA is not a standalone demo — it is **Vertex 2 supplying a dependency the rest of the Hexagon waits on.** Cultural Evolution (Vertex 5) explicitly lists "Concepts as Architecture" as a *built input channel* it composes over. So the rigour PARIA is being held to — frozen prompts, honest baselines, refusing to fake a pass — is not thesis bureaucracy; it is laying one verified girder in a larger structure, so that what leans on it later leans on something real.
+This project is not a standalone demo — it is **Vertex 2 supplying a dependency the rest of the Hexagon waits on.** Cultural Evolution (Vertex 5) explicitly lists "Concepts as Architecture" as a *built input channel* it composes over. So the rigour this project is being held to — frozen prompts, honest baselines, refusing to fake a pass — is not thesis bureaucracy; it is laying one verified girder in a larger structure, so that what leans on it later leans on something real.
 
 ---
 
@@ -103,7 +103,7 @@ PARIA is not a standalone demo — it is **Vertex 2 supplying a dependency the r
 | Component | Maturity | One-line honest status |
 |-----------|----------|------------------------|
 | CFI (1) | Built (drafted, adversary-tested) | Formal spec exists; not yet instantiated as a running graph |
-| Concepts / PARIA (2) | **Implemented; limited empirical support** | Locked Phase 0, operational pilot, accepted scoped Phase 1.5 closure; broad validity unmet |
+| Concepts as Architecture (2) | **Implemented; limited empirical support** | Locked Phase 0, operational pilot, accepted scoped Phase 1.5 closure; broad validity unmet |
 | Abductive Magnitude (3) | Built (drafted, adversary-tested) | Executable metric on code traces; lateral term partly placeholder |
 | Reactive Grounding (4) | Embryo | Formal object + falsifier stated; toy world specified, not yet run |
 | Cultural Evolution (5) | Embryo | Composition operator specified; inputs not yet real |

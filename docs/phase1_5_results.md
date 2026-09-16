@@ -4,7 +4,7 @@ Manuscript draft, 12 September 2026. This account reports completed studies; it 
 
 ## Intervention and scope
 
-PARIA represents an agent using ten normatively motivated coordinates, sampled from Beta marginals linked by a Gaussian copula. The encoding-validity studies tested whether intervening on those coordinates changed decisions in fixed dilemmas. In the later studies, other coordinates were held constant within each paired background while the focal coordinate varied. All ten coordinates remained in the analysis.
+The framework represents an agent using ten normatively motivated coordinates, sampled from Beta marginals linked by a Gaussian copula. The encoding-validity studies tested whether intervening on those coordinates changed decisions in fixed dilemmas. In the later studies, other coordinates were held constant within each paired background while the focal coordinate varied. All ten coordinates remained in the analysis.
 
 Profiles were supplied before the behavioural model generated its response. The application retained raw responses and parsed decision labels; it did not apply an ethical rule to replace generated decisions. Consequently, measured profile effects concern decision generation in this application. They do not isolate the foundation model's latent computations or its training-time alignment mechanisms. The tested model was `gpt-5.4-mini-2026-03-17`; the later studies used temperature 1 and a 600-token output cap.
 
