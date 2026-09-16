@@ -1,5 +1,67 @@
 # CLAUDE.md — Concepts-as-Architecture Project Constitution
 
+## Position excluded: the effect is LABEL-bound, not line-bound (2026-09-18)
+
+`position_counterbalance_r1` closed the last structural alternative to the
+label-semantics reading. 2,241 calls, 2,240/2,240 valid, zero failures, $1.656796.
+Review accept, zero blocking issues.
+
+**The confound a reviewer identified.** In the rendered block PD is line 6 and AW
+is line 10, so `label_semantics_r1`'s swap moved the label AND its position
+together. A primacy effect over a numbered list would have produced its entire
+result (+0.339 / -0.036) with no label reading. **This was a genuine gap in our
+own claim, not a technicality, and it went unnamed until raised.**
+
+**The 2x2**, crossing binding with line order, 40 agents x 7 items x 8 cells:
+
+| Cell | Level on | At line | Effect | Holm | Items |
+|---|---|---:|---:|---:|---|
+| **A** | **PD** | **6** | **+0.393** | **~0** | **7+/0-** |
+| **C** | **PD** | **10** | **+0.271** | **~0** | 5+/1- |
+| B | AW | 10 | +0.061 | 0.157 | 6+/1- |
+| D | AW | 6 | +0.004 | 1.000 | 3+/2- |
+
+**LABEL factor +0.300. POSITION factor +0.032.**
+
+**Cell D is the decisive one:** level at line 6 - the privileged position under any
+primacy account - on the inert label, giving +0.004. Keep the label and move it
+four lines down (C) and the effect survives at +0.271.
+
+**Position is small, NOT zero.** The position contrast is +0.032 and A exceeds C by
++0.122, so a modest position component may ride on the label effect. Roughly an
+order of magnitude smaller; does not account for the finding. **Do not round it to
+"position is irrelevant".**
+
+**Three of four candidate mechanisms are now excluded**: block presence and
+verbosity by construction, free-floating extremity by the original swap, position
+by this designation. **Field-weighted extremity remains, and no design in this
+project separates salience from label semantics.**
+
+**Scope limits that must NOT be silently inherited.** This counterbalanced PD on
+GPT ONLY. `pd_crossmodel_r1` and `id_crossmodel_r1` ran no counterbalance, so
+their claims stay at *field-bound* - label-plus-position. ID's swap control
+(`label_semantics_r2`) carries the same position confound, unaddressed. And a
+label-bound effect is still NOT semantic understanding.
+
+**An invariant that earned its place.** `phase5_position_render.verify_render()`
+requires that reordering by the IDENTITY permutation return the input
+byte-for-byte. It failed on the first implementation: the template pads every
+entry with a leading space including entry 10, so the periods align, and the first
+version stripped it. Numeral multiset, line count, value and gloss preservation
+all passed - only the identity test caught it. **When transforming a frozen
+format, test the no-op.**
+
+**A provenance guard fired and was obeyed.** `prepare()` refused with "Frozen
+continuation source changed": the 18 September name removal had edited one
+docstring line in `code/utils.py`, pinned by every release built on it. **The
+pinned bytes were restored rather than the check loosened** - the guard cannot
+distinguish a comment from a logic change, which is what makes it worth having.
+`code/utils.py` therefore keeps the retired name in one docstring, a deliberate
+exception on the same footing as the frozen archive files. **Do not "fix" it.**
+
+Accounting: Claude $22.247448300/$32, OpenAI $12.741596175/$40, package
+$34.989044/$100. Usage estimates, not verified provider balances.
+
 ## Phase 6 begun: paper drafted; name retired; repository consolidated (2026-09-18)
 
 **The project name was retired** at the researcher's instruction. Live documents

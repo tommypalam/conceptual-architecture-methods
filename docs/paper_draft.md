@@ -51,7 +51,7 @@ label. And **position**: the two swapped labels sit at different lines of the
 block, so a primacy effect over a numbered list would mimic the result. We
 therefore claim a **field-bound label effect** — where "field" means the label
 together with the position it occupies — and explicitly disclaim semantic
-understanding. §3.3 specifies the 2×2 control that separates label from position.
+understanding. §5.2 reports the 2×2 control that separates label from position.
 
 The result we consider most informative is a failure. A third coordinate cleared
 a Holm-corrected bar at 25 agents (−0.131, Holm 0.00082), then measured −0.014
@@ -434,10 +434,41 @@ arms — 0.9 appears either way — so a model responding to extremity per se wo
 respond equally to both. What remains possible is that extremity matters *more in
 some fields than others*: a model might weight an extreme value by the salience of
 the field it occupies, which would produce this pattern without any semantic
-reading of the label. Our design cannot separate field-weighted extremity from
-a field-bound label effect, and we do not claim it does. What it
-establishes is that the effect is **bound to a specific field**, not free-floating
-in the prompt.
+reading of the label. Our design cannot separate field-weighted extremity from a
+label effect, and we do not claim it does.
+
+**A fourth mechanism, and the control that excludes it.** In the rendered block
+Procedural Dependence is line 6 and Affective Weighting is line 10, so the swap
+above moves the label *and its position together*. A model weighting earlier lines
+more heavily — an ordinary primacy effect over a numbered list — would produce the
+entire result with no label reading at all. We did not name this in earlier drafts
+and it was a genuine gap in the claim.
+
+`position_counterbalance_r1` decomposes it with a 2×2 crossing the binding with
+the line order. The block is re-rendered with the two entries exchanged, so the
+level can sit on Procedural Dependence at line 10 and on Affective Weighting at
+line 6; all four arms keep an identical numeral multiset, block length and line
+count. 2,241 calls, 2,240/2,240 valid.
+
+| Arm | Level on | At line | Effect | Holm | Items |
+|---|---|---:|---:|---:|---|
+| **A** | **Procedural Dependence** | **6** | **+0.393** | **≈ 0** | **7+/0−** |
+| **C** | **Procedural Dependence** | **10** | **+0.271** | **≈ 0** | 5+/1− |
+| B | Affective Weighting | 10 | +0.061 | 0.157 | 6+/1− |
+| D | Affective Weighting | 6 | +0.004 | 1.000 | 3+/2− |
+
+**Label factor +0.300; position factor +0.032.** The decisive cell is D: it places
+the level at line 6 — the privileged position under any primacy account — on the
+inert label, and yields +0.004. Keep the label and move it four lines down (C) and
+the effect survives.
+
+**Position is small, not zero**, and we do not round it away: the position
+contrast is +0.032 overall and A exceeds C by +0.122, so a modest position
+component may ride on top of the label effect. It is roughly an order of magnitude
+smaller and does not account for the finding.
+
+What the design therefore establishes is that the effect is **bound to the label
+string**. It does not establish that the binding is semantic — see §1.4 and §9.2.
 
 ### 5.3 The sweep
 
