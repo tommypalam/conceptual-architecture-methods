@@ -46,8 +46,15 @@ weaknesses and should drive any further collection:
   1. **Coverage is the principal limitation** - seven items on one model, six on
      the other, all workplace-resource vignettes with identical tied payoffs.
      No rewording fixes it. It is the venue critique's unaddressed second option.
-  2. **Section 9 (Related Work) is a stub** and cannot be written honestly
-     without a literature pass. **Do not fabricate citations.**
+  2. **Section 9 (Related Work) is WRITTEN, with citations supplied by the
+     researcher's literature search on 18 September, but NOT VERIFIED.** The
+     checklist is `docs/citation_verification.md` and it must be worked through
+     in a session with database access. Verify not only that each paper exists
+     but that it makes the claim attributed to it - a real paper cited for the
+     wrong finding is worse than a missing citation. **Do not remove the
+     citation-status banner at the top of the section until every row is
+     checked.** Still: do not fabricate citations, and do not add any the search
+     did not supply.
   3. **"Not verified cross-model" appears three times** and is awkward each time.
      Swap controls on haiku (~$2.50) would delete all three hedges.
   4. **The configuration counterfactual's absence is conspicuous** once the setup

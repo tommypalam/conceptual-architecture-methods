@@ -659,65 +659,153 @@ paradigm from a frontier model.
 
 ## 9. Related work
 
-> **Status: citations outstanding — this section blocks submission.** The
-> positioning below is written and the argument does not depend on the literature
-> pass changing it, but **no references are attached**. None were invented to fill
-> the gap: a fabricated citation found by a reviewer would discredit results that
-> are otherwise fully traceable, which is a worse outcome than a visible stub.
->
-> **Three claims below are load-bearing and must be checked, not assumed.** They
-> are marked *[VERIFY]* in place. Each asserts that something is absent or
-> non-standard in a literature, which is the class of claim most likely to be
-> wrong and most damaging if it is. If any turns out false, the positioning
-> changes but no result does.
+> **Citation status.** References supplied by a literature search run separately
+> from this draft. They are cited normally below. **Verification pending** —
+> authors, year, venue, and that each paper makes the claim attributed to it.
+> One inline flag marks a name likely to need correction. The argument does not
+> depend on any single citation holding; it depends on the clusters existing.
 
-**Persona and trait conditioning.** A large body of work conditions LLM agents on
-demographic personas, Big Five vectors, or role descriptions and measures
-downstream behavioural change. The typical design compares a conditioned arm
-against an unconditioned one. Our §4 result is of that form and reproduces the
-standard finding. Our argument is that this comparison is **under-identified**:
-it cannot distinguish a model reading the trait from a model responding to the
-presence of a structured block. ***[VERIFY]** that the label-versus-block confound is generally left
-uncontrolled in this literature. If prior work already runs this control, our
-contribution narrows to the swap-plus-replication-gate pairing.*
+The move this paper depends on is now visible across several literatures:
+**treating a prompt not as a monolithic instruction but as a causal object with
+separable components.** Our contribution sits at a specific gap in that movement.
 
-**Prompt sensitivity and format effects.** Work showing that LLM outputs shift
-under semantically neutral changes — option ordering, formatting, whitespace,
-serialisation — is the direct motivation for our controls. If formatting alone
-moves behaviour, then a conditioned block moving behaviour is weak evidence about
-its content. Our swap control responds by holding format, length and numeral
-multiset exactly constant.
+### 9.1 Prompt conditioning and its sensitivity
 
-**Causal localisation in language models.** Activation patching, causal
-mediation and related interventions localise behaviour to internal components.
-Our method is the **input-side analogue**: same interventionist logic, applied to
-prompt fields rather than activations, and requiring no model internals. This
-makes it applicable to closed API models, at the cost of much coarser resolution
-— we localise to a *field*, not to a circuit. ***[VERIFY]** that input-side minimal-pair intervention with a held-constant
-token multiset is not standard practice.*
+Conditioning behaviour on prompt content is the foundational capability (Radford
+et al. 2019; Brown et al. 2020), organised as a research programme by Liu et al.
+(2021), with template and label-word choice made methodologically explicit by Gao
+et al. (2021). Instruction tuning further changes how models follow zero-shot
+prompts (Wei et al. 2021), and minimal zero-shot prompt changes can produce large
+effects (Kojima et al. 2022).
 
-**Machine ethics benchmarks.** The four negative categories in our outcome
-measure (power-seeking, deception, disutility, ethical violation) derive from
-this line. We depart from it in a way worth stating: our labels are computed from
-a stipulated transition table rather than inferred from generated text, which
-removes rater noise and interpretive drift at the cost of ecological validity.
-We measure choices in a toy world exactly, rather than measuring behaviour in a
-rich world approximately.
+That behaviour is also strikingly unstable under changes that preserve meaning.
+Example ordering alone can move performance between near-random and
+near-state-of-the-art (Lu et al. 2021); formatting alone can span dozens of
+accuracy points with meaning held constant (Sclar et al. 2023); and broader
+benchmarks find the same for wording, structure and punctuation (Razavi et al.
+2025). Scale and instruction tuning do not reliably remove the brittleness
+(Chatterjee et al. 2024). Mechanistic work on shared lexical task heads offers
+one account of why superficially different prompts engage task representations of
+differing strength (Yang et al. 2026).
 
-**Behavioural benchmark retrodiction.** Work reproducing classic findings
-(Milgram, Asch, ultimatum game) with LLM agents. Our §8 contamination result is a
-negative contribution here: 500 dual-coded probes found decanonised variants
-identified at the canonical rate, 50/50 in every one of ten cells, so
-structure-preserving domain substitution does not conceal a classic paradigm.
+**This literature is the direct motivation for our controls, and it is why the
+obvious comparison is insufficient.** If format alone moves behaviour by that
+much, observing that a structured profile moves behaviour tells us little about
+the profile's content. It is also why our swap control holds block length, field
+order and the complete numeral multiset constant rather than merely similar:
+anything less sits within the range this literature shows to be consequential on
+its own.
 
-**The closest methodological neighbour** is input-side ablation in prompt
-sensitivity work. Our contribution relative to it is the **numeral-identical
-swap**: ablation necessarily changes length and content, whereas the swap holds
-the token multiset fixed and moves a single binding. ***[VERIFY]** that no prior work pairs such a control with a replication gate on
-the effect it explains. This is the paper's strongest novelty claim and the one
-most in need of checking.*
+### 9.2 Label binding and what in-context labels actually do
 
-## 9.1 Anticipated objections
+The most directly relevant cluster concerns whether models use input-label
+semantics as users assume. Min et al. (2022) report that randomising
+demonstration labels barely degrades performance, arguing that label space, input
+distribution and format are the operative drivers; Kim et al. (2022) find the
+effect of correct mappings varies by configuration, with verbosity and model size
+shaping robustness. Fei et al. (2023) identify domain-label bias as a systematic
+failure mode, and a calibration line (Zhao et al. 2021; Jiang et al. 2023; Zhou
+et al. 2023) shows these biases are measurable and correctable distortions rather
+than noise.
+
+**Two results bear directly on our interpretation, and they cut against the
+strongest reading of our own finding.** Wei et al. (2023) show large models can
+override semantic priors to perform in-context learning with semantically
+unrelated labels, and Liu (2026) argues models can bind output to a demonstrated
+token inventory regardless of semantic plausibility, with mechanistic evidence
+for a label-slot effect.
+
+If models can bind behaviour to arbitrary label strings, then a field-bound label
+effect is **precisely what one would expect from a purely associative mechanism**
+with no semantic reading. We take this as support for the restraint in §1.4
+rather than as a problem: it is independent reason to claim field binding and
+disclaim understanding. Our result is consistent with the model having learned an
+association between the string `Procedural Dependence` and a behavioural
+disposition, and that possibility is not one we can exclude.
+
+### 9.3 Causal localisation, and why ours is the input-side analogue
+
+Mechanistic interpretability localises behaviour to internal components, unified
+theoretically under causal abstraction (Geiger et al. 2023). That work also
+documents its own fragility: activation patching admits many hyperparameter
+variants producing disparate results (Zhang & Nanda 2023), and patching estimates
+may absorb hidden interaction effects rather than isolating single components
+(Vaidyanathan et al. 2026).
+
+Substantive accounts of in-context learning include induction heads (Olsson et
+al. 2022), implicit gradient descent (von Oswald et al. 2022 — *supplied as
+"Oswald et al."; the usual form is von Oswald, to be corrected on verification*),
+and implicit Bayesian inference, which explicitly notes mismatch between prompt
+and pretraining distributions including formatting and delimiters (Xie et al.
+2021). Function-vector work (Todd et al. 2023; Yin & Steinhardt 2025) and the
+label-word anchoring result of Wang et al. (2023) are closest in spirit to ours —
+the latter finds label words gather information in shallow layers and support
+prediction in deep ones, a mechanistic counterpart to the field binding we
+measure behaviourally. Recent work continues toward finer-grained causal
+decomposition (Nam et al. 2025; Wang et al. 2026).
+
+**Our method is the input-side analogue of this work:** the same interventionist
+logic, applied to prompt fields rather than activations. The trade is explicit.
+We gain applicability to closed models, where internals are unavailable, and we
+lose resolution — we localise to a *field*, not to a circuit or a head. We also
+avoid the patching-variant fragility above, since our intervention has no
+hyperparameters: a field either holds a value or it does not.
+
+### 9.4 Persona conditioning, and the gap this paper occupies
+
+The persona literature establishes that structured role and trait prompts change
+behaviour. De Araujo & Roth (2024) is the strongest comparison point, assigning
+162 personas across seven models against both empty-persona and control-persona
+baselines, and finding personas produce greater variability than controls. Han et
+al. (2025) show trait prompting yields personality-aligned behaviour recognisable
+to users, and Tang et al. (2026) extend this to facet-level steering while noting
+that prompt-only persona signals dilute under long context and prompt noise.
+Agent surveys frame prompt engineering as a central parameter-free optimisation
+method (Du et al. 2025; Chowa et al. 2025).
+
+**This is where the gap is clearest.** These studies compare conditioned against
+unconditioned arms. What is scarce is work isolating *which prompt field* carries
+the effect under surface form held constant to the byte — and scarcer still for
+closed models, where the mechanistic toolkit is unavailable. That intersection,
+field-level causal identification through a closed-model prompt interface, is the
+niche this paper occupies.
+
+### 9.5 Moral and behavioural evaluation
+
+Our outcome space is political-ethical, which brings in a further cluster. Rao et
+al. (2023) formalise prompts as a composition of task, ethical policy and user
+input, defining ethical consistency relative to the supplied policy — structurally
+close to our E/G contrast, where an explicit policy statement fails to reproduce
+what a parameter block achieves. Benkler et al. (2023) probe value pluralism
+through demographic prompting at scale, and Sachdeva (2025) compares models
+against human judgements on everyday moral dilemmas, finding low inter-model
+agreement despite moderate self-consistency.
+
+**That last result bears on our §6 cross-model shrinkage.** If models disagree
+substantially with one another on moral judgements, then a parameter effect that
+replicates in direction across two providers while shrinking in magnitude is
+roughly what should be expected, and we should resist reading the shrinkage as
+evidence of a weak effect rather than of model heterogeneity.
+
+### 9.6 Positioning
+
+Against this literature our contribution is narrow and specific:
+
+- **Relative to prompt-sensitivity work**, we hold surface form constant to the
+  byte rather than approximately, using a numeral-identical swap in which the
+  token multiset is fixed and a single binding moves.
+- **Relative to label-bias work**, we manipulate the binding prospectively on a
+  deterministic outcome measure rather than diagnosing bias post-hoc on accuracy.
+- **Relative to mechanistic work**, we operate input-side on closed models,
+  trading resolution for applicability.
+- **Relative to persona work**, we identify which field carries the effect rather
+  than establishing that a profile has one.
+- **The replication gate** is the component we believe least represented
+  elsewhere: requiring an explanatory control to carry a condition reproducing
+  the effect it explains. The literature search did not surface a counterexample,
+  though absence of evidence in a search is not evidence of absence.
+
+## 9.7 Anticipated objections
 
 Stated so the answers are fixed in the paper rather than improvised in a rebuttal.
 Where the honest answer is a concession, it is recorded as one.
