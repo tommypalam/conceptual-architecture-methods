@@ -44,10 +44,14 @@ numeral on an inert label gives −0.036 and +0.046, both non-significant.
 **What that does and does not exclude, stated here rather than in §8.** Holding
 the block, its length and its numeral multiset identical excludes block presence
 and verbosity *by construction*, and excludes *free-floating* numeric extremity by
-inference. It does **not** exclude **field-weighted extremity**: a model that
-weighted an extreme value by the salience of the field holding it would produce
-every result we report, with no semantic reading of the label. We therefore claim
-a **field-bound label effect** and explicitly disclaim semantic understanding.
+inference. It does **not** exclude two further mechanisms. **Field-weighted
+extremity**: a model weighting an extreme value by the salience of the field
+holding it would produce every result we report, with no semantic reading of the
+label. And **position**: the two swapped labels sit at different lines of the
+block, so a primacy effect over a numbered list would mimic the result. We
+therefore claim a **field-bound label effect** — where "field" means the label
+together with the position it occupies — and explicitly disclaim semantic
+understanding. §3.3 specifies the 2×2 control that separates label from position.
 
 The result we consider most informative is a failure. A third coordinate cleared
 a Holm-corrected bar at 25 agents (−0.131, Holm 0.00082), then measured −0.014
