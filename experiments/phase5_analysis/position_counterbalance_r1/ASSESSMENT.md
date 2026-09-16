@@ -35,12 +35,9 @@ contrast within that cell; Holm over all four cells as one family.
 | B | Affective Weighting | 10 | +0.061 | 0.0784 | 0.157 | 6+/1− |
 | D | Affective Weighting | 6 | +0.004 | 1.000 | 1.000 | 3+/2− |
 
-**The two factors, each averaged over the two comparisons that isolate it:**
-
-| Factor | Effect |
-|---|---:|
-| **LABEL** (position held fixed) | **+0.300** |
-| POSITION (label held fixed) | **+0.032** |
+**The label factor, averaged over the two comparisons that isolate it: +0.300.**
+The position factor is decomposed below rather than averaged, because averaging it
+is misleading.
 
 | Contrast | Holds fixed | Varies | Difference |
 |---|---|---|---:|
@@ -65,17 +62,66 @@ survives at +0.271.
 Cell A is positive on **all seven items**, with `rest_break` at +0.750,
 `storage_unit` +0.650 and `tool_library` +0.625.
 
-## What is NOT claimed: position is small, not zero
+## The position main effect is null; the interaction is not
 
-**The position contrast is not exactly zero.** It is +0.032 overall, and cell A
-exceeds cell C by +0.122. There may be a genuine position component riding on top
-of a much larger label effect — the same label appears to work somewhat better
-earlier in the block.
+An earlier version of this assessment reported "position +0.032, a modest
+component". **That was the wrong summary and is corrected here.** Averaging
+position across the two labels hides that it does opposite things on each: on PD
+line 6 beats line 10 by +0.121; on AW line 6 *trails* line 10 by −0.057. The
+average describes neither cell.
 
-The honest statement is therefore: **position is present but roughly an order of
-magnitude smaller than the label effect, and does not account for the finding.**
-It is not rounded to "position is irrelevant". A designation aimed at the position
-component specifically would need more than four cells and is not run here.
+Decomposed properly, with 95% intervals from a paired bootstrap over all 280
+agent-item units present in every cell:
+
+| Term | Estimate | 95% CI | Includes zero |
+|---|---:|---|---|
+| Position **main effect** | +0.032 | [−0.025, +0.088] | **yes** |
+| **Interaction** (position × label) | **+0.089** | **[+0.030, +0.150]** | no |
+| Position on the PD label (A − C) | **+0.121** | **[+0.046, +0.200]** | no |
+
+**There is no position main effect.** Cell D establishes that directly: the level
+at the privileged line on the inert label yields +0.004, so position does not act
+on the value independently of the label.
+
+**What survives is an interaction** — position modulates the magnitude of an
+already-present label effect. The label works somewhat better earlier in the
+block, and does nothing at either position when it is the wrong label. The
+interval is clear of zero, but the decomposition was **not prespecified** and
+rests on one designation; it is a finding to replicate, not an established
+magnitude.
+
+## The inert partner is less inert than assumed
+
+Every swap control in this project rests on Affective Weighting being inert. That
+premise now has **two prospective manipulation estimates of the same nominal
+condition** — the level on AW at line 10 — and they disagree in sign:
+
+| Designation | Estimate | *p* | Consistency |
+|---|---:|---:|---|
+| `label_semantics_r1`, SWAP arm | **−0.036** | 0.260 | 27+/37− pairs |
+| this designation, cell B | **+0.061** | 0.078 | **6 of 7 items positive** |
+
+A swing of 0.096, both null. **Nothing here breaks**: every claim resting on AW's
+inertness used a null, and both estimates are null.
+
+**But the pattern is the one this project withdrew a coordinate for.** The decision
+rule used throughout pairs statistical significance with directional consistency.
+Cell B has the consistency without the significance — six of seven items the same
+way, pooled test not clearing. LL went positive, negative, null across three
+measurements and was withdrawn; AW has now gone −0.036, +0.061 across two, while
+carrying the premise that makes every swap control interpretable.
+
+**AW's inertness accurately stated** rests on three post-hoc correlations, all
+non-significant after correction, plus two prospective estimates that agree in
+being null and disagree in sign. Earlier documents in this project described it as
+"measured inert by two independent methods"; that is weaker than it sounded, and
+this is the more accurate description.
+
+This does not license discarding the swap controls — a partner null in both
+estimates still supports the inference they draw. It does mean the inertness
+premise is an empirical claim with its own uncertainty rather than a design
+constant. A designation pinning AW as a coordinate in its own right, at adequate
+power, is the way to settle it. It has not been run.
 
 ## What this establishes
 

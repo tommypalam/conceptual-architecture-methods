@@ -457,15 +457,27 @@ count. 2,241 calls, 2,240/2,240 valid.
 | B | Affective Weighting | 10 | +0.061 | 0.157 | 6+/1− |
 | D | Affective Weighting | 6 | +0.004 | 1.000 | 3+/2− |
 
-**Label factor +0.300; position factor +0.032.** The decisive cell is D: it places
-the level at line 6 — the privileged position under any primacy account — on the
-inert label, and yields +0.004. Keep the label and move it four lines down (C) and
-the effect survives.
+**The label factor is +0.300.** The decisive cell is D: it places the level at
+line 6 — the privileged position under any primacy account — on the inert label,
+and yields **+0.004**. A generic serial-position account predicts slot 6 lifts
+whatever sits in it; D is the direct test and it fails.
 
-**Position is small, not zero**, and we do not round it away: the position
-contrast is +0.032 overall and A exceeds C by +0.122, so a modest position
-component may ride on top of the label effect. It is roughly an order of magnitude
-smaller and does not account for the finding.
+**There is no position main effect, but there is an interaction.** Averaging
+position across labels gives +0.032, and that average is the wrong summary:
+position does opposite things on the two labels (+0.121 on PD, −0.057 on AW).
+Decomposed, with 95% intervals from a paired bootstrap over all 280 agent-item
+units:
+
+| Term | Estimate | 95% CI |
+|---|---:|---|
+| Position main effect | +0.032 | [−0.025, +0.088] — includes zero |
+| **Interaction** | **+0.089** | **[+0.030, +0.150]** |
+| Position on the PD label (A − C) | **+0.121** | **[+0.046, +0.200]** |
+
+Position modulates the *magnitude of an already-present label effect* rather than
+acting on the value independently — which cell D rules out directly. The
+decomposition was not prespecified and rests on one designation; we report it to
+be replicated, not as an established magnitude.
 
 What the design therefore establishes is that the effect is **bound to the label
 string**. It does not establish that the binding is semantic — see §1.4 and §9.2.

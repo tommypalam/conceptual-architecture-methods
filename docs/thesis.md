@@ -317,7 +317,7 @@ here: it runs 0 = external, 1 = internal, and an earlier version of the
 repository had it inverted. An inverted axis with a calibrated mean produces a
 population that is systematically wrong in a way no statistical check would
 catch, because the distribution is perfectly well-formed. It is worth noting that
-Legitimacy Locus is also the parameter this thesis ends up withdrawing (§7.5),
+Legitimacy Locus is also the parameter this thesis ends up withdrawing (§7.6),
 though the two facts are unrelated.
 
 Two parameters are flagged for possible bimodality. Tolerance for Asymmetry and
@@ -1012,20 +1012,39 @@ line count:
 | B | Affective Weighting | 10 | +0.061 | 0.157 | 6+/1− |
 | D | Affective Weighting | 6 | +0.004 | 1.000 | 3+/2− |
 
-Averaging the two comparisons that isolate each factor: the **label factor is
-+0.300**, the **position factor +0.032**.
+**The label factor is +0.300.** The two comparisons that isolate it agree:
+A − D = +0.389 at line 6, C − B = +0.211 at line 10.
 
 **Condition D is the decisive one.** It places the level at line 6 — the
 privileged position under any primacy account — on the inert label, and produces
-**+0.004**. If position carried the effect, D should have resembled A; it
-resembles nothing. Keep the label and move it four lines down, as in C, and the
-effect survives at +0.271.
+**+0.004**. A generic serial-position account predicts that slot 6 lifts whatever
+sits in it; D is the direct test of that prediction and it fails. Keep the label
+and move it four lines down, as in C, and the effect survives at +0.271.
 
-**Position is small, not zero**, and this thesis does not round it away. The
-position contrast is +0.032 overall and A exceeds C by +0.122, so a modest
-position component may ride on top of a much larger label effect — the same label
-appears to work somewhat better earlier in the block. It is roughly an order of
-magnitude smaller and does not account for the finding.
+**The position factors, taken apart.** Averaging position across the two labels
+gives +0.032, and that average is the wrong summary, because position does
+opposite things on the two labels: on Procedural Dependence line 6 beats line 10
+by **+0.121**, while on Affective Weighting line 6 *trails* line 10 by **−0.057**.
+A single "position effect" describes neither. Decomposing properly, with 95%
+intervals from a paired bootstrap over all 280 agent-item units:
+
+| Term | Estimate | 95% CI |
+|---|---:|---|
+| Position **main effect** | +0.032 | [−0.025, +0.088] — **includes zero** |
+| **Interaction** (position × label) | **+0.089** | **[+0.030, +0.150]** |
+| Position **on the PD label** (A − C) | **+0.121** | **[+0.046, +0.200]** |
+
+**There is no position main effect.** What there is, is an interaction: position
+modulates the *magnitude of an already-present label effect*. The label works
+somewhat better earlier in the block, and does nothing at either position when it
+is the wrong label.
+
+That is a different and more interesting claim than "a modest position component".
+Nothing here shows position acting on the value independently of the label —
+condition D rules that out directly. The interval on the interaction is
+comfortably clear of zero, but it rests on a single designation and the
+decomposition was not prespecified; it is reported as a finding to replicate, not
+as an established magnitude.
 
 **The claim upgrades from field-bound to label-bound**, and the upgrade is
 bounded: this counterbalanced Procedural Dependence on the calibration model only.
@@ -1033,7 +1052,46 @@ The cross-provider results of Chapter 8 used the original swap and remain
 field-bound, and Internalisation Dependence's swap control carries the same
 confound unaddressed.
 
-## 7.4 The sweep
+## 7.4 The inert partner is less inert than assumed
+
+Every swap control in this thesis rests on one premise: that Affective Weighting
+is inert, so that moving a level onto it is equivalent to removing the level
+altogether. That premise now has two prospective manipulation estimates of the
+*same nominal condition* — the level on Affective Weighting at line 10 — and they
+disagree in sign.
+
+| Designation | Estimate | *p* | Item consistency |
+|---|---:|---:|---|
+| `label_semantics_r1`, SWAP arm | **−0.036** | 0.260 | 27+/37− pairs |
+| `position_counterbalance_r1`, condition B | **+0.061** | 0.078 | **6 of 7 items positive** |
+
+A swing of 0.096, with both estimates null. Nothing in this thesis breaks: every
+claim resting on Affective Weighting's inertness used a null, and both are null.
+
+**But the pattern deserves naming, because it is the one this thesis withdrew a
+parameter for.** The decision rule used throughout treats statistical significance
+and directional consistency as a pair that must both hold. Condition B has the
+consistency without the significance: six of seven items point the same way, and
+the pooled test does not clear the threshold. Legitimacy Locus went positive,
+negative, null across three measurements and was withdrawn (§7.6). Affective
+Weighting has now gone −0.036, +0.061 across two, while carrying the premise that
+makes every swap control interpretable.
+
+**The honest statement of what Affective Weighting's inertness rests on** is
+therefore: three post-hoc correlations, all non-significant after correction, plus
+**two prospective manipulation estimates that agree in being null and disagree in
+sign**. That is weaker than "measured inert by two independent methods", which is
+how earlier drafts of this work described it, and it is the more accurate
+description.
+
+This does not license discarding the swap controls. A partner that is null in both
+estimates still supports the inference those controls draw. It does mean the
+inertness premise is an empirical claim with its own uncertainty rather than a
+fixed property of the design, and a designation aimed at Affective Weighting
+specifically — pinning it as a coordinate in its own right, at adequate power —
+is the correct way to settle it. It has not been run.
+
+## 7.5 The sweep
 
 Eight of the remaining nine parameters were each pinned to their endpoints, 25
 agents across 7 items, with the Holm correction applied over all eight contrasts
@@ -1044,7 +1102,7 @@ now states rather than absorbs:
 | Parameter | Effect | Corrected *p* | Items | Load-bearing |
 |---|---:|---:|---|---|
 | **ID** Internalisation Dependence | **+0.143** | **0.00056** | 6+/1− | **yes** |
-| LL Legitimacy Locus | −0.131 | 0.00082 | 0+/6− | *see §7.5* |
+| LL Legitimacy Locus | −0.131 | 0.00082 | 0+/6− | *see §7.6* |
 | TfA Tolerance for Asymmetry | −0.103 | 0.111 | 2+/5− | no |
 | MoR Mode of Response | −0.097 | 0.069 | 1+/6− | no |
 | MS Moral Scope | −0.069 | 0.292 | 2+/5− | no |
@@ -1062,7 +1120,7 @@ The Items column counts only items with a non-zero difference; exact ties are
 omitted, which is why the counts do not all sum to seven. Every contrast ran on
 all seven items at 175 pairs.
 
-## 7.5 The most important result: a parameter that died
+## 7.6 The most important result: a parameter that died
 
 Legitimacy Locus cleared the sweep's threshold with the most directionally
 consistent pattern in it — negative in all six items showing any effect, none
@@ -1116,7 +1174,7 @@ condition reproducing the effect being explained. That requirement costs nothing
 beyond the additional conditions, and it converts a class of false positives into
 visible failures.
 
-## 7.6 What the two survivors have in common
+## 7.7 What the two survivors have in common
 
 Procedural Dependence and Internalisation Dependence are, on inspection, the two
 parameters whose definitions map most directly onto the structure of the items.
@@ -1421,22 +1479,51 @@ it.
 
 ## 11.2 Future work
 
-In order of value. First, a second task family: the narrowness
-of the present item set is what makes identification possible and what most
-limits the conclusions, and nothing else would do more to establish whether the
-map generalises. Second, swap controls on the second provider, which would
-upgrade both parameters from "moves the outcome" to "verified". Third, a
-position-counterbalanced swap — exchanging the two parameters' line positions as
-well as their labels — which would separate field identity from serial position
-(§3.3) at a cost of a few dollars, and an equivalence test against a stated bound
-to convert the sweep's seven nulls from "no effect this large" into a bounded
-claim. Fourth, the configuration counterfactual the framework specifies and this
-work never ran. Fifth, a pinning contrast on Affective Weighting, which would make
-the swap control's inert partner independently established rather than jointly
-identified (§3.2). Sixth, human behavioural comparison — the unmet deliverable,
+In order of value.
+
+**First, a second task family.** The narrowness of the present item set is what
+makes identification possible and what most limits the conclusions; nothing else
+would do more to establish whether the map generalises.
+
+**Second, the semantic inversion.** One alternative mechanism survives every
+control in this thesis: field-weighted extremity, where a model weights an extreme
+value by the salience of the field holding it rather than reading the label
+(§3.3). A two-condition design would bear on it. Relabel the field *Outcome
+Dominance* and invert the value, so that 0.10 on the new label encodes what 0.90
+encoded on the old. Position, block length, numeral multiset and formatting all
+hold. Field-weighted extremity predicts the behaviour **reverses**, because the
+extreme value has moved to the opposite end of the scale and the label is not
+being read; a semantic reading predicts the behaviour is **preserved**, because
+the two encodings mean the same thing. It would bear simultaneously on the
+associative-binding worry of §1.3, since a model with a learned link to the
+literal string *Procedural Dependence* also fails the inversion.
+
+Its weakness should be stated with it: unlike the counterbalance of §7.3, whose
+premise is a byte-level invariant, this control rests on a **human judgement that
+the inversion is semantically equivalent** — and §4.3 is precisely the finding
+that reviewer judgements about item properties do not predict what the model does.
+It is a genuine discriminator with a soft premise, worth its cost but not the same
+class of evidence as condition D.
+
+**Third, a pinning contrast on Affective Weighting.** §7.4 shows its inertness
+rests on two manipulation estimates that agree in being null and disagree in sign,
+while carrying the premise every swap control depends on. Pinning it as a
+coordinate in its own right, at adequate power, would make the inert partner
+independently established rather than jointly identified with the thing it is used
+to test.
+
+**Fourth, swap controls on the second provider**, which would upgrade both
+parameters from "moves the outcome" to "verified", and a position counterbalance
+there — the upgrade of §7.3 is confined to the calibration model.
+
+**Fifth, an equivalence test against a stated bound**, converting the sweep's
+seven nulls from "no effect this large" into a bounded claim.
+
+**Sixth, the configuration counterfactual** the framework specifies and this work
+never ran, and **seventh, human behavioural comparison** — the unmet deliverable,
 requiring resources this project did not have.
 
-A fifth direction is more speculative. Every study here manipulates a parameter
+An eighth direction is more speculative. Every study here manipulates a parameter
 and observes a choice. Nothing examines *what the agent says* about why it chose
 as it did, because the outcome measure was deliberately built to ignore generated
 text. A design that paired the deterministic classification with an independent
