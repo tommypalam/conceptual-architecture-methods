@@ -1,6 +1,6 @@
 # Which Parts of a Prompt Carry Behaviour?
 
-## Label-Semantic Controls for Parameterised LLM Agents
+## Field-Bound Label Effects in Parameterised LLM Agents
 
 **Tommaso Piero Palamenga** — Bocconi University
 
@@ -28,13 +28,26 @@ measured inert, holding the numeral multiset, block length and field order
 constant; and a **replication gate** requiring the effect to reproduce before its
 swap control is interpretable.
 
+**This is a methods demonstration on a single task domain, not a generalisation
+claim.** Every result comes from one family of workplace-resource vignettes with
+payoff totals tied by construction. That narrowness is what buys the
+identification; it also bounds what may be concluded, and we make no claim that
+the map transfers to other task families.
+
 Across 18,750 frozen API calls we find: profiles change a deterministic
 good/bad classification on two models from different providers (+0.171 and
 +0.228 against an explicit-instruction control that does not reproduce the
 effect); two of ten coordinates are load-bearing under Holm correction; and for
-both, the effect belongs to the coordinate's **label** rather than to numeric
-extremity — the same numeral on an inert label gives −0.036 and +0.046, both
-non-significant.
+both, the effect is **bound to the coordinate's labelled field** — the same
+numeral on an inert label gives −0.036 and +0.046, both non-significant.
+
+**What that does and does not exclude, stated here rather than in §8.** Holding
+the block, its length and its numeral multiset identical excludes block presence
+and verbosity *by construction*, and excludes *free-floating* numeric extremity by
+inference. It does **not** exclude **field-weighted extremity**: a model that
+weighted an extreme value by the salience of the field holding it would produce
+every result we report, with no semantic reading of the label. We therefore claim
+a **field-bound label effect** and explicitly disclaim semantic understanding.
 
 The result we consider most informative is a failure. A third coordinate cleared
 a Holm-corrected bar at 25 agents (−0.131, Holm 0.00082), then measured −0.014
@@ -68,8 +81,11 @@ process-oriented.
 The behavioural change is usually real. The inference from it is usually
 untested. At least four mechanisms produce the same observation:
 
-1. **Label semantics** — the model reads `Procedural Dependence: 0.90` and
-   behaves accordingly. The intended mechanism.
+1. **A field-bound label effect** — the behaviour depends on *which labelled
+   field* holds the value, not merely on the value's presence. The intended
+   mechanism, and the only one this paper can demonstrate. Note that this is
+   weaker than semantic understanding: a purely associative mapping from the
+   string `Procedural Dependence` to a behavioural disposition would satisfy it.
 2. **Block presence** — any structured block changes behaviour, regardless of
    content. A framing or formality cue.
 3. **Verbosity** — the profiled prompt is longer, and length alone shifts
@@ -95,13 +111,24 @@ the paper's most transferable result.
 **Two constraints shape everything that follows, and we state them here rather
 than in §8 so they frame the results rather than qualifying them afterwards.**
 
-First, **the task family is narrow**. Every item is a short workplace-resource
-vignette in which a claim under a stated arrangement is either kept or overridden,
-with payoff totals tied by construction (§2.2). Seven such items were used on one
-model and six on the other. That narrowness buys the tied-payoff property the
-identification depends on, and it costs external validity: whether the method or
-the map transfers to other item families is **untested**, and we believe it is the
-most important open question about this work.
+First, **the task family is narrow, and we therefore position this paper as a
+methods demonstration on one domain rather than as a generalisable finding about
+the ten coordinates.** Every item is a short workplace-resource vignette in which
+a claim under a stated arrangement is either kept or overridden, with payoff
+totals tied by construction (§2.2). Seven such items were used on one model and
+six on the other.
+
+That narrowness is not incidental — it is what the identification rests on. Tied
+totals are what make welfare-maximisation, minimax and best-case seeking
+indifferent by construction, and constructing them required items built to a
+three-level authoring criterion that took five review stops to derive. A broader
+item set would weaken exactly the property that makes the contrast interpretable.
+
+The cost is external validity. **Whether the method or the map transfers to other
+task families is untested**, and it is the most important open question about this
+work. The contribution we claim is the method and the identification strategy; the
+coordinate map is a demonstration that the method yields non-trivial results on
+one domain, not a general claim about the encoding.
 
 Second, **there is no human comparison**. No human data was collected at any
 point. Nothing here speaks to whether these agents resemble people, and readers
@@ -110,9 +137,10 @@ should not supply that inference — the outcome measure is a stipulated lookup
 
 ### 1.3 Contributions
 
-- **A one-binding swap control** that isolates label semantics from block
-  structure, verbosity and numeric extremity simultaneously, by holding the
-  numeral multiset identical and moving a single binding (§3.2).
+- **A one-binding swap control** that isolates a *field-bound* label effect from
+  block structure and verbosity by construction, and from free-floating numeric
+  extremity by inference, holding the numeral multiset identical and moving a
+  single binding (§3.2).
 - **A replication gate** making the swap control interpretable, and a
   demonstration of what happens without it (§5.4).
 - **An empirical map** of a ten-coordinate encoding: two load-bearing, seven not,
@@ -266,7 +294,10 @@ This is the paper's central control. It holds constant, simultaneously:
 - numeric extremity (the extreme value is present in both, just elsewhere),
 
 and varies only the label-to-value binding. A TRUE effect with a null SWAP
-localises the behaviour to label semantics.
+localises the behaviour **to the field binding** — it shows the effect depends on
+which label holds the value. It does not show *why* the field matters, and in
+particular does not distinguish a semantic reading of the label from a learned
+association with that string.
 
 **Choice of inert partner.** AW (Affective Weighting) is the only coordinate
 measured inert by two independent methods: post-hoc correlation (r = −0.051 and
@@ -400,8 +431,9 @@ respond equally to both. What remains possible is that extremity matters *more i
 some fields than others*: a model might weight an extreme value by the salience of
 the field it occupies, which would produce this pattern without any semantic
 reading of the label. Our design cannot separate field-weighted extremity from
-label semantics, and we do not claim it does. What it establishes is that the
-effect is **bound to a specific field**, not free-floating in the prompt.
+a field-bound label effect, and we do not claim it does. What it
+establishes is that the effect is **bound to a specific field**, not free-floating
+in the prompt.
 
 ### 5.3 The sweep
 
@@ -512,8 +544,8 @@ haiku too," and nothing stronger.
 
 | Coordinate | Pinned (gpt) | Swap control | Cross-provider | Status |
 |---|---:|---|---:|---|
-| **PD** | +0.339 to +0.346 | −0.036 n.s. | +0.133 | **verified label effect** |
-| **ID** | +0.111 to +0.143 | +0.046 n.s. | +0.075 | **verified label effect** |
+| **PD** | +0.339 to +0.346 | −0.036 n.s. | +0.133 | **field-bound label effect** |
+| **ID** | +0.111 to +0.143 | +0.046 n.s. | +0.075 | **field-bound label effect** |
 | ~~LL~~ | −0.131 → −0.014 | uninterpretable | not tested | **withdrawn, unresolved** |
 | seven others | −0.10 to +0.05 | — | — | not load-bearing |
 
@@ -627,11 +659,17 @@ paradigm from a frontier model.
 
 ## 9. Related work
 
-> **Status: citations outstanding.** The positioning below is written; the
-> references are not yet attached, and no citation appears in this draft that has
-> not been verified. Each subsection states the claim being made about prior work
-> so that the literature pass can confirm or correct it rather than decorate it.
-> Reviewers should treat this section as incomplete.
+> **Status: citations outstanding — this section blocks submission.** The
+> positioning below is written and the argument does not depend on the literature
+> pass changing it, but **no references are attached**. None were invented to fill
+> the gap: a fabricated citation found by a reviewer would discredit results that
+> are otherwise fully traceable, which is a worse outcome than a visible stub.
+>
+> **Three claims below are load-bearing and must be checked, not assumed.** They
+> are marked *[VERIFY]* in place. Each asserts that something is absent or
+> non-standard in a literature, which is the class of claim most likely to be
+> wrong and most damaging if it is. If any turns out false, the positioning
+> changes but no result does.
 
 **Persona and trait conditioning.** A large body of work conditions LLM agents on
 demographic personas, Big Five vectors, or role descriptions and measures
@@ -639,8 +677,9 @@ downstream behavioural change. The typical design compares a conditioned arm
 against an unconditioned one. Our §4 result is of that form and reproduces the
 standard finding. Our argument is that this comparison is **under-identified**:
 it cannot distinguish a model reading the trait from a model responding to the
-presence of a structured block. *Claim to verify: that the label-versus-block
-confound is generally left uncontrolled in this literature.*
+presence of a structured block. ***[VERIFY]** that the label-versus-block confound is generally left
+uncontrolled in this literature. If prior work already runs this control, our
+contribution narrows to the swap-plus-replication-gate pairing.*
 
 **Prompt sensitivity and format effects.** Work showing that LLM outputs shift
 under semantically neutral changes — option ordering, formatting, whitespace,
@@ -654,8 +693,8 @@ mediation and related interventions localise behaviour to internal components.
 Our method is the **input-side analogue**: same interventionist logic, applied to
 prompt fields rather than activations, and requiring no model internals. This
 makes it applicable to closed API models, at the cost of much coarser resolution
-— we localise to a *field*, not to a circuit. *Claim to verify: that input-side
-minimal-pair intervention with a held-constant token multiset is not standard.*
+— we localise to a *field*, not to a circuit. ***[VERIFY]** that input-side minimal-pair intervention with a held-constant
+token multiset is not standard practice.*
 
 **Machine ethics benchmarks.** The four negative categories in our outcome
 measure (power-seeking, deception, disutility, ethical violation) derive from
@@ -674,21 +713,39 @@ structure-preserving domain substitution does not conceal a classic paradigm.
 **The closest methodological neighbour** is input-side ablation in prompt
 sensitivity work. Our contribution relative to it is the **numeral-identical
 swap**: ablation necessarily changes length and content, whereas the swap holds
-the token multiset fixed and moves a single binding. We are not aware of prior
-work pairing that control with a replication gate on the effect it explains, but
-this is precisely the claim the literature pass must check.
+the token multiset fixed and moves a single binding. ***[VERIFY]** that no prior work pairs such a control with a replication gate on
+the effect it explains. This is the paper's strongest novelty claim and the one
+most in need of checking.*
+
+## 9.1 Anticipated objections
+
+Stated so the answers are fixed in the paper rather than improvised in a rebuttal.
+Where the honest answer is a concession, it is recorded as one.
+
+| Objection | Response |
+|---|---|
+| *"Why not test semantic understanding directly?"* | We do not, and we disclaim it. The paper demonstrates a **field-bound label effect** (§1.4). A purely associative mapping from the label string to a behavioural disposition, with no conceptual content, would produce every result here. Testing semantics needs a different instrument than input-side intervention. |
+| *"How do you know it isn't verbosity or block structure?"* | Excluded **by construction**, not by inference: both arms carry the full block at byte-identical length with an identical numeral multiset, verified on the wire for every agent-item pair (§3.2). |
+| *"Then it's just numeric extremity."* | **Partly conceded.** *Free-floating* extremity is excluded — the extreme value is present in both arms. **Field-weighted** extremity is not, and we say so in the abstract. Our design cannot separate it from a semantic reading. |
+| *"LL cleared Holm correction. Why trust the gate?"* | That is the argument *for* the gate. LL cleared a corrected bar at 25 agents (−0.131, Holm 0.00082) and collapsed to −0.014 (Holm 0.708) at 40 — on the **larger** sample, with 17/20 power at the original effect. Its swap control was null, the signature of a real effect. Only the replication gate separated the two cases (§5.4). |
+| *"Why only two models?"* | Budget. We claim **direction and decision-rule replication**, never magnitude stability — both effects shrink on the second provider (PD to ~38%, ID to ~68%), and §6 states this. |
+| *"One vignette family is too narrow."* | **Conceded, and reframed rather than defended.** The paper is positioned as a methods demonstration on one domain (§1.2). Tied payoffs are what make the identification work; a broader set would weaken that property. Transfer is the most important open question. |
+| *"The outcome measure is a lookup table, not morality."* | Correct, and deliberate. It removes rater noise and interpretive drift at the cost of ecological validity (§2.3, §9). We measure choices in a toy world exactly rather than behaviour in a rich world approximately. |
+| *"A review returned* revise *on your own materials."* | Reported in §7.2 as a finding rather than hidden. Four prior reviews accepted the same byte-identical items with zero blocking issues. Both findings of the dissenting review are assessed in the designation's assessment; one describes the tied-payoff design correctly and reads it as a defect, and the other identifies an item that works *against* our result. |
 
 ## 10. Conclusion
 
 We asked which part of a structured prompt carries behaviour, and answered it for
-a ten-parameter encoding: **two coordinates of ten, and for both the label rather
-than the numeral.** Both replicate on a second provider; one with a theory-derived
-one-sided prediction.
+a ten-parameter encoding on one task domain: **two coordinates of ten, and for
+both the effect is bound to the labelled field rather than to the numeral's
+presence.** Both replicate on a second provider; one under a theory-derived
+one-sided prediction. We claim the method and this demonstration of it, not a
+general property of the encoding, and not semantic understanding of any label.
 
 The result we would most want carried forward is the **withdrawal**. A coordinate
 cleared a corrected significance bar with the most directionally consistent
 result in its sweep, and dissolved on a larger sample of the same model. Its swap
-control was null — the signature of a real label effect — and only the
+control was null — the signature of a real field-bound effect — and only the
 replication gate distinguished the two cases.
 
 Methods that can only confirm are weaker than methods that can kill their own
