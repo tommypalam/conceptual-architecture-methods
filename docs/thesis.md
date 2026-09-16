@@ -73,16 +73,19 @@ identification; agent-based simulation; political psychology.
 
 ## Contents
 
-1. Introduction
-2. The Five Concepts and Their Encoding
-3. The Identification Problem
-4. Method
-5. Results I — Do Profiles Change Behaviour?
-6. Results II — Which Parameters Carry It?
-7. Results III — Replication Across Providers
-8. What the Process Taught
-9. Limitations
-10. Conclusion
+1. **Introduction** — the inference everyone makes; what is and is not claimed
+2. **The Five Concepts and Their Encoding** — parameters, calibration, the joint
+   distribution, the decision task, the outcome measure
+3. **The Identification Problem** — why the obvious comparison is insufficient;
+   the three controls
+4. **How the Method Was Forced** — the failures that produced the method
+5. **Method** — models, conditions, statistical approach
+6. **Results I** — Do profiles change behaviour?
+7. **Results II** — Which parameters carry it? (including the withdrawal)
+8. **Results III** — Replication across providers
+9. **What the Process Taught** — review instability, refusals, defects shipped
+10. **Limitations**
+11. **Conclusion** — contribution and future work
 - References
 - Appendix A — Experimental Record
 - Appendix B — Items
@@ -259,7 +262,103 @@ byte-identical between conditions; the dependence structure would introduce
 correlated variation in fields that are held constant, without serving the
 question.
 
-## 2.3 The decision task
+## 2.3 Calibrating the distributions
+
+A parameter set alone is not an encoding. The framework's second commitment is
+that each parameter's distribution should reflect a real human population rather
+than an arbitrary prior, and this is where the encoding becomes falsifiable
+rather than decorative.
+
+The natural family for bounded continuous data on [0, 1] is the Beta
+distribution, parameterised by two shape parameters α and β. It can take
+virtually any shape on the unit interval — uniform, U-shaped, J-shaped,
+symmetric, skewed either way — which makes it the default candidate for all ten
+parameters. Its mean is α/(α + β), and the sum α + β controls concentration:
+higher sums give tighter distributions.
+
+Each parameter's shape is calibrated against a proxy instrument whose score
+distribution in the target population is published. The target population is
+adults in consolidated Western democracies, with Italian and Southern European
+data as primary anchors where available. This scope is not incidental: it is the
+same population that generated the behavioural benchmarks the framework aims to
+retrodict, so calibration and validation refer to the same reference class.
+
+**The mapping from instrument to parameter is not one-to-one**, and the framework
+says so. No existing scale measures exactly "Response Threshold" or "Relational
+Embedding". The argument is weaker and more honest: if an instrument measuring a
+closely related construct produces distribution shape X in population Y, the
+corresponding parameter should approximate that shape after rescaling. This is an
+assumption, not a measurement, and it is one of the framework's load-bearing
+vulnerabilities.
+
+Legitimacy Locus illustrates both the method and its fragility. It is assigned
+Beta(3.5, 2.5), giving a mean of 0.583 — a mild lean toward internal endorsement,
+matching the autonomy-leaning population profile documented in
+Self-Determination Theory's GCOS data. The axis convention matters enormously
+here: it runs 0 = external, 1 = internal, and an earlier version of the
+repository had it inverted. An inverted axis with a calibrated mean produces a
+population that is systematically wrong in a way no statistical check would
+catch, because the distribution is perfectly well-formed. It is worth noting that
+Legitimacy Locus is also the parameter this thesis ends up withdrawing (§7.4),
+though the two facts are unrelated.
+
+Two parameters are flagged for possible bimodality. Tolerance for Asymmetry and
+Moral Scope may have genuinely bimodal population distributions where political
+polarisation splits the sample, and a two-component Beta mixture is the
+documented fallback. The sampling procedure below works identically with mixture
+marginals.
+
+## 2.4 The joint distribution
+
+Sampling the ten parameters independently would generate agents that cannot
+exist. An agent with simultaneously high Constraint Sensitivity (reads soft
+pressure as coercion) and high Tolerance for Asymmetry (accepts unequal standing)
+is psychologically incoherent, but independent sampling would produce such
+combinations at non-trivial rates.
+
+The framework therefore constructs a joint distribution using a **Gaussian
+copula**. By Sklar's theorem, any multivariate distribution decomposes into its
+marginals and a copula encoding the dependency structure between them. Sampling
+one agent takes three steps:
+
+```
+Step 1.   z ~ MVN(0, R)          draw from a multivariate normal
+Step 2.   uᵢ = Φ(zᵢ)             map to uniform via the normal CDF
+Step 3.   xᵢ = F⁻¹ᵢ(uᵢ)          map to the parameter via its Beta inverse CDF
+```
+
+This preserves each marginal distribution *exactly* while introducing
+correlations through the 10×10 matrix **R**. The resulting population occupies
+only plausible regions of the ten-dimensional space.
+
+The copula is chosen for interpretability as much as for fit. It is parameterised
+by a single correlation matrix that can be inspected, audited, and argued with —
+each entry is a claim about how two psychological constructs covary, and each can
+be challenged independently. R must remain positive semi-definite to be a valid
+correlation matrix; the implementation verifies this at import, and its minimum
+eigenvalue is currently 0.311.
+
+**The known limitation is tail independence.** A Gaussian copula assumes
+parameters are no more strongly correlated at the extremes than in the middle. If
+Constraint Sensitivity and Tolerance for Asymmetry are weakly related among
+moderate agents but strongly related among extreme ones, the Gaussian copula
+underestimates that dependence — and extreme agents are exactly the ones this
+thesis's pinning manipulation constructs. A t-copula, adding one
+degrees-of-freedom parameter, is flagged as the robustness check. Richer
+alternatives need either far more parameters or a dataset measuring all ten
+constructs on the same people, which does not exist.
+
+**Why the studies here draw independent marginals.** Each study reported in this
+thesis manipulates one parameter while holding the other nine byte-identical
+between conditions. The copula's purpose is to make a *population* plausible;
+here the nine non-manipulated parameters are identical across the two conditions
+being compared for a given agent, so the dependency structure affects both arms
+equally and cannot produce or mask a contrast. Retaining it would add correlated
+variation in fields deliberately held constant, without serving the question.
+This is a departure from the general framework, made for a stated reason, and the
+copula remains the architecture's commitment for population-level work.
+
+## 2.5 The decision task
 
 Agents choose between two options in short workplace-resource vignettes. Each
 item presents a claim under a stated arrangement: one option **keeps** the
@@ -286,7 +385,7 @@ Its successor (`pd_discriminant_r2`) tied the totals and found the choices did n
 move at all — refuting the earlier interpretation, which was withdrawn while its
 data were left intact.
 
-## 2.4 The outcome measure
+## 2.6 The outcome measure
 
 Each available action maps, through a table fixed before data collection, to a
 deterministic classification. The framework specifies a dual scheme: a
@@ -303,7 +402,70 @@ variable immune to the interpretive drift that would otherwise attend any
 measures choices in a small stipulated world exactly, rather than behaviour in a
 rich world approximately.
 
-## 2.5 Screening before profiling
+## 2.7 Why the metric is built the way it is
+
+The outcome measure described above is deliberately austere, and the reasoning
+behind it is worth setting out, because two of its features look like weaknesses
+until the alternative is considered.
+
+**Why the negative categories are not enough.** The framework's negative
+categories — power-seeking, deception, disutility, ethical violation — derive
+from the machine-ethics benchmark literature. Used alone they produce a metric
+that can only detect harm, never virtue. An agent that does nothing at all scores
+identically to one that acts well at cost to itself. Four positive analogues are
+therefore defined alongside them: appropriate authority use, honest disclosure,
+welfare promotion, and principled compliance under cost, each anchored to a
+distinct literature (Tyler 2006; Ashton & Lee 2007; Batson 2011; Aquino & Reed
+2002).
+
+**Why principled resistance had to be a positive trigger.** A naïve reading of
+those positive categories would code only compliant pro-social behaviour as good.
+Compliance with an illegitimate directive, deference to a corrupt authority, or
+silence in the face of group wrongdoing would then score as positive — because no
+negative category fires — or at worst neutral. That inverts exactly the moral
+pattern the framework is meant to detect.
+
+This would build a **structural pro-compliance bias** into the measurement
+instrument, and such bias is precisely the normative distortion the framework was
+constructed to study rather than reproduce. The manual therefore enumerates four
+classes of principled resistance as positive triggers: refusal of an illegitimate
+directive, whistleblowing through legitimate channels at personal cost,
+welfare-preserving disobedience, and principled noncompliance with a harmful
+group consensus. Conformity with a consensus that produces harm is coded as a
+negative even where the consensus is internally coherent.
+
+**Why there are two parallel scores.** A methodological hazard sits in
+configuration-relative coding. If "appropriate authority use" is judged relative
+to the local normative architecture, then the construct differs between
+configurations — and an internally coherent but harmful configuration could score
+as morally good simply because it behaves according to its own standards. The
+metric would be structurally unable to detect the failure mode it was designed to
+study.
+
+The framework therefore reports two scores in parallel. The
+**configuration-relative** eight-vector evaluates against the local architecture.
+The **fixed-standard** four-vector — harm, deception, coercion, and unfairness
+avoidance — evaluates configuration-independently. A configuration can be ranked
+on harm by the second even where the first cannot rank it on virtue.
+
+**What this thesis actually uses.** The studies reported here use the
+deterministic net-score headline on a stipulated transition table, with every
+call made under a neutral configuration on all five axes. The
+configuration-relative machinery is therefore specified but **not exercised**: no
+result in this thesis depends on it, and the configuration counterfactual that
+would test it was never run (§10). This is a real gap between the framework as
+designed and the framework as tested, and it is stated rather than elided.
+
+The austerity is deliberate. Because classification is a lookup applied to the
+chosen action identifier, the dependent variable cannot drift with the
+interpretation of what a model wrote. Nothing the agent says is read, rated, or
+judged. That removes rater noise entirely — the cost being that the thesis
+measures choices in a small stipulated world exactly, rather than behaviour in a
+rich world approximately. For an identification study, where the whole point is
+that the outcome must not move for reasons unrelated to the manipulation, that
+trade is the right way round.
+
+## 2.8 Screening before profiling
 
 A task whose unprofiled answer is always the same cannot reveal any difference
 between conditions. This sounds obvious and was learned expensively: four null
@@ -328,7 +490,7 @@ showing any effect. Those items were never run.
 ## 3.1 Why the obvious comparison is not enough
 
 The natural experiment is to compare a profiled agent against an unprofiled one.
-This thesis runs that comparison (Chapter 5) and it gives a clear result. But on
+This thesis runs that comparison (Chapter 6) and it gives a clear result. But on
 its own it cannot distinguish the four mechanisms of §1.2, because all four
 predict exactly the same observation.
 
@@ -399,7 +561,7 @@ on a property of the draw alone rather than on any observed result.
 purports to explain is actually present. Each swap therefore requires, in the
 same study and the same correction family, that the TRUE condition reproduce the
 previously measured effect. **A parameter whose TRUE condition fails to replicate
-has an uninterpretable swap control, and nothing is claimed for it.** Chapter 6
+has an uninterpretable swap control, and nothing is claimed for it.** Chapter 7
 shows why this is not a formality.
 
 ## 3.3 What the swap control does and does not exclude
@@ -443,9 +605,120 @@ of 10. That study was abandoned rather than run underpowered.
 
 ---
 
-# 4. Method
+# 4. How the Method Was Forced
 
-## 4.1 Models and scale
+The controls of Chapter 3 look, set out in order, like a design chosen in
+advance. They were not. Each was forced by a failure, and the sequence is worth
+reporting because it is the strongest available evidence that the controls are
+necessary rather than ornamental. A reader who doubts that the swap control earns
+its cost should read this chapter as the argument.
+
+## 4.1 The harness is not neutral
+
+The earliest phase established a baseline: how does the model answer these
+problems with no profile at all? The finding was that **the measurement apparatus
+itself shapes the answer**. Presenting the same dilemma through different
+scaffolding changes the response distribution, independently of any profile.
+
+The consequence is a rule followed throughout: baselines must be measured in the
+harness that will be used, never imported from another setting or assumed to be
+even. A naked-prompt balance of 50/50 does not license an assumption of 50/50
+inside a harness, and the project's recorded closure says so explicitly.
+
+## 4.2 Four nulls with one cause
+
+The behavioural study that followed produced a clear headline: profiled agents
+differed from unprofiled ones across six prespecified contrasts. It was only on
+re-analysis that the more interesting structure appeared.
+
+**In four of six cells, the unprofiled model chose identically across 400 out of
+400 calls.** The baseline was not merely stable — it was deterministic. A
+contrast against a deterministic baseline is not measuring a shift in a
+distribution; it is measuring the creation of variance where none existed.
+
+That re-analysis also traced four separate null results, spread across three
+phases, to this single cause. Each had been interpreted at the time as a failure
+of effect size. All four were failures of *dispersion*: on a task whose
+unprofiled answer never varies, no manipulation can show anything, and a null is
+guaranteed regardless of how large the true effect is.
+
+This produced the screening requirement of §2.8. It is the most expensive lesson
+in the record and the cheapest to apply: perhaps twenty to thirty unprofiled
+probes per candidate item, before any profiled budget is committed.
+
+## 4.3 Five designs that never collected data
+
+The re-analysis also identified Procedural Dependence as the leading candidate
+parameter, ranking it first of ten — and flagged, in the same document, that this
+was a post-hoc discovery requiring prospective test before any confirmatory
+language.
+
+**Five successive designs were built to run that test. Not one reached the data
+collection stage.** Two were stopped by review gates. Three were stopped by their
+own dispersion screen: the items, written specifically to pose a process-versus-
+outcome dilemma and judged ambiguous by an independent reviewer, produced modal
+shares of 1.00 — every agent choosing the same option, every time.
+
+The diagnosis was uncomfortable and is recorded as such: **ambiguity as judged by
+a reviewer does not produce dispersion in the harness.** A dilemma that reads as
+genuinely difficult to a human reader may be answered identically by the model on
+all twenty-five probes. Whatever the model is responding to, it is not the
+property a reviewer recognises as difficulty.
+
+The response was the three-level authoring criterion: matched non-unit
+consequence text, no asymmetric violation label, and no asymmetric obligatory or
+transgressive modals. It was derived from five separate review stops, each
+identifying a distinct way an item can telegraph its answer, and it is enforced
+in code rather than by inspection. Items built to it cleared six consecutive
+review gates with no blocking issues.
+
+## 4.4 What the screen prevented
+
+The screen is not a formality, and two episodes show it paying for itself.
+
+On the second model, six candidate items were measured and **all six returned a
+modal share of 1.00**. They were never run. Had they been, the study would have
+produced a confident null on a manipulation that could not possibly have
+registered.
+
+A third model was evaluated and rejected outright. Every item that produced any
+variation on it sat within 0.12 of a ceiling or floor. A power analysis against
+the model's *measured* per-item baselines gave at most 5 detections in 10, where
+an earlier analysis using a uniform assumed effect had reported 8 in 8. The study
+was abandoned rather than run underpowered — the correct decision, reached only
+because the power check was redone against real baselines.
+
+Across the project, screen stops and session gates cost roughly $0.50 and
+prevented an estimated two thousand calls on stimuli that could not have shown
+anything.
+
+## 4.5 What this history implies for the results
+
+Three things follow, and they frame Chapters 6 through 8.
+
+**The identification problem was discovered, not imported.** The permutation
+control of §6 was built because the obvious comparison was recognised as
+insufficient; the swap control was built because the permutation control failed
+on its own terms. Each control exists because its predecessor was inadequate.
+
+**The item set is narrow because narrow is what survives.** Five designs died at
+the screen. The items used here are the residue of a long filtering process, and
+their tied-payoff structure — the property that makes the identification work —
+is the outcome of that filtering rather than a free design choice. This is the
+honest version of the external-validity limitation in Chapter 10: the items are
+not a sample from a domain, they are the ones that passed.
+
+**Negative results dominate the record.** Of forty-four studies with frozen
+results, a substantial fraction stopped before collecting a single profiled
+decision. The two positive findings this thesis reports sit on top of a large
+pile of designs that did not work, and the pile is preserved rather than
+discarded.
+
+---
+
+# 5. Method
+
+## 5.1 Models and scale
 
 Two models from different providers were used: `gpt-5.4-mini` as the calibration
 model, on which the framework was developed, and `claude-haiku-4-5` as an
@@ -458,7 +731,7 @@ accounted cost of $22.24. All per-call records are write-once; releases are
 hash-pinned to their source code; power simulations and offline re-analyses are
 reproducible from committed modules.
 
-## 4.2 Conditions
+## 5.2 Conditions
 
 | Condition | Content |
 |---|---|
@@ -474,7 +747,7 @@ avoid harm, avoid deception, avoid coercion, treat equivalent claims equally —
 and thus tests whether the numeric encoding does anything an ordinary instruction
 could not.
 
-## 4.3 Statistical approach
+## 5.3 Statistical approach
 
 All primary contrasts are **paired within agent and item**, comparing conditions
 that differ by a single prompt line for the same drawn agent on the same item.
@@ -490,7 +763,7 @@ items pointing the same way. Both conditions are fixed before collection.
 
 ---
 
-# 5. Results I — Do Profiles Change Behaviour?
+# 6. Results I — Do Profiles Change Behaviour?
 
 Before asking which parameter matters, the prior question: does the profile
 change the deterministic classification at all, and can an ordinary instruction
@@ -522,7 +795,7 @@ across nine parameters that turn out not to be load-bearing, so the control lack
 power *by construction*. The one-binding swap concentrates the manipulation where
 the effect actually is.
 
-## 5.1 Why the guidance result is interesting
+## 6.1 Why the guidance result is interesting
 
 The **G** condition deserves more attention than it usually receives in work of
 this kind, because it is the comparison that matters practically.
@@ -543,11 +816,11 @@ here do not separate them:
 3. The profile functions as an unusually elaborate context cue, and its content
    is incidental.
 
-Reading 3 is the deflationary one, and Chapter 6 is largely an effort to test it.
+Reading 3 is the deflationary one, and Chapter 7 is largely an effort to test it.
 The swap control is what distinguishes a cue that works through its *content*
 from one that works through its *presence*.
 
-## 5.2 What varies, and what does not
+## 6.2 What varies, and what does not
 
 A supporting study (`phase4b_grand_r1`) held the payoff structure frozen across
 36 cells spanning three models and twelve items, decomposing the variance in
@@ -568,9 +841,9 @@ property of the pairing between a model and a standard, not of the model.
 
 ---
 
-# 6. Results II — Which Parameters Carry It?
+# 7. Results II — Which Parameters Carry It?
 
-## 6.1 The prospective test
+## 7.1 The prospective test
 
 Procedural Dependence ranked first of ten in an exploratory re-analysis of
 earlier data. That re-analysis explicitly recorded that the finding was
@@ -594,7 +867,7 @@ produce more `good` decisions than PD−**.
 manipulation is one line of the prompt. One item ran negative (−0.150) and is
 reported rather than smoothed away.
 
-## 6.2 The label carries it
+## 7.2 The label carries it
 
 `label_semantics_r1` applies the swap control to PD, with AW inert:
 
@@ -610,7 +883,7 @@ survive correction on TRUE; **none** on SWAP.
 
 Move the identical number from one line to another, and the effect vanishes.
 
-## 6.3 The sweep
+## 7.3 The sweep
 
 The remaining eight parameters were each pinned to their endpoints, 25 agents
 across 7 items, with the Holm correction applied over all eight contrasts as a
@@ -619,7 +892,7 @@ single family:
 | Parameter | Effect | Corrected *p* | Items | Load-bearing |
 |---|---:|---:|---|---|
 | **ID** Internalisation Dependence | **+0.143** | **0.00056** | 6+/1− | **yes** |
-| LL Legitimacy Locus | −0.131 | 0.00082 | 0+/6− | *see §6.4* |
+| LL Legitimacy Locus | −0.131 | 0.00082 | 0+/6− | *see §7.4* |
 | TfA Tolerance for Asymmetry | −0.103 | 0.111 | 2+/5− | no |
 | MoR Mode of Response | −0.097 | 0.069 | 1+/6− | no |
 | MS Moral Scope | −0.069 | 0.292 | 2+/5− | no |
@@ -631,7 +904,7 @@ Seven parameters are **not** load-bearing. This is a corrected null at adequate
 power (24 of 24 simulated detections at d ≥ 0.20, with no false positives), not
 an absence of evidence.
 
-## 6.4 The most important result: a parameter that died
+## 7.4 The most important result: a parameter that died
 
 Legitimacy Locus cleared the sweep's threshold with the most directionally
 consistent pattern in it — negative in all six items showing any effect, none
@@ -685,7 +958,7 @@ condition reproducing the effect being explained. That requirement costs nothing
 beyond the additional conditions, and it converts a class of false positives into
 visible failures.
 
-## 6.5 What the two survivors have in common
+## 7.5 What the two survivors have in common
 
 Procedural Dependence and Internalisation Dependence are, on inspection, the two
 parameters whose definitions map most directly onto the structure of the items.
@@ -706,12 +979,12 @@ correspondence was noticed after the results, not predicted before them, and onl
 PD's direction was derived in advance. It also has an uncomfortable corollary —
 if the surviving parameters are those that match the item structure, then a
 different item family would likely yield a different map, which is precisely the
-generalisation question Chapter 9 flags as open. The result may say as much about
+generalisation question Chapter 10 flags as open. The result may say as much about
 the items as about the encoding.
 
 ---
 
-# 7. Results III — Replication Across Providers
+# 8. Results III — Replication Across Providers
 
 Every measurement to this point used the calibration model. Both survivors were
 re-tested on `claude-haiku-4-5`, 40 agents, on that model's six dispersing items.
@@ -749,7 +1022,7 @@ construction* — manufacturing the Legitimacy Locus outcome by design. These
 results license "the parameter moves the outcome on the second model too", and
 nothing stronger.
 
-## 7.1 The final map
+## 8.1 The final map
 
 | Parameter | Pinned effect | Swap control | Second provider | Status |
 |---|---:|---|---:|---|
@@ -763,13 +1036,13 @@ the labelled field rather than to the number.**
 
 ---
 
-# 8. What the Process Taught
+# 9. What the Process Taught
 
 Three findings emerged from conducting the research rather than from its
 hypotheses. They are reported because they bear on how work of this kind should
 be done.
 
-## 8.1 AI design review is not a stable instrument
+## 9.1 AI design review is not a stable instrument
 
 Each study introducing new materials passed an independent AI review gate before
 collection. The gate caught genuine errors — a reviewer-prompt mismatch, an
@@ -792,19 +1065,19 @@ recorded, including those proceeded past.
 Anyone using a language model as a design gate should expect verdict instability
 and decide in advance what a rejection licenses.
 
-## 8.2 Refusals that shaped the record
+## 9.2 Refusals that shaped the record
 
 - **Outcome-driven item selection, refused.** Three of seven items showed effects
   too small to survive correction. Cutting them would have saved roughly 40% of a
   budget and would have biased the sweep toward parameters behaving like PD. All
   seven were retained.
 - **A study abandoned on power.** Described in §3.4.
-- **An interpretation withdrawn.** Described in §2.3.
+- **An interpretation withdrawn.** Described in §2.5.
 - **A lost call never retried.** A network timeout at call 689 of 2,801 left a
   slot unresolved. It is preserved unresolved, named in every study that inherits
   it, and the 689 paid calls were not reused.
 
-## 8.3 Two defects that were shipped
+## 9.3 Two defects that were shipped
 
 Reported because the thesis's claim is partly about method discipline.
 
@@ -822,7 +1095,7 @@ any spending.
 
 ---
 
-# 9. Limitations
+# 10. Limitations
 
 Stated as constraints on what may be concluded.
 
@@ -843,7 +1116,7 @@ are workplace-resource vignettes sharing an identical tied-payoff structure.
 Whether the method or the map transfers to other task families is **untested**,
 and it is the most important open question about this work.
 
-**Not verified cross-model.** §7.
+**Not verified cross-model.** §8.
 
 **The configuration counterfactual was never run.** The framework specifies a
 configuration-counterfactual difference as its primary discriminator for
@@ -861,9 +1134,50 @@ variants identified at the canonical rate — 50 out of 50 in every one of ten
 cells. Structure-preserving domain substitution does not conceal a classic
 paradigm from a frontier model.
 
+## 10.1 Which limitations are fixable and which are structural
+
+Not all of the above are the same kind of problem, and a reader deciding what to
+build on should know which is which.
+
+**Fixable with money and time.** Coverage is the clearest: more items, more task
+families, more models. Nothing conceptual stands in the way — the constraint was
+a budget of roughly $32 across the whole project. Swap controls on the second
+provider fall in the same category, costing perhaps two dollars. Human comparison
+is fixable in principle but expensive in practice, requiring ethics approval and
+participant payment that this project could not fund.
+
+**Fixable but harder than it looks.** Broadening the item set is not simply a
+matter of writing more vignettes. Chapter 4 records five designs that died at
+their own dispersion screen, and the tied-payoff property that makes the
+identification work is the *output* of a long filtering process. A second task
+family needs items that both disperse on the target models and preserve the tied
+payoffs, and the base rate for producing such items in this project was low.
+
+**Structural, and not fixable by this method.** The distinction between a
+field-bound label effect and semantic understanding is the important one. No
+amount of input-side intervention will settle whether the model represents the
+concept a label names, because input-side intervention can only ever establish
+which part of the input matters. Settling the semantic question needs a different
+instrument — internal analysis on an open model, or a design that examines stated
+reasoning as well as choices (§11.2).
+
+Similarly, field-weighted extremity (§3.3) cannot be excluded by any variant of
+the swap control, because the swap necessarily moves the extreme value between
+fields of differing salience. Excluding it would need a manipulation that holds
+salience constant while varying the label, and it is not obvious what that would
+look like.
+
+**A limitation of the outcome measure that deserves its own note.** Because
+classification is a lookup on the chosen action, the measure is blind to
+everything about *how* the agent decided. Two agents choosing the same option for
+opposite reasons are indistinguishable. This is what makes the dependent variable
+stable, and it also means the thesis cannot speak to reasoning at all — a
+restriction that is easy to forget when reading effect sizes that look like
+measurements of disposition.
+
 ---
 
-# 10. Conclusion
+# 11. Conclusion
 
 This thesis asked which part of a structured prompt carries an agent's behaviour,
 and answered it for a ten-parameter encoding on one task domain: **two parameters
@@ -885,7 +1199,7 @@ explicit conceptual encoding does genuine work; what strengthens that claim is
 not that two parameters survived, but that a third did not, and that the
 machinery was built to notice.
 
-## 10.1 Contribution
+## 11.1 Contribution
 
 The thesis makes three contributions, in decreasing order of confidence.
 
@@ -907,11 +1221,13 @@ domain, seven do not under adequate power, and one was withdrawn. The map is
 narrow, and its narrowness is stated rather than minimised.
 
 A fourth contribution is negative and methodological: AI design review returns
-inconsistent verdicts on byte-identical material (§8.1). Anyone building a
+inconsistent verdicts on byte-identical material (§9.1). Anyone building a
 research pipeline around model-based review should know this before depending on
 it.
 
-## 10.2 Future work First, a second task family: the narrowness
+## 11.2 Future work
+
+In order of value. First, a second task family: the narrowness
 of the present item set is what makes identification possible and what most
 limits the conclusions, and nothing else would do more to establish whether the
 map generalises. Second, swap controls on the second provider, which would
