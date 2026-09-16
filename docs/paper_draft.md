@@ -34,7 +34,7 @@ payoff totals tied by construction. That narrowness is what buys the
 identification; it also bounds what may be concluded, and we make no claim that
 the map transfers to other task families.
 
-Across 18,750 frozen API calls we find: profiles change a deterministic
+Across 20,991 frozen API calls we find: profiles change a deterministic
 good/bad classification on two models from different providers (+0.171 and
 +0.228 against an explicit-instruction control that does not reproduce the
 effect); two of ten coordinates are load-bearing under Holm correction; and for
@@ -878,7 +878,7 @@ findings. We report one of ours dying.
 
 ## Appendix A — Scale of the record
 
-18,750 API calls across 44 designations with frozen results, $22.24 accounted
+20,991 API calls across 45 designations with frozen results, $22.24 accounted
 spend. All per-call records are write-once with preserved failures; releases are
 hash-pinned to their source; power simulations and offline rescorings are
 reproducible from committed modules.

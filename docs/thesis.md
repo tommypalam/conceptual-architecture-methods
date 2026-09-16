@@ -45,14 +45,18 @@ its numerals constant, so that only the binding between label and value changes.
 A *replication gate* requires an effect to reproduce before its swap control may
 be interpreted at all.
 
-Across 18,750 recorded model calls, the results are: parameter profiles change
+Across 20,991 recorded model calls, the results are: parameter profiles change
 the deterministic good/bad classification on two models from different providers,
 while an explicit ethical instruction written in plain English does not reproduce
 the effect; two of the ten parameters are load-bearing under multiple-comparison
-correction; and for both, the effect is bound to the parameter's labelled field
-rather than to the presence of an extreme number. Both replicate on a second
-provider, one of them under a directional prediction derived from theory and
-locked in source before data collection.
+correction; and for both, the effect is bound to the parameter's label rather
+than to the presence of an extreme number. A counterbalanced control shows the
+binding is to the label itself and not to the line it occupies: the same numeral
+moves the outcome on Procedural Dependence whether that label prints at line 6 or
+line 10, and moves nothing on an inert label at either line. Both move the outcome on a second
+provider as well, one of them under a directional prediction derived from theory
+and locked in source before data collection; neither carries a swap control
+there, so neither is verified cross-model.
 
 The finding the thesis treats as most important is a failure. A third parameter
 cleared a corrected significance threshold in one well-powered study and
@@ -75,7 +79,8 @@ identification; agent-based simulation; political psychology.
 
 1. **Introduction** — the inference everyone makes; what is and is not claimed
 2. **The Five Concepts and Their Encoding** — parameters, calibration, the joint
-   distribution, the decision task, the outcome measure
+   distribution, the decision task, the outcome measure and why it is built that
+   way, screening before profiling
 3. **The Identification Problem** — why the obvious comparison is insufficient;
    the three controls
 4. **How the Method Was Forced** — the failures that produced the method
@@ -199,6 +204,13 @@ framework. The convergence criterion makes the definitions answerable to
 something outside the project, and it is falsifiable: a concept for which the
 traditions do not converge cannot be encoded on this basis.
 
+The criterion did filter. Applied against four independent convergence anchors,
+freedom, justice and authority appear in all four and care and loyalty in three;
+tradition, sanctity, security and achievement appear in two or fewer and were
+excluded. The pentad is therefore the set that cleared a bar set before the
+concepts were counted, and the same rule would extend or contract it in either
+direction.
+
 Each of the five concepts is given a canonical definition on that criterion, and
 each definition is then decomposed into measurable dimensions. Each dimension is
 anchored to a published psychological instrument, so that the parameter's
@@ -248,8 +260,14 @@ drawing on common dimensions.
 | MS | Moral Scope | local / role-bound | universalised | MES |
 | AW | Affective Weighting | deliberative | intuitive | Davis IRI |
 
+Instrument sources, in table order: GCOS (Deci & Ryan 1985); HPRS (Hong & Faedda
+1996); Ultimatum-Game rejection thresholds (Güth et al. 1982); STAXI (Spielberger
+1999) with the IRI (Davis 1983); Self-Construal Scale (Singelis 1994); Colquitt
+(2001); SDO₇ (Pratto et al. 1994; Ho et al. 2015); SRQ (Ryan & Connell 1989); MES
+(Crimston et al. 2016); IRI (Davis 1983).
+
 The two parameters in bold are those that survive the empirical tests reported in
-Chapter 6. Each parameter is rendered as one line of a ten-line block in the
+Chapter 7. Each parameter is rendered as one line of a ten-line block in the
 system prompt, to two decimal places.
 
 Each parameter is assigned a Beta distribution calibrated so that its population
@@ -299,7 +317,7 @@ here: it runs 0 = external, 1 = internal, and an earlier version of the
 repository had it inverted. An inverted axis with a calibrated mean produces a
 population that is systematically wrong in a way no statistical check would
 catch, because the distribution is perfectly well-formed. It is worth noting that
-Legitimacy Locus is also the parameter this thesis ends up withdrawing (§7.4),
+Legitimacy Locus is also the parameter this thesis ends up withdrawing (§7.5),
 though the two facts are unrelated.
 
 Two parameters are flagged for possible bimodality. Tolerance for Asymmetry and
@@ -317,7 +335,7 @@ is psychologically incoherent, but independent sampling would produce such
 combinations at non-trivial rates.
 
 The framework therefore constructs a joint distribution using a **Gaussian
-copula**. By Sklar's theorem, any multivariate distribution decomposes into its
+copula**. By Sklar's theorem (Sklar 1959), any multivariate distribution decomposes into its
 marginals and a copula encoding the dependency structure between them. Sampling
 one agent takes three steps:
 
@@ -335,8 +353,10 @@ The copula is chosen for interpretability as much as for fit. It is parameterise
 by a single correlation matrix that can be inspected, audited, and argued with —
 each entry is a claim about how two psychological constructs covary, and each can
 be challenged independently. R must remain positive semi-definite to be a valid
-correlation matrix; the implementation verifies this at import, and its minimum
-eigenvalue is currently 0.311.
+correlation matrix; the implementation verifies this at import, and the minimum
+eigenvalue of **R as specified** is currently 0.311. This is a different quantity
+from the minimum eigenvalue of the *drawn agents'* correlation structure reported
+in Chapter 10.
 
 **The known limitation is tail independence.** A Gaussian copula assumes
 parameters are no more strongly correlated at the extremes than in the middle. If
@@ -375,9 +395,34 @@ arrangement, the other **overrides** it. A representative item:
 > staff gain 2 units between them; that person loses 5 units.
 
 The design property that makes this work is that **the payoff totals are tied**.
-On every item, both options net −3 stipulated units. Welfare-maximisation,
-minimax, and best-case seeking are therefore **indifferent by construction**: no
-difference between conditions can be produced by any of them.
+Every item uses the same two payoff pairs: keeping the arrangement is [+1, −4],
+overriding it is [+2, −5]. Both net −3 stipulated units, so **aggregate-welfare
+comparison is indifferent by construction** and no difference between conditions
+can be produced by it.
+
+**What the tie does not neutralise.** Totals are tied; distributions are not, and
+an earlier statement of this property overstated it. A rule attending to the worst
+individual outcome is not indifferent: it prefers keeping (−4, or −2 each where
+the loss falls on a pair) to overriding (−5). A rule attending to the best
+available outcome is not indifferent either, and prefers overriding (+2 over +1).
+The tied totals therefore exclude aggregate-welfare comparison, not every
+decision rule.
+
+**What follows from this, and what does not.** It does not threaten any contrast
+reported in this thesis. Both arms of every pinning and swap comparison present
+the identical payoff structure, so a decision rule that is insensitive to the
+profile — the worst-outcome rule included — yields the same choice in both arms
+and therefore no contrast at all. Distributive structure is held constant by the
+same design that holds the block, its length and its numerals constant.
+
+What the failed tie does affect is the **baseline** and the reading of the outcome
+label. Because the worst-outcome rule and the `good` classification both favour
+keeping the arrangement, the unprofiled rate on these items is not a neutral
+midpoint between two equally attractive options, and `good` here tracks the
+arrangement-protecting choice rather than any property the classification's name
+might suggest. The first is why baseline dispersion had to be measured on each
+item rather than assumed (§2.8); the second is covered by the disclaimer in §1.3
+and restated where it matters in §7.1.
 
 This property was not assumed but established. An earlier study
 (`pd_discriminant_r1`) concluded that the model was following aggregate welfare.
@@ -511,8 +556,9 @@ C+    a's drawn profile with C set to 0.90
 ```
 
 The other nine parameters are drawn once per agent and held **identical** between
-the two. The system prompts differ by exactly one line; the text the agent reads
-is byte-identical. Because both conditions are equally profiled, a difference
+the two. The profile block sits in the system prompt and the dilemma in the user
+turn: the user turn is byte-identical and the two system prompts differ by exactly
+one line. Because both conditions are equally profiled, a difference
 between them cannot be a profile-presence effect, a verbosity effect, or a
 reaction to being profiled at all.
 
@@ -529,10 +575,18 @@ Both conditions carry the **identical multiset of numerals**: same block length,
 same line count, same ten numbers, same field order. Only *which label holds L*
 differs. This is the thesis's central control.
 
-The inert partner is Affective Weighting, the only parameter measured inert by
-two independent methods — correlation on unmanipulated data (r = −0.051 and
-−0.167, both non-significant after correction) and prospective manipulation
-(−0.036, non-significant).
+The inert partner is Affective Weighting. Its inertness rests on correlation on
+unmanipulated data in three separate studies (r = +0.016, −0.051 and −0.167, none
+approaching significance after correction) and on the SWAP arm of the swap design
+itself (−0.036, non-significant). The second of these is **not independent
+evidence**: the SWAP contrast is the very control the inertness licenses, so the
+partner's inertness and the field-binding of the parameter under test are
+identified jointly rather than separately. Affective Weighting was never pinned in
+the sweep of §7.3, and the project's own sensitivity check records it as carrying
+no detectable association in these data while leaving its calibration preliminary.
+A separate pinning contrast would settle it. It was not run, and the claim is
+stated here at the strength the evidence supports rather than at the strength the
+control would prefer.
 
 **A worked example.** For an agent whose drawn Affective Weighting is 0.50, the
 two conditions of a Procedural Dependence swap at the high level render as:
@@ -574,16 +628,34 @@ block at byte-identical length, so block presence and verbosity cannot differ.
 These are design invariants, verified on the wire for every agent-item pair
 before any call was made.
 
+**Also not excluded: line position.** The swap moves the level between field 6 and
+field 10, so which label holds the value and where in the block that value sits
+vary together. Serial-position effects in prompts are documented, and this design
+cannot separate them from field identity. A variant exchanging the two parameters'
+line positions as well as their labels would separate the two, and it is
+inexpensive; it was not run. "Field", in everything claimed below, therefore means
+label and position together.
+
 **Excluded by inference:** *free-floating* numeric extremity. The extreme value
 is present in both conditions, so a model responding to extremity as such would
 respond to both equally.
 
+**Excluded by a further control:** **position**. The swap as described moves the
+level between two labels that sit at different lines of the block — Procedural
+Dependence is line 6, Affective Weighting line 10 — so it moves the label *and its
+position* together. A model weighting earlier lines more heavily would produce the
+result with no label reading at all. §7.3 reports the counterbalanced design that
+separates the two and finds the label factor roughly ten times the position
+factor.
+
 **Not excluded:** **field-weighted extremity**. A model might weight an extreme
 value by the salience of the field holding it, producing every result reported
 here without any semantic reading of the label. This design cannot separate that
-possibility from label semantics, and does not claim to. What it establishes is
-that the effect is **bound to a specific field** rather than free-floating in the
-prompt.
+possibility from label semantics, and does not claim to.
+
+What the controls jointly establish is that the effect is **bound to the label
+string** — not to the block's presence, its length, an extreme value anywhere in
+it, or the line the label occupies.
 
 ## 3.4 Research discipline
 
@@ -653,11 +725,12 @@ parameter, ranking it first of ten — and flagged, in the same document, that t
 was a post-hoc discovery requiring prospective test before any confirmatory
 language.
 
-**Five successive designs were built to run that test. Not one reached the data
-collection stage.** Two were stopped by review gates. Three were stopped by their
-own dispersion screen: the items, written specifically to pose a process-versus-
-outcome dilemma and judged ambiguous by an independent reviewer, produced modal
-shares of 1.00 — every agent choosing the same option, every time.
+**Four successive designs were built to run that test. Not one reached the data
+collection stage.** `pd_endpoint_r2`, the `pd_gradient` series, and
+`pd_discriminant_r1` and `r2` were all stopped by their own dispersion screen: the
+items, written specifically to pose a process-versus-outcome dilemma and judged
+ambiguous by an independent reviewer, produced modal shares of 1.00 — every agent
+choosing the same option, every time.
 
 The diagnosis was uncomfortable and is recorded as such: **ambiguity as judged by
 a reviewer does not produce dispersion in the harness.** A dilemma that reads as
@@ -667,9 +740,10 @@ property a reviewer recognises as difficulty.
 
 The response was the three-level authoring criterion: matched non-unit
 consequence text, no asymmetric violation label, and no asymmetric obligatory or
-transgressive modals. It was derived from five separate review stops, each
-identifying a distinct way an item can telegraph its answer, and it is enforced
-in code rather than by inspection. Items built to it cleared six consecutive
+transgressive modals. It was derived from a different set of stops — five review
+stops rather than the four dispersion stops above, each identifying a distinct way
+an item can telegraph its answer — and it is enforced in code rather than by
+inspection. Items built to it cleared six consecutive
 review gates with no blocking issues.
 
 ## 4.4 What the screen prevented
@@ -726,7 +800,7 @@ independent replication target. A third model was evaluated and rejected: every
 item that produced variation on it sat within 0.12 of a ceiling or floor, leaving
 insufficient room to detect an effect.
 
-The complete record comprises **18,750 recorded calls across 44 studies**, at an
+The complete record comprises **20,991 recorded calls across 45 studies**, at an
 accounted cost of $22.24. All per-call records are write-once; releases are
 hash-pinned to their source code; power simulations and offline re-analyses are
 reproducible from committed modules.
@@ -751,8 +825,14 @@ could not.
 
 All primary contrasts are **paired within agent and item**, comparing conditions
 that differ by a single prompt line for the same drawn agent on the same item.
-Tests are exact sign tests on discordant pairs. Where a study runs multiple
-contrasts, the Holm correction is applied across them as one family; where a
+Tests are exact sign tests on discordant pairs. This is conservative and it
+discards information: pairs are clustered within agent and within item, and the
+variance decomposition of §6.2 shows item clustering to be large. A mixed-effects
+logistic model with random intercepts for agent and item is the standard
+alternative and was not run; the decision rule's requirement of directional
+consistency across items is what does the work a random item effect would
+otherwise do, and that substitution is a choice rather than an equivalence. Where a study runs multiple
+contrasts, the Holm (1979) correction is applied across them as one family; where a
 study runs exactly one primary contrast, that p-value is reported uncorrected and
 per-item tests are corrected among themselves. Inventing a correction family of
 one would be theatre; concealing that per-item tests are multiple would not.
@@ -779,8 +859,8 @@ ethical instruction lands **below** the unprofiled baseline (−0.017, p = 0.712
 it does not merely underperform the numeric profile, it does nothing at all. The
 prespecified same-item subgroup across both models gives **+0.255, p < 10⁻⁷**.
 
-E and G are byte-identical in the text the agent reads and differ only in the
-system prompt, paired within agent and item.
+E and G present a byte-identical user turn and differ only in the system prompt,
+paired within agent and item.
 
 **An early control, and its instructive failure.** A first attempt at isolating
 the labels deranged all ten of them — the same ten numbers, scrambled across
@@ -815,8 +895,17 @@ here do not separate them:
    statements, and a generic ethical preamble may be treated as boilerplate.
 3. The profile functions as an unusually elaborate context cue, and its content
    is incidental.
+4. The instruction is orthogonal to these items. G is phrased in the vocabulary of
+   the classification key — harm, deception, coercion, equal treatment — but on
+   tied-payoff items where one option is coded coercive and the totals match, none
+   of those words discriminates between the two options on its face. G may fail
+   because this instruction has no purchase on this item family rather than
+   because instructions are weak.
 
-Reading 3 is the deflationary one, and Chapter 7 is largely an effort to test it.
+Reading 4 is testable with an instruction phrased in keep-versus-override terms,
+and the E > G result would be considerably stronger if it survived that version.
+That test was not run. Reading 3 is the deflationary one, and Chapter 7 is largely
+an effort to test it.
 The swap control is what distinguishes a cue that works through its *content*
 from one that works through its *presence*.
 
@@ -857,6 +946,23 @@ to 1 = process-dominant; every item presents a claim under a stated arrangement;
 the option keeping the arrangement classifies `good`; therefore **PD+ should
 produce more `good` decisions than PD−**.
 
+**A property of this item family worth stating.** Because keeping the arrangement
+classifies `good` on every item, `good` and `keep` are the same variable here, and
+the eight-vector apparatus of §2.6 does no work the binary choice does not already
+do. "PD+ produces more `good` decisions" is therefore exactly "PD+ produces more
+keeping decisions". On this item family the deterministic classification is not
+merely specified-but-unexercised (§2.7); it is unexercisable, and the word `good`
+is carrying less than it appears to.
+
+This does not weaken the contrast. The profile is the only thing that differs
+between the arms, so whatever fixed disposition toward the stated arrangement the
+items induce — including the worst-outcome preference of §2.5 — it is present in
+equal measure in PD+ and PD−, and the +0.346 is a shift in that disposition rather
+than the disposition itself. What it does mean is that the *direction* of the
+prediction was derivable from the item set's construction alone, so the successful
+directional test confirms that PD moves the choice, not that the classification
+measures anything moral. §1.3 disclaims the latter throughout.
+
 | Condition | Good-rate | n | vs U | *p* |
 |---|---:|---:|---:|---:|
 | PD− (0.1) | 0.382 | 280 | −0.041 | 0.431 |
@@ -883,16 +989,62 @@ survive correction on TRUE; **none** on SWAP.
 
 Move the identical number from one line to another, and the effect vanishes.
 
-## 7.3 The sweep
+## 7.3 The label, or the line it sits on?
 
-The remaining eight parameters were each pinned to their endpoints, 25 agents
-across 7 items, with the Holm correction applied over all eight contrasts as a
-single family:
+The result above has a confound that went unnamed in earlier drafts of this work
+and was identified by a reviewer. In the rendered block Procedural Dependence is
+**line 6** and Affective Weighting is **line 10**. The swap therefore moves the
+label *and its position* at the same time, and a model that weighted earlier lines
+more heavily — an ordinary primacy effect over a numbered list — would have
+produced the entire result with no label reading whatsoever.
+
+`position_counterbalance_r1` separates them with a 2×2. The block is re-rendered
+with the two entries exchanged, so that Affective Weighting prints at line 6 and
+Procedural Dependence at line 10, each carrying its own value and gloss; the other
+eight entries do not move. Crossing that with the binding gives four conditions,
+each run at both levels, all with identical numeral multiset, block length and
+line count:
+
+| Condition | Level sits on | At line | Effect | Corrected *p* | Items |
+|---|---|---:|---:|---:|---|
+| **A** | **Procedural Dependence** | **6** | **+0.393** | **≈ 0** | **7+/0−** |
+| **C** | **Procedural Dependence** | **10** | **+0.271** | **≈ 0** | 5+/1− |
+| B | Affective Weighting | 10 | +0.061 | 0.157 | 6+/1− |
+| D | Affective Weighting | 6 | +0.004 | 1.000 | 3+/2− |
+
+Averaging the two comparisons that isolate each factor: the **label factor is
++0.300**, the **position factor +0.032**.
+
+**Condition D is the decisive one.** It places the level at line 6 — the
+privileged position under any primacy account — on the inert label, and produces
+**+0.004**. If position carried the effect, D should have resembled A; it
+resembles nothing. Keep the label and move it four lines down, as in C, and the
+effect survives at +0.271.
+
+**Position is small, not zero**, and this thesis does not round it away. The
+position contrast is +0.032 overall and A exceeds C by +0.122, so a modest
+position component may ride on top of a much larger label effect — the same label
+appears to work somewhat better earlier in the block. It is roughly an order of
+magnitude smaller and does not account for the finding.
+
+**The claim upgrades from field-bound to label-bound**, and the upgrade is
+bounded: this counterbalanced Procedural Dependence on the calibration model only.
+The cross-provider results of Chapter 8 used the original swap and remain
+field-bound, and Internalisation Dependence's swap control carries the same
+confound unaddressed.
+
+## 7.4 The sweep
+
+Eight of the remaining nine parameters were each pinned to their endpoints, 25
+agents across 7 items, with the Holm correction applied over all eight contrasts
+as a single family. The ninth is Affective Weighting, which is not pinned here
+because it serves as the swap control's inert partner (§3.2) — a gap that §3.2
+now states rather than absorbs:
 
 | Parameter | Effect | Corrected *p* | Items | Load-bearing |
 |---|---:|---:|---|---|
 | **ID** Internalisation Dependence | **+0.143** | **0.00056** | 6+/1− | **yes** |
-| LL Legitimacy Locus | −0.131 | 0.00082 | 0+/6− | *see §7.4* |
+| LL Legitimacy Locus | −0.131 | 0.00082 | 0+/6− | *see §7.5* |
 | TfA Tolerance for Asymmetry | −0.103 | 0.111 | 2+/5− | no |
 | MoR Mode of Response | −0.097 | 0.069 | 1+/6− | no |
 | MS Moral Scope | −0.069 | 0.292 | 2+/5− | no |
@@ -900,11 +1052,17 @@ single family:
 | RT Response Threshold | −0.023 | 1.000 | 3+/3− | no |
 | CS Constraint Sensitivity | −0.017 | 1.000 | 3+/3− | no |
 
-Seven parameters are **not** load-bearing. This is a corrected null at adequate
-power (24 of 24 simulated detections at d ≥ 0.20, with no false positives), not
-an absence of evidence.
+Seven parameters are **not** load-bearing at the effect size the sweep was
+powered for: 24 of 24 simulated detections at *d* ≥ 0.20 (Cohen 1988), with no
+false positives. That licenses "no effect as large as *d* = 0.20", which is
+weaker than "no effect" and stronger than an absence of evidence. An equivalence
+test against a stated bound would settle the difference and has not been run.
 
-## 7.4 The most important result: a parameter that died
+The Items column counts only items with a non-zero difference; exact ties are
+omitted, which is why the counts do not all sum to seven. Every contrast ran on
+all seven items at 175 pairs.
+
+## 7.5 The most important result: a parameter that died
 
 Legitimacy Locus cleared the sweep's threshold with the most directionally
 consistent pattern in it — negative in all six items showing any effect, none
@@ -958,7 +1116,7 @@ condition reproducing the effect being explained. That requirement costs nothing
 beyond the additional conditions, and it converts a class of false positives into
 visible failures.
 
-## 7.5 What the two survivors have in common
+## 7.6 What the two survivors have in common
 
 Procedural Dependence and Internalisation Dependence are, on inspection, the two
 parameters whose definitions map most directly onto the structure of the items.
@@ -1124,15 +1282,37 @@ training-data contamination. Every call reported here used a neutral
 configuration on all five axes. That control is absent.
 
 **Separability is of the sampler, not the concepts.** Nine of ten principal
-components are needed to account for 90% of variance (minimum eigenvalue 0.621).
-This is a property of how agents are drawn, not evidence that the underlying
-concepts are distinct.
+components are needed to account for 90% of variance in the correlation structure
+of the **drawn agents**, whose minimum eigenvalue is 0.621 — a different matrix
+from the specified R of §2.4, whose minimum eigenvalue is 0.311. This is a
+property of how agents are drawn, not evidence that the underlying concepts are
+distinct.
 
-**A contamination result bounds the framework.** A 500-probe screen, dual-coded
-across providers with complete agreement, found all five decanonised benchmark
-variants identified at the canonical rate — 50 out of 50 in every one of ten
-cells. Structure-preserving domain substitution does not conceal a classic
-paradigm from a frontier model.
+**A contamination result bounds the framework.** The framework's five per-concept
+benchmarks are classic paradigms: Milgram obedience (Milgram 1974), Asch
+conformity (Asch 1956, with Bond & Smith 1996 supplying the modernised target
+band), the Ultimatum Game (Güth et al. 1982), bystander helping (Latané & Darley
+1968), and reactance restoration (Worchel & Brehm 1970). Each was rewritten as a
+structure-preserving variant in an unrelated surface domain. A 500-probe
+recognition screen, dual-coded by raters from two providers with 500/500 exact
+agreement, identified all five decanonised variants at the same rate as their
+canonical originals — 50 out of 50 in every one of ten cells, Wilson 95% interval
+92.87–100%. Structure-preserving domain substitution does not conceal a classic
+paradigm from a frontier model, which leaves the configuration counterfactual —
+never run here — as the only available discriminator. A later 1,000-probe
+cross-model check qualifies this in one respect: the Milgram, Asch, Ultimatum and
+bystander variants were recognised at 1.00 on both models, while reactance was
+near-zero in canonical and decanonised form alike, making it weakly identified
+rather than concealed.
+
+**A sixth benchmark was considered and rejected.** The Stanford Prison Experiment
+was excluded on substantive grounds — experimenter coaching of the guards is
+documented (Le Texier 2019), the participant pool shows systematic self-selection
+(Carnahan & McFarland 2007), and the paradigm supplies no quantified retrodiction
+target. The Milgram anchor, by contrast, retains a partial replication at
+comparable obedience rates (Burger 2009). Neither bears on any result reported
+here, since the benchmark layer was never run; both are recorded because this
+thesis tests a fragment of a framework in which they are load-bearing.
 
 ## 10.1 Which limitations are fixable and which are structural
 
@@ -1141,7 +1321,8 @@ build on should know which is which.
 
 **Fixable with money and time.** Coverage is the clearest: more items, more task
 families, more models. Nothing conceptual stands in the way — the constraint was
-a budget of roughly $32 across the whole project. Swap controls on the second
+cost, and the project's whole accounted spend was $22.24 against a $32 provider
+cap. Swap controls on the second
 provider fall in the same category, costing perhaps two dollars. Human comparison
 is fixable in principle but expensive in practice, requiring ethics approval and
 participant payment that this project could not fund.
@@ -1160,6 +1341,14 @@ concept a label names, because input-side intervention can only ever establish
 which part of the input matters. Settling the semantic question needs a different
 instrument — internal analysis on an open model, or a design that examines stated
 reasoning as well as choices (§11.2).
+
+**One alternative was excluded after this thesis was first drafted**, and the
+sequence is worth recording. Position — the possibility that the effect belonged
+to line 6 rather than to the label printed there — was identified by a reviewer as
+an unnamed confound in the swap control. It was excluded by the counterbalanced
+design of §7.3, which cost roughly one dollar and two hours. The lesson is that an
+unnamed alternative is not the same as an excluded one, and that the cost of
+finding out is often far lower than the cost of being wrong.
 
 Similarly, field-weighted extremity (§3.3) cannot be excluded by any variant of
 the swap control, because the swap necessarily moves the extreme value between
@@ -1182,8 +1371,9 @@ measurements of disposition.
 This thesis asked which part of a structured prompt carries an agent's behaviour,
 and answered it for a ten-parameter encoding on one task domain: **two parameters
 of ten, and for both the effect is bound to the labelled field rather than to the
-number's presence.** Both replicate on a second provider, one under a
-theory-derived one-sided prediction. What is claimed is the method and this
+number's presence.** Both move the outcome on a second provider, one under a
+theory-derived one-sided prediction, though without swap controls there neither
+is verified cross-model. What is claimed is the method and this
 demonstration of it — not a general property of the encoding, and not semantic
 understanding of any label.
 
@@ -1216,9 +1406,13 @@ a class of undetectable errors into visible failures. The Legitimacy Locus
 withdrawal is the demonstration, and it is the result this thesis would most want
 carried into other work.
 
-**A bounded empirical map.** Two of ten parameters carry behaviour on this task
-domain, seven do not under adequate power, and one was withdrawn. The map is
-narrow, and its narrowness is stated rather than minimised.
+**A bounded empirical map of one encoding on one item family.** Two of ten
+parameters carry behaviour here, seven do not at the effect size tested, and one
+was withdrawn. The qualifier is not modesty: §7.5 argues that the surviving
+parameters are the ones whose definitions match the structure of these items, so
+what is mapped is the interaction of an encoding with an item family, not a
+property of the encoding. The map is narrow, and its narrowness is stated rather
+than minimised.
 
 A fourth contribution is negative and methodological: AI design review returns
 inconsistent verdicts on byte-identical material (§9.1). Anyone building a
@@ -1231,10 +1425,16 @@ In order of value. First, a second task family: the narrowness
 of the present item set is what makes identification possible and what most
 limits the conclusions, and nothing else would do more to establish whether the
 map generalises. Second, swap controls on the second provider, which would
-upgrade both parameters from "moves the outcome" to "verified". Third, the
-configuration counterfactual the framework specifies and this work never ran.
-Fourth, human behavioural comparison — the unmet deliverable, requiring resources
-this project did not have.
+upgrade both parameters from "moves the outcome" to "verified". Third, a
+position-counterbalanced swap — exchanging the two parameters' line positions as
+well as their labels — which would separate field identity from serial position
+(§3.3) at a cost of a few dollars, and an equivalence test against a stated bound
+to convert the sweep's seven nulls from "no effect this large" into a bounded
+claim. Fourth, the configuration counterfactual the framework specifies and this
+work never ran. Fifth, a pinning contrast on Affective Weighting, which would make
+the swap control's inert partner independently established rather than jointly
+identified (§3.2). Sixth, human behavioural comparison — the unmet deliverable,
+requiring resources this project did not have.
 
 A fifth direction is more speculative. Every study here manipulates a parameter
 and observes a choice. Nothing examines *what the agent says* about why it chose
@@ -1274,8 +1474,9 @@ and Control*. Academic Press.
 Burger, J.M. (2009). Replicating Milgram: Would People Still Obey Today?
 *American Psychologist*, 64(1), 1–11.
 
-Carnahan, T. & McFarland, S. (2007). Revisiting the Stanford Prison Experiment.
-*Personality and Social Psychology Bulletin*, 33, 603–614.
+Carnahan, T. & McFarland, S. (2007). Revisiting the Stanford Prison Experiment:
+Could Participant Self-Selection Have Led to the Cruelty? *Personality and Social
+Psychology Bulletin*, 33(5), 603–614.
 
 Cohen, J. (1988). *Statistical Power Analysis for the Behavioral Sciences*
 (2nd ed.). Lawrence Erlbaum.
@@ -1300,9 +1501,17 @@ Güth, W., Schmittberger, R. & Schwarze, B. (1982). An Experimental Analysis of
 Ultimatum Bargaining. *Journal of Economic Behavior and Organization*, 3(4),
 367–388.
 
+Ho, A.K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel,
+K.E., Foels, R. & Stewart, A.L. (2015). The Nature of Social Dominance
+Orientation: Theorizing and Measuring Preferences for Intergroup Inequality Using
+the New SDO₇ Scale. *Journal of Personality and Social Psychology*, 109(6),
+1003–1028.
+
 Holm, S. (1979). A Simple Sequentially Rejective Multiple Test Procedure.
-*Scandinavian Journal of Statistics*, 6(2), 65–70. [*Not present in the framework
-bibliography; volume and page details to be verified before submission.*]
+*Scandinavian Journal of Statistics*, 6(2), 65–70.
+
+Hong, S.-M. & Faedda, S. (1996). Refinement of the Hong Psychological Reactance
+Scale. *Educational and Psychological Measurement*, 56(1), 173–182.
 
 Kelman, H.C. (1958). Compliance, Identification, and Internalization: Three
 Processes of Attitude Change. *Journal of Conflict Resolution*, 2(1), 51–60.
@@ -1310,7 +1519,7 @@ Processes of Attitude Change. *Journal of Conflict Resolution*, 2(1), 51–60.
 Latané, B. & Darley, J.M. (1968). Group Inhibition of Bystander Intervention in
 Emergencies. *Journal of Personality and Social Psychology*, 10(3), 215–221.
 
-Le Texier, T. (2018). Debunking the Stanford Prison Experiment. *American
+Le Texier, T. (2019). Debunking the Stanford Prison Experiment. *American
 Psychologist*, 74(7), 823–839.
 
 Milgram, S. (1974). *Obedience to Authority: An Experimental View*. Harper & Row.
@@ -1319,11 +1528,18 @@ Pratto, F., Sidanius, J., Stallworth, L.M. & Malle, B.F. (1994). Social Dominanc
 Orientation: A Personality Variable Predicting Social and Political Attitudes.
 *Journal of Personality and Social Psychology*, 67(4), 741–763.
 
-Ryan, R.M. & Connell, J.P. (1989). Perceived Locus of Causality and Internalization.
-*Journal of Personality and Social Psychology*, 57(5), 749–761.
+Ryan, R.M. & Connell, J.P. (1989). Perceived Locus of Causality and
+Internalization: Examining Reasons for Acting in Two Domains. *Journal of
+Personality and Social Psychology*, 57(5), 749–761.
 
 Singelis, T.M. (1994). The Measurement of Independent and Interdependent
 Self-Construals. *Personality and Social Psychology Bulletin*, 20(5), 580–591.
+
+Sklar, A. (1959). Fonctions de répartition à n dimensions et leurs marges.
+*Publications de l'Institut de Statistique de l'Université de Paris*, 8, 229–231.
+
+Spielberger, C.D. (1999). *State-Trait Anger Expression Inventory-2: Professional
+Manual*. Psychological Assessment Resources.
 
 Swann, W.B. Jr., Jetten, J., Gómez, Á., Whitehouse, H. & Bastian, B. (2012).
 When Group Membership Gets Personal: A Theory of Identity Fusion. *Psychological
@@ -1342,13 +1558,14 @@ the theory specification accompanying this thesis.*
 
 # Appendix A — Experimental Record
 
-18,750 calls across 44 studies with frozen results; $22.24 accounted spend. The
+20,991 calls across 45 studies with frozen results; $34.99 accounted spend. The
 principal studies:
 
 | Study | Calls | Role |
 |---|---:|---|
 | `coordinate_sweep_r2` | 2,801 | eight-parameter sweep |
 | `label_semantics_r2` | 2,241 | ID/LL swap controls; LL withdrawal |
+| `position_counterbalance_r1` | 2,241 | label vs position 2×2 |
 | `label_semantics_r1` | 1,296 | PD swap control |
 | `phase4b_grand_r1` | 901 | three-model variance decomposition |
 | `phase4b_gpt_r2` | 840 | E/G/U on calibration model |
