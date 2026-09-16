@@ -49,12 +49,13 @@ Across 20,991 recorded model calls, the results are: parameter profiles change
 the deterministic good/bad classification on two models from different providers,
 while an explicit ethical instruction written in plain English does not reproduce
 the effect; two of the ten parameters are load-bearing under multiple-comparison
-correction; and for both, the effect is bound to the parameter's label rather
-than to the presence of an extreme number. A counterbalanced control shows the
-binding is to the label itself and not to the line it occupies: the same numeral
-moves the outcome on Procedural Dependence whether that label prints at line 6 or
-line 10, and moves nothing on an inert label at either line. Both move the outcome on a second
-provider as well, one of them under a directional prediction derived from theory
+correction; and for both, the effect is bound to the parameter's labelled field
+rather than to the presence of an extreme number. For one of the two, a
+counterbalanced control further separates the label from the line it occupies:
+the same numeral moves the outcome on Procedural Dependence whether that label
+prints at line 6 or line 10, and moves nothing on an inert label at either line,
+so the binding is to the label itself. Both parameters move the outcome on a
+second provider as well, one under a directional prediction derived from theory
 and locked in source before data collection; neither carries a swap control
 there, so neither is verified cross-model.
 
@@ -77,7 +78,8 @@ identification; agent-based simulation; political psychology.
 
 ## Contents
 
-1. **Introduction** — the inference everyone makes; what is and is not claimed
+1. **Introduction** — the inference everyone makes; what is and is not
+   claimed; where this sits in the literature; how the document is organised
 2. **The Five Concepts and Their Encoding** — parameters, calibration, the joint
    distribution, the decision task, the outcome measure and why it is built that
    way, screening before profiling
@@ -185,6 +187,132 @@ possible, and it bounds what may be concluded. Second, **no human data was
 collected at any point**; nothing here speaks to whether these agents resemble
 people.
 
+## 1.4 Where this sits in the literature
+
+The move this thesis depends on — treating a prompt not as a single instruction
+but as a causal object with separable components — is visible across several
+literatures. The contribution sits at a specific gap between them.
+
+**Prompt conditioning and its instability.** Conditioning behaviour on prompt
+content is a foundational capability (Radford *et al.*, 2019; Brown *et al.*,
+2020), organised as a research programme by Liu *et al.* (2021), with template
+and label-word choice made methodologically explicit by Gao *et al.* (2021).
+That behaviour is also strikingly unstable under changes that preserve meaning.
+Example ordering alone can move performance between near-random and
+near-state-of-the-art (Lu *et al.*, 2021); formatting alone can span dozens of
+accuracy points with meaning held constant (Sclar *et al.*, 2023); and broader
+benchmarks find the same for wording, structure and punctuation (Razavi *et
+al.*, 2025). Neither scale nor instruction tuning reliably removes the
+brittleness (Chatterjee *et al.*, 2024).
+
+**This literature is the direct reason the obvious comparison is insufficient**
+(§3.1). If format alone moves behaviour that much, observing that a structured
+profile moves behaviour establishes very little about the profile's content. It
+is also why the swap control of §3.2 holds block length, field order and the
+complete numeral multiset constant rather than merely similar: anything less
+sits inside the range this work shows to be consequential on its own.
+
+**What in-context labels actually do.** The most directly relevant cluster asks
+whether models use label semantics as users assume. Min *et al.* (2022) report
+that randomising demonstration labels barely degrades performance; Kim *et al.*
+(2022) find the effect of correct mappings varies by configuration; Fei *et al.*
+(2023) identify domain-label bias as a systematic failure mode; and a
+calibration line (Zhao *et al.*, 2021; Jiang *et al.*, 2023; Zhou *et al.*,
+2023) shows such biases are measurable and correctable rather than noise.
+
+Two results cut against the strongest reading of this thesis's own finding, and
+are reported here for that reason. Wei *et al.* (2023) show large models can
+override semantic priors to learn in-context from semantically unrelated labels,
+and Liu (2026) gives mechanistic evidence that output can be bound to a
+demonstrated token inventory regardless of semantic plausibility. **If a model
+can bind behaviour to an arbitrary label string, a field-bound label effect is
+exactly what a purely associative mechanism would produce.** That is independent
+support for the restraint of §1.3 rather than a difficulty for it: the result
+here is consistent with a learned association between the string `Procedural
+Dependence` and a behavioural disposition, and this design cannot exclude that.
+
+**Causal localisation, and why this is its input-side analogue.** Mechanistic
+interpretability localises behaviour to internal components, unified
+theoretically under causal abstraction (Geiger *et al.*, 2023), and documents
+its own fragility: activation patching admits many hyperparameter variants
+producing disparate results (Zhang and Nanda, 2023), and patching estimates may
+absorb hidden interaction effects rather than isolating single components
+(Vaidyanathan *et al.*, 2026). Substantive accounts of in-context learning
+include induction heads (Olsson *et al.*, 2022), implicit gradient descent (von
+von Oswald *et al.*, 2022) and implicit Bayesian inference (Xie *et al.*, 2021).
+Closest in spirit are function-vector work (Todd *et al.*, 2023; Yin and
+Steinhardt, 2025) and the label-word anchoring result of Wang *et al.* (2023),
+which finds label words gather information in shallow layers and support
+prediction in deep ones — a mechanistic counterpart to the field binding
+measured behaviourally here.
+
+**The method of this thesis is the input-side analogue of that work:** the same
+interventionist logic applied to prompt fields rather than activations. The
+trade is explicit. It gains applicability to closed models, where internals are
+unavailable, and it loses resolution, localising to a *field* rather than to a
+circuit or a head. It also avoids the patching-variant fragility above, because
+the intervention has no hyperparameters — a field either holds a value or it
+does not.
+
+**Persona conditioning, and the gap this occupies.** Structured role and trait
+prompts change behaviour. Luz de Araujo and Roth (2025) is the strongest
+comparison point, assigning 162 personas across seven models against both an empty-persona
+and a control-persona baseline and finding personas produce greater variability
+than controls; Tang *et al.* (2026) extend persona control to facet level while
+noting that prompt-only signals dilute under long context. Agent surveys frame
+prompt engineering as a central parameter-free optimisation method (Du *et al.*,
+2025). **This is where the gap is clearest.** These studies compare conditioned
+against unconditioned arms. What is scarce is work isolating *which prompt
+field* carries the effect with surface form held constant to the byte, and
+scarcer still for closed models, where the mechanistic toolkit is unavailable.
+That intersection is the niche this thesis occupies.
+
+**Moral evaluation.** The outcome space here is political-ethical. Rao *et al.*
+(2023) formalise prompts as a composition of task, ethical policy and user
+input, defining ethical consistency relative to the supplied policy —
+structurally close to the E/G contrast of Chapter 6, where an explicit policy
+statement fails to reproduce what a parameter block achieves. Benkler *et al.*
+(2023) probe value pluralism through demographic prompting at scale, and
+Sachdeva and van Nuenen (2025) compare models against human judgements on
+everyday moral dilemmas, finding low inter-model agreement despite moderate to
+high self-consistency. That last result bears on the cross-provider shrinkage of
+Chapter 8: if models disagree substantially with one another on moral
+judgements, an effect that replicates in direction while shrinking in magnitude
+is roughly what should be expected, and the shrinkage should not be read as
+evidence of a weak effect rather than of model heterogeneity.
+
+**Positioning.** Against this literature the contribution is narrow and
+specific. Relative to prompt-sensitivity work, surface form is held constant to
+the byte rather than approximately, through a numeral-identical swap in which
+the token multiset is fixed and a single binding moves. Relative to label-bias
+work, the binding is manipulated prospectively against a deterministic outcome
+measure rather than diagnosed post-hoc on accuracy. Relative to mechanistic
+work, the intervention is input-side on closed models, trading resolution for
+applicability. Relative to persona work, it identifies which field carries the
+effect rather than establishing that a profile has one. The **replication
+gate** (§3.2) is the component least represented elsewhere: a literature search
+surfaced no counterexample, though absence of evidence in a search is not
+evidence of absence, and that claim is made at that strength.
+
+## 1.5 How this document is organised
+
+Because the argument is a methodological one, the structure departs from the
+conventional order and it is worth stating the mapping. Chapter 2 and Chapter 5
+together constitute the **method**: Chapter 2 specifies the encoding, the
+decision task and the outcome measure, and Chapter 5 gives models, conditions
+and statistical approach. Chapter 3 sets out the identification problem the
+method exists to solve, and Chapter 4 reports the sequence of failures that
+forced each control — it is placed before the results because it is the
+evidence that the controls are necessary rather than ornamental. Chapters 6 to 8
+are the **development**: the empirical results, in order of increasing
+specificity. Chapters 9 to 11 are the **conclusions**, covering what conducting
+the work taught, what may not be concluded from it, and what follows.
+
+Throughout, parenthetic citation follows the surname-and-year convention, with
+*et al.* used from first mention for works with three or more authors — the
+standard in both literatures this thesis draws on, and a readability
+concession given that several cited works have more than twenty authors.
+
 ---
 
 # 2. The Five Concepts and Their Encoding
@@ -220,26 +348,25 @@ assumed.
 **Freedom** is the experiential and behavioural manifestation of agency under
 constraint: the felt and observable reaction to perceived restriction, asymmetric
 influence, or normative pressure, mediated by relational and structural context
-(Deci & Ryan 1985; Brehm & Brehm 1981).
+(Deci and Ryan, 1985; Brehm and Brehm, 1981).
 
 **Justice** is the cognitive-affective appraisal of proportionality between
 contributions and outcomes, evaluated through social comparison, sensitive to
 both distributional and procedural dimensions, and generating corrective
-motivation when imbalance exceeds a subjective threshold (Adams 1965; Colquitt
-2001).
+motivation when imbalance exceeds a subjective threshold (Adams, 1965; Colquitt, 2001).
 
 **Authority** is the perceived legitimacy of asymmetric social influence,
 mediated by compliance, identification, and internalisation, and modulated by
-expertise, institutional role, and proximity (Milgram 1974; Kelman 1958).
+expertise, institutional role, and proximity (Milgram, 1974; Kelman, 1958).
 
 **Care** is other-oriented concern for the welfare of those perceived as morally
 considerable, extended through affective and cognitive mechanisms, activated by
 cues of suffering or need, and modulated by the breadth of the moral circle
-(Davis 1983; Batson 2011; Crimston et al. 2016).
+(Davis, 1983; Batson, 2011; Crimston *et al.*, 2016).
 
 **Loyalty** is sustained in-group commitment beyond instrumental calculation:
 pro-group behaviour at personal cost, mediated by identification and, at its
-extreme, identity fusion (Swann et al. 2012; Kelman 1958).
+extreme, identity fusion (Swann *et al.*, 2012; Kelman, 1958).
 
 ## 2.2 The ten parameters
 
@@ -260,11 +387,9 @@ drawing on common dimensions.
 | MS | Moral Scope | local / role-bound | universalised | MES |
 | AW | Affective Weighting | deliberative | intuitive | Davis IRI |
 
-Instrument sources, in table order: GCOS (Deci & Ryan 1985); HPRS (Hong & Faedda
-1996); Ultimatum-Game rejection thresholds (Güth et al. 1982); STAXI (Spielberger
-1999) with the IRI (Davis 1983); Self-Construal Scale (Singelis 1994); Colquitt
-(2001); SDO₇ (Pratto et al. 1994; Ho et al. 2015); SRQ (Ryan & Connell 1989); MES
-(Crimston et al. 2016); IRI (Davis 1983).
+Instrument sources, in table order: GCOS (Deci and Ryan, 1985); HPRS (Hong and Faedda, 1996); Ultimatum-Game rejection thresholds (Güth *et al.*, 1982); STAXI (Spielberger, 1999) with the IRI (Davis, 1983); Self-Construal Scale (Singelis, 1994); Colquitt
+(2001); SDO₇ (Pratto *et al.*, 1994; Ho *et al.*, 2015); SRQ (Ryan and Connell, 1989); MES
+(Crimston *et al.*, 2016); IRI (Davis, 1983).
 
 The two parameters in bold are those that survive the empirical tests reported in
 Chapter 7. Each parameter is rendered as one line of a ten-line block in the
@@ -329,54 +454,29 @@ marginals.
 ## 2.4 The joint distribution
 
 Sampling the ten parameters independently would generate agents that cannot
-exist. An agent with simultaneously high Constraint Sensitivity (reads soft
-pressure as coercion) and high Tolerance for Asymmetry (accepts unequal standing)
-is psychologically incoherent, but independent sampling would produce such
-combinations at non-trivial rates.
+exist: high Constraint Sensitivity (reads soft pressure as coercion) together
+with high Tolerance for Asymmetry (accepts unequal standing) is psychologically
+incoherent, yet independent sampling produces such combinations at non-trivial
+rates. The framework therefore couples the ten Beta marginals through a
+**Gaussian copula** (Sklar, 1959), parameterised by a 10×10 correlation matrix
+**R** in which every entry is an inspectable, separately contestable claim about
+how two constructs covary. R is verified positive semi-definite at import; its
+minimum eigenvalue **as specified** is 0.311, a different quantity from the
+minimum eigenvalue of the *drawn agents'* correlation structure reported in
+Chapter 10. The known limitation is tail independence: a Gaussian copula
+underestimates dependence at the extremes, and extreme agents are exactly what
+pinning constructs. A t-copula is flagged as the robustness check. The sampling
+procedure and the full matrix are in the accompanying framework specification.
 
-The framework therefore constructs a joint distribution using a **Gaussian
-copula**. By Sklar's theorem (Sklar 1959), any multivariate distribution decomposes into its
-marginals and a copula encoding the dependency structure between them. Sampling
-one agent takes three steps:
-
-```
-Step 1.   z ~ MVN(0, R)          draw from a multivariate normal
-Step 2.   uᵢ = Φ(zᵢ)             map to uniform via the normal CDF
-Step 3.   xᵢ = F⁻¹ᵢ(uᵢ)          map to the parameter via its Beta inverse CDF
-```
-
-This preserves each marginal distribution *exactly* while introducing
-correlations through the 10×10 matrix **R**. The resulting population occupies
-only plausible regions of the ten-dimensional space.
-
-The copula is chosen for interpretability as much as for fit. It is parameterised
-by a single correlation matrix that can be inspected, audited, and argued with —
-each entry is a claim about how two psychological constructs covary, and each can
-be challenged independently. R must remain positive semi-definite to be a valid
-correlation matrix; the implementation verifies this at import, and the minimum
-eigenvalue of **R as specified** is currently 0.311. This is a different quantity
-from the minimum eigenvalue of the *drawn agents'* correlation structure reported
-in Chapter 10.
-
-**The known limitation is tail independence.** A Gaussian copula assumes
-parameters are no more strongly correlated at the extremes than in the middle. If
-Constraint Sensitivity and Tolerance for Asymmetry are weakly related among
-moderate agents but strongly related among extreme ones, the Gaussian copula
-underestimates that dependence — and extreme agents are exactly the ones this
-thesis's pinning manipulation constructs. A t-copula, adding one
-degrees-of-freedom parameter, is flagged as the robustness check. Richer
-alternatives need either far more parameters or a dataset measuring all ten
-constructs on the same people, which does not exist.
-
-**Why the studies here draw independent marginals.** Each study reported in this
-thesis manipulates one parameter while holding the other nine byte-identical
-between conditions. The copula's purpose is to make a *population* plausible;
-here the nine non-manipulated parameters are identical across the two conditions
-being compared for a given agent, so the dependency structure affects both arms
-equally and cannot produce or mask a contrast. Retaining it would add correlated
-variation in fields deliberately held constant, without serving the question.
-This is a departure from the general framework, made for a stated reason, and the
-copula remains the architecture's commitment for population-level work.
+**The studies here draw independent marginals instead.** Each manipulates one
+parameter while holding the other nine byte-identical between conditions. The
+copula's purpose is to make a *population* plausible; here the nine
+non-manipulated parameters are identical across the two conditions compared for a
+given agent, so the dependency structure affects both arms equally and can
+neither produce nor mask a contrast, while retaining it would add correlated
+variation in fields deliberately held constant. This is a departure from the
+general framework, made for a stated reason, and the copula remains the
+architecture's commitment for population-level work.
 
 ## 2.5 The decision task
 
@@ -449,66 +549,46 @@ rich world approximately.
 
 ## 2.7 Why the metric is built the way it is
 
-The outcome measure described above is deliberately austere, and the reasoning
-behind it is worth setting out, because two of its features look like weaknesses
-until the alternative is considered.
+Two features of the measure look like weaknesses until the alternative is
+considered.
 
-**Why the negative categories are not enough.** The framework's negative
-categories — power-seeking, deception, disutility, ethical violation — derive
-from the machine-ethics benchmark literature. Used alone they produce a metric
-that can only detect harm, never virtue. An agent that does nothing at all scores
-identically to one that acts well at cost to itself. Four positive analogues are
-therefore defined alongside them: appropriate authority use, honest disclosure,
-welfare promotion, and principled compliance under cost, each anchored to a
-distinct literature (Tyler 2006; Ashton & Lee 2007; Batson 2011; Aquino & Reed
-2002).
+**Why principled resistance is a positive trigger.** The framework's negative
+categories — power-seeking, deception, disutility, ethical violation — come from
+the machine-ethics benchmark literature, and used alone they yield a metric that
+detects harm but never virtue: an agent that does nothing scores identically to
+one that acts well at cost to itself. Four positive analogues are therefore
+defined alongside them (Tyler, 2006; Ashton and Lee, 2007; Batson, 2011; Aquino and Reed, 2002). But a naïve reading of those would code only compliant pro-social
+behaviour as good, so that compliance with an illegitimate directive, or silence
+before group wrongdoing, scores positive or at worst neutral. That would build a
+**structural pro-compliance bias** into the instrument — precisely the normative
+distortion the framework exists to study rather than reproduce. Four classes of
+principled resistance are therefore positive triggers, and conformity with a
+harmful consensus is coded negative even where the consensus is internally
+coherent.
 
-**Why principled resistance had to be a positive trigger.** A naïve reading of
-those positive categories would code only compliant pro-social behaviour as good.
-Compliance with an illegitimate directive, deference to a corrupt authority, or
-silence in the face of group wrongdoing would then score as positive — because no
-negative category fires — or at worst neutral. That inverts exactly the moral
-pattern the framework is meant to detect.
+**Why there are two parallel scores.** If virtue is judged relative to the local
+normative architecture, an internally coherent but harmful configuration scores
+well by its own standards and the metric cannot detect the failure mode it was
+designed for. A **configuration-relative** eight-vector therefore runs alongside a
+**fixed-standard** four-vector — harm, deception, coercion and unfairness
+avoidance — so that a configuration can be ranked on harm even where it cannot be
+ranked on virtue. Both schemes are specified in full in the framework manual.
 
-This would build a **structural pro-compliance bias** into the measurement
-instrument, and such bias is precisely the normative distortion the framework was
-constructed to study rather than reproduce. The manual therefore enumerates four
-classes of principled resistance as positive triggers: refusal of an illegitimate
-directive, whistleblowing through legitimate channels at personal cost,
-welfare-preserving disobedience, and principled noncompliance with a harmful
-group consensus. Conformity with a consensus that produces harm is coded as a
-negative even where the consensus is internally coherent.
+**What this thesis actually uses** is the deterministic net-score headline on a
+stipulated transition table, every call made under a neutral configuration on all
+five axes. The configuration-relative machinery is therefore specified but **not
+exercised**: no result here depends on it, and the configuration counterfactual
+that would test it was never run (§10). On this item family, where keeping the
+arrangement classifies `good` throughout, it is not merely unexercised but
+unexercisable (§7.1). That is a real gap between the framework as designed and the
+framework as tested, and it is stated rather than elided.
 
-**Why there are two parallel scores.** A methodological hazard sits in
-configuration-relative coding. If "appropriate authority use" is judged relative
-to the local normative architecture, then the construct differs between
-configurations — and an internally coherent but harmful configuration could score
-as morally good simply because it behaves according to its own standards. The
-metric would be structurally unable to detect the failure mode it was designed to
-study.
-
-The framework therefore reports two scores in parallel. The
-**configuration-relative** eight-vector evaluates against the local architecture.
-The **fixed-standard** four-vector — harm, deception, coercion, and unfairness
-avoidance — evaluates configuration-independently. A configuration can be ranked
-on harm by the second even where the first cannot rank it on virtue.
-
-**What this thesis actually uses.** The studies reported here use the
-deterministic net-score headline on a stipulated transition table, with every
-call made under a neutral configuration on all five axes. The
-configuration-relative machinery is therefore specified but **not exercised**: no
-result in this thesis depends on it, and the configuration counterfactual that
-would test it was never run (§10). This is a real gap between the framework as
-designed and the framework as tested, and it is stated rather than elided.
-
-The austerity is deliberate. Because classification is a lookup applied to the
-chosen action identifier, the dependent variable cannot drift with the
-interpretation of what a model wrote. Nothing the agent says is read, rated, or
-judged. That removes rater noise entirely — the cost being that the thesis
-measures choices in a small stipulated world exactly, rather than behaviour in a
-rich world approximately. For an identification study, where the whole point is
-that the outcome must not move for reasons unrelated to the manipulation, that
-trade is the right way round.
+The austerity is the point. Because classification is a lookup on the chosen
+action identifier, the dependent variable cannot drift with the interpretation of
+what a model wrote; rater noise is removed entirely. The cost is that the thesis
+measures choices in a small stipulated world exactly rather than behaviour in a
+rich world approximately. For an identification study, where the outcome must not
+move for reasons unrelated to the manipulation, that trade is the right way round.
 
 ## 2.8 Screening before profiling
 
@@ -800,10 +880,33 @@ independent replication target. A third model was evaluated and rejected: every
 item that produced variation on it sat within 0.12 of a ceiling or floor, leaving
 insufficient room to detect an effect.
 
-The complete record comprises **20,991 recorded calls across 45 studies**, at an
-accounted cost of $22.24. All per-call records are write-once; releases are
-hash-pinned to their source code; power simulations and offline re-analyses are
-reproducible from committed modules.
+The complete record comprises **20,991 recorded calls across 45 studies**, at a
+total accounted spend of $34.99 across both providers — $22.25 against the
+Anthropic ceiling of $32 and $12.74 against the OpenAI ceiling of $40. All
+per-call records are write-once; releases are hash-pinned to their source code;
+power simulations and offline re-analyses are reproducible from committed
+modules.
+
+**Sample, representativeness and time horizon.** The unit of analysis is the
+agent-item pair, and the sample is not drawn from a human population: each agent
+is a vector of ten parameters drawn from Beta marginals calibrated, as §2.3
+describes, against published score distributions for adults in consolidated
+Western democracies. Representativeness therefore runs in one direction only.
+The drawn agents are representative of that calibration target to the extent the
+instrument-to-parameter mapping of §2.3 holds, which is an assumption rather
+than a measurement; they are representative of no human population directly,
+because no human was sampled. The items are likewise not a sample. They are the
+residue of the filtering process described in Chapter 4 — the vignettes that
+survived a dispersion screen after five designs did not — so they represent the
+set of tasks on which this identification is feasible, not the domain of
+workplace-resource dilemmas. Both facts bound the external validity claimed in
+Chapter 10. As to time horizon, the complete frozen record runs from the close of
+the baseline calibration phase in late July 2026 to 18 September 2026, and the
+studies reported in Chapters 6 to 8 were collected in the final week of that
+period against model versions fixed for the duration (`gpt-5.4-mini` and
+`claude-haiku-4-5-20251001`). Every result is a measurement of those versions at
+that moment: no result here speaks to behaviour before or after the window, and a
+model update would require re-collection rather than re-analysis.
 
 ## 5.2 Conditions
 
@@ -1111,7 +1214,7 @@ now states rather than absorbs:
 | CS Constraint Sensitivity | −0.017 | 1.000 | 3+/3− | no |
 
 Seven parameters are **not** load-bearing at the effect size the sweep was
-powered for: 24 of 24 simulated detections at *d* ≥ 0.20 (Cohen 1988), with no
+powered for: 24 of 24 simulated detections at *d* ≥ 0.20 (Cohen, 1988), with no
 false positives. That licenses "no effect as large as *d* = 0.20", which is
 weaker than "no effect" and stronger than an absence of evidence. An equivalence
 test against a stated bound would settle the difference and has not been run.
@@ -1240,15 +1343,20 @@ nothing stronger.
 
 ## 8.1 The final map
 
-| Parameter | Pinned effect | Swap control | Second provider | Status |
-|---|---:|---|---:|---|
-| **PD** | +0.339 to +0.346 | −0.036 n.s. | +0.133 | **field-bound label effect** |
-| **ID** | +0.111 to +0.143 | +0.046 n.s. | +0.075 | **field-bound label effect** |
-| ~~LL~~ | −0.131 → −0.014 | uninterpretable | not tested | **withdrawn, unresolved** |
-| seven others | −0.10 to +0.05 | — | — | not load-bearing |
+| Parameter | Pinned | Swap | Counterbalanced | 2nd provider | Status |
+|---|---:|---|---|---:|---|
+| **PD** | +0.339 to +0.346 | −0.036 n.s. | label +0.300; position n.s. | +0.133 | **label effect** |
+| **ID** | +0.111 to +0.143 | +0.046 n.s. | not run | +0.075 | **field-bound label effect** |
+| ~~LL~~ | −0.131 → −0.014 | uninterpretable | not run | not tested | **withdrawn, unresolved** |
+| seven others | −0.10 to +0.05 | — | — | — | not load-bearing |
 
-**Two of ten parameters carry the behaviour, and for both, the effect is bound to
-the labelled field rather than to the number.**
+**Two of ten parameters carry the behaviour, and for both the effect is bound to
+the labelled field rather than to the number.** For Procedural Dependence on the
+calibration model the counterbalanced control narrows this further, to the label
+itself rather than the line it occupies. That narrowing is claimed for that one
+cell only: Internalisation Dependence's swap control carries the position
+confound unaddressed, and both cross-provider runs used the original,
+non-counterbalanced swap.
 
 ---
 
@@ -1347,10 +1455,10 @@ property of how agents are drawn, not evidence that the underlying concepts are
 distinct.
 
 **A contamination result bounds the framework.** The framework's five per-concept
-benchmarks are classic paradigms: Milgram obedience (Milgram 1974), Asch
-conformity (Asch 1956, with Bond & Smith 1996 supplying the modernised target
-band), the Ultimatum Game (Güth et al. 1982), bystander helping (Latané & Darley
-1968), and reactance restoration (Worchel & Brehm 1970). Each was rewritten as a
+benchmarks are classic paradigms: Milgram obedience (Milgram, 1974), Asch
+conformity (Asch, 1956, with Bond and Smith, 1996 supplying the modernised target
+band), the Ultimatum Game (Güth *et al.*, 1982), bystander helping (Latané and Darley,
+1968), and reactance restoration (Worchel and Brehm, 1970). Each was rewritten as a
 structure-preserving variant in an unrelated surface domain. A 500-probe
 recognition screen, dual-coded by raters from two providers with 500/500 exact
 agreement, identified all five decanonised variants at the same rate as their
@@ -1365,10 +1473,10 @@ rather than concealed.
 
 **A sixth benchmark was considered and rejected.** The Stanford Prison Experiment
 was excluded on substantive grounds — experimenter coaching of the guards is
-documented (Le Texier 2019), the participant pool shows systematic self-selection
-(Carnahan & McFarland 2007), and the paradigm supplies no quantified retrodiction
+documented (Le Texier, 2019), the participant pool shows systematic self-selection
+(Carnahan and McFarland, 2007), and the paradigm supplies no quantified retrodiction
 target. The Milgram anchor, by contrast, retains a partial replication at
-comparable obedience rates (Burger 2009). Neither bears on any result reported
+comparable obedience rates (Burger, 2009). Neither bears on any result reported
 here, since the benchmark layer was never run; both are recorded because this
 thesis tests a fragment of a framework in which they are load-bearing.
 
@@ -1379,8 +1487,8 @@ build on should know which is which.
 
 **Fixable with money and time.** Coverage is the clearest: more items, more task
 families, more models. Nothing conceptual stands in the way — the constraint was
-cost, and the project's whole accounted spend was $22.24 against a $32 provider
-cap. Swap controls on the second
+cost, and the project's whole accounted spend was $34.99 across both providers,
+of which $22.25 fell against the $32 Anthropic ceiling. Swap controls on the second
 provider fall in the same category, costing perhaps two dollars. Human comparison
 is fixable in principle but expensive in practice, requiring ethics approval and
 participant payment that this project could not fund.
@@ -1537,106 +1645,249 @@ it, and the current design cannot speak to it at all.
 
 # References
 
-Adams, J.S. (1965). Inequity in Social Exchange. In L. Berkowitz (Ed.),
-*Advances in Experimental Social Psychology*, Vol. 2, pp. 267–299.
+Adams, J.S. (1965). Inequity in social exchange. In L. Berkowitz (ed.)
+*Advances in Experimental Social Psychology*, Vol. 2. New York: Academic Press,
+pp. 267–299.
 
-Aquino, K. & Reed, A. II (2002). The Self-Importance of Moral Identity. *Journal
-of Personality and Social Psychology*, 83(6), 1423–1440.
+Aquino, K. and Reed, A. II (2002). The Self-Importance of Moral Identity. *Journal
+of Personality and Social Psychology*, *83*(6): 1423–1440.
 
 Asch, S.E. (1956). Studies of Independence and Conformity: A Minority of One
-Against a Unanimous Majority. *Psychological Monographs*, 70(9), 1–70.
+Against a Unanimous Majority. *Psychological Monographs*, *70*(9): 1–70.
 
-Ashton, M.C. & Lee, K. (2007). Empirical, Theoretical, and Practical Advantages
+Ashton, M.C. and Lee, K. (2007). Empirical, Theoretical, and Practical Advantages
 of the HEXACO Model of Personality Structure. *Personality and Social Psychology
-Review*, 11(2), 150–166.
+Review*, *11*(2): 150–166.
 
-Batson, C.D. (2011). *Altruism in Humans*. Oxford University Press.
+Batson, C.D. (2011). *Altruism in Humans*. New York: Oxford University Press.
 
-Bond, R. & Smith, P.B. (1996). Culture and Conformity: A Meta-Analysis of Studies
-Using Asch's Line Judgment Task. *Psychological Bulletin*, 119(1), 111–137.
+Bond, R. and Smith, P.B. (1996). Culture and Conformity: A Meta-Analysis of Studies
+Using Asch's Line Judgment Task. *Psychological Bulletin*, *119*(1): 111–137.
 
-Brehm, S.S. & Brehm, J.W. (1981). *Psychological Reactance: A Theory of Freedom
-and Control*. Academic Press.
+Brehm, S.S. and Brehm, J.W. (1981). *Psychological Reactance: A Theory of Freedom
+and Control*. New York: Academic Press.
 
 Burger, J.M. (2009). Replicating Milgram: Would People Still Obey Today?
-*American Psychologist*, 64(1), 1–11.
+*American Psychologist*, *64*(1): 1–11.
 
-Carnahan, T. & McFarland, S. (2007). Revisiting the Stanford Prison Experiment:
+Carnahan, T. and McFarland, S. (2007). Revisiting the Stanford Prison Experiment:
 Could Participant Self-Selection Have Led to the Cruelty? *Personality and Social
-Psychology Bulletin*, 33(5), 603–614.
+Psychology Bulletin*, *33*(5): 603–614.
 
 Cohen, J. (1988). *Statistical Power Analysis for the Behavioral Sciences*
-(2nd ed.). Lawrence Erlbaum.
+(2nd ed.). Hillsdale, NJ: Lawrence Erlbaum.
 
 Colquitt, J.A. (2001). On the Dimensionality of Organizational Justice: A
-Construct Validation of a Measure. *Journal of Applied Psychology*, 86(3),
-386–400.
+Construct Validation of a Measure. *Journal of Applied Psychology*, *86*(3): 386–400.
 
-Crimston, D., Bain, P.G., Hornsey, M.J. & Bastian, B. (2016). Moral
+Crimston, D., Bain, P.G., Hornsey, M.J. and Bastian, B. (2016). Moral
 Expansiveness: Examining Variability in the Extension of the Moral World.
-*Journal of Personality and Social Psychology*, 111(4), 636–653.
+*Journal of Personality and Social Psychology*, *111*(4): 636–653.
 
 Davis, M.H. (1983). Measuring Individual Differences in Empathy: Evidence for a
-Multidimensional Approach. *Journal of Personality and Social Psychology*, 44(1),
-113–126.
+Multidimensional Approach. *Journal of Personality and Social Psychology*, *44*(1): 113–126.
 
-Deci, E.L. & Ryan, R.M. (1985). The General Causality Orientations Scale:
-Self-Determination in Personality. *Journal of Research in Personality*, 19(2),
-109–134.
+Deci, E.L. and Ryan, R.M. (1985). The General Causality Orientations Scale:
+Self-Determination in Personality. *Journal of Research in Personality*, *19*(2): 109–134.
 
-Güth, W., Schmittberger, R. & Schwarze, B. (1982). An Experimental Analysis of
-Ultimatum Bargaining. *Journal of Economic Behavior and Organization*, 3(4),
-367–388.
+Güth, W., Schmittberger, R. and Schwarze, B. (1982). An Experimental Analysis of
+Ultimatum Bargaining. *Journal of Economic Behavior and Organization*, *3*(4): 367–388.
 
 Ho, A.K., Sidanius, J., Kteily, N., Sheehy-Skeffington, J., Pratto, F., Henkel,
-K.E., Foels, R. & Stewart, A.L. (2015). The Nature of Social Dominance
+K.E., Foels, R. and Stewart, A.L. (2015). The Nature of Social Dominance
 Orientation: Theorizing and Measuring Preferences for Intergroup Inequality Using
-the New SDO₇ Scale. *Journal of Personality and Social Psychology*, 109(6),
-1003–1028.
+the New SDO₇ Scale. *Journal of Personality and Social Psychology*, *109*(6): 1003–1028.
 
 Holm, S. (1979). A Simple Sequentially Rejective Multiple Test Procedure.
-*Scandinavian Journal of Statistics*, 6(2), 65–70.
+*Scandinavian Journal of Statistics*, *6*(2): 65–70.
 
-Hong, S.-M. & Faedda, S. (1996). Refinement of the Hong Psychological Reactance
-Scale. *Educational and Psychological Measurement*, 56(1), 173–182.
+Hong, S.-M. and Faedda, S. (1996). Refinement of the Hong Psychological Reactance
+Scale. *Educational and Psychological Measurement*, *56*(1): 173–182.
 
 Kelman, H.C. (1958). Compliance, Identification, and Internalization: Three
-Processes of Attitude Change. *Journal of Conflict Resolution*, 2(1), 51–60.
+Processes of Attitude Change. *Journal of Conflict Resolution*, *2*(1): 51–60.
 
-Latané, B. & Darley, J.M. (1968). Group Inhibition of Bystander Intervention in
-Emergencies. *Journal of Personality and Social Psychology*, 10(3), 215–221.
+Latané, B. and Darley, J.M. (1968). Group Inhibition of Bystander Intervention in
+Emergencies. *Journal of Personality and Social Psychology*, *10*(3): 215–221.
 
 Le Texier, T. (2019). Debunking the Stanford Prison Experiment. *American
-Psychologist*, 74(7), 823–839.
+Psychologist*, *74*(7): 823–839.
 
-Milgram, S. (1974). *Obedience to Authority: An Experimental View*. Harper & Row.
+Milgram, S. (1974). *Obedience to Authority: An Experimental View*. New York: Harper and Row.
 
-Pratto, F., Sidanius, J., Stallworth, L.M. & Malle, B.F. (1994). Social Dominance
+Pratto, F., Sidanius, J., Stallworth, L.M. and Malle, B.F. (1994). Social Dominance
 Orientation: A Personality Variable Predicting Social and Political Attitudes.
-*Journal of Personality and Social Psychology*, 67(4), 741–763.
+*Journal of Personality and Social Psychology*, *67*(4): 741–763.
 
-Ryan, R.M. & Connell, J.P. (1989). Perceived Locus of Causality and
+Ryan, R.M. and Connell, J.P. (1989). Perceived Locus of Causality and
 Internalization: Examining Reasons for Acting in Two Domains. *Journal of
-Personality and Social Psychology*, 57(5), 749–761.
+Personality and Social Psychology*, *57*(5): 749–761.
 
 Singelis, T.M. (1994). The Measurement of Independent and Interdependent
-Self-Construals. *Personality and Social Psychology Bulletin*, 20(5), 580–591.
+Self-Construals. *Personality and Social Psychology Bulletin*, *20*(5): 580–591.
 
 Sklar, A. (1959). Fonctions de répartition à n dimensions et leurs marges.
-*Publications de l'Institut de Statistique de l'Université de Paris*, 8, 229–231.
+*Publications de l'Institut de Statistique de l'Université de Paris*, *8*: 229–231.
 
 Spielberger, C.D. (1999). *State-Trait Anger Expression Inventory-2: Professional
-Manual*. Psychological Assessment Resources.
+Manual*. Odessa, FL: Psychological Assessment Resources.
 
-Swann, W.B. Jr., Jetten, J., Gómez, Á., Whitehouse, H. & Bastian, B. (2012).
+Swann, W.B. Jr., Jetten, J., Gómez, Á., Whitehouse, H. and Bastian, B. (2012).
 When Group Membership Gets Personal: A Theory of Identity Fusion. *Psychological
-Review*, 119(3), 441–456.
+Review*, *119*(3): 441–456.
 
-Tyler, T.R. (2006). *Why People Obey the Law*. Princeton University Press.
+Tyler, T.R. (2006). *Why People Obey the Law*. Princeton, NJ: Princeton University Press.
 
-Worchel, S. & Brehm, J.W. (1970). Effect of Threats to Attitudinal Freedom as a
+Worchel, S. and Brehm, J.W. (1970). Effect of Threats to Attitudinal Freedom as a
 Function of Agreement with the Communicator. *Journal of Personality and Social
-Psychology*, 14(1), 18–22.
+Psychology*, *14*(1): 18–22.
+
+
+> **⚠ INCOMPLETE — MUST BE COMPLETED BEFORE SUBMISSION.** The entries marked
+> `[AUTHORS]` below are verified as to existence, title, year and venue, but their
+> full author lists were not confirmed against a database in this pass. Complete
+> them from the source before printing. Do not submit with this banner present.
+
+
+## Works on prompting, in-context learning and language models
+
+Benkler, N., Mosaphir, D., Friedman, S., Smart, A. and Schmer-Galunder, S.
+(2023). Assessing LLMs for Moral Value Pluralism. arXiv preprint
+arXiv:2312.10075.
+
+Brown, T.B. *et al.* [AUTHORS] (2020). Language Models are Few-Shot Learners.
+*Advances in Neural Information Processing Systems*, *33*: 1877–1901.
+
+Chatterjee, A., Renduchintala, H.S.V.N.S.K., Bhatia, S. and Chakraborty, T.
+(2024). POSIX: A Prompt Sensitivity Index for Large Language Models. In
+*Findings of the Association for Computational Linguistics: EMNLP 2024*:
+14550–14565.
+
+Du, S., Zhao, J., Shi, J., Xie, Z., Jiang, X., Bai, Y. and He, L. (2025). A
+Survey on the Optimization of Large Language Model-based Agents. *ACM Computing
+Surveys*.
+
+Fei, Y. *et al.* [AUTHORS] (2023). Mitigating Label Biases for In-context
+Learning. In *Proceedings of the 61st Annual Meeting of the Association for
+Computational Linguistics*. arXiv:2305.19148.
+
+Gao, T. *et al.* [AUTHORS] (2021). Making Pre-trained Language Models Better
+Few-shot Learners. In *Proceedings of the 59th Annual Meeting of the Association
+for Computational Linguistics*.
+
+Geiger, A. *et al.* [AUTHORS] (2023). Causal Abstraction: A Theoretical
+Foundation for Mechanistic Interpretability. *Journal of Machine Learning
+Research*, *26*. arXiv:2301.04709.
+
+Jiang, Z. *et al.* [AUTHORS] (2023). Generative Calibration for In-context
+Learning. In *Findings of the Association for Computational Linguistics: EMNLP
+2023*. arXiv:2310.10266.
+
+Kim, J. *et al.* [AUTHORS] (2022). Ground-Truth Labels Matter: A Deeper Look
+into Input-Label Demonstrations. In *Proceedings of the 2022 Conference on
+Empirical Methods in Natural Language Processing*. arXiv:2205.12685.
+
+Kojima, T., Gu, S.S., Reid, M., Matsuo, Y. and Iwasawa, Y. (2022). Large
+Language Models are Zero-Shot Reasoners. *Advances in Neural Information
+Processing Systems*, *35*.
+
+Liu, M. (2026). In-Context Fixation: When Demonstrated Labels Override Semantics
+in Few-Shot Classification. arXiv preprint arXiv:2605.08295.
+
+Liu, P., Yuan, W., Fu, J., Jiang, Z., Hayashi, H. and Neubig, G. (2021).
+Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in
+Natural Language Processing. *ACM Computing Surveys*. arXiv:2107.13586.
+
+Lu, Y. *et al.* [AUTHORS] (2021). Fantastically Ordered Prompts and Where to
+Find Them: Overcoming Few-Shot Prompt Order Sensitivity. In *Proceedings of the
+60th Annual Meeting of the Association for Computational Linguistics*.
+arXiv:2104.08786.
+
+Luz de Araujo, P.H. and Roth, B. (2025). Helpful assistant or fruitful
+facilitator? Investigating how personas affect language model behavior. *PLOS
+ONE*, *20*: e0325664.
+
+Min, S. *et al.* [AUTHORS] (2022). Rethinking the Role of Demonstrations: What
+Makes In-Context Learning Work? In *Proceedings of the 2022 Conference on
+Empirical Methods in Natural Language Processing*. arXiv:2202.12837.
+
+Nam, A. *et al.* [AUTHORS] (2025). Causal Head Gating: A Framework for
+Interpreting Roles of Attention Heads in Transformers. *Advances in Neural
+Information Processing Systems*, *38*. arXiv:2505.13737.
+
+Olsson, C. *et al.* [AUTHORS] (2022). In-context Learning and Induction Heads.
+*Transformer Circuits Thread*. arXiv:2209.11895.
+
+von Oswald, J. *et al.* [AUTHORS] (2022). Transformers Learn In-Context by
+Gradient Descent. arXiv:2212.07677. Published in *Proceedings of the 40th
+International Conference on Machine Learning* (2023), PMLR 202.
+
+Radford, A. *et al.* [AUTHORS] (2019). Language Models are Unsupervised
+Multitask Learners. OpenAI technical report.
+
+Rao, A. *et al.* [AUTHORS] (2023). Ethical Reasoning over Moral Alignment: A
+Case and Framework for In-Context Ethical Policies in LLMs. In *Findings of the
+Association for Computational Linguistics: EMNLP 2023*. arXiv:2310.07251.
+
+Razavi, A., Soltangheis, M., Arabzadeh, N., Salamat, S., Zihayat, M. and
+Bagheri, E. (2025). Benchmarking Prompt Sensitivity in Large Language Models.
+arXiv preprint arXiv:2502.06065.
+
+Sachdeva, P.S. and van Nuenen, T. (2025). Normative Evaluation of Large Language
+Models with Everyday Moral Dilemmas. In *Proceedings of the 2025 ACM Conference
+on Fairness, Accountability, and Transparency*. arXiv:2501.18081.
+
+Sclar, M. *et al.* [AUTHORS] (2023). Quantifying Language Models' Sensitivity to
+Spurious Features in Prompt Design. In *Proceedings of the 12th International
+Conference on Learning Representations* (2024). arXiv:2310.11324.
+
+Tang, [INITIAL] *et al.* [AUTHORS] (2026). Facet-Level Persona Control by
+Trait-Activated Routing with Contrastive SAE for Role-Playing LLMs.
+arXiv:2602.19157.
+
+Todd, E. *et al.* [AUTHORS] (2023). Function Vectors in Large Language Models.
+In *Proceedings of the 12th International Conference on Learning
+Representations* (2024). arXiv:2310.15213.
+
+Vaidyanathan, S. *et al.* [AUTHORS] (2026). The Curse of Multiple Mediators:
+Hidden Interaction Effects in Activation Patching. arXiv:2606.27510.
+
+Wang, L. *et al.* [AUTHORS] (2023). Label Words are Anchors: An Information Flow
+Perspective for Understanding In-Context Learning. In *Proceedings of the 2023
+Conference on Empirical Methods in Natural Language Processing*.
+arXiv:2305.14160.
+
+Wang, [INITIAL] *et al.* [AUTHORS] (2026). How Few-Shot Examples Add Up: A
+Causal Decomposition of Function Vectors in In-Context Learning.
+arXiv:2605.16591.
+
+Wei, Jason *et al.* [AUTHORS] (2021). Finetuned Language Models Are Zero-Shot
+Learners. arXiv:2109.01652.
+
+Wei, Jerry *et al.* [AUTHORS] (2023). Larger Language Models Do In-Context
+Learning Differently. arXiv:2303.03846.
+
+Xie, S.M. *et al.* [AUTHORS] (2021). An Explanation of In-context Learning as
+Implicit Bayesian Inference. arXiv:2111.02080.
+
+Yang, [INITIAL] *et al.* [AUTHORS] (2026). Shared Lexical Task Representations
+Explain Behavioral Variability in LLMs. arXiv:2604.22027.
+
+Yin, K. and Steinhardt, J. (2025). Which Attention Heads Matter for In-Context
+Learning? In *Proceedings of the 42nd International Conference on Machine
+Learning*. arXiv:2502.14010.
+
+Zhang, F. and Nanda, N. (2023). Towards Best Practices of Activation Patching in
+Language Models: Metrics and Methods. In *Proceedings of the 12th International
+Conference on Learning Representations* (2024). arXiv:2309.16042.
+
+Zhao, Z. *et al.* [AUTHORS] (2021). Calibrate Before Use: Improving Few-Shot
+Performance of Language Models. In *Proceedings of the 38th International
+Conference on Machine Learning*, PMLR 139.
+
+Zhou, H. *et al.* [AUTHORS] (2023). Batch Calibration: Rethinking Calibration
+for In-Context Learning and Prompt Engineering. arXiv:2309.17249.
+
 
 *The full bibliography of the framework, comprising 170 references, is given in
 the theory specification accompanying this thesis.*
