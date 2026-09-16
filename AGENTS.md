@@ -1,5 +1,65 @@
 # AGENTS.md — Concepts-as-Architecture Project Constitution
 
+## Phase 6 begun: paper drafted; name retired; repository consolidated (2026-09-18)
+
+**The project name was retired** at the researcher's instruction. Live documents
+now use **Concepts as Architecture**, with the full title - *Concepts as
+Architecture: A Probabilistic Framework for Encoding Political-Ethical Concepts
+in Normative AI Agents* - where a title belongs.
+
+**Deliberately NOT renamed, and this is a rule rather than an oversight:**
+`archive/**` (9 files) and five frozen `experiments/**` assessments keep the old
+name. They are historical evidence; rewriting a dated closure document to remove
+a name it actually used would make the record misdescribe what was written at the
+time. `viewer/**` was excluded at the researcher's request, and four references
+to `paria_desktop_data_20260912.zip` are a real filename inside copy-paste
+commands. **Do not "finish the job" by editing frozen records.**
+
+**Repository consolidated to `main` plus numbered backups.** Zero non-backup
+branches on either side. `research-transfer-design-20260913`, previously named in
+this file as the development branch, is retired to `backup-9` (remote) and
+`backup-13` (local); three older local dev branches became `backup-10` to
+`backup-12`. All were verified merged into HEAD first. **There is no development
+branch: cut one before the next substantive work.**
+
+**A paper draft exists** at `docs/paper_draft.md`, framed as an identification
+problem rather than an architecture writeup:
+
+> *Which Parts of a Prompt Carry Behaviour? Label-Semantic Controls for
+> Parameterised LLM Agents*
+
+Ten sections and three appendices. It leads on the claim that four mechanisms -
+label semantics, block presence, verbosity, numeric extremity - produce the same
+observed behaviour change, and that the one-binding swap separates them. **The LL
+withdrawal is positioned as the central result**, not the successes: a method
+that can only confirm is weaker than one that kills its own findings.
+
+**Every headline figure was verified against its `results.json`** while drafting,
+which caught one error in the draft itself: a claimed 19,231 total calls against
+a true **18,750** (the PD run had been double-counted). Verified correct: both
+E/G/U pairs, PD prospective, both swap controls, the permutation control, and the
+AW inertness figures.
+
+**What drafting exposed, in priority order.** These are the paper's real
+weaknesses and should drive any further collection:
+
+  1. **Coverage is the principal limitation** - seven items on one model, six on
+     the other, all workplace-resource vignettes with identical tied payoffs.
+     No rewording fixes it. It is the venue critique's unaddressed second option.
+  2. **Section 9 (Related Work) is a stub** and cannot be written honestly
+     without a literature pass. **Do not fabricate citations.**
+  3. **"Not verified cross-model" appears three times** and is awkward each time.
+     Swap controls on haiku (~$2.50) would delete all three hedges.
+  4. **The configuration counterfactual's absence is conspicuous** once the setup
+     explains the framework names it as the contamination discriminator.
+
+**The thesis is a condensed version of the paper**, 30 pages maximum, per the
+researcher. The paper is primary and has no page ceiling; the thesis compresses
+a finished document rather than being written separately.
+
+Accounting unchanged by this session's work: Claude $22.238957400/$32, OpenAI
+$11.093290725/$40, package $33.332248/$100.
+
 ## Both load-bearing coordinates replicate on a second provider (2026-09-18)
 
 `id_crossmodel_r1` and `pd_crossmodel_r1` pinned each verified coordinate to its
@@ -992,15 +1052,27 @@ not a staged conversation.
 
 ## Git Protocol
 
-**Before any session work:** run `git status` and confirm the current development branch. State the branch in your first response.
+**Before any session work:** run `git status` and confirm the current branch. State the branch in your first response.
 
 **Branch discipline:**
-- Determine the actual default branch from Git; do not assume its name. Work on a development branch.
+- Determine the actual default branch from Git; do not assume its name.
+- **As of 18 September the repository holds only `main` and numbered backups.** The
+  researcher consolidated it: `research-transfer-design-20260913`, which this file
+  previously named as the development branch, was retired to `backup-9` and deleted
+  from the remote. There is currently NO development branch.
+- **Cut a fresh development branch before the next substantive work** rather than
+  working on `main`. Ask the researcher for the name, or derive one from the phase.
 - Create a branch before any risky, experimental, or exploratory work.
 - Merge back to main only after the work has been verified.
 - Never commit directly to main during active development. Documentation-only changes (AGENTS.md, CLAUDE.md, NEXT_STEPS.md, README) are the only exception.
 
-**When to commit (Concepts as Architecture-specific):**
+**Backup discipline, as practised:** before publishing to `main`, preserve the
+CURRENT `origin/main` as the next numbered backup. Read that SHA from
+`origin/main`, never from local `main` - local `main` has been stale on three
+separate occasions and a backup cut from it silently duplicates an earlier one.
+That happened once and was caught only on verification.
+
+**When to commit (project-specific):**
 1. Config artefacts created or changed (parameters.json, correlation_matrix_R.json, configurations.json, seeds.json)
 2. Beta marginals or R confirmed against proxy instruments (with PSD re-verification)
 3. Phase gate passed or failed — logged with numbers, never silently
