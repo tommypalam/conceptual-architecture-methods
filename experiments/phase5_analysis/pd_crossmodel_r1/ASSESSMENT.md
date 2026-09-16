@@ -154,7 +154,7 @@ result.
   control was run on haiku**, for the same power reason it was not run for ID: a
   four-arm design quadruples the Holm family. This licenses *"PD moves the
   outcome on haiku too"* and nothing stronger.
-- **Not the same item set.** Four of six overlap with gpt's seven;
+- **Not the same item set.** Five of six overlap with gpt's seven;
   `ward_transfer` is haiku-only, `on_call` and `rest_break` are gpt-only. Forced,
   not chosen: `haiku_screen_r4`'s six alternatives all returned modal share 1.00.
 - **Not magnitude stability.** +0.133 against gpt's +0.346.

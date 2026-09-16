@@ -79,7 +79,7 @@ measured on one model". ID is no longer in that position.
   rejected on measured power (14/20 against 16/20, because its Holm family is
   four times larger); an underpowered TRUE arm would have made the SWAP arms
   uninterpretable by construction, which is exactly what happened to LL.
-- **Not the same item set as the gpt designation.** Four of six items overlap.
+- **Not the same item set as the gpt designation.** Five of six items overlap.
   `ward_transfer` is haiku-only; `on_call` and `rest_break` are gpt-only. That is
   forced rather than chosen: `haiku_screen_r4` measured six alternative items at
   modal share **1.00** — fully deterministic and unable to show any arm

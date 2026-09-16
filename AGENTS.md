@@ -99,7 +99,7 @@ the other way: correlation +0.271, manipulation negative then null. **Post-hoc
 correlations mislead in BOTH directions**; only manipulation settles a
 coordinate.
 
-**Item sets differ by model and that is forced.** Four of six haiku items overlap
+**Item sets differ by model and that is forced.** Five of six haiku items overlap
 gpt's seven; `ward_transfer` is haiku-only, `on_call` and `rest_break` gpt-only.
 `haiku_screen_r4`'s six alternatives all returned modal share 1.00 - fully
 deterministic, unable to show any arm difference.
