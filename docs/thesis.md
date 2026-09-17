@@ -76,28 +76,11 @@ identification; agent-based simulation; political psychology.
 
 ---
 
-## Contents
-
-1. **Introduction** — the inference everyone makes; what is and is not
-   claimed; where this sits in the literature; how the document is organised
-2. **The Five Concepts and Their Encoding** — parameters, calibration, the joint
-   distribution, the decision task, the outcome measure and why it is built that
-   way, screening before profiling
-3. **The Identification Problem** — why the obvious comparison is insufficient;
-   the three controls
-4. **How the Method Was Forced** — the failures that produced the method
-5. **Method** — models, conditions, statistical approach
-6. **Results I** — Do profiles change behaviour?
-7. **Results II** — Which parameters carry it? (including the withdrawal)
-8. **Results III** — Replication across providers
-9. **What the Process Taught** — review instability, refusals, defects shipped
-10. **Limitations**
-11. **Conclusion** — contribution and future work
-- References
-- Appendix A — Experimental Record
-- Appendix B — Items
-
----
+```{=latex}
+\cleardoublepage
+\tableofcontents
+\clearpage
+```
 
 # 1. Introduction
 
@@ -214,7 +197,7 @@ sits inside the range this work shows to be consequential on its own.
 
 **What in-context labels actually do.** The most directly relevant cluster asks
 whether models use label semantics as users assume. Min *et al.* (2022) report
-that randomising demonstration labels barely degrades performance; Kim *et al.*
+that randomising demonstration labels barely degrades performance; Yoo *et al.*
 (2022) find the effect of correct mappings varies by configuration; Fei *et al.*
 (2023) identify domain-label bias as a systematic failure mode; and a
 calibration line (Zhao *et al.*, 2021; Jiang *et al.*, 2023; Zhou *et al.*,
@@ -928,17 +911,64 @@ could not.
 
 All primary contrasts are **paired within agent and item**, comparing conditions
 that differ by a single prompt line for the same drawn agent on the same item.
-Tests are exact sign tests on discordant pairs. This is conservative and it
-discards information: pairs are clustered within agent and within item, and the
-variance decomposition of §6.2 shows item clustering to be large. A mixed-effects
-logistic model with random intercepts for agent and item is the standard
-alternative and was not run; the decision rule's requirement of directional
-consistency across items is what does the work a random item effect would
-otherwise do, and that substitution is a choice rather than an equivalence. Where a study runs multiple
-contrasts, the Holm (1979) correction is applied across them as one family; where a
-study runs exactly one primary contrast, that p-value is reported uncorrected and
-per-item tests are corrected among themselves. Inventing a correction family of
-one would be theatre; concealing that per-item tests are multiple would not.
+The prespecified tests are exact sign tests on discordant pairs. Where a study
+runs multiple contrasts, the Holm (1979) correction is applied across them as one
+family; where a study runs exactly one primary contrast, that p-value is reported
+uncorrected and per-item tests are corrected among themselves. Inventing a
+correction family of one would be theatre; concealing that per-item tests are
+multiple would not.
+
+**The clustering objection, and the model that answers it.** Observations are not
+independent: they are clustered within agent and within item, and the variance
+decomposition of §6.2 shows item clustering to be large — 44.4% of the variance
+in classification rates. The paired design absorbs agent and item *main* effects
+by construction, since both conditions of every comparison are the same agent on
+the same item. What it does not absorb is heterogeneity of the treatment effect
+across items, which would inflate confidence rather than bias the point estimate.
+
+The standard model for this structure is a logistic regression with **crossed
+random intercepts** for agent and item:
+
+> logit P(good) = β₀ + β₁·condition + u_agent + v_item,
+> with u ~ N(0, σ²_agent) and v ~ N(0, σ²_item)
+
+**Every primary contrast in Chapters 7 and 8 was refitted under that model**, by
+Laplace approximation with the random effects integrated at their joint posterior
+mode. The estimator was validated before use on simulated data with known
+parameters, recovering a true β of 0.80 as 0.803 within two standard errors and
+correctly returning non-significance on a simulated null.
+
+| Contrast | Sign test | Mixed model β | *p* | σ_item |
+|---|---:|---:|---:|---:|
+| PD prospective (§7.1) | +0.346, p ≈ 0 | +1.771 | ≈ 0 | 1.00 |
+| PD swap TRUE (§7.2) | +0.339, p ≈ 0 | +1.646 | ≈ 0 | 1.45 |
+| PD swap SWAP (§7.2) | −0.036, p = 0.260 | −0.184 | 0.337 | 0.96 |
+| Counterbalance A (§7.3) | +0.393, p ≈ 0 | +2.048 | ≈ 0 | 1.08 |
+| Counterbalance C (§7.3) | +0.271, p ≈ 0 | +1.349 | ≈ 0 | 0.98 |
+| Counterbalance B (§7.3) | +0.061, p = 0.078 | +0.291 | 0.116 | 0.89 |
+| **Counterbalance D** (§7.3) | +0.004, p = 1.000 | +0.018 | 0.924 | 0.83 |
+| ID swap TRUE (§7.6) | +0.111, p = 0.0012 | +0.564 | 0.0033 | 0.85 |
+| ID swap SWAP (§7.6) | +0.046, p = 0.136 | +0.237 | 0.215 | 0.98 |
+| **LL TRUE** (§7.6) | −0.014, p = 0.708 | −0.072 | 0.704 | 0.88 |
+| PD cross-provider (§8) | +0.133, p = 0.00031 | +0.792 | 0.00046 | 0.95 |
+| ID cross-provider (§8) | +0.075, p = 0.0328 | +0.512 | 0.0330 | 1.46 |
+
+**All twelve agree with the sign test at α = 0.05**, in significance and in sign.
+No conclusion in this thesis depends on which analysis is used. Three cases are
+worth noting individually: condition D, the decisive null of §7.3, is null under
+both (p = 0.924); the Legitimacy Locus failure to replicate that grounds the
+withdrawal of §7.6 is null under both (p = 0.704); and the ID cross-provider
+result, the most marginal contrast in the thesis, is essentially unchanged
+(0.0328 → 0.0330).
+
+The estimated item standard deviations of 0.83 to 1.46 on the log-odds scale
+confirm that the clustering is real and substantial. It does not overturn
+anything here because the pairing already handles it, but that is a fact
+established by fitting the model rather than an assumption.
+
+**The sign tests remain the primary analysis**, because they were prespecified and
+the mixed model was not. The mixed model is reported as a robustness analysis. Had
+the two disagreed, the disagreement would be the finding; they do not.
 
 Decision rules require **both** statistical significance and directional
 consistency across items — typically a majority of at least four of six or seven
@@ -1580,6 +1610,12 @@ what is mapped is the interaction of an encoding with an item family, not a
 property of the encoding. The map is narrow, and its narrowness is stated rather
 than minimised.
 
+Every primary contrast is additionally refitted under a crossed random-intercept
+logistic model (§5.3), and all twelve agree with the prespecified sign test in
+significance and in sign. The clustering the design is exposed to is real —
+estimated item standard deviations run 0.83 to 1.46 on the log-odds scale — and
+it changes no conclusion here.
+
 A fourth contribution is negative and methodological: AI design review returns
 inconsistent verdicts on byte-identical material (§9.1). Anyone building a
 research pipeline around model-based review should know this before depending on
@@ -1743,10 +1779,6 @@ Function of Agreement with the Communicator. *Journal of Personality and Social
 Psychology*, *14*(1): 18–22.
 
 
-> **⚠ INCOMPLETE — MUST BE COMPLETED BEFORE SUBMISSION.** The entries marked
-> `[AUTHORS]` below are verified as to existence, title, year and venue, but their
-> full author lists were not confirmed against a database in this pass. Complete
-> them from the source before printing. Do not submit with this banner present.
 
 
 ## Works on prompting, in-context learning and language models
@@ -1755,7 +1787,7 @@ Benkler, N., Mosaphir, D., Friedman, S., Smart, A. and Schmer-Galunder, S.
 (2023). Assessing LLMs for Moral Value Pluralism. arXiv preprint
 arXiv:2312.10075.
 
-Brown, T.B. *et al.* [AUTHORS] (2020). Language Models are Few-Shot Learners.
+Brown, T.B., Mann, B., Ryder, N., Subbiah, M., Kaplan, J., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D.M., Wu, J., Winter, C., Hesse, C., Chen, M., Sigler, E., Litwin, M., Gray, S., Chess, B., Clark, J., Berner, C., McCandlish, S., Radford, A., Sutskever, I. and Amodei, D. (2020). Language Models are Few-Shot Learners.
 *Advances in Neural Information Processing Systems*, *33*: 1877–1901.
 
 Chatterjee, A., Renduchintala, H.S.V.N.S.K., Bhatia, S. and Chakraborty, T.
@@ -1767,25 +1799,22 @@ Du, S., Zhao, J., Shi, J., Xie, Z., Jiang, X., Bai, Y. and He, L. (2025). A
 Survey on the Optimization of Large Language Model-based Agents. *ACM Computing
 Surveys*.
 
-Fei, Y. *et al.* [AUTHORS] (2023). Mitigating Label Biases for In-context
+Fei, Y., Hou, Y., Chen, Z. and Bosselut, A. (2023). Mitigating Label Biases for In-context
 Learning. In *Proceedings of the 61st Annual Meeting of the Association for
 Computational Linguistics*. arXiv:2305.19148.
 
-Gao, T. *et al.* [AUTHORS] (2021). Making Pre-trained Language Models Better
+Gao, T., Fisch, A. and Chen, D. (2021). Making Pre-trained Language Models Better
 Few-shot Learners. In *Proceedings of the 59th Annual Meeting of the Association
-for Computational Linguistics*.
+for Computational Linguistics*: 3816–3830.
 
-Geiger, A. *et al.* [AUTHORS] (2023). Causal Abstraction: A Theoretical
+Geiger, A., Ibeling, D., Zur, A., Chaudhary, M., Chauhan, S., Huang, J., Arora, A., Wu, Z., Goodman, N., Potts, C. and Icard, T. (2023). Causal Abstraction: A Theoretical
 Foundation for Mechanistic Interpretability. *Journal of Machine Learning
 Research*, *26*. arXiv:2301.04709.
 
-Jiang, Z. *et al.* [AUTHORS] (2023). Generative Calibration for In-context
+Jiang, Z., Zhang, Y., Liu, C., Zhao, J. and Liu, K. (2023). Generative Calibration for In-context
 Learning. In *Findings of the Association for Computational Linguistics: EMNLP
-2023*. arXiv:2310.10266.
+2023*: 2312–2333. arXiv:2310.10266.
 
-Kim, J. *et al.* [AUTHORS] (2022). Ground-Truth Labels Matter: A Deeper Look
-into Input-Label Demonstrations. In *Proceedings of the 2022 Conference on
-Empirical Methods in Natural Language Processing*. arXiv:2205.12685.
 
 Kojima, T., Gu, S.S., Reid, M., Matsuo, Y. and Iwasawa, Y. (2022). Large
 Language Models are Zero-Shot Reasoners. *Advances in Neural Information
@@ -1798,7 +1827,7 @@ Liu, P., Yuan, W., Fu, J., Jiang, Z., Hayashi, H. and Neubig, G. (2021).
 Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in
 Natural Language Processing. *ACM Computing Surveys*. arXiv:2107.13586.
 
-Lu, Y. *et al.* [AUTHORS] (2021). Fantastically Ordered Prompts and Where to
+Lu, Y., Bartolo, M., Moore, A., Riedel, S. and Stenetorp, P. (2021). Fantastically Ordered Prompts and Where to
 Find Them: Overcoming Few-Shot Prompt Order Sensitivity. In *Proceedings of the
 60th Annual Meeting of the Association for Computational Linguistics*.
 arXiv:2104.08786.
@@ -1807,25 +1836,25 @@ Luz de Araujo, P.H. and Roth, B. (2025). Helpful assistant or fruitful
 facilitator? Investigating how personas affect language model behavior. *PLOS
 ONE*, *20*: e0325664.
 
-Min, S. *et al.* [AUTHORS] (2022). Rethinking the Role of Demonstrations: What
+Min, S., Lyu, X., Holtzman, A., Artetxe, M., Lewis, M., Hajishirzi, H. and Zettlemoyer, L. (2022). Rethinking the Role of Demonstrations: What
 Makes In-Context Learning Work? In *Proceedings of the 2022 Conference on
 Empirical Methods in Natural Language Processing*. arXiv:2202.12837.
 
-Nam, A. *et al.* [AUTHORS] (2025). Causal Head Gating: A Framework for
+Nam, A., Conklin, H., Yang, Y., Griffiths, T., Cohen, J. and Leslie, S.-J. (2025). Causal Head Gating: A Framework for
 Interpreting Roles of Attention Heads in Transformers. *Advances in Neural
 Information Processing Systems*, *38*. arXiv:2505.13737.
 
-Olsson, C. *et al.* [AUTHORS] (2022). In-context Learning and Induction Heads.
+Olsson, C., Elhage, N., Nanda, N., Joseph, N., DasSarma, N., Henighan, T., Mann, B., Askell, A., Bai, Y., Chen, A., Conerly, T., Drain, D., Ganguli, D., Hatfield-Dodds, Z., Hernandez, D., Johnston, S., Jones, A., Kernion, J., Lovitt, L., Ndousse, K., Amodei, D., Brown, T., Clark, J., Kaplan, J., McCandlish, S. and Olah, C. (2022). In-context Learning and Induction Heads.
 *Transformer Circuits Thread*. arXiv:2209.11895.
 
-von Oswald, J. *et al.* [AUTHORS] (2022). Transformers Learn In-Context by
+von Oswald, J., Niklasson, E., Randazzo, E., Sacramento, J., Mordvintsev, A., Zhmoginov, A. and Vladymyrov, M. (2022). Transformers Learn In-Context by
 Gradient Descent. arXiv:2212.07677. Published in *Proceedings of the 40th
 International Conference on Machine Learning* (2023), PMLR 202.
 
-Radford, A. *et al.* [AUTHORS] (2019). Language Models are Unsupervised
+Radford, A., Wu, J., Child, R., Luan, D., Amodei, D. and Sutskever, I. (2019). Language Models are Unsupervised
 Multitask Learners. OpenAI technical report.
 
-Rao, A. *et al.* [AUTHORS] (2023). Ethical Reasoning over Moral Alignment: A
+Rao, A., Khandelwal, A., Tanmay, K., Agarwal, U. and Choudhury, M. (2023). Ethical Reasoning over Moral Alignment: A
 Case and Framework for In-Context Ethical Policies in LLMs. In *Findings of the
 Association for Computational Linguistics: EMNLP 2023*. arXiv:2310.07251.
 
@@ -1837,41 +1866,45 @@ Sachdeva, P.S. and van Nuenen, T. (2025). Normative Evaluation of Large Language
 Models with Everyday Moral Dilemmas. In *Proceedings of the 2025 ACM Conference
 on Fairness, Accountability, and Transparency*. arXiv:2501.18081.
 
-Sclar, M. *et al.* [AUTHORS] (2023). Quantifying Language Models' Sensitivity to
+Sclar, M., Choi, Y., Tsvetkov, Y. and Suhr, A. (2023). Quantifying Language Models' Sensitivity to
 Spurious Features in Prompt Design. In *Proceedings of the 12th International
 Conference on Learning Representations* (2024). arXiv:2310.11324.
 
-Tang, [INITIAL] *et al.* [AUTHORS] (2026). Facet-Level Persona Control by
+Tang, W., Wan, Z., Komamizu, T. and Ide, I. (2026). Facet-Level Persona Control by
 Trait-Activated Routing with Contrastive SAE for Role-Playing LLMs.
 arXiv:2602.19157.
 
-Todd, E. *et al.* [AUTHORS] (2023). Function Vectors in Large Language Models.
+Todd, E., Li, M.L., Sen Sharma, A., Mueller, A., Wallace, B.C. and Bau, D. (2023). Function Vectors in Large Language Models.
 In *Proceedings of the 12th International Conference on Learning
 Representations* (2024). arXiv:2310.15213.
 
-Vaidyanathan, S. *et al.* [AUTHORS] (2026). The Curse of Multiple Mediators:
+Vaidyanathan, S., Arbour, D., Mueller, A., Niekum, S. and Jensen, D. (2026). The Curse of Multiple Mediators:
 Hidden Interaction Effects in Activation Patching. arXiv:2606.27510.
 
-Wang, L. *et al.* [AUTHORS] (2023). Label Words are Anchors: An Information Flow
+Wang, L., Li, L., Dai, D., Chen, D., Zhou, H., Meng, F., Zhou, J. and Sun, X. (2023). Label Words are Anchors: An Information Flow
 Perspective for Understanding In-Context Learning. In *Proceedings of the 2023
-Conference on Empirical Methods in Natural Language Processing*.
-arXiv:2305.14160.
+Conference on Empirical Methods in Natural Language Processing*:
+9840–9855. arXiv:2305.14160.
 
-Wang, [INITIAL] *et al.* [AUTHORS] (2026). How Few-Shot Examples Add Up: A
+Wang, E., Wang, Y., Bakalova, A. and Hahn, M. (2026). How Few-Shot Examples Add Up: A
 Causal Decomposition of Function Vectors in In-Context Learning.
 arXiv:2605.16591.
 
-Wei, Jason *et al.* [AUTHORS] (2021). Finetuned Language Models Are Zero-Shot
+Wei, J., Bosma, M., Zhao, V.Y., Guu, K., Yu, A.W., Lester, B., Du, N., Dai, A.M. and Le, Q.V. (2021). Finetuned Language Models Are Zero-Shot
 Learners. arXiv:2109.01652.
 
-Wei, Jerry *et al.* [AUTHORS] (2023). Larger Language Models Do In-Context
+Wei, Jerry, Wei, Jason, Tay, Y., Tran, D., Webson, A., Lu, Y., Chen, X., Liu, H., Huang, D., Zhou, D. and Ma, T. (2023). Larger Language Models Do In-Context
 Learning Differently. arXiv:2303.03846.
 
-Xie, S.M. *et al.* [AUTHORS] (2021). An Explanation of In-context Learning as
+Xie, S.M., Raghunathan, A., Liang, P. and Ma, T. (2021). An Explanation of In-context Learning as
 Implicit Bayesian Inference. arXiv:2111.02080.
 
-Yang, [INITIAL] *et al.* [AUTHORS] (2026). Shared Lexical Task Representations
+Yang, Z., Li, J.X., Piedrahita Velez, F., Todd, E., Bau, D., Littman, M.L., Bach, S.H. and Pavlick, E. (2026). Shared Lexical Task Representations
 Explain Behavioral Variability in LLMs. arXiv:2604.22027.
+
+Yoo, K.M., Kim, J., Kim, H.J., Cho, H., Jo, H., Lee, S.-W., Lee, S. and Kim, T. (2022). Ground-Truth Labels Matter: A Deeper Look
+into Input-Label Demonstrations. In *Proceedings of the 2022 Conference on
+Empirical Methods in Natural Language Processing*. arXiv:2205.12685.
 
 Yin, K. and Steinhardt, J. (2025). Which Attention Heads Matter for In-Context
 Learning? In *Proceedings of the 42nd International Conference on Machine
@@ -1881,11 +1914,11 @@ Zhang, F. and Nanda, N. (2023). Towards Best Practices of Activation Patching in
 Language Models: Metrics and Methods. In *Proceedings of the 12th International
 Conference on Learning Representations* (2024). arXiv:2309.16042.
 
-Zhao, Z. *et al.* [AUTHORS] (2021). Calibrate Before Use: Improving Few-Shot
+Zhao, T.Z., Wallace, E., Feng, S., Klein, D. and Singh, S. (2021). Calibrate Before Use: Improving Few-Shot
 Performance of Language Models. In *Proceedings of the 38th International
 Conference on Machine Learning*, PMLR 139.
 
-Zhou, H. *et al.* [AUTHORS] (2023). Batch Calibration: Rethinking Calibration
+Zhou, H., Wan, X., Proleev, L., Mincu, D., Chen, J., Heller, K.A. and Roy, S. (2023). Batch Calibration: Rethinking Calibration
 for In-Context Learning and Prompt Engineering. arXiv:2309.17249.
 
 
