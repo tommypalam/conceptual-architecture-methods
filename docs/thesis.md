@@ -998,7 +998,7 @@ each run at both levels, all with identical numeral multiset, block length and
 line count:
 
 | Condition | Level sits on | At line | Effect | 95% CI | Corrected *p* | Items |
-|--------|------------------------|------:|--------:|------------------:|----------:|---------|
+|-----------|----------------------|------:|--------:|-----------------:|----------:|---------|
 | **A** | **Procedural Dependence** | **6** | **+0.393** | [+0.332, +0.457] | **≈ 0** | **7+/0−** |
 | **C** | **Procedural Dependence** | **10** | **+0.271** | [+0.200, +0.343] | **≈ 0** | 5+/1− |
 | B | Affective Weighting | 10 | +0.061 | [−0.004, +0.121] | 0.157 | 6+/1− |
@@ -1209,7 +1209,7 @@ nothing stronger.
 ## 8.1 The final map
 
 | Parameter | Pinned | Swap | Counterbalanced | 2nd provider | Status |
-|-------------|----------------:|---------------|------------------------|----------:|-----------------------|
+|-----------|--------------:|-----------------|----------------------|----------:|---------------------|
 | **PD** | +0.339 to +0.346 | −0.036 n.s. | label +0.300; position n.s. | +0.133 | **label effect** |
 | **ID** | +0.111 to +0.143 | +0.046 n.s. | not run | +0.075 | **field-bound label effect** |
 | ~~LL~~ | −0.131 → −0.014 | uninterpretable | not run | not tested | **withdrawn, unresolved** |
