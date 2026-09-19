@@ -1,5 +1,48 @@
 # AGENTS.md — Concepts-as-Architecture Project Constitution
 
+## Thesis rebuilt for submission: intervals, equivalence bounds, figures, verbatim prompts (2026-09-19)
+
+Work on branch `thesis-final-20260919`, zero API calls, no frozen record touched.
+`docs/thesis.md` was rewritten and `docs/thesis.pdf` rebuilt with a reproducible
+toolchain (`docs/thesis_build/build.ps1`; pandoc from RStudio's quarto, xelatex from
+TinyTeX installed this session). **Body is 24 pages (numbered 4-27) plus 2 appendix
+pages**, inside the researcher's 30-page bound excluding references.
+
+**What was added, all from the frozen records** (`code/phase6_thesis_intervals.py`,
+`code/phase6_thesis_figures.py`, output `experiments/phase5_analysis/thesis_intervals.json`):
+
+  - Paired bootstrap 95% intervals over agent-item units for every headline contrast,
+    plus a two-stage item-cluster bootstrap. Point estimates reproduce every published
+    figure exactly. **Under the item-cluster bootstrap every PD contrast keeps its sign;
+    the ID contrasts and the haiku E-G contrast include zero.** The mixed model keeps
+    all three significant. The thesis states ID at that strength.
+  - Equivalence bounds for the sweep's nulls: the smallest symmetric margin containing
+    the 90% interval. All six non-LL nulls certify |effect| < 0.20; only RT and CS
+    certify < 0.10. **TfA (-0.103) and MoR (-0.097) have uncorrected intervals that
+    exclude zero**; they did not survive Holm and nothing is claimed, but "not
+    load-bearing" for them means "below the certified threshold", not "flat". This was
+    future-work item five and is now in §7.5 as a post-hoc analysis.
+  - Four figures (E/G/U on both models; label vs position; sweep forest with bands;
+    replication map across designations and providers).
+  - The full E-arm system prompt for a real agent, its one-line diff, and the G
+    instruction verbatim (§5.2); all eight items in Appendix B. The thesis no longer
+    depends on the paper draft for its materials.
+  - A "framework as designed vs exercised" table (§2.4); §1.1 rewritten to motivate the
+    identification question rather than only the framework.
+
+**Defects fixed**: the stale "position not excluded" paragraph in §3.3 that contradicted
+the next paragraph; "von von Oswald"; "Three readings" listing four; 44 vs 45 studies;
+two wrong cross-references (§7.3 for the sweep, §7.5 for the survivors); five
+bibliography entries never cited in the body were removed (Kojima 2022, Nam 2025,
+Wang 2026, Yang 2026, Wei 2021).
+
+**Not changed, needs the researcher**: README names "Dr. Abhinav" as supervisor and
+Camuffo as co-supervisor; the title page names Camuffo alone. One is wrong. The
+explorer files (`viewer/explore.*`, 15 Sept) are untracked and reflect older data.
+
+Accounting unchanged: Claude $22.247448300/$32, OpenAI $12.741596175/$40, package
+$34.989044/$100.
+
 ## Position excluded: the effect is LABEL-bound, not line-bound (2026-09-18)
 
 `position_counterbalance_r1` closed the last structural alternative to the

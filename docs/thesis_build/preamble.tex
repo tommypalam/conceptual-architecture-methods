@@ -1,0 +1,69 @@
+% Preamble included by pandoc when building docs/thesis.pdf from docs/thesis.md.
+% See docs/thesis_build/build.ps1 for the exact command.
+\usepackage{fancyhdr}
+\usepackage{caption}
+\usepackage{float}
+\usepackage{etoolbox}
+\usepackage{needspace}
+
+% Running header: short title left, page number right; nothing on chapter-opening pages.
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\itshape Concepts as Architecture}
+\fancyhead[R]{\small\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+\setlength{\headheight}{14pt}
+
+% Figures: keep them where they are written, with a compact caption.
+\floatplacement{figure}{H}
+\captionsetup{font={small},labelfont={bf},labelsep=period,justification=raggedright,singlelinecheck=false}
+
+% Code blocks (the verbatim prompts of Section 5.2): slightly smaller so a whole
+% system prompt fits on one page.
+\makeatletter
+\def\verbatim@font{\footnotesize\ttfamily}
+\makeatother
+
+% Tables: a little tighter than pandoc's default so the wide result tables fit.
+\AtBeginEnvironment{longtable}{\small}
+\setlength{\LTpre}{6pt}
+\setlength{\LTpost}{6pt}
+
+% Section headings: keep a heading with the text that follows it.
+\usepackage{titlesec}
+\titlespacing*{\section}{0pt}{14pt plus 2pt minus 2pt}{6pt}
+\titlespacing*{\subsection}{0pt}{10pt plus 2pt minus 2pt}{4pt}
+\titleformat{\section}{\normalfont\large\bfseries}{}{0pt}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{}{0pt}{}
+
+% Title page, typeset by hand so that it matches the university's layout.
+\renewcommand{\maketitle}{%
+\begin{titlepage}
+\thispagestyle{empty}
+\centering
+\vspace*{2.2cm}
+{\large Università Commerciale Luigi Bocconi\par}
+\vspace{0.4cm}
+{\normalsize Bachelor of Science in Mathematical and Computing Sciences\\for Artificial Intelligence (BEMACS)\par}
+\vspace{3.6cm}
+{\LARGE\bfseries Concepts as Architecture\par}
+\vspace{0.7cm}
+{\large A Probabilistic Framework for Encoding\\Political-Ethical Concepts in Normative AI Agents\par}
+\vspace{4.2cm}
+\begin{minipage}[t]{0.45\textwidth}
+\raggedright
+{\bfseries Supervisor}\\
+Prof. Arnaldo Camuffo
+\end{minipage}%
+\hfill
+\begin{minipage}[t]{0.45\textwidth}
+\raggedleft
+{\bfseries Candidate}\\
+Tommaso Piero Palamenga
+\end{minipage}
+\vfill
+{\normalsize Academic Year 2025--2026\par}
+\vspace{1.5cm}
+\end{titlepage}
+\setcounter{page}{1}
+}

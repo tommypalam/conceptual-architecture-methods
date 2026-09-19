@@ -9,6 +9,15 @@ Published to `main` on 17 September with the previous tip preserved as
 scope, branch targets and verification. **Phase 6 (paper and release) is next.**
 Continue implementation on a development branch.
 
+## Latest: thesis rebuilt for submission (19 September)
+
+`docs/thesis.md` and `docs/thesis.pdf` rebuilt on branch `thesis-final-20260919`:
+bootstrap intervals and item-cluster intervals on every headline contrast,
+equivalence bounds on the sweep's nulls, four figures, the prompts verbatim, all
+items in Appendix B. 24 body pages plus 2 appendix pages. Build with
+`powershell -File docs/thesis_build/build.ps1`. Details in CLAUDE.md. Open for the
+researcher: the supervisor line in README disagrees with the title page.
+
 ## Latest: both load-bearing coordinates are cross-provider (18 September)
 
 Two designations, 481 calls each, 480/480 valid, zero failures, $1.266 + $1.245.

@@ -131,3 +131,91 @@ Remove the citation-status banner at the top of §9 once every row is checked.
 **Do not remove it while any row is unchecked** — it is the honest signal that the
 section has not been confirmed, and it is what distinguishes cited-but-unverified
 from verified.
+
+---
+
+# Verification results — 2026-09-16
+
+Worked through with database access, in the order the checklist specifies.
+**37 of 39 rows verified. Two citations do not exist and must be removed.**
+Every row below was checked for existence, authorship, year, and that the paper
+makes the claim attributed to it.
+
+## FAILURES — remove, do not soften
+
+| Citation | Where | Finding |
+|---|---|---|
+| **Han et al. 2025** | §9.4 | **No such paper found.** Four targeted searches returned only PersonaLLM (Jiang et al. 2024, Findings NAACL), TRAIT (Findings NAACL 2025), Serapio-García et al. (Nature Machine Intelligence 2025), and "Assessing Social Alignment" (arXiv 2412.16772). None is Han et al. 2025 and none carries the attributed claim as stated. The sentence it supports must be deleted. |
+| **Chowa et al. 2025** | §9.4 | **No such paper found.** Agent-survey searches return Du et al. 2025, Luo et al. 2025, Guo et al. 2024, Wang et al. 2023 — no Chowa. Delete from the parenthetical; Du et al. 2025 stands alone and carries the claim. |
+
+Per the rule at the top of this file, neither is replaced with a substitute:
+CLAUDE.md prohibits adding citations the literature search did not supply.
+
+## CORRECTIONS to verified entries
+
+| Citation | Correction |
+|---|---|
+| **Sachdeva 2025** | Is **Sachdeva, P.S. and van Nuenen, T. (2025)** — TWO authors, cited as one. Also the paper reports "moderate **to high** self-consistency"; the draft says "moderate". Venue: ACM FAccT 2025, doi 10.1145/3715275.3732044 (arXiv 2501.18081). Claim otherwise verified: low inter-model agreement, and judgements diverge substantially from human AITA evaluations. |
+| **Le Texier** | **2019 is correct; the "correction" to 2018 recorded above is wrong** and would have introduced an error. American Psychologist, 74(7), 823–839. `thesis.md` already has 2019 and should NOT be changed. It is the framework bibliography that needs fixing. |
+| **von Oswald et al.** | Name fix confirmed correct — it is **von Oswald**. arXiv 2212.07677 (2022); published version is ICML 2023, PMLR 202. Pick one year convention and apply it. |
+| **Benkler et al. 2023** | Paper verified (Benkler, N., Mosaphir, D., Friedman, S., Smart, A. and Schmer-Galunder, S., "Assessing LLMs for Moral Value Pluralism", arXiv 2312.10075). **The figures "1,128 prompts, 56,400 responses" could not be confirmed from the abstract** — check them against the full text or drop the numbers and keep the qualitative claim. |
+
+## Disambiguations resolved
+
+- **Liu et al. 2021** (Pengfei Liu, prompting survey, ACM CSUR) and **Liu 2026** (Ming Liu, sole author, Amazon, "In-Context Fixation", arXiv 2605.08295) are different works and different people. Confirmed distinct; the 2026 one is single-author as cited.
+- **Wei et al. 2021** (FLAN, arXiv 2109.01652) and **Wei et al. 2023** (arXiv 2303.03846) confirmed distinct.
+- **Wang et al. 2023** ("Label Words are Anchors", EMNLP 2023, arXiv 2305.14160) and **Wang et al. 2026** ("How Few-Shot Examples Add Up", arXiv 2605.16591, ICML 2026) confirmed distinct.
+- **Holm (1979)** verified: Scandinavian Journal of Statistics, **6, 65–70**. Matches what `thesis.md` cites from memory. Add to the framework bibliography.
+
+## Verified rows, with venue for the bibliography
+
+§9.1 — Radford et al. 2019 ☑ · Brown et al. 2020 ☑ · Liu et al. 2021 ☑ (ACM
+Computing Surveys, arXiv 2107.13586) · Gao et al. 2021 ☑ (ACL 2021) · Wei et al.
+2021 ☑ · Kojima et al. 2022 ☑ (NeurIPS 2022) · **Lu et al. 2021** ☑ (arXiv
+2104.08786; published ACL 2022) · **Sclar et al. 2023** ☑ (arXiv 2310.11324;
+ICLR 2024) · **Razavi et al. 2025** ☑ (arXiv 2502.06065; Razavi, Soltangheis,
+Arabzadeh, Salamat, Zihayat, Bagheri) · **Chatterjee et al. 2024** ☑ (POSIX,
+Findings EMNLP 2024, 14550–14565; claim confirmed verbatim: "merely increasing
+the parameter count or instruction tuning does not necessarily reduce prompt
+sensitivity") · Yang et al. 2026 ☑ (arXiv 2604.22027)
+
+§9.2 — **Min et al. 2022** ☑ (EMNLP 2022, arXiv 2202.12837) · Kim et al. 2022 ☑
+(EMNLP 2022, arXiv 2205.12685) · Fei et al. 2023 ☑ (ACL 2023, arXiv 2305.19148;
+domain-label bias confirmed) · Zhao et al. 2021 ☑ (ICML 2021, PMLR 139) · Jiang
+et al. 2023 ☑ (Findings EMNLP 2023, arXiv 2310.10266) · Zhou et al. 2023 ☑
+(Batch Calibration, arXiv 2309.17249) · **Wei et al. 2023** ☑ · **Liu 2026** ☑
+(claim confirmed in detail: label-slot binding, set-level fixation, activation
+patching recovering 98.4% of the accuracy gap)
+
+§9.3 — Geiger et al. 2023 ☑ (arXiv 2301.04709; JMLR 26, 2025) · Zhang & Nanda
+2023 ☑ (arXiv 2309.16042; ICLR 2024) · Vaidyanathan et al. 2026 ☑ ("The Curse of
+Multiple Mediators", arXiv 2606.27510 — claim confirmed exactly) · Olsson et al.
+2022 ☑ · von Oswald et al. 2022 ☑ · Xie et al. 2021 ☑ (arXiv 2111.02080) · Todd
+et al. 2023 ☑ (arXiv 2310.15213; ICLR 2024) · Yin & Steinhardt 2025 ☑ (ICML
+2025, arXiv 2502.14010) · **Wang et al. 2023** ☑ · Nam et al. 2025 ☑ (NeurIPS
+2025, arXiv 2505.13737) · Wang et al. 2026 ☑
+
+§9.4 — **De Araujo & Roth 2024** ☑ — claim confirmed in full: 162 personas, 7
+models, 12 categories, control setting of 30 paraphrases of "a helpful
+assistant" AND an empty-persona condition, "for all models and datasets,
+personas show greater variability than the control setting". Full reference:
+Luz de Araujo, P.H. and Roth, B. (2025). PLOS ONE, 20, e0325664 (arXiv
+2407.02099, 2024) — decide which year to cite. · Du et al. 2025 ☑ (Du, Zhao,
+Shi, Xie, Jiang, Bai and He; ACM Computing Surveys; "parameter-free strategies
+that optimize agent behavior through prompt engineering" confirmed) · Tang et
+al. 2026 ☑ (arXiv 2602.19157; dilution claim confirmed: "prompt- and RAG-based
+signals ... can be diluted in long dialogues, leading to drifting and sometimes
+inconsistent persona behavior") · ~~Han et al. 2025~~ ✗ · ~~Chowa et al. 2025~~ ✗
+
+§9.5 — Rao et al. 2023 ☑ (Findings EMNLP 2023, arXiv 2310.07251) · Benkler et
+al. 2023 ☑ with the figure caveat above · **Sachdeva 2025** ☑ with the
+two-author correction above
+
+## Banner
+
+The citation-status banner at the top of §9 **may be removed once the two failed
+citations are deleted and the four corrections are applied** — every remaining
+row is checked. The two hedged claims that are ours rather than the
+literature's (field-level identification is scarce for closed models; the
+replication gate is not represented elsewhere) are unaffected and keep their
+hedges.

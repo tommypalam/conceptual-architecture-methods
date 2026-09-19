@@ -1,0 +1,535 @@
+{
+  "seed": 20260919,
+  "reps": 10000,
+  "results": [
+    {
+      "name": "E vs G (gpt)",
+      "section": "6",
+      "path": "phase4_coding/phase4b_gpt_r2/all_rows.json",
+      "hi": "E",
+      "lo": "G",
+      "pairs": 320,
+      "items": 8,
+      "effect": 0.228125,
+      "ci95": [
+        0.1625,
+        0.29375
+      ],
+      "ci90": [
+        0.175,
+        0.284375
+      ],
+      "cluster_ci95": [
+        0.090625,
+        0.371875
+      ],
+      "equivalence_margin_90": 0.284375
+    },
+    {
+      "name": "E vs G (haiku)",
+      "section": "6",
+      "path": "phase4_coding/phase4b_profiled_r1/all_rows.json",
+      "hi": "E",
+      "lo": "G",
+      "pairs": 240,
+      "items": 6,
+      "effect": 0.17083333333333334,
+      "ci95": [
+        0.09583333333333334,
+        0.24166666666666667
+      ],
+      "ci90": [
+        0.10833333333333334,
+        0.23333333333333334
+      ],
+      "cluster_ci95": [
+        -0.025,
+        0.3625
+      ],
+      "equivalence_margin_90": 0.23333333333333334
+    },
+    {
+      "name": "PD prospective (gpt)",
+      "section": "7.1",
+      "path": "phase5_analysis/pd_prospective_r1/all_rows.json",
+      "hi": "PD+",
+      "lo": "PD-",
+      "pairs": 280,
+      "items": 7,
+      "effect": 0.3464285714285714,
+      "ci95": [
+        0.275,
+        0.4143749999999987
+      ],
+      "ci90": [
+        0.2892857142857143,
+        0.4035714285714286
+      ],
+      "cluster_ci95": [
+        0.125,
+        0.5642857142857143
+      ],
+      "equivalence_margin_90": 0.4035714285714286
+    },
+    {
+      "name": "PD swap TRUE",
+      "section": "7.2",
+      "path": "phase5_analysis/label_semantics_r1/all_rows.json",
+      "hi": "TRUE+",
+      "lo": "TRUE-",
+      "pairs": 280,
+      "items": 7,
+      "effect": 0.3392857142857143,
+      "ci95": [
+        0.2749107142857144,
+        0.4035714285714286
+      ],
+      "ci90": [
+        0.2857142857142857,
+        0.39285714285714285
+      ],
+      "cluster_ci95": [
+        0.10714285714285714,
+        0.575
+      ],
+      "equivalence_margin_90": 0.39285714285714285
+    },
+    {
+      "name": "PD swap SWAP",
+      "section": "7.2",
+      "path": "phase5_analysis/label_semantics_r1/all_rows.json",
+      "hi": "SWAP+",
+      "lo": "SWAP-",
+      "pairs": 280,
+      "items": 7,
+      "effect": -0.03571428571428571,
+      "ci95": [
+        -0.09285714285714286,
+        0.02142857142857143
+      ],
+      "ci90": [
+        -0.08214285714285714,
+        0.010714285714285714
+      ],
+      "cluster_ci95": [
+        -0.12142857142857143,
+        0.05357142857142857
+      ],
+      "equivalence_margin_90": 0.08214285714285714
+    },
+    {
+      "name": "Counterbalance A (PD, line 6)",
+      "section": "7.3",
+      "path": "phase5_analysis/position_counterbalance_r1/all_rows.json",
+      "hi": "A+",
+      "lo": "A-",
+      "pairs": 280,
+      "items": 7,
+      "effect": 0.39285714285714285,
+      "ci95": [
+        0.33214285714285713,
+        0.45714285714285713
+      ],
+      "ci90": [
+        0.34285714285714286,
+        0.44642857142857145
+      ],
+      "cluster_ci95": [
+        0.20357142857142857,
+        0.5964285714285714
+      ],
+      "equivalence_margin_90": 0.44642857142857145
+    },
+    {
+      "name": "Counterbalance C (PD, line 10)",
+      "section": "7.3",
+      "path": "phase5_analysis/position_counterbalance_r1/all_rows.json",
+      "hi": "C+",
+      "lo": "C-",
+      "pairs": 280,
+      "items": 7,
+      "effect": 0.2714285714285714,
+      "ci95": [
+        0.2,
+        0.34285714285714286
+      ],
+      "ci90": [
+        0.21428571428571427,
+        0.33214285714285713
+      ],
+      "cluster_ci95": [
+        0.06785714285714285,
+        0.4857142857142857
+      ],
+      "equivalence_margin_90": 0.33214285714285713
+    },
+    {
+      "name": "Counterbalance B (AW, line 10)",
+      "section": "7.3",
+      "path": "phase5_analysis/position_counterbalance_r1/all_rows.json",
+      "hi": "B+",
+      "lo": "B-",
+      "pairs": 280,
+      "items": 7,
+      "effect": 0.060714285714285714,
+      "ci95": [
+        -0.0035714285714285713,
+        0.12142857142857143
+      ],
+      "ci90": [
+        0.007142857142857143,
+        0.11428571428571428
+      ],
+      "cluster_ci95": [
+        -0.017857142857142856,
+        0.14642857142857144
+      ],
+      "equivalence_margin_90": 0.11428571428571428
+    },
+    {
+      "name": "Counterbalance D (AW, line 6)",
+      "section": "7.3",
+      "path": "phase5_analysis/position_counterbalance_r1/all_rows.json",
+      "hi": "D+",
+      "lo": "D-",
+      "pairs": 280,
+      "items": 7,
+      "effect": 0.0035714285714285713,
+      "ci95": [
+        -0.060714285714285714,
+        0.06428571428571428
+      ],
+      "ci90": [
+        -0.05,
+        0.05714285714285714
+      ],
+      "cluster_ci95": [
+        -0.06785714285714285,
+        0.075
+      ],
+      "equivalence_margin_90": 0.05714285714285714
+    },
+    {
+      "name": "ID swap TRUE",
+      "section": "7.6",
+      "path": "phase5_analysis/label_semantics_r2/all_rows.json",
+      "hi": "ID:TRUE+",
+      "lo": "ID:TRUE-",
+      "pairs": 280,
+      "items": 7,
+      "effect": 0.11071428571428571,
+      "ci95": [
+        0.05,
+        0.175
+      ],
+      "ci90": [
+        0.05714285714285714,
+        0.16428571428571428
+      ],
+      "cluster_ci95": [
+        -0.02857142857142857,
+        0.24642857142857144
+      ],
+      "equivalence_margin_90": 0.16428571428571428
+    },
+    {
+      "name": "ID swap SWAP",
+      "section": "7.6",
+      "path": "phase5_analysis/label_semantics_r2/all_rows.json",
+      "hi": "ID:SWAP+",
+      "lo": "ID:SWAP-",
+      "pairs": 280,
+      "items": 7,
+      "effect": 0.04642857142857143,
+      "ci95": [
+        -0.010714285714285714,
+        0.10357142857142858
+      ],
+      "ci90": [
+        0.0,
+        0.09285714285714286
+      ],
+      "cluster_ci95": [
+        -0.025,
+        0.11785714285714285
+      ],
+      "equivalence_margin_90": 0.09285714285714286
+    },
+    {
+      "name": "LL TRUE",
+      "section": "7.6",
+      "path": "phase5_analysis/label_semantics_r2/all_rows.json",
+      "hi": "LL:TRUE+",
+      "lo": "LL:TRUE-",
+      "pairs": 280,
+      "items": 7,
+      "effect": -0.014285714285714285,
+      "ci95": [
+        -0.07142857142857142,
+        0.04285714285714286
+      ],
+      "ci90": [
+        -0.060714285714285714,
+        0.03214285714285714
+      ],
+      "cluster_ci95": [
+        -0.11428571428571428,
+        0.08214285714285714
+      ],
+      "equivalence_margin_90": 0.060714285714285714
+    },
+    {
+      "name": "LL SWAP",
+      "section": "7.6",
+      "path": "phase5_analysis/label_semantics_r2/all_rows.json",
+      "hi": "LL:SWAP+",
+      "lo": "LL:SWAP-",
+      "pairs": 280,
+      "items": 7,
+      "effect": -0.04642857142857143,
+      "ci95": [
+        -0.10357142857142858,
+        0.014285714285714285
+      ],
+      "ci90": [
+        -0.09285714285714286,
+        0.0035714285714285713
+      ],
+      "cluster_ci95": [
+        -0.11785714285714285,
+        0.025
+      ],
+      "equivalence_margin_90": 0.09285714285714286
+    },
+    {
+      "name": "PD cross-provider (haiku)",
+      "section": "8",
+      "path": "phase5_analysis/pd_crossmodel_r1/all_rows.json",
+      "hi": "PD+",
+      "lo": "PD-",
+      "pairs": 240,
+      "items": 6,
+      "effect": 0.13333333333333333,
+      "ci95": [
+        0.058333333333333334,
+        0.20833333333333334
+      ],
+      "ci90": [
+        0.07083333333333333,
+        0.19583333333333333
+      ],
+      "cluster_ci95": [
+        0.008333333333333333,
+        0.2625
+      ],
+      "equivalence_margin_90": 0.19583333333333333
+    },
+    {
+      "name": "ID cross-provider (haiku)",
+      "section": "8",
+      "path": "phase5_analysis/id_crossmodel_r1/all_rows.json",
+      "hi": "ID+",
+      "lo": "ID-",
+      "pairs": 240,
+      "items": 6,
+      "effect": 0.075,
+      "ci95": [
+        0.0125,
+        0.14166666666666666
+      ],
+      "ci90": [
+        0.020833333333333332,
+        0.12916666666666668
+      ],
+      "cluster_ci95": [
+        -0.04583333333333333,
+        0.18333333333333332
+      ],
+      "equivalence_margin_90": 0.12916666666666668
+    },
+    {
+      "name": "sweep ID",
+      "section": "7.5",
+      "path": "phase5_analysis/coordinate_sweep_r2/all_rows.json",
+      "hi": "ID+",
+      "lo": "ID-",
+      "pairs": 175,
+      "items": 7,
+      "effect": 0.14285714285714285,
+      "ci95": [
+        0.07428571428571429,
+        0.21142857142857144
+      ],
+      "ci90": [
+        0.08571428571428572,
+        0.2
+      ],
+      "cluster_ci95": [
+        0.04,
+        0.24571428571428572
+      ],
+      "equivalence_margin_90": 0.2
+    },
+    {
+      "name": "sweep LL",
+      "section": "7.5",
+      "path": "phase5_analysis/coordinate_sweep_r2/all_rows.json",
+      "hi": "LL+",
+      "lo": "LL-",
+      "pairs": 175,
+      "items": 7,
+      "effect": -0.13142857142857142,
+      "ci95": [
+        -0.19428571428571428,
+        -0.06857142857142857
+      ],
+      "ci90": [
+        -0.18285714285714286,
+        -0.08
+      ],
+      "cluster_ci95": [
+        -0.21714285714285714,
+        -0.05142857142857143
+      ],
+      "equivalence_margin_90": 0.18285714285714286
+    },
+    {
+      "name": "sweep TfA",
+      "section": "7.5",
+      "path": "phase5_analysis/coordinate_sweep_r2/all_rows.json",
+      "hi": "TfA+",
+      "lo": "TfA-",
+      "pairs": 175,
+      "items": 7,
+      "effect": -0.10285714285714286,
+      "ci95": [
+        -0.18285714285714286,
+        -0.017142857142857144
+      ],
+      "ci90": [
+        -0.17142857142857143,
+        -0.03428571428571429
+      ],
+      "cluster_ci95": [
+        -0.30857142857142855,
+        0.12
+      ],
+      "equivalence_margin_90": 0.17142857142857143
+    },
+    {
+      "name": "sweep MoR",
+      "section": "7.5",
+      "path": "phase5_analysis/coordinate_sweep_r2/all_rows.json",
+      "hi": "MoR+",
+      "lo": "MoR-",
+      "pairs": 175,
+      "items": 7,
+      "effect": -0.09714285714285714,
+      "ci95": [
+        -0.17142857142857143,
+        -0.02857142857142857
+      ],
+      "ci90": [
+        -0.15428571428571428,
+        -0.04
+      ],
+      "cluster_ci95": [
+        -0.19428571428571428,
+        0.0
+      ],
+      "equivalence_margin_90": 0.15428571428571428
+    },
+    {
+      "name": "sweep MS",
+      "section": "7.5",
+      "path": "phase5_analysis/coordinate_sweep_r2/all_rows.json",
+      "hi": "MS+",
+      "lo": "MS-",
+      "pairs": 175,
+      "items": 7,
+      "effect": -0.06857142857142857,
+      "ci95": [
+        -0.13714285714285715,
+        0.0
+      ],
+      "ci90": [
+        -0.12571428571428572,
+        -0.011428571428571429
+      ],
+      "cluster_ci95": [
+        -0.1657142857142857,
+        0.02857142857142857
+      ],
+      "equivalence_margin_90": 0.12571428571428572
+    },
+    {
+      "name": "sweep RE",
+      "section": "7.5",
+      "path": "phase5_analysis/coordinate_sweep_r2/all_rows.json",
+      "hi": "RE+",
+      "lo": "RE-",
+      "pairs": 175,
+      "items": 7,
+      "effect": 0.045714285714285714,
+      "ci95": [
+        -0.02857142857142857,
+        0.12571428571428572
+      ],
+      "ci90": [
+        -0.017142857142857144,
+        0.10857142857142857
+      ],
+      "cluster_ci95": [
+        -0.08,
+        0.17714285714285713
+      ],
+      "equivalence_margin_90": 0.10857142857142857
+    },
+    {
+      "name": "sweep RT",
+      "section": "7.5",
+      "path": "phase5_analysis/coordinate_sweep_r2/all_rows.json",
+      "hi": "RT+",
+      "lo": "RT-",
+      "pairs": 175,
+      "items": 7,
+      "effect": -0.022857142857142857,
+      "ci95": [
+        -0.08,
+        0.03428571428571429
+      ],
+      "ci90": [
+        -0.07428571428571429,
+        0.02857142857142857
+      ],
+      "cluster_ci95": [
+        -0.12,
+        0.06857142857142857
+      ],
+      "equivalence_margin_90": 0.07428571428571429
+    },
+    {
+      "name": "sweep CS",
+      "section": "7.5",
+      "path": "phase5_analysis/coordinate_sweep_r2/all_rows.json",
+      "hi": "CS+",
+      "lo": "CS-",
+      "pairs": 175,
+      "items": 7,
+      "effect": -0.017142857142857144,
+      "ci95": [
+        -0.08571428571428572,
+        0.05142857142857143
+      ],
+      "ci90": [
+        -0.07428571428571429,
+        0.04
+      ],
+      "cluster_ci95": [
+        -0.11428571428571428,
+        0.07428571428571429
+      ],
+      "equivalence_margin_90": 0.07428571428571429
+    }
+  ]
+}
