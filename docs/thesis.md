@@ -37,8 +37,7 @@ the effect on these items; and one of the ten parameters, Procedural Dependence,
 is verified as a field effect. Its value moves the outcome, the same numeral
 placed on the partner field does not, the difference between the two is itself
 estimated and clear of zero, and a counterbalanced control shows the effect
-follows the labelled and explained field whether it prints at line 6 or line 10
-while the partner field at either line moves nothing. A second parameter,
+follows the labelled and explained field whether it prints at line 6 or line 10, while no effect is detected on the partner field at either line. A second parameter,
 Internalisation Dependence, moves the outcome under the prespecified test in
 three designations, but the direct test of its field binding includes zero and
 the effect does not survive a model that lets items respond differently to the
@@ -457,8 +456,7 @@ reasons unrelated to the manipulation, that trade is the right way round.
 
 ## 2.7 Screening before profiling
 
-A task whose unprofiled answer is always the same cannot reveal any difference
-between conditions. This was learned expensively: four null results across three
+A task whose unprofiled answer is nearly always the same leaves a contrast little room to register: an extreme baseline limits the power of the contrasts being tested, and can make detection one-directional. This was learned expensively: four null results across three
 earlier phases traced to exactly this cause, and in four of six cells of one
 study the unprofiled model chose identically across 400 of 400 calls. Every item
 set used here is therefore **screened for baseline dispersion before any profiled
@@ -923,8 +921,7 @@ If the aim is to make an agent weigh interests, avoid harm and treat equivalent
 claims equally, the obvious intervention is to *say so*. The G condition says
 exactly that, in clear English, in the same position in the prompt. On the
 calibration model no improvement over saying nothing is detected. The numeric
-profile, which never mentions harm, deception, coercion or fairness, moves the
-classification substantially. Four readings are available and the data here do
+profile, which does not reproduce the ethical instruction and names none of its four injunctions as an instruction, moves the classification substantially. Four readings are available and the data here do
 not separate them:
 
 1. The profile engages something the instruction does not — a disposition rather
@@ -1057,11 +1054,7 @@ by +0.121, while on Affective Weighting line 6 *trails* line 10 by −0.057.
 Decomposing properly, with 95% intervals from a paired bootstrap over all 280
 agent-item units, the position main effect is +0.032 [−0.025, +0.088] and
 includes zero; the position × label interaction is +0.089 [+0.030, +0.150]; and
-position on the PD label alone (A − C) is +0.121 [+0.046, +0.200]. **There is no
-position main effect.** What there is, is an interaction: position modulates the
-*magnitude of an already-present label effect*. The label works somewhat better
-earlier in the block, and does nothing at either position when it is the wrong
-label. The interval on the interaction is clear of zero, but it rests on a single
+position on the PD label alone (A − C) is +0.121 [+0.046, +0.200]. **No statistically significant position main effect is detected.** What is detected is an interaction: position modulates the *magnitude of an already-present field effect*. The field works somewhat better earlier in the block, and no effect is detected at either position when it is the wrong field. The interval on the interaction is clear of zero, but it rests on a single
 designation and the decomposition was not prespecified; it is a finding to
 replicate, not an established magnitude.
 
