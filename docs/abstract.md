@@ -4,55 +4,18 @@
 
 **Tommaso Piero Palamenga — Bocconi University**
 
+**Supervisor:** Prof. Arnaldo Camuffo.
+
 ### Abstract
 
-Can explicit representations of ethical dispositions systematically shape an
-artificial agent's decisions during generation, and where does that shaping stop?
-This paper introduces Concepts as Architecture, a framework for investigating how political-ethical
-concepts influence individual and collective behaviour in large-language-model
-agents. Drawing on psychological accounts of freedom, justice, authority, care and
-loyalty, the framework represents individual dispositions through ten bounded parameters
-with Beta distributions coupled by a Gaussian copula. Profiles condition decision
-generation, and the application preserves the resulting choices without subsequent
-ethical answer substitution.
+A change in an artificial agent's behaviour after receiving a numeric profile does not establish which part of that profile caused the change. This thesis develops and applies controls for separating effects tied to a labelled and explained prompt field from effects of block presence, prompt length, free-floating numeric extremity and serial position.
 
-An independent confirmation with 400 hash-locked profiles produced 4,800
-individual decisions and 300 group simulations. All six prespecified individual
-contrasts between profile-conditioned and context-only agents survived correction
-for multiple comparisons; group evidence was more limited, with one of seven
-secondary contrasts surviving. Within-arm analysis locates the effect more
-precisely than the arm-level comparison does. In four of six cells the unprofiled
-model was perfectly deterministic across 400 calls, so profiles did not shift an
-existing distribution but introduced behavioural variance where none existed.
-Which agents departed from that baseline was predicted by a single theoretically
-identified coordinate: Procedural Dependence showed a monotone dose-response
-across its quintiles, spanning 35 to 62 percentage points from lowest to highest,
-and ranked first of ten parameters under multivariate control in every
-non-degenerate cell. Nine of the ten coordinates showed no systematic effect. Of
-nine directional hypotheses locked before collection, five were supported and none
-pointed the wrong way, though that evaluation is retrospective and uncorrected,
-and the dominant coordinate was not among the predictions.
+The motivating framework, Concepts as Architecture, represents five political-ethical concepts through ten bounded parameters. The experiments test a restricted part of that framework: whether its prompt fields influence binary choices in short allocation and scheduling dilemmas. Outcomes are computed from a stipulated action key, not assessed for moral quality. The reported record comprises 20,991 calls across 45 studies; the principal comparisons use 25 to 40 independently sampled profiles and six to eight items per study.
 
-Two further results bound the framework's scope. A 500-probe recognition screen,
-dual-coded by raters from different providers with complete agreement, identified
-all five decanonised benchmark variants at the same rate as their canonical
-originals: structure-preserving domain substitution does not conceal a classic
-paradigm from a frontier model, closing a contamination control that is commonly
-assumed rather than tested. And four studies across three phases returned nulls
-traceable to one cause, namely that tasks whose unprofiled answer is deterministic
-cannot discriminate any arm contrast, motivating a baseline-dispersion pre-screen
-as a design requirement.
+Numeric profiles change choices on models from two providers and outperform one explicit ethical instruction on the tested items. Procedural Dependence (PD) is the only verified field effect. Pinning PD from 0.10 to 0.90 produces a paired change of +0.346 on the calibration model. A numeral-matched swap gives a direct TRUE-minus-SWAP difference of +0.375, with a 95% unit-bootstrap interval of [+0.286, +0.464]. Counterbalancing shows that the field effect persists at both tested positions, although position modulates its magnitude. The field's name and endpoint explanation are never separated.
 
-These findings support a conditional demonstration of functional normative
-parameterization, with its boundaries measured rather than assumed: explicit
-profiles can systematically influence generated decisions, the influence
-concentrates on one theoretically appropriate axis, and it disappears on tasks
-whose answer is already determined. They do not establish intrinsic ethical
-understanding, human behavioural equivalence, improved moral outcomes, or validity
-for the remaining nine coordinates. The framework provides a reproducible experimental
-framework for separating behavioural influence from stronger claims about ethical
-competence, and for locating the conditions under which normative representation
-in artificial agents does and does not operate.
+Internalisation Dependence is a candidate: it passes the prespecified tests in three studies, but its binding contrast includes zero and two replications are not significant under item-specific random slopes. Legitimacy Locus fails to replicate and is withdrawn, with its status unresolved. Six other coordinates have post-hoc unit-bootstrap equivalence bounds below 0.20 on the tested items; Affective Weighting was used as the swap partner but never independently pinned. PD and ID also move choices on a second provider under the prespecified tests, without swap controls there.
 
-**Keywords:** normative AI; ethical parameterization; large language models;
-agent-based simulation; political psychology; behavioural validation.
+The contribution is a controlled demonstration of how to identify prompt fields that carry behaviour, including a replication requirement that exposes unconfirmed findings. It establishes neither semantic understanding nor moral improvement, human resemblance, or validation of the full conceptual architecture. Generalisation beyond the screened item family remains untested.
+
+The submission PDF omits this abstract under Bocconi upload rules. The portal text is maintained in `thesis_abstract.txt`.

@@ -1,69 +1,51 @@
-% Preamble included by pandoc when building docs/thesis.pdf from docs/thesis.md.
-% See docs/thesis_build/build.ps1 for the exact command.
+% Bocconi 2025-26 undergraduate submission layout; see COMPLIANCE.md.
 \usepackage{fancyhdr}
 \usepackage{caption}
 \usepackage{float}
 \usepackage{etoolbox}
 \usepackage{needspace}
-
-% Running header: short title left, page number right; nothing on chapter-opening pages.
+\usepackage{setspace}
+\usepackage{microtype}
+\microtypesetup{protrusion=false}
+\usepackage{titlesec}
+% 12-point Arial, approximately 29 ordinary body lines per full A4 page.
+% Tables, captions and verbatim experimental materials use compact type.
+\setstretch{1.65}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 1pt minus 1pt}
+\emergencystretch=2em
+\widowpenalty=10000
+\clubpenalty=10000
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small\itshape Concepts as Architecture}
-\fancyhead[R]{\small\thepage}
-\renewcommand{\headrulewidth}{0.4pt}
-\setlength{\headheight}{14pt}
-
-% Figures: keep them where they are written, with a compact caption.
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\headheight}{15pt}
 \floatplacement{figure}{H}
-\captionsetup{font={small},labelfont={bf},labelsep=period,justification=raggedright,singlelinecheck=false}
-
-% Code blocks (the verbatim prompts of Section 5.2): slightly smaller so a whole
-% system prompt fits on one page.
+\captionsetup{font={small,stretch=1},labelfont=bf,labelsep=period,justification=raggedright,singlelinecheck=false}
+\AtBeginEnvironment{longtable}{\singlespacing\fontsize{9}{11}\selectfont}
+\setlength{\LTpre}{8pt}
+\setlength{\LTpost}{8pt}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.15}
 \makeatletter
-\def\verbatim@font{\footnotesize\ttfamily}
+\def\verbatim@font{\fontsize{9}{11}\selectfont\ttfamily}
 \makeatother
-
-% Tables: a little tighter than pandoc's default so the wide result tables fit.
-\AtBeginEnvironment{longtable}{\footnotesize}
-\setlength{\LTpre}{6pt}
-\setlength{\LTpost}{6pt}
-
-% Section headings: keep a heading with the text that follows it.
-\usepackage{titlesec}
-\titlespacing*{\section}{0pt}{14pt plus 2pt minus 2pt}{6pt}
+\AtBeginEnvironment{verbatim}{\singlespacing}
+\titlespacing*{\section}{0pt}{16pt plus 2pt minus 2pt}{6pt}
 \titlespacing*{\subsection}{0pt}{10pt plus 2pt minus 2pt}{4pt}
 \titleformat{\section}{\normalfont\large\bfseries}{}{0pt}{}
 \titleformat{\subsection}{\normalfont\normalsize\bfseries}{}{0pt}{}
-
-% Title page, typeset by hand so that it matches the university's layout.
-\renewcommand{\maketitle}{%
-\begin{titlepage}
-\thispagestyle{empty}
-\centering
-\vspace*{2.2cm}
-{\large Università Commerciale Luigi Bocconi\par}
-\vspace{0.4cm}
-{\normalsize Bachelor of Science in Economics, Management\\and Computer Science (BEMACS)\par}
-\vspace{3.6cm}
-{\LARGE\bfseries Concepts as Architecture\par}
-\vspace{0.7cm}
-{\large A Probabilistic Framework for Encoding\\Political-Ethical Concepts in Normative AI Agents\par}
-\vspace{4.2cm}
-\begin{minipage}[t]{0.45\textwidth}
-\raggedright
-{\bfseries Supervisor}\\
-Prof. Arnaldo Camuffo
-\end{minipage}%
-\hfill
-\begin{minipage}[t]{0.45\textwidth}
-\raggedleft
-{\bfseries Candidate}\\
-Tommaso Piero Palamenga
-\end{minipage}
-\vfill
-{\normalsize Academic Year 2025--2026\par}
-\vspace{1.5cm}
-\end{titlepage}
-\setcounter{page}{1}
+% Keep headings with at least the beginning of their following material.
+\pretocmd{\section}{\Needspace{5\baselineskip}}{}{}
+\pretocmd{\subsection}{\Needspace{4\baselineskip}}{}{}
+% The portal generates the title page and abstract; neither belongs in the upload.
+\AtBeginDocument{%
+  \hypersetup{pdfauthor={},pdftitle={Concepts as Architecture},pdfsubject={}}
+  \pagestyle{empty}
+  \null\newpage\null\newpage\null\newpage\null\newpage
+  \setcounter{tocdepth}{1}
+  \setcounter{page}{1}
+  \pagestyle{fancy}
 }

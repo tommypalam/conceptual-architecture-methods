@@ -1,5 +1,31 @@
 # AGENTS.md — Concepts-as-Architecture Project Constitution
 
+## Bocconi submission revision (2026-09-19)
+
+The researcher confirmed that **Prof. Arnaldo Camuffo is the sole supervisor**.
+The README has been corrected. `docs/thesis.md` is now the concise submission
+source; the current abstract is `docs/thesis_abstract.txt` (also in
+`docs/abstract.md`). The upload artifact is `docs/LF3262767.pdf`, identical to
+`docs/thesis.pdf`. See `docs/thesis_build/COMPLIANCE.md` for the university rules,
+changes and verification.
+
+Objective corrections: the GPT E/G/U comparison used eight items and 320 pairs;
+later GPT coordinate studies used seven. Appendix B now contains all nine unique
+items, including `sample_draw`. The PD swap included TRUE arms. Independent
+background sampling does not establish robustness to the copula. Power does not
+guarantee detection, and the six equivalence bounds are post-hoc, individual
+unit-bootstrap bounds conditional on the tested items. The full slope refit has
+16 contrasts, 15 usable standard errors and two ID disagreements; PD swap TRUE
+has no usable slope-model standard error. No experiment, frozen result, analysis
+module or figure was changed, and no API call was made.
+
+The submission PDF follows the 2025–26 undergraduate rules: four unnumbered
+opening blank pages; no title page, student details or abstract; A4, 12-point
+Arial body, 2.5 cm side margins and approximately 29 body lines per full page.
+Tables, captions and verbatim materials use compact type. Abstract and title
+information belong in the portal separately. The previous layout's page counts
+and supervisor discrepancy below are historical and superseded.
+
 ## Consistency pass after the second review (2026-09-19, later)
 
 Seven leftovers from the supervisor's second round, all wording, all applied:

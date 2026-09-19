@@ -1,5 +1,16 @@
 # Current state and next steps
 
+## Current: Bocconi submission copy (19 September)
+
+The revised source is `docs/thesis.md`; submit `docs/LF3262767.pdf` (also mirrored
+as `docs/thesis.pdf`). The separate portal abstract is `docs/thesis_abstract.txt`.
+Prof. Arnaldo Camuffo is the sole supervisor, confirmed by the researcher.
+Objective reporting corrections, a concise rewrite and the university format
+are documented in `docs/thesis_build/COMPLIANCE.md`. No new experiments or API
+calls. Earlier page counts and the unresolved supervisor discrepancy are
+superseded. ID follow-up requires a fresh power analysis including item
+heterogeneity; multiplying the number of agents does not guarantee a decision.
+
 Updated 2026-09-18. Publication source: `research-transfer-design-20260913`.
 **Phase 4B and Phase 5 are both CLOSED** —
 [4B closure](experiments/phase4_coding/PHASE4B_CLOSURE_2026-09-16.md),

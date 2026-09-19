@@ -11,7 +11,7 @@ distribution, and measures whether the resulting profiles change decisions in
 fixed dilemmas.
 
 **Author:** Tommaso Piero Palamenga, Bocconi University.
-**Supervisor:** Dr. Abhinav. **Co-supervisor:** Prof. Arnaldo Camuffo.
+**Supervisor:** Prof. Arnaldo Camuffo.
 
 Moving to another computer? Start with the [desktop handoff](docs/desktop_handoff.md).
 
@@ -31,8 +31,8 @@ instruction, on the same items against the same baseline, does not.**
 The guidance arm states the target behaviour in plain English — weigh everyone's
 interests, avoid harm, deception, coercion and unequal treatment. **On the model
 this project is calibrated on it lands *below* the unprofiled baseline**
-(−0.017, p = 0.712) while ten numbers carrying no ethical vocabulary move the
-headline by +0.21.
+(−0.017, p = 0.712) while a profile containing numbers and endpoint explanations moves the
+headline by +0.21. This establishes no moral improvement or general superiority over verbal instructions.
 
 Prespecified same-item subgroup, the five items dispersing on both models:
 **+0.255, p < 10⁻⁷**.
@@ -63,24 +63,23 @@ no longer post-hoc.
 → [prospective PD test](experiments/phase5_analysis/pd_prospective_r1/ASSESSMENT.md) ·
 [Phase 5 closure](experiments/phase5_analysis/PHASE5_CLOSURE_2026-09-16.md)
 
-**Which of the ten concept-parameters actually carry the behaviour? Two survive
-verification.** Each coordinate was pinned to its endpoints with the other nine
+**Which of the ten concept-parameters actually carry the behaviour? PD is verified; ID is a candidate after item-heterogeneity and direct binding checks.** Each coordinate was pinned to its endpoints with the other nine
 held identical, Holm-corrected over all eight contrasts as one family. Every
 survivor then had to pass a label-swap control at 40 agents:
 
 | Coordinate | Pinned effect | Swap control | Verdict |
 |---|---:|---|---|
 | **Procedural Dependence** | **+0.339** | **−0.036**, n.s. | **verified label effect** |
-| **Internalisation Dependence** | **+0.111 to +0.143** | **+0.046**, n.s. | **verified label effect** |
+| **Internalisation Dependence** | **+0.111 to +0.143** | binding difference +0.064, CI includes zero | **candidate; binding not established** |
 | ~~Legitimacy Locus~~ | −0.131, then **−0.014** | uninterpretable | **did not replicate — withdrawn** |
-| the other seven | −0.10 to +0.05 | — | not load-bearing |
+| six others | −0.10 to +0.05 | — | unit-bootstrap bounds below 0.20 on tested items |
+| AW | never independently pinned | partner estimates include zero | no effect detected at tested power |
 
-Seven coordinates are **not** load-bearing — a corrected null at adequate power,
-not absence of evidence.
+The six equivalence bounds are post-hoc and conditional on the unit-bootstrap analysis and tested items; they are not universal or simultaneous guarantees. LL remains unresolved. AW was not independently pinned.
 → [coordinate sweep](experiments/phase5_analysis/coordinate_sweep_r2/ASSESSMENT.md) ·
 [verification](experiments/phase5_analysis/label_semantics_r2/ASSESSMENT.md)
 
-**Both survivors replicate on a second provider.** Each verified coordinate was
+**Both coordinates move the outcome on a second provider under the prespecified tests.** Each coordinate was
 pinned to its endpoints on `claude-haiku-4-5`, 40 agents, six items:
 
 | Coordinate | gpt | haiku | p (haiku) | Prediction |
