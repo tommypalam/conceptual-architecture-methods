@@ -25,7 +25,7 @@ cannot distinguish them.
 The thesis introduces three controls that can. *Pinning* fixes one parameter at
 each end of its range while holding the other nine byte-identical, so the two
 prompts differ by a single line. A *label-swap control* moves the identical
-numeral onto a parameter measured to be inert, holding the block, its length and
+numeral onto a partner parameter with no detected effect, holding the block, its length and
 its numerals constant, so that only the binding between label and value changes.
 A *replication gate* requires an effect to reproduce before its swap control may
 be interpreted at all.
@@ -35,10 +35,10 @@ the deterministic good/bad classification on two models from different providers
 while an explicit ethical instruction written in plain English does not reproduce
 the effect on these items; and one of the ten parameters, Procedural Dependence,
 is verified as a field effect. Its value moves the outcome, the same numeral
-placed on an inert field does not, the difference between the two is itself
+placed on the partner field does not, the difference between the two is itself
 estimated and clear of zero, and a counterbalanced control shows the effect
 follows the labelled and explained field whether it prints at line 6 or line 10
-while an inert field at either line moves nothing. A second parameter,
+while the partner field at either line moves nothing. A second parameter,
 Internalisation Dependence, moves the outcome under the prespecified test in
 three designations, but the direct test of its field binding includes zero and
 the effect does not survive a model that lets items respond differently to the
@@ -65,10 +65,8 @@ map of where a ten-parameter encoding does and does not operate.
 **Keywords:** normative AI; conceptual encoding; large language models; causal
 identification; agent-based simulation; political psychology.
 
----
-
 ```{=latex}
-\cleardoublepage
+\clearpage
 \tableofcontents
 \clearpage
 ```
@@ -502,7 +500,7 @@ verbosity effect, or a reaction to being profiled at all.
 
 **The label-swap control.** Pinning shows that *a parameter* moves the outcome.
 It does not show that the *label* carries it rather than the number's extremity.
-For that, take an inert partner parameter *I* and a level *L*:
+For that, take a partner parameter *I* on which no effect has been detected, and a level *L*:
 
 ```
 TRUE(L)    L on C's label,           I's drawn value on I's label
@@ -522,13 +520,13 @@ TRUE+                              SWAP+
 10. Affective Weighting: 0.50      10. Affective Weighting: 0.90
 ```
 
-The inert partner is Affective Weighting. Its inertness rests on correlation on
+The partner is Affective Weighting. Its standing as a partner rests on correlation on
 unmanipulated data in three studies (r = +0.016, −0.051 and −0.167, none
 approaching significance after correction) and on the SWAP arm of the swap design
 itself. The second is **not independent evidence**: the SWAP contrast is the very
-control the inertness licenses, so the partner's inertness and the field-binding
+control the partner's null licenses, so the partner's null and the field-binding
 of the parameter under test are identified jointly. Affective Weighting was never
-pinned in the sweep of §7.5, and §7.4 records what its inertness now rests on.
+pinned in the sweep of §7.5, and §7.4 records what its null now rests on and why "inert" is not the word for it.
 
 **A precision trap.** The block renders to two decimal places. An agent whose
 drawn Affective Weighting is 0.102 renders as `0.10`, colliding with the low
@@ -864,8 +862,7 @@ very few clusters, and the fits are read with that in mind.
 clustering changes nothing. **Under the slope model, twelve of fourteen agree,
 and the two that do not are both Internalisation Dependence**: the swap-design
 replication moves from p = 0.0033 to p = 0.061, and the cross-provider result
-from 0.0330 to 0.095. Every Procedural Dependence contrast keeps its
-significance and its sign, as do both E − G contrasts and the sweep's ID row. The
+from 0.0330 to 0.095. Every Procedural Dependence contrast with a usable slope-model standard error keeps its significance and its sign, as do both E − G contrasts and the sweep's ID row; the exception is PD swap TRUE, described next, for which the slope model yields no usable standard error. The
 PD swap TRUE fit under the slope model returned no finite standard error from any
 of four starting points: with seven items and an effect near saturation on
 several of them the slope variance is not identified, and that contrast rests on
@@ -883,9 +880,7 @@ symmetric margin containing the 90% bootstrap interval is reported in §7.5. It 
 the bound a two-one-sided-tests procedure at α = 0.05 would certify, and it
 converts "not significant" into "no effect larger than this".
 
-The sign tests remain the primary analysis, because they were prespecified and
-the others were not. Had they disagreed, the disagreement would be the finding;
-they do not.
+The sign tests remain the primary analysis, because they were prespecified and the others were not. Where the analyses disagree, the disagreement is itself a finding: they disagree on Internalisation Dependence under the slope model, and that disagreement is what changes ID's interpretation in Chapter 7.
 
 ---
 
@@ -904,8 +899,7 @@ do the same work?
 
 The result holds on both models. On the calibration model, the plain-English
 ethical instruction lands **below** the unprofiled baseline (−0.017, p = 0.712):
-on these items this instruction does not merely underperform the numeric
-profile, it does nothing at all. The prespecified same-item subgroup across both
+on these items this instruction does not merely underperform the numeric profile; no effect is detected relative to the unprofiled baseline. The prespecified same-item subgroup across both
 models gives **+0.255, p < $10^{-7}$**. E and G present a byte-identical user turn
 and differ only in the system prompt, paired within agent and item. What is
 established is superiority over this particular instruction on this item family,
@@ -928,7 +922,7 @@ manipulation where the effect actually is.
 If the aim is to make an agent weigh interests, avoid harm and treat equivalent
 claims equally, the obvious intervention is to *say so*. The G condition says
 exactly that, in clear English, in the same position in the prompt. On the
-calibration model it produces no improvement over saying nothing. The numeric
+calibration model no improvement over saying nothing is detected. The numeric
 profile, which never mentions harm, deception, coercion or fairness, moves the
 classification substantially. Four readings are available and the data here do
 not separate them:
@@ -1005,8 +999,7 @@ negative (−0.150) and is reported rather than smoothed away.
 
 ## 7.2 The label carries it
 
-`label_semantics_r1` applies the swap control to PD, with AW as the inert
-partner, at 40 agents:
+`label_semantics_r1` applies the swap control to PD, with AW as the partner field, at 40 agents:
 
 | Condition | `0.9` sits on | Good-rate |
 |---|---|---:|
@@ -1072,8 +1065,7 @@ label. The interval on the interaction is clear of zero, but it rests on a singl
 designation and the decomposition was not prespecified; it is a finding to
 replicate, not an established magnitude.
 
-**The claim upgrades from field-bound to position-independent field-bound**, and
-the upgrade is bounded in two ways. It holds for Procedural Dependence on the
+**The claim upgrades from field-bound to a field effect that persists at both tested positions**, and the upgrade is bounded in two ways. It holds for Procedural Dependence on the
 calibration model only: the cross-provider runs of Chapter 8 pinned the value
 and ran no swap, so they establish that PD moves the outcome there and nothing
 about binding, and Internalisation Dependence's swap control carries the position
@@ -1081,7 +1073,7 @@ confound unaddressed. And "field" continues to mean the name and its gloss
 together (§3.3): the counterbalance moved both to line 10, so it says nothing
 about which of the two the model is reading.
 
-## 7.4 The inert partner is less inert than assumed
+## 7.4 The partner field is less inert than assumed
 
 Every swap control rests on one premise: that Affective Weighting is inert, so
 that moving a level onto it is equivalent to removing the level altogether. That
@@ -1118,8 +1110,7 @@ adequate power, is the correct way to settle it. It has not been run.
 
 Eight of the remaining nine parameters were each pinned to their endpoints, 25
 agents across 7 items, with the Holm correction over all eight contrasts as a
-single family. The ninth is Affective Weighting, not pinned because it serves as
-the swap control's inert partner.
+single family. The ninth is Affective Weighting, not pinned because it serves as the swap control's partner field.
 
 | Parameter | Effect | 95% CI | Corrected *p* | Items | 90% bound |
 |------------------------------|--------:|------------------:|----------:|--------|---------:|
@@ -1158,7 +1149,7 @@ records what happened next.
 
 Legitimacy Locus cleared the sweep's threshold with the most directionally
 consistent pattern in it, negative in all six items showing any effect. A
-subsequent study ran swap controls for both survivors, each with a TRUE condition
+subsequent study ran swap controls for both parameters that cleared the sweep, each with a TRUE condition
 as a replication gate, at 40 agents:
 
 | Contrast | Effect | 95% CI | Corrected *p* | Items | Reading |
@@ -1237,8 +1228,7 @@ the encoding.
 
 # 8. Results III — Replication Across Providers
 
-Every measurement to this point used the calibration model. Both survivors were
-re-tested on `claude-haiku-4-5`, 40 agents, on that model's six dispersing items.
+Every measurement to this point used the calibration model. Both parameters that cleared the sweep and its replication gate were re-tested on `claude-haiku-4-5`, 40 agents, on that model's six dispersing items.
 
 | Parameter | gpt | haiku | 95% CI (haiku) | *p* (haiku) | Items | Test |
 |-----------|-------:|-------:|------------------:|----------:|--------|-----------------------|
@@ -1290,8 +1280,7 @@ effect is bound to its labelled and explained field rather than to the number,
 and on the calibration model it is bound to that field at either line it
 occupies.** A second, Internalisation Dependence, moves the outcome under the
 prespecified test but its binding is not established and its effect is not
-robust to item-specific treatment effects. The position-independence narrowing is
-claimed for PD on the calibration model only.
+robust to item-specific treatment effects. The persistence at both tested positions is claimed for PD on the calibration model only.
 
 ---
 
@@ -1441,11 +1430,11 @@ label.
 The result most worth carrying forward is the **withdrawal**. Legitimacy Locus
 cleared a corrected significance threshold with the most directionally consistent
 pattern in its sweep, and dissolved on a larger sample of the same model. Its
-swap control was null, which is the signature of a genuine label effect. Only the
+swap control was null, which is the pattern a genuine field effect would also show. Only the
 replication gate distinguished the two cases. Methods that can only confirm are
 weaker than methods that can destroy their own findings. The framework set out to
 show that explicit conceptual encoding does genuine work; what strengthens that
-claim is not that two parameters survived, but that a third did not, and that the
+claim is not that one parameter was verified and a second remains a candidate, but that a third did not survive, and that the
 machinery was built to notice.
 
 ## 11.1 Contribution
@@ -1456,7 +1445,7 @@ The thesis makes three contributions, in decreasing order of confidence.
 its length, its field order and its complete multiset of numerals constant while
 moving a single binding. This is a stricter control than the ablation designs
 common in prompt-sensitivity work, which necessarily change length and content.
-Its cost is that it requires a parameter measured inert to serve as a partner,
+Its cost is that it requires a partner parameter with no detected effect,
 which must itself be established rather than assumed.
 
 **A replication gate that exposes its own unconfirmed findings.** Pairing every

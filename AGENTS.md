@@ -1,5 +1,19 @@
 # AGENTS.md — Concepts-as-Architecture Project Constitution
 
+## Consistency pass after the second review (2026-09-19, later)
+
+Seven leftovers from the supervisor's second round, all wording, all applied:
+"inert" is retired outside §7.4 (use "partner field", qualified); §5.4 now says
+the analyses DO disagree on ID and that this changes ID's reading; the PD
+slope-model sentence carries the PD swap TRUE exception explicitly; §6 says "no
+effect is detected relative to the unprofiled baseline"; the conclusion no
+longer says "two parameters survived" or "signature of a genuine label effect";
+"position-independent" became "persists at both tested positions" because
+position modulates magnitude; the blank page after the abstract is gone
+(`\clearpage`, rule removed). **Rule for future edits: abstract, §5.4, §8.1
+and §11 must state the same boundary: PD verified, ID candidate, LL withdrawn
+and unresolved, AW never pinned.**
+
 ## Reviewer round: ID demoted to a candidate; PD verified under every test (2026-09-19)
 
 A supervisor review raised four methodological points. All were correct and all
