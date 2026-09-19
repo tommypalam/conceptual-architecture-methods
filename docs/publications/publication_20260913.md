@@ -33,12 +33,12 @@ No paid collection is launched or new Phase 3 validation amendment adopted.
 
 ## Abstract review
 
-The revised [abstract](abstract.md) presents the research question, theoretical
+The revised [abstract](../abstract.md) presents the research question, theoretical
 representation, method, principal findings and contribution without phase labels,
 execution history or editorial instructions. It describes completed evidence in
 paper style and does not invent results for unfinished studies. Detailed scope
-amendments remain in [current status](../NEXT_STEPS.md), the
-[accepted encoding closure](../experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md)
+amendments remain in [current status](../../NEXT_STEPS.md), the
+[accepted encoding closure](../../experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md)
 and the individual study reports.
 
 Concise review: conceptual framing distinguishes prompt-level normative influence

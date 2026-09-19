@@ -22,18 +22,18 @@ fast-forward. No history was rewritten, force-pushed or reset.
 API calls and no budget change. Cumulative accounting is unchanged at Claude
 $7.139674300/$15, OpenAI $1.350579450/$30, package $31.396326775/$100.
 
-- [Within-arm reanalysis](../experiments/phase5_analysis/reanalysis_20260914/ASSESSMENT.md)
-  and [`code/phase5_reanalysis.py`](../code/phase5_reanalysis.py): the no-profile
+- [Within-arm reanalysis](../../experiments/phase5_analysis/reanalysis_20260914/ASSESSMENT.md)
+  and [`code/phase5_reanalysis.py`](../../code/phase5_reanalysis.py): the no-profile
   arm was deterministic in four of six cells; Procedural Dependence shows a
   monotone dose-response and ranks first of ten parameters under multivariate
   control in every non-degenerate cell. Scores the thesis §6.1.1 directional
   signs for the first time: 5 supported, 4 null, 0 wrong sign.
-- [Saturation diagnosis](../experiments/phase5_analysis/reanalysis_20260914/SATURATION_DIAGNOSIS.md):
+- [Saturation diagnosis](../../experiments/phase5_analysis/reanalysis_20260914/SATURATION_DIAGNOSIS.md):
   four nulls across three phases share one cause; proposes a U-arm dispersion
   pre-screen as a required protocol field.
-- [Recognition finding note](../experiments/phase3_benchmarks/recognition_r1/FINDING_INTERPRETATION.md):
+- [Recognition finding note](../../experiments/phase3_benchmarks/recognition_r1/FINDING_INTERPRETATION.md):
   keeps the failed-gate verdict and records the substantive result beside it.
-- [`tests/test_phase5_reanalysis.py`](../tests/test_phase5_reanalysis.py):
+- [`tests/test_phase5_reanalysis.py`](../../tests/test_phase5_reanalysis.py):
   21 offline checks, all passing.
 
 **Navigation pass** over the root README, the evidence index, the Phase 3, 4 and
@@ -86,4 +86,4 @@ queued or authorised by this release.
 
 Raw per-call records and archives remain excluded from Git, so a clone is not the
 dataset; off-device backup is still unverified. See the
-[desktop handoff](desktop_handoff.md) for the separate data transfer.
+[desktop handoff](../handoffs/desktop_handoff.md) for the separate data transfer.

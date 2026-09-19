@@ -27,7 +27,7 @@ fast-forward. No history was rewritten, force-pushed or reset.
 profiles change the deterministic good/bad classification, and an explicit
 ethical instruction does not.**
 
-[`phase4b_profiled_r1`](../experiments/phase4_coding/phase4b_profiled_r1/ASSESSMENT.md)
+[`phase4b_profiled_r1`](../../experiments/phase4_coding/phase4b_profiled_r1/ASSESSMENT.md)
 — 631 calls, 631/631 valid, zero failures, $1.215389.
 
 | Arm | Good-rate | n | vs U | Fisher p |
@@ -58,7 +58,7 @@ margin. The ordering U < G < E is monotone.
 
 ### A three-model variance decomposition
 
-[`phase4b_grand_r1`](../experiments/phase4_coding/phase4b_grand_r1/ASSESSMENT.md)
+[`phase4b_grand_r1`](../../experiments/phase4_coding/phase4b_grand_r1/ASSESSMENT.md)
 — 901 calls, 901/901 valid, zero failures. Twelve items on three models with the
 payoff structure **frozen identical in all 36 cells**.
 
@@ -75,7 +75,7 @@ is 0.00/0.00/0.04.
 
 **Sonnet is most protective here (0.90) against haiku 0.46 and gpt 0.38 — the
 opposite ordering from
-[`magnitude_sweep_r1`](../experiments/phase4_coding/magnitude_sweep_r1/ASSESSMENT.md)**,
+[`magnitude_sweep_r1`](../../experiments/phase4_coding/magnitude_sweep_r1/ASSESSMENT.md)**,
 where sonnet traded honesty away as price rose while haiku held firm across a
 36× range. A model is not globally strict or permissive; the ordering reverses
 with the standard at stake.
@@ -84,12 +84,12 @@ with the standard at stake.
 
 Established three ways, independently:
 
-- [`pd_discriminant_r2`](../experiments/phase4_coding/pd_discriminant_r2/ASSESSMENT.md)
+- [`pd_discriminant_r2`](../../experiments/phase4_coding/pd_discriminant_r2/ASSESSMENT.md)
   tied totals, worst losses and best gains between options. The screen returned
   **identical** results to r1. This **refuted the r1 assessment's own conclusion**
   that unprofiled behaviour followed welfare; r1 is marked superseded, its data
   intact and its interpretation withdrawn.
-- [`phase4b_r1`](../experiments/phase4_coding/phase4b_r1/ASSESSMENT.md) held the
+- [`phase4b_r1`](../../experiments/phase4_coding/phase4b_r1/ASSESSMENT.md) held the
   payoff structure byte-identical across four items and got a good-rate spanning
   0.00 to 1.00.
 - `phase4b_grand_r1` repeated that across twelve items and three models with the
@@ -119,10 +119,10 @@ Paired options must match in:
    ("requires", "despite", "must") the other lacks.
 
 Each level came from a designation stopped at its gate:
-[`breadth_focus_r1`](../experiments/phase4_coding/breadth_focus_r1/ASSESSMENT.md)
-(description), [`closeout_r1`](../experiments/phase4_coding/closeout_r1/ASSESSMENT.md)
+[`breadth_focus_r1`](../../experiments/phase4_coding/breadth_focus_r1/ASSESSMENT.md)
+(description), [`closeout_r1`](../../experiments/phase4_coding/closeout_r1/ASSESSMENT.md)
 (consequence text — where a repair of mine **relocated** the cue rather than
-removing it), and [`breadth_r2`](../experiments/phase4_coding/breadth_r2/ASSESSMENT.md)
+removing it), and [`breadth_r2`](../../experiments/phase4_coding/breadth_r2/ASSESSMENT.md)
 (modals — in items my own earlier audit had cleared).
 
 The criterion is enforced in code by `verify_items()`, and items built to it
@@ -162,8 +162,8 @@ modules were not edited; v2 lives separately and each release pins both.
   `phase4b_grand_r1` shows these items behave very differently on gpt and
   sonnet. It should not be assumed to transfer.
 - **The prospective PD test remains untested, not failed.** Built twice
-  ([r1](../experiments/phase4_coding/pd_discriminant_r1/ASSESSMENT.md),
-  [r2](../experiments/phase4_coding/pd_discriminant_r2/ASSESSMENT.md)), cleared
+  ([r1](../../experiments/phase4_coding/pd_discriminant_r1/ASSESSMENT.md),
+  [r2](../../experiments/phase4_coding/pd_discriminant_r2/ASSESSMENT.md)), cleared
   review both times, stopped by its own screen both times. An untested
   prediction must not later be presented as either confirmed or refuted.
 - **The breadth question is untested** across two attempts.

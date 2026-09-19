@@ -24,7 +24,7 @@ fast-forward. No history was rewritten, force-pushed or reset.
 
 ## Two phases closed
 
-### Phase 4B — [closure record](../experiments/phase4_coding/PHASE4B_CLOSURE_2026-09-16.md)
+### Phase 4B — [closure record](../../experiments/phase4_coding/PHASE4B_CLOSURE_2026-09-16.md)
 
 **Parameter profiles change the deterministic good/bad classification on two
 models from different providers. An explicit ethical instruction does not.**
@@ -39,7 +39,7 @@ interests, avoid harm, deception, coercion and unequal treatment — and **on th
 calibration model lands below the unprofiled baseline** (−0.017, p = 0.712).
 Prespecified same-item subgroup across both models: **+0.255, p < 10⁻⁷**.
 
-### Phase 5 — [closure record](../experiments/phase5_analysis/PHASE5_CLOSURE_2026-09-16.md)
+### Phase 5 — [closure record](../../experiments/phase5_analysis/PHASE5_CLOSURE_2026-09-16.md)
 
 **Closed for a scoped objective.** Three of four spec deliverables met; **human
 resemblance is NOT met** and is not retrospectively passed.
@@ -48,7 +48,7 @@ resemblance is NOT met** and is not retrospectively passed.
 
 ## The headline addition: the prospective PD test passed
 
-[`pd_prospective_r1`](../experiments/phase5_analysis/pd_prospective_r1/ASSESSMENT.md)
+[`pd_prospective_r1`](../../experiments/phase5_analysis/pd_prospective_r1/ASSESSMENT.md)
 — 736 calls, 736/736 valid, zero failures.
 
 | Arm | Good-rate | n | vs U | p |
@@ -81,23 +81,23 @@ at +0.346 it is the largest effect the project has measured.
 
 ## Also published
 
-**[Three-model variance decomposition](../experiments/phase4_coding/phase4b_grand_r1/ASSESSMENT.md)**
+**[Three-model variance decomposition](../../experiments/phase4_coding/phase4b_grand_r1/ASSESSMENT.md)**
 — 901 calls, payoff structure frozen identical in all 36 cells. Good-rate
 variance: items 44.4%, models 32.1%, interaction 23.5%.
 
-**[Integrated analysis](../experiments/phase5_analysis/integrated_20260916/ASSESSMENT.md)**
+**[Integrated analysis](../../experiments/phase5_analysis/integrated_20260916/ASSESSMENT.md)**
 — zero API calls. Addresses critical open problem 6 (the ten coordinates are
 separable **as sampled**: 9 of 10 components for 90% of variance, min eigenvalue
 0.621) and problem 8 (**no stable coordinate ordering**, even within a model),
 and runs the **AW sensitivity check** CLAUDE.md asked for — AW is inert and not
 load-bearing for any result.
 
-**[A third model where the question cannot be asked](../experiments/phase4_coding/phase4b_sonnet_r1/ASSESSMENT.md)**
+**[A third model where the question cannot be asked](../../experiments/phase4_coding/phase4b_sonnet_r1/ASSESSMENT.md)**
 — on `claude-sonnet-4-6` every dispersing item sits within 0.12 of a bound (mean
 headroom 0.080 against haiku's 0.293). Abandoned on a power analysis rather than
 run underpowered.
 
-**[The permutation control](../experiments/phase4_coding/phase4b_permutation_r2/ASSESSMENT.md)**
+**[The permutation control](../../experiments/phase4_coding/phase4b_permutation_r2/ASSESSMENT.md)**
 — same ten numbers deranged across labels. U 0.400, P 0.475, E 0.564. A scrambled
 block does not clear baseline (p = 0.122); a correctly-labelled one does
 (p = 0.00074); the difference is +0.089 at pooled Holm 0.084 and **fails the

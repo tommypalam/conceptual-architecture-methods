@@ -1,47 +1,76 @@
-# Writing, planning and project guides
-
-Moving to another computer? Start with the [desktop handoff](desktop_handoff.md).
+# Documents: the thesis, the paper and the project guides
 
 [Back to the project](../README.md)
 
-## Read the thesis work
+## Start here: the thesis
 
-1. [Abstract](abstract.md) - research question and main contribution.
-2. [Results and interpretation](phase1_5_results.md) - completed findings, uncertainty and limitations.
-3. [Accepted Phase 1.5 conclusion](../experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md) - the researcher's scoped closure decision.
-4. [Within-arm reanalysis](../experiments/phase5_analysis/reanalysis_20260914/ASSESSMENT.md) - where the Phase 2 effect actually lives: PD dose-response and deterministic baselines.
-5. [Saturation diagnosis](../experiments/phase5_analysis/reanalysis_20260914/SATURATION_DIAGNOSIS.md) - why four studies returned nulls, and the proposed dispersion pre-screen.
-6. [Theory and implementation specification](../Theory/README.md) - the framework, current amendment and original plan.
+| | |
+|---|---|
+| **[thesis/LF3262767.pdf](thesis/LF3262767.pdf)** | **The thesis.** The single canonical PDF and the file uploaded to the university. The filename is the one the portal requires; the PDF itself carries no name or student number. |
+| [thesis/thesis.md](thesis/thesis.md) | Its source. Edit this, never the PDF. |
+| [thesis/abstract.txt](thesis/abstract.txt) | The abstract as pasted into the portal, which takes it separately and caps it at 4,000 characters. |
+| [thesis/figures/](thesis/figures/) | The four figures, generated from the frozen records by [`code/phase6_thesis_figures.py`](../code/phase6_thesis_figures.py). |
+| [thesis/build/](thesis/build/) | How the PDF is made and checked: [build.ps1](thesis/build/build.ps1), [preamble.tex](thesis/build/preamble.tex), [verify.py](thesis/build/verify.py), the [compliance note](thesis/build/COMPLIANCE.md) recording the university's rules, and the [last recorded verification](thesis/build/verification.json). |
+| [thesis/history/](thesis/history/) | Superseded drafts kept because they exist nowhere else. Frozen; do not edit. |
 
-The original validity battery remains unmet. The accepted conclusion concerns
-limited normative parameterization, not demonstrated ethical understanding.
+**What the thesis claims, in one line.** Procedural Dependence is the only verified
+field effect; Internalisation Dependence is a candidate; Legitimacy Locus is
+withdrawn and unresolved; Affective Weighting was never independently pinned. It
+establishes no semantic understanding, moral improvement or human resemblance.
 
-## Plan the next work
+**To rebuild**, from the repository root: `powershell -File docs/thesis/build/build.ps1`.
+**To check** a build against the format rules: `python docs/thesis/build/verify.py`
+(needs `pypdf` and `pdfplumber`). Rebuilding changes the PDF's bytes even when the
+text is identical, so do not rebuild a copy that has already been submitted.
+
+## The paper
+
+The thesis is a condensed version of a longer paper with no page ceiling.
+
+| | |
+|---|---|
+| [paper/paper_draft.md](paper/paper_draft.md) | *Which Parts of a Prompt Carry Behaviour?* — the full-length draft. |
+| [paper/citation_verification.md](paper/citation_verification.md) | Every citation checked for existence and for making the claim attributed to it, with the two that failed. |
+
+## Follow a result back to its evidence
+
+- [Evidence index](../experiments/README.md) — every study, by phase.
+- [Code guide](../code/README.md) — maps each thesis result to its design module,
+  collector, evidence folder and offline analysis.
+- [Phase 5 closure](../experiments/phase5_analysis/PHASE5_CLOSURE_2026-09-16.md) and
+  [Phase 4B closure](../experiments/phase4_coding/PHASE4B_CLOSURE_2026-09-16.md) —
+  what each phase did and did not establish.
+- [Within-arm reanalysis](../experiments/phase5_analysis/reanalysis_20260914/ASSESSMENT.md)
+  and [saturation diagnosis](../experiments/phase5_analysis/reanalysis_20260914/SATURATION_DIAGNOSIS.md) —
+  why four early studies returned nulls, and the dispersion screen that followed.
+
+## Reference documents
+
+These stay at the top of `docs/` on purpose: frozen reports in `archive/` and
+`experiments/` link to these exact paths, and frozen reports are never edited.
 
 | Document | Use it for |
 |---|---|
-| [Next steps](../NEXT_STEPS.md) | Current work and remaining dependencies |
-| [Implementation v0.2](../Theory/implementation_specification_v0_2.md) | Exploratory research discipline and the central moral-outcome experiment |
-| [Moral capstone design](../experiments/phase4_coding/CAPSTONE_DESIGN_DRAFT_20260913.md) | Good/bad decisions, simulated consequences and dual AI-assisted scoring |
-| [AI-only scope amendment](../experiments/phase4_coding/AI_ONLY_SCOPE_20260913.md) | Human raters deferred; independent AI coding, factual checks and explicit limits |
-| [Draft moral manual](../experiments/phase4_coding/manual_r1/MANUAL_DRAFT.md) | Category rules, evidence requirements and uncertainty handling; not yet frozen |
-| [Consequential moral pilot](../experiments/phase4_coding/consequence_pilot_r1/PROTOCOL.md) | Explicit action effects, independent AI scoring and measurement gates |
-| [Completed Phase 2 confirmation](../experiments/phase2_confirmation_20260913/ASSESSMENT.md) | Fresh individual and group results, integrity checks and remaining limits |
-| [Small Phase 2 pilot](../experiments/phase2_exploratory_20260912/PROTOCOL.md) | Frozen exploratory protocol, matched controls, state mechanics and $10 cap |
-| [Revised Phase 2 proposal](../experiments/phase2_design_20260912/PROTOCOL_DRAFT.md) | Encoding/control comparisons, population and group designs, $100 cap and required preparation |
-| [Pre-analysis plan](pre_analysis_plan.md) | Historical hypotheses with current exploratory-policy guidance |
-| [Variable codebook](variables.json) | Exact parameter codes, definitions and distributions |
-| [Research programme](research_programme.md) | Researcher-supplied context beyond this thesis |
-| [Publication record 2026-09-15](publication_20260915.md) | Latest release: Phase 3 closure and the completed Phase 4 moral capstone |
-| [Publication record 2026-09-14](publication_20260914.md) | Branch targets, verification and scope limits of the latest release |
+| [abstract.md](abstract.md) | The abstract with title and author, for reading. Must contain `thesis/abstract.txt` verbatim; `verify.py` checks that it does. |
+| [variables.json](variables.json) | The codebook: exact parameter codes, endpoints and distributions. |
+| [project_layout.md](project_layout.md) | Where files belong and how new work is named. |
+| [pre_analysis_plan.md](pre_analysis_plan.md) | Historical hypotheses with current exploratory-policy guidance. |
+| [phase1_5_results.md](phase1_5_results.md) | Phase 1.5 findings, uncertainty and limitations. |
+| [research_programme.md](research_programme.md) | Researcher-supplied context beyond this thesis; not independently verified here. |
+| [phase1_5_execution.md](phase1_5_execution.md), [phase1_5_followup.md](phase1_5_followup.md) | Two small redirect stubs. They exist only because frozen reports link to them; the originals are in the archive. |
 
-## Work with the project
+Theory and specification live outside this folder, in [Theory/](../Theory/README.md).
 
-- [Evidence index](../experiments/README.md): follow results back to their studies.
-- [Code guide](../code/README.md): understand the implementation and run offline checks.
-- [Layout and naming](project_layout.md): know where files belong.
-- [Central archive](../archive/README.md): find historical documents by phase.
+## Records of what was published, and handoffs
 
-Two small redirect files remain beside these guides because frozen reports link
-to them. The original execution instructions live in the archive. Historical
-commands and status statements are not current run instructions.
+| | |
+|---|---|
+| [publications/](publications/) | One dated record per publication to `main` (13–17 September): scope, branch targets and verification. Historical; their status statements are not current instructions. |
+| [handoffs/](handoffs/) | [Desktop handoff](handoffs/desktop_handoff.md) for moving to another computer, its [transfer manifest](handoffs/desktop_transfer.json), and an earlier [chat handoff](handoffs/NEXT_CHAT_HANDOFF.md). |
+
+## Current work
+
+[NEXT_STEPS.md](../NEXT_STEPS.md) owns current status and remaining dependencies.
+[CLAUDE.md](../CLAUDE.md) and [AGENTS.md](../AGENTS.md) hold the project rules and
+the dated decision record. The [central archive](../archive/README.md) holds
+historical documents by phase.

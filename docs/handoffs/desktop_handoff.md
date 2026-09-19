@@ -33,7 +33,7 @@ failed screens and previous archives. The chronology below is historical.
 
 The researcher authorised publication from `phase3-preparation-20260913` to
 `main`, with the previous main preserved as `backup-1` and the original `backup`
-retained. See [publication record](publication_20260913.md) and verify remote
+retained. See [publication record](../publications/publication_20260913.md) and verify remote
 branch tips when continuing. Read NEXT_STEPS.md and
 experiments/phase2_confirmation_20260913/ASSESSMENT.md. Confirmation saved 11,005
 responses and 300 group runs; six primary individual contrasts and one secondary
@@ -128,7 +128,7 @@ Place both files beside the fresh checkout, then run from the checkout root:
 Get-FileHash -Algorithm SHA256 -LiteralPath ..\paria_desktop_data_20260912.zip
 ```
 
-Compare that result with `bundle_sha256` in `docs/desktop_transfer.json` before
+Compare that result with `bundle_sha256` in `docs/handoffs/desktop_transfer.json` before
 extracting. Extract only into the fresh checkout. Do not overwrite existing
 research records or use `-Force` to conceal a collision.
 
@@ -151,7 +151,7 @@ first and assess a separate path-resolution adapter before replaying such report
 ## Python environment for code work
 
 The originating environment uses Python 3.11. The dependency snapshot in
-[requirements-desktop.txt](../requirements-desktop.txt) records its installed
+[requirements-desktop.txt](../../requirements-desktop.txt) records its installed
 direct packages. A clean installation of those pins on the desktop still needs
 verification; the existing-machine test result is not a fresh-environment claim.
 
@@ -192,11 +192,11 @@ inventory them separately before considering any disjoint merge.
 
 ## Reading order and next actions
 
-1. [Abstract](abstract.md) and [results draft](phase1_5_results.md).
-2. [Accepted closure](../experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md).
-3. [Complete all-ten assessment](../experiments/phase1_5_encoding_validity/all_ten_assessment_20260912/ASSESSMENT.md).
-4. [Independent confirmation](../experiments/phase1_5_encoding_validity/structural_encoding_20260912/pd_confirmation/analysis/REPORT.md).
-5. [Evidence index](../experiments/phase1_5_encoding_validity/evidence_index.md), [layout guide](project_layout.md) and [next steps](../NEXT_STEPS.md).
+1. [Abstract](../abstract.md) and [results draft](../phase1_5_results.md).
+2. [Accepted closure](../../experiments/phase1_5_encoding_validity/ACCEPTED_CLOSURE_2026-09-12.md).
+3. [Complete all-ten assessment](../../experiments/phase1_5_encoding_validity/all_ten_assessment_20260912/ASSESSMENT.md).
+4. [Independent confirmation](../../experiments/phase1_5_encoding_validity/structural_encoding_20260912/pd_confirmation/analysis/REPORT.md).
+5. [Evidence index](../../experiments/phase1_5_encoding_validity/evidence_index.md), [layout guide](../project_layout.md) and [next steps](../../NEXT_STEPS.md).
 
 First verify the checkout, data availability and local environment. Then continue
 integrating the completed findings into a submission-ready thesis. Prepare any

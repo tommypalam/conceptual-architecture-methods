@@ -1,7 +1,7 @@
 """Read-only checks on the Bocconi submission PDF, not research reanalysis.
 
 Run with a Python environment containing pypdf and pdfplumber:
-    python docs/thesis_build/verify.py
+    python docs/thesis/build/verify.py
 """
 from __future__ import annotations
 
@@ -13,8 +13,9 @@ from pathlib import Path
 import pdfplumber
 from pypdf import PdfReader
 
-ROOT = Path(__file__).resolve().parents[2]
-PDF = ROOT / "docs/LF3262767.pdf"
+# This file lives in docs/thesis/build, three levels below the repository root.
+ROOT = Path(__file__).resolve().parents[3]
+PDF = ROOT / "docs/thesis/LF3262767.pdf"
 
 
 def verify():
@@ -36,9 +37,15 @@ def verify():
                 f"Incorrect footer on physical page {number}"
             )
     assert "Abstract\n" not in combined
+    # Markers are matched with ALL whitespace removed from both sides. Text
+    # extraction drops inter-word spaces in tightly kerned compact-type table
+    # cells, and whether it does depends on the pypdf version: "no finite SE"
+    # extracts as "nofinite SE" under pypdf 6.19. Every character of the marker
+    # must still be present and in order; only spacing is forgiven.
+    dense = "".join(combined.split())
     for marker in ("sample_draw", "+0.375", "+0.064", "0.061", "0.095",
                    "Appendix C", "no finite SE", "unit-bootstrap"):
-        assert marker in combined, f"Missing required content: {marker}"
+        assert "".join(marker.split()) in dense, f"Missing required content: {marker}"
 
     intro = next(i for i, t in enumerate(texts) if t.startswith("1. Introduction\n"))
     references = next(i for i, t in enumerate(texts) if t.startswith("References\n"))
@@ -47,9 +54,14 @@ def verify():
     appendix_pages = len(texts) - appendix
     assert body_pages + appendix_pages <= 30, "Body and appendices exceed 30 pages"
 
-    abstract = (ROOT / "docs/thesis_abstract.txt").read_text(encoding="utf-8").strip()
+    abstract = (ROOT / "docs/thesis/abstract.txt").read_text(encoding="utf-8").strip()
     assert len(abstract) <= 4000, "Portal abstract exceeds 4,000 characters"
-    assert PDF.read_bytes() == (ROOT / "docs/thesis.pdf").read_bytes()
+    # docs/abstract.md stays at its old path because frozen reports link to it.
+    # It must carry the portal abstract verbatim, so the two copies cannot drift.
+    squeeze = lambda s: " ".join(s.split())
+    published = (ROOT / "docs/abstract.md").read_text(encoding="utf-8")
+    assert squeeze(abstract) in squeeze(published), (
+        "docs/abstract.md no longer contains the portal abstract verbatim")
 
     body_line_counts = []
     spacings = []
@@ -103,7 +115,7 @@ def verify():
         "max_body_text_rows_on_a_page": max(body_line_counts),
         "side_margins_cm": 2.5, "margin_violations": 0,
         "embedded_page_fonts": sorted(embedded),
-        "personal_information_absent": True, "thesis_pdf_identical": True,
+        "personal_information_absent": True, "abstract_md_consistent": True,
     }
 
 

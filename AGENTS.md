@@ -1,12 +1,98 @@
 # AGENTS.md — Concepts-as-Architecture Project Constitution
 
+## Project reorganised around the submitted thesis (2026-09-19, evening)
+
+**The thesis is `docs/thesis/LF3262767.pdf`. It is the single canonical PDF.** The
+byte-identical twin `docs/thesis.pdf` was removed so there is exactly one thesis
+file. Everything about the thesis now lives in `docs/thesis/`.
+
+| Was | Is |
+|---|---|
+| `docs/LF3262767.pdf`, `docs/thesis.pdf` | `docs/thesis/LF3262767.pdf` (twin removed) |
+| `docs/thesis.md` | `docs/thesis/thesis.md` |
+| `docs/thesis_abstract.txt` | `docs/thesis/abstract.txt` |
+| `docs/figures/` | `docs/thesis/figures/` |
+| `docs/thesis_build/` | `docs/thesis/build/` |
+| `docs/thesis_BACKUP_pre_edits_20260916.md` (untracked) | `docs/thesis/history/thesis_20260916_pre_edits.md` (tracked) |
+| `docs/paper_draft.md`, `docs/citation_verification.md` | `docs/paper/` |
+| `docs/publication_2026091*.md` | `docs/publications/` |
+| `docs/NEXT_CHAT_HANDOFF.md`, `docs/desktop_handoff.md`, `docs/desktop_transfer.json` | `docs/handoffs/` |
+
+**The PDF was MOVED, never rebuilt.** Its SHA-256 is
+`52df1c5aa6201cc12a53f06a7dd868826c4367b36b530228efa36a16119ff1a3` before and
+after, matching the recorded verification. **Rebuilding changes the bytes even
+when the text is identical, so do not rebuild a copy that has been submitted.**
+The relocated build was proven by building to a dummy filename
+(`-StudentId 0000000`), comparing extracted text page by page against the real
+PDF - 35 pages, identical on every one - and deleting the test file.
+
+**What may NOT be moved, and why - these are rules, not leftovers:**
+
+  - **Nothing in `code/` is renamed or moved.** 109 of its 271 modules are
+    SHA-256-pinned by the frozen release chain and import one another by flat
+    module name. `code/README.md` now maps each thesis result to its design
+    module, collector, evidence folder and offline analysis instead. After this
+    reorganisation all 195 pinned sources were re-checked: present and
+    byte-identical.
+  - **Seven documents stay at the top of `docs/`** - `abstract.md`,
+    `variables.json`, `project_layout.md`, `pre_analysis_plan.md`,
+    `phase1_5_results.md`, `research_programme.md` and the two `phase1_5_*`
+    redirect stubs - because frozen reports in `archive/` and `experiments/` link
+    to those exact paths and frozen reports are never edited. Inbound links were
+    counted before anything moved; only files with ZERO frozen references moved.
+  - `archive/`, `experiments/` and `prompts/` were not touched.
+
+**Several pinned collectors carry a WRONG first docstring line** ("Prospective PD
+discriminant test on crossed no-clean-hands dilemmas"), inherited from the module
+they were adapted from: `phase5_coordinate_sweep_r2.py`,
+`phase5_label_semantics_r1.py` and `_r2.py`, `phase5_pd_prospective_r1.py`. They
+cannot be corrected without breaking `verify()`. The file name and its design
+module are authoritative. **Do not "fix" these docstrings.**
+
+**Moving a file silently breaks relative links.** The moves broke 46 of 293
+relative links in the live documents and nothing would have reported it.
+`tests/check_doc_links.py` found every one, attributed each to a specific move,
+repaired them, and found zero that were NOT explained by a move - so the live
+documents had no broken links beforehand. It now checks 339 and passes. **Run it
+after moving or renaming any document.** It deliberately skips frozen areas: a
+dead link inside a frozen report is part of the record, not a defect.
+
+**The verifier was brittle across pypdf versions, and is hardened.** It failed on
+the marker `no finite SE` although the PDF was byte-identical to the verified
+one. Not a ligature: pypdf 6.19 extracts that phrase from a tightly kerned
+compact-type table cell as `nofinite SE`. Marker matching now strips whitespace
+from both sides - every character must still be present and in order. It also
+asserts that `docs/abstract.md` contains the portal abstract verbatim, replacing
+the removed twin-PDF identity check, so the two abstracts cannot drift. Every
+measured property of the PDF matched the recorded run exactly.
+
+**Two stale passages in the root README contradicted the thesis and the
+README's own table**: that ID "passed" its swap control and is "the second of ten
+coordinates whose label carries its effect", and that "AW is a label and it is
+inert". Both were the withdrawn significance-versus-non-significance inference.
+Corrected to the direct test (ID +0.064 [-0.014, +0.146]; PD +0.375
+[+0.286, +0.464]). The README, `docs/README.md` and the thesis now state the same
+boundary.
+
+**Previously untracked work is now tracked, unmodified**: the thesis explorer
+(`viewer/explore.*`, `viewer/thesis-evidence.json`, `viewer/EXPLORER_DESIGN.md`,
+`code/build_thesis_explorer.py`, `code/open_visualiser.ps1`,
+`tests/check_thesis_explorer.cjs`) and `code/phase3_crossmodel_pilot_images.py`.
+The explorer reflects 15 September data; its evidence file makes no headline
+coordinate claims, so it is dated rather than wrong. The one unrecoverable file
+was the thesis backup, which matched no version in git history (closest 99.2%).
+
+No experiment, frozen record, result, figure or analysis changed. No API call.
+Accounting unchanged: Claude $22.247448300/$32, OpenAI $12.741596175/$40,
+package $34.989044/$100.
+
 ## Bocconi submission revision (2026-09-19)
 
 The researcher confirmed that **Prof. Arnaldo Camuffo is the sole supervisor**.
-The README has been corrected. `docs/thesis.md` is now the concise submission
-source; the current abstract is `docs/thesis_abstract.txt` (also in
-`docs/abstract.md`). The upload artifact is `docs/LF3262767.pdf`, identical to
-`docs/thesis.pdf`. See `docs/thesis_build/COMPLIANCE.md` for the university rules,
+The README has been corrected. `docs/thesis/thesis.md` is now the concise submission
+source; the current abstract is `docs/thesis/abstract.txt` (also in
+`docs/abstract.md`). The upload artifact is `docs/thesis/LF3262767.pdf`, the single canonical
+thesis PDF. See `docs/thesis/build/COMPLIANCE.md` for the university rules,
 changes and verification.
 
 Objective corrections: the GPT E/G/U comparison used eight items and 320 pairs;
@@ -80,15 +166,15 @@ demotion the project's own method demanded. Do not restore "two of ten".
 
 Two references were added at the reviewer's citation: Barr et al. 2013 (JML
 68(3):255-278) and Gelman & Stern 2006 (Am. Stat. 60(4):328-331). Both are
-standard and written from knowledge; tick them in `docs/citation_verification.md`.
+standard and written from knowledge; tick them in `docs/paper/citation_verification.md`.
 
 Accounting unchanged.
 
 ## Thesis rebuilt for submission: intervals, equivalence bounds, figures, verbatim prompts (2026-09-19)
 
 Work on branch `thesis-final-20260919`, zero API calls, no frozen record touched.
-`docs/thesis.md` was rewritten and `docs/thesis.pdf` rebuilt with a reproducible
-toolchain (`docs/thesis_build/build.ps1`; pandoc from RStudio's quarto, xelatex from
+`docs/thesis/thesis.md` was rewritten and `docs/thesis.pdf` rebuilt with a reproducible
+toolchain (`docs/thesis/build/build.ps1`; pandoc from RStudio's quarto, xelatex from
 TinyTeX installed this session). **Body is 24 pages (numbered 4-27) plus 2 appendix
 pages**, inside the researcher's 30-page bound excluding references.
 
@@ -211,7 +297,7 @@ this file as the development branch, is retired to `backup-9` (remote) and
 `backup-12`. All were verified merged into HEAD first. **There is no development
 branch: cut one before the next substantive work.**
 
-**A paper draft exists** at `docs/paper_draft.md`, framed as an identification
+**A paper draft exists** at `docs/paper/paper_draft.md`, framed as an identification
 problem rather than an architecture writeup:
 
 > *Which Parts of a Prompt Carry Behaviour? Label-Semantic Controls for
@@ -237,7 +323,7 @@ weaknesses and should drive any further collection:
      No rewording fixes it. It is the venue critique's unaddressed second option.
   2. **Section 9 (Related Work) is WRITTEN, with citations supplied by the
      researcher's literature search on 18 September, but NOT VERIFIED.** The
-     checklist is `docs/citation_verification.md` and it must be worked through
+     checklist is `docs/paper/citation_verification.md` and it must be worked through
      in a session with database access. Verify not only that each paper exists
      but that it makes the claim attributed to it - a real paper cited for the
      wrong finding is worse than a missing citation. **Do not remove the
@@ -580,7 +666,7 @@ stimuli.
 **Still open.** The prospective PD test is **untested, not failed** — built
 twice, cleared review twice, stopped by its own screen twice. The breadth
 question is untested. No human validation. See
-docs/publication_20260916.md and the phase4b assessments.
+docs/publications/publication_20260916.md and the phase4b assessments.
 
 Accounting: Claude $17.486071900/$32, OpenAI $4.566822975/$30. Usage estimates,
 not verified provider balances.
@@ -819,7 +905,7 @@ their own evidence. No new API calls or moral scoring were performed.
 
 The researcher requested publishing all completed work and a paper-style abstract
 to `main`. Preserve the previous main at `aaed0a8d` as `backup-1` and retain the
-original `backup` at `c8e7aa0b`. See docs/publication_20260913.md. Use a fast-forward,
+original `backup` at `c8e7aa0b`. See docs/publications/publication_20260913.md. Use a fast-forward,
 verify remote refs and continue future implementation on a development branch.
 The abstract reports completed evidence; it does not imply that formal Phase 3
 or human-validated moral evaluation is complete. No new paid run or substantive
@@ -951,7 +1037,7 @@ experiments/phase2_design_20260912/PROTOCOL_DRAFT.md and NEXT_STEPS.md. Preparat
 does not itself approve a new configuration subset, coding scheme or live run.
 
 The researcher authorised publication to main with the previous published main
-preserved as backup. Use docs/desktop_handoff.md on the desktop. Recent ignored
+preserved as backup. Use docs/handoffs/desktop_handoff.md on the desktop. Recent ignored
 research data transfers separately; a Git clone alone is incomplete. No new paid
 run or Phase 2 release follows from publication. Work on a development branch.
 

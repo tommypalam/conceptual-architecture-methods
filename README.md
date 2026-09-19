@@ -13,7 +13,17 @@ fixed dilemmas.
 **Author:** Tommaso Piero Palamenga, Bocconi University.
 **Supervisor:** Prof. Arnaldo Camuffo.
 
-Moving to another computer? Start with the [desktop handoff](docs/desktop_handoff.md).
+> **The thesis is [`docs/thesis/LF3262767.pdf`](docs/thesis/LF3262767.pdf).**
+> It is the single canonical PDF, built from
+> [`docs/thesis/thesis.md`](docs/thesis/thesis.md) by
+> [`docs/thesis/build/build.ps1`](docs/thesis/build/build.ps1) and checked against the
+> university's format rules by [`verify.py`](docs/thesis/build/verify.py). Its claim in
+> one line: **Procedural Dependence is the only verified field effect;
+> Internalisation Dependence is a candidate; Legitimacy Locus is withdrawn and
+> unresolved; Affective Weighting was never independently pinned.**
+
+New here? [`docs/README.md`](docs/README.md) is the map. Moving to another computer?
+Start with the [desktop handoff](docs/handoffs/desktop_handoff.md).
 
 ---
 
@@ -133,14 +143,21 @@ constant and moved.
 → [label-semantics control](experiments/phase5_analysis/label_semantics_r1/ASSESSMENT.md)
 
 The same control was then run for the other two survivors. **Internalisation
-Dependence passed it**: TRUE +0.111 (Holm 0.0047), SWAP +0.046 (n.s.), making it
-the second of ten coordinates whose label — not the numeral — carries its effect.
+Dependence did not establish a field binding.** Its TRUE arm replicated (+0.111,
+Holm 0.0047) and its SWAP arm was not significant (+0.046) — but a significant
+arm beside a non-significant one is not a test of the *difference* between them.
+Tested directly, the TRUE-minus-SWAP difference is **+0.064, 95% interval
+[−0.014, +0.146]**, which includes zero; for PD the same difference is +0.375
+[+0.286, +0.464]. ID is therefore a **candidate**, not a verified field effect,
+and an earlier reading here that it "passed" is withdrawn.
 **Legitimacy Locus failed the replication gate** and nothing is claimed for it.
 
 An earlier control that deranged **all ten** labels at once measured only +0.089
 and [failed its rule](experiments/phase4_coding/phase4b_permutation_r2/ASSESSMENT.md);
-the dilution explanation is now confirmed. The caveat is answered for two
-coordinates, not retired for all ten labels — AW is a label and it is inert.
+the dilution explanation is now confirmed. The caveat is answered for one
+coordinate, PD, not retired for all ten — and the swap's partner field, Affective
+Weighting, was never independently pinned, so its neutrality is an estimate with
+its own uncertainty rather than an established property.
 
 **Boundaries, stated plainly.** This establishes no moral truth and no moral
 improvement: every label is a deterministic classification under stipulated

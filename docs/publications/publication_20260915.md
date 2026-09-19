@@ -22,14 +22,14 @@ fast-forward. No history was rewritten, force-pushed or reset.
 
 ### Phase 3, closed for a scoped objective
 
-[Closure record](../experiments/phase3_benchmarks/PHASE3_CLOSURE_2026-09-14.md).
+[Closure record](../../experiments/phase3_benchmarks/PHASE3_CLOSURE_2026-09-14.md).
 Phase 3 characterised the boundaries of the measurement approach rather than
 delivering a benchmark pass. The original five-benchmark N200 study is not
 released, Phase 3B human comparison was never attempted and is deferred as
 infeasible, and neither is retrospectively passed.
 
 The decisive evidence is
-[pd_endpoint_r2](../experiments/phase3_benchmarks/pd_endpoint_r2/ASSESSMENT.md):
+[pd_endpoint_r2](../../experiments/phase3_benchmarks/pd_endpoint_r2/ASSESSMENT.md):
 an accepted design review followed by 150 unprofiled decisions on six fresh
 dilemmas, all six returning modal share 1.00 with presentation order irrelevant
 (51.3%). Ambiguity certified by an independent reviewer does not produce
@@ -41,11 +41,11 @@ findings recorded as errors rather than deferred to.
 
 ### Phase 4, first completed moral experiment
 
-[moral_conflict_screen_r2](../experiments/phase4_coding/moral_conflict_screen_r2/ASSESSMENT.md)
+[moral_conflict_screen_r2](../../experiments/phase4_coding/moral_conflict_screen_r2/ASSESSMENT.md)
 produced the project's first non-saturated moral task set: three of six tasks
 disperse, order irrelevant at 48.0%.
 
-[moral_capstone_r1](../experiments/phase4_coding/moral_capstone_r1/ASSESSMENT.md)
+[moral_capstone_r1](../../experiments/phase4_coding/moral_capstone_r1/ASSESSMENT.md)
 then collected 480/480 valid decisions across four arms on the two tasks that
 cleared both prespecified gates.
 
@@ -62,8 +62,8 @@ profiles changed **which** standard was sacrificed, not how many.
 
 ### Supporting work
 
-The [Phase 5 reanalysis](../experiments/phase5_analysis/reanalysis_20260914/ASSESSMENT.md)
-and [saturation diagnosis](../experiments/phase5_analysis/reanalysis_20260914/SATURATION_DIAGNOSIS.md)
+The [Phase 5 reanalysis](../../experiments/phase5_analysis/reanalysis_20260914/ASSESSMENT.md)
+and [saturation diagnosis](../../experiments/phase5_analysis/reanalysis_20260914/SATURATION_DIAGNOSIS.md)
 were published in the previous release and are unchanged here.
 
 ## Verification before release
@@ -108,4 +108,4 @@ Publication establishes no scientific claim beyond what each assessment records.
 
 Raw per-call records and archives remain excluded from Git, so a clone is not the
 dataset; off-device backup is still unverified. See the
-[desktop handoff](desktop_handoff.md) for the separate data transfer.
+[desktop handoff](../handoffs/desktop_handoff.md) for the separate data transfer.

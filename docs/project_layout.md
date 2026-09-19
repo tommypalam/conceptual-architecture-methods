@@ -9,10 +9,14 @@ Updated 14 September 2026. Published version: `main`; use a development branch f
 | `README.md` | Short project introduction and current scientific status |
 | `NEXT_STEPS.md` | Current work, remaining dependencies and links to accepted decisions |
 | `AGENTS.md`, `CLAUDE.md` | Matching project rules |
-| `docs/` | Current manuscript drafts, plan, codebook and documentation |
+| `docs/` | Documentation; see its [README](README.md). Reference documents that frozen reports link to stay at this level |
+| `docs/thesis/` | **The thesis**: `LF3262767.pdf` (the single canonical PDF), its source `thesis.md`, the portal `abstract.txt`, `figures/`, the `build/` toolchain and verifier, and frozen `history/` |
+| `docs/paper/` | The full-length paper draft and its citation verification |
+| `docs/publications/` | Dated records of each publication to `main` |
+| `docs/handoffs/` | Machine and session handoffs |
 | `Theory/` | Versioned theoretical sources; historical statements are interpreted through accepted amendments |
 | `code/engine/` | Reusable simulation, provider, parsing and analysis components |
-| `code/` | Existing CLI and reproducibility scripts; frozen source names stay stable |
+| `code/` | CLI, collectors and offline analyses. **Flat by necessity**: 109 of its modules are SHA-256-pinned by the frozen release chain and import one another by name, so nothing here is renamed or moved. Its [README](../code/README.md) maps each thesis result to its modules |
 | `code/maintenance/` | Offline project maintenance tools |
 | `tests/` | Offline tests for implementation and provenance safeguards; see its [README](../tests/README.md) |
 | `config/` | Parameter distributions, correlations, configurations and seeds |

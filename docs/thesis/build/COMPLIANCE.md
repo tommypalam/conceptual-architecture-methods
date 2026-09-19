@@ -21,17 +21,20 @@ instructions remain the researcher's responsibility to supply.
 
 ## Deliverables and build
 
-- `../LF3262767.pdf`: final upload copy.
-- `../thesis.pdf`: byte-identical convenience copy.
+- `../LF3262767.pdf`: final upload copy, and the single canonical thesis PDF. The
+  former byte-identical convenience copy `docs/thesis.pdf` was removed in the
+  19 September reorganisation so that there is exactly one thesis file.
 - `../thesis.md`: authoritative revised manuscript.
-- `../thesis_abstract.txt`: separate portal abstract, under 4,000 characters.
-- `../abstract.md`: current abstract with project metadata for local reading.
+- `../abstract.txt`: separate portal abstract, under 4,000 characters.
+- `../../abstract.md`: current abstract with project metadata for local reading. It
+  stays at `docs/abstract.md` because frozen reports link to that path, and
+  `verify.py` now asserts it contains the portal abstract verbatim.
 
-Run `powershell -File docs/thesis_build/build.ps1` from the repository root.
+Run `powershell -File docs/thesis/build/build.ps1` from the repository root.
 The script produces both PDF names and prints the location of its temporary
 LaTeX diagnostics. It checks process exit codes and only replaces output files
 after a successful build. It uses the installed Pandoc, XeLaTeX and fonts.
-It makes no experimental API calls. Run `python docs/thesis_build/verify.py`
+It makes no experimental API calls. Run `python docs/thesis/build/verify.py`
 with pypdf and pdfplumber installed for the read-only artifact checks.
 
 ## Format implemented

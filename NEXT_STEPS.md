@@ -1,12 +1,19 @@
 # Current state and next steps
 
+> **Where things are (reorganised 19 September).** The thesis is
+> [`docs/thesis/LF3262767.pdf`](docs/thesis/LF3262767.pdf), the single canonical PDF;
+> everything about it is in [`docs/thesis/`](docs/thesis/). The paper is in
+> [`docs/paper/`](docs/paper/). [`docs/README.md`](docs/README.md) is the map and
+> [`code/README.md`](code/README.md) traces each thesis result to its code. After
+> moving or renaming any document, run `python tests/check_doc_links.py`.
+
 ## Current: Bocconi submission copy (19 September)
 
-The revised source is `docs/thesis.md`; submit `docs/LF3262767.pdf` (also mirrored
-as `docs/thesis.pdf`). The separate portal abstract is `docs/thesis_abstract.txt`.
+The revised source is `docs/thesis/thesis.md`; submit `docs/thesis/LF3262767.pdf`,
+the single canonical thesis PDF. The separate portal abstract is `docs/thesis/abstract.txt`.
 Prof. Arnaldo Camuffo is the sole supervisor, confirmed by the researcher.
 Objective reporting corrections, a concise rewrite and the university format
-are documented in `docs/thesis_build/COMPLIANCE.md`. No new experiments or API
+are documented in `docs/thesis/build/COMPLIANCE.md`. No new experiments or API
 calls. Earlier page counts and the unresolved supervisor discrepancy are
 superseded. ID follow-up requires a fresh power analysis including item
 heterogeneity; multiplying the number of agents does not guarantee a decision.
@@ -16,7 +23,7 @@ Updated 2026-09-18. Publication source: `research-transfer-design-20260913`.
 [4B closure](experiments/phase4_coding/PHASE4B_CLOSURE_2026-09-16.md),
 [5 closure](experiments/phase5_analysis/PHASE5_CLOSURE_2026-09-16.md).
 Published to `main` on 17 September with the previous tip preserved as
-`backup-5` — see the [publication record](docs/publication_20260917.md) for
+`backup-5` — see the [publication record](docs/publications/publication_20260917.md) for
 scope, branch targets and verification. **Phase 6 (paper and release) is next.**
 Continue implementation on a development branch.
 
@@ -31,11 +38,11 @@ parameter and one candidate. Details in CLAUDE.md. A re-powered ID swap
 
 ## Latest: thesis rebuilt for submission (19 September)
 
-`docs/thesis.md` and `docs/thesis.pdf` rebuilt on branch `thesis-final-20260919`:
+`docs/thesis/thesis.md` and `docs/thesis.pdf` rebuilt on branch `thesis-final-20260919`:
 bootstrap intervals and item-cluster intervals on every headline contrast,
 equivalence bounds on the sweep's nulls, four figures, the prompts verbatim, all
 items in Appendix B. 24 body pages plus 2 appendix pages. Build with
-`powershell -File docs/thesis_build/build.ps1`. Details in CLAUDE.md. Open for the
+`powershell -File docs/thesis/build/build.ps1`. Details in CLAUDE.md. Open for the
 researcher: the supervisor line in README disagrees with the title page.
 
 ## Latest: both load-bearing coordinates are cross-provider (18 September)
@@ -886,7 +893,7 @@ links in the changed documentation resolve. Only Markdown files changed.
 ## Desktop handoff and publication
 
 The researcher authorised publishing this version to GitHub main and preserving
-the previous published main as backup. The [desktop handoff](docs/desktop_handoff.md)
+the previous published main as backup. The [desktop handoff](docs/handoffs/desktop_handoff.md)
 contains continuation context, setup and separate local-data transfer steps.
 Recent ignored records require the transfer bundle; Git alone is not the dataset.
 Do not recreate meta.md or restart Phase 1.5.

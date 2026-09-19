@@ -3,7 +3,7 @@
 Every number plotted is read from a designation's checksum-verified
 `all_rows.json` (arm rates) or from `thesis_intervals.json` (paired effects and
 bootstrap intervals, produced by `phase6_thesis_intervals.py`). Nothing is typed
-in by hand. Outputs go to docs/figures/ as PDF (for the LaTeX build) and PNG.
+in by hand. Outputs go to docs/thesis/figures/ as PDF (for the LaTeX build) and PNG.
 """
 from __future__ import annotations
 
@@ -23,7 +23,7 @@ import phase4b_gpt_pool as GPTPOOL
 import phase4b_profiled_pool as PROF
 
 R = ROOT / "experiments"
-OUT = ROOT / "docs" / "figures"
+OUT = ROOT / "docs" / "thesis" / "figures"
 INTERVALS = json.loads((R / "phase5_analysis/thesis_intervals.json").read_text(encoding="utf-8"))["results"]
 BY = {r["name"]: r for r in INTERVALS}
 
