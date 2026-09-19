@@ -112,6 +112,24 @@ instruction phrased as one - Stage 3a.
 **Carry forward:** the 256-token output cap settled $1.666 against a $10.976
 reservation and truncated nothing. Use it for every designation below.
 
+## Stage 4b - COMPLETE, 20 September: meaning is followed generally; PD is not special on size
+
+`probe_fields_r1`, 2,240/2,240 valid, zero failures, $1.680032. Full numbers in
+[probe_fields_r1/ASSESSMENT.md](probe_fields_r1/ASSESSMENT.md).
+
+| Probe | Predicted | Effect | 95% CI | Items |
+|---|---|---:|---|---|
+| Status-quo Preference | + | +0.4000 | [+0.3357, +0.4643] | 7+/0- |
+| Stated-Wish Deference | + | +0.3071 | [+0.2536, +0.3607] | 7+/0- |
+| Numbers Count | negative | -0.2464 | [-0.3107, -0.1821] | 0+/7- |
+| Worst-off Priority | + | -0.0643 | [-0.1286, 0.0000] | 2+/4- (prediction failed) |
+
+Fields are not generic cues: same slot, opposite directions, as their explanations
+say. But an invented field beats the framework's verified parameter (+0.400 vs
++0.339), so **nothing so far requires the ten parameters in particular**, and
+**PD may be a status-quo dial**. **Stage 3a is now the critical path**: it is the
+only stage where "process-dominant" and "keep the arrangement" come apart.
+
 ### Stage 1 as designed
 
 **Built and verified offline**: `code/phase7_block_variants.py`,
