@@ -33,18 +33,22 @@ be interpreted at all.
 Across 20,991 recorded model calls, the results are: parameter profiles change
 the deterministic good/bad classification on two models from different providers,
 while an explicit ethical instruction written in plain English does not reproduce
-the effect; two of the ten parameters are load-bearing under multiple-comparison
-correction; and for both, the effect is bound to the parameter's labelled field
-rather than to the presence of an extreme number. For one of the two, a
-counterbalanced control further separates the label from the line it occupies:
-the same numeral moves the outcome on Procedural Dependence whether that label
-prints at line 6 or line 10, and moves nothing on an inert label at either line.
-Both parameters move the outcome on a second provider as well, one under a
-directional prediction derived from theory and locked in source before data
-collection; neither carries a swap control there, so neither is verified
-cross-model. Every headline contrast is reported with bootstrap intervals and
-refitted under a crossed random-effects model, and the seven null parameters are
-given bounded readings rather than left as absences of evidence.
+the effect on these items; and one of the ten parameters, Procedural Dependence,
+is verified as a field effect. Its value moves the outcome, the same numeral
+placed on an inert field does not, the difference between the two is itself
+estimated and clear of zero, and a counterbalanced control shows the effect
+follows the labelled and explained field whether it prints at line 6 or line 10
+while an inert field at either line moves nothing. A second parameter,
+Internalisation Dependence, moves the outcome under the prespecified test in
+three designations, but the direct test of its field binding includes zero and
+the effect does not survive a model that lets items respond differently to the
+manipulation; it is reported as a candidate, not a verified effect. Both move the
+outcome on a second provider, one under a directional prediction derived from
+theory and locked in source before data collection; neither carries a swap
+control there. Every headline contrast is reported with bootstrap intervals and
+refitted under crossed random-effects models with and without item-specific
+slopes, and the six parameters pinned to a null are given bounded readings rather
+than left as absences of evidence.
 
 The finding the thesis treats as most important is a failure. A third parameter
 cleared a corrected significance threshold in one well-powered study and
@@ -55,8 +59,8 @@ control would have been read as evidence that its label carried the effect.
 The thesis establishes no moral improvement, no resemblance to human behaviour,
 and no evidence that any parameter is *understood* in a semantic sense. What it
 offers is a method for identifying which part of a prompt carries behaviour, a
-demonstration that the method detects its own false positives, and a bounded map
-of where a ten-parameter encoding does and does not operate.
+demonstration that the method exposes its own unconfirmed findings, and a bounded
+map of where a ten-parameter encoding does and does not operate.
 
 **Keywords:** normative AI; conceptual encoding; large language models; causal
 identification; agent-based simulation; political psychology.
@@ -327,9 +331,11 @@ Faedda, 1996); Ultimatum-Game rejection thresholds (Güth *et al.*, 1982); STAXI
 (Spielberger, 1999) with the IRI (Davis, 1983); Self-Construal Scale (Singelis,
 1994); Colquitt (2001); SDO$_7$ (Pratto *et al.*, 1994; Ho *et al.*, 2015); SRQ
 (Ryan and Connell, 1989); MES (Crimston *et al.*, 2016); IRI (Davis, 1983). The
-two parameters in bold are those that survive the empirical tests of Chapter 7.
-Each parameter is rendered as one line of a ten-line block in the system prompt,
-to two decimal places, with a gloss of its two endpoints (§5.2).
+two parameters in bold are the two that move the outcome in Chapter 7; only the
+first is verified as a field effect. Each parameter is rendered as one numbered
+entry of a ten-entry block in the system prompt: its name, its value to two
+decimal places, and a two-line gloss of its endpoints (§5.2). The name and the
+gloss always travel together, and nothing in this thesis separates them.
 
 ## 2.3 Calibration and the joint distribution
 
@@ -384,8 +390,9 @@ be blocked.
 | Pinning, label swap, replication gate, position counterbalance | **exercised** — the contribution |
 
 What the thesis tests is therefore whether the object the framework injects into
-the model does the work the framework assumes. The answer is a bounded yes for two
-of ten parameters, and the bound is stated wherever it applies.
+the model does the work the framework assumes. The answer is a bounded yes for one
+of ten parameters, a qualified maybe for a second, and the bound is stated
+wherever it applies.
 
 ## 2.5 The decision task
 
@@ -503,9 +510,11 @@ SWAP(L)    I's drawn value on C,     L on I's label
 ```
 
 Both conditions carry the **identical multiset of numerals**: same block length,
-same line count, same ten numbers, same field order. Only *which label holds L*
-differs. For an agent whose drawn Affective Weighting is 0.50, a Procedural
-Dependence swap at the high level renders as:
+same line count, same ten numbers, same field order. Only *which field holds L*
+differs, and a field means the name together with its two-line gloss, since the
+two are never separated in the rendered block. For an agent whose drawn
+Affective Weighting is 0.50, a Procedural Dependence swap at the high level
+renders as (glosses omitted here, present on the wire):
 
 ```
 TRUE+                              SWAP+
@@ -535,6 +544,14 @@ previously measured effect. **A parameter whose TRUE condition fails to replicat
 has an uninterpretable swap control, and nothing is claimed for it.** Chapter 7
 shows why this is not a formality.
 
+**The difference is tested, not inferred.** A significant TRUE contrast beside a
+non-significant SWAP contrast does not by itself show that the two differ
+(Gelman and Stern, 2006). The quantity the swap design is about is the
+within-unit difference of differences, (TRUE+ − TRUE−) − (SWAP+ − SWAP−), and
+§7.2 and §7.6 report it with its own interval and test for every swap. This
+analysis was added after collection at a reviewer's request; it changes the
+reading of one parameter.
+
 ## 3.3 What the swap control does and does not exclude
 
 **Excluded by construction:** block presence and verbosity. Both conditions carry
@@ -557,9 +574,15 @@ by the salience of the field holding it, producing every result here without any
 semantic reading of the label. This design cannot separate that from label
 semantics, and does not claim to.
 
-What the controls jointly establish is that the effect is **bound to the label
-string** — not to the block's presence, its length, an extreme value anywhere in
-it, or the line the label occupies.
+**Not separated:** the name from its gloss. Every entry in the block is a name
+followed by a two-line explanation of its endpoints, and every design here moves
+the two together. What the swap and the counterbalance localise is therefore the
+*labelled and explained field*. Whether the name alone, the explanation alone, or
+only the pair carries the effect is untested (§11.2).
+
+What the controls jointly establish is that the effect is **bound to the labelled
+and explained field** — not to the block's presence, its length, an extreme value
+anywhere in it, or the line the field occupies.
 
 ## 3.4 Research discipline
 
@@ -596,11 +619,15 @@ clear headline: profiled agents differed from unprofiled ones across six
 prespecified contrasts. Re-analysis found that in four of six cells the
 unprofiled model chose identically across 400 of 400 calls. A contrast against a
 deterministic baseline is not measuring a shift in a distribution; it is
-measuring the creation of variance where none existed. The same re-analysis
-traced four separate null results across three phases to this single cause. Each
-had been read as a failure of effect size; all four were failures of
-*dispersion*. This produced the screening requirement of §2.7, the most
-expensive lesson in the record and the cheapest to apply.
+measuring the creation of variance where none existed. A deterministic baseline
+does not make an effect undetectable, since a floor can still rise under
+treatment, but it makes detection one-directional and, at the baselines actually
+measured, the power simulations showed the designs could not detect an effect of
+plausible size. The same re-analysis traced four separate null results across
+three phases to this single cause. Each had been read as a failure of effect
+size; all four were failures of power caused by lack of *dispersion*. This
+produced the screening requirement of §2.7, the most expensive lesson in the
+record and the cheapest to apply.
 
 **Five designs that never collected data.** The re-analysis identified
 Procedural Dependence as the leading candidate parameter and flagged the finding
@@ -792,56 +819,64 @@ paired effect. A second, two-stage bootstrap resamples items first and then unit
 within item; with six to eight items it is conservative and is reported as the
 stress test on item heterogeneity, not as the primary interval.
 
-**The clustering objection, and the model that answers it.** Observations are
+**The clustering objection, and two models that bear on it.** Observations are
 clustered within agent and within item, and the variance decomposition of §6.2
 shows item clustering to be large. The paired design absorbs agent and item
-*main* effects by construction; what it does not absorb is heterogeneity of the
-treatment effect across items. Every primary contrast was therefore refitted as a
-logistic regression with **crossed random intercepts** for agent and item,
+*main* effects by construction. What it does not absorb is heterogeneity of the
+treatment effect across items, and the prespecified guard against that was crude:
+the decision rule's requirement that a majority of items point the same way.
+Two mixed models were fitted after collection. The first is a logistic
+regression with **crossed random intercepts** for agent and item,
 
-$$\operatorname{logit} P(\text{good}) = \beta_0 + \beta_1\,\text{condition} + u_{\text{agent}} + v_{\text{item}}, \qquad u \sim N(0, \sigma^2_{\text{agent}}),\; v \sim N(0, \sigma^2_{\text{item}}),$$
+$$\operatorname{logit} P(\text{good}) = \beta_0 + \beta_1\,\text{condition} + u_{\text{agent}} + v_{\text{item}}, \qquad u \sim N(0, \sigma^2_{\text{agent}}),\; v \sim N(0, \sigma^2_{\text{item}}).$$
 
-by Laplace approximation, the estimator having been validated on simulated data
-with known parameters (a true $\beta$ of 0.80 recovered as 0.803, and a simulated
-null correctly returned non-significant).
+Intercepts accommodate items with different baseline tendencies; they do not
+accommodate items that respond differently to the manipulation, which is the
+heterogeneity at issue (Barr *et al.*, 2013). The second model therefore adds a
+**random slope of condition by item**, $w_{\text{item}}\,\text{condition}$ with
+$w \sim N(0, \sigma^2_{\text{slope}})$. Both are fitted by Laplace approximation
+and both estimators were validated on simulated data with known parameters
+before any real fit (a true $\beta$ of 0.80 recovered as 0.803 and 0.732, each
+within two standard errors, and simulated nulls correctly returned
+non-significant). With six to eight items the slope variance is estimated from
+very few clusters, and the fits are read with that in mind.
 
-| Contrast | Effect | 95% CI (units) | 95% CI (items) | Mixed $\beta$ | *p* |
-|------------------------|-------:|-----------------:|-----------------:|--------:|--------:|
-| E − G, gpt (§6) | +0.228 | [+0.163, +0.294] | [+0.091, +0.372] | — | ≈ 0 |
-| E − G, haiku (§6) | +0.171 | [+0.096, +0.242] | [−0.025, +0.362] | — | 0.000112 |
-| PD prospective (§7.1) | +0.346 | [+0.275, +0.414] | [+0.125, +0.564] | +1.771 | ≈ 0 |
-| PD swap TRUE (§7.2) | +0.339 | [+0.275, +0.404] | [+0.107, +0.575] | +1.646 | ≈ 0 |
-| PD swap SWAP (§7.2) | −0.036 | [−0.093, +0.021] | [−0.121, +0.054] | −0.184 | 0.337 |
-| Counterbalance A (§7.3) | +0.393 | [+0.332, +0.457] | [+0.204, +0.596] | +2.048 | ≈ 0 |
-| Counterbalance C (§7.3) | +0.271 | [+0.200, +0.343] | [+0.068, +0.486] | +1.349 | ≈ 0 |
-| Counterbalance B (§7.3) | +0.061 | [−0.004, +0.121] | [−0.018, +0.146] | +0.291 | 0.116 |
-| **Counterbalance D** (§7.3) | +0.004 | [−0.061, +0.064] | [−0.068, +0.075] | +0.018 | 0.924 |
-| ID swap TRUE (§7.6) | +0.111 | [+0.050, +0.175] | [−0.029, +0.246] | +0.564 | 0.0033 |
-| ID swap SWAP (§7.6) | +0.046 | [−0.011, +0.104] | [−0.025, +0.118] | +0.237 | 0.215 |
-| **LL TRUE** (§7.6) | −0.014 | [−0.071, +0.043] | [−0.114, +0.082] | −0.072 | 0.704 |
-| PD cross-provider (§8) | +0.133 | [+0.058, +0.208] | [+0.008, +0.263] | +0.792 | 0.00046 |
-| ID cross-provider (§8) | +0.075 | [+0.013, +0.142] | [−0.046, +0.183] | +0.512 | 0.0330 |
+| Contrast | Effect | 95% CI (units) | 95% CI (items) | Intercepts $\beta$, *p* | Slopes $\beta$, *p* |
+|-----------------------|-------:|-----------------:|-----------------:|------------------:|------------------:|
+| E − G, gpt (§6) | +0.228 | [+0.163, +0.294] | [+0.091, +0.372] | +1.199, ≈ 0 | +1.253, 0.0001 |
+| E − G, haiku (§6) | +0.171 | [+0.096, +0.242] | [−0.025, +0.362] | +1.010, ≈ 0 | +1.145, 0.041 |
+| PD prospective (§7.1) | +0.346 | [+0.275, +0.414] | [+0.125, +0.564] | +1.771, ≈ 0 | +2.144, 0.0007 |
+| PD swap TRUE (§7.2) | +0.339 | [+0.275, +0.404] | [+0.107, +0.575] | +1.646, ≈ 0 | no finite SE |
+| PD swap SWAP (§7.2) | −0.036 | [−0.093, +0.021] | [−0.121, +0.054] | −0.184, 0.337 | −0.184, 0.337 |
+| Counterbalance A (§7.3) | +0.393 | [+0.332, +0.457] | [+0.204, +0.596] | +2.048, ≈ 0 | +2.718, 0.0003 |
+| Counterbalance C (§7.3) | +0.271 | [+0.200, +0.343] | [+0.068, +0.486] | +1.349, ≈ 0 | +1.788, 0.0086 |
+| Counterbalance B (§7.3) | +0.061 | [−0.004, +0.121] | [−0.018, +0.146] | +0.291, 0.116 | +0.291, 0.116 |
+| **Counterbalance D** (§7.3) | +0.004 | [−0.061, +0.064] | [−0.068, +0.075] | +0.018, 0.924 | +0.018, 0.924 |
+| ID sweep (§7.5) | +0.143 | [+0.074, +0.211] | [+0.040, +0.246] | — | +0.779, 0.0021 |
+| ID swap TRUE (§7.6) | +0.111 | [+0.050, +0.175] | [−0.029, +0.246] | +0.564, 0.0033 | **+0.577, 0.061** |
+| ID swap SWAP (§7.6) | +0.046 | [−0.011, +0.104] | [−0.025, +0.118] | +0.237, 0.215 | +0.237, 0.215 |
+| **LL TRUE** (§7.6) | −0.014 | [−0.071, +0.043] | [−0.114, +0.082] | −0.072, 0.704 | −0.045, 0.852 |
+| PD cross-provider (§8) | +0.133 | [+0.058, +0.208] | [+0.008, +0.263] | +0.792, 0.0005 | +0.814, 0.0073 |
+| ID cross-provider (§8) | +0.075 | [+0.013, +0.142] | [−0.046, +0.183] | +0.512, 0.0330 | **+0.653, 0.095** |
 
-The *p* column is the mixed-model p-value where a refit was run and the
-prespecified corrected p-value for the two E − G contrasts. **All twelve refits
-agree with the sign test at α = 0.05, in significance and in sign.** No
-conclusion depends on which analysis is used: condition D is null under both (p
-= 0.924), the Legitimacy Locus failure to replicate is null under both (p =
-0.704), and the ID cross-provider result, the most marginal contrast in the
-thesis, is essentially unchanged (0.0328 → 0.0330). Estimated item standard
-deviations of 0.83 to 1.46 on the log-odds scale confirm that the clustering is
-real; the pairing handles it, and that is a fact established by fitting the model
-rather than an assumption.
+**Under the intercept model all fourteen fits agree with the sign test at α =
+0.05, in significance and in sign.** That agreement establishes that baseline
+clustering changes nothing. **Under the slope model, twelve of fourteen agree,
+and the two that do not are both Internalisation Dependence**: the swap-design
+replication moves from p = 0.0033 to p = 0.061, and the cross-provider result
+from 0.0330 to 0.095. Every Procedural Dependence contrast keeps its
+significance and its sign, as do both E − G contrasts and the sweep's ID row. The
+PD swap TRUE fit under the slope model returned no finite standard error from any
+of four starting points: with seven items and an effect near saturation on
+several of them the slope variance is not identified, and that contrast rests on
+the sign test, the bootstrap and the intercept model, all of which agree.
 
-The item-cluster intervals say something the other columns do not. Every
-Procedural Dependence contrast keeps its sign under them, including the
-cross-provider one. The Internalisation Dependence contrasts and the haiku E − G
-contrast do not: their item-cluster intervals include zero. With six to eight
-clusters that bootstrap is known to be conservative, and the mixed model, which
-estimates the item variance rather than resampling it, keeps all three
-significant. But the honest reading is that the ID effects and the haiku profile
-effect are the ones whose generalisation across items rests on the fewest
-observations, and Chapter 8 states them at that strength.
+The item-cluster bootstrap and the slope model say the same thing from two
+directions. The PD results survive both. The ID results survive neither: their
+item-cluster intervals include zero and their slope-model p-values exceed 0.05
+in two of three designations. What that means is stated plainly: ID's effect is
+not robust to the possibility that it lives in a subset of items, and Chapter 7
+demotes it accordingly.
 
 **Equivalence bounds.** For the sweep's non-significant parameters, the smallest
 symmetric margin containing the 90% bootstrap interval is reported in §7.5. It is
@@ -869,10 +904,13 @@ do the same work?
 
 The result holds on both models. On the calibration model, the plain-English
 ethical instruction lands **below** the unprofiled baseline (−0.017, p = 0.712):
-it does not merely underperform the numeric profile, it does nothing at all. The
-prespecified same-item subgroup across both models gives **+0.255, p < $10^{-7}$**.
-E and G present a byte-identical user turn and differ only in the system prompt,
-paired within agent and item.
+on these items this instruction does not merely underperform the numeric
+profile, it does nothing at all. The prespecified same-item subgroup across both
+models gives **+0.255, p < $10^{-7}$**. E and G present a byte-identical user turn
+and differ only in the system prompt, paired within agent and item. What is
+established is superiority over this particular instruction on this item family,
+not over verbal instruction in general; §6.1 says why that qualification is
+substantive.
 
 **An early control, and its instructive failure.** A first attempt at isolating
 the labels deranged all ten of them — the same ten numbers, scrambled across
@@ -979,7 +1017,10 @@ partner, at 40 agents:
 
 **TRUE +0.339 [+0.275, +0.404], corrected p ≈ 0. SWAP −0.036 [−0.093, +0.021],
 corrected p = 1.000.** Four items survive correction on TRUE; **none** on SWAP.
-Move the identical number from one line to another, and the effect vanishes.
+The difference between the two, tested directly as a within-unit difference of
+differences, is **+0.375 [+0.286, +0.464]**, item-cluster interval [+0.096,
++0.654], exact sign test p ≈ 0, six of seven items positive. Move the identical
+number from one labelled field to another, and the effect vanishes.
 
 ## 7.3 The label, or the line it sits on?
 
@@ -1004,13 +1045,14 @@ line count:
 | B | Affective Weighting | 10 | +0.061 | [−0.004, +0.121] | 0.157 | 6+/1− |
 | D | Affective Weighting | 6 | +0.004 | [−0.061, +0.064] | 1.000 | 3+/2− |
 
-![The label, or the line it sits on. Paired effects with 95% intervals over agent-item units (thick) and over items (thin) for the original swap and the counterbalanced 2×2. Condition D, the level at line 6 on the inert label, is the direct test of a serial-position account.](figures/fig2_label_vs_position.pdf){width=88%}
+![The label, or the line it sits on. Paired effects with 95% intervals over agent-item units (thick) and over items (thin) for the original swap and the counterbalanced 2×2. Condition D, the level at line 6 on the partner field, is the direct test of a serial-position account.](figures/fig2_label_vs_position.pdf){width=88%}
 
-**The label factor is +0.300.** The two comparisons that isolate it agree:
-A − D = +0.389 at line 6, C − B = +0.211 at line 10.
+**The label factor is +0.300.** The two comparisons that isolate it agree and
+each is clear of zero as a within-unit difference: A − D = +0.389 [+0.296,
++0.482] at line 6, C − B = +0.211 [+0.121, +0.304] at line 10.
 
 **Condition D is the decisive one.** It places the level at line 6 — the
-privileged position under any primacy account — on the inert label, and produces
+privileged position under any primacy account — on the partner field, and produces
 **+0.004**. A generic serial-position account predicts that slot 6 lifts whatever
 sits in it; D is the direct test of that prediction and it fails. Keep the label
 and move it four lines down, as in C, and the effect survives at +0.271.
@@ -1030,11 +1072,14 @@ label. The interval on the interaction is clear of zero, but it rests on a singl
 designation and the decomposition was not prespecified; it is a finding to
 replicate, not an established magnitude.
 
-**The claim upgrades from field-bound to label-bound**, and the upgrade is
-bounded: this counterbalanced Procedural Dependence on the calibration model only.
-The cross-provider results of Chapter 8 used the original swap and remain
-field-bound, and Internalisation Dependence's swap control carries the same
-confound unaddressed.
+**The claim upgrades from field-bound to position-independent field-bound**, and
+the upgrade is bounded in two ways. It holds for Procedural Dependence on the
+calibration model only: the cross-provider runs of Chapter 8 pinned the value
+and ran no swap, so they establish that PD moves the outcome there and nothing
+about binding, and Internalisation Dependence's swap control carries the position
+confound unaddressed. And "field" continues to mean the name and its gloss
+together (§3.3): the counterbalance moved both to line 10, so it says nothing
+about which of the two the model is reading.
 
 ## 7.4 The inert partner is less inert than assumed
 
@@ -1045,8 +1090,14 @@ condition* — the level on Affective Weighting at line 10 — and they disagree
 sign: −0.036 [−0.093, +0.021] in the SWAP arm of `label_semantics_r1`, and
 +0.061 [−0.004, +0.121] in condition B of `position_counterbalance_r1`, with six
 of seven items positive in the latter. A swing of 0.096, with both estimates
-null. Nothing in this thesis breaks: every claim resting on Affective Weighting's
-inertness used a null, and both are null.
+null. "Inert" is therefore the wrong word, and it is retired here: a
+non-significant estimate does not establish an absence of effect. What the
+evidence supports is "no detectable effect at this power", and the direct
+difference between the two Affective Weighting positions, D − B = −0.057
+[−0.143, +0.025], is consistent with that. Nothing in this thesis breaks: every
+claim resting on the partner's inertness used a null, and both are null, but the
+PD conclusions do not rest on the partner alone, because the TRUE − SWAP
+difference is estimated directly (§7.2).
 
 But the pattern deserves naming, because it is the one this thesis withdrew a
 parameter for. Condition B has the directional consistency without the
@@ -1113,9 +1164,23 @@ as a replication gate, at 40 agents:
 | Contrast | Effect | 95% CI | Corrected *p* | Items | Reading |
 |-----------|--------:|------------------:|----------:|--------|---------------------------|
 | **ID: TRUE** | **+0.111** | [+0.050, +0.175] | **0.00467** | 5+/1− | replicates |
-| ID: SWAP | +0.046 | [−0.011, +0.104] | 0.408 | 5+/2− | **null — the label carries it** |
+| ID: SWAP | +0.046 | [−0.011, +0.104] | 0.408 | 5+/2− | null |
 | LL: TRUE | **−0.014** | [−0.071, +0.043] | **0.708** | 4+/3− | **fails to replicate** |
 | LL: SWAP | −0.046 | [−0.104, +0.014] | 0.408 | 1+/4− | **uninterpretable** |
+
+**Internalisation Dependence replicates, and its binding is not established.**
+The TRUE condition reproduces the sweep, so the gate is passed and the swap is
+interpretable. But a null SWAP beside a significant TRUE is not a demonstration
+that the two differ. Tested directly, the difference is **+0.064 [−0.014,
++0.146]**, item-cluster interval [−0.071, +0.207], exact sign test p = 0.149,
+three items positive and two negative. The interval includes zero. Under the
+random-slope model of §5.4 the TRUE effect itself falls to p = 0.061. Earlier
+drafts of this work read the ID swap as "the label carries it"; that reading was
+the significance-versus-non-significance inference and it is withdrawn. ID's
+status is: **moves the outcome under the prespecified test in three designations;
+field binding not established; not robust to item-specific treatment effects.**
+It is a candidate, and it is not placed beside Procedural Dependence as an
+equally established result.
 
 Legitimacy Locus across three measurements: a correlation of **+0.271** on
 unmanipulated data; **−0.131** pinned at 25 agents (corrected p = 0.00082);
@@ -1128,12 +1193,14 @@ failing to replicate is not the same as being measured flat, and no claim is mad
 that it does nothing.
 
 **Why this matters beyond one parameter.** LL's swap control was null, which is
-precisely the signature of a genuine label effect. Had the swap been run alone,
+the pattern a genuine field effect would also show. Had the swap been run alone,
 as it was for PD and as would have been natural, that null would have read as
 confirmation, promoting a parameter that does not replicate. **The replication
 gate is the only reason this was caught rather than published.** A parameter can
 clear a corrected significance threshold in a single well-powered study, with a
-clean bootstrap interval, and still be noise.
+clean bootstrap interval, and still fail to reproduce. A failed replication does
+not prove the first result was a false positive; it identifies an unconfirmed
+finding, and that is what LL is.
 
 **The general lesson.** The literature on replication failure usually frames the
 problem as insufficient power or undisclosed flexibility in analysis. Neither
@@ -1143,15 +1210,16 @@ was not adjusted after seeing results. What caught it was **structural**, not
 statistical: a design requirement that any explanatory control carry, in the same
 study and the same correction family, a condition reproducing the effect being
 explained. That requirement costs nothing beyond the additional conditions, and
-it converts a class of false positives into visible failures.
+it converts a class of unconfirmed findings that would otherwise pass as
+confirmed into visible failures.
 
-## 7.7 What the two survivors have in common
+## 7.7 What the two parameters that move the outcome have in common
 
 Procedural Dependence and Internalisation Dependence are, on inspection, the two
 parameters whose definitions map most directly onto the structure of the items.
 PD runs from outcome-dominant to process-dominant, and every item is a choice
-between honouring a stated arrangement and overriding it for a better aggregate
-outcome. ID runs from "surface compliance suffices" to "requires genuine
+between honouring a stated arrangement and overriding it in favour of the larger
+party, at tied totals. ID runs from "surface compliance suffices" to "requires genuine
 endorsement", which bears on whether a stated claim retains force when it becomes
 inconvenient. The seven parameters that do not move the outcome have no
 comparable purchase on these particular items: nothing in a desk-booking dispute
@@ -1188,8 +1256,9 @@ time and gated the release**. Only the direction transferred from the first
 model; never the magnitude. **Both effects shrink**: PD to roughly 38% of its
 original value, ID to 68%. What replicates is the **direction and the decision
 rule, not the magnitude**. The ID replication is the most marginal contrast in
-the thesis: its item-cluster interval includes zero (§5.4), and it is stated as
-"moves the outcome on the second model" and nothing stronger.
+the thesis: its item-cluster interval includes zero and under the random-slope
+model it gives p = 0.095 (§5.4). It is stated as "moves the outcome on the second
+model under the prespecified test" and nothing stronger.
 
 **A correlation that pointed at nothing.** Before this study, PD's correlation on
 the second model was **+0.089**, near flat, and the basis on which this project
@@ -1208,18 +1277,21 @@ nothing stronger.
 
 ## 8.1 The final map
 
-| Parameter | Pinned | Swap | Counterbalanced | 2nd provider | Status |
+| Parameter | Pinned | TRUE − SWAP | Counterbalanced | 2nd provider | Status |
 |-----------|--------------:|-----------------|----------------------|----------:|---------------------|
-| **PD** | +0.339 to +0.346 | −0.036 n.s. | label +0.300; position n.s. | +0.133 | **label effect** |
-| **ID** | +0.111 to +0.143 | +0.046 n.s. | not run | +0.075 | **field-bound label effect** |
+| **PD** | +0.339 to +0.346 | +0.375 [+0.286, +0.464] | field +0.300; position n.s. | +0.133 | **verified field effect** |
+| ID | +0.111 to +0.143 | +0.064 [−0.014, +0.146] | not run | +0.075 | candidate; binding not established |
 | ~~LL~~ | −0.131 → −0.014 | uninterpretable | not run | not tested | **withdrawn, unresolved** |
-| seven others | −0.10 to +0.05 | — | — | — | not load-bearing at 0.20 |
+| six others | −0.10 to +0.05 | — | — | — | bounded below 0.20 |
+| AW | not pinned | partner: −0.036, +0.061 | — | — | no detectable effect at this power |
 
-**Two of ten parameters carry the behaviour, and for both the effect is bound to
-the labelled field rather than to the number.** For Procedural Dependence on the
-calibration model the counterbalanced control narrows this further, to the label
-itself rather than the line it occupies. That narrowing is claimed for that one
-cell only.
+**One of ten parameters is verified: Procedural Dependence moves the outcome, the
+effect is bound to its labelled and explained field rather than to the number,
+and on the calibration model it is bound to that field at either line it
+occupies.** A second, Internalisation Dependence, moves the outcome under the
+prespecified test but its binding is not established and its effect is not
+robust to item-specific treatment effects. The position-independence narrowing is
+claimed for PD on the calibration model only.
 
 ---
 
@@ -1356,10 +1428,12 @@ means the thesis cannot speak to reasoning at all.
 # 11. Conclusion
 
 This thesis asked which part of a structured prompt carries an agent's behaviour,
-and answered it for a ten-parameter encoding on one task domain: **two parameters
-of ten, and for both the effect is bound to the labelled field rather than to the
-number's presence.** Both move the outcome on a second provider, one under a
-theory-derived one-sided prediction, though without swap controls there neither
+and answered it for a ten-parameter encoding on one task domain: **one parameter
+of ten is verified, and its effect is bound to the labelled and explained field
+rather than to the number's presence or the line it occupies.** A second moves
+the outcome under the prespecified test and is reported as a candidate whose
+binding is not established. Both move the outcome on a second provider, one under
+a theory-derived one-sided prediction, though without swap controls there neither
 is verified cross-model. What is claimed is the method and this demonstration of
 it, not a general property of the encoding, and not semantic understanding of any
 label.
@@ -1385,19 +1459,22 @@ common in prompt-sensitivity work, which necessarily change length and content.
 Its cost is that it requires a parameter measured inert to serve as a partner,
 which must itself be established rather than assumed.
 
-**A replication gate that detects its own false positives.** Pairing every
+**A replication gate that exposes its own unconfirmed findings.** Pairing every
 explanatory control with a condition reproducing the effect it explains converts
 a class of undetectable errors into visible failures. The Legitimacy Locus
 withdrawal is the demonstration, and it is the result this thesis would most want
-carried into other work.
+carried into other work. The same discipline, applied after a reviewer's
+challenge, demoted Internalisation Dependence from a verified effect to a
+candidate (§7.6); the method is worth more for having done so.
 
-**A bounded empirical map of one encoding on one item family.** Two of ten
-parameters carry behaviour here, six do not at the effect size tested, with
-certified bounds, and one was withdrawn. Every headline contrast carries a
-bootstrap interval and survives a crossed random-effects refit. The qualifier is
-not modesty: §7.7 argues that the surviving parameters are the ones whose
-definitions match the structure of these items, so what is mapped is the
-interaction of an encoding with an item family, not a property of the encoding.
+**A bounded empirical map of one encoding on one item family.** One of ten
+parameters is verified here, one is a candidate, six are bounded below an effect
+of 0.20, one was withdrawn, and one was never pinned. Every headline contrast
+carries a bootstrap interval and two random-effects refits, and the demotion of
+ID is what those refits found. The qualifier is not modesty: §7.7 argues that
+the parameters that move the outcome are the ones whose definitions match the
+structure of these items, so what is mapped is the interaction of an encoding
+with an item family, not a property of the encoding.
 
 A fourth contribution is negative and methodological: AI design review returns
 inconsistent verdicts on byte-identical material (§9). Anyone building a research
@@ -1406,25 +1483,29 @@ pipeline around model-based review should know this before depending on it.
 ## 11.2 Future work
 
 In order of value. **First, a second task family**: nothing else would do more to
-establish whether the map generalises. **Second, the semantic inversion.** One
-mechanism survives every control here, field-weighted extremity. Relabel the
-field *Outcome Dominance* and invert the value, so that 0.10 on the new label
-encodes what 0.90 encoded on the old; position, block length, numeral multiset
-and formatting all hold. Field-weighted extremity predicts the behaviour
-**reverses**; a semantic reading predicts it is **preserved**. It would bear
-simultaneously on the associative-binding worry of §1.3, since a model with a
-learned link to the literal string also fails the inversion. Its weakness should
-be stated with it: unlike the counterbalance of §7.3, whose premise is a
-byte-level invariant, this control rests on a human judgement that the inversion
-is semantically equivalent, and Chapter 4 is precisely the finding that reviewer
-judgements about item properties do not predict what the model does. **Third, a
-pinning contrast on Affective Weighting**, which would make the inert partner
-independently established rather than jointly identified with the thing it is
-used to test. **Fourth, swap controls and a position counterbalance on the second
-provider**, which would upgrade both parameters from "moves the outcome" to
-"verified". **Fifth, the configuration counterfactual** the framework specifies
-and this work never ran, and **sixth, human behavioural comparison**, the unmet
-deliverable. A seventh direction is more speculative: a design that paired the
+establish whether the map generalises. **Second, the name and the gloss
+separately.** Every design here moves a parameter's name and its two-line
+explanation together (§3.3). Two cheap swaps would separate them: exchange the
+names and leave the glosses in place, then exchange the glosses and leave the
+names. Until one of them is run, "label" in this thesis means the pair.
+**Third, the semantic inversion.** One mechanism survives every control here,
+field-weighted extremity. Relabel the field *Outcome Dominance* and invert the
+value, so that 0.10 on the new label encodes what 0.90 encoded on the old;
+position, block length, numeral multiset and formatting all hold. Field-weighted
+extremity predicts the behaviour **reverses**; a semantic reading predicts it is
+**preserved**. Its weakness should be stated with it: unlike the counterbalance
+of §7.3, whose premise is a byte-level invariant, this control rests on a human
+judgement that the inversion is semantically equivalent, and Chapter 4 is
+precisely the finding that reviewer judgements about item properties do not
+predict what the model does. **Fourth, a re-powered ID swap.** The direct
+TRUE − SWAP difference for ID is +0.064 with an interval of width 0.16; a swap
+at roughly four times the agents would decide it either way. **Fifth, a pinning
+contrast on Affective Weighting**, which would make the partner independently
+established rather than jointly identified with the thing it is used to test.
+**Sixth, swap controls and a position counterbalance on the second provider**,
+**seventh, the configuration counterfactual** the framework specifies and this
+work never ran, and **eighth, human behavioural comparison**, the unmet
+deliverable. A ninth direction is more speculative: a design that paired the
 deterministic classification with an independent analysis of stated reasoning
 could ask whether a parameter's effect is accompanied by reasoning that mentions
 the corresponding consideration. That would not settle the question of semantic
@@ -1448,6 +1529,10 @@ Against a Unanimous Majority. *Psychological Monographs*, *70*(9): 1–70.
 Ashton, M.C. and Lee, K. (2007). Empirical, Theoretical, and Practical Advantages
 of the HEXACO Model of Personality Structure. *Personality and Social Psychology
 Review*, *11*(2): 150–166.
+
+Barr, D.J., Levy, R., Scheepers, C. and Tily, H.J. (2013). Random effects
+structure for confirmatory hypothesis testing: Keep it maximal. *Journal of
+Memory and Language*, *68*(3): 255–278.
 
 Batson, C.D. (2011). *Altruism in Humans*. New York: Oxford University Press.
 
@@ -1479,6 +1564,10 @@ Multidimensional Approach. *Journal of Personality and Social Psychology*, *44*(
 
 Deci, E.L. and Ryan, R.M. (1985). The General Causality Orientations Scale:
 Self-Determination in Personality. *Journal of Research in Personality*, *19*(2): 109–134.
+
+Gelman, A. and Stern, H. (2006). The Difference Between "Significant" and "Not
+Significant" is not Itself Statistically Significant. *The American
+Statistician*, *60*(4): 328–331.
 
 Güth, W., Schmittberger, R. and Schwarze, B. (1982). An Experimental Analysis of
 Ultimatum Bargaining. *Journal of Economic Behavior and Organization*, *3*(4): 367–388.
@@ -1681,8 +1770,9 @@ For each study the repository holds a protocol fixing the prediction before
 collection, a hash-pinned release with the complete request schedule, the raw
 per-call records, and an assessment reporting the outcome against the
 prespecified rule. The bootstrap intervals and equivalence bounds are produced by
-`code/phase6_thesis_intervals.py`, the mixed-model refits by
-`code/phase5_refit_primary.py`, and the figures by
+`code/phase6_thesis_intervals.py`, the random-intercept refits by
+`code/phase5_refit_primary.py`, the random-slope refits and the TRUE − SWAP
+difference tests by `code/phase6_review_tests.py`, and the figures by
 `code/phase6_thesis_figures.py`, each reading only the frozen records.
 
 # Appendix B — Items

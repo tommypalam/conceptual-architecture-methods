@@ -1,0 +1,486 @@
+{
+  "seed": 20260920,
+  "reps": 10000,
+  "diff_of_diffs": [
+    {
+      "name": "PD: TRUE minus SWAP",
+      "path": "phase5_analysis/label_semantics_r1/all_rows.json",
+      "first": "TRUE+ - TRUE-",
+      "second": "SWAP+ - SWAP-",
+      "units": 280,
+      "first_effect": 0.3392857142857143,
+      "second_effect": -0.03571428571428571,
+      "difference": 0.375,
+      "ci95": [
+        0.2857142857142857,
+        0.4642857142857143
+      ],
+      "cluster_ci95": [
+        0.09642857142857143,
+        0.6535714285714286
+      ],
+      "sign_test": {
+        "nonzero": 130,
+        "positive": 109,
+        "p": 1.5872582619277638e-15
+      },
+      "items_positive": 6,
+      "items_negative": 1,
+      "item_means": {
+        "desk_booking": 0.15,
+        "storage_unit": 0.725,
+        "tool_library": 0.85,
+        "on_call": -0.175,
+        "meeting_room": 0.225,
+        "rest_break": 0.75,
+        "weekend_rota": 0.1
+      }
+    },
+    {
+      "name": "ID: TRUE minus SWAP",
+      "path": "phase5_analysis/label_semantics_r2/all_rows.json",
+      "first": "ID:TRUE+ - ID:TRUE-",
+      "second": "ID:SWAP+ - ID:SWAP-",
+      "units": 280,
+      "first_effect": 0.11071428571428571,
+      "second_effect": 0.04642857142857143,
+      "difference": 0.06428571428571428,
+      "ci95": [
+        -0.014285714285714285,
+        0.14642857142857144
+      ],
+      "cluster_ci95": [
+        -0.07142857142857142,
+        0.20714285714285716
+      ],
+      "sign_test": {
+        "nonzero": 108,
+        "positive": 62,
+        "p": 0.14857634761056238
+      },
+      "items_positive": 3,
+      "items_negative": 2,
+      "item_means": {
+        "desk_booking": 0.0,
+        "storage_unit": 0.325,
+        "tool_library": 0.0,
+        "on_call": -0.15,
+        "meeting_room": 0.125,
+        "rest_break": 0.225,
+        "weekend_rota": -0.075
+      }
+    },
+    {
+      "name": "LL: TRUE minus SWAP",
+      "path": "phase5_analysis/label_semantics_r2/all_rows.json",
+      "first": "LL:TRUE+ - LL:TRUE-",
+      "second": "LL:SWAP+ - LL:SWAP-",
+      "units": 280,
+      "first_effect": -0.014285714285714285,
+      "second_effect": -0.04642857142857143,
+      "difference": 0.03214285714285714,
+      "ci95": [
+        -0.04642857142857143,
+        0.11071428571428571
+      ],
+      "cluster_ci95": [
+        -0.09642857142857143,
+        0.15
+      ],
+      "sign_test": {
+        "nonzero": 95,
+        "positive": 52,
+        "p": 0.41191007368097665
+      },
+      "items_positive": 4,
+      "items_negative": 2,
+      "item_means": {
+        "desk_booking": 0.1,
+        "storage_unit": -0.2,
+        "tool_library": 0.1,
+        "on_call": 0.0,
+        "meeting_room": -0.125,
+        "rest_break": 0.2,
+        "weekend_rota": 0.15
+      }
+    },
+    {
+      "name": "label at line 6: A minus D",
+      "path": "phase5_analysis/position_counterbalance_r1/all_rows.json",
+      "first": "A+ - A-",
+      "second": "D+ - D-",
+      "units": 280,
+      "first_effect": 0.39285714285714285,
+      "second_effect": 0.0035714285714285713,
+      "difference": 0.3892857142857143,
+      "ci95": [
+        0.29642857142857143,
+        0.48214285714285715
+      ],
+      "cluster_ci95": [
+        0.17142857142857143,
+        0.6071428571428571
+      ],
+      "sign_test": {
+        "nonzero": 142,
+        "positive": 113,
+        "p": 6.542224944064406e-13
+      },
+      "items_positive": 7,
+      "items_negative": 0,
+      "item_means": {
+        "desk_booking": 0.175,
+        "storage_unit": 0.725,
+        "tool_library": 0.65,
+        "on_call": 0.225,
+        "meeting_room": 0.075,
+        "rest_break": 0.725,
+        "weekend_rota": 0.15
+      }
+    },
+    {
+      "name": "label at line 10: C minus B",
+      "path": "phase5_analysis/position_counterbalance_r1/all_rows.json",
+      "first": "C+ - C-",
+      "second": "B+ - B-",
+      "units": 280,
+      "first_effect": 0.2714285714285714,
+      "second_effect": 0.060714285714285714,
+      "difference": 0.21071428571428572,
+      "ci95": [
+        0.12133928571428579,
+        0.30357142857142855
+      ],
+      "cluster_ci95": [
+        0.02857142857142857,
+        0.39285714285714285
+      ],
+      "sign_test": {
+        "nonzero": 131,
+        "positive": 91,
+        "p": 9.795729150815366e-06
+      },
+      "items_positive": 5,
+      "items_negative": 2,
+      "item_means": {
+        "desk_booking": 0.2,
+        "storage_unit": 0.45,
+        "tool_library": 0.45,
+        "on_call": -0.1,
+        "meeting_room": -0.025,
+        "rest_break": 0.425,
+        "weekend_rota": 0.075
+      }
+    },
+    {
+      "name": "position on PD: A minus C",
+      "path": "phase5_analysis/position_counterbalance_r1/all_rows.json",
+      "first": "A+ - A-",
+      "second": "C+ - C-",
+      "units": 280,
+      "first_effect": 0.39285714285714285,
+      "second_effect": 0.2714285714285714,
+      "difference": 0.12142857142857143,
+      "ci95": [
+        0.04285714285714286,
+        0.2
+      ],
+      "cluster_ci95": [
+        0.02857142857142857,
+        0.2250892857142844
+      ],
+      "sign_test": {
+        "nonzero": 94,
+        "positive": 62,
+        "p": 0.002587308956921308
+      },
+      "items_positive": 7,
+      "items_negative": 0,
+      "item_means": {
+        "desk_booking": 0.1,
+        "storage_unit": 0.15,
+        "tool_library": 0.025,
+        "on_call": 0.3,
+        "meeting_room": 0.075,
+        "rest_break": 0.15,
+        "weekend_rota": 0.05
+      }
+    },
+    {
+      "name": "position on AW: D minus B",
+      "path": "phase5_analysis/position_counterbalance_r1/all_rows.json",
+      "first": "D+ - D-",
+      "second": "B+ - B-",
+      "units": 280,
+      "first_effect": 0.0035714285714285713,
+      "second_effect": 0.060714285714285714,
+      "difference": -0.05714285714285714,
+      "ci95": [
+        -0.14285714285714285,
+        0.025
+      ],
+      "cluster_ci95": [
+        -0.16785714285714284,
+        0.05
+      ],
+      "sign_test": {
+        "nonzero": 109,
+        "positive": 49,
+        "p": 0.3381854121966621
+      },
+      "items_positive": 1,
+      "items_negative": 6,
+      "item_means": {
+        "desk_booking": 0.125,
+        "storage_unit": -0.125,
+        "tool_library": -0.175,
+        "on_call": -0.025,
+        "meeting_room": -0.025,
+        "rest_break": -0.15,
+        "weekend_rota": -0.025
+      }
+    }
+  ],
+  "eg_intercepts": [
+    {
+      "name": "E vs G (gpt)",
+      "beta": 1.1992871515828205,
+      "se": 0.18877782459894193,
+      "p": 2.1128943039627757e-10,
+      "sd_agent": 0.23376630501355106,
+      "sd_item": 1.130468197692715
+    },
+    {
+      "name": "E vs G (haiku)",
+      "beta": 1.0096665543134429,
+      "se": 0.22720708993334016,
+      "p": 8.837709883025013e-06,
+      "sd_agent": 1.1847800794968586,
+      "sd_item": 1.0063428312047156
+    }
+  ],
+  "slopes_validation": {
+    "recovery": {
+      "true_beta": 0.8,
+      "est_beta": 0.7317,
+      "est_sd_slope": 0.5924,
+      "true_sd_slope": 0.5,
+      "within_2se": "True"
+    },
+    "null": {
+      "est_beta": -0.0617,
+      "p": 0.7812,
+      "not_significant": "True"
+    }
+  },
+  "slopes": [
+    {
+      "name": "PD prospective (gpt)",
+      "beta": 2.1437391084931585,
+      "se": 0.6283174520202992,
+      "p": 0.0006451825564277591,
+      "sd_agent": 0.45706546319680796,
+      "sd_item": 0.9897617447474523,
+      "sd_slope": 1.5113967666879593,
+      "converged": true,
+      "sign_p": 0.0,
+      "degenerate": false,
+      "starts_nondegenerate": 2
+    },
+    {
+      "name": "PD swap TRUE (gpt)",
+      "beta": 2.4686613457274467,
+      "se": 3.0148424272961026e-06,
+      "p": 0.0,
+      "sd_agent": 0.6007182496803436,
+      "sd_item": 1.110528860063112,
+      "sd_slope": 2.1421856322451367,
+      "converged": true,
+      "sign_p": 0.0,
+      "degenerate": true,
+      "starts_nondegenerate": 0
+    },
+    {
+      "name": "PD swap SWAP (gpt)",
+      "beta": -0.1844514227741249,
+      "se": 0.19221559304437302,
+      "p": 0.33725305994258825,
+      "sd_agent": 0.7284169751679804,
+      "sd_item": 0.958513310551164,
+      "sd_slope": 0.00010000006833193583,
+      "converged": true,
+      "sign_p": 0.26,
+      "degenerate": false,
+      "starts_nondegenerate": 4
+    },
+    {
+      "name": "PD counterbalance A (label PD, line 6)",
+      "beta": 2.7176466623305258,
+      "se": 0.7537770920684762,
+      "p": 0.0003117063541593357,
+      "sd_agent": 0.31951269664559623,
+      "sd_item": 0.9515038711577551,
+      "sd_slope": 1.7874442226146368,
+      "converged": true,
+      "sign_p": 0.0,
+      "degenerate": false,
+      "starts_nondegenerate": 2
+    },
+    {
+      "name": "PD counterbalance C (label PD, line 10)",
+      "beta": 1.7884018300008615,
+      "se": 0.6802912523763811,
+      "p": 0.00856674130536117,
+      "sd_agent": 0.4043218735834053,
+      "sd_item": 0.8818810951528248,
+      "sd_slope": 1.652500848321955,
+      "converged": true,
+      "sign_p": 0.0,
+      "degenerate": false,
+      "starts_nondegenerate": 4
+    },
+    {
+      "name": "PD counterbalance B (label AW, line 10)",
+      "beta": 0.29110396587327736,
+      "se": 0.18541825725841224,
+      "p": 0.1164184965356978,
+      "sd_agent": 0.44996192436061583,
+      "sd_item": 0.8870797069568188,
+      "sd_slope": 0.00010000011323707367,
+      "converged": true,
+      "sign_p": 0.078,
+      "degenerate": false,
+      "starts_nondegenerate": 4
+    },
+    {
+      "name": "PD counterbalance D (label AW, line 6)",
+      "beta": 0.01809107996869628,
+      "se": 0.1902173906872635,
+      "p": 0.9242295266127258,
+      "sd_agent": 0.8039782094810218,
+      "sd_item": 0.8276428973200983,
+      "sd_slope": 0.00010000000445155096,
+      "converged": true,
+      "sign_p": 1.0,
+      "degenerate": false,
+      "starts_nondegenerate": 4
+    },
+    {
+      "name": "ID swap TRUE (gpt)",
+      "beta": 0.5767880530001273,
+      "se": 0.30818213511959563,
+      "p": 0.06126449324055061,
+      "sd_agent": 0.7788527248671906,
+      "sd_item": 0.8070302529811367,
+      "sd_slope": 0.6277793187161156,
+      "converged": true,
+      "sign_p": 0.00117,
+      "degenerate": false,
+      "starts_nondegenerate": 4
+    },
+    {
+      "name": "ID swap SWAP (gpt)",
+      "beta": 0.23683305402221497,
+      "se": 0.19112071605114256,
+      "p": 0.2152786806320648,
+      "sd_agent": 0.7302087616297153,
+      "sd_item": 0.9797017670930173,
+      "sd_slope": 0.0001000002401919544,
+      "converged": true,
+      "sign_p": 0.136,
+      "degenerate": false,
+      "starts_nondegenerate": 4
+    },
+    {
+      "name": "LL swap TRUE (gpt) - the withdrawal",
+      "beta": -0.04498559172637995,
+      "se": 0.24155922454831885,
+      "p": 0.8522643425705243,
+      "sd_agent": 0.7316402047527149,
+      "sd_item": 0.8155640199577976,
+      "sd_slope": 0.38640577563127804,
+      "converged": true,
+      "sign_p": 0.708,
+      "degenerate": false,
+      "starts_nondegenerate": 4
+    },
+    {
+      "name": "PD cross-provider (haiku)",
+      "beta": 0.813837672153715,
+      "se": 0.3031479991562526,
+      "p": 0.007261195991883129,
+      "sd_agent": 0.786244761425374,
+      "sd_item": 0.935908310280544,
+      "sd_slope": 0.474287875396923,
+      "converged": true,
+      "sign_p": 0.00031,
+      "degenerate": false,
+      "starts_nondegenerate": 4
+    },
+    {
+      "name": "ID cross-provider (haiku)",
+      "beta": 0.6528539688255957,
+      "se": 0.3910631094473786,
+      "p": 0.0950314418168956,
+      "sd_agent": 1.176555248177434,
+      "sd_item": 1.2971571107272495,
+      "sd_slope": 0.7164966132109829,
+      "converged": true,
+      "sign_p": 0.0328,
+      "degenerate": false,
+      "starts_nondegenerate": 4
+    },
+    {
+      "name": "sweep ID (gpt, 25 agents)",
+      "beta": 0.7789568019143565,
+      "se": 0.2532652650568726,
+      "p": 0.002100401041950084,
+      "sd_agent": 0.68757062412168,
+      "sd_item": 1.0540724891540025,
+      "sd_slope": 0.00010000003866448309,
+      "converged": true,
+      "sign_p": 7.025e-05,
+      "degenerate": false,
+      "starts_nondegenerate": 4
+    },
+    {
+      "name": "sweep LL (gpt, 25 agents)",
+      "beta": -0.756233753368131,
+      "se": 0.25986670550852703,
+      "p": 0.003613324672458118,
+      "sd_agent": 0.7824113611951264,
+      "sd_item": 1.2077755472068692,
+      "sd_slope": 0.00010000297220567887,
+      "converged": true,
+      "sign_p": 0.000117,
+      "degenerate": false,
+      "starts_nondegenerate": 4
+    },
+    {
+      "name": "E vs G (gpt)",
+      "beta": 1.2528219069228428,
+      "se": 0.3238479518078716,
+      "p": 0.00010948460813064997,
+      "sd_agent": 0.2558163747495516,
+      "sd_item": 1.2809302200859776,
+      "sd_slope": 0.7237533627718178,
+      "converged": true,
+      "sign_p": null,
+      "degenerate": false,
+      "starts_nondegenerate": 4
+    },
+    {
+      "name": "E vs G (haiku)",
+      "beta": 1.1454339513750347,
+      "se": 0.5609988127820497,
+      "p": 0.04117374899497728,
+      "sd_agent": 1.2984698059626734,
+      "sd_item": 1.2128204426443423,
+      "sd_slope": 1.2392425604101078,
+      "converged": true,
+      "sign_p": null,
+      "degenerate": false,
+      "starts_nondegenerate": 4
+    }
+  ]
+}

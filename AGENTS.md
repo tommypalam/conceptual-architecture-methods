@@ -1,5 +1,49 @@
 # AGENTS.md — Concepts-as-Architecture Project Constitution
 
+## Reviewer round: ID demoted to a candidate; PD verified under every test (2026-09-19)
+
+A supervisor review raised four methodological points. All were correct and all
+were answerable offline, zero API calls (`code/phase6_review_tests.py`,
+`code/phase6_mixed_slopes.py`, output `experiments/phase5_analysis/review_tests.json`).
+
+**1. Random intercepts do not address treatment-effect heterogeneity.** A crossed
+model with a random slope of condition by item was written, validated on
+simulated data, and fitted to every primary contrast plus E-G and the sweep's
+ID/LL rows. **Twelve of fourteen agree with the sign test; the two that do not
+are both ID**: swap TRUE p 0.0033 -> 0.061, cross-provider 0.0330 -> 0.095.
+PD swap TRUE returned no finite SE from four starts (seven items, near
+saturation); it rests on the sign test, bootstrap and intercept model.
+
+**2. Significant TRUE beside non-significant SWAP is not a test of the
+difference** (Gelman and Stern). The within-unit difference of differences was
+computed for every swap. **PD: +0.375 [+0.286, +0.464], p ~ 0, 6+/1-. ID: +0.064
+[-0.014, +0.146], sign p = 0.149, 3+/2-.** ID's field binding is NOT
+established. The earlier reading "null - the label carries it" was the
+significance-versus-non-significance inference and is withdrawn.
+
+**3. The designs isolate the labelled AND GLOSSED field, not the label string.**
+Every entry moves with its two-line gloss. "Label" now means the pair
+throughout; separating name from gloss is future-work item two.
+
+**4. Headline sentences overreached** in four places, all fixed: "detects its own
+false positives" -> "exposes its own unconfirmed findings"; the deterministic
+baseline makes detection one-directional, not impossible; E > G is over this
+instruction on these items; §7.7 "better aggregate outcome" contradicted the
+tied totals. Also fixed: §7.3 said the cross-provider runs used the swap (they
+pinned only); the final map bounded "seven others" when AW was never pinned;
+the abstract claimed every headline contrast was refitted while E-G were blank
+(now refitted: gpt +1.199, haiku +1.010 under intercepts).
+
+**The headline is now ONE of ten verified (PD), one candidate (ID), six
+bounded below 0.20, one withdrawn (LL), one never pinned (AW).** This is a
+demotion the project's own method demanded. Do not restore "two of ten".
+
+Two references were added at the reviewer's citation: Barr et al. 2013 (JML
+68(3):255-278) and Gelman & Stern 2006 (Am. Stat. 60(4):328-331). Both are
+standard and written from knowledge; tick them in `docs/citation_verification.md`.
+
+Accounting unchanged.
+
 ## Thesis rebuilt for submission: intervals, equivalence bounds, figures, verbatim prompts (2026-09-19)
 
 Work on branch `thesis-final-20260919`, zero API calls, no frozen record touched.

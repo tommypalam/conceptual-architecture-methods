@@ -9,6 +9,15 @@ Published to `main` on 17 September with the previous tip preserved as
 scope, branch targets and verification. **Phase 6 (paper and release) is next.**
 Continue implementation on a development branch.
 
+## Latest: reviewer round, ID demoted to a candidate (19 September, later)
+
+Random-slope refits and direct TRUE-SWAP difference tests, all offline
+(`code/phase6_review_tests.py`). PD survives everything. ID's binding is not
+established (+0.064 [-0.014, +0.146]) and its effect does not survive
+item-specific slopes in two of three designations. Headline is now one verified
+parameter and one candidate. Details in CLAUDE.md. A re-powered ID swap
+(~4x agents) is the cheapest decisive follow-up; not queued.
+
 ## Latest: thesis rebuilt for submission (19 September)
 
 `docs/thesis.md` and `docs/thesis.pdf` rebuilt on branch `thesis-final-20260919`:
