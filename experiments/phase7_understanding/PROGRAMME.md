@@ -86,7 +86,33 @@ It is a disclosed protocol difference from earlier designations. It cannot chang
 behaviour unless a reply is truncated, and a truncated reply would be preserved
 as a failure and never retried, exactly as the rules require.
 
-## Stage 1 — does behaviour track the field's meaning? `semantics_r1`
+## Stage 1 — COMPLETE, 20 September: meaning carries it
+
+**Ran as specified. 2,240 calls, 2,240/2,240 valid, zero failures, $1.665947.**
+Full numbers in [semantics_r1/ASSESSMENT.md](semantics_r1/ASSESSMENT.md).
+
+| Variant | Effect | 95% CI | Items |
+|---|---:|---|---|
+| CANON | +0.3393 | [+0.2714, +0.4036] | 6+/1- |
+| **FLIP** | **-0.1143** | [-0.1786, -0.0500] | 1+/5- |
+| INVERT | -0.6143 | [-0.6714, -0.5536] | 0+/7- |
+| NONCE | +0.1750 | [+0.1143, +0.2357] | 6+/1- |
+
+**MEANING predicted the sign of all four cells; NAME and EXTREMITY each got two
+wrong.** The gate replicated at +0.3393 on a fresh population.
+
+**Field-weighted extremity is excluded** - the last open mechanism in the thesis,
+which predicted every cell positive. **Name-association is excluded as a
+sufficient account and measured as a contributing one**: the explanation
+dominates when the two conflict (FLIP), they compose when they agree (INVERT),
+and about 52% of the effect survives with the name removed (NONCE). That is
+marker 1 of six. It does NOT separate reading an explanation from following an
+instruction phrased as one - Stage 3a.
+
+**Carry forward:** the 256-token output cap settled $1.666 against a $10.976
+reservation and truncated nothing. Use it for every designation below.
+
+### Stage 1 as designed
 
 **Built and verified offline**: `code/phase7_block_variants.py`,
 `code/phase7_semantics.py`. 2,240 calls, about $1.66 settled ($10.98 reserved), `gpt-5.4-mini`, 40 agents,
