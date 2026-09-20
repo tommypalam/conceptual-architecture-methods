@@ -215,6 +215,19 @@ fixed inside the pair, and each one keeps its sign and size within both orders. 
 therefore remains OPEN, and Stage 3a needs a redesign with milder provenance,
 order-robust items and new base items - its own designation, not a patch.
 
+**3a, one-directional: RUN 20 September, `floor_lift_r1`.** Gate passed (PD:BASE
++0.350, SQ:BASE +0.357). On the three floored twins **L(PD) +0.383 [+0.292,+0.475]
+vs L(SQ) +0.133 [+0.058,+0.208], difference -0.250 [-0.358,-0.142]**. PD is NOT
+interchangeable with a pure status-quo field - the cleanest dissociation the
+project has - but the dissociation runs AGAINST the framework's story: a high-PD
+agent is LESS deterred by the holder's procedural lapse than a high-SQ agent
+(tool_library high arm -0.30 vs -0.50). PD behaves as a stronger, more
+indiscriminate keep-the-arrangement pressure, not as "procedure matters".
+**Do not strengthen any procedural-justice claim on this.** Also found: the
+unprofiled floor is NOT a floor under profile (0.00-0.04 unprofiled, up to 0.775
+profiled), so a screen's baseline does not bound the profiled range. See
+[floor_lift_r1/ASSESSMENT.md](floor_lift_r1/ASSESSMENT.md).
+
 **3a as designed.** On every current
 item "process-dominant" and "keep the status quo" are the *same choice*, so PD may
 be nothing more than a status-quo dial. New items will present an arrangement that
