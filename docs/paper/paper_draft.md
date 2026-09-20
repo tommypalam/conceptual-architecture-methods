@@ -1,10 +1,10 @@
 # Which Parts of a Prompt Carry Behaviour?
 
-## Field-Bound Label Effects in Parameterised LLM Agents
+## Fields, Glosses and Stated Meaning in Parameterised LLM Agents
 
 **Tommaso Piero Palamenga** — Bocconi University
 
-*Draft, 18 September 2026. Every figure in this paper is traceable to a frozen
+*Draft, 20 September 2026. Every figure in this paper is traceable to a frozen
 per-call record in the accompanying repository; designations are named inline so
 each claim can be checked against its own assessment.*
 
@@ -34,24 +34,32 @@ payoff totals tied by construction. That narrowness is what buys the
 identification; it also bounds what may be concluded, and we make no claim that
 the map transfers to other task families.
 
-Across 20,991 frozen API calls we find: profiles change a deterministic
+Across 30,368 frozen API calls we find: profiles change a deterministic
 good/bad classification on two models from different providers (+0.171 and
 +0.228 against an explicit-instruction control that does not reproduce the
-effect); two of ten coordinates are load-bearing under Holm correction; and for
-both, the effect is **bound to the coordinate's labelled field** — the same
-numeral on an inert label gives −0.036 and +0.046, both non-significant.
+effect); **one coordinate of ten is verified and one remains a candidate** under
+Holm correction and a direct difference-of-differences; and for the verified one
+the effect is **bound to the coordinate's labelled, glossed field** — the same
+numeral on the partner field gives −0.036, and the partner field pinned in its own
+right at 80 agents gives +0.016, 90% equivalence bound 0.050.
 
-**What that does and does not exclude, stated here rather than in §8.** Holding
+**What that does and does not exclude, stated here rather than in §9.** Holding
 the block, its length and its numeral multiset identical excludes block presence
 and verbosity *by construction*, and excludes *free-floating* numeric extremity by
-inference. It does **not** exclude two further mechanisms. **Field-weighted
-extremity**: a model weighting an extreme value by the salience of the field
-holding it would produce every result we report, with no semantic reading of the
-label. And **position**: the two swapped labels sit at different lines of the
-block, so a primacy effect over a numbered list would mimic the result. We
-therefore claim a **field-bound label effect** — where "field" means the label
-together with the position it occupies — and explicitly disclaim semantic
-understanding. §5.2 reports the 2×2 control that separates label from position.
+inference. Two further mechanisms were open in an earlier version of this paper
+and are now closed. **Position** — the two swapped labels sit at different lines,
+so primacy over a numbered list would mimic the result — is excluded by the 2×2
+control of §5.2. **Field-weighted extremity** — a model weighting an extreme value
+by the salience of the field holding it, with no semantic reading — is excluded by
+§6: exchanging only what the two ends of a scale are *said to mean*, holding the
+name, the line, the numeral and the block's entire character multiset fixed,
+**reverses** the effect. Extremity predicts every arm positive; two are negative.
+
+We therefore claim that behaviour tracks the field's **stated meaning**, and still
+disclaim understanding: §6.3 shows that four fields invented for the purpose, none
+of them in the encoding, move choices as *their* explanations predict — one of them
+more strongly than the verified parameter. Explanation-following is general, and
+nothing here requires these ten parameters in particular.
 
 The result we consider most informative is a failure. A third coordinate cleared
 a Holm-corrected bar at 25 agents (−0.131, Holm 0.00082), then measured −0.014
@@ -113,7 +121,7 @@ that **it can fail**, and in one case it did (§5.4). We regard that failure as
 the paper's most transferable result.
 
 **Two constraints shape everything that follows, and we state them here rather
-than in §8 so they frame the results rather than qualifying them afterwards.**
+than in §9 so they frame the results rather than qualifying them afterwards.**
 
 First, **the task family is narrow, and we therefore position this paper as a
 methods demonstration on one domain rather than as a generalisable finding about
@@ -150,9 +158,14 @@ should not supply that inference — the outcome measure is a stipulated lookup
 - **An empirical map** of a ten-coordinate encoding: two load-bearing, seven not,
   one withdrawn (§5).
 - **Cross-provider replication** of both survivors, including a one-sided
-  theory-derived prediction (§6).
+  theory-derived prediction (§7).
 - **A negative methodological finding**: AI design review returns contradictory
-  verdicts on byte-identical material (§7.2).
+  verdicts on byte-identical material (§8.2).
+- **A reversal**: exchanging what a scale is *said to mean*, holding its name,
+  line and numeral fixed, reverses the effect — excluding field-weighted
+  extremity, the last mechanism an earlier draft could not rule out (§6.1).
+- **A bound on the encoding**: fields we invented move choices as their glosses
+  predict, one of them more strongly than the verified parameter (§6.3).
 
 ### 1.4 What we do not claim
 
@@ -545,7 +558,157 @@ and still be noise.
 
 ---
 
-## 6. Cross-provider replication
+## 6. Does behaviour track what the field *says*?
+
+Sections 4 and 5 establish that the effect is bound to one labelled, glossed
+field, and not to block presence, verbosity, free-floating extremity or line
+position. They cannot say *what about the field* carries it. Three readings
+survive, and they differ once the entry itself is edited:
+
+- **MEANING** — the model reads what the scale is said to mean and acts on it.
+- **NAME** — a learned association between the string "Procedural Dependence", a
+  magnitude and a disposition; the gloss is decoration.
+- **FIELD-WEIGHTED EXTREMITY** — an extreme numeral in a salient slot, no
+  semantic reading anywhere.
+
+### 6.1 Reversing the gloss reverses the effect
+
+`semantics_r1` pins PD to 0.10 and 0.90 under four renderings of its own entry,
+with the nine other entries, the items and the user turn byte-identical
+throughout. 2,240 calls, 40 fresh agents, seven items.
+
+| Variant | Entry reads | Gloss | Effect | 95% CI | Items |
+|---|---|---|---:|---|---|
+| CANON | Procedural Dependence | canonical | +0.3393 | [+0.2714, +0.4036] | 6+/1− |
+| **FLIP** | **Procedural Dependence** | **ends exchanged** | **−0.1143** | **[−0.1786, −0.0500]** | 1+/5− |
+| INVERT | Outcome Dominance | ends exchanged | −0.6143 | [−0.6714, −0.5536] | **0+/7−** |
+| NONCE | Factor K | canonical | +0.1750 | [+0.1143, +0.2357] | 6+/1− |
+
+The CANON arm is a replication gate and it holds: +0.3393 against +0.339 and
++0.346 in earlier designations, on a fresh population. Predictions were locked in
+source before collection under a published content hash; they differ in **sign**,
+which is what makes the design decisive rather than suggestive.
+
+**FLIP is the decisive cell.** The name, the line, the printed numeral and the
+block's entire character multiset are identical to CANON — the edit is a pure
+exchange of two strings, verified as an involution — and the effect reverses.
+Field-weighted extremity predicts every arm positive; two are negative. A pure
+name-association account cannot produce +0.339 and −0.114 from an identical
+printed name. Both are excluded.
+
+FLIP also requires no human judgement that two wordings are equivalent. INVERT
+does, and that premise is soft — this project has repeatedly found that reviewer
+judgements about materials fail to predict model behaviour — which is why FLIP,
+not the larger INVERT effect, carries the argument.
+
+### 6.2 Name and gloss, separated
+
+An earlier reviewer observed that every design here moves a label *together with*
+its two-line gloss, so "label effect" had always meant the pair. The four arms
+separate them:
+
+- They **conflict** in FLIP (name says one thing, gloss the other) and partly
+  cancel: −0.114.
+- They **agree** in INVERT and compose: −0.614, the largest effect in the project.
+- With the name removed entirely (NONCE), **about 52% of the effect survives**:
+  +0.175 against CANON's +0.339.
+
+The gloss dominates when the two disagree; the name contributes when they agree.
+
+### 6.3 The same is true of fields we invented, which bounds the claim
+
+If explanations are followed, the question becomes whether the encoding's
+parameters are special or whether any on-topic glossed field would do. We wrote
+four fields that are **not** in the encoding, placed each in the partner slot, and
+pinned them identically. Signs were derived from each gloss and locked in advance;
+one was written to point the *opposite* way.
+
+| Probe field | Predicted | Effect | 95% CI | Items |
+|---|---|---:|---|---|
+| Status-quo Preference | + | **+0.4000** | [+0.3357, +0.4643] | 7+/0− |
+| Stated-Wish Deference | + | +0.3071 | [+0.2536, +0.3607] | 7+/0− |
+| **Numbers Count** | **negative** | **−0.2464** | [−0.3107, −0.1821] | 0+/7− |
+| Worst-off Priority | + | −0.0643 | [−0.1286, 0.0000] | 2+/4− |
+
+Two fields in the same slot, in the same format, carrying the same numerals, moved
+choices in **opposite directions**, each as its own gloss predicted. This is a
+second, independent demonstration of §6.1 — across fields rather than within one —
+and it rules out any account on which a glossed field acts as a generic cue.
+
+**It also bounds what the encoding can claim.** Status-quo Preference, written in
+an afternoon and naming what these items are plainly about, reaches **+0.400
+against the verified parameter's +0.339**, and is consistent on all seven items
+where PD is 6+/1−. Nothing in our evidence requires *these ten parameters* in
+particular. The honest description of what §5 verified is: **a glossed field whose
+stated meaning bears on the items moves choices, and PD is one such field.**
+
+One locked prediction failed, and it was ours. Worst-off Priority was derived
+positive from the stipulated payoffs — the holder loses 5, more than anyone — and
+came out −0.064, failing Holm and splitting across presentation orders. We claim
+nothing for it. The failure is instructive in the same direction as the INVERT
+caveat above: a designer's reading of what wording implies is not a reliable
+predictor of what the model does.
+
+### 6.4 What the parameter is *not* doing
+
+On every item in this family, "process-dominant" and "keep the existing
+arrangement" select the same option, so PD's effect is consistent with a
+status-quo dial — a worry §6.3 sharpens, since an explicit status-quo field
+outperforms it. We built items to separate the two: each vignette gained a matched
+twin whose only difference was one clause stating that the holder came by the
+arrangement outside its stated procedure.
+
+Two screening designations (417 calls) failed to produce enough usable twins:
+eleven wordings, from blatant to trivial, drove three items to an unprofiled floor
+of 0.00–0.04, and others proved presentation-order determined. We report both
+stops rather than the wordings that survived.
+
+A one-directional test was possible on the floored twins, where the two readings
+still diverge: a status-quo dial should lift the keep-rate off the floor, a
+procedure-sensitive field should not. With Status-quo Preference as a positive
+control, and both base arms reproducing as a gate:
+
+| Lift on the floored twins | Estimate | 95% CI |
+|---|---:|---|
+| PD | +0.3833 | [+0.2917, +0.4750] |
+| Status-quo Preference | +0.1333 | [+0.0583, +0.2083] |
+| **Difference (SQ − PD)** | **−0.2500** | **[−0.3583, −0.1417]** |
+
+**PD and a pure status-quo field dissociate** — the cleanest such result we have,
+and a direct answer to the worry. But the dissociation runs *against* the reading
+the parameter's name invites. Comparing each field's high arm across versions —
+how much the holder's procedural lapse deters an agent already at that field's
+maximum — a high-PD agent is **less** deterred than a high-status-quo agent
+(tool_library: −0.30 against −0.50; rest_break: −0.15 against +0.05).
+
+Whatever "Procedural Dependence: 0.90" does to this model, it is not *care that
+the procedure was followed*. It behaves as a stronger and less discriminating
+pressure to preserve the standing arrangement. **We claim no procedural-justice
+interpretation of the parameter**, and this result is evidence against one. Two
+items carry the comparison, one further twin being degenerate in all four cells
+and retained rather than dropped.
+
+### 6.5 The partner field, tested directly
+
+Every swap control in §5 places the tested numeral on the entry of Affective
+Weighting, treated as a field that does not itself carry the outcome. That rested
+on a single by-product measurement. Pinned in its own right at 80 agents, AW is
+flat: **+0.016, 95% CI [−0.027, +0.057], 90% equivalence bound 0.050** — the
+tightest bound in the project, where seven coordinates certify only 0.20.
+
+This supports the swap controls without proving them: they additionally assume
+AW's entry is a *fair partner* slot, not merely that AW is quiet. §6.3 is
+reassuring on exactly that point, since the same slot carried an invented field to
++0.400. The slot can carry an effect; AW's own gloss does not produce one.
+
+The same designation gave Legitimacy Locus a fourth measurement: +0.271 post-hoc,
+−0.131 at 25 agents, −0.014 at 40, **−0.036 at 80**, with the 80-agent interval
+excluding the original. The withdrawal of §5.4 stands, and the protocol fixed in
+advance that a further measurement would not overturn it by majority.
+
+---
+
+## 7. Cross-provider replication
 
 Every measurement to §5 was `gpt-5.4-mini`. Both survivors were re-tested on
 `claude-haiku-4-5`, 40 agents, on that model's six dispersing items.
@@ -585,7 +748,7 @@ haiku too," and nothing stronger.
 
 ---
 
-## 7. What the process taught
+## 8. What the process taught
 
 ### 7.1 The final map
 
@@ -656,7 +819,7 @@ spending.
 
 ---
 
-## 8. Limitations
+## 9. Limitations
 
 Stated as constraints on what may be concluded, not as caveats.
 
@@ -668,10 +831,36 @@ Nothing here says an agent behaves ethically or that outcomes improve.
 four specified deliverables for the analysis phase and it is **unmet**, deferred
 under a no-budget constraint. It is not retrospectively passed.
 
-**No evidence of understanding.** A model responding to a value in a labelled
-field in a predicted direction is weaker than representing the concept the label
-names. Our swap control localises the effect to the label-to-value binding; it
-says nothing about whether the binding is semantic.
+**No evidence of understanding.** §6 shows that behaviour follows what a field's
+gloss *says*, which is more than the swap control alone established — but it does
+not distinguish *reading an explanation* from *following an instruction phrased as
+an explanation*. A field reading "existing arrangements stand unless there is
+strong reason to change them" is close to an instruction, and its success is
+exactly what an instruction-following account predicts. The designs that would
+separate these — defeasibility items, on which a procedure-sensitive agent and a
+status-quo-preserving agent must diverge — could not be built: see below.
+
+**The parameters are not privileged.** §6.3 finds an invented field outperforming
+the verified parameter on the same items. The evidence supports *glossed fields
+whose stated meaning bears on the items move choices*; it does not single out this
+ten-parameter encoding, and we do not claim it does.
+
+**The verified parameter does not behave as its name suggests.** §6.4 finds a
+high-PD agent *less* deterred by a holder's procedural lapse than a high
+status-quo agent. We therefore attach no procedural-justice reading to the
+parameter, and a reader should not import one from its name.
+
+**Two designations failed to build their items, and are reported as failures.**
+Seventeen wordings across two screens could not produce enough twins on which the
+model splits; three items saturated to unanimous override, others proved
+presentation-order determined. The defeasibility question stays open.
+
+**Two items are presentation-order dependent.** `meeting_room` and `desk_booking`
+are largely determined by which option is printed first (keep-share gaps 0.75 and
+0.73). **No headline result is affected** — every contrast is paired within agent
+with order held fixed inside the pair, and each retains its sign and magnitude
+within both orders — but unpaired dispersion screens are invalidated by it, and
+one of ours was. Screens must now report keep-share by order.
 
 **Narrow coverage — the principal limitation.** Seven items on one model, six on
 the other; 25–40 agents per designation; one harness; one snapshot in time. All
@@ -685,7 +874,7 @@ disperse on each.
 on this item set at this n, not a claim of general inertness. TfA and MoR sit
 just outside correction.
 
-**Not verified cross-model.** §6.
+**Not verified cross-model.** §7.
 
 **The configuration counterfactual was never run.** The framework names a
 configuration-counterfactual difference as the primary discriminator for
@@ -704,7 +893,7 @@ paradigm from a frontier model.
 
 ---
 
-## 9. Related work
+## 10. Related work
 
 > **Citation status.** References supplied by a literature search run separately
 > from this draft. They are cited normally below. **Verification pending** —
@@ -852,7 +1041,7 @@ Against this literature our contribution is narrow and specific:
   the effect it explains. The literature search did not surface a counterexample,
   though absence of evidence in a search is not evidence of absence.
 
-## 9.7 Anticipated objections
+## 10.7 Anticipated objections
 
 Stated so the answers are fixed in the paper rather than improvised in a rebuttal.
 Where the honest answer is a concession, it is recorded as one.
@@ -868,29 +1057,47 @@ Where the honest answer is a concession, it is recorded as one.
 | *"The outcome measure is a lookup table, not morality."* | Correct, and deliberate. It removes rater noise and interpretive drift at the cost of ecological validity (§2.3, §9). We measure choices in a toy world exactly rather than behaviour in a rich world approximately. |
 | *"A review returned* revise *on your own materials."* | Reported in §7.2 as a finding rather than hidden. Four prior reviews accepted the same byte-identical items with zero blocking issues. Both findings of the dissenting review are assessed in the designation's assessment; one describes the tied-payoff design correctly and reads it as a defect, and the other identifies an item that works *against* our result. |
 
-## 10. Conclusion
+## 11. Conclusion
 
 We asked which part of a structured prompt carries behaviour, and answered it for
-a ten-parameter encoding on one task domain: **two coordinates of ten, and for
-both the effect is bound to the labelled field rather than to the numeral's
-presence.** Both replicate on a second provider; one under a theory-derived
-one-sided prediction. We claim the method and this demonstration of it, not a
-general property of the encoding, and not semantic understanding of any label.
+a ten-parameter encoding on one task domain. **One coordinate is verified and one
+remains a candidate**; for the verified one the effect is bound to the labelled,
+glossed field rather than to the numeral's presence, its position, or the block's
+existence. Both replicate on a second provider; one under a theory-derived
+one-sided prediction.
+
+§6 sharpens that from a localisation to a claim about content. Exchanging only
+what the two ends of a scale are *said to mean* — holding the name, the line, the
+numeral and the block's character multiset fixed — **reverses** the effect, which
+no account resting on extremity or name-association can produce. Behaviour tracks
+the field's stated meaning.
+
+The same sections bound what that is worth. Four fields we invented move choices
+as their own glosses predict, one of them **more strongly than the verified
+parameter**; so the finding is about glossed fields in general, not about this
+encoding in particular. And the verified parameter turns out *less* sensitive to
+whether a procedure was honoured than an explicit status-quo field is — it moves
+behaviour reliably, but not in the way its name invites. We claim the method, this
+demonstration of it, and these bounds; not a general property of the encoding, and
+not understanding.
 
 The result we would most want carried forward is the **withdrawal**. A coordinate
 cleared a corrected significance bar with the most directionally consistent
 result in its sweep, and dissolved on a larger sample of the same model. Its swap
 control was null — the signature of a real field-bound effect — and only the
-replication gate distinguished the two cases.
+replication gate distinguished the two cases. It has since been measured a fourth
+time, at 80 agents, and is null again.
 
 Methods that can only confirm are weaker than methods that can kill their own
-findings. We report one of ours dying.
+findings. We report one of ours dying, two designations that failed to build their
+materials, and a locked prediction of our own that came out wrong.
+
 
 ---
 
 ## Appendix A — Scale of the record
 
-20,991 API calls across 45 designations with frozen results, $22.24 accounted
+30,368 API calls across 51 designations with frozen results, $41.88 accounted
 spend. All per-call records are write-once with preserved failures; releases are
 hash-pinned to their source; power simulations and offline rescorings are
 reproducible from committed modules.
@@ -898,6 +1105,10 @@ reproducible from committed modules.
 | Designation | Calls | Role |
 |---|---:|---|
 | `coordinate_sweep_r2` | 2,801 | eight-coordinate sweep |
+| `semantics_r1` | 2,240 | gloss reversal; extremity excluded |
+| `probe_fields_r1` | 2,240 | four invented fields; architecture bound |
+| `floor_lift_r1` | 2,240 | PD against a status-quo field on twins |
+| `parameter_followup_r1` | 2,240 | AW and LL pinned at 80 agents |
 | `label_semantics_r2` | 2,241 | ID/LL swap controls, LL withdrawal |
 | `label_semantics_r1` | 1,296 | PD swap control |
 | `phase4b_grand_r1` | 901 | three-model variance decomposition |
