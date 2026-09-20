@@ -257,7 +257,7 @@ of 2,240 calls each, about $1.66 apiece:
 
 | Designation | Pins | Why |
 |---|---|---|
-| `parameter_followup_r1` | **AW**, LL | AW was never independently pinned, yet every swap control rests on it; LL needs a third measurement or stays withdrawn |
+| `parameter_followup_r1` | **AW**, LL | **RUN 20 Sept: both null.** AW +0.016 [-0.027,+0.057], equivalence bound **0.050** - the tightest in the project, and it supports (not proves) the thesis's swap controls. LL -0.036 [-0.080,+0.009]: a FOURTH measurement (+0.271, -0.131, -0.014, -0.036); the withdrawal stands. See [parameter_followup_r1/ASSESSMENT.md](parameter_followup_r1/ASSESSMENT.md) |
 | `parameter_followup_r2` | TfA, MoR | the two near-misses, at a sample size that can settle them |
 
 Two-sided, no directional prediction — none of the four has a theory mapping onto
