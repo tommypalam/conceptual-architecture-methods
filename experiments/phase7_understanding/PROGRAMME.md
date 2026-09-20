@@ -206,7 +206,12 @@ artefacts (keep-share 1.00 vs 0.00 by order), which the pooled-share rule passed
 Three twins moved the OPPOSITE way to both locked readings, unexplained. See
 [defeasibility_screen_r1/ASSESSMENT.md](defeasibility_screen_r1/ASSESSMENT.md).
 **New standing rule: a dispersion screen must check presentation-order dependence,
-not only the pooled share.** The status-quo-dial question raised by Stage 4b
+not only the pooled share.** Following this up offline found that **two of the seven
+BASE items are strongly order-dependent** (meeting_room gap 0.75, desk_booking 0.73)
+- a previously unrecorded property of the published pool. **No headline result is
+affected**: every contrast in this project is paired within agent, with order held
+fixed inside the pair, and each one keeps its sign and size within both orders. See
+[ORDER_DEPENDENCE.md](ORDER_DEPENDENCE.md). The status-quo-dial question raised by Stage 4b
 therefore remains OPEN, and Stage 3a needs a redesign with milder provenance,
 order-robust items and new base items - its own designation, not a patch.
 
