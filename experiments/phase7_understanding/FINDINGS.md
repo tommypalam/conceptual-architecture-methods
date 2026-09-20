@@ -1,6 +1,6 @@
 # Phase 7 — what the understanding programme established
 
-**Six designations, 9,377 calls, 9,377 valid, zero failures, $6.889.**
+**Seven designations, 11,617 calls, 11,617 valid, zero failures, $8.557.**
 20 September 2026, branch `understanding-programme-20260919`. All on
 `gpt-5.4-mini-2026-03-17` except two review calls on `claude-sonnet-4-6`.
 
@@ -16,6 +16,7 @@ require the paper to be changed.
 | [defeasibility_screen_r2](defeasibility_screen_r2/ASSESSMENT.md) | 241 | screen stop, 0 of 10 candidates usable |
 | [floor_lift_r1](floor_lift_r1/ASSESSMENT.md) | 2,240 | PD and a status-quo field dissociate, against the framework's story |
 | [parameter_followup_r1](parameter_followup_r1/ASSESSMENT.md) | 2,240 | AW flat at a 0.050 bound; LL null a fourth time |
+| [parameter_followup_r2](parameter_followup_r2/ASSESSMENT.md) | 2,240 | TfA and MoR both move the outcome at 80 agents |
 
 Plus [ORDER_DEPENDENCE.md](ORDER_DEPENDENCE.md), an offline re-analysis with no
 API calls.
@@ -145,6 +146,35 @@ gloss does not produce one. That is the right shape for a partner field.
 excludes the sweep's −0.131. The withdrawal stands, as the protocol fixed in
 advance. LL is bounded at 0.073 — not load-bearing, and not demonstrated inert.
 
+## 4b. The two near-misses were real; underpowering hid them
+
+`parameter_followup_r2`, 80 agents, both two-sided:
+
+| Coordinate | Effect | 95% CI | Holm | Items | Prior (25 agents) |
+|---|---:|---|---:|---|---:|
+| **TfA** Tolerance for Asymmetry | **−0.1107** | [−0.1536, −0.0661] | 2.5e−6 | 2+/4− | −0.1029 |
+| **MoR** Mode of Response | **−0.0732** | [−0.1161, −0.0304] | 0.00106 | **0+/6−** | −0.0971 |
+
+Both reproduce their 25-agent estimates and now clear Holm. **Nothing about the
+effects changed; only the power did** — 9/20 at 25–40 agents against 18/20 at 80.
+
+**The mirror image of the LL story.** LL cleared a corrected bar at 25 agents and
+dissolved at 40 and 80; TfA and MoR failed one at 25 and survive at 80. One false
+positive, two false negatives, the same cause and the same remedy: choose n from
+simulated power, not from budget.
+
+Both are order-robust (gaps 0.000 and 0.004). **MoR is uniform** (6 of 7 items
+negative, range −0.125 to 0.000). **TfA is not** — per-item from +0.175
+(`desk_booking`) to −0.312 (`on_call`), so its pooled figure is a partial
+cancellation and is reported as such.
+
+**What it changes:** four of ten coordinates move the outcome on these items (PD,
+ID, TfA, MoR), against LL null and AW flat. **What it does not change:** none of
+this makes them *label* effects — no swap control was run, so TfA and MoR sit
+where PD sat before `label_semantics_r1`. And §2 still applies: an invented field
+beat all of them, so four movers are instances of the general finding, not
+evidence that these were the right ten.
+
 ## 5. Two method findings that outlast these results
 
 **Presentation-order dependence is a property of the item pool.**
@@ -186,10 +216,10 @@ profiled range, so both screen stops were more conservative than necessary.
 4. **§7**: PD does not behave as its name suggests (§3). This *weakens* a claim
    the paper might otherwise have made.
 5. **§8 Limitations**: order dependence in two items; the screen rules that follow.
-6. **Appendix A**: totals become 30,368 calls across 51 studies.
+6. **Appendix A**: totals become 32,608 calls across 52 studies.
 
 ## Accounting
 
-OpenAI $12.741596 to **$19.609534**/$40. Anthropic $22.247448 to
-**$22.268707**/$32. Package about $41.878/$100. Usage estimates, not verified
+OpenAI $12.741596 to **$21.277892**/$40. Anthropic $22.247448 to
+**$22.268707**/$32. Package about $43.547/$100. Usage estimates, not verified
 provider balances.

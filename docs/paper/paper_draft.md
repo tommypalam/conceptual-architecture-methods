@@ -34,7 +34,7 @@ payoff totals tied by construction. That narrowness is what buys the
 identification; it also bounds what may be concluded, and we make no claim that
 the map transfers to other task families.
 
-Across 30,368 frozen API calls we find: profiles change a deterministic
+Across 32,608 frozen API calls we find: profiles change a deterministic
 good/bad classification on two models from different providers (+0.171 and
 +0.228 against an explicit-instruction control that does not reproduce the
 effect); **one coordinate of ten is verified and one remains a candidate** under
@@ -750,19 +750,32 @@ haiku too," and nothing stronger.
 
 ## 8. What the process taught
 
-### 7.1 The final map
+### 8.1 The final map
 
 | Coordinate | Pinned (gpt) | Swap control | Cross-provider | Status |
 |---|---:|---|---:|---|
-| **PD** | +0.339 to +0.346 | −0.036 n.s. | +0.133 | **field-bound label effect** |
-| **ID** | +0.111 to +0.143 | +0.046 n.s. | +0.075 | **field-bound label effect** |
-| ~~LL~~ | −0.131 → −0.014 | uninterpretable | not tested | **withdrawn, unresolved** |
-| seven others | −0.10 to +0.05 | — | — | not load-bearing |
+| **PD** | +0.339 to +0.393 | −0.036 n.s.; direct diff **+0.375** [+0.286, +0.464] | +0.133 | **verified: bound to the field's stated meaning** (§6.1) |
+| **ID** | +0.111 to +0.143 | direct diff +0.064 [−0.014, +0.146] | +0.075 | **candidate**: binding not established |
+| **TfA** | −0.111 [−0.154, −0.066] | not run | not tested | moves the outcome; mechanism unidentified; item-dependent (2+/4−) |
+| **MoR** | −0.073 [−0.116, −0.030] | not run | not tested | moves the outcome; mechanism unidentified; uniform (0+/6−) |
+| ~~LL~~ | −0.131 → −0.014 → −0.036 | uninterpretable | not tested | **withdrawn, unresolved** (bound 0.073 at 80 agents) |
+| AW | +0.016 [−0.027, +0.057] | — (it *is* the partner field) | not tested | flat; 90% bound **0.050** |
+| RT, CS, MS, RE | −0.07 to +0.05 | — | — | not load-bearing at this n |
 
-**Two of ten coordinates carry the behaviour, and for both the label carries the
-effect.**
+**Four of ten coordinates move the outcome on these items; for one the effect is
+verified as bound to the field's stated meaning, and one is a candidate.** TfA and
+MoR were measured only after this paper's first draft, at 80 agents rather than
+25; they sit where PD sat before its swap control, and **no mechanism claim is
+made for them**.
 
-### 7.2 AI design review is not a stable instrument
+Two cautions belong with this table rather than after it. Counting movers is not
+counting *concepts*: §6.3 finds a field invented in an afternoon moving these
+items more than any coordinate here, so a mover is an instance of
+explanation-following, not a vindication of the encoding. And the two bounds —
+AW at 0.050 and LL at 0.073 — are the only entries in the project tight enough to
+support "small if present" rather than merely "not detected".
+
+### 8.2 AI design review is not a stable instrument
 
 Each designation introducing new materials passed an independent AI review gate.
 The gate caught genuine errors: a reviewer-prompt mismatch, an answer-key leak in
@@ -786,7 +799,7 @@ past.
 Anyone using an LLM as a design gate should expect verdict instability and decide
 in advance what a reject licenses.
 
-### 7.3 Refusals that shaped the record
+### 8.3 Refusals that shaped the record
 
 - **Outcome-driven item selection, refused.** Three of seven items showed
   |effect| ≤ 0.10 and never survive correction. Cutting them would have saved
@@ -802,7 +815,7 @@ in advance what a reject licenses.
   slot unresolved. It is preserved unresolved, named in every inheriting
   designation, and the 689 paid calls were not reused.
 
-### 7.4 Two defects we shipped
+### 8.4 Three defects we shipped
 
 Reported because the paper's claim is about method discipline.
 
@@ -816,6 +829,20 @@ designation built on it carries the fix at source and produced its own analysis.
 
 **A power check against an assumed baseline.** Described in §3.4. Caught before
 spending.
+
+**A dispersion screen that passed items making no choice.** Screens are *unpaired*
+— they count votes across independent calls with presentation order alternating.
+An item that simply follows whichever option is printed first then averages to a
+keep-share near 0.50 and passes a band rule designed to catch the opposite
+condition. One of our screens returned a pass on two such items; a follow-up check
+found both were order-determined, 25/25 in each direction. The same check found
+that **two items in the main pool share this property** (keep-share gaps 0.75 and
+0.73), unrecorded until now. No result in this paper is affected — every contrast
+is paired within agent with order held fixed inside the pair, and each retains its
+sign and magnitude within both orders — but the screen rule was wrong, and screens
+now report keep-share by order. An earlier designation had checked order on
+different items, found it irrelevant, and the check lapsed; it does not transfer
+between item sets.
 
 ---
 
@@ -870,9 +897,13 @@ Whether the method or the map generalises to other item families is **untested**
 **Item sets are not identical across models**, being constrained by which items
 disperse on each.
 
-**Two of ten coordinates, on these items.** The seven nulls are corrected nulls
-on this item set at this n, not a claim of general inertness. TfA and MoR sit
-just outside correction.
+**Four of ten coordinates, on these items.** The remaining nulls are corrected
+nulls on this item set at this n, not a claim of general inertness — and the
+history here is cautionary in both directions. TfA and MoR sat just outside
+correction at 25 agents and clear it comfortably at 80, while LL cleared it at 25
+and dissolved at 40 and 80. Sample sizes chosen from budget rather than from
+simulated power produced one false positive and two false negatives in the same
+sweep.
 
 **Not verified cross-model.** §7.
 
@@ -905,7 +936,7 @@ The move this paper depends on is now visible across several literatures:
 **treating a prompt not as a monolithic instruction but as a causal object with
 separable components.** Our contribution sits at a specific gap in that movement.
 
-### 9.1 Prompt conditioning and its sensitivity
+### 10.1 Prompt conditioning and its sensitivity
 
 Conditioning behaviour on prompt content is the foundational capability (Radford
 et al. 2019; Brown et al. 2020), organised as a research programme by Liu et al.
@@ -932,7 +963,7 @@ order and the complete numeral multiset constant rather than merely similar:
 anything less sits within the range this literature shows to be consequential on
 its own.
 
-### 9.2 Label binding and what in-context labels actually do
+### 10.2 Label binding and what in-context labels actually do
 
 The most directly relevant cluster concerns whether models use input-label
 semantics as users assume. Min et al. (2022) report that randomising
@@ -959,7 +990,7 @@ disclaim understanding. Our result is consistent with the model having learned a
 association between the string `Procedural Dependence` and a behavioural
 disposition, and that possibility is not one we can exclude.
 
-### 9.3 Causal localisation, and why ours is the input-side analogue
+### 10.3 Causal localisation, and why ours is the input-side analogue
 
 Mechanistic interpretability localises behaviour to internal components, unified
 theoretically under causal abstraction (Geiger et al. 2023). That work also
@@ -987,7 +1018,7 @@ lose resolution — we localise to a *field*, not to a circuit or a head. We als
 avoid the patching-variant fragility above, since our intervention has no
 hyperparameters: a field either holds a value or it does not.
 
-### 9.4 Persona conditioning, and the gap this paper occupies
+### 10.4 Persona conditioning, and the gap this paper occupies
 
 The persona literature establishes that structured role and trait prompts change
 behaviour. De Araujo & Roth (2024) is the strongest comparison point, assigning
@@ -1006,7 +1037,7 @@ closed models, where the mechanistic toolkit is unavailable. That intersection,
 field-level causal identification through a closed-model prompt interface, is the
 niche this paper occupies.
 
-### 9.5 Moral and behavioural evaluation
+### 10.5 Moral and behavioural evaluation
 
 Our outcome space is political-ethical, which brings in a further cluster. Rao et
 al. (2023) formalise prompts as a composition of task, ethical policy and user
@@ -1023,7 +1054,7 @@ replicates in direction across two providers while shrinking in magnitude is
 roughly what should be expected, and we should resist reading the shrinkage as
 evidence of a weak effect rather than of model heterogeneity.
 
-### 9.6 Positioning
+### 10.6 Positioning
 
 Against this literature our contribution is narrow and specific:
 
@@ -1097,7 +1128,7 @@ materials, and a locked prediction of our own that came out wrong.
 
 ## Appendix A — Scale of the record
 
-30,368 API calls across 51 designations with frozen results, $41.88 accounted
+32,608 API calls across 52 designations with frozen results, $43.55 accounted
 spend. All per-call records are write-once with preserved failures; releases are
 hash-pinned to their source; power simulations and offline rescorings are
 reproducible from committed modules.
@@ -1109,6 +1140,7 @@ reproducible from committed modules.
 | `probe_fields_r1` | 2,240 | four invented fields; architecture bound |
 | `floor_lift_r1` | 2,240 | PD against a status-quo field on twins |
 | `parameter_followup_r1` | 2,240 | AW and LL pinned at 80 agents |
+| `parameter_followup_r2` | 2,240 | TfA and MoR pinned at 80 agents |
 | `label_semantics_r2` | 2,241 | ID/LL swap controls, LL withdrawal |
 | `label_semantics_r1` | 1,296 | PD swap control |
 | `phase4b_grand_r1` | 901 | three-model variance decomposition |
