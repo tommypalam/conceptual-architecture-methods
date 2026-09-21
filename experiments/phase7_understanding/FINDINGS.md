@@ -1,6 +1,6 @@
 # Phase 7 — what the understanding programme established
 
-**Ten designations, 12,871 calls, 12,870 valid, one preserved failure, $9.178.**
+**Eleven designations, 14,551 calls, 14,550 valid, one preserved failure, $9.943.**
 20 September 2026, branch `understanding-programme-20260919`. All on
 `gpt-5.4-mini-2026-03-17` except two review calls on `claude-sonnet-4-6`.
 
@@ -20,6 +20,7 @@ require the paper to be changed.
 | [inverse_inference_r1](inverse_inference_r1/ASSESSMENT.md) | 120 | **instrument failed**: a positional bias, not a measure of inference |
 | [precipitation_r1](precipitation_r1/ASSESSMENT.md) | 294 | **halted** by a network timeout at call 294 of 840; no result, not re-run |
 | [precipitation_r2](precipitation_r2/ASSESSMENT.md) | 840 | re-designation: both arms shift, but the discriminating secondary is **void** |
+| [precipitation_r3](precipitation_r3/ASSESSMENT.md) | 1,680 | order crossed: the slope moves to the arm that can carry it, but rests on 7 agents |
 
 Plus [ORDER_DEPENDENCE.md](ORDER_DEPENDENCE.md), an offline re-analysis with no
 API calls.
@@ -201,7 +202,22 @@ profiled range, so both screen stops were more conservative than necessary.
   answered "B" in 94 of 120 trials — 0/19 correct in one condition when the answer
   was A — so its accuracies measure a positional bias, not inference. The
   hypothesis is untouched and a corrected two-order design remains available.
-- **Precipitation is attempted and UNRESOLVED.** `precipitation_r2` (the
+- **Precipitation is attempted twice and UNRESOLVED.** `precipitation_r3` crossed
+  presentation order with the covariate and made the secondary readable. The
+  dose-response **moved to the INSTANCES arm** (+0.080 [+0.018,+0.137]) and
+  **vanished from RULE** (-0.011, flat) - the inverse of r2 and the cleanest
+  confirmation that r2's void was diagnosed correctly, since RULE's text is
+  identical for every agent and cannot carry a slope. It holds within each order
+  separately. **But it is carried by seven agents**: restricted to the 33 agents
+  at k>=3 the slope is -0.011 with the interval spanning zero, so between the
+  well-populated cells there is no dose-response at all. A step on seven agents is
+  not the graded response a fitted boundary predicts.
+  **Established** (twice, order-balanced): an agent's own five prior decisions
+  shift behaviour +0.43 on items they never covered, and stating the principle
+  shifts it +0.46 - within 0.034 of each other. **Not established**: that anything
+  was fitted rather than read. Settling it needs exemplar keep-count balanced by
+  construction rather than inherited from the frozen transcripts.
+- **Precipitation's first attempt is UNTESTED.** `precipitation_r2` (the
   re-designation) found that showing an agent its own five prior decisions shifts
   behaviour +0.396 on items those decisions never covered, that stating the
   principle shifts it more (+0.500), and that the two differ (-0.104) - all three
@@ -241,10 +257,10 @@ profiled range, so both screen stops were more conservative than necessary.
 4. **§7**: PD does not behave as its name suggests (§3). This *weakens* a claim
    the paper might otherwise have made.
 5. **§8 Limitations**: order dependence in two items; the screen rules that follow.
-6. **Appendix A**: totals become 33,742 calls across 54 studies.
+6. **Appendix A**: totals become 35,422 calls across 55 studies.
 
 ## Accounting
 
-OpenAI $12.741596 to **$21.879964**/$40. Anthropic $22.247448 to
-**$22.268707**/$32. Package about $44.149/$100. Usage estimates, not verified
+OpenAI $12.741596 to **$22.644443**/$40. Anthropic $22.247448 to
+**$22.268707**/$32. Package about $44.913/$100. Usage estimates, not verified
 provider balances.
