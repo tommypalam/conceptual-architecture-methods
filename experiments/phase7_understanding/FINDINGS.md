@@ -1,6 +1,6 @@
 # Phase 7 — what the understanding programme established
 
-**Seven designations, 11,617 calls, 11,617 valid, zero failures, $8.557.**
+**Eight designations, 11,737 calls, 11,737 valid, zero failures, $8.642.**
 20 September 2026, branch `understanding-programme-20260919`. All on
 `gpt-5.4-mini-2026-03-17` except two review calls on `claude-sonnet-4-6`.
 
@@ -17,6 +17,7 @@ require the paper to be changed.
 | [floor_lift_r1](floor_lift_r1/ASSESSMENT.md) | 2,240 | PD and a status-quo field dissociate, against the framework's story |
 | [parameter_followup_r1](parameter_followup_r1/ASSESSMENT.md) | 2,240 | AW flat at a 0.050 bound; LL null a fourth time |
 | [parameter_followup_r2](parameter_followup_r2/ASSESSMENT.md) | 2,240 | TfA and MoR both move the outcome at 80 agents |
+| [inverse_inference_r1](inverse_inference_r1/ASSESSMENT.md) | 120 | **instrument failed**: a positional bias, not a measure of inference |
 
 Plus [ORDER_DEPENDENCE.md](ORDER_DEPENDENCE.md), an offline re-analysis with no
 API calls.
@@ -193,6 +194,11 @@ profiled range, so both screen stops were more conservative than necessary.
 
 ## 6. What Phase 7 does NOT establish
 
+- **Bidirectionality is UNTESTED, not refuted.** `inverse_inference_r1` was built
+  to ask whether the model can read a field back from behaviour. The model
+  answered "B" in 94 of 120 trials — 0/19 correct in one condition when the answer
+  was A — so its accuracies measure a positional bias, not inference. The
+  hypothesis is untouched and a corrected two-order design remains available.
 - **Understanding.** Two of six programme markers were reached
   (transformation/reversal, and selectivity in the weak sense that fields move as
   their meanings say). Defeasibility, bidirectionality, composition and the

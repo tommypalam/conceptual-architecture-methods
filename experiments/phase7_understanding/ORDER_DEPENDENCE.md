@@ -62,6 +62,14 @@ items that were making no choice at all.
 
 1. **Every dispersion screen must report keep-share by presentation order** and
    treat an order gap above 0.20 as unusable, regardless of the pooled share.
+1b. **Every forced choice put to a model must be presented in BOTH orders**,
+   whether the model is acting as an agent or judging as a rater. Randomising
+   order per trial makes a position-following responder *visible* but does not
+   *neutralise* it; showing each item both ways makes a content-free responder
+   score chance by construction. Learned the hard way in
+   [inverse_inference_r1](inverse_inference_r1/ASSESSMENT.md), where the model
+   answered "B" in 94 of 120 trials and scored 0/19 in one condition when the
+   answer was A.
    Implemented in the next screen designation, not retro-fitted to frozen
    collectors.
 2. **Order-robustness is a property of an item**, established per item and never
