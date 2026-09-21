@@ -34,7 +34,7 @@ payoff totals tied by construction. That narrowness is what buys the
 identification; it also bounds what may be concluded, and we make no claim that
 the map transfers to other task families.
 
-Across 32,608 frozen API calls we find: profiles change a deterministic
+Across 35,542 frozen API calls we find: profiles change a deterministic
 good/bad classification on two models from different providers (+0.171 and
 +0.228 against an explicit-instruction control that does not reproduce the
 effect); **one coordinate of ten is verified and one remains a candidate** under
@@ -708,6 +708,86 @@ advance that a further measurement would not overturn it by majority.
 
 ---
 
+### 6.6 Can the field be read back from behaviour?
+
+Everything above runs one way: a description is supplied and the model acts on it.
+None of it separates *reading an explanation* from *following an instruction
+phrased as an explanation*, which is the deflationary rival to every result in
+this section. Inference runs the other way. We showed the model two transcripts
+from the same agent — one produced at 0.10, one at 0.90 — and asked which agent
+had the setting high, under three framings: the field named and glossed, named
+only, and neither.
+
+**The designation failed as an instrument and is reported for that reason.** The
+model answered "B" in 94 of 120 trials, and in the named-only condition was
+correct 0 times out of 19 when the answer was A. Accuracy therefore tracks a
+positional bias, not inference, and the below-chance result in the unframed
+condition (0.275) is that bias meeting an answer key that happened to run 19/21.
+Nothing about bidirectionality is established in either direction.
+
+We record the cause because it recurs. Randomising presentation order per trial
+makes a position-following responder *visible* but does not *neutralise* it;
+neutralising it requires each item shown in both orders, so that a content-free
+responder scores chance by construction. That design was available and we did not
+use it.
+
+### 6.7 Do examples do what a rule does?
+
+If the model holds a field as something more than text it is currently reading,
+the natural test is whether the disposition can be *induced by examples* rather
+than stated. We showed an agent five of its own previously recorded decisions —
+no rule, no field name, no gloss — and measured behaviour on the provenance twins
+of §6.4, items the examples never covered and on which they are silent, since
+in the base items keeping the arrangement and respecting the procedure coincide.
+Three arms: examples only, the principle stated outright, and the bare item.
+
+Three controls were fixed in advance. The harness holds no conversational state,
+so every cell is an independent call and withdrawn material is genuinely absent
+rather than earlier in context. The read-out is a dimension the examples do not
+state, so the outcome is not the quantity that defines the treatment. And the
+examples are actual frozen decisions rather than idealised transcripts — no agent
+in the source chose to keep on all seven items — since constructing clean examples
+would be writing the rule the design is testing for.
+
+| Arm | Keep-rate | vs bare item |
+|---|---:|---:|
+| bare item | 0.305 | — |
+| **five of the agent's own prior decisions** | **0.734** | **+0.429** [+0.384, +0.473] |
+| **the principle stated** | **0.768** | **+0.463** [+0.418, +0.507] |
+
+Examples move behaviour substantially on items they never covered, in a direction
+they never state. **An explicit principle moves it slightly more, and the gap is
++0.034 [+0.004, +0.064].** Examples very nearly reproduce what stating the rule
+achieves.
+
+**The test that would distinguish a fitted disposition from ordinary context did
+not survive scrutiny.** If a boundary were being fitted to the examples, the shift
+should track how many of the five examples leaned toward keeping. We prespecified
+that the stated-principle arm *cannot* produce such a slope — its text is
+identical for every agent — and that a slope there would void the measure. In the
+first run the slope appeared in the stated-principle arm, because example
+composition was confounded with agent index, which set presentation order. A
+second run crossing order with the covariate moved the slope to the arm that can
+carry it (+0.080 [+0.018, +0.137]) and left the other flat (−0.011), which is the
+cleanest available confirmation that the first diagnosis was correct.
+
+**It still does not support the claim.** Example composition, inherited from the
+frozen transcripts, is badly unbalanced — 3, 4, 17 and 16 agents across the four
+levels — and restricted to the 33 agents in the two populated levels the slope is
+**−0.011 [−0.066, +0.046]**. Between the cells holding most of the data there is
+no dose-response at all. A graded response is what a fitted disposition predicts;
+a step separating seven sparse agents from everyone else is equally what a
+small-sample artefact predicts, and this design cannot tell them apart.
+
+We therefore report §6.7 as follows. Examples induce the behaviour almost as well
+as stating the rule; nothing establishes that anything was *fitted* rather than
+read; and the near-equality of the two arms, if anything, favours the reading on
+which the model acts on whatever relevant text is in front of it — a rule, a
+gloss, or a transcript of examples — without that text having become anything
+else.
+
+---
+
 ## 7. Cross-provider replication
 
 Every measurement to §5 was `gpt-5.4-mini`. Both survivors were re-tested on
@@ -815,7 +895,7 @@ in advance what a reject licenses.
   slot unresolved. It is preserved unresolved, named in every inheriting
   designation, and the 689 paid calls were not reused.
 
-### 8.4 Three defects we shipped
+### 8.4 Four defects we shipped
 
 Reported because the paper's claim is about method discipline.
 
@@ -844,6 +924,16 @@ now report keep-share by order. An earlier designation had checked order on
 different items, found it irrelevant, and the check lapsed; it does not transfer
 between item sets.
 
+**The same defect a third time, in a covariate.** In §6.7 the agent index set
+presentation order and, through the frozen transcripts it indexed, also the
+composition of the examples shown: 14 of the 16 most keep-leaning agents fell in
+one order. The prespecified dose-response then read order rather than examples,
+and declared itself void by the criterion we had written for it — the slope
+appeared in the arm whose text is identical for every agent. Crossing order with
+the covariate fixed it. Three occurrences in one phase, each in a new disguise:
+items, then a judge prompt, then a covariate. **Presentation order must be crossed
+with anything that could correlate with it, not merely randomised.**
+
 ---
 
 ## 9. Limitations
@@ -858,14 +948,23 @@ Nothing here says an agent behaves ethically or that outcomes improve.
 four specified deliverables for the analysis phase and it is **unmet**, deferred
 under a no-budget constraint. It is not retrospectively passed.
 
-**No evidence of understanding.** §6 shows that behaviour follows what a field's
-gloss *says*, which is more than the swap control alone established — but it does
-not distinguish *reading an explanation* from *following an instruction phrased as
-an explanation*. A field reading "existing arrangements stand unless there is
-strong reason to change them" is close to an instruction, and its success is
-exactly what an instruction-following account predicts. The designs that would
-separate these — defeasibility items, on which a procedure-sensitive agent and a
-status-quo-preserving agent must diverge — could not be built: see below.
+**No evidence of understanding, and the attempts to find some are reported.**
+§6 shows behaviour follows what a field's gloss *says*, which is more than the
+swap control alone established. It does not distinguish *reading an explanation*
+from *following an instruction phrased as an explanation*. A field reading
+"existing arrangements stand unless there is strong reason to change them" is
+close to an instruction, and its success is what an instruction-following account
+predicts.
+
+Four designs were built to separate them and none succeeded. Defeasibility items,
+on which a procedure-sensitive and a status-quo-preserving agent must diverge,
+could not be built at all (below). Inference from behaviour failed as an
+instrument (§6.6). And induction from examples (§6.7) produced behaviour within
+0.034 of what stating the rule produces, with the measure that would show a fitted
+disposition resting on seven agents. **The accumulated evidence is consistent with
+a model that acts on whatever relevant text is in front of it — a rule, a gloss,
+or a transcript of examples — and we report that as the reading our own attempts
+failed to displace.**
 
 **The parameters are not privileged.** §6.3 finds an invented field outperforming
 the verified parameter on the same items. The evidence supports *glossed fields
@@ -1119,17 +1218,29 @@ control was null — the signature of a real field-bound effect — and only the
 replication gate distinguished the two cases. It has since been measured a fourth
 time, at 80 agents, and is null again.
 
+§6.6 and §6.7 are the same discipline applied to the question we most wanted to
+answer. Having shown that behaviour follows a field's stated meaning, the obvious
+next claim is that the field has become something the model *holds* rather than
+something it is reading. We built four designs to test that and report that none
+of them established it: two could not produce usable materials, one failed as an
+instrument through a defect of our own, and the fourth found that examples induce
+the behaviour within 0.034 of what stating the rule achieves — a near-equality
+that favours the deflationary reading rather than ours.
+
 Methods that can only confirm are weaker than methods that can kill their own
-findings. We report one of ours dying, two designations that failed to build their
-materials, and a locked prediction of our own that came out wrong.
+findings. We report one finding dying, four designations that failed to establish
+what they were built for, two locked predictions of our own that came out wrong,
+a prespecified measure that voided itself, and a transport failure that closed a
+designation we chose to re-designate rather than resume.
 
 
 ---
 
 ## Appendix A — Scale of the record
 
-32,608 API calls across 52 designations with frozen results, $43.55 accounted
-spend. All per-call records are write-once with preserved failures; releases are
+35,542 API calls across 55 designations with frozen results, $44.91 accounted
+spend. One call is a preserved transport failure, never retried; the designation
+it halted was closed and re-designated rather than resumed. All per-call records are write-once with preserved failures; releases are
 hash-pinned to their source; power simulations and offline rescorings are
 reproducible from committed modules.
 
@@ -1141,6 +1252,9 @@ reproducible from committed modules.
 | `floor_lift_r1` | 2,240 | PD against a status-quo field on twins |
 | `parameter_followup_r1` | 2,240 | AW and LL pinned at 80 agents |
 | `parameter_followup_r2` | 2,240 | TfA and MoR pinned at 80 agents |
+| `precipitation_r3` | 1,680 | examples vs a stated rule, order crossed |
+| `precipitation_r2` | 840 | examples vs a stated rule, order confounded |
+| `inverse_inference_r1` | 120 | inference from behaviour; failed as an instrument |
 | `label_semantics_r2` | 2,241 | ID/LL swap controls, LL withdrawal |
 | `label_semantics_r1` | 1,296 | PD swap control |
 | `phase4b_grand_r1` | 901 | three-model variance decomposition |

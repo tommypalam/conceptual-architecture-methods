@@ -257,7 +257,7 @@ profiled range, so both screen stops were more conservative than necessary.
 4. **§7**: PD does not behave as its name suggests (§3). This *weakens* a claim
    the paper might otherwise have made.
 5. **§8 Limitations**: order dependence in two items; the screen rules that follow.
-6. **Appendix A**: totals become 35,422 calls across 55 studies.
+6. **Appendix A**: totals become 35,542 calls across 55 studies.
 
 ## Accounting
 
