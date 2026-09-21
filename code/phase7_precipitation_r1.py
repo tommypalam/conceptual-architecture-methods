@@ -69,8 +69,21 @@ def records():
 
 
 def exemplars():
-    """The five shown per agent, deterministic: the first five in sorted task order."""
-    return {a: v[:F.N_EXEMPLARS] for a, v in records().items()}
+    """The five shown per agent, deterministic: the first five in sorted task order.
+
+    JSON-NATIVE BY CONSTRUCTION: string keys and lists, not int keys and tuples.
+    The ledger checksums an object before saving and recomputes it after loading,
+    so a shape that does not survive a JSON round-trip fails its own checksum.
+    That is what happened on the first run of this collector; the fix is the
+    shape, never the check. `_shown()` restores the working form.
+    """
+    return {str(a): [list(e) for e in v[:F.N_EXEMPLARS]]
+            for a, v in records().items()}
+
+
+def _shown(built):
+    """Working form: int agent ids, tuple entries, whatever the round-trip did."""
+    return {int(a): [tuple(e) for e in v] for a, v in built.items()}
 
 
 def twin_review():
@@ -80,8 +93,9 @@ def twin_review():
     return R1.read_review(record["parsed"])
 
 
-def profiled_jobs(shown):
+def profiled_jobs(built):
     """Three arms x agents x twins. The system prompt is unprofiled in every arm."""
+    shown = _shown(built)
     batch, system_text = [], R1.system(None, "U")
     for arm in F.ARMS:
         for agent in sorted(shown):
@@ -101,7 +115,7 @@ def profiled_jobs(shown):
 def leakage_gate():
     symmetry = P.verify_items()
     twins = D.verify_twins(R1.body)
-    shown = exemplars()
+    shown = _shown(exemplars())
     if len(shown) != 40:
         raise BudgetStop(f"Expected 40 transcripts, found {len(shown)}")
     bodies = [D.body(t, True, True) for t in D.TASK_IDS]
@@ -258,7 +272,7 @@ def prepare(persist=False):
                "original_screening_cap_nano": CAP,
                "provider_caps_nano": {**parent["provider_caps_nano"], **PROVIDER_CAPS},
                "parent_checkpoint_sha256": digest(parent), "leakage_gate": leak,
-               "exemplar_keeps": {str(a): sum(1 for _, _, k in v if k) for a, v in built.items()},
+               "exemplar_keeps": {a: sum(1 for e in v if e[2]) for a, v in built.items()},
                "historical_keys": sorted(p.stem for p in (LEDGER / "records").glob("*.json")),
                "preserved_files": {p.relative_to(LEDGER).as_posix(): sha(p)
                                    for p in LEDGER.rglob("*.json")},
@@ -285,7 +299,7 @@ def collect(replay=False, root=LEDGER, folder=FOLDER, responder=network, test_da
     verify(release, root)
     if digest(built) != release["population_sha256"] or digest(batch) != release["jobs_sha256"]:
         raise BudgetStop("Changed trials or requests")
-    if batch != profiled_jobs({int(k): [tuple(x) for x in v] for k, v in built.items()} if isinstance(next(iter(built)), str) else built):
+    if batch != profiled_jobs(built):
         raise BudgetStop("Reconstructed schedule differs")
     manifest = {"release_sha256": digest(release), "jobs_sha256": digest(batch)}
     save(folder / "execution_manifest.json", manifest)
