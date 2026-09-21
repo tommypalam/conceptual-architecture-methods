@@ -36,7 +36,13 @@ import phase7_precipitation as F
 import phase7_defeasibility_items as D
 
 FOLDER = ROOT / "experiments/phase7_understanding/precipitation_r1"
-PARENT = ROOT / "experiments/phase7_understanding/parameter_followup_r2"
+# The parent must be the MOST RECENT completed designation, not merely a recent
+# one: the ledger guard checks every existing reservation against the parent's
+# historical_keys, so a parent that predates later runs is stale by exactly their
+# call counts. parameter_followup_r2 was stale by 2,360 - its own successors -
+# and prepare() was refused with "Unreleased slot, model, allocation or source".
+# The refusal is correct behaviour and the fix is the parent, never the check.
+PARENT = ROOT / "experiments/phase7_understanding/inverse_inference_r1"
 STUDY = "precipitation_r1"
 TWIN_REVIEW = "defeasibility_screen_r1/review/0"
 
