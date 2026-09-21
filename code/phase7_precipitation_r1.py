@@ -48,7 +48,12 @@ TWIN_REVIEW = "defeasibility_screen_r1/review/0"
 
 SEEDS = {"analysis": 2026092201}
 BOOTSTRAP_DRAWS = 10_000
-CAP = 1_000_000_000
+# 840 calls at a 256-token output budget: 3 arms x 40 agents x 7 twins.
+# Worst case $3.162; expected settlement about $0.63 at the measured rate.
+# The 1.0 here was inherited from the 120-call inverse_inference collector and
+# refused this designation at prepare(). `check` reports the cost but does not
+# enforce the cap, so the mismatch only surfaced at the freeze.
+CAP = 4_000_000_000
 PROVIDER_CAPS = C.PROVIDER_CAPS
 
 
