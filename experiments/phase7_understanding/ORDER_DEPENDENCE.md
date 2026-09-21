@@ -72,6 +72,13 @@ items that were making no choice at all.
    answer was A.
    Implemented in the next screen designation, not retro-fitted to frozen
    collectors.
+1c. **Presentation order must be CROSSED with any covariate, not left to
+   correlate with agent index.** In `precipitation_r2` the agent index set the
+   order and also, through the frozen transcripts, the exemplar keep-count: 14 of
+   16 keep-leaning agents fell in one order. The pre-registered dose-response then
+   read order rather than exemplars, and was void by its own criterion - the arm
+   whose text is identical for every agent showed the slope. **Third occurrence of
+   this defect in one phase**: base items, then a judge prompt, now a covariate.
 2. **Order-robustness is a property of an item**, established per item and never
    inherited from another item set.
 3. Paired within-agent designs remain the right instrument: they are immune to
