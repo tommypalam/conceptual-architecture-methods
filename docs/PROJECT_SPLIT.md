@@ -6,7 +6,7 @@ conflating them is the main way this project could go wrong from here.
 
 | | **The thesis** | **The paper** |
 |---|---|---|
-| Artefact | `docs/thesis/LF3262767.pdf` | `docs/paper/paper_draft.md` |
+| Artefact | `docs/thesis/LF3262767.pdf` | `docs/paper/paper_draft.md` (long-form record: `paper_full_record.md`) |
 | Branch | `thesis-final-20260919` | `paper-20260922` |
 | Status | **SUBMITTED AND FROZEN** | in preparation |
 | Audience | Bocconi examiners | interpretability / evaluation venue |
@@ -67,7 +67,8 @@ Consequences of the split, which are easy to get wrong:
 
 ## What blocks the paper, as of 22 September 2026
 
-**One blocker cleared. One attempted and stopped. One open.**
+**Two cleared, one attempted and stopped. The paper is submittable; the
+remaining limitation is stated rather than fixed.**
 
 1. ~~Citations unverified.~~ **Done, 22 September.** All rows checked against
    source; two supplied citations did not exist and were removed rather than
@@ -88,8 +89,13 @@ Consequences of the split, which are easy to get wrong:
    passed the screen rule this project used three days ago. The limitation
    therefore stands, with a **specific and addressable** diagnosis rather than a
    general one. Plan and rationale: [SECOND_FAMILY.md](../experiments/phase7_understanding/SECOND_FAMILY.md).
-3. **Framing.** The draft still reads partly as a project chronicle. A paper is
-   one claim and its controls; the architecture becomes context.
+3. ~~Framing.~~ **Done, 22 September.** Restructured around one claim: 1,390
+   lines to 664. The ten-field encoding is now context for an identification
+   method rather than the subject, the claim sits at §5, and §8 Related work is
+   written out rather than deferred. The long-form draft is preserved as
+   `docs/paper/paper_full_record.md` — it holds the full coordinate map, the
+   review-instability finding and the complete defect record, which are worth
+   keeping but do not belong in a focused paper.
 
 ## What is settled and needs no further work
 
