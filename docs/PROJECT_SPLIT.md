@@ -67,11 +67,12 @@ Consequences of the split, which are easy to get wrong:
 
 ## What blocks the paper, as of 22 September 2026
 
-1. **Citations are unverified.** Section 10 was written from a supplied literature
-   search and carries a status banner. Every row of
-   `docs/paper/citation_verification.md` needs checking in a session with
-   database access — not only that each work exists, but that it makes the claim
-   attributed to it. **The banner does not come off until that is done.**
+**One blocker cleared, two remain.**
+
+1. ~~Citations unverified.~~ **Done, 22 September.** All rows checked against
+   source; two supplied citations did not exist and were removed rather than
+   replaced; four entries corrected. The banner is off and §10 states verified
+   status. Record: `docs/paper/citation_verification.md`.
 2. **One item family.** Every result comes from seven workplace-resource
    vignettes with tied payoffs. This is the limitation a reviewer will name, it
    cannot be answered from existing data, and it is the same wall that blocked

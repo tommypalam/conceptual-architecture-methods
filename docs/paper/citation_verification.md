@@ -219,3 +219,36 @@ row is checked. The two hedged claims that are ours rather than the
 literature's (field-level identification is scarce for closed models; the
 replication gate is not represented elsewhere) are unaffected and keep their
 hedges.
+
+
+---
+
+# Application of the verification — 2026-09-22
+
+The 2026-09-16 findings above were only partly applied to the draft. All are now
+applied, and three load-bearing rows were independently re-checked against source
+with live access:
+
+| Fix | Status |
+|---|---|
+| `Han et al. 2025` removed from §9.4 | was already applied |
+| `Chowa et al. 2025` removed; Du et al. 2025 stands alone | **applied 22 Sept** |
+| `Sachdeva (2025)` → `Sachdeva and van Nuenen (2025)`; "moderate" → "moderate-to-high" self-consistency, plus the divergence-from-human finding | **applied 22 Sept** |
+| `von Oswald` inline pending-verification note removed | **applied 22 Sept** |
+| Benkler figures | the draft already cites qualitatively without the unconfirmed "1,128 prompts / 56,400 responses"; re-checked at arXiv 2312.10075 — authors and title confirmed, abstract carries no such figures. No change needed. |
+
+**Re-checked at source, 22 September:**
+
+- **Min et al. 2022** ☑ — EMNLP 2022, arXiv 2202.12837, Min, Lyu, Holtzman,
+  Artetxe, Lewis, Hajishirzi, Zettlemoyer. Claim confirmed verbatim: "randomly
+  replacing labels in the demonstrations barely hurts performance," across 12
+  models. One of the three citations the draft uses *against itself*.
+- **De Araujo & Roth 2024** ☑ — arXiv 2407.02099. 162 personas, 12 categories,
+  7 models; both the 30-paraphrase "a helpful assistant" control and an
+  empty-persona condition; "personas show greater variability than the control
+  setting" confirmed. Carries the gap claim of §9.4.
+- **Benkler et al. 2023** ☑ — arXiv 2312.10075, authors and title confirmed.
+
+**The banner is removed.** Section 10 now states verified status, records that
+two citations were deleted rather than substituted, and keeps the hedges on the
+two claims that are ours rather than the literature's.

@@ -19,11 +19,11 @@ each claim can be checked against its own assessment.*
 > parameter does not behave as its name suggests (§6.4). Neither document is
 > edited to agree with the other; see `docs/PROJECT_SPLIT.md`.
 
-> **Status.** Section 10 (Related work) was written from a supplied literature
-> search and is **not yet verified**; its status banner stands until every row of
-> `docs/paper/citation_verification.md` is checked against the sources. The
-> principal limitation, stated here and not deferred, is that every result comes
-> from a single family of seven workplace-resource vignettes.
+> **Status.** Section 10's citations are **verified** against their sources
+> (`docs/paper/citation_verification.md`); two that did not exist were removed
+> rather than replaced. The principal limitation, stated here and not deferred,
+> is that every result comes from a single family of seven workplace-resource
+> vignettes with tied payoffs.
 
 ---
 
@@ -1042,11 +1042,15 @@ paradigm from a frontier model.
 
 ## 10. Related work
 
-> **Citation status.** References supplied by a literature search run separately
-> from this draft. They are cited normally below. **Verification pending** —
-> authors, year, venue, and that each paper makes the claim attributed to it.
-> One inline flag marks a name likely to need correction. The argument does not
-> depend on any single citation holding; it depends on the clusters existing.
+> **Citation status: verified.** Every reference below was checked against its
+> source for existence, authorship, year, venue, and that the paper makes the
+> claim attributed to it. Two supplied citations did not exist and were
+> **removed rather than replaced**; four verified entries needed correction.
+> The record is `docs/paper/citation_verification.md`. Two claims in this section
+> are ours rather than the literature's — that field-level identification under
+> byte-held surface form is scarce for closed models, and that the replication
+> gate is not represented elsewhere — and both keep their hedges, since absence
+> of evidence in a search is not evidence of absence.
 
 The move this paper depends on is now visible across several literatures:
 **treating a prompt not as a monolithic instruction but as a causal object with
@@ -1116,8 +1120,7 @@ may absorb hidden interaction effects rather than isolating single components
 (Vaidyanathan et al. 2026).
 
 Substantive accounts of in-context learning include induction heads (Olsson et
-al. 2022), implicit gradient descent (von Oswald et al. 2022 — *supplied as
-"Oswald et al."; the usual form is von Oswald, to be corrected on verification*),
+al. 2022), implicit gradient descent (von Oswald et al. 2022),
 and implicit Bayesian inference, which explicitly notes mismatch between prompt
 and pretraining distributions including formatting and delimiters (Xie et al.
 2021). Function-vector work (Todd et al. 2023; Yin & Steinhardt 2025) and the
@@ -1144,7 +1147,7 @@ al. (2025) show trait prompting yields personality-aligned behaviour recognisabl
 to users, and Tang et al. (2026) extend this to facet-level steering while noting
 that prompt-only persona signals dilute under long context and prompt noise.
 Agent surveys frame prompt engineering as a central parameter-free optimisation
-method (Du et al. 2025; Chowa et al. 2025).
+method (Du et al. 2025).
 
 **This is where the gap is clearest.** These studies compare conditioned against
 unconditioned arms. What is scarce is work isolating *which prompt field* carries
@@ -1160,9 +1163,10 @@ al. (2023) formalise prompts as a composition of task, ethical policy and user
 input, defining ethical consistency relative to the supplied policy — structurally
 close to our E/G contrast, where an explicit policy statement fails to reproduce
 what a parameter block achieves. Benkler et al. (2023) probe value pluralism
-through demographic prompting at scale, and Sachdeva (2025) compares models
-against human judgements on everyday moral dilemmas, finding low inter-model
-agreement despite moderate self-consistency.
+through demographic prompting at scale, and Sachdeva and van Nuenen (2025) compare
+models against human judgements on everyday moral dilemmas, finding low
+inter-model agreement despite moderate-to-high self-consistency, with model
+judgements diverging substantially from the human evaluations.
 
 **That last result bears on our §6 cross-model shrinkage.** If models disagree
 substantially with one another on moral judgements, then a parameter effect that
