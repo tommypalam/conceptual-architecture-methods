@@ -239,7 +239,7 @@ reused.
 | Model | no profile | explicit instruction | numeric profile | paired E−G | Holm |
 |---|---:|---:|---:|---:|---:|
 | `claude-haiku-4-5` | 0.367 | 0.429 | 0.600 | **+0.171** | 0.000112 |
-| `gpt-5.4-mini` | 0.395 | **0.378** | 0.606 | **+0.228** | ≈ 0 |
+| `gpt-5.4-mini` | 0.395 | **0.378** | 0.606 | **+0.228** | ~0 |
 
 The instruction arm states the target behaviour in plain English. On the
 calibration model it lands *below* the unprofiled baseline. The numeric profile
@@ -249,7 +249,7 @@ moves the outcome; saying the same thing in prose does not.
 
 `pd_prospective_r1` pinned Procedural Dependence with a direction derived from
 the field's definition and locked in source before collection: **+0.346**, Holm
-≈ 0, six of seven items positive.
+~0, six of seven items positive.
 
 The swap control gives **−0.036** (n.s.) on the partner field, and the direct
 within-unit difference of differences is **+0.375 [+0.286, +0.464]**, six items
@@ -268,8 +268,8 @@ list would mimic the result. A 2×2 crossing *which field holds the value* with
 
 | Cell | Value on | At line | Effect | Holm | Items |
 |---|---|---:|---:|---:|---|
-| **A** | tested field | 6 | **+0.393** | ≈ 0 | 7+/0− |
-| **C** | tested field | 10 | **+0.271** | ≈ 0 | 5+/1− |
+| **A** | tested field | 6 | **+0.393** | ~0 | 7+/0− |
+| **C** | tested field | 10 | **+0.271** | ~0 | 5+/1− |
 | B | partner | 10 | +0.061 | 0.157 | 6+/1− |
 | D | partner | 6 | +0.004 | 1.000 | 3+/2− |
 

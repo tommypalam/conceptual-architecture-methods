@@ -1,0 +1,31 @@
+% Unicode-capable fonts: the source uses em dashes, minus signs and multiplication
+% signs, and the default Latin Modern encoding drops some of them silently.
+\usepackage{fontspec}
+\setmainfont{Latin Modern Roman}
+\setmonofont{DejaVu Sans Mono}[Scale=MatchLowercase]
+
+% arXiv preprint preamble. Single column, generous margins, no anonymity.
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{microtype}
+\usepackage{amsmath}
+\usepackage[hidelinks]{hyperref}
+
+% Tables in this paper are numeric and dense; keep them readable.
+\renewcommand{\arraystretch}{1.15}
+\setlength{\tabcolsep}{5pt}
+
+% pandoc emits longtable for pipe tables; make them small enough to fit.
+\AtBeginEnvironment{longtable}{\small}
+\AtBeginEnvironment{quote}{\small}
+
+% Blockquotes are used for status notes, not epigraphs.
+\usepackage{etoolbox}
+\usepackage{framed}
+\colorlet{shadecolor}{gray!8}
+\renewenvironment{quote}{\begin{shaded}\small}{\end{shaded}}
+
+\usepackage{titlesec}
+\titleformat{\section}{\large\bfseries}{\thesection}{0.6em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{0.6em}{}

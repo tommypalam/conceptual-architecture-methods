@@ -1,0 +1,9 @@
+Practitioners condition language-model agents on structured descriptions -- personas, trait vectors, configuration blocks -- and infer from a behavioural change that the model read the description as intended. That inference is rarely tested: the block adds text, structure, and an extreme numeral; any could do the work.
+
+We separate them by pinning one field to its endpoints while holding every other byte of the prompt identical, by a swap control moving the identical numeral onto a field measured inert, and by a replication gate requiring an effect to reproduce before its swap control is read. On a ten-field encoding over workplace-resource decisions this gives a field-bound effect of +0.339 on a deterministic outcome, against -0.036 for the same numeral on the partner field; the difference of differences is +0.375 [+0.286, +0.464]. It replicates on a second provider and survives a 2x2 separating the field from its line.
+
+What carries it is the field's stated meaning. Exchanging only the two endpoint texts -- name, line, numeral and character multiset held fixed -- reverses the effect to -0.114 [-0.179, -0.050]. Neither numeric extremity nor name-association survives that.
+
+Three results bound this. Four fields we invented, none in the encoding, move choices as their glosses predict, one more strongly than the verified parameter. That parameter is less sensitive to whether a stated procedure was honoured than an explicit status-quo field. And an agent's own five prior decisions induce the behaviour within 0.034 of what stating the rule achieves.
+
+All results come from one family of seven vignettes with tied payoffs; a second family was attempted and stopped at its screen. No human comparison was collected and we establish no semantic understanding. The contribution is an identification method that retracts its own findings, and a bounded claim about what in a prompt does the work.
