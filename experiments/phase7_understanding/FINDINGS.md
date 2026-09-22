@@ -1,6 +1,6 @@
 # Phase 7 — what the understanding programme established
 
-**Eleven designations, 14,551 calls, 14,550 valid, one preserved failure, $9.943.**
+**Twelve designations, 14,888 calls, 14,887 valid, one preserved failure, $10.074.**
 20 September 2026, branch `understanding-programme-20260919`. All on
 `gpt-5.4-mini-2026-03-17` except two review calls on `claude-sonnet-4-6`.
 
@@ -21,6 +21,7 @@ require the paper to be changed.
 | [precipitation_r1](precipitation_r1/ASSESSMENT.md) | 294 | **halted** by a network timeout at call 294 of 840; no result, not re-run |
 | [precipitation_r2](precipitation_r2/ASSESSMENT.md) | 840 | re-designation: both arms shift, but the discriminating secondary is **void** |
 | [precipitation_r3](precipitation_r3/ASSESSMENT.md) | 1,680 | order crossed: the slope moves to the arm that can carry it, but rests on 7 agents |
+| [civic_screen_r1](civic_screen_r1/ASSESSMENT.md) | 337 | second item family: review accept, **screen stop** at 3 usable of 14 |
 
 Plus [ORDER_DEPENDENCE.md](ORDER_DEPENDENCE.md), an offline re-analysis with no
 API calls.
@@ -257,10 +258,10 @@ profiled range, so both screen stops were more conservative than necessary.
 4. **§7**: PD does not behave as its name suggests (§3). This *weakens* a claim
    the paper might otherwise have made.
 5. **§8 Limitations**: order dependence in two items; the screen rules that follow.
-6. **Appendix A**: totals become 35,542 calls across 55 studies.
+6. **Appendix A**: totals become 35,879 calls across 56 studies.
 
 ## Accounting
 
-OpenAI $12.741596 to **$22.644443**/$40. Anthropic $22.247448 to
-**$22.268707**/$32. Package about $44.913/$100. Usage estimates, not verified
+OpenAI $12.741596 to **$22.775960**/$40. Anthropic $22.247448 to
+**$22.268707**/$32. Package about $45.05/$100. Usage estimates, not verified
 provider balances.

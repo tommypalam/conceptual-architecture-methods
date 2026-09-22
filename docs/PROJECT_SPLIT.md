@@ -67,7 +67,7 @@ Consequences of the split, which are easy to get wrong:
 
 ## What blocks the paper, as of 22 September 2026
 
-**One blocker cleared, two remain.**
+**One blocker cleared. One attempted and stopped. One open.**
 
 1. ~~Citations unverified.~~ **Done, 22 September.** All rows checked against
    source; two supplied citations did not exist and were removed rather than
@@ -79,11 +79,15 @@ Consequences of the split, which are easy to get wrong:
    resource, an incumbent holder, a stated wish to keep, payoffs frozen at the
    same pair. It cannot be answered from existing data, and it is the same wall
    that blocked the understanding markers.
-   **Scoped:** [SECOND_FAMILY.md](../experiments/phase7_understanding/SECOND_FAMILY.md)
-   — about 1,460 calls and $1.02 against $17.36 headroom, in five steps of which
-   the first three can end the attempt. Two decisions are owed by the researcher
-   before authoring begins: which setting, and whether the tied-payoff structure
-   is held. Recommendation: civic, tied payoffs held.
+   **Attempted 22 September and stopped at the screen.**
+   [civic_screen_r1](../experiments/phase7_understanding/civic_screen_r1/ASSESSMENT.md):
+   14 civic candidates authored, review accepted with zero blocking issues,
+   **3 usable of 14 against 6 required**. The failure is *not* the saturation
+   that killed the previous seventeen wordings — 11 of 14 disperse — but
+   presentation-order sensitivity: only 6 pass the order gap and 8 would have
+   passed the screen rule this project used three days ago. The limitation
+   therefore stands, with a **specific and addressable** diagnosis rather than a
+   general one. Plan and rationale: [SECOND_FAMILY.md](../experiments/phase7_understanding/SECOND_FAMILY.md).
 3. **Framing.** The draft still reads partly as a project chronicle. A paper is
    one claim and its controls; the architecture becomes context.
 
