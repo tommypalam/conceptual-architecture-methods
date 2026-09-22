@@ -1,6 +1,6 @@
-# Does the Model Read the Field, or Just the Numeral?
+# The Model Reads the Definition
 
-## Isolating What Carries Behaviour in a Structured Prompt
+## Isolating What Carries Behaviour in a Structured Prompt, and Showing It Is the Text That Says What the Scale Means
 
 **Tommaso Piero Palamenga** — Bocconi University
 
@@ -22,107 +22,120 @@ retained as `paper_full_record.md`.*
 
 ## Abstract
 
-Practitioners condition language-model agents on structured descriptions —
-personas, trait vectors, configuration blocks — and infer from a behavioural
-change that the model read the description as intended. That inference is rarely
-tested, because a block that shifts behaviour could be acting through its labels,
-through the mere presence of structured text, through verbosity, or through an
-extreme numeral sitting anywhere in the prompt.
+When a language model is given a persona, a trait vector or a configuration
+block and its behaviour changes, the standard inference is that it read the
+description. That inference has never been cleanly testable, because every
+natural control confounds what a field *means* with the fact that it is present,
+how long it is, where it sits, and what number it carries.
 
-We separate these. Our method has three components: **pinning** one field to its
-endpoints while holding every other byte of the prompt identical; a **swap
-control** that moves the identical numeral onto a field measured inert, holding
-the numeral multiset, block length and field order constant; and a **replication
-gate** requiring an effect to reproduce before its swap control is interpretable.
+We build a control that does not. **Pinning** sets one field to its endpoints
+with every other byte of the prompt held identical. A **swap control** moves the
+identical numeral onto a partner field, so the two prompts contain the same ten
+numbers on the same ten lines in the same order and differ only in which field
+holds the value. A **replication gate** requires an effect to reproduce before
+its swap control is read. On a ten-field encoding over a family of deterministic
+allocation decisions this isolates a single field carrying +0.375 [+0.286,
++0.464], replicated on a second provider and robust to a 2×2 that separates the
+field from the line it occupies.
 
-Applied to a ten-field encoding over a family of workplace-resource decisions,
-this yields a field-bound effect of +0.339 on a deterministic good/bad outcome,
-with the same numeral on the partner field giving −0.036 and the direct
-difference of differences +0.375 [+0.286, +0.464]. It replicates on a second
-provider and survives a 2×2 separating the field from the line it occupies.
+**Then we ask what about the field does the work, and the answer is what it
+says.** Keep the name, the number, the line and every character in the block;
+exchange only which end of the scale is defined as which. The effect reverses,
+from +0.339 to −0.114 [−0.179, −0.050]. Numeric salience predicts every arm
+positive; an identical printed name cannot produce opposite signs. **The model
+reads the definition.**
 
-**We then ask what about the field carries it, and the answer is its stated
-meaning.** Exchanging only the two endpoint texts — holding the name, the line,
-the numeral and the block's entire character multiset fixed — **reverses** the
-effect, from +0.339 to −0.114 [−0.179, −0.050]. No account resting on numeric
-extremity or name-association survives that: extremity predicts every arm
-positive, and an identical printed name cannot produce opposite signs.
+Three further results show how general that is. Four fields written for the
+purpose, none in the encoding, move choices exactly as their own definitions
+predict — one of them more strongly than the encoding's verified parameter — so
+the effect is a property of defined fields, not of this encoding. The verified
+parameter proves less sensitive to a stated procedure than an explicit
+status-quo field is, so what it does is not what its name suggests. And an
+agent's own five prior decisions induce the behaviour within 0.034 of stating
+the rule outright: the model treats examples, glosses and rules as the same kind
+of thing.
 
-**Three results bound what this licenses, and we report them as prominently as
-the finding.** Four fields we invented for the purpose, none in the encoding,
-move choices as *their* glosses predict — one more strongly than the verified
-parameter (+0.400 against +0.339) — so the finding concerns glossed fields in
-general and does not privilege this encoding. The verified parameter proves
-*less* sensitive to whether a stated procedure was honoured than an explicit
-status-quo field is, so it does not behave as its name suggests. And showing an
-agent five of its own prior decisions induces the behaviour within 0.034 of what
-stating the rule achieves, which favours a model reading whatever relevant text
-is present over one that has acquired a disposition.
-
-**Scope, stated here rather than deferred.** All results come from a single
-family of seven workplace-resource vignettes with payoff totals tied by
-construction; an attempt to build a second family was stopped at its dispersion
-screen and is reported. No human comparison of any kind was collected. Every
-outcome label is computed deterministically from a stipulated transition and
-never read from model text. We establish no moral improvement, no human
-resemblance and no semantic understanding. The contribution is an identification
-method, a demonstration that it retracts its own findings, and a bounded
-empirical claim about what in a structured prompt does the work.
+The method retracted one of its own certified findings, and we report that as
+its strongest credential. All results come from one task family of seven
+vignettes with payoff totals tied by construction, on one model for the
+identification; a second family was attempted and stopped at screening. No human
+comparison was collected, and we claim no semantic understanding. What we claim
+is narrower and, we think, more useful: a way to find out which part of a
+structured prompt a model is actually reading, and evidence that it is the part
+that says what the scale means.
 
 ---
 
 ## 1. The inference everyone makes
 
 Give a language model a block of structured text — a persona, a trait vector, a
-configuration — and its behaviour changes. The near-universal next step is to
-attribute the change to the *content* of the block: the model read that this
-agent is cautious, or process-oriented, and acted accordingly.
+configuration — and its behaviour changes. The next step is almost always to say
+the model *read* the block: it saw that this agent is cautious, or
+process-oriented, and acted on it. Persona prompting, agent frameworks and much
+of alignment practice rest on that step.
 
-That step is an inference, and it has at least four rivals. The block adds text,
-and more text changes behaviour. The block adds structure, and structured text is
-read differently from prose. The block contains an extreme numeral, and extreme
-numerals are salient wherever they sit. The block contains a label the model
-associates with a disposition, independently of anything the block says that
-label means.
+It is an inference, and it has rivals that predict the same observation. The
+block adds text, and more text changes behaviour. It adds structure, and
+structured text is processed differently from prose. It contains an extreme
+numeral, and extreme numerals are salient wherever they sit. It contains a label
+the model may associate with a disposition, independently of anything the block
+says that label means. A practitioner who has built a persona and seen it work
+cannot, from that observation, say which of these is happening — and they
+license very different conclusions about what has been built.
 
-These are not pedantic alternatives. Each predicts the same observation — a
-behavioural shift when the block is present — and they license entirely different
-conclusions about what a practitioner is building. Our question is narrow:
+This paper asks a narrow question and answers it:
 
 > **Which part of a structured prompt carries the behaviour, and what about that
 > part does the carrying?**
 
-### 1.1 What this paper does
+### 1.1 The answer, in brief
 
-We answer for one encoding on one task family, and treat the narrowness as the
-price of the answer rather than an embarrassment. The identification requires
-holding every byte of the prompt constant except one, which requires a frozen
-prompt, a deterministic outcome and a fixed item set. Nothing about that design
-generalises for free, and §7 says so at length.
+One field carries it, and what carries it is what that field is *defined* to
+mean. We reach the first by holding every byte of the prompt fixed except one and
+by a swap control that keeps the numerals, the lines and the order identical
+across arms. We reach the second by exchanging only the two endpoint definitions
+of a scale and watching the effect reverse.
+
+We then push on the result until it tells us what it is a result *about*. It is
+not about the particular encoding we started from: fields we wrote ourselves
+behave the same way, one of them more strongly. It is not about the field's name:
+the name contributes, but the definition dominates and half the effect survives
+with the name removed. And it is not, on our evidence, about the model *holding*
+anything: examples and an explicit rule induce the behaviour to within 0.034 of
+each other. What the model does is read the definitional text in front of it and
+act on it, whatever form that text takes.
+
+### 1.2 Why the narrowness is the point
+
+We answer for one encoding on one task family, on one model for the
+identification. The design demands it: holding every byte constant except one
+requires a frozen prompt, a deterministic outcome and a fixed item set. That buys
+an answer no looser design can give, and it bounds what the answer covers. §7
+says exactly where the bound sits.
 
 The method's most important property is that **it can fail**. §4.4 reports a
 field that cleared a corrected significance bar, then dissolved on a larger
-sample of the same model, and was withdrawn. We regard that as the paper's
-strongest evidence that the rest of it can be believed.
+sample of the same model, and was withdrawn by the method's own gate. We regard
+that as the strongest evidence in the paper that the rest of it can be believed.
 
-### 1.2 Contributions
+### 1.3 Contributions
 
 - **A separation method** — pinning, a numeral-identical swap control, and a
   replication gate — applicable to any prompt with addressable fields.
-- **A reversal**: exchanging what a scale is *said to mean*, holding its name,
+- **A reversal**: exchanging what a scale is *defined* to mean, holding its name,
   line and numeral fixed, reverses the effect. This excludes field-weighted
-  extremity, the mechanism an earlier version of this work could not rule out.
-- **A bound on the same result**: fields we invented move choices as their
-  glosses predict, one more strongly than the encoding's own parameter.
+  numeric salience, which no prior control could.
+- **Generality of the same result**: fields written for the purpose move choices
+  as their definitions predict, one more strongly than the encoding's parameter.
 - **A retraction**, made by the method's own gate, of a field it had certified.
 - **A negative methodological finding**: automated design review returns opposite
   verdicts on byte-identical material.
 
-### 1.3 What we do not claim
+### 1.4 What we do not claim
 
 No moral quality, no human resemblance, no semantic understanding, and no
 generality beyond the tested family. §7 states each as a constraint on what may
-be concluded rather than as a caveat.
+be concluded.
 
 ---
 
@@ -316,11 +329,19 @@ license "the field moves the outcome on this model too" and nothing further.
 
 ## 5. What about the field carries it?
 
-§4 localises the effect to one labelled, glossed field. It cannot say what about
-that field does the work. Three readings survive and they differ once the field's
-own text is edited: the model reads the **stated meaning**; the model responds to
-the **name** and the gloss is decoration; or an extreme numeral in a salient slot
-does it all — **field-weighted extremity**, which no design in §4 excludes.
+§4 localises the effect to one labelled, defined field. That is as far as any
+control built from presence, length, position and numeral can go, and it leaves
+the interesting question open. Three readings survive, and they make different
+predictions the moment the field's own text is edited:
+
+- the model reads the **definition** — what the two ends of the scale are said
+  to mean — and acts on it;
+- the model responds to the **name**, and the definition is decoration;
+- an extreme numeral in a salient slot does everything — **field-weighted
+  salience**, which no design in §4 excludes and which would make every result
+  above true without the model reading a word.
+
+This section settles it, and the answer is the first.
 
 ### 5.1 Reversing the gloss reverses the effect
 
@@ -617,31 +638,36 @@ what one should expect if models disagree on the underlying judgements.
 We asked which part of a structured prompt carries behaviour and what about that
 part does the carrying.
 
-**The answer to the first is one labelled, glossed field** — not block presence,
-not verbosity, not the line it occupies, and not a free-floating numeral. **The
-answer to the second is the field's stated meaning**: exchanging what the two ends
-of a scale are said to mean, holding the name, line, numeral and character
-multiset fixed, reverses the effect. No account resting on extremity or
-name-association produces that.
+**One labelled, defined field carries it** — not block presence, not verbosity,
+not the line it occupies, and not a free-floating numeral. **What carries it is
+the definition**: exchange which end of the scale means what, holding the name,
+line, numeral and every character fixed, and the effect reverses. No account
+resting on numeric salience or name-association produces that. The model reads
+what the field says.
 
-**Three results bound it.** Fields we invented move choices as their glosses
-predict, one more strongly than the encoding's parameter, so the finding concerns
-glossed fields rather than this encoding. That parameter proves less sensitive to
-procedure than an explicit status-quo field, so it does not behave as its name
-suggests. And examples induce the behaviour within 0.034 of what stating the rule
-achieves, which favours reading over holding.
+That result turns out to be general in a way we did not set out to show. Fields
+we wrote in an afternoon move choices as their definitions predict, one of them
+more strongly than the encoding's own verified parameter — so this is how the
+model treats defined fields, not a property of one encoding. That parameter
+proves less sensitive to a stated procedure than an explicit status-quo field,
+so what it does is not what its name suggests. And examples induce the behaviour
+within 0.034 of stating the rule, which tells us the model is not distinguishing
+between a definition, an instruction and a demonstration: it reads all three as
+text that says how to act, and acts.
 
 The result we would most want carried forward is a **withdrawal**. A field
 cleared a corrected significance bar with the most directionally consistent
 result in its sweep and dissolved on a larger sample of the same model. Its swap
 control was null — the signature of a real field-bound effect — and only the
-replication gate distinguished the two cases.
+replication gate told the two cases apart.
 
 Methods that can only confirm are weaker than methods that can kill their own
-findings. We report one finding dying, five designations that failed to establish
-what they were built for, two locked predictions of our own that came out wrong,
-a prespecified measure that voided itself, and a transport failure that closed a
-designation we re-designated rather than resumed.
+findings. This one killed one, failed to establish five designations' worth of
+what they were built for, got two of its own locked predictions wrong, voided one
+of its own measures, and closed a designation to a transport failure rather than
+resume it. We report all of it, because a method that behaves that way when a
+finding is wrong is the only kind whose findings are worth anything when they
+are right.
 
 ---
 
