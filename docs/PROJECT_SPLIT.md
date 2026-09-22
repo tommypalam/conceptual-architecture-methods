@@ -74,10 +74,16 @@ Consequences of the split, which are easy to get wrong:
    replaced; four entries corrected. The banner is off and §10 states verified
    status. Record: `docs/paper/citation_verification.md`.
 2. **One item family.** Every result comes from seven workplace-resource
-   vignettes with tied payoffs. This is the limitation a reviewer will name, it
-   cannot be answered from existing data, and it is the same wall that blocked
-   the understanding markers. A second item family is the one addition that would
-   change the paper's ceiling.
+   vignettes with tied payoffs. The objection is not the count — the seven span
+   four families — but that the *situation type* never varies: a workplace
+   resource, an incumbent holder, a stated wish to keep, payoffs frozen at the
+   same pair. It cannot be answered from existing data, and it is the same wall
+   that blocked the understanding markers.
+   **Scoped:** [SECOND_FAMILY.md](../experiments/phase7_understanding/SECOND_FAMILY.md)
+   — about 1,460 calls and $1.02 against $17.36 headroom, in five steps of which
+   the first three can end the attempt. Two decisions are owed by the researcher
+   before authoring begins: which setting, and whether the tied-payoff structure
+   is held. Recommendation: civic, tied payoffs held.
 3. **Framing.** The draft still reads partly as a project chronicle. A paper is
    one claim and its controls; the architecture becomes context.
 
