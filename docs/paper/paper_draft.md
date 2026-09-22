@@ -4,9 +4,26 @@
 
 **Tommaso Piero Palamenga** — Bocconi University
 
-*Draft, 20 September 2026. Every figure in this paper is traceable to a frozen
+*Draft, 22 September 2026. Every figure in this paper is traceable to a frozen
 per-call record in the accompanying repository; designations are named inline so
 each claim can be checked against its own assessment.*
+
+> **Relation to the thesis.** This paper and the author's undergraduate thesis
+> draw on one body of evidence and are separate documents. The thesis
+> (`docs/thesis/LF3262767.pdf`, submitted and frozen) presents the ten-parameter
+> encoding framework on evidence to 18 September 2026. **This paper is not a
+> longer version of it.** It makes a narrower claim — that behaviour tracks the
+> stated meaning of a prompt field — on a wider evidence base, and it reports
+> results collected afterwards that *constrain* the framework the thesis
+> presents: an invented field outperforms the verified parameter (§6.3), and that
+> parameter does not behave as its name suggests (§6.4). Neither document is
+> edited to agree with the other; see `docs/PROJECT_SPLIT.md`.
+
+> **Status.** Section 10 (Related work) was written from a supplied literature
+> search and is **not yet verified**; its status banner stands until every row of
+> `docs/paper/citation_verification.md` is checked against the sources. The
+> principal limitation, stated here and not deferred, is that every result comes
+> from a single family of seven workplace-resource vignettes.
 
 ---
 

@@ -2,6 +2,10 @@
 
 [Back to the project](../README.md)
 
+> **This project has two outputs and they are governed differently.** The
+> thesis is submitted and frozen; the paper is live and may contradict it.
+> Read [PROJECT_SPLIT.md](PROJECT_SPLIT.md) before editing either.
+
 ## Start here: the thesis
 
 | | |

@@ -14,6 +14,9 @@ fixed dilemmas.
 **Supervisor:** Prof. Arnaldo Camuffo.
 
 > **The thesis is [`docs/thesis/LF3262767.pdf`](docs/thesis/LF3262767.pdf).**
+
+**Two outputs, two branches:** the thesis is submitted and frozen; the paper is
+live and may contradict it. See [docs/PROJECT_SPLIT.md](docs/PROJECT_SPLIT.md).
 > It is the single canonical PDF, built from
 > [`docs/thesis/thesis.md`](docs/thesis/thesis.md) by
 > [`docs/thesis/build/build.ps1`](docs/thesis/build/build.ps1) and checked against the
