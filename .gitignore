@@ -192,3 +192,6 @@ archive/**/blind_pack.json
 
 # Previously tracked historical records keep their tracking status when relocated.
 # No newly collected raw payload should be added merely because it moved to archive/.
+
+# Named PDF exports of the paper; the source of truth is docs/paper/ and the build.
+Claude outputs/

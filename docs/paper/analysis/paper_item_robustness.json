@@ -1,0 +1,1362 @@
+{
+ "note": "Item- and agent-level robustness for the paper's headline contrasts.",
+ "B": 10000,
+ "seed": 2026092301,
+ "api_calls": 0,
+ "contrasts": {
+  "semantics_r1:CANON": {
+   "estimate": 0.3393,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.2714,
+    0.4071
+   ],
+   "item_ci": [
+    0.1286,
+    0.5643
+   ],
+   "crossed_ci": [
+    0.1214,
+    0.5679
+   ],
+   "items_mean": 0.3393,
+   "items_t_ci": [
+    0.0577,
+    0.6208
+   ],
+   "items_t_p": 0.025657,
+   "items_pos_neg": [
+    6,
+    1
+   ],
+   "items_sign_p": 0.125,
+   "per_item": {
+    "desk_booking": 0.225,
+    "meeting_room": 0.15,
+    "on_call": -0.05,
+    "rest_break": 0.8,
+    "storage_unit": 0.4,
+    "tool_library": 0.675,
+    "weekend_rota": 0.175
+   }
+  },
+  "semantics_r1:FLIP": {
+   "estimate": -0.1143,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    -0.1786,
+    -0.0536
+   ],
+   "item_ci": [
+    -0.2179,
+    0.0071
+   ],
+   "crossed_ci": [
+    -0.2393,
+    0.025
+   ],
+   "items_mean": -0.1143,
+   "items_t_ci": [
+    -0.2422,
+    0.0137
+   ],
+   "items_t_p": 0.07149,
+   "items_pos_neg": [
+    1,
+    5
+   ],
+   "items_sign_p": 0.2188,
+   "per_item": {
+    "desk_booking": 0.15,
+    "meeting_room": 0.0,
+    "on_call": -0.2,
+    "rest_break": -0.225,
+    "storage_unit": -0.2,
+    "tool_library": -0.175,
+    "weekend_rota": -0.15
+   }
+  },
+  "semantics_r1:INVERT": {
+   "estimate": -0.6143,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    -0.675,
+    -0.5571
+   ],
+   "item_ci": [
+    -0.7607,
+    -0.4679
+   ],
+   "crossed_ci": [
+    -0.7714,
+    -0.4571
+   ],
+   "items_mean": -0.6143,
+   "items_t_ci": [
+    -0.7987,
+    -0.4299
+   ],
+   "items_t_p": 0.000183,
+   "items_pos_neg": [
+    0,
+    7
+   ],
+   "items_sign_p": 0.0156,
+   "per_item": {
+    "desk_booking": -0.375,
+    "meeting_room": -0.425,
+    "on_call": -0.475,
+    "rest_break": -0.775,
+    "storage_unit": -0.9,
+    "tool_library": -0.75,
+    "weekend_rota": -0.6
+   }
+  },
+  "semantics_r1:NONCE": {
+   "estimate": 0.175,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.1143,
+    0.2357
+   ],
+   "item_ci": [
+    0.0321,
+    0.3107
+   ],
+   "crossed_ci": [
+    0.025,
+    0.325
+   ],
+   "items_mean": 0.175,
+   "items_t_ci": [
+    0.002,
+    0.348
+   ],
+   "items_t_p": 0.048139,
+   "items_pos_neg": [
+    6,
+    1
+   ],
+   "items_sign_p": 0.125,
+   "per_item": {
+    "desk_booking": 0.2,
+    "meeting_room": 0.15,
+    "on_call": -0.125,
+    "rest_break": 0.425,
+    "storage_unit": 0.15,
+    "tool_library": 0.375,
+    "weekend_rota": 0.05
+   }
+  },
+  "semantics_r1:CANON-FLIP": {
+   "estimate": 0.4536,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.3607,
+    0.5464
+   ],
+   "item_ci": [
+    0.1929,
+    0.7357
+   ],
+   "crossed_ci": [
+    0.1786,
+    0.7393
+   ],
+   "items_mean": 0.4536,
+   "items_t_ci": [
+    0.1056,
+    0.8015
+   ],
+   "items_t_p": 0.018845,
+   "items_pos_neg": [
+    7,
+    0
+   ],
+   "items_sign_p": 0.0156,
+   "per_item": {
+    "desk_booking": 0.075,
+    "meeting_room": 0.15,
+    "on_call": 0.15,
+    "rest_break": 1.025,
+    "storage_unit": 0.6,
+    "tool_library": 0.85,
+    "weekend_rota": 0.325
+   }
+  },
+  "semantics_r1:CANON-NONCE": {
+   "estimate": 0.1643,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.0821,
+    0.2464
+   ],
+   "item_ci": [
+    0.0393,
+    0.2929
+   ],
+   "crossed_ci": [
+    0.0107,
+    0.3214
+   ],
+   "items_mean": 0.1643,
+   "items_t_ci": [
+    0.0302,
+    0.2983
+   ],
+   "items_t_p": 0.024052,
+   "items_pos_neg": [
+    6,
+    0
+   ],
+   "items_sign_p": 0.0312,
+   "per_item": {
+    "desk_booking": 0.025,
+    "meeting_room": 0.0,
+    "on_call": 0.075,
+    "rest_break": 0.375,
+    "storage_unit": 0.25,
+    "tool_library": 0.3,
+    "weekend_rota": 0.125
+   }
+  },
+  "probe_fields_r1:SQ": {
+   "estimate": 0.4,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.3357,
+    0.4643
+   ],
+   "item_ci": [
+    0.2357,
+    0.5607
+   ],
+   "crossed_ci": [
+    0.2286,
+    0.5786
+   ],
+   "items_mean": 0.4,
+   "items_t_ci": [
+    0.1941,
+    0.6059
+   ],
+   "items_t_p": 0.00315,
+   "items_pos_neg": [
+    7,
+    0
+   ],
+   "items_sign_p": 0.0156,
+   "per_item": {
+    "desk_booking": 0.575,
+    "meeting_room": 0.75,
+    "on_call": 0.375,
+    "rest_break": 0.175,
+    "storage_unit": 0.45,
+    "tool_library": 0.375,
+    "weekend_rota": 0.1
+   }
+  },
+  "probe_fields_r1:SW": {
+   "estimate": 0.3071,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.2536,
+    0.3607
+   ],
+   "item_ci": [
+    0.1893,
+    0.4214
+   ],
+   "crossed_ci": [
+    0.1786,
+    0.4357
+   ],
+   "items_mean": 0.3071,
+   "items_t_ci": [
+    0.1686,
+    0.4457
+   ],
+   "items_t_p": 0.001626,
+   "items_pos_neg": [
+    7,
+    0
+   ],
+   "items_sign_p": 0.0156,
+   "per_item": {
+    "desk_booking": 0.35,
+    "meeting_room": 0.25,
+    "on_call": 0.525,
+    "rest_break": 0.425,
+    "storage_unit": 0.275,
+    "tool_library": 0.275,
+    "weekend_rota": 0.05
+   }
+  },
+  "probe_fields_r1:NC": {
+   "estimate": -0.2464,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    -0.3107,
+    -0.1821
+   ],
+   "item_ci": [
+    -0.375,
+    -0.1213
+   ],
+   "crossed_ci": [
+    -0.3857,
+    -0.1142
+   ],
+   "items_mean": -0.2464,
+   "items_t_ci": [
+    -0.3953,
+    -0.0975
+   ],
+   "items_t_p": 0.00673,
+   "items_pos_neg": [
+    0,
+    7
+   ],
+   "items_sign_p": 0.0156,
+   "per_item": {
+    "desk_booking": -0.175,
+    "meeting_room": -0.175,
+    "on_call": -0.025,
+    "rest_break": -0.3,
+    "storage_unit": -0.425,
+    "tool_library": -0.475,
+    "weekend_rota": -0.15
+   }
+  },
+  "probe_fields_r1:WO": {
+   "estimate": -0.0643,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    -0.1286,
+    0.0
+   ],
+   "item_ci": [
+    -0.2036,
+    0.0857
+   ],
+   "crossed_ci": [
+    -0.2179,
+    0.0964
+   ],
+   "items_mean": -0.0643,
+   "items_t_ci": [
+    -0.2393,
+    0.1107
+   ],
+   "items_t_p": 0.403347,
+   "items_pos_neg": [
+    2,
+    4
+   ],
+   "items_sign_p": 0.6875,
+   "per_item": {
+    "desk_booking": -0.275,
+    "meeting_room": -0.1,
+    "on_call": 0.05,
+    "rest_break": 0.275,
+    "storage_unit": -0.2,
+    "tool_library": -0.2,
+    "weekend_rota": 0.0
+   }
+  },
+  "probe_fields_r1:SQ-NC": {
+   "estimate": 0.6464,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.5607,
+    0.7357
+   ],
+   "item_ci": [
+    0.4393,
+    0.8393
+   ],
+   "crossed_ci": [
+    0.425,
+    0.8571
+   ],
+   "items_mean": 0.6464,
+   "items_t_ci": [
+    0.399,
+    0.8938
+   ],
+   "items_t_p": 0.000689,
+   "items_pos_neg": [
+    7,
+    0
+   ],
+   "items_sign_p": 0.0156,
+   "per_item": {
+    "desk_booking": 0.75,
+    "meeting_room": 0.925,
+    "on_call": 0.4,
+    "rest_break": 0.475,
+    "storage_unit": 0.875,
+    "tool_library": 0.85,
+    "weekend_rota": 0.25
+   }
+  },
+  "pd_prospective_r1:PD": {
+   "estimate": 0.3464,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.2786,
+    0.4143
+   ],
+   "item_ci": [
+    0.1321,
+    0.5607
+   ],
+   "crossed_ci": [
+    0.1214,
+    0.5679
+   ],
+   "items_mean": 0.3464,
+   "items_t_ci": [
+    0.0631,
+    0.6297
+   ],
+   "items_t_p": 0.024256,
+   "items_pos_neg": [
+    6,
+    1
+   ],
+   "items_sign_p": 0.125,
+   "per_item": {
+    "desk_booking": 0.275,
+    "meeting_room": 0.275,
+    "on_call": -0.15,
+    "rest_break": 0.775,
+    "storage_unit": 0.575,
+    "tool_library": 0.525,
+    "weekend_rota": 0.15
+   }
+  },
+  "label_semantics_r1:TRUE": {
+   "estimate": 0.3393,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.275,
+    0.4036
+   ],
+   "item_ci": [
+    0.1036,
+    0.5714
+   ],
+   "crossed_ci": [
+    0.1035,
+    0.5821
+   ],
+   "items_mean": 0.3393,
+   "items_t_ci": [
+    0.0338,
+    0.6448
+   ],
+   "items_t_p": 0.03477,
+   "items_pos_neg": [
+    6,
+    1
+   ],
+   "items_sign_p": 0.125,
+   "per_item": {
+    "desk_booking": 0.25,
+    "meeting_room": 0.1,
+    "on_call": -0.1,
+    "rest_break": 0.7,
+    "storage_unit": 0.65,
+    "tool_library": 0.675,
+    "weekend_rota": 0.1
+   }
+  },
+  "label_semantics_r1:SWAP": {
+   "estimate": -0.0357,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    -0.0929,
+    0.0179
+   ],
+   "item_ci": [
+    -0.1214,
+    0.0536
+   ],
+   "crossed_ci": [
+    -0.1393,
+    0.0751
+   ],
+   "items_mean": -0.0357,
+   "items_t_ci": [
+    -0.129,
+    0.0576
+   ],
+   "items_t_p": 0.385121,
+   "items_pos_neg": [
+    2,
+    4
+   ],
+   "items_sign_p": 0.6875,
+   "per_item": {
+    "desk_booking": 0.1,
+    "meeting_room": -0.125,
+    "on_call": 0.075,
+    "rest_break": -0.05,
+    "storage_unit": -0.075,
+    "tool_library": -0.175,
+    "weekend_rota": 0.0
+   }
+  },
+  "label_semantics_r1:TRUE-SWAP": {
+   "estimate": 0.375,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.2857,
+    0.4643
+   ],
+   "item_ci": [
+    0.0929,
+    0.6607
+   ],
+   "crossed_ci": [
+    0.0821,
+    0.6607
+   ],
+   "items_mean": 0.375,
+   "items_t_ci": [
+    0.0089,
+    0.7411
+   ],
+   "items_t_p": 0.046112,
+   "items_pos_neg": [
+    6,
+    1
+   ],
+   "items_sign_p": 0.125,
+   "per_item": {
+    "desk_booking": 0.15,
+    "meeting_room": 0.225,
+    "on_call": -0.175,
+    "rest_break": 0.75,
+    "storage_unit": 0.725,
+    "tool_library": 0.85,
+    "weekend_rota": 0.1
+   }
+  },
+  "label_semantics_r2:ID_TRUE-SWAP": {
+   "estimate": 0.0643,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    -0.0143,
+    0.1464
+   ],
+   "item_ci": [
+    -0.0714,
+    0.2071
+   ],
+   "crossed_ci": [
+    -0.0929,
+    0.2214
+   ],
+   "items_mean": 0.0643,
+   "items_t_ci": [
+    -0.0919,
+    0.2205
+   ],
+   "items_t_p": 0.35268,
+   "items_pos_neg": [
+    3,
+    2
+   ],
+   "items_sign_p": 1.0,
+   "per_item": {
+    "desk_booking": 0.0,
+    "meeting_room": 0.125,
+    "on_call": -0.15,
+    "rest_break": 0.225,
+    "storage_unit": 0.325,
+    "tool_library": 0.0,
+    "weekend_rota": -0.075
+   }
+  },
+  "position_counterbalance_r1:A": {
+   "estimate": 0.3929,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.3321,
+    0.4536
+   ],
+   "item_ci": [
+    0.2036,
+    0.5893
+   ],
+   "crossed_ci": [
+    0.2,
+    0.5964
+   ],
+   "items_mean": 0.3929,
+   "items_t_ci": [
+    0.1411,
+    0.6446
+   ],
+   "items_t_p": 0.00878,
+   "items_pos_neg": [
+    7,
+    0
+   ],
+   "items_sign_p": 0.0156,
+   "per_item": {
+    "desk_booking": 0.25,
+    "meeting_room": 0.075,
+    "on_call": 0.225,
+    "rest_break": 0.75,
+    "storage_unit": 0.65,
+    "tool_library": 0.625,
+    "weekend_rota": 0.175
+   }
+  },
+  "position_counterbalance_r1:B": {
+   "estimate": 0.0607,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    -0.0036,
+    0.125
+   ],
+   "item_ci": [
+    -0.0214,
+    0.1464
+   ],
+   "crossed_ci": [
+    -0.0321,
+    0.1571
+   ],
+   "items_mean": 0.0607,
+   "items_t_ci": [
+    -0.011,
+    0.1324
+   ],
+   "items_t_p": 0.083686,
+   "items_pos_neg": [
+    6,
+    1
+   ],
+   "items_sign_p": 0.125,
+   "per_item": {
+    "desk_booking": -0.05,
+    "meeting_room": 0.025,
+    "on_call": 0.025,
+    "rest_break": 0.175,
+    "storage_unit": 0.05,
+    "tool_library": 0.15,
+    "weekend_rota": 0.05
+   }
+  },
+  "position_counterbalance_r1:C": {
+   "estimate": 0.2714,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.2,
+    0.3429
+   ],
+   "item_ci": [
+    0.0679,
+    0.475
+   ],
+   "crossed_ci": [
+    0.0607,
+    0.4857
+   ],
+   "items_mean": 0.2714,
+   "items_t_ci": [
+    0.005,
+    0.5379
+   ],
+   "items_t_p": 0.046997,
+   "items_pos_neg": [
+    5,
+    1
+   ],
+   "items_sign_p": 0.2188,
+   "per_item": {
+    "desk_booking": 0.15,
+    "meeting_room": 0.0,
+    "on_call": -0.075,
+    "rest_break": 0.6,
+    "storage_unit": 0.5,
+    "tool_library": 0.6,
+    "weekend_rota": 0.125
+   }
+  },
+  "position_counterbalance_r1:D": {
+   "estimate": 0.0036,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    -0.0607,
+    0.0679
+   ],
+   "item_ci": [
+    -0.0679,
+    0.0714
+   ],
+   "crossed_ci": [
+    -0.0857,
+    0.0929
+   ],
+   "items_mean": 0.0036,
+   "items_t_ci": [
+    -0.0395,
+    0.0467
+   ],
+   "items_t_p": 0.846053,
+   "items_pos_neg": [
+    3,
+    2
+   ],
+   "items_sign_p": 1.0,
+   "per_item": {
+    "desk_booking": 0.075,
+    "meeting_room": 0.0,
+    "on_call": 0.0,
+    "rest_break": 0.025,
+    "storage_unit": -0.075,
+    "tool_library": -0.025,
+    "weekend_rota": 0.025
+   }
+  },
+  "position_counterbalance_r1:field_factor": {
+   "estimate": 0.3,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.2321,
+    0.3696
+   ],
+   "item_ci": [
+    0.1161,
+    0.4911
+   ],
+   "crossed_ci": [
+    0.1107,
+    0.4946
+   ],
+   "items_mean": 0.3,
+   "items_t_ci": [
+    0.061,
+    0.539
+   ],
+   "items_t_p": 0.021895,
+   "items_pos_neg": [
+    7,
+    0
+   ],
+   "items_sign_p": 0.0156,
+   "per_item": {
+    "desk_booking": 0.1875,
+    "meeting_room": 0.025,
+    "on_call": 0.0625,
+    "rest_break": 0.575,
+    "storage_unit": 0.5875,
+    "tool_library": 0.55,
+    "weekend_rota": 0.1125
+   }
+  },
+  "position_counterbalance_r1:position_factor": {
+   "estimate": 0.0321,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    -0.025,
+    0.0875
+   ],
+   "item_ci": [
+    -0.0393,
+    0.1054
+   ],
+   "crossed_ci": [
+    -0.0607,
+    0.1232
+   ],
+   "items_mean": 0.0321,
+   "items_t_ci": [
+    -0.0342,
+    0.0985
+   ],
+   "items_t_p": 0.280759,
+   "items_pos_neg": [
+    5,
+    1
+   ],
+   "items_sign_p": 0.2188,
+   "per_item": {
+    "desk_booking": 0.1125,
+    "meeting_room": 0.025,
+    "on_call": 0.1375,
+    "rest_break": 0.0,
+    "storage_unit": 0.0125,
+    "tool_library": -0.075,
+    "weekend_rota": 0.0125
+   }
+  },
+  "floor_lift_r1:L_PD": {
+   "estimate": 0.3833,
+   "n_units": 120,
+   "n_agents": 40,
+   "n_items": 3,
+   "unit_ci": [
+    0.2917,
+    0.475
+   ],
+   "item_ci": [
+    0.0,
+    0.6833
+   ],
+   "crossed_ci": [
+    0.0,
+    0.7
+   ],
+   "items_mean": 0.3833,
+   "items_t_ci": [
+    -0.4779,
+    1.2446
+   ],
+   "items_t_p": 0.195578,
+   "items_pos_neg": [
+    2,
+    0
+   ],
+   "items_sign_p": 0.5,
+   "per_item": {
+    "rest_break": 0.675,
+    "storage_unit": 0.0,
+    "tool_library": 0.475
+   }
+  },
+  "floor_lift_r1:L_SQ": {
+   "estimate": 0.1333,
+   "n_units": 120,
+   "n_agents": 40,
+   "n_items": 3,
+   "unit_ci": [
+    0.0583,
+    0.2083
+   ],
+   "item_ci": [
+    -0.0083,
+    0.3417
+   ],
+   "crossed_ci": [
+    -0.0167,
+    0.35
+   ],
+   "items_mean": 0.1333,
+   "items_t_ci": [
+    -0.3369,
+    0.6036
+   ],
+   "items_t_p": 0.346803,
+   "items_pos_neg": [
+    2,
+    0
+   ],
+   "items_sign_p": 0.5,
+   "per_item": {
+    "rest_break": 0.35,
+    "storage_unit": 0.0,
+    "tool_library": 0.05
+   }
+  },
+  "floor_lift_r1:L_SQ-L_PD": {
+   "estimate": -0.25,
+   "n_units": 120,
+   "n_agents": 40,
+   "n_items": 3,
+   "unit_ci": [
+    -0.3583,
+    -0.1333
+   ],
+   "item_ci": [
+    -0.475,
+    0.0
+   ],
+   "crossed_ci": [
+    -0.5,
+    0.0
+   ],
+   "items_mean": -0.25,
+   "items_t_ci": [
+    -0.802,
+    0.302
+   ],
+   "items_t_p": 0.190666,
+   "items_pos_neg": [
+    0,
+    2
+   ],
+   "items_sign_p": 0.5,
+   "per_item": {
+    "rest_break": -0.325,
+    "storage_unit": 0.0,
+    "tool_library": -0.425
+   }
+  },
+  "floor_lift_r1:PD_BASE": {
+   "estimate": 0.35,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.2892,
+    0.4143
+   ],
+   "item_ci": [
+    0.1286,
+    0.575
+   ],
+   "crossed_ci": [
+    0.125,
+    0.575
+   ],
+   "items_mean": 0.35,
+   "items_t_ci": [
+    0.0575,
+    0.6425
+   ],
+   "items_t_p": 0.026345,
+   "items_pos_neg": [
+    6,
+    1
+   ],
+   "items_sign_p": 0.125,
+   "per_item": {
+    "desk_booking": 0.45,
+    "meeting_room": 0.075,
+    "on_call": -0.075,
+    "rest_break": 0.825,
+    "storage_unit": 0.425,
+    "tool_library": 0.6,
+    "weekend_rota": 0.15
+   }
+  },
+  "floor_lift_r1:SQ_BASE": {
+   "estimate": 0.3571,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.2964,
+    0.4179
+   ],
+   "item_ci": [
+    0.2,
+    0.5179
+   ],
+   "crossed_ci": [
+    0.1928,
+    0.5286
+   ],
+   "items_mean": 0.3571,
+   "items_t_ci": [
+    0.1535,
+    0.5608
+   ],
+   "items_t_p": 0.005141,
+   "items_pos_neg": [
+    7,
+    0
+   ],
+   "items_sign_p": 0.0156,
+   "per_item": {
+    "desk_booking": 0.725,
+    "meeting_room": 0.5,
+    "on_call": 0.325,
+    "rest_break": 0.075,
+    "storage_unit": 0.375,
+    "tool_library": 0.375,
+    "weekend_rota": 0.125
+   }
+  },
+  "precipitation_r3:INSTANCES-NEITHER": {
+   "estimate": 0.4286,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.3821,
+    0.475
+   ],
+   "item_ci": [
+    0.2196,
+    0.6375
+   ],
+   "crossed_ci": [
+    0.2232,
+    0.6411
+   ],
+   "items_mean": 0.4286,
+   "items_t_ci": [
+    0.1513,
+    0.7058
+   ],
+   "items_t_p": 0.009157,
+   "items_pos_neg": [
+    7,
+    0
+   ],
+   "items_sign_p": 0.0156,
+   "per_item": {
+    "desk_booking": 0.1125,
+    "meeting_room": 0.425,
+    "on_call": 0.4875,
+    "rest_break": 0.9125,
+    "storage_unit": 0.025,
+    "tool_library": 0.4125,
+    "weekend_rota": 0.625
+   }
+  },
+  "precipitation_r3:RULE-NEITHER": {
+   "estimate": 0.4625,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.4179,
+    0.5071
+   ],
+   "item_ci": [
+    0.2446,
+    0.6982
+   ],
+   "crossed_ci": [
+    0.241,
+    0.6929
+   ],
+   "items_mean": 0.4625,
+   "items_t_ci": [
+    0.1613,
+    0.7637
+   ],
+   "items_t_p": 0.009424,
+   "items_pos_neg": [
+    7,
+    0
+   ],
+   "items_sign_p": 0.0156,
+   "per_item": {
+    "desk_booking": 0.1625,
+    "meeting_room": 0.4375,
+    "on_call": 0.4125,
+    "rest_break": 1.0,
+    "storage_unit": 0.05,
+    "tool_library": 0.425,
+    "weekend_rota": 0.75
+   }
+  },
+  "precipitation_r3:RULE-INSTANCES": {
+   "estimate": 0.0339,
+   "n_units": 280,
+   "n_agents": 40,
+   "n_items": 7,
+   "unit_ci": [
+    0.0036,
+    0.0643
+   ],
+   "item_ci": [
+    -0.0196,
+    0.0857
+   ],
+   "crossed_ci": [
+    -0.0321,
+    0.0982
+   ],
+   "items_mean": 0.0339,
+   "items_t_ci": [
+    -0.0249,
+    0.0928
+   ],
+   "items_t_p": 0.207943,
+   "items_pos_neg": [
+    6,
+    1
+   ],
+   "items_sign_p": 0.125,
+   "per_item": {
+    "desk_booking": 0.05,
+    "meeting_room": 0.0125,
+    "on_call": -0.075,
+    "rest_break": 0.0875,
+    "storage_unit": 0.025,
+    "tool_library": 0.0125,
+    "weekend_rota": 0.125
+   }
+  },
+  "parameter_followup:AW": {
+   "estimate": 0.0161,
+   "n_units": 560,
+   "n_agents": 80,
+   "n_items": 7,
+   "unit_ci": [
+    -0.025,
+    0.0571
+   ],
+   "item_ci": [
+    -0.0393,
+    0.0732
+   ],
+   "crossed_ci": [
+    -0.0518,
+    0.0875
+   ],
+   "items_mean": 0.0161,
+   "items_t_ci": [
+    -0.0376,
+    0.0698
+   ],
+   "items_t_p": 0.491527,
+   "items_pos_neg": [
+    4,
+    2
+   ],
+   "items_sign_p": 0.6875,
+   "per_item": {
+    "desk_booking": -0.0625,
+    "meeting_room": 0.1,
+    "on_call": 0.05,
+    "rest_break": -0.05,
+    "storage_unit": 0.05,
+    "tool_library": 0.025,
+    "weekend_rota": 0.0
+   }
+  },
+  "parameter_followup:LL": {
+   "estimate": -0.0357,
+   "n_units": 560,
+   "n_agents": 80,
+   "n_items": 7,
+   "unit_ci": [
+    -0.0804,
+    0.0071
+   ],
+   "item_ci": [
+    -0.1286,
+    0.075
+   ],
+   "crossed_ci": [
+    -0.1393,
+    0.0804
+   ],
+   "items_mean": -0.0357,
+   "items_t_ci": [
+    -0.1614,
+    0.0899
+   ],
+   "items_t_p": 0.512783,
+   "items_pos_neg": [
+    1,
+    5
+   ],
+   "items_sign_p": 0.2188,
+   "per_item": {
+    "desk_booking": -0.0625,
+    "meeting_room": -0.0625,
+    "on_call": 0.2375,
+    "rest_break": -0.0375,
+    "storage_unit": -0.1875,
+    "tool_library": -0.1375,
+    "weekend_rota": 0.0
+   }
+  },
+  "parameter_followup:TfA": {
+   "estimate": -0.1107,
+   "n_units": 560,
+   "n_agents": 80,
+   "n_items": 7,
+   "unit_ci": [
+    -0.1536,
+    -0.0661
+   ],
+   "item_ci": [
+    -0.2375,
+    0.0232
+   ],
+   "crossed_ci": [
+    -0.2446,
+    0.0304
+   ],
+   "items_mean": -0.1107,
+   "items_t_ci": [
+    -0.2772,
+    0.0558
+   ],
+   "items_t_p": 0.154885,
+   "items_pos_neg": [
+    2,
+    4
+   ],
+   "items_sign_p": 0.6875,
+   "per_item": {
+    "desk_booking": 0.175,
+    "meeting_room": 0.025,
+    "on_call": -0.3125,
+    "rest_break": -0.275,
+    "storage_unit": -0.2125,
+    "tool_library": -0.175,
+    "weekend_rota": 0.0
+   }
+  },
+  "parameter_followup:MoR": {
+   "estimate": -0.0732,
+   "n_units": 560,
+   "n_agents": 80,
+   "n_items": 7,
+   "unit_ci": [
+    -0.1143,
+    -0.0304
+   ],
+   "item_ci": [
+    -0.125,
+    -0.0232
+   ],
+   "crossed_ci": [
+    -0.1339,
+    -0.0071
+   ],
+   "items_mean": -0.0732,
+   "items_t_ci": [
+    -0.1106,
+    -0.0358
+   ],
+   "items_t_p": 0.003039,
+   "items_pos_neg": [
+    0,
+    6
+   ],
+   "items_sign_p": 0.0312,
+   "per_item": {
+    "desk_booking": -0.075,
+    "meeting_room": -0.0625,
+    "on_call": 0.0,
+    "rest_break": -0.0625,
+    "storage_unit": -0.125,
+    "tool_library": -0.1125,
+    "weekend_rota": -0.075
+   }
+  },
+  "pd_crossmodel_r1:PD_haiku": {
+   "estimate": 0.1333,
+   "n_units": 240,
+   "n_agents": 40,
+   "n_items": 6,
+   "unit_ci": [
+    0.0625,
+    0.2042
+   ],
+   "item_ci": [
+    0.0083,
+    0.2667
+   ],
+   "crossed_ci": [
+    -0.0125,
+    0.2833
+   ],
+   "items_mean": 0.1333,
+   "items_t_ci": [
+    -0.0202,
+    0.2869
+   ],
+   "items_t_p": 0.076001,
+   "items_pos_neg": [
+    4,
+    1
+   ],
+   "items_sign_p": 0.375,
+   "per_item": {
+    "desk_booking": 0.225,
+    "meeting_room": 0.0,
+    "storage_unit": 0.35,
+    "tool_library": -0.05,
+    "ward_transfer": 0.15,
+    "weekend_rota": 0.125
+   }
+  },
+  "id_crossmodel_r1:ID_haiku": {
+   "estimate": 0.075,
+   "n_units": 240,
+   "n_agents": 40,
+   "n_items": 6,
+   "unit_ci": [
+    0.0125,
+    0.1417
+   ],
+   "item_ci": [
+    -0.0417,
+    0.1875
+   ],
+   "crossed_ci": [
+    -0.0625,
+    0.2042
+   ],
+   "items_mean": 0.075,
+   "items_t_ci": [
+    -0.0618,
+    0.2118
+   ],
+   "items_t_p": 0.217883,
+   "items_pos_neg": [
+    4,
+    2
+   ],
+   "items_sign_p": 0.6875,
+   "per_item": {
+    "desk_booking": 0.225,
+    "meeting_room": -0.125,
+    "storage_unit": 0.175,
+    "tool_library": 0.075,
+    "ward_transfer": -0.025,
+    "weekend_rota": 0.125
+   }
+  }
+ }
+}

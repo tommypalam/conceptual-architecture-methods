@@ -1,7 +1,7 @@
 # arXiv submission — what is ready and what you must do
 
-**Built and verified 22 September 2026.** `preprint.pdf`, 12 pages, builds clean
-with no missing characters.
+**Rebuilt 23 September 2026** after a full revision (see the end of this file).
+`preprint.pdf`, 19 pages including appendices, builds clean with a reference list.
 
 ## Files here
 
@@ -9,9 +9,10 @@ with no missing characters.
 |---|---|
 | `preprint.pdf` | the compiled paper — what a reader sees |
 | `preprint.tex` | TeX source; **arXiv wants this**, not the PDF alone |
-| `references.bib` | 15 entries, all from the verified record |
-| `abstract.txt` | 1,914 characters, plain text, for the submission form (limit 1,920) |
-| `preamble.tex`, `build.ps1` | the toolchain; rebuild with `powershell -File docs/paper/arxiv/build.ps1` |
+| `references.bib` | 19 entries: 15 from the verified record, 4 added and verified 23 Sept (see `../citation_verification.md`) |
+| `abstract.txt` | plain text for the submission form (limit 1,920 characters) |
+| `preamble.tex`, `build.ps1`, `build.sh` | the toolchain; rebuild with `powershell -File docs/paper/arxiv/build.ps1` |
+| `../figures/` | the two figures; **upload them with the TeX** (the TeX references `figures/fig1_forest.pdf` and `figures/fig2_items.pdf`) |
 
 ## Steps only you can do
 
@@ -25,8 +26,12 @@ with no missing characters.
 4. **Licence.** The default arXiv licence is fine for a preprint you may later
    submit to a conference. CC-BY is more permissive and some venues prefer it;
    either is compatible with an ACL/EMNLP submission.
-5. **Upload.** Submit `preprint.tex` plus `references.bib`. arXiv compiles it
-   itself; do not upload only the PDF unless the TeX fails to compile there.
+5. **Upload.** Submit `preprint.tex` plus a `figures/` folder with both figure
+   PDFs. The reference list is already rendered into the TeX, so no `.bib` is
+   needed. arXiv compiles it itself; do not upload only the PDF unless the TeX
+   fails to compile there.
+6. **Make the repository public** (or remove the URL from the title footnote):
+   the paper points readers to https://github.com/tommypalam/conceptual-architecture-methods.
 
 ## Before you press submit
 
@@ -60,3 +65,29 @@ a main-conference submission.
 The arXiv identifier should be added to the repository README and to
 `docs/PROJECT_SPLIT.md`, so the thesis and the paper can be told apart by anyone
 who arrives at either.
+
+
+## Revision of 23 September 2026
+
+Rewritten around one claim — the definition carries the effect — with these changes:
+
+- **Bibliography fixed.** The 22 Sept PDF had no reference list (citations were
+  plain text, so citeproc rendered nothing). Citations are now `[@key]`.
+- **Outcome stated plainly as keep-rate.** The frozen table labels keeping `good`;
+  the paper reports the choice and attaches no moral reading.
+- **§5.1 no longer claims "prose does not do what numbers do".** The instruction
+  was not matched in meaning; §6.4's on-topic principle moves keep-rate as much as
+  the block.
+- **Item-level robustness for every contrast** (crossed agent × item bootstrap and
+  item-level t-test; `docs/paper/analysis/`, zero API calls). The decisive
+  estimand is now CANON − FLIP (−0.454, 7/7 items, robust); FLIP's own sign and
+  the floor-lift dissociation are reported as unit-level only.
+- **Models, temperature, output caps, agents and the full prompt** are stated;
+  item texts and twin clauses in an appendix.
+- **Two figures**, generated from the analysis JSON.
+- Numbers checked by an independent pass against results.json / assessments; nine
+  discrepancies found and corrected (e.g. two transport failures, not one; 17
+  twin wordings, not eleven; review-instability counts attributed to the right
+  pools; Worst-off Priority excluded from "follows its definition").
+- **Known weaknesses unchanged:** one task family, one model for §6, no human
+  comparison.

@@ -1,173 +1,184 @@
-# The Model Reads the Definition
-
-## Isolating What Carries Behaviour in a Structured Prompt, and Showing It Is the Text That Says What the Scale Means
-
-**Tommaso Piero Palamenga** — Bocconi University
-
-*Draft, 22 September 2026. Every figure is traceable to a frozen per-call record
-in the accompanying repository; designations are named inline so each claim can
-be checked against its own assessment. The long-form draft this was cut from,
-containing the full coordinate map and the complete methodological record, is
-retained as `paper_full_record.md`.*
-
-> **Relation to the author's thesis.** This paper and the author's undergraduate
-> thesis draw on one body of evidence and are separate documents. The thesis
-> (submitted and frozen) presents a ten-parameter encoding framework on evidence
-> to 18 September 2026. **This paper is not a longer version of it.** It makes a
-> narrower claim on a wider evidence base, and reports results collected
-> afterwards that *constrain* that framework. Neither document is edited to agree
-> with the other; see `../PROJECT_SPLIT.md`.
-
+---
+title: "The Model Reads the Definition"
+subtitle: "Field-Level Controls Show Which Part of a Structured Prompt Carries Behaviour"
+author: "Tommaso Piero Palamenga^[Bocconi University. This paper and the author's undergraduate thesis draw on one body of evidence but are separate documents: the thesis (submitted, frozen) presents a ten-parameter encoding framework on evidence to 18 September 2026; this paper makes a narrower claim on a wider evidence base, including later results that constrain that framework. Code, prespecifications and every per-call record: <https://github.com/tommypalam/conceptual-architecture-methods>.]"
+date: "Preprint, September 2026"
+abstract: |
+  When a structured block in a prompt (a persona, a trait vector, a configuration) changes a language model's behaviour, the usual inference is that the model read what the block says. That inference is rarely tested, because the natural comparisons confound what a field *means* with the fact that text is present, how long it is, where it sits and what number it carries. We introduce field-level controls that separate these: **pinning** one field to its endpoints with every other byte fixed; a **swap control** that moves the identical numeral onto a partner field, so both prompts contain the same numbers on the same lines; a **replication gate** that requires the effect to reproduce before its control is read; and **definition edits** that change what a field says while holding its name, line and numeral fixed. Applied to a ten-field block over seven two-option allocation dilemmas with tied payoffs (35,879 recorded calls, mainly on `gpt-5.4-mini`), the controls localise the behaviour to one field (+0.375 on keep-rate against its swap control) rather than to its line or its numeral. Exchanging only which end of that field's scale is defined as which moves the effect by −0.454 on all seven items and makes it negative on five; fields we invented move choices in the directions their definitions state, including one written to point the opposite way (three of four locked predictions held). The field's *name*, by contrast, is a poor guide to what it does: the field called Procedural Dependence behaves as a status-quo pressure rather than as sensitivity to procedure. The same controls withdrew a field that had cleared a corrected significance test. We report item-level robustness for every contrast, and we claim no understanding, no moral quality and no generality beyond one task family.
 ---
 
-## Abstract
+## 1. Introduction
 
-When a language model is given a persona, a trait vector or a configuration
-block and its behaviour changes, the standard inference is that it read the
-description. That inference has never been cleanly testable, because every
-natural control confounds what a field *means* with the fact that it is present,
-how long it is, where it sits, and what number it carries.
+Practitioners routinely condition language-model agents on structured text: a
+persona, a list of traits with numeric levels, a configuration block. When
+behaviour changes, the next step is almost always to say the model *read* the
+block. It saw that this agent is cautious, or process-oriented, and acted on it.
+Persona prompting and much of agent design rest on that step.
 
-We build a control that does not. **Pinning** sets one field to its endpoints
-with every other byte of the prompt held identical. A **swap control** moves the
-identical numeral onto a partner field, so the two prompts contain the same ten
-numbers on the same ten lines in the same order and differ only in which field
-holds the value. A **replication gate** requires an effect to reproduce before
-its swap control is read. On a ten-field encoding over a family of deterministic
-allocation decisions this isolates a single field carrying +0.375 [+0.286,
-+0.464], replicated on a second provider and robust to a 2×2 that separates the
-field from the line it occupies.
+The step is an inference, and several rival mechanisms predict the same
+observation. The block adds text, and more text changes outputs. It adds
+structure, which models may treat differently from prose. It contains extreme
+numerals, which may be salient wherever they sit, or salient only on some lines.
+It contains names the model may associate with dispositions regardless of what
+the block says they mean. The prompt-sensitivity literature shows that changes of
+exactly this kind, with meaning held constant, can move model behaviour
+substantially [@lu2021fantastically; @sclar2023quantifying; @razavi2025benchmarking].
+A practitioner who has built a persona and seen it work therefore cannot say,
+from that observation alone, which of these is happening, and the alternatives
+license very different conclusions about what was built.
 
-**Then we ask what about the field does the work, and the answer is what it
-says.** Keep the name, the number, the line and every character in the block;
-exchange only which end of the scale is defined as which. The effect reverses,
-from +0.339 to −0.114 [−0.179, −0.050]. Numeric salience predicts every arm
-positive; an identical printed name cannot produce opposite signs. **The model
-reads the definition.**
+This paper asks a narrow question: **which part of a structured prompt carries
+the behaviour, and what about that part does the carrying?** We answer it with
+controls that change one thing at a time, holding every other byte of the prompt
+fixed, and we apply them to one structured block on one family of decisions.
 
-Three further results show how general that is. Four fields written for the
-purpose, none in the encoding, move choices exactly as their own definitions
-predict — one of them more strongly than the encoding's verified parameter — so
-the effect is a property of defined fields, not of this encoding. The verified
-parameter proves less sensitive to a stated procedure than an explicit
-status-quo field is, so what it does is not what its name suggests. And an
-agent's own five prior decisions induce the behaviour within 0.034 of stating
-the rule outright: the model treats examples, glosses and rules as the same kind
-of thing.
+**What we find.** (i) The effect localises to one field of ten. Moving the
+identical numeral to a different field removes it, and moving the field to a
+different line keeps it. (ii) What carries it is the field's **definition**, the
+two-line gloss saying what each end of the scale means. Exchanging the two ends of
+the gloss, with the name, line, numeral and the block's full character multiset
+unchanged, moves the effect by −0.454 on every item and makes it negative on five of seven.
+Removing the name while keeping the definition preserves about half of the effect.
+(iii) The result is not specific to the block we started from. Of four fields we
+wrote for the purpose, three move choices in the directions their definitions
+state, and two of these, in the same slot, move choices in opposite directions. (iv) A field's
+name is a poor guide to what it does. The field named *Procedural Dependence*
+behaves as a pressure to keep existing arrangements, and it is **less** sensitive
+to whether a procedure was followed than an explicit status-quo field is. (v) The
+method can retract its own findings. A second field cleared a Holm-corrected test
+at 25 agents and did not replicate at 40 or 80. Its swap control, read without a
+replication gate, would have certified it.
 
-The method retracted one of its own certified findings, and we report that as
-its strongest credential. All results come from one task family of seven
-vignettes with payoff totals tied by construction, on one model for the
-identification; a second family was attempted and stopped at screening. No human
-comparison was collected, and we claim no semantic understanding. What we claim
-is narrower and, we think, more useful: a way to find out which part of a
-structured prompt a model is actually reading, and evidence that it is the part
-that says what the scale means.
+**Contributions.**
 
----
+- **A set of field-level controls** (pinning, a numeral-identical swap control, a
+  line-by-field crossing, a replication gate, and definition edits) that apply to
+  any prompt with addressable fields and require no access to model internals.
+- **Evidence that the definition carries the effect**, excluding numeric salience
+  and name association as sufficient explanations, with item-level robustness
+  analyses for every contrast.
+- **Evidence that field names mislead.** An invented field can outperform the
+  block's own field, and that field does not do what its name suggests.
+- **Two methodological findings** for anyone running prompt experiments:
+  presentation order must be *crossed* with anything that could correlate with it,
+  not merely randomised, and automated design review returns different verdicts
+  on byte-identical material.
 
-## 1. The inference everyone makes
+**Scope.** All results come from one family of seven short allocation dilemmas.
+The identification work uses one model (`gpt-5.4-mini`), with a second provider
+for the first-stage results. Every outcome is a deterministic function of the
+option chosen. We make no claim about moral quality, human resemblance or
+understanding (§9).
 
-Give a language model a block of structured text — a persona, a trait vector, a
-configuration — and its behaviour changes. The next step is almost always to say
-the model *read* the block: it saw that this agent is cautious, or
-process-oriented, and acted on it. Persona prompting, agent frameworks and much
-of alignment practice rest on that step.
+## 2. Related work
 
-It is an inference, and it has rivals that predict the same observation. The
-block adds text, and more text changes behaviour. It adds structure, and
-structured text is processed differently from prose. It contains an extreme
-numeral, and extreme numerals are salient wherever they sit. It contains a label
-the model may associate with a disposition, independently of anything the block
-says that label means. A practitioner who has built a persona and seen it work
-cannot, from that observation, say which of these is happening — and they
-license very different conclusions about what has been built.
+**Prompt sensitivity.** Surface form matters. The order of in-context examples
+can move performance from near chance to near the state of the art
+[@lu2021fantastically]. Formatting alone spans large accuracy ranges with meaning
+held constant [@sclar2023quantifying], and the same holds for wording, structure
+and punctuation [@razavi2025benchmarking]. Neither scale nor instruction tuning
+removes the brittleness [@chatterjee2024posix]. This literature is why our
+controls hold surface form fixed to the byte rather than approximately: any
+looser comparison sits within the range these studies show to matter on its own.
 
-This paper asks a narrow question and answers it:
+**Do models use what prompts mean?** @webson2022prompt found that prompt-based
+models could learn as fast from irrelevant or misleading templates as from
+instructive ones, and @min2022rethinking that randomly replacing demonstration
+labels barely hurts in-context performance. Large models can override semantic
+priors to learn from semantically unrelated labels [@wei2023larger], and output
+can bind to a demonstrated label inventory regardless of plausibility
+[@liu2026incontext]. These results are deflationary about semantic reading, and
+we take them seriously. Our setting differs: a current instruction-tuned model
+makes a zero-shot choice, and the manipulated text is a definition, not a
+template or a label. Here the definition's content does determine the direction
+of the effect (§6). What remains open is *why* it does. Our evidence is
+consistent with the model treating a definition as an instruction (§6.4, §9).
 
-> **Which part of a structured prompt carries the behaviour, and what about that
-> part does the carrying?**
+**Persona and profile conditioning.** @luzdearaujo2025helpful compare 162
+personas across seven models against an empty persona and 30 paraphrases of "a
+helpful assistant", and find more variability under personas than under the
+control. @zheng2024helpful find that personas in system prompts do not reliably
+improve performance on objective tasks, and that the effects of particular
+personas are hard to predict. Both compare conditioned with unconditioned
+prompts. As far as our search found, work that isolates *which field* within a
+conditioning block carries an effect, with every other byte held fixed, is
+scarce. That is the gap this paper addresses. A search that found nothing is not
+proof that nothing exists.
 
-### 1.1 The answer, in brief
+**Causal localisation.** Mechanistic interpretability localises behaviour inside
+the model through patching, mediation and tracing, unified as causal abstraction
+[@geiger2023causal]. It has well-documented sensitivities to the choice of
+intervention [@zhang2023towards] and to hidden interactions between mediators
+[@vaidyanathan2026curse]. Label words have been found to act as anchors that
+gather information in shallow layers [@wang2023label]. Our controls are the
+input-side analogue: the same interventionist logic, applied to prompt fields
+rather than activations. We gain applicability to closed models and lose
+resolution. We localise to a field, not a circuit.
 
-One field carries it, and what carries it is what that field is *defined* to
-mean. We reach the first by holding every byte of the prompt fixed except one and
-by a swap control that keeps the numerals, the lines and the order identical
-across arms. We reach the second by exchanging only the two endpoint definitions
-of a scale and watching the effect reverse.
+**Moral-choice evaluation.** We borrow a task framing from work on in-context
+ethical policies [@rao2023ethical], but we measure only which option is chosen.
+@sachdeva2025normative report low agreement between models on everyday moral
+dilemmas despite moderate-to-high self-consistency. That is one reason not to
+expect effect sizes to transfer across providers (§5.6).
 
-We then push on the result until it tells us what it is a result *about*. It is
-not about the particular encoding we started from: fields we wrote ourselves
-behave the same way, one of them more strongly. It is not about the field's name:
-the name contributes, but the definition dominates and half the effect survives
-with the name removed. And it is not, on our evidence, about the model *holding*
-anything: examples and an explicit rule induce the behaviour to within 0.034 of
-each other. What the model does is read the definitional text in front of it and
-act on it, whatever form that text takes.
+## 3. Setup
 
-### 1.2 Why the narrowness is the point
+### 3.1 Models and calls
 
-We answer for one encoding on one task family, on one model for the
-identification. The design demands it: holding every byte constant except one
-requires a frozen prompt, a deterministic outcome and a fixed item set. That buys
-an answer no looser design can give, and it bounds what the answer covers. §7
-says exactly where the bound sits.
+The identification work (§5.1–5.5, §6) uses `gpt-5.4-mini-2026-03-17`
+(temperature 1, reasoning disabled). Cross-provider tests use
+`claude-haiku-4-5-20251001` (temperature 1). Each call is one system prompt and
+one user turn, with no conversational state. The model returns a JSON object
+naming an option. Output caps were 1,536 tokens in earlier designations and 256
+in later ones, since the longest reply observed in 2,240 calls was 21 tokens. A
+reply that fails to parse is preserved as a failure and never retried.
 
-The method's most important property is that **it can fail**. §4.4 reports a
-field that cleared a corrected significance bar, then dissolved on a larger
-sample of the same model, and was withdrawn by the method's own gate. We regard
-that as the strongest evidence in the paper that the rest of it can be believed.
+### 3.2 Items
 
-### 1.3 Contributions
+Each item is a short allocation dilemma in which one party holds an arrangement
+(a desk booking, a leased storage unit, a weekly meeting slot) and has said they
+want to keep it, while others would benefit from overriding it. One option
+**keeps** the arrangement and one **overrides** it. A shared framing states that
+all effects are certain, that units are artificial and equally valuable to
+everyone, and that no one is applying pressure. An example:
 
-- **A separation method** — pinning, a numeral-identical swap control, and a
-  replication gate — applicable to any prompt with addressable fields.
-- **A reversal**: exchanging what a scale is *defined* to mean, holding its name,
-  line and numeral fixed, reverses the effect. This excludes field-weighted
-  numeric salience, which no prior control could.
-- **Generality of the same result**: fields written for the purpose move choices
-  as their definitions predict, one more strongly than the encoding's parameter.
-- **A retraction**, made by the method's own gate, of a field it had certified.
-- **A negative methodological finding**: automated design review returns opposite
-  verdicts on byte-identical material.
+> *An office has one bookable desk left for the week. One person booked it and
+> has said they want to keep the booking. Two visiting staff otherwise work from
+> a corridor bench.*
+>
+> `KEEP_DESK`: Leave the desk with the person who booked it. That person gains 1
+> unit; the two visiting staff lose 4 units between them.
+>
+> `REASSIGN_DESK`: Give the desk to the two visiting staff. The two visiting
+> staff gain 2 units between them; that person loses 5 units.
 
-### 1.4 What we do not claim
+**Payoff totals are tied by construction.** Both options sum to −3 on every item,
+so welfare maximisation, minimax and best-case reasoning are indifferent between
+them. An earlier designation that tied the totals left unprofiled choices
+unchanged, which rules out arithmetic as the operative variable. Items were
+written to a three-part authoring criterion (matched consequence text, no
+asymmetric violation labels, no asymmetric obligation words), enforced in code.
+All item texts are in Appendix B.
 
-No moral quality, no human resemblance, no semantic understanding, and no
-generality beyond the tested family. §7 states each as a constraint on what may
-be concluded.
+Seven items were used on `gpt-5.4-mini` and six on `claude-haiku-4-5`, five of
+them shared. The item sets differ because items were **screened for baseline
+dispersion** on each model before any profiled call. An item on which the
+unprofiled model always gives the same answer cannot show an effect. Screening
+was on dispersion only, never on outcomes, and no item was dropped after a
+profiled result was seen.
 
----
+### 3.3 Outcome
 
-## 2. Setup
+The outcome is **keep-rate**: the share of decisions choosing to keep the
+arrangement. It is read from the option identifier alone, and no model text is
+interpreted. (The project's frozen classification table labels the keep option
+`good` and the override option `not_good`. Since that label is a fixed function
+of the choice, we report the choice directly and attach no moral reading to it.)
 
-### 2.1 The decision task
+### 3.4 The structured block and the agents
 
-An agent faces a two-option choice in which both options set aside something a
-reasonable person could hold binding: one party's claim, or an outcome for
-others. There is deliberately no option that sets aside nothing.
-
-**Payoff totals are tied by construction** — each option's stipulated effects sum
-to −3 — so welfare-maximisation, minimax and best-case reasoning are all
-indifferent between them. This is the design's load-bearing control: it removes
-arithmetic as the operative variable, leaving the prompt field as the candidate.
-
-Seven items survived screening on the calibration model. All are
-workplace-resource vignettes; all state consequences in artificial units declared
-equally valuable to every person.
-
-### 2.2 The outcome
-
-Each action is classified `good` or `not_good` by a deterministic rule reading
-the action's declared properties — whether it deceives, coerces or treats
-equivalent claims unequally — and never the model's text. The model chooses an
-option identifier; the label is a lookup. **No moral judgement is made by any
-model at any point**, ours or the subject's.
-
-### 2.3 The encoding
-
-Ten fields, each rendered as a name, a value in [0,1] and a two-line gloss naming
-what each end of the scale means:
+The system prompt carries a ten-field block. Each field is rendered as a name, a
+value in [0, 1] to two decimals, and a two-line definition of the scale's ends:
 
 ```
  6. Procedural Dependence: 0.90
@@ -175,516 +186,674 @@ what each end of the scale means:
      1 = process-dominant; fair procedure matters independently)
 ```
 
-The encoding's provenance is not this paper's subject. What matters is that it
-provides *addressable fields with declared meanings* — the object the method
-operates on.
+The ten fields come from an encoding of political-ethical concepts developed in
+the author's thesis. Their provenance is not this paper's subject. What matters
+is that they are **addressable fields with stated meanings**, which is what the
+controls operate on. An **agent** is one draw of the ten values from independent
+Beta distributions. The same agent appears in every arm of a designation, so all
+contrasts are paired within agent and item. Designations use 40 agents unless
+stated (25 in the initial sweep, 80 in follow-ups). Appendix A reproduces a full
+system prompt.
 
-### 2.4 Screening before profiling
+## 4. Method
 
-Items are screened for baseline dispersion before any profiled study, and
-screening is on dispersion only, never on outcomes. This rule exists because four
-early designs returned nulls later traced to deterministic unprofiled baselines:
-an item on which the model always answers the same way cannot show any effect,
-and spending on one is a loss with no information.
+### 4.1 Pinning
 
----
+To test field *F*, set *F* to 0.10 in one arm and 0.90 in the other, keeping the
+other nine values as drawn for that agent. The two system prompts differ on
+exactly one line, verified byte for byte for every agent before any call, and
+the user turn is identical. The **effect** of *F* is the paired difference in
+keep-rate, 0.90 minus 0.10.
 
-## 3. Method
+### 4.2 The swap control
 
-### 3.1 Pinning
-
-One field is set to 0.10 and to 0.90 while the other nine keep the values drawn
-for that agent. The two prompts differ on exactly one line — verified per agent,
-byte for byte — and the user turn is identical. Each agent meets both levels, so
-the contrast is within-agent and within-item.
-
-### 3.2 The swap control
-
-Pinning shows that *a* numeral moved the outcome, not that the *field* did. The
-swap control puts the identical numeral on a partner field measured inert:
+Pinning shows that *a* number moved the outcome, not that the *field* did. The
+swap control uses a partner field *P* and a level *L*:
 
 ```
-TRUE(L)   L on the tested field,   the drawn partner value on the partner
-SWAP(L)   the drawn partner value on the tested field,   L on the partner
+TRUE(L)   L on F,                  P's drawn value on P
+SWAP(L)   P's drawn value on F,    L on P
 ```
 
-Both arms carry the same multiset of ten numbers across the same ten lines in the
-same order. Block presence, length and numeral extremity are held **by
-construction**; only which field holds the value differs.
+Both arms contain the same multiset of ten numerals on the same ten lines in the
+same order, at the same length. Block presence, length and the presence of an
+extreme numeral are held fixed **by construction**. Only which field holds the
+value differs. The quantity of interest is the within-unit difference of
+differences, TRUE effect minus SWAP effect, with its own interval. We never infer
+a difference from one arm being significant and the other not
+[@gelman2006difference].
 
-The partner field is itself pinned in its own right (§4.5), which earlier
-versions of this work assumed rather than tested.
+Two refinements matter. Values are compared **at rendered precision**: a drawn
+partner value of 0.102 prints as `0.10` and would make TRUE and SWAP identical for
+that agent, so degeneracy is checked on the rendered prompt. And the partner
+field must itself be shown not to carry the outcome, which we test directly
+(§5.4).
 
-### 3.3 The replication gate
+### 4.3 The replication gate
 
-A swap control is interpretable only if the effect it explains reproduces in the
-same designation. A null swap beside an unreplicated TRUE arm reads as "the field
-carries it" when it may mean "there was nothing to carry". §4.4 is the case where
-this mattered.
+A swap control is interpretable only if, in the same designation, the TRUE arm
+reproduces the effect it is meant to explain. A null SWAP beside a TRUE arm that
+did not replicate says nothing: there may have been nothing to carry. §5.5 is the
+case where this mattered.
 
-### 3.4 Analysis, and one inference we do not make
+### 4.4 Line crossing and definition edits
 
-Paired sign tests with Holm correction over each designation's contrast family,
-an item-consistency requirement, and 95% unit-bootstrap intervals over agent-item
-pairs. Power is simulated against measured per-item baselines before collection.
+Because the tested and partner fields sit on different lines, a primacy effect
+over a numbered list could mimic a field effect. A 2×2 design crosses *which field
+holds the value* with *which line it occupies*, by re-rendering the block with the
+two entries exchanged (§5.3). To ask what about the field matters, we edit the
+field's own entry while holding the other nine entries and the user turn fixed
+(§6.1).
 
-**We never infer a difference from one arm being significant while another is
-not.** That inference was made once in this project, about a field whose TRUE arm
-cleared correction and whose SWAP arm did not, and it had to be withdrawn. Every
-comparison here is a direct within-unit difference of differences with its own
-interval.
+### 4.5 Analysis and prespecification
 
-### 3.5 Prespecification and the ledger
+Before collection, each designation fixes its question, arms, primary test,
+decision rule and any directional prediction, and records them in source under a
+content hash that is checked at dispatch. Primary tests are paired exact sign
+tests with Holm correction [@holm1979simple] over the designation's family, plus a requirement of directional consistency across items. The later
+designations (§6) instead prespecified decision rules on unit-bootstrap
+intervals. Intervals are 95%
+percentile bootstraps over agent-item units (10,000 resamples). Power was
+simulated against measured per-item baselines. Failed calls are preserved and
+never retried, and a designation halted by a failure is closed and re-designated
+rather than resumed.
 
-Every designation is frozen before collection: its jobs, prompts, population and
-locked predictions are hashed, and the hash is checked at dispatch. Failed calls
-are preserved at full reservation and **never retried**; a designation halted by
-a failure is closed rather than resumed. One transport failure occurred during
-this work; its designation was closed and re-designated, with none of its records
-reused.
+**Item-level robustness.** Unit-level intervals treat the items as fixed. With
+seven items, generalisation to other items of the same kind is a separate
+question. For every contrast we therefore also report, after the fact and
+without further calls, (a) a **crossed bootstrap** that resamples agents and items
+independently, and (b) a one-sample *t*-test over the per-item effects, with
+items as the unit. With so few items these analyses have uncertain coverage.
+They are sensitivity checks, not replacements for the prespecified tests, and
+where a result depends on the choice between them we say so. For the §5.1
+contrasts we also report crossed random-effects logistic models with an
+item-specific treatment slope [@barr2013random], fitted in the thesis. Appendix C
+has the full table.
 
----
+## 5. Which field carries the behaviour?
 
-## 4. Which field carries the behaviour?
+### 5.1 A profile moves keep-rate; a generic ethical instruction does not
 
-### 4.1 Profiles change the outcome, and an instruction does not reproduce it
+Three arms: no block (U), a one-paragraph ethical instruction in place of the
+block (G), and the full numeric block (E).
 
-| Model | no profile | explicit instruction | numeric profile | paired E−G | Holm |
-|---|---:|---:|---:|---:|---:|
-| `claude-haiku-4-5` | 0.367 | 0.429 | 0.600 | **+0.171** | 0.000112 |
-| `gpt-5.4-mini` | 0.395 | **0.378** | 0.606 | **+0.228** | ~0 |
+| Model | U | G | E | E − G | Holm | Item CI |
+|:------------------------|----:|----:|----:|------:|------:|:-----------------|
+| gpt-5.4-mini, 8 items | 0.395 | 0.378 | 0.606 | **+0.228** | < 0.001 | [+0.091, +0.372] |
+| claude-haiku-4-5, 6 items | 0.367 | 0.429 | 0.600 | **+0.171** | 0.000112 | [−0.025, +0.362] |
 
-The instruction arm states the target behaviour in plain English. On the
-calibration model it lands *below* the unprofiled baseline. The numeric profile
-moves the outcome; saying the same thing in prose does not.
+: Keep-rates by arm. *Item CI* is a two-stage bootstrap over items, then units, for E − G (from the thesis analyses).
 
-### 4.2 The effect is bound to one field
+The instruction reads: *"Weigh the interests of everyone affected. Avoid causing
+harm, avoid deceiving anyone, avoid coercing anyone, and treat people with
+equivalent claims equally. Where these cannot all be satisfied, decide which
+matters most in this situation and act on it."* It does not move keep-rate on
+`gpt-5.4-mini` (−0.017 against U, p = 0.712), while the block moves it by about
+0.2 on both models. On `haiku` the item-level interval includes zero, although a
+mixed model with item slopes gives p = 0.041.
 
-`pd_prospective_r1` pinned Procedural Dependence with a direction derived from
-the field's definition and locked in source before collection: **+0.346**, Holm
-~0, six of seven items positive.
+This comparison motivates the rest of the paper, and it should not be read as
+"numbers beat prose". The instruction does not say anything about keeping or
+overriding arrangements, so it is not matched in meaning to the block. §6.4 shows
+that a one-sentence prose principle that *is* on topic moves keep-rate as much as
+anything in the block does. The question is what in the block does the work.
 
-The swap control gives **−0.036** (n.s.) on the partner field, and the direct
-within-unit difference of differences is **+0.375 [+0.286, +0.464]**, six items
-positive to one negative.
+### 5.2 The effect is bound to one field
 
-A second field reached +0.111 to +0.143 pinned, but its direct difference is
-**+0.064 [−0.014, +0.146]** — the interval includes zero. It is reported as a
-**candidate**, not a verified field effect. This is the distinction the
-significance-versus-non-significance inference obscured.
+An offline reanalysis of earlier data ranked Procedural Dependence (PD) first of
+the ten fields. That ranking was post hoc, so PD was tested prospectively, with
+the direction derived from the field's definition and locked before collection.
+Pinned, PD moves keep-rate by **+0.346** [+0.275, +0.414] (Holm < 0.001; 6 of 7
+items positive).
 
-### 4.3 It is not the line the field occupies
+The swap control used Affective Weighting (AW) as the partner. With the numeral on
+PD the effect is +0.339. With the identical numeral on AW it is **−0.036**
+(Holm 1.000). The within-unit difference is **+0.375 [+0.286, +0.464]**, and it
+survives resampling items (crossed CI [+0.082, +0.661]; item-level *t* p = 0.046).
+The same numeral, moved from this field to another, has no effect.
 
-The swapped fields sit at different lines, so a primacy effect over a numbered
-list would mimic the result. A 2×2 crossing *which field holds the value* with
-*which line it occupies*:
+A second field, Internalisation Dependence (ID), moved keep-rate when pinned
+(+0.111 to +0.143), but its difference against its swap control is +0.064
+[−0.014, +0.146]. We report ID as a **candidate**, not a verified field effect.
+An earlier reading, "ID's TRUE arm is significant and its SWAP arm is not, so the
+field carries it", was the significance-versus-non-significance inference, and we
+withdrew it.
 
-| Cell | Value on | At line | Effect | Holm | Items |
+### 5.3 It is the field, not the line
+
+In the block, PD is line 6 and AW is line 10, so the swap moved the value's field
+and its line together. The 2×2 separates them (40 agents, all four arms with
+identical numeral multisets and lengths):
+
+| Cell | Value on | At line | Effect | Holm | Items +/− |
 |---|---|---:|---:|---:|---|
-| **A** | tested field | 6 | **+0.393** | ~0 | 7+/0− |
-| **C** | tested field | 10 | **+0.271** | ~0 | 5+/1− |
-| B | partner | 10 | +0.061 | 0.157 | 6+/1− |
-| D | partner | 6 | +0.004 | 1.000 | 3+/2− |
+| A | PD | 6 | **+0.393** | < 0.001 | 7 / 0 |
+| C | PD | 10 | **+0.271** | < 0.001 | 5 / 1 |
+| B | AW | 10 | +0.061 | 0.157 | 6 / 1 |
+| D | AW | 6 | +0.004 | 1.000 | 3 / 2 |
 
-Cell D is decisive: the value at the privileged line, on the partner field, gives
-+0.004. Keep the field and move it four lines down (C) and the effect survives.
-**Field factor +0.300; position factor +0.032** — small, not zero, so we do not
-round it away.
+The field factor, (A + C − B − D)/2, is **+0.300** [+0.232, +0.370] (crossed CI
+[+0.111, +0.495]). The position factor is +0.032 [−0.025, +0.088]. Cell D is the
+direct test of a primacy account. It puts the value at line 6 on the partner
+field and gives +0.004. Position is not irrelevant, though. It **modulates** the
+field's effect (A − C = +0.121 [+0.043, +0.200]; interaction +0.089 [+0.030,
++0.150]), a decomposition that was not prespecified.
 
-### 4.4 A field the method retracted
+### 5.4 The partner field, tested directly
 
-The result we consider most informative is a withdrawal. A third field cleared a
-Holm-corrected bar at 25 agents (−0.131, Holm 0.00082) with the most
-directionally consistent result in its sweep. At 40 agents on the same model it
-measured **−0.014** (Holm 0.708). Its post-hoc correlation had been **+0.271**.
-Three measurements, three answers: positive, negative, null. A fourth at 80
-agents gave −0.036 [−0.080, +0.009].
+Every swap control assumes the partner field does not carry the outcome. Pinned
+in its own right at 80 agents, AW is flat: **+0.016** [−0.027, +0.057], with a 90%
+equivalence bound of 0.050, the tightest bound in this work. That supports the
+controls but does not prove the partner's *slot* is a fair comparison. §6.2 bears
+on this: an invented field placed in the same slot reached +0.400. The slot can
+carry an effect, and AW's own definition does not produce one.
 
-**It failed on the larger sample, not the smaller** — this is not a power
-failure. Had its swap control run without a replication gate, its null swap would
-have read as evidence that its field carried the effect. We withdraw it, and it
-is not reinstated by majority vote across measurements.
+### 5.5 A field the method withdrew
 
-### 4.5 The partner field, tested directly
+Legitimacy Locus (LL) had a post-hoc correlation with keep-rate of **+0.271** on
+unmanipulated profiles. In the initial sweep (25 agents, Holm over eight fields)
+it cleared correction with the most directionally consistent result of any field:
+**−0.131** (Holm 0.00082; 0 of 6 items positive). In a designation with a
+replication gate (40 agents), its TRUE arm gave **−0.014** (Holm 0.708), and at
+80 agents it gave −0.036 [−0.080, +0.009]. The three measurements gave three
+answers: positive, negative and null.
 
-Every swap control assumes the partner field does not itself carry the outcome.
-That assumption rested on a by-product measurement. Pinned in its own right at 80
-agents it is flat: **+0.016 [−0.027, +0.057], 90% equivalence bound 0.050** — the
-tightest bound in this work.
+The larger samples failed and the smaller one passed, so this is not a power
+failure. Power at the size first measured was 17/20. **LL's SWAP arm was null.**
+Had the swap control been run without the TRUE arm as a gate, that null would
+have read as "the field carries the effect". We withdraw LL. That is not a claim
+that LL is inert: the 80-agent interval bounds its effect at 0.073.
 
-This supports the controls without proving them: they additionally assume the
-partner's *slot* is a fair comparison, and §5.2 bears on that, since an invented
-field placed in the same slot reached +0.400. The slot can carry an effect; the
-partner's own gloss does not produce one.
+The same sweep shows the reverse error. Tolerance for Asymmetry and Mode of
+Response missed correction at 25 agents and cleared it at 80 (−0.111 and −0.073;
+Appendix C). Sample sizes chosen from budget rather than simulated power gave one
+false positive and two false negatives in one sweep. Neither of the two late
+movers has had a swap control, so they are effects with unidentified mechanism.
 
-### 4.6 Cross-provider
+### 5.6 A second provider
 
-Both surviving fields were pinned on a second provider over its own screened
-items: **+0.133** (p = 0.00031) and **+0.075** (p = 0.0328). Both effects shrink —
-to ~38% and ~68% of their calibration-model size. **What replicates is direction
-and decision rule, not magnitude**, and no swap control was run there, so these
-license "the field moves the outcome on this model too" and nothing further.
+PD and ID were pinned on `claude-haiku-4-5` over its own six screened items. PD's
+direction was again locked one-sided from its definition, after re-verifying that
+the derivation's premise held on the new items. PD gave **+0.133** (p = 0.00031;
+4/1 items) and ID **+0.075** (p = 0.033). Both effects shrink, to about 38% and 68%
+of their `gpt` values. At item level PD's interval is borderline (crossed CI
+[−0.013, +0.283]; item bootstrap [+0.008, +0.267]; *t* p = 0.076), and ID's
+includes zero. No swap control was run on `haiku`. These results show that pinning
+PD moves the outcome on a second provider in the predicted direction, and nothing
+more.
 
----
+## 6. What about the field carries it?
 
-## 5. What about the field carries it?
+§5 localises the effect to one field and excludes block presence, length, a
+free-floating numeral and line position. Three explanations survive, and they
+make different predictions once the field's own entry is edited:
 
-§4 localises the effect to one labelled, defined field. That is as far as any
-control built from presence, length, position and numeral can go, and it leaves
-the interesting question open. Three readings survive, and they make different
-predictions the moment the field's own text is edited:
+- **definition**: the model reads what the ends of the scale are said to mean;
+- **name**: the model associates the field's name with a disposition, and the
+  definition is decoration;
+- **field-weighted salience**: an extreme numeral in a salient field moves
+  behaviour with no reading of the text at all.
 
-- the model reads the **definition** — what the two ends of the scale are said
-  to mean — and acts on it;
-- the model responds to the **name**, and the definition is decoration;
-- an extreme numeral in a salient slot does everything — **field-weighted
-  salience**, which no design in §4 excludes and which would make every result
-  above true without the model reading a word.
+### 6.1 Exchanging the definition's ends
 
-This section settles it, and the answer is the first.
+`semantics_r1` pinned PD under four renderings of its entry, with the nine other
+entries and the user turn byte-identical, on 40 new agents. Predictions were
+locked under a published hash and differ in sign across explanations.
 
-### 5.1 Reversing the gloss reverses the effect
+| Variant | Line 6 reads | Definition | Effect | 95% CI (units) | Items +/− |
+|:-------|:----------------------|:---------------|-------:|:-----------------|:------|
+| CANON | Procedural Dependence | as original | +0.339 | [+0.271, +0.404] | 6 / 1 |
+| FLIP | Procedural Dependence | ends exchanged | −0.114 | [−0.179, −0.050] | 1 / 5 |
+| INVERT | Outcome Dominance | ends exchanged | −0.614 | [−0.671, −0.554] | 0 / 7 |
+| NONCE | Factor K | as original | +0.175 | [+0.114, +0.236] | 6 / 1 |
 
-`semantics_r1` pinned the field under four renderings of its own entry, nine
-other entries and the user turn byte-identical, 40 fresh agents:
+**FLIP is the decisive arm.** Its edit exchanges two strings, so the name, the
+line, the printed numeral and the block's entire character multiset are identical
+to CANON. The edit was verified as an involution: applied twice, it restores the
+block byte for byte. Salience and name-association accounts both predict FLIP
+equal to CANON. The definition account predicts a reversal. The prespecified
+estimand compares FLIP with zero, but the contrast that tests all three accounts
+at once is **CANON − FLIP**: exchanging the definition's ends changes the effect
+by **−0.454** (CANON − FLIP = +0.454 [+0.361, +0.546]), with **all seven items**
+moving in that direction (crossed CI [+0.179, +0.739]; item-level *t* p = 0.019).
+That result does not depend on how items are treated.
 
-| Variant | Entry reads | Gloss | Effect | 95% CI | Items |
-|---|---|---|---:|---|---|
-| CANON | Procedural Dependence | canonical | +0.3393 | [+0.2714, +0.4036] | 6+/1− |
-| **FLIP** | **Procedural Dependence** | **ends exchanged** | **−0.1143** | **[−0.1786, −0.0500]** | 1+/5− |
-| INVERT | Outcome Dominance | ends exchanged | −0.6143 | [−0.6714, −0.5536] | **0+/7−** |
-| NONCE | Factor K | canonical | +0.1750 | [+0.1143, +0.2357] | 6+/1− |
+Whether the FLIP effect is itself negative, a full reversal rather than a
+cancellation, is less secure. Over agent-item units it is (−0.114, 1 of 7 items
+positive). Over items its interval touches zero (crossed CI [−0.239, +0.025];
+*t* p = 0.071). We therefore claim that the definition **determines the effect's
+direction when name and definition conflict**, and we do not claim the reversal
+is item-general.
 
-CANON is a replication gate and it holds at +0.3393 against +0.339 and +0.346 in
-earlier designations, on a new population. Predictions were locked in source
-under a published hash and **differ in sign**, which makes the design decisive
-rather than suggestive.
+**Name and definition separate.** With the name replaced by *Factor K* and the
+definition kept (NONCE), about half the effect survives (+0.175; crossed CI
+[+0.025, +0.325]). When the renamed field and exchanged definition agree
+(INVERT), the effect is −0.614, negative on every item and the largest effect in
+this work. The name contributes, but when name and definition disagree, the
+definition wins. INVERT also rests on a human judgement that *Outcome Dominance*
+with exchanged ends means the same as the original. FLIP needs no such judgement,
+which is why FLIP carries the argument.
 
-**FLIP is the decisive cell.** The name, line, printed numeral and the block's
-entire character multiset are identical to CANON — the edit is a pure exchange of
-two strings, verified as an involution — and the effect reverses.
-Field-weighted extremity predicts every arm positive; two are negative. A
-name-association account cannot produce +0.339 and −0.114 from an identical
-printed name. **Both are excluded.**
+![**Effects of the principal manipulations.** Thick bars are 95% intervals over agent-item units (the prespecified analysis); thin bars resample agents and items independently. All contrasts use `gpt-5.4-mini`, with 40 agents × 7 items unless stated. Moving the numeral off the field, or putting it at the field's line on the partner, removes the effect (§5). Editing the field's definition sets the effect's direction (§6.1). Invented fields follow their own definitions (§6.2).](figures/fig1_forest.pdf){width=88%}
 
-FLIP also requires no human judgement that two wordings are equivalent. INVERT
-does, and that premise is soft — this work has repeatedly found reviewer
-judgements about materials failing to predict model behaviour — which is why
-FLIP, not the larger INVERT effect, carries the argument.
+### 6.2 Fields we invented behave the same way
 
-**Name and gloss separate.** They conflict in FLIP and partly cancel (−0.114);
-they agree in INVERT and compose (−0.614, the largest effect measured here); and
-with the name removed entirely, **about 52% of the effect survives** (+0.175).
-The gloss dominates when the two disagree.
+If definitions are what the model acts on, then the block's own fields should not
+be special. We wrote four fields that are **not** in the block, each with a name
+and a two-line definition, placed each in the partner slot (line 10), and pinned
+them in the same way. Signs were derived from each definition and locked in
+advance. The high ends read:
 
-### 5.2 The same is true of fields we invented, which bounds the claim
+- *Status-quo Preference*: "existing arrangements stand unless there is strong
+  reason to change them";
+- *Stated-Wish Deference*: "a person's stated wish about their own arrangement is
+  decisive";
+- *Worst-off Priority*: "whoever would lose most matters most";
+- *Numbers Count*: "the option helping more people is favoured", written to point
+  toward overriding.
 
-If explanations are followed, the question becomes whether the encoding's fields
-are special. We wrote four fields **not** in the encoding, placed each in the
-partner slot and pinned them identically. Signs were derived from each gloss and
-locked in advance; one was written to point the *opposite* way.
+| Invented field | Predicted | Effect | 95% CI (units) | Crossed CI | Items +/− |
+|:----------------------|:----|-------:|:-----------------|:-----------------|:------|
+| Status-quo Preference | + | **+0.400** | [+0.336, +0.464] | [+0.229, +0.579] | 7 / 0 |
+| Stated-Wish Deference | + | +0.307 | [+0.254, +0.361] | [+0.179, +0.436] | 7 / 0 |
+| Numbers Count | − | **−0.246** | [−0.311, −0.182] | [−0.386, −0.114] | 0 / 7 |
+| Worst-off Priority | + | −0.064 | [−0.129, 0.000] | [−0.218, +0.096] | 2 / 4 |
 
-| Probe field | Predicted | Effect | 95% CI | Items |
-|---|---|---:|---|---|
-| Status-quo Preference | + | **+0.4000** | [+0.3357, +0.4643] | 7+/0− |
-| Stated-Wish Deference | + | +0.3071 | [+0.2536, +0.3607] | 7+/0− |
-| **Numbers Count** | **negative** | **−0.2464** | [−0.3107, −0.1821] | 0+/7− |
-| Worst-off Priority | + | −0.0643 | [−0.1286, 0.0000] | 2+/4− |
+Two fields in the same slot, in the same format, carrying the same numerals, move
+choices in **opposite directions** on every item, each as its own definition
+states (Figure 2b). That rules out any account on which a defined field acts as a
+generic cue, and it is independent of §6.1: the evidence comes from different
+fields rather than an edit to one.
 
-Two fields in the same slot, same format, same numerals, moved choices in
-**opposite directions**, each as its own gloss predicted. This is a second,
-independent demonstration of §5.1 — across fields rather than within one — and it
-rules out any account on which a glossed field acts as a generic cue.
+One of our four locked predictions failed. We derived Worst-off Priority as
+positive, because the holder loses the most under overriding. It came out near
+zero and split across presentation orders. A designer's reading of what a
+definition implies did not predict the model, which is another reason to prefer
+edits like FLIP that need no such reading.
 
-**It also bounds what the encoding can claim.** Status-quo Preference, written in
-an afternoon and naming what these items are plainly about, reaches **+0.400
-against the encoding parameter's +0.339**, consistent on all seven items where
-the parameter is 6+/1−. **Nothing in our evidence requires these ten fields in
-particular.** The honest description of §4 is: *a glossed field whose stated
-meaning bears on the items moves choices, and the encoding's parameter is one
-such field.*
+**This bounds what the original block can claim.** Status-quo Preference, written
+for this study and naming plainly what the items are about, moves keep-rate at
+least as much as PD (+0.400 against +0.339) and is positive on all seven items.
+Nothing in our evidence requires the block's ten fields in particular. §5 is best
+described as follows: *a defined field whose stated meaning bears on the items
+moves choices, and PD is one such field.*
 
-One locked prediction failed, and it was ours. Worst-off Priority was derived
-positive from the stipulated payoffs and came out −0.064, failing correction and
-splitting across presentation orders. We claim nothing for it.
+![**Per-item effects.** (a) Exchanging the ends of PD's definition (CANON → FLIP) lowers the effect on all seven items. (b) Two invented fields in the same slot move every item in opposite directions, as their definitions state.](figures/fig2_items.pdf){width=100%}
 
-### 5.3 The parameter does not behave as its name suggests
+### 6.3 The name is a poor guide to what the field does
 
-On every item, "process-dominant" and "keep the existing arrangement" select the
-same option, so the effect is consistent with a status-quo disposition — a worry
-§5.2 sharpens, since an explicit status-quo field outperforms the parameter. We
-built items to separate them: each vignette gained a twin whose only difference
-was a clause stating that the holder came by the arrangement outside its stated
-procedure.
+On every item, "process-dominant" and "keep the existing arrangement" pick the
+same option, so PD's effect is also consistent with a plain status-quo pressure.
+§6.2 sharpens that worry. To separate the two readings, we wrote a **twin** of each
+item that adds one clause saying the holder obtained the arrangement *outside*
+its stated procedure (for example, booking a desk before the booking sheet
+opened). A procedure-sensitive field should not protect such an arrangement. A
+status-quo pressure should.
 
-Two screening designations (417 calls) failed to produce enough usable twins:
-eleven wordings drove three items to an unprofiled floor of 0.00–0.04, and others
-proved presentation-order determined. **We report both stops rather than the
-wordings that survived.**
+Two screening designations (417 calls, 17 wordings) failed to produce enough
+twins on which the unprofiled model splits: three twins sat on a floor of
+0.00–0.04 keep-rate, and others were determined by presentation order. We report
+both stops. A one-directional test remained possible on the floored twins, where
+the readings diverge: a status-quo pressure should lift keep-rate off the floor
+and a procedure-sensitive field should not. Status-quo Preference served as a
+positive control, and both fields first had to reproduce their base-item effects
+(PD +0.350, Status-quo Preference +0.357).
 
-A one-directional test remained possible on the floored twins, where the two
-readings diverge: a status-quo disposition should lift the keep-rate off the
-floor; a procedure-sensitive one should not. With an explicit status-quo field as
-positive control and both base arms reproducing as a gate:
-
-| Lift on the floored twins | Estimate | 95% CI |
+| Lift on the three floored twins | Estimate | 95% CI (units) |
 |---|---:|---|
-| the encoding's parameter | +0.3833 | [+0.2917, +0.4750] |
-| Status-quo Preference | +0.1333 | [+0.0583, +0.2083] |
-| **Difference** | **−0.2500** | **[−0.3583, −0.1417]** |
+| PD | +0.383 | [+0.292, +0.475] |
+| Status-quo Preference | +0.133 | [+0.058, +0.208] |
+| Difference | **−0.250** | [−0.358, −0.142] |
 
-**The two dissociate** — the cleanest such result here, and a direct answer to the
-worry. But the dissociation runs *against* the reading the parameter's name
-invites. Comparing each field's high arm across versions, a high-parameter agent
-is **less** deterred by the holder's procedural lapse than a high-status-quo
-agent (−0.30 against −0.50 on one item; −0.15 against +0.05 on another).
+PD lifts the floored twins about three times as much as the explicit status-quo
+field. Compared on the base item and its twin, a high-PD agent is **less**
+deterred by the holder's procedural lapse than a high-status-quo agent (keep-rate
+drops of 0.30 against 0.50 on one item; 0.15 against a rise of 0.05 on another).
+Whatever *Procedural Dependence: 0.90* does to this model, it is not "care that
+the procedure was followed". It behaves as a stronger and less discriminating
+pressure to keep what exists.
 
-Whatever the parameter does to this model, it is not *care that the procedure was
-followed*. **We attach no procedural-justice interpretation to it**, and this
-result is evidence against one. Two items carry the comparison.
+This result rests on **two informative items**: the third twin is at 0.000 in all
+four cells. Item-level analyses cannot support it (crossed CI [−0.500, 0.000]).
+We report it as the direction of the evidence, not as an established effect. It
+is enough to say that the field's name should not be trusted as a description of
+its effect, and we attach no procedural-justice reading to PD.
 
-### 5.4 Examples do almost exactly what a rule does
+### 6.4 Examples do almost what a stated rule does
 
-If a field becomes something the model *holds* rather than reads, the disposition
-should be inducible by examples rather than statement. We showed an agent five of
-its own previously recorded decisions — no rule, no field name, no gloss — and
-measured behaviour on the provenance twins of §5.3, items the examples never
-covered and on which they are silent.
+A further question is whether the model *holds* something beyond the text it is
+currently reading. If it did, a disposition might be inducible from examples
+without being stated. We showed each agent five of its own earlier decisions,
+taken from the frozen records of the prospective PD test (§5.2), with no field,
+name or definition. We measured keep-rate on the
+twins of §6.3, where keeping and following procedure come apart. The examples
+came from the base versions, where the two coincide, so they say nothing about
+how the holder came by the arrangement.
+Three controls were fixed in advance. The harness holds no conversational state.
+The read-out is a dimension the examples do not state. The examples are the
+agent's actual frozen decisions rather than idealised ones. Each item was shown
+in both option orders.
 
-Three controls were fixed in advance: the harness holds no conversational state,
-so withdrawn material is genuinely absent rather than earlier in context; the
-read-out is a dimension the examples do not state; and the examples are actual
-frozen decisions rather than idealised transcripts, since constructing clean
-examples would be writing the rule the design tests for.
+| Arm (user turn carries) | Keep-rate | vs bare item |
+|---|---:|---|
+| the bare item | 0.305 | — |
+| five of the agent's own earlier decisions | 0.734 | +0.429 [+0.384, +0.473] |
+| a one-sentence principle (below) | 0.768 | +0.463 [+0.418, +0.507] |
 
-| Arm | Keep-rate | vs bare item |
-|---|---:|---:|
-| bare item | 0.305 | — |
-| **five of the agent's own prior decisions** | **0.734** | **+0.429** [+0.384, +0.473] |
-| **the principle stated** | **0.768** | **+0.463** [+0.418, +0.507] |
+The principle reads: *"You place weight on fair procedure for its own sake: where
+an arrangement was arrived at through a stated process, that matters
+independently of the outcome it produces."* Examples move behaviour substantially
+on a dimension they never state. The stated principle moves it slightly more. The gap is +0.034 [+0.004, +0.064] over units,
+and it is not distinguishable from zero over items (crossed CI [−0.032, +0.098]).
+Note also that a prose principle about *fair procedure* raises keeping on items
+where the arrangement bypassed procedure, just as the PD field does (§6.3). It
+also answers §5.1: on-topic prose moves keep-rate as strongly as the block.
 
-Examples move behaviour substantially on items they never covered. **An explicit
-principle moves it slightly more, and the gap is +0.034 [+0.004, +0.064].**
+A dose-response test would distinguish a fitted disposition from ordinary
+context: the shift should track how many of the five examples kept. It did not
+survive scrutiny. In a first run the slope appeared in the principle arm, whose
+text is the same for every agent and cannot carry one, because example
+composition was confounded with presentation order. A second run crossed order
+with the covariate. The slope then moved to the examples arm (+0.080 [+0.018,
++0.137]) and vanished from the principle arm (−0.011). Example composition,
+inherited from the frozen records, is unbalanced, however (3, 4, 17 and 16
+agents across the four levels). Restricted to the two populated levels, the slope
+is −0.011 [−0.066, +0.046]. A step carried by seven agents is not the graded
+response a fitted disposition predicts.
 
-The measure that would distinguish a fitted disposition from ordinary context did
-not survive scrutiny. If a disposition were being fitted, the shift should track
-how many of the five examples leaned one way. We prespecified that the
-stated-principle arm *cannot* produce such a slope — its text is identical for
-every agent — and that a slope there would void the measure. In a first run the
-slope appeared there, because example composition was confounded with agent
-index, which set presentation order. A second run crossing order with the
-covariate moved the slope to the arm that can carry it (+0.080 [+0.018, +0.137])
-and left the other flat (−0.011).
+We therefore report that examples induce the behaviour almost as well as a stated
+rule, and that nothing establishes that anything was *fitted* rather than read.
+The near-equality favours the plainer reading: the model acts on whatever
+relevant text is in front of it.
 
-**It still does not support the claim.** Example composition, inherited from the
-frozen transcripts, is badly unbalanced, and restricted to the two populated
-levels the slope is **−0.011 [−0.066, +0.046]**. A graded response is what a
-fitted disposition predicts; a step separating seven sparse agents from everyone
-else is equally what a small-sample artefact predicts.
+## 7. How far do the results generalise across items?
 
-We therefore report: examples induce the behaviour almost as well as stating the
-rule; nothing establishes that anything was fitted rather than read; and the
-near-equality favours the reading on which the model acts on whatever relevant
-text is in front of it.
+With seven items, the prespecified unit-level tests support statements about
+*these* items. The item-level analyses (§4.5; Appendix C) sort the claims into
+three groups.
 
----
+**Robust to resampling items:** pinning PD (+0.346), the field-versus-partner
+difference (+0.375), the field factor of the 2×2 (+0.300), the definition exchange
+(CANON − FLIP, −0.454, 7/7 items), INVERT, NONCE, the three invented fields that
+moved as predicted (including the opposite-signed Numbers Count, 0/7), Mode of
+Response, and the examples and principle arms against the bare item.
 
-## 6. What the process taught
+**Significant over units but not over items:** FLIP's own sign, PD on the second
+provider (borderline), ID's swap TRUE arm and ID pinned on the second provider,
+Tolerance for Asymmetry (whose
+items disagree in sign), the gap between examples and a stated principle, and the
+floor-lift dissociation of §6.3.
 
-### 6.1 Automated design review is not a stable instrument
+**Not significant under either:** the swap arm, the partner field, the partner at
+the field's line, ID's swap difference, Worst-off Priority, and LL at 40 and 80
+agents.
 
-Every designation introducing new material passed an independent review gate, and
-the gate caught genuine errors: a reviewer-prompt mismatch, an answer-key leak in
-a review packet, normative cues in option wording, and — in this work's final
-designation — an implicit incumbency an authoring check could not express.
+The central claim of this paper, that editing a field's definition sets the
+direction of its effect while its name and numeral do not, rests on the first
+group.
 
-**Its verdicts are not a stable property of the material.** One item set was
-reviewed four times on byte-identical text: accepted, accepted, accepted, then
-rejected, with the rejection blocking two items an earlier review had explicitly
-cleared. Across seven reviews of that set: three accepts, four revises.
+## 8. What the process taught
 
-We therefore treat review as **advisory for materials already accepted** and as a
-hard gate only for new material — a rule adopted mid-project and recorded with
-the evidence that prompted it.
+### 8.1 Presentation order must be crossed, not randomised
 
-### 6.2 Presentation order, three times
+Two items are largely determined by which option is printed first: keep-rate
+differs by 0.75 and 0.73 between orders. The paired contrasts are protected by
+design, since each pair holds order fixed. Split by order, PD and three of the
+four invented fields keep their sign in both orders. Worst-off Priority splits,
+which is one more reason we claim nothing for it. *Unpaired* screens, however, were misled. An order-determined
+item averages to about 0.50 and passes a dispersion rule meant to catch the
+opposite problem, and one of our screens passed two items on which the model was
+making no choice at all. The same defect recurred twice in new forms. In a judge
+prompt, a model answered "B" in 94 of 120 trials, which voided that designation.
+In a covariate, example composition proxied order and voided a prespecified
+measure (§6.4). Randomising order makes a position-following responder *visible*.
+Only crossing order with every variable that could correlate with it
+*neutralises* it.
 
-Two items in the pool are largely determined by which option is printed first
-(gaps 0.75 and 0.73), unrecorded until this work. **No result here is affected**:
-every contrast is paired within agent with order held fixed inside the pair, and
-each retains its sign within both orders. But *unpaired* screens are destroyed by
-it — an order-determined item averages to ~0.50 and passes a band rule designed
-to catch the opposite condition, which is how one of our screens returned a false
-pass on two items making no choice at all.
+### 8.2 Automated design review is not a stable instrument
 
-The defect then recurred twice in new disguises: in a judge prompt, where a model
-answered "B" in 94 of 120 trials and 0/19 when the answer was A, voiding that
-designation entirely; and in a covariate, where example composition proxied order
-and voided a prespecified measure. **Presentation order must be crossed with
-anything that could correlate with it, not merely randomised.**
+New materials had to pass an independent review by a separate model before
+collection. The review caught real errors: a mismatch between reviewer prompt and
+materials, an answer-key leak in a review packet, normative cues in option
+wording. Its verdicts, however, were not a stable property of the material. One
+four-item pool, reviewed four times on byte-identical text, was accepted three
+times and then rejected. A later review of the seven-item pool asked for revision
+and blocked two items that an earlier review had explicitly cleared. Across seven
+reviews of that material there were three accepts and four requests to revise. We adopted, and recorded, the rule that review is a hard
+gate for new material and advisory for material already accepted, and that
+re-running a review to obtain a different verdict is forbidden.
 
-### 6.3 Refusals that shaped the record
+### 8.3 An unprofiled floor is not a floor under profile
 
-Failed calls are preserved at full reservation and never retried; a halted
-designation is closed rather than resumed. A provenance guard refused a release
-because a docstring in a hash-pinned module had been edited; **the pinned bytes
-were restored rather than the check loosened**, and that module still carries a
-retired project name in one comment as a result.
+The twins of §6.3 sat at 0.00–0.04 keep-rate without a block and reached 0.775
+with PD high. A screen's unprofiled baseline does not bound the profiled range,
+so screens that reject floored items are more conservative than they need to be.
 
----
+## 9. Limitations
 
-## 7. Limitations
+**No moral claim.** The outcome is which option is chosen, recorded by a fixed
+lookup. Nothing here says an agent behaves well or that outcomes improve.
 
-Stated as constraints on what may be concluded.
+**No human comparison.** No human data were collected.
 
-**No moral claim of any kind.** Every outcome is a deterministic lookup from a
-stipulated table. We measure which action is chosen, never whether it is good.
+**No evidence of understanding.** §6 shows that behaviour follows what a
+definition *says*. It does not separate *reading an explanation* from *following
+an instruction phrased as one*, and a definition such as "existing arrangements
+stand unless there is strong reason to change them" is close to an instruction.
+Our attempts to separate them did not succeed. Twins on which the readings diverge
+could mostly not be built (§6.3). A test of whether the model could infer a
+field's value from behaviour failed as an instrument, through the position bias
+of §8.1. Examples and a stated rule produced nearly the same behaviour (§6.4).
+The evidence is consistent with a model that acts on whatever relevant text is
+present.
 
-**No human comparison.** None was collected, anywhere in this work.
+**One task family.** Seven items on one model and six on another, all short
+allocation dilemmas with an incumbent holder and identical tied payoffs. This is
+the principal limitation. A second family of 14 items (property, bodily,
+allocative and scheduling dilemmas) passed review, and 11 of them dispersed, but
+only 3 both dispersed and were robust to presentation order, against the 6
+required, so that designation stopped at screening. Order-robustness
+has to be designed into items, not discovered afterwards.
 
-**No evidence of understanding, and the attempts are reported.** §5.1 shows
-behaviour follows what a gloss *says*. It does not distinguish *reading an
-explanation* from *following an instruction phrased as one* — and a field reading
-"existing arrangements stand unless there is strong reason to change them" is
-close to an instruction. Four designs were built to separate them and none
-succeeded: defeasibility items could not be built (§5.3), inference from
-behaviour failed as an instrument (§6.2), and induction from examples produced
-behaviour within 0.034 of stating the rule (§5.4). **The accumulated evidence is
-consistent with a model that acts on whatever relevant text is present, and we
-report that as the reading our own attempts failed to displace.**
+**One model for identification.** Every §6 result, and the swap and line controls
+of §5, are on `gpt-5.4-mini`. The second-provider tests cover pinning only, and
+effect sizes did not transfer.
 
-**The fields are not privileged.** §5.2 finds an invented field outperforming the
-encoding's parameter on the same items.
+**Tied payoffs by design.** Tied totals remove arithmetic as a reason for choice,
+which is what makes the field the candidate cause. Whether definitions matter as
+much when payoffs differ is untested.
 
-**One task family — the principal limitation.** Seven items on one model, six on
-another; all workplace-resource vignettes with an incumbent holder and an
-identical tied-payoff structure. **A second family was attempted and stopped**:
-14 civic-allocation candidates passed an accepted review, 11 of 14 dispersed, but
-only 3 were order-robust against 6 required. The failure differs from the
-saturation that blocked earlier attempts and is specific — order-robustness must
-be designed in rather than discovered — but the limitation stands.
+**Partial map of the block.** Two further fields move keep-rate at 80 agents with
+no swap control run, so their mechanism is unidentified. Four others are null in
+a 25-agent sweep, which bounds them only weakly.
 
-**Single model for identification.** Every §5 result is on one model; the
-cross-provider work of §4.6 covers §4 only.
+## 10. Conclusion
 
-**Two fields are pinned without swap controls.** Two further fields move the
-outcome at 80 agents (−0.111 and −0.073) with no swap control run. They sit where
-the verified field sat before its own control: real effects, mechanism
-unidentified.
+We asked which part of a structured prompt carries behaviour, and what about that
+part does the carrying. On the evidence here, one field carries it. The effect
+is not due to block presence, length, the line or a free-floating numeral. What
+carries it is the field's **definition**. Exchange which end of the scale means
+what, holding the name, line, numeral and every character fixed, and the effect
+moves by −0.454 on every item. Fields we wrote ourselves mostly follow their own
+definitions, in whichever direction those definitions point. Three of four locked
+predictions held, and the one that failed was ours.
 
-**The configuration counterfactual was never run.** Every call used a neutral
-configuration on all five axes.
+Two consequences follow for anyone who conditions agents on structured
+descriptions. The first is that definitions deserve more care than names. A
+field's name is a poor description of what it does: here the field named for
+procedure acts as a pressure to keep what exists, and an invented field does its
+job better. The second is that the claim "the model read the profile" is
+testable. The controls in this paper need no access to model internals and cost
+little. They include a replication gate, which in this work withdrew a field that a corrected test had certified and that its own swap control would have
+confirmed.
 
----
+## References
 
-## 8. Related work
+::: {#refs}
+:::
 
-> **Citation status: verified.** Every reference was checked against its source
-> for existence, authorship, year, venue, and that the paper makes the claim
-> attributed to it. Two supplied citations did not exist and were **removed
-> rather than replaced**; four verified entries needed correction. The record is
-> `citation_verification.md`. Two claims in this section are ours rather than the
-> literature's — that field-level identification under byte-held surface form is
-> scarce for closed models, and that the replication gate is not represented
-> elsewhere — and both keep their hedges, since absence of evidence in a search
-> is not evidence of absence.
+## Appendix A. Full system prompt
 
-The move this paper depends on is visible across several literatures: **treating
-a prompt not as a monolithic instruction but as a causal object with separable
-components.** Our contribution sits at a specific gap in that movement.
+The PD-high system prompt for one agent in the prospective PD test. The PD-low
+prompt differs only in `Procedural Dependence: 0.90` → `0.10`. The G arm (§5.1)
+replaces the profile section with the instruction quoted there.
 
-**Prompt sensitivity** establishes that surface form matters enormously —
-example order can move performance from near-random to near-state-of-the-art (Lu
-et al. 2021); formatting alone spans large accuracy ranges with meaning held
-constant (Sclar et al. 2023); the same holds for wording, structure and
-punctuation (Razavi et al. 2025); and neither scale nor instruction tuning
-removes the brittleness (Chatterjee et al. 2024). This literature motivates
-holding surface form constant to the byte, which is what our method does; it does
-not attempt field-level attribution.
+```
+You are participating in a decision-making simulation.
 
-**Label binding** supplies the deflationary pressure we take seriously. Min et
-al. (2022) show that randomly replacing demonstration labels barely hurts
-performance; Wei et al. (2023) that large models override semantic priors on
-unrelated labels; Liu (2026) that output binds to the demonstrated token
-inventory. We use these *against* our own result: they are why §1.3 disclaims
-semantic understanding and why §5.4's near-equality of examples and rule is
-reported as favouring the deflationary reading.
+# Your decision-making profile
 
-**Causal localisation** in mechanistic interpretability shares our logic on the
-other side of the model — patching, mediation and tracing unified as causal
-abstraction (Geiger et al. 2023), with known sensitivity to variant choice (Zhang
-& Nanda 2023) and to hidden interaction effects (Vaidyanathan et al. 2026). Ours
-is the input-side analogue: the same ambition to localise, without access to
-activations.
+You process decisions according to the following characteristics, each
+on a continuous [0, 1] scale. The low and high ends of each are
+described. Your value on each characteristic is given.
 
-**Persona conditioning** is where the gap is clearest. De Araujo and Roth (2024)
-run 162 personas across 7 models with both an empty-persona baseline and 30
-paraphrases of "a helpful assistant" as control, finding personas show greater
-variability than the control. That is a conditioned-against-unconditioned
-comparison. What is scarce is work isolating *which field* within a conditioning
-block carries the effect while holding every other byte fixed.
+ 1. Legitimacy Locus: 0.79
+    (0 = validity comes from institutional warrant and shared norms;
+     1 = validity comes from personal judgment and self-authored endorsement)
+ 2. Constraint Sensitivity: 0.81
+    (0 = influence registers as environmental feature;
+     1 = even soft pressure registers as meaningful restriction)
+ 3. Response Threshold: 0.60
+    (0 = high tolerance; only major violations activate response;
+     1 = hair-trigger; minor deviations activate response)
+ 4. Mode of Response: 0.36
+    (0 = internal, reflective, self-adjusting;
+     1 = external, behavioural, confrontational)
+ 5. Relational Embedding: 0.45
+    (0 = atomised, agent-centred, abstract-person model;
+     1 = role-sensitive, relational, socially embedded)
+ 6. Procedural Dependence: 0.90
+    (0 = outcome-dominant; results matter, methods are secondary;
+     1 = process-dominant; fair procedure matters independently)
+ 7. Tolerance for Asymmetry: 0.42
+    (0 = asymmetry is inherently suspect, default is symmetry;
+     1 = asymmetry is accepted if intelligible, hierarchy is fine)
+ 8. Internalization Dependence: 0.77
+    (0 = surface compliance is sufficient;
+     1 = genuine endorsement and value-congruence required)
+ 9. Moral Scope: 0.73
+    (0 = local, role-bound, partial, context-limited;
+     1 = universalised, generalisable, broadly applied)
+ 10. Affective Weighting: 0.35
+    (0 = cognitive, deliberative, reasoned processing;
+     1 = affective, intuitive, felt processing)
 
-**Moral evaluation** provides our task framing (Rao et al. 2023) and a
-cross-model caution: Sachdeva and van Nuenen (2025) find low inter-model
-agreement on everyday moral dilemmas despite moderate-to-high self-consistency,
-with model judgements diverging substantially from human evaluations. That bears
-directly on §4.6's cross-model shrinkage — a smaller effect on a second model is
-what one should expect if models disagree on the underlying judgements.
+# Your normative context
 
----
+You operate in a society with the following structural properties:
+- Freedom:   NEUTRAL
+- Justice:   NEUTRAL
+- Authority: NEUTRAL
+- Care:      NEUTRAL
+- Loyalty:   NEUTRAL
 
-## 9. Conclusion
+For axes marked HIGH, the institution enforces, permits, and rewards that
+property; for axes marked LOW, that property is unstructured, unprotected,
+or penalised. NEUTRAL means no institutional high or low stance is specified
+on that axis; it does not remove your individual characteristics or the
+facts of the task.
 
-We asked which part of a structured prompt carries behaviour and what about that
-part does the carrying.
+# Your task
+Use the supplied information to make the requested decision. Do not infer
+a demographic identity or additional facts. Return only the requested JSON
+object.
+```
 
-**One labelled, defined field carries it** — not block presence, not verbosity,
-not the line it occupies, and not a free-floating numeral. **What carries it is
-the definition**: exchange which end of the scale means what, holding the name,
-line, numeral and every character fixed, and the effect reverses. No account
-resting on numeric salience or name-association produces that. The model reads
-what the field says.
+In FLIP the three lines of entry 6 read `(0 = process-dominant; fair procedure
+matters independently; 1 = outcome-dominant; results matter, methods are
+secondary)` with the name and value unchanged. INVERT additionally renames the
+entry *Outcome Dominance*, and NONCE renames it *Factor K* with the original
+definition. Invented fields (§6.2) replace entry 10 with the field's name, value
+and definition in the same format.
 
-That result turns out to be general in a way we did not set out to show. Fields
-we wrote in an afternoon move choices as their definitions predict, one of them
-more strongly than the encoding's own verified parameter — so this is how the
-model treats defined fields, not a property of one encoding. That parameter
-proves less sensitive to a stated procedure than an explicit status-quo field,
-so what it does is not what its name suggests. And examples induce the behaviour
-within 0.034 of stating the rule, which tells us the model is not distinguishing
-between a definition, an instruction and a demonstration: it reads all three as
-text that says how to act, and acts.
+## Appendix B. Items
 
-The result we would most want carried forward is a **withdrawal**. A field
-cleared a corrected significance bar with the most directionally consistent
-result in its sweep and dissolved on a larger sample of the same model. Its swap
-control was null — the signature of a real field-bound effect — and only the
-replication gate told the two cases apart.
+Every item is preceded by the same framing: *"You hold the role described. The
+option you select will be carried out, not merely considered. Units are
+artificial simulator credits, stipulated equally valuable to every person, and
+all stated effects are certain and known to you. There are no hidden costs,
+benefits or later effects beyond those described, and no one is pressuring you
+toward either option. Decide on the situation as given."* In every item the keep
+option gives the holder +1 and the others −4 between them, and the override
+option gives the others +2 and the holder −5. The table gives each situation and
+its twin clause (§6.3). Items marked g were used on `gpt-5.4-mini`, h on
+`claude-haiku-4-5`.
 
-Methods that can only confirm are weaker than methods that can kill their own
-findings. This one killed one, failed to establish five designations' worth of
-what they were built for, got two of its own locked predictions wrong, voided one
-of its own measures, and closed a designation to a transport failure rather than
-resume it. We report all of it, because a method that behaves that way when a
-finding is wrong is the only kind whose findings are worth anything when they
-are right.
+| Item | Situation (base item) | Twin: how the holder came by it |
+|:----------------|:---------------------------------------------|:-------------------------------|
+| desk_booking (g, h) | One bookable desk left for the week; one person booked it and wants to keep it; two visiting staff otherwise work from a corridor bench. | entered their name the Friday before the booking sheet opened |
+| storage_unit (g, h) | A community centre needs a storage unit for winter supplies; one unit is leased by a resident who wants to keep it; supplies otherwise spoil outdoors. | was given the unit ahead of the waiting list by an acquaintance in the office |
+| tool_library (g, h) | A repair session needs a press a member lent under terms letting them withdraw it; they want it back this week; three repairs otherwise cannot proceed. | lent under terms fixing the loan until month end, and asks for it back two weeks early |
+| on_call (g) | An on-call slot is unfilled for one night; one off-rota person wants the night clear; leaving it unfilled sends two callouts to a team an hour away. | is off-rota through a swap arranged privately and never entered on the form |
+| meeting_room (g, h) | A room is held for one group's weekly session; they want to keep it; two other groups need the room this week. | entered its slot in the diary itself, before the room committee met |
+| rest_break (g) | One mandatory rest slot left in a long shift; one worker wants it; assigning it elsewhere lets two tasks finish. | has already taken their own slot |
+| weekend_rota (g, h) | A service needs one more person on Saturday; one staff member wants the day free; otherwise two appointments are put back. | did not file the request form by its deadline |
+| ward_transfer (h) | A ward is over capacity; one patient has a single room and wants to keep it; two patients wait on trolleys. | — |
 
----
+The profile-versus-instruction comparison on `gpt-5.4-mini` (§5.1) also used an
+eighth item, `sample_draw`. Verbatim option texts are in the repository.
 
-## Appendix A — Scale of the record
+## Appendix C. Item-level robustness
 
-35,879 API calls across 56 designations with frozen results, $45.05 accounted
-spend. All per-call records are write-once with preserved failures; releases are
-hash-pinned to their source; power simulations and offline rescorings are
-reproducible from committed modules. One call is a preserved transport failure,
-never retried. Per-designation table: `paper_full_record.md` Appendix A.
+Every contrast is estimated on `gpt-5.4-mini` with 40 agents unless marked. *Unit*
+is the prespecified interval over agent-item units. *Crossed* resamples agents and
+items independently. *t p* is from a one-sample *t*-test over per-item effects.
+Items gives the per-item signs. The contrasts marked † are new in this paper. All
+are computed from the frozen records by `paper_item_robustness.py`, with zero API
+calls and seed 2026092301. Unit intervals are recomputed here with one common
+seed. They differ from the designation reports quoted in the main text by at most
+0.01, through resampling alone. Point estimates are identical.
 
-## Appendix B — Prespecification
+| Contrast | Estimate | Unit 95% CI | Crossed 95% CI | *t* p | Items +/− |
+|:----------------------------------|----------:|:--------------------|:--------------------|--------:|:--------|
+| PD pinned (prospective) | +0.346 | [+0.279, +0.414] | [+0.121, +0.568] | 0.024 | 6 / 1 |
+| PD swap: TRUE | +0.339 | [+0.275, +0.404] | [+0.103, +0.582] | 0.035 | 6 / 1 |
+| PD swap: SWAP | −0.036 | [−0.093, +0.018] | [−0.139, +0.075] | 0.385 | 2 / 4 |
+| PD swap: TRUE − SWAP | +0.375 | [+0.286, +0.464] | [+0.082, +0.661] | 0.046 | 6 / 1 |
+| ID swap: TRUE − SWAP | +0.064 | [−0.014, +0.146] | [−0.093, +0.221] | 0.353 | 3 / 2 |
+| 2×2 field factor | +0.300 | [+0.232, +0.370] | [+0.111, +0.495] | 0.022 | 7 / 0 |
+| 2×2 position factor | +0.032 | [−0.025, +0.087] | [−0.061, +0.123] | 0.281 | 5 / 1 |
+| AW pinned (80 agents) | +0.016 | [−0.025, +0.057] | [−0.052, +0.087] | 0.492 | 4 / 2 |
+| LL pinned (80 agents) | −0.036 | [−0.080, +0.007] | [−0.139, +0.080] | 0.513 | 1 / 5 |
+| TfA pinned (80 agents) | −0.111 | [−0.154, −0.066] | [−0.245, +0.030] | 0.155 | 2 / 4 |
+| MoR pinned (80 agents) | −0.073 | [−0.114, −0.030] | [−0.134, −0.007] | 0.003 | 0 / 6 |
+| PD pinned, `haiku` (6 items) | +0.133 | [+0.062, +0.204] | [−0.013, +0.283] | 0.076 | 4 / 1 |
+| ID pinned, `haiku` (6 items) | +0.075 | [+0.013, +0.142] | [−0.062, +0.204] | 0.218 | 4 / 2 |
+| CANON | +0.339 | [+0.271, +0.407] | [+0.121, +0.568] | 0.026 | 6 / 1 |
+| FLIP | −0.114 | [−0.179, −0.054] | [−0.239, +0.025] | 0.071 | 1 / 5 |
+| INVERT | −0.614 | [−0.675, −0.557] | [−0.771, −0.457] | < 0.001 | 0 / 7 |
+| NONCE | +0.175 | [+0.114, +0.236] | [+0.025, +0.325] | 0.048 | 6 / 1 |
+| CANON − FLIP † | +0.454 | [+0.361, +0.546] | [+0.179, +0.739] | 0.019 | 7 / 0 |
+| CANON − NONCE † | +0.164 | [+0.082, +0.246] | [+0.011, +0.321] | 0.024 | 6 / 0 |
+| Status-quo Preference | +0.400 | [+0.336, +0.464] | [+0.229, +0.579] | 0.003 | 7 / 0 |
+| Stated-Wish Deference | +0.307 | [+0.254, +0.361] | [+0.179, +0.436] | 0.002 | 7 / 0 |
+| Numbers Count | −0.246 | [−0.311, −0.182] | [−0.386, −0.114] | 0.007 | 0 / 7 |
+| Worst-off Priority | −0.064 | [−0.129, 0.000] | [−0.218, +0.096] | 0.403 | 2 / 4 |
+| Status-quo Preference − Numbers Count † | +0.646 | [+0.561, +0.736] | [+0.425, +0.857] | < 0.001 | 7 / 0 |
+| Floor lift: SQ − PD (3 items) | −0.250 | [−0.358, −0.133] | [−0.500, 0.000] | 0.191 | 0 / 2 |
+| Examples vs bare item | +0.429 | [+0.382, +0.475] | [+0.223, +0.641] | 0.009 | 7 / 0 |
+| Principle vs bare item | +0.463 | [+0.418, +0.507] | [+0.241, +0.693] | 0.009 | 7 / 0 |
+| Principle − examples | +0.034 | [+0.004, +0.064] | [−0.032, +0.098] | 0.208 | 6 / 1 |
 
-Locked predictions, content hashes and decision rules for every designation are
-in the repository under `experiments/`, each frozen before its collection.
+For the first-stage contrasts, the thesis also fitted logistic models with
+crossed random intercepts for agent and item and an item-specific treatment slope.
+Under those models E − G stays significant on both providers (*p* = 0.0001 and
+0.041), PD pinned stays significant (*p* = 0.0006), and ID's swap TRUE arm does not
+(*p* = 0.061), which is one reason ID is reported only as a candidate.
 
-## Appendix C — Items
+## Appendix D. Scale and reproducibility
 
-Seven base items, their provenance twins, and the four probe fields:
-`paper_full_record.md` Appendix C.
+The record spans 35,879 API calls across 56 designations, with $45.05 of
+accounted spend. Every designation is frozen before collection: its request
+schedule, population, locked predictions and decision rule are hashed, and the
+hash is checked at dispatch. Per-call records are write-once. Two calls are
+preserved transport failures, at call 689 of 2,801 in `coordinate_sweep_r1` and
+at call 294 of 840 in `precipitation_r1`. Each closed its designation, which was
+re-designated without reusing any records. Power simulations and offline
+analyses, including Appendix C, are reproducible from committed modules. The
+principal designations are `phase4b_gpt_r2` and `phase4b_profiled_r1` (§5.1),
+`pd_prospective_r1` and `label_semantics_r1` (§5.2), `label_semantics_r2` (ID and
+LL), `position_counterbalance_r1` (§5.3), `coordinate_sweep_r2` (sweep),
+`parameter_followup_r1`/`r2` (80-agent pins), `pd_crossmodel_r1` and
+`id_crossmodel_r1` (§5.6), `semantics_r1` (§6.1), `probe_fields_r1` (§6.2),
+`floor_lift_r1` (§6.3) and `precipitation_r3` (§6.4).

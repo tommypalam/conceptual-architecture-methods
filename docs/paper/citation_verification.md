@@ -252,3 +252,22 @@ with live access:
 **The banner is removed.** Section 10 now states verified status, records that
 two citations were deleted rather than substituted, and keeps the hedges on the
 two claims that are ours rather than the literature's.
+
+
+---
+
+# Additions — 2026-09-23
+
+Four references added in the paper revision, each checked at source:
+
+| Citation | Checked | Claim used |
+|---|---|---|
+| Webson & Pavlick 2022, NAACL 2022, 2300–2344 | ACL Anthology 2022.naacl-main.167 ☑ | models learn as fast from irrelevant or misleading prompt templates |
+| Zheng, Pei, Logeswaran, Lee & Jurgens 2024, Findings EMNLP 2024 | ACL Anthology 2024.findings-emnlp.888; arXiv 2311.10054 ☑ | personas in system prompts do not reliably improve performance; effects hard to predict |
+| Wang et al. 2023, EMNLP 2023 ("Label Words are Anchors") | already ☑ in the 16 Sept verification (§9.3) | label words gather information in shallow layers |
+| Barr, Levy, Scheepers & Tily 2013, JML 68(3):255–278 | standard reference, as cited in the thesis ☑ | maximal random-effects structure |
+
+These depart from the 18 Sept rule "do not add citations the search did not
+supply"; they are added because a reviewer would expect Webson & Pavlick and
+Zheng et al. in a paper on whether models use prompt meaning, and each was
+verified before use.
