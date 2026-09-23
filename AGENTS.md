@@ -1,5 +1,23 @@
 # AGENTS.md — Concepts-as-Architecture Project Constitution
 
+## Paper publication revision (2026-09-23)
+
+The live paper on `paper-20260922` is now *Which Part of a Prompt Carries
+Behaviour?*, built from `docs/paper/paper_draft.md` to
+`docs/paper/arxiv/preprint.pdf`. See `docs/paper/REVISION_20260923.md` for the
+verified correction record and `docs/paper/arxiv/SUBMISSION.md` for the local
+publication package. No submission or remote publication has been performed.
+
+For this paper, distinguish a verified PD field contribution from attribution
+of the whole profile effect. CANON-minus-FLIP was prespecified in the frozen
+semantics protocol; its item-level robustness checks were post-hoc. The floor-lift
+test returned mixed and does not establish PD as a pure status-quo construct.
+AW was pinned in the later paper evidence; the thesis's earlier statement that
+it was never pinned remains correct for the submitted document. No frozen
+evidence or thesis file was changed. All 36 stored robustness results reproduce
+exactly offline. The user's next research direction is open models, but no new
+collection or spend is authorised by this publication revision.
+
 ## Project reorganised around the submitted thesis (2026-09-19, evening)
 
 **The thesis is `docs/thesis/LF3262767.pdf`. It is the single canonical PDF.** The

@@ -1,8 +1,13 @@
 % Unicode-capable fonts: the source uses em dashes, minus signs and multiplication
 % signs, and the default Latin Modern encoding drops some of them silently.
 \usepackage{fontspec}
-\setmainfont{Latin Modern Roman}
-\setmonofont{DejaVu Sans Mono}[Scale=MatchLowercase]
+% arXiv's XeLaTeX requires filename lookup for TeX Live fonts.
+\setmainfont{lmroman10-regular.otf}[
+  BoldFont=lmroman10-bold.otf,
+  ItalicFont=lmroman10-italic.otf,
+  BoldItalicFont=lmroman10-bolditalic.otf]
+\setmonofont{lmmono10-regular.otf}[
+  ItalicFont=lmmono10-italic.otf,Scale=MatchLowercase]
 
 % arXiv preprint preamble. Single column, generous margins, no anonymity.
 \usepackage{booktabs}
@@ -35,4 +40,4 @@
 \captionsetup{font=small,labelfont=bf}
 % Keep figures near their first mention
 \usepackage{float}
-\floatplacement{figure}{htbp}
+\floatplacement{figure}{H}

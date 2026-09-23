@@ -1,93 +1,73 @@
-# arXiv submission — what is ready and what you must do
+# Publication package
 
-**Rebuilt 23 September 2026** after a full revision (see the end of this file).
-`preprint.pdf`, 19 pages including appendices, builds clean with a reference list.
+Revised 23 September 2026 on `paper-20260922`.
 
-## Files here
+**Title:** Which Part of a Prompt Carries Behaviour?
 
-| File | Purpose |
-|---|---|
-| `preprint.pdf` | the compiled paper — what a reader sees |
-| `preprint.tex` | TeX source; **arXiv wants this**, not the PDF alone |
-| `references.bib` | 19 entries: 15 from the verified record, 4 added and verified 23 Sept (see `../citation_verification.md`) |
-| `abstract.txt` | plain text for the submission form (limit 1,920 characters) |
-| `preamble.tex`, `build.ps1`, `build.sh` | the toolchain; rebuild with `powershell -File docs/paper/arxiv/build.ps1` |
-| `../figures/` | the two figures; **upload them with the TeX** (the TeX references `figures/fig1_forest.pdf` and `figures/fig2_items.pdf`) |
+**Subtitle:** Separating Names, Numbers, and Definitions in Structured Prompts
 
-## Steps only you can do
+**Author:** Tommaso Piero Palamenga, Bocconi University.
 
-1. **arXiv account and endorsement.** If you have never submitted to `cs.CL`,
-   you will need an endorsement from an existing author in that category. This
-   can take days, so start it before anything else. A supervisor is the obvious
-   source.
-2. **ORCID** — optional but worth having, and permanent.
-3. **Categories.** Primary `cs.CL`; cross-list `cs.AI`. Consider `cs.HC` only if
-   you want the persona-conditioning audience.
-4. **Licence.** The default arXiv licence is fine for a preprint you may later
-   submit to a conference. CC-BY is more permissive and some venues prefer it;
-   either is compatible with an ACL/EMNLP submission.
-5. **Upload.** Submit `preprint.tex` plus a `figures/` folder with both figure
-   PDFs. The reference list is already rendered into the TeX, so no `.bib` is
-   needed. arXiv compiles it itself; do not upload only the PDF unless the TeX
-   fails to compile there.
-6. **Make the repository public** (or remove the URL from the title footnote):
-   the paper points readers to https://github.com/tommypalam/conceptual-architecture-methods.
+The paper is prepared locally. It has not been submitted or posted by this
+revision. The submitted thesis is a separate, unchanged document.
 
-## Before you press submit
+## Files
 
-**arXiv v1 is permanent.** Revisions are possible and visible; withdrawal is not
-really. Three things in this paper are irreversible once posted and each is
-correct, so read them once more and be sure you want them public:
+- `preprint.pdf`: the revised reading copy.
+- `preprint.tex`: generated LaTeX with the rendered reference list.
+- `abstract.txt`: the same abstract as the paper, in plain text.
+- `references.bib`: the 19 cited references; verification is recorded in
+  [citation_verification.md](../citation_verification.md).
+- `preamble.tex`, `build.ps1`, `build.sh`: build configuration.
+- `../figures/fig1_forest.pdf`, `../figures/fig2_items.pdf`: required figures.
+- `../../../output/pdf/Palamenga_Prompt_Field_Controls_source.zip`: upload archive
+  containing only the generated TeX and the two required figure PDFs.
 
-- §5.2 reports that a field invented in an afternoon **outperforms** the
-  encoding's verified parameter (+0.400 against +0.339).
-- §5.3 reports that the parameter **does not behave as its name suggests**.
-- The header states that the author's thesis is a **separate, frozen document**
-  that this paper's later evidence constrains.
+## Build and reproduce
 
-All three are defensible and all three are why the paper is credible. But they
-are public statements about your own prior work, so they should be a decision
-rather than an oversight.
+From the repository root:
 
-## Known weaknesses a reviewer will raise
+```powershell
+python docs/paper/analysis/paper_item_robustness.py experiments tmp/pdfs/recomputed_robustness.json
+powershell -File docs/paper/arxiv/build.ps1
+```
 
-Stated here so they are not a surprise:
+The analysis requires NumPy and SciPy. Building requires Pandoc, XeLaTeX, and
+the TeX packages used by `preamble.tex`. The source uses TeX Live font filenames
+instead of operating-system font names, following arXiv's font-loading guidance.
+These commands do not collect responses.
 
-1. **One task family.** §7 says so; the attempted second family is reported.
-2. **One model for the §5 identification.** Cross-provider work covers §4 only.
-3. **No human comparison anywhere.**
+## Submit the prepared version
 
-None is fatal for a preprint. (1) and (2) are what would need addressing before
-a main-conference submission.
+For an arXiv preprint, the suggested primary category is `cs.CL`; `cs.AI` is a
+possible cross-list. Upload the source ZIP, select XeLaTeX, and inspect the PDF
+produced by arXiv. The archive has its figures at the paths referenced by the
+TeX and already contains the rendered bibliography, so it needs no separate
+BibTeX run. Local compilation is checked; arXiv's server compilation still needs
+checking during submission.
 
-## After posting
+Use the title, subtitle if desired in the title field, author details, and
+`abstract.txt` consistently. Account access, any endorsement requested by arXiv,
+category, licence, and final submission remain author choices. Repository
+visibility and access to supporting records should be checked from a signed-out
+browser before posting; this revision did not establish anonymous access to the
+GitHub repository. No licence was selected on the author's behalf.
 
-The arXiv identifier should be added to the repository README and to
-`docs/PROJECT_SPLIT.md`, so the thesis and the paper can be told apart by anyone
-who arrives at either.
+Official instructions checked for this package:
+[submission overview](https://info.arxiv.org/help/submit/index.html),
+[TeX uploads](https://info.arxiv.org/help/submit_tex.html), and
+[XeLaTeX and font loading](https://info.arxiv.org/help/faq/texlive.html).
 
+## Scope of the revision
 
-## Revision of 23 September 2026
+The paper distinguishes a verified contribution from one field from a
+decomposition of the entire profile effect; restores the prespecified status
+of CANON-minus-FLIP; corrects payoff, replication, multiple-testing, and
+presentation-order claims; and reports the mixed floor-lift evidence without
+assigning PD an established status-quo interpretation. All nine base stimuli,
+seven twin scenarios, the full central prompt, and complete probe definitions
+are included. The main limitation remains one task family and one model for
+the full identification sequence.
 
-Rewritten around one claim — the definition carries the effect — with these changes:
-
-- **Bibliography fixed.** The 22 Sept PDF had no reference list (citations were
-  plain text, so citeproc rendered nothing). Citations are now `[@key]`.
-- **Outcome stated plainly as keep-rate.** The frozen table labels keeping `good`;
-  the paper reports the choice and attaches no moral reading.
-- **§5.1 no longer claims "prose does not do what numbers do".** The instruction
-  was not matched in meaning; §6.4's on-topic principle moves keep-rate as much as
-  the block.
-- **Item-level robustness for every contrast** (crossed agent × item bootstrap and
-  item-level t-test; `docs/paper/analysis/`, zero API calls). The decisive
-  estimand is now CANON − FLIP (−0.454, 7/7 items, robust); FLIP's own sign and
-  the floor-lift dissociation are reported as unit-level only.
-- **Models, temperature, output caps, agents and the full prompt** are stated;
-  item texts and twin clauses in an appendix.
-- **Two figures**, generated from the analysis JSON.
-- Numbers checked by an independent pass against results.json / assessments; nine
-  discrepancies found and corrected (e.g. two transport failures, not one; 17
-  twin wordings, not eleven; review-instability counts attributed to the right
-  pools; Worst-off Priority excluded from "follows its definition").
-- **Known weaknesses unchanged:** one task family, one model for §6, no human
-  comparison.
+See [REVISION_20260923.md](../REVISION_20260923.md) for evidence and validation.
+No new experiment is required to present the completed work at its stated scope.

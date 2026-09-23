@@ -18,7 +18,7 @@ plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 8.5, "axes.edgec
 
 # ---------- Figure 1: forest plot ----------
 groups = [
-    ("Which field carries it (§5)", [
+    ("Field and position controls (§5)", [
         ("pd_prospective_r1:PD", "Pin the field (0.1 vs 0.9)"),
         ("label_semantics_r1:SWAP", "Same numeral on the partner field"),
         ("label_semantics_r1:TRUE-SWAP", "Field minus partner (difference)"),
@@ -26,7 +26,7 @@ groups = [
         ("position_counterbalance_r1:C", "Field moved to the partner's line"),
         ("parameter_followup:AW", "Partner field pinned alone (80 agents)"),
     ]),
-    ("What about the field carries it (§6)", [
+    ("Name and definition controls (§6)", [
         ("semantics_r1:CANON", "CANON  name + definition"),
         ("semantics_r1:NONCE", "NONCE  definition, name replaced"),
         ("semantics_r1:FLIP", "FLIP  same name, ends of definition exchanged"),
@@ -62,7 +62,7 @@ ax.set_ylim(y - 0.2, -0.8)
 ax.set_xlim(-0.88, 0.98)
 ax.set_xticks([-0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8])
 ax.xaxis.grid(True, color=GRID, lw=0.6); ax.set_axisbelow(True)
-ax.set_xlabel("Change in keep-rate, value 0.9 minus 0.1")
+ax.set_xlabel("Effect or difference in effects (keep-rate)")
 from matplotlib.lines import Line2D
 ax.legend(handles=[Line2D([], [], color=BLUE, lw=3.2, marker="o", ms=5, mec="white", label="estimate and 95% CI (agent-item units)"),
                    Line2D([], [], color=MUTED, lw=1, label="95% CI (agents and items resampled)")],

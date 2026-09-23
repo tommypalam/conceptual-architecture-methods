@@ -1,4 +1,37 @@
-# Citation verification checklist — §9 of `paper_draft.md`
+# Citation verification record
+
+**Current paper, 23 September 2026:** Related Work is section 2. The original
+unchecked checklist below is historical; later entries record completed checks.
+The publication revision rechecked the sources used in the current paper, with
+the following primary-source record. This checks the narrow claims actually
+cited, not an exhaustive novelty search.
+
+| Current citation | Primary source | Check or correction |
+|---|---|---|
+| Lu et al. 2022 | [Author paper](https://arxiv.org/abs/2104.08786) | Example-order sensitivity; ACL year 2022 |
+| Sclar et al. 2024 | [Author paper](https://arxiv.org/abs/2310.11324) | Meaning-preserving formatting sensitivity; ICLR 2024 |
+| Razavi et al. 2025 | [Author paper](https://arxiv.org/abs/2502.06065) | Narrowed claim to reformulation and sensitivity prediction |
+| Chatterjee et al. 2024 | [ACL](https://aclanthology.org/2024.findings-emnlp.852/) | Scale/instruction tuning do not necessarily reduce sensitivity |
+| Webson and Pavlick 2022 | [ACL](https://aclanthology.org/2022.naacl-main.167/) | Irrelevant/misleading templates; authors and pages |
+| Min et al. 2022 | [ACL](https://aclanthology.org/2022.emnlp-main.759/) | Random demonstration labels in the studied classification settings |
+| Wei et al. 2023 | [Author paper](https://arxiv.org/abs/2303.03846) | Flipped and semantically unrelated labels |
+| Liu 2026 | [Author paper](https://arxiv.org/abs/2605.08295) | Demonstrated label inventory; restored full title |
+| Luz de Araujo and Roth 2025 | [Author paper](https://arxiv.org/abs/2407.02099) | 162 personas, seven models, empty and paraphrase controls |
+| Zheng et al. 2024 | [ACL](https://aclanthology.org/2024.findings-emnlp.888/) | Objective-task persona effects and predictability |
+| Geiger et al. 2025 | [JMLR](https://www.jmlr.org/papers/v26/23-0058.html) | Causal abstraction; added 26(83):1-64 |
+| Zhang and Nanda 2024 | [Author paper](https://arxiv.org/abs/2309.16042) | Activation-patching methodological sensitivity |
+| Vaidyanathan et al. 2026 | [Author paper](https://arxiv.org/abs/2606.27510) | Corrected first name to Sankaran, all authors and full title |
+| Wang et al. 2023 | [Author paper](https://arxiv.org/abs/2305.14160) | Label-word information aggregation |
+| Rao et al. 2023 | [Author paper](https://arxiv.org/abs/2310.07251) | In-context ethical-policy framing |
+| Sachdeva and van Nuenen 2025 | [Author paper](https://arxiv.org/abs/2501.18081) | Self-consistency and inter-model disagreement |
+| Barr et al. 2013 | [Author manuscript](https://pmc.ncbi.nlm.nih.gov/articles/3881361/) | Random-effects structure and journal metadata |
+| Gelman and Stern 2006 | [Author-hosted article](https://sites.stat.columbia.edu/gelman/surveys.course/GelmanStern2006.pdf) | Direct differences versus significance comparisons |
+| Holm 1979 | [Original article scan](https://www.ime.usp.br/~abe/lista/pdf4R8xPVzCnX.pdf) | Sequential family-wise correction, volume and pages |
+
+No new references were introduced in this publication revision. The current
+paper makes no claim that field-level controls are absent from all prior work.
+
+## Historical checklist and earlier verification passes
 
 **Why this file exists.** The references in §9 were supplied by a literature
 search run outside the drafting session. They were cited normally in the draft,

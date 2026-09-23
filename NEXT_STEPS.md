@@ -1,5 +1,23 @@
 # Current state and next steps
 
+## Current paper: publication revision (23 September 2026)
+
+On `paper-20260922`, the completed evidence is presented in
+[`docs/paper/arxiv/preprint.pdf`](docs/paper/arxiv/preprint.pdf), titled
+*Which Part of a Prompt Carries Behaviour?* The paper's direct definition contrast
+is prespecified; its item-level robustness is post-hoc. The revised claims and
+offline checks are recorded in
+[`docs/paper/REVISION_20260923.md`](docs/paper/REVISION_20260923.md).
+[`docs/paper/arxiv/SUBMISSION.md`](docs/paper/arxiv/SUBMISSION.md) describes the
+prepared source package and remaining author submission steps. No new experiment
+is queued or required to present this completed case study at its stated scope.
+The thesis and frozen empirical records remain unchanged. The author's future
+research direction is toward open models; this revision does not initiate it.
+
+The dated status entries below retain their historical context; the paper's
+later AW, TfA, MoR, and definition results must not be overwritten by the thesis's
+earlier evidence boundary.
+
 > **Where things are (reorganised 19 September).** The thesis is
 > [`docs/thesis/LF3262767.pdf`](docs/thesis/LF3262767.pdf), the single canonical PDF;
 > everything about it is in [`docs/thesis/`](docs/thesis/). The paper is in
