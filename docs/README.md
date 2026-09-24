@@ -29,12 +29,18 @@ text is identical, so do not rebuild a copy that has already been submitted.
 
 ## The paper
 
-The thesis is a condensed version of a longer paper with no page ceiling.
+The paper is a separate document from the thesis, not a longer version of it: it
+makes a narrower claim on a wider evidence base, including Phase 7 results that
+constrain the framework the thesis presents. See [PROJECT_SPLIT.md](PROJECT_SPLIT.md).
 
 | | |
 |---|---|
-| [paper/paper_draft.md](paper/paper_draft.md) | *Which Parts of a Prompt Carry Behaviour?* — the full-length draft. |
-| [paper/citation_verification.md](paper/citation_verification.md) | Every citation checked for existence and for making the claim attributed to it, with the two that failed. |
+| [paper/paper_draft.md](paper/paper_draft.md) | *Which Part of a Prompt Carries Behaviour?* — the paper. Builds to the arXiv preprint. |
+| [paper/arxiv/](paper/arxiv/) | The preprint package: `preprint.pdf`, `preprint.tex`, `references.bib`, the abstract, and [SUBMISSION.md](paper/arxiv/SUBMISSION.md) listing what only the author can do. |
+| [paper/figures/](paper/figures/) and [paper/analysis/](paper/analysis/) | The two figures and the item-level robustness analysis that produces them, reading frozen records only. |
+| [paper/REVISION_20260923.md](paper/REVISION_20260923.md) | The correction record for the publication revision, with what was overclaimed and how each was grounded in the frozen assessments. |
+| [paper/citation_verification.md](paper/citation_verification.md) | Every citation checked at source for existence and for making the claim attributed to it; two that did not exist were removed rather than replaced. |
+| [paper/paper_full_record.md](paper/paper_full_record.md) | The long-form draft the paper was cut from — the full coordinate map and complete defect record. Provenance, not the paper. |
 
 ## Follow a result back to its evidence
 

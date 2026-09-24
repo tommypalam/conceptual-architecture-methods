@@ -195,3 +195,6 @@ archive/**/blind_pack.json
 
 # Named PDF exports of the paper; the source of truth is docs/paper/ and the build.
 Claude outputs/
+
+# Scratch directory; never contains source.
+tmp/
