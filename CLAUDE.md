@@ -33,8 +33,8 @@ file. Everything about the thesis now lives in `docs/thesis/`.
 | `docs/thesis_build/` | `docs/thesis/build/` |
 | `docs/thesis_BACKUP_pre_edits_20260916.md` (untracked) | `docs/thesis/history/thesis_20260916_pre_edits.md` (tracked) |
 | `docs/paper_draft.md`, `docs/citation_verification.md` | `docs/paper/` |
-| `docs/publication_2026091*.md` | `docs/publications/` |
-| `docs/NEXT_CHAT_HANDOFF.md`, `docs/desktop_handoff.md`, `docs/desktop_transfer.json` | `docs/handoffs/` |
+| `docs/publication_2026091*.md` | `docs/publications/` → **`archive/phase6/`** (24 Sept) |
+| `docs/NEXT_CHAT_HANDOFF.md`, `docs/desktop_handoff.md`, `docs/desktop_transfer.json` | `docs/handoffs/` → **`archive/shared/documents/`** (24 Sept) |
 
 **The PDF was MOVED, never rebuilt.** Its SHA-256 is
 `52df1c5aa6201cc12a53f06a7dd868826c4367b36b530228efa36a16119ff1a3` before and

@@ -26,7 +26,7 @@ live and may contradict it. See [docs/PROJECT_SPLIT.md](docs/PROJECT_SPLIT.md).
 > unresolved; Affective Weighting was never independently pinned.**
 
 New here? [`docs/README.md`](docs/README.md) is the map. Moving to another computer?
-Start with the [desktop handoff](docs/handoffs/desktop_handoff.md).
+Start with [NEXT_STEPS.md](NEXT_STEPS.md) for current state and [docs/PROJECT_SPLIT.md](docs/PROJECT_SPLIT.md) for the thesis/paper split.
 
 ---
 

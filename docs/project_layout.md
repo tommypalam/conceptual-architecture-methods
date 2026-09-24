@@ -12,8 +12,8 @@ Updated 14 September 2026. Published version: `main`; use a development branch f
 | `docs/` | Documentation; see its [README](README.md). Reference documents that frozen reports link to stay at this level |
 | `docs/thesis/` | **The thesis**: `LF3262767.pdf` (the single canonical PDF), its source `thesis.md`, the portal `abstract.txt`, `figures/`, the `build/` toolchain and verifier, and frozen `history/` |
 | `docs/paper/` | The full-length paper draft and its citation verification |
-| `docs/publications/` | Dated records of each publication to `main` |
-| `docs/handoffs/` | Machine and session handoffs |
+| `docs/PROJECT_SPLIT.md` | The thesis/paper split and the rules that govern each |
+| `docs/paper/` | The paper, its arXiv package, figures, analysis and citation record |
 | `Theory/` | Versioned theoretical sources; historical statements are interpreted through accepted amendments |
 | `code/engine/` | Reusable simulation, provider, parsing and analysis components |
 | `code/` | CLI, collectors and offline analyses. **Flat by necessity**: 109 of its modules are SHA-256-pinned by the frozen release chain and import one another by name, so nothing here is renamed or moved. Its [README](../code/README.md) maps each thesis result to its modules |

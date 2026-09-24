@@ -71,12 +71,13 @@ These stay at the top of `docs/` on purpose: frozen reports in `archive/` and
 
 Theory and specification live outside this folder, in [Theory/](../Theory/README.md).
 
-## Records of what was published, and handoffs
+## Historical records
 
-| | |
-|---|---|
-| [publications/](publications/) | One dated record per publication to `main` (13–17 September): scope, branch targets and verification. Historical; their status statements are not current instructions. |
-| [handoffs/](handoffs/) | [Desktop handoff](handoffs/desktop_handoff.md) for moving to another computer, its [transfer manifest](handoffs/desktop_transfer.json), and an earlier [chat handoff](handoffs/NEXT_CHAT_HANDOFF.md). |
+Dated publication records (13–17 September) and the machine and session
+handoffs (12–14 September) are superseded and archived:
+[archive/phase6/](../archive/phase6/README.md) and
+[archive/shared/documents/](../archive/shared/README.md). Their status
+statements are not current instructions; [NEXT_STEPS.md](../NEXT_STEPS.md) is.
 
 ## Current work
 
