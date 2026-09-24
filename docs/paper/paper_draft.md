@@ -1,10 +1,10 @@
 ---
 title: "Which Part of a Prompt Carries Behaviour?"
 subtitle: "Separating Names, Numbers, and Definitions in Structured Prompts"
-author: "Tommaso Piero Palamenga^[Bocconi University. This paper and the author's undergraduate thesis draw on one body of evidence but are separate documents: the thesis (submitted, frozen) presents a ten-parameter encoding framework on evidence to 18 September 2026; this paper makes a narrower claim on a wider evidence base, including later results that constrain that framework. Code, prespecifications and every per-call record: <https://github.com/tommypalam/conceptual-architecture-methods>.]"
+author: "Tommaso Piero Palamenga^[Bocconi University. This preprint builds on research conducted for the author's undergraduate thesis, adding later experiments and robustness analyses while narrowing the claims about the original framework. Code, prespecified protocols, and analysis records: <https://github.com/tommypalam/conceptual-architecture-methods>.]"
 date: "Preprint, September 2026"
 abstract: |
-  A behavioural change under a structured prompt does not identify which field caused it or whether the model responds to the field's name, numerical value, or definition. We combine endpoint pinning, numeral-preserving swaps, position crossing, replication gates, and definition edits to distinguish these explanations without access to model internals. In a ten-field profile on seven allocation dilemmas, Procedural Dependence has a high-minus-low keep-rate effect 0.375 larger than its partner-field control. Exchanging its endpoint definitions while preserving its name, numeric values, and character inventory changes that effect from +0.339 to -0.114. The paired difference is +0.454, with a crossed agent-and-item bootstrap interval of [+0.179, +0.739], and has the same sign on all seven items. Replacing the name with a nonce label retains a positive effect; the name also contributes. Three of four invented fields move choices in their predicted directions, including opposite effects from two fields in the same slot. Follow-ups withdraw an earlier finding and expose limits to interpreting a field as the construct its name suggests. The strongest evidence concerns one model and one task family. It establishes sensitivity to the assignment of definitions to scale endpoints, not semantic understanding or a complete decomposition of the profile's effect. The contribution is a reproducible set of controls for auditing what structured prompts actually change.
+  Structured profiles configure language-model agents through named traits, numerical values, and definitions. A behavioural change under such a prompt does not identify which field caused it or whether the model responds to the field's name, numerical value, or definition. We combine endpoint pinning, numeral-preserving swaps, position crossing, replication gates, and definition edits to distinguish these explanations without access to model internals. In a ten-field profile on seven allocation dilemmas, Procedural Dependence has a high-minus-low keep-rate effect 0.375 larger than its partner-field control. Exchanging its endpoint definitions while preserving its name, numeric values, and character inventory changes that effect from +0.339 to -0.114. The paired difference is +0.454, with a crossed agent-and-item bootstrap interval of [+0.179, +0.739], and has the same sign on all seven items. Replacing the name with a nonce label retains a positive effect; the name also contributes. Three of four invented fields move choices in their predicted directions, including opposite effects from two fields in the same slot. Follow-ups withdraw an earlier finding and expose limits to interpreting a field as the construct its name suggests. The strongest evidence concerns one model and one task family. It establishes sensitivity to the assignment of definitions to scale endpoints, not semantic understanding or a complete decomposition of the profile's effect. The contribution is a reproducible set of controls for auditing what structured prompts actually change.
 ---
 
 ## 1. Introduction
@@ -644,6 +644,32 @@ input feature that matters. The twins show why even this chain does not settle
 the third question. For a practical audit, the outcome and predicted direction
 should therefore be specified independently of the field's name.
 
+**A four-step prompt audit.**
+
+1. **Pin and replicate.** Specify the outcome and predicted direction, then
+   compare low and high values with the surrounding profile and item held fixed.
+   Include target-effect arms in subsequent control runs: a null control cannot
+   explain an effect that fails to reproduce.
+2. **Swap numeric assignments.** Move the target values to a partner field while
+   preserving the numeral multiset, definitions, field order, and character
+   count. Estimate the direct difference between target and partner effects,
+   with uncertainty. A significant target and nonsignificant partner are not
+   themselves evidence of a difference; treating the partner as a negative
+   control also requires evidence that its effect is small.
+3. **Cross identity with position.** Test both field assignments at both list
+   positions. This tests a position-only explanation while allowing position to
+   modulate the field effect.
+4. **Edit definitions and names.** Exchange the definitions assigned to the
+   scale endpoints while keeping the name, values, and character inventory
+   fixed, and separately replace the name with a nonce label. Use direct
+   contrasts to assess sensitivity to these edits. Character preservation does
+   not guarantee identical token counts, and these tests do not fully separate
+   all contributions of names, definitions, and their interactions.
+
+The checklist identifies controlled input effects. Validating an intended
+construct additionally requires scenarios that distinguish it from plausible
+alternatives, as the procedural-violation twins illustrate (§6.3).
+
 **Balance and report presentation order.** Two items show keep-rate differences
 of 0.75 and 0.73 between option orders. Holding order fixed within each pair
 protects the paired contrast from an order imbalance between its arms, but does
@@ -1014,17 +1040,15 @@ Under those models E − G stays significant on both providers (*p* = 0.0001 and
 
 ## Appendix D. Scale and reproducibility
 
-The wider project record reports 35,879 API calls across 56 designations and
-approximately $45.05 of accounted usage. This includes development, screens,
-reviews, and interrupted designations; it is not the sample size of the central
-definition experiment (2,240 calls). Cost figures are usage estimates, not
-verified provider balances. Every designation is frozen before collection: its request
-schedule, population, locked predictions and decision rule are hashed, and the
-hash is checked at dispatch. Per-call records are write-once. Two calls are
-preserved transport failures, at call 689 of 2,801 in `coordinate_sweep_r1` and
-at call 294 of 840 in `precipitation_r1`. Each closed its designation, which was
-re-designated without reusing any records. Power simulations and offline
-analyses, including Appendix C, are reproducible from committed modules. The
+The wider project reports 35,879 API calls across 56 designations and about
+$45.05 in estimated usage, including development, screens, reviews, and
+interrupted runs. These are not the central experiment's sample (2,240 calls)
+or verified provider balances. Before collection, each designation's requests,
+population, predictions, and decision rule are hash-frozen and checked at dispatch;
+per-call records are write-once. Transport failures at call 689/2,801 in
+`coordinate_sweep_r1` and 294/840 in `precipitation_r1` closed those designations;
+replacements reused no records. Committed modules reproduce the power simulations
+and offline analyses, including Appendix C. The
 principal designations are `phase4b_gpt_r2` and `phase4b_profiled_r1` (§5.1),
 `pd_prospective_r1` and `label_semantics_r1` (§5.2), `label_semantics_r2` (ID and
 LL), `position_counterbalance_r1` (§5.3), `coordinate_sweep_r2` (sweep),
